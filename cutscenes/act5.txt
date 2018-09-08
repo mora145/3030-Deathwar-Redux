@@ -1,0 +1,44 @@
+background
+{
+data/cutscenes/images/cargoship2.png
+}
+
+people 
+{
+bosscape,data/stations/special characters/plotbossCloak_80x130_4.png,145,145,facing right,visible
+helper,data/stations/standing_at_bar/squidman1_50x130_4.png,210,149,facing left,visible
+}
+
+dialogue
+{
+helper:No reports of Falcon Sir.
+bosscape:Ah, these council police are worthless.
+helper:Our probe network could find him.
+bosscape:True, I'll try and get clearance to use them.
+bosscape:He must have dropped off the grid.
+helper:Helped by the traitors?
+bosscape:Must have been. See if you can find him.
+helper:Yes Sir.
+bosscape:I will continue putting pressure on our elders to rebuild our stealth fleet.
+bosscape:And once I have tracked down these traitors I will destroy them myself.
+}
+
+animation
+{
+split left
+}
+
+text
+{
+act V: Wanted Dead/Alive
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+data/sounds/music/AdventureGame/Kevin MacLeod - Secrets of the Schoolyard.mp3,repeat
+}

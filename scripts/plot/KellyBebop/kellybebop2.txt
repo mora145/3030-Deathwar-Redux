@@ -1,0 +1,40 @@
+//begin
+// [ ] 1 - "Is this the only station here?"
+// [ ] 2 - "What's with the Chief Miner?"
+// [x] 3 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi again.
+other:Hi.
+option-on 1
+option-on 2
+return
+
+@1 // Is this the only station here?
+ego:Is this the only station here?
+other:Only one in this system.
+other:That's part of what motivated us.
+other:They had a monopoly on supplies.
+other:So we saved up, teamed up..
+other:..and bought the station.
+ego:Nice going.
+option-off 1
+return
+
+@2 // What's with the Chief Miner?
+ego:What's with the Chief Miner?
+other:Oh. You spoke to him?
+other:He's a character.
+other:He's popular, so we elected him as our rep.
+other:Don't take him too seriously.
+option-off 2
+return
+
+@3 // Bye
+ego:Bye.
+other:See you later.
+Stop

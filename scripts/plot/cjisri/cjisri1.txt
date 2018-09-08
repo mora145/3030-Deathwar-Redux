@@ -1,0 +1,233 @@
+//begin
+// [x] 1 - "Yes of course."
+// [x] 2 - "Never heard of you I'm afraid."
+// [ ] 3 - "So what's this all about?"
+// [ ] 4 - "Where is K'ta Fly?"
+// [ ] 5 - "What?!"
+// [ ] 6 - "Yes, I know now, but I knew nothing then."
+// [ ] 7 - "What prophecy is this?"
+// [ ] 8 - "I'm part of a prophecy?"
+// [ ] 9 - "So how do I find it?"
+// [ ] 10 - "If you don't know where it is how am I supposed to find it?"
+// [ ] 11 - "What are these clues then?"
+// [ ] 12 - "Thank you for your help."
+// [ ] 13 - "I feel like I've stumbled into someone else's party."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:You messaged me?
+other:Yes, thanks for coming. I'm Cji S'ri, you might have heard of me.
+option-on 1
+option-on 2
+return
+
+@1 // Yes of course.
+ego:Yes of course.
+other:Excellent. Well, it matters not at this juncture.
+option-off 1
+option-off 2
+option-on 3
+option-on 4
+return
+
+@2 // Never heard of you I'm afraid.
+ego:Never heard of you I'm afraid.
+other:Oh, nevermind. I suppose that's a testament to my secrecy.
+option-off 1
+option-off 2
+option-on 3
+option-on 4
+return
+
+@3 // So what's this all about?
+ego:So what's all this about?
+other:You are in great danger. 
+other:Do you realise the supernova in daphice...
+other:...it was directly because of your package?
+option-off 3
+option-off 4
+option-on 5
+option-on 6
+return
+
+@4 // Where is K'ta Fly?
+ego:Where is K'ta Fly?
+other:He is safe on walker base at this time.
+option-off 4
+return
+
+@5 // What?!
+ego:What?!
+other:Yes, the person you know as Morgan Yu is not a friend of ours at all.
+other:He is an agent of F'Zuh, the leader of the cleaners as you know them.
+other:He is the centre of a dastardly plot to have you killed.
+ego:Me? Why?
+other:Why indeed. We think it has something to do with a bullshit prophecy.
+other:Many council types love a good prophecy.
+ego:For fucks sake.
+option-off 5
+option-off 6
+option-on 7
+option-on 8
+return
+
+
+@6 // Yes, I know now, but I knew nothing then.
+ego:Yes, I know now, but I knew nothing then.
+other:Yes, the person you know as morgan Yu is not a friend of ours at all.
+other:he is an agent of F'Zuh, the leader of the cleaners as you know them.
+other:He is the centre of a dastardly plot to have you killed.
+ego:Me? Why?
+other:Why indeed. We think it has something to do with a bullshit prophecy.
+other:Many council types love a good prophecy.
+ego:For fucks sake.
+option-off 5
+option-off 6
+option-on 7
+option-on 8
+option-on 4
+return
+
+@7 // What prophecy is this?
+ego:What prophecy is this?
+other:It is written that the person with the name of a bird will save us.
+ego:Ahhh, and because of my surname you think it's me.
+other:Not me, but someone does, and it must have stalled F'Zuh.
+other:F'Zuh must think killing you would put the old plan back into action.
+ego:What old plan?
+other:300 years ago we split off from the council...
+other:...when we had realised the destruction of the galaxy was wrong.
+ego:You only realised that 300 years ago?
+other:There were mitigating circumstances I won't go into now...
+other:...but we firmly believe we need the life in this galaxy...
+other:...to continue and fulfill our ultimate destiny; to become one being.
+other:Well, you can take it or leave it. I personally don't believe any of it.
+ego:That makes no sense, but keep going.
+other:So, after thousands of years of destroying life...
+other:...we split and started a group you know as the taoists.
+ego:Yes, I know them.
+other:The only reason the council do not continue the attacks...
+other:...is because council members firmly believe in this prophecy. 
+other:So much so that your possible demise...
+other:...is enough for them to contemplate continuing their plan for galactic control.
+ego:So you're saying it's important for me to stay alive.
+ego:For more reasons than the obvious.
+other:Exactly.
+ego:I agree.
+other:To that end, we have made some plans for you.
+other:We'll change your ship, your reg code and give you some money.
+other:It's important for you to be safe...
+other:...so we'll divulge the location of an important station.
+other:Walker base is the taoist stronghold. 
+other:Unfortunately even I don't know where it is currently.
+other:The fewer people know, the safer it is.
+option-off 7
+option-off 8
+option-on 9
+option-on 10
+return
+
+@8 // I'm part of a prophecy?
+ego:I'm part of a prophecy?
+other:It is written that the person with the name of a bird will save us.
+ego:Ahhh, and because of my surname you think it's me.
+other:Not me, but someone does, and it must have stalled F'Zuh.
+other:F'Zuh must think killing you would put the old plan back into action.
+ego:What old plan?
+other:300 years ago we split off from the council...
+other:...when we had realised the destruction of the galaxy was wrong.
+ego:You only realised that 300 years ago?
+other:There were mitigating circumstances I won't go into now...
+other:...but we firmly believe we need the life in this galaxy...
+other:...to continue and fulfill our ultimate destiny; to become one being.
+other:Well, you can take it or leave it. I personally don't believe any of it.
+ego:That makes no sense, but keep going.
+other:So, after thousands of years of destroying life...
+other:...we split and started a group you know as the taoists.
+ego:Yes, I know them.
+other:The only reason the council do not continue the attacks...
+other:...is because council members firmly believe in this prophecy. 
+other:So much so that your possible demise...
+other:...is enough for them to contemplate continuing their plan for galactic control.
+ego:So you're saying it's important for me to stay alive.
+ego:For more reasons than the obvious.
+other:Exactly.
+ego:I agree.
+other:To that end, we have made some plans for you.
+other:We'll change your ship, your reg code and give you some money.
+other:It's important for you to be safe...
+other:...so we'll divulge the location of an important station.
+other:Walker base is the taoist stronghold. 
+other:Unfortunately even I don't know where it is currently.
+other:The fewer people know, the safer it is.
+option-off 7
+option-off 8
+option-on 9
+option-on 10
+return
+
+
+@9 // So how do I find it?
+ego:So how do I find it?
+other:There are four clues each initiate gets. 
+other:If he is worthy he will find walker base.
+other:If not.. well, it was not meant to be.
+ego:Four clues? That's stupid.
+other:i know, but it keeps the base safe.
+option-off 9
+option-off 10
+option-on 11
+return
+
+
+@10 // If you don't know where it is how am I supposed to find it?
+ego:If you don't know where it is how am I supposed to find it?
+other:There are four clues each initiate gets. 
+other:If he is worthy he will find walker base.
+other:If not.. well, it was not meant to be.
+option-off 9
+option-off 10
+option-on 11
+return
+
+@11 // What are these clues then?
+ego:What are these clues then?
+other:They are obtained by visiting four people and asking them.
+other:Some might ask you to complete a task.
+other:When you have fulfilled their request they will give you the clue.
+other:When you have all four clues you will be able to find walker base.
+other:That is all I can say at this time.
+other:Because of compartmentalisation...
+other:...I do not have either the money or contacts for you.
+other:You must travel to beexen. there you'll meet a friend of ours called raal.
+other:Seek her out. To aid you, I have the location of a wormhole.
+other:It will greatly speed up your travel time.
+other:Go to the second moon of the planet in the aenso system. 
+other:There you'll find a wormhole.
+other:Rumour is another one opened up recently too!
+ego:That's what I'm talkin about!
+ego:Useful information. I'll note it in my log.
+other:If you find the right one will bring you to beexen within seconds.
+ego:Second moon of the planet in aenso, got it. 
+other:Right. If you find it. Get a buoy and mark its location.
+other:When you get to the other side, remember that location too.
+other:They can be tough to locate, and don't appear on the charts.
+other:Good luck, my friend. Be safe.
+option-off 11
+option-on 12
+option-on 13
+return
+
+
+@12 // Thank you for your help.
+ego:Thank you for your help.
+other:Again, goodbye.
+stop
+
+@13 // I feel like I've stumbled into someone else's party.
+ego:I feel like I've stumbled into someone else's party.
+ego:But thank you for helping me.
+other:Again, goodbye.
+stop

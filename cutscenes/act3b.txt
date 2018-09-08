@@ -1,0 +1,46 @@
+background
+{
+data/cutscenes/images/cargoShip2.png
+}
+
+people 
+{
+bosscape,data/stations/special characters/plotbossCloak_80x130_4.png,175,145,facing right,visible
+helper2,data/stations/standing_at_bar/squidman1_50x130_4.png,228,150,facing left,visible
+helper,data/stations/special characters/plotzoidman2_50x130_4.png,125,149,facing right,visible
+}
+
+animation
+{
+split right
+}
+
+dialogue
+{
+bosscape:It is done.
+bosscape:He didn't even know he delivered the bomb.
+helper2:Excellent! We can now persuade the council to hunt him down.
+bosscape:Right! Soon they'll have his picture all over the TV news.
+helper2:Once they see the prophecy is invalid, our agenda will be carried forward.
+helper:Why didn't we blow just him up?
+helper:I liked that system!
+helper2:It was just a mining system, lousy with humans.
+helper:but it had character.
+bosscape:What is one system? we are trying to take the galaxy.
+bosscape:We can each have our own planet.
+helper:Really? I will call mine..
+helper:..Ultimo Prime.
+bosscape:Shut it.
+helper2:This plan is sound. Falcon is now an outlaw.
+bosscape:Falcon is toast.
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+keep playing
+}

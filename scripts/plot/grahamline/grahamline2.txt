@@ -1,0 +1,19 @@
+//begin
+// [x] 1 - "I'm here to help. Let me in."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi.
+other:What now?
+option-on 1
+return
+
+
+@1 // I'm here to help. Let me in.
+ego:I'm here to help. Let me in.
+other:I told you before, that isn't possible.
+other:You'll have to go and find someone willing to tell you the password.
+ego:Fine, I'll do that.
+stop

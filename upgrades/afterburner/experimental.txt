@@ -1,0 +1,13 @@
+name=m5 Experimental afterburner
+cost=245000
+tech lvl=1.0
+avaiable=0
+desc=Gives you a substantial burst of thrust, in a fuel efficient manner. Keyboard shortcut: Hold Ctrl. On Controller: Hold LT.
+once=1
+mass=0
+department=after burner
+value#=2.1
+[incompat]
+after burner
+[incompat]
+image=data/images/upgrades/after4.png

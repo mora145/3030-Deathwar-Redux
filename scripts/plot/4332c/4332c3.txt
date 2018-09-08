@@ -1,0 +1,132 @@
+//begin
+// [x] 1 - "I bet I'm involved somehow."
+// [x] 2 - "A problem, huh? You guys ever heard of just quitting?"
+// [ ] 3 - "And where is this scientist?"
+// [ ] 4 - "Don't tell me.."
+// [ ] 5 - "Yeah, I'll do it."
+// [ ] 6 - "Not right now."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Fantastic, we now have the information we require.
+other:There's just one problem.
+option-on 1
+option-on 2
+return
+
+@1 // I bet I'm involved somehow.
+ego:I bet I'm involved somehow.
+other:Yes, sort of.
+other:Even though we have the data storage device...
+other:...on which the shield code is kept...
+other:...we don't have the means to decrypt it. 
+other:It will self destruct if tampered with.
+ego:So that's the bad news?
+other:The bad news is we need a scientist to decrypt the data.
+ego:Can't you just vid-phone one?
+other:No, we can't trust any comms network.
+option-off 1
+option-off 2
+option-on 3
+option-on 4
+return
+
+@2 // A problem, huh? You guys ever heard of just quitting?
+ego:A problem, huh? You guys ever heard of just quitting?
+other:Amusing. but even you can understand the importance of this.
+other:If we do not save your life and destroy their ships we are all doomed. 
+other:Even us, who were part of the council.
+other:As soon as you are dead and the prophecy fulfilled...
+other:...the council will begin the cleaner attacks again.
+other:There are hardly any people left. What, a good five thousand perhaps.
+other:We need them all to re-populate, to bring us back to where we were a thousand years ago.
+ego:Alright, alright. I was joking. 
+ego:I understand the gravity of the situation.
+other:*sigh*
+other:Even though we have the data storage device...
+other:...on which the shield code is kept...
+other:...we don't have the means to decrypt it. 
+other:It will self destruct if tampered with.
+ego:So that's the bad news?
+other:The bad news is we need a scientist to decrypt the data.
+option-off 1
+option-off 2
+option-on 3
+option-on 4
+return
+
+@3 // And where is this scientist?
+ego:And where is this scientist?
+ego:...That I'm going to agree to pick up for you...
+ego:...Without you even asking...
+ego:...Because I know you're going to ask me.
+ego:It seems like you guys don't have anyone but me working for you.
+other:Well, we do have more than one person working for us...
+other:...it's just they're... well.. busy.
+ego:Riiiight. Busy.
+other:Our head scientist is stuck on Qucieda in KP-FQ1.
+ego:Great, that's a long way away!
+other:There is good news.
+ego:What?
+other:No wait, there isn't any good news. 
+other:I was thinking of something else.
+other:You'll need to pick him up and bring him back here.
+other:Make sure you have enough free cabin space on your ship.
+other:Will you do it?
+ego:I suppose I'm not going to get anything for this, right?
+other:Right. That was the good news, for me at least.
+option-off 3
+option-off 4
+option-on 5
+option-on 6
+return
+
+
+@4 // Don't tell me..
+ego:Don't tell me..
+ego:they need picking up. by me. with my ship.
+ego:and there won't be any reward.
+other:The reward is the work itself!
+other:If you don't help us you're as good as dead.
+other:That, I think, is payment itself.
+other:wouldn't you think?
+ego:yeah, I suppose. So what do you need?
+other:Our head scientist is stuck on Qucieda in KP-FQ1.
+ego:my god, so far away!
+other:There is good news.
+ego:What?
+other:No wait, there isn't any good news.
+other:I was thinking of something else.
+other:You'll need to pick him up and bring him back here.
+other:Make sure you have enough cabin space on your ship.
+other:Will you do it?
+ego:I suppose I'm not going to get anything for this, right?
+other:Right. That was the good news, for me at least.
+option-off 3
+option-off 4
+option-on 5
+option-on 6
+return
+
+
+
+@5 // Yeah, I'll do it.
+ego:Yeah, I'll do it.
+other:Great. Bring him back here as quick as possible.
+other:Watch out for cleaner scouts. if you see any, just run.
+other:You can't win. Not yet anyway.
+ego:Right.
+setMissionAnswer 1
+stop
+
+@6 // Not right now.
+ego:Not right now.
+other:Very well, if you really do have something more pressing...
+other:...than saving the galaxy and yourself...
+other:...good luck in accomplishing whatever it is...
+other:...and come back and see me when you're done.
+ego:Hey, I got other stuff to do you know.
+setMissionAnswer 0
+stop

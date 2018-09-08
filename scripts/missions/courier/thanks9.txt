@@ -1,0 +1,24 @@
+//begin
+// [x] 1 - "No problem."
+// [x] 2 - "Be well."
+//end
+
+
+@S
+ego:Here's your package.
+other:Hey, didn't you deliver a package to me last week?
+ego:Maybe. I do a lot some weeks.
+other:Anyway thanks for this.
+option-on 1
+return 
+
+@1 
+ego:No problem.
+stop
+
+
+@2 
+ego:Be well.
+other:Live long.
+stop
+

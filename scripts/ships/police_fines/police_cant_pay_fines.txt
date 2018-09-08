@@ -1,0 +1,20 @@
+//begin
+// [x] 1 - "Hold fire! I'll pay my fines."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:What?
+option-off 0
+option-on 1
+return
+
+// dialog script file
+@1 // fines?
+ego:Hold fire! I'll pay my fines.
+other:You owe *crim_total* in total.
+other:You got that kind of money?
+ego:No, I don't. What happens now?
+other:Now we hunt you down.
+stop

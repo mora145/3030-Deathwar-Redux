@@ -1,0 +1,38 @@
+background
+{
+data/cutscenes/images/windowbar1.png
+}
+
+people 
+{
+
+guy2,data/stations/standing_at_bar/mecho5_50x108_4.png,150,138,facing right,visible
+LingLiu,data/stations/special characters/Liu1_50x108_4.png,190,140,facing left,visible
+
+}
+
+dialogue
+{
+
+LingLiu:I think we should go for it.
+guy2:I agree, it's worth the risk.
+LingLiu:It has to be the Largo.
+LingLiu:We've found it for sure.
+guy2:Yes, lets take the loan and get a replacement ship.
+guy2:We can't lose any more time to the others.
+LingLiu:Indeed.
+LingLiu:We'll find it.
+LingLiu:Soon we will be able to buy our own station.
+
+
+}
+
+text
+{
+In a nearby station bar..
+}
+
+music
+{
+data/sounds/music/background/Steve Finney - Journey forward.ogg,repeat
+}

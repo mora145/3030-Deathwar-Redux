@@ -1,0 +1,46 @@
+//begin
+// [x] 1 - "Where did you get those?"
+// [x] 2 - "Mmmm noodles."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hey there trader.
+ego:Hi.
+ego:Can you smell something? 
+other:Oh, that's probably me.
+other:I've just finished some noodles.
+return
+
+@1 // Where did you get those?
+ego:Where did you get those?
+other:A friend with habitat clearance smuggled them out to me. 
+ego:Doesn't that breach bio-containment regs.
+other:Probably. Can't hurt bringing stuff out. 
+other:It's stuff getting on they worried about.
+ego:Yeah, well good for you.
+ego:Can you get me any?
+other:No, he's gone on a trade run now.
+ego:What goods is he trading?
+other:I don't know. I don't talk to him about that.
+ego:Ok. Catch ya later.
+other:Ok.
+stop
+
+@2 // Mmmm noodles.
+ego:Mmmm noodles.
+ego:I haven't had noodles for a while.
+other:Me either. 
+other:I need to go wash my hands.
+other:I can't believe they still won't supply us traders with toilet facilities.
+other:I'll have to wait till I'm back on my ship.
+ego:Yeah, it's annoying for us organics.
+ego:You heard any new jokes?
+other:Nah. Just the old ones.
+ego:Ok, catch ya later. I gotta make a move.
+other:Ok.
+stop
+
+
+

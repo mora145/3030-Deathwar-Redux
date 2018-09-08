@@ -1,0 +1,13 @@
+name=m2 Small Class afterburner
+cost=7100
+tech lvl=0.22
+avaiable=1
+desc=Gives you a small burst of thrust. Keyboard shortcut: Hold Ctrl. On Controller: Hold LT.
+once=1
+mass=0
+department=after burner
+value#=0.9
+[incompat]
+after burner
+[incompat]
+image=data/images/upgrades/after0.png

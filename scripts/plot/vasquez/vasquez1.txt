@@ -1,0 +1,137 @@
+//begin
+// [x] 1 - "I lost the ship!"
+// [x] 2 - "Bad news, the ship got impounded."
+// [x] 22 - "What a crappy day."
+// [x] 23 - "We made a good crew."
+// [ ] 3 - "Did you hear about our possessions?"
+// [ ] 31 - "About the 'Jumba Beans'."
+// [ ] 32 - "What happened to Kent?"
+// [ ] 33 - "Want a drink?"
+// [ ] 40 - "Tell me more about this rumour."
+// [ ] 99 - "I'm going."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+return
+
+@1 // I lost the ship!
+ego:I lost the ship!
+other:I heard it on the grapevine.
+ego:I guess I'm not the most lucky captain.
+ego:Sorry Vasquez.
+option-off 1
+option-off 2
+option-on 3
+option-on 32
+option-on 33
+option-on 99
+return
+
+@2 // Bad news, the ship got impounded.
+ego:Bad news, the ship got impounded.
+other:I heard it on the grapevine.
+ego:I guess I'm not the most lucky captain.
+ego:Sorry Vasquez.
+option-off 1
+option-off 2
+option-on 3
+option-on 32
+option-on 33
+option-on 99
+return
+
+@22 // What a crappy day.
+ego:What a crappy day.
+other:Tell me about it.
+other:Get yourself a drink at the bar.
+option-off 22
+return
+
+@23 // We made a good crew.
+ego:We made a good crew.
+ego:You Kent and I.
+other:Yeah, it's a shame.
+other:We'll have to split up and earn some money.
+option-off 23
+return
+
+@3 // Did you hear about our possessions?
+ego:Did you hear about our possessions?
+other:Yes. I spoke to the police guy.
+other:All compacted.
+other:Did you remember to eject the...
+other:...'Jumba Beans.'
+ego:Of course I did.
+other:That's the only thing I was worried about.
+other:My stuff was junk anyway.
+option-off 3
+option-on 31
+option-on 99
+return
+
+@31 // About the 'Jumba Beans'.
+ego:About the 'Jumba Beans'.
+ego:I think it may have been the previous owner.
+other:Why d'you think that?
+ego:The way the Police guy asked if I knew him.
+other:Let the Police deal with it.
+other:Records show we only just bought the ship.
+other:So we can hardly be implicated.
+ego:Let's hope not.
+option-off 31
+option-on 99
+return
+
+@32 // What happened to Kent?
+ego:What happened to Kent?
+other:That's a good question.
+other:Guess he is around the docking bays.
+ego:I expect it's opening doors somewhere.
+other:Ha, sounds right.
+ego:Keep your eye out for it will you.
+other:Ok, will do.
+other:In other news.
+other:I'm hearing rumours. 
+other:A new derelict freighter....
+other:...with a valuable cargo.
+other:Shame we just lost our ship.
+option-on 40
+option-off 32
+return
+
+@33 // Want a drink?
+ego:Want a drink?
+other:I've had a couple already.
+other:But if you're buying, sure.
+other:I think I need something strong.
+takeMoney,50,DRINK AT THE BAR
+option-off 33
+return
+
+@40 // Tell me more about this rumour.
+ego:Tell me more about this rumour.
+other:I'll tell you later.
+other:I'm going to ask one of my freinds.
+other:She's a Captain based in this system.
+other:If it's true, she'll know about it.
+ego:I'll keep my ears open.
+ego:All the more reason to get a new ship.
+ego:A big salvage haul is just what I need.
+option-off 40
+return
+
+
+@99 // I'm going.
+ego:I'm going. 
+ego:I'll try to get compensation.
+other:I don't like your chances.
+other:I'll hang around Andinti for a while doing taxi work.
+other:Let's see who can get a proper ship first.
+ego:Yeah. If I get some money back...
+ego:...I'll find you and give you your share.
+option-off 99
+stop
+

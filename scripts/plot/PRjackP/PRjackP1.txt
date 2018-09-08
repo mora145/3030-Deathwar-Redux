@@ -1,0 +1,78 @@
+//begin
+// [ ] 1 - "you're busy?"
+// [ ] 2 - "You know that guy over there?"
+// [ ] 3 - "you hate dialogue, right?"
+// [ ] 31 - "About Pirate Attacks..."
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi.
+other:Hi, I'm busy right now.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // you're busy?
+ego:you're busy?
+other:Always busy.
+other:I got work to do...
+other:Kids to feed...
+other:..and a backlog effects work as long as my arms.
+other:I'm heading back to my trackball any minute.
+ego:You do have long arms.
+other:Hey! Watch it, buddy.
+option-off 1
+return
+
+@2 // You know that guy over there?
+ego:You know that guy over there?
+other:Who Rich?
+other:Yes.
+other:And before you ask, yes.
+other:He is the one who did that thing with the toy droid.
+ego:Huh? 
+ego:I was just wondering what's in his crate.
+ego:He looks pretty pleased with it.
+other:Probably just his mouse and keyboard.
+other:he won't move with the times.
+ego:Well, mouse and keyboard are the more superior form of control.
+other:Not better than cerebral implants.
+other:Embrace the future my friend.
+option-off 2
+return
+
+@3 // you hate dialogue, right?
+ego:you hate dialogue, right?
+other:Not as much as I hate cut-scenes.
+other:hate dialogue? you mean in games?
+other:Did rich tell you that?
+other:that idiot!
+other:I don't like dialogue that doesn't affect things.
+option-off 3
+option-on 31
+return
+
+@31 // About Pirate Attacks
+ego:About Pirate Attacks...
+other:What about 'em?
+ego:I think I might be on a gang hit list.
+other:Sorry to hear that.
+other:More Criminals were attracted to the area by that Largo business.
+other:In fact, there were a pair of shifty looking characters around here just a few minutes ago.
+other:Watch yourself when you leave.
+other:It's got more dangerous around these parts.
+ego:Thanks for the tip off.
+attackyououtside,1,The mighty PreRec
+option-off 31
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye.
+Stop
+

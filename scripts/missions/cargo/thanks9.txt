@@ -1,0 +1,26 @@
+//begin
+// [x] 1 - "Yeah, but my ship can outrun anything."
+// [x] 2 - "No. I hardly dropped out of split mode."
+//end
+
+@S
+ego:Your cargo has been delivered.
+other:Thanks. Your money has been credited to you.
+other:Did you get attacked on the way?
+option-on 1
+option-on 2
+return
+
+@1 
+ego:Yeah, but my ship can outrun anything.
+other:They always chase me. pisses me off.
+ego:Get some upgrades and give em some back.
+other:Yeah, I should. Thanks again.
+ego:No problem.
+stop
+
+@2
+ego:No. I hardly dropped out of split mode. 
+other:I see. That's wise these days.
+ego:I'm going to get some fuel in.
+stop

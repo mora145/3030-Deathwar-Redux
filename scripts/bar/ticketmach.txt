@@ -1,0 +1,54 @@
+//begin
+// [x] 1 - "They are the old games machines."
+// [x] 2 - "I don't know anything about those?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hey hey.
+ego:How you doing?
+other:Funky. 
+other:Hey, you don't know what they are do you?
+ego:What now?
+other:Those machines by the job console.
+return
+
+@1 // They are the old games machines.
+ego:They are the old games machines.
+other:They have taken the place of the ticket machines.
+other:To go down to the planets?
+ego:Yeah. To buy shuttle tickets.
+other:Are they ever going to replace em?
+ego:I don't know. 
+other:I suppose they might.
+other:If they ever get around to re-terraforming.
+ego:No sign that they're going to yet.
+other:I hope they do.
+other:I would like to be allowed down to visit an ocean.
+other:Not to mention some consistent Grav.
+ego:Mmmm, that would be good.
+ego:I'm going to the bar.
+other:Safe flying.
+ego:Safe flying.
+stop
+
+@2 // I don't know anything about those?
+ego:I don't know anything about those?
+other:They are always de-activated.
+other:These stations need scrapping.
+ego:This is what you get for being a trader.
+other:Yeah, maybe. 
+other:I did hear rumours that the Council are going to get us better facilities.
+ego:Yeah? Like what?
+other:Refitting the dance floors, and getting pool tables.
+other:Some traders have been refusing to supply the worst stations.
+other:It might slowly get us some improvements.
+ego:Don't hold you breath.
+other:Ha. No, I won't.
+other:Safe flying.
+ego:Safe flying.
+stop
+
+
+

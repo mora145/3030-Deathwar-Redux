@@ -1,0 +1,49 @@
+background
+{
+data/cutscenes/images/coffeeshop1.png
+}
+
+people 
+{
+ktafly,data/stations/special characters/Plotmonk1Guy_50x108_4.png,212,154,facing right,visible
+cjisri,data/stations/special characters/plotmonk2coffeeshop_50x108_4.png,268,146,facing right,visible
+Fore,data/stations\drinkdroids/drinkDroidtray2_36x50_2.png,190,160,facing right,visible
+
+Mansmall,data/stations/special characters/GebbosAquan_50x108_4.png,93,107,facing right,visible
+Lingsmall,data/stations/standing_at_bar/Ling1_50x108_4.png,117,105,facing left,visible
+Droidsmall,data/stations/drinkdroids/drinkDroidN_36x50_2.png,123,110,facing left,visible
+
+Rich,data/stations/special characters/PRRichE_50x108_4.png,60,148,facing left,visible
+
+Shuttleforefloat,data/stations\drinkdroids/floaterholo_36x50_2.png,336,128,facing left,visible
+}
+
+animation
+{
+stationary stars
+}
+
+dialogue
+{
+Rich:Ok, guys.. all clear.
+ktafly:Thanks, Rich. 
+ktafly:Falcon is big trouble. The council won't wait much longer. 
+ktafly:We have to get him to safety.
+cjisri:Right on. My plans are complete. 
+cjisri:Walker base is now active and we are rallying our ships.
+ktafly:Nice work.
+cjisri:I'll contact falcon and do my best to keep him safe.
+ktafly:Any news on the shield code?
+cjisri:It still eludes us but we'll find it soon enough.
+ktafly:I hope the council has been negligent with their network security.
+cjisri:I bet they have. They are bureaucrats.
+ktafly:I don't gamble.
+cjisri:Gee... lighten up, Fly man... 
+cjisri:...It's all gravy.
+}
+
+
+sounds
+{
+data/sounds/station/quiet/lowchatter2.ogg,repeat
+}

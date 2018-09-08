@@ -1,0 +1,32 @@
+//begin
+// [x] 1 - "Yeah, ok, what do I need to do?"
+// [x] 2 - "Not right now."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:hi again.
+other:Let's get to the point here. Do you want this job or what?
+option-on 1
+option-on 2
+return
+
+@1
+ego:Yeah, ok, what do I need to do?
+other:We suspect a person named jek kek is working for the council
+other:... on the wrong side, if you know what I mean.
+other:We need you to photograph him on board tia.
+other:We need to know who he's with to start piecing things together.
+ego:Right.
+other:You'll get a camera but we need it back afterwards.
+other:Take a photo of jek kek and come back here to me.
+setMissionAnswer 1
+stop
+
+@2 
+ego:Not right now.
+other:Please quit wasting my time.
+other:come back when you want the clue.
+setMissionAnswer 0
+stop

@@ -1,0 +1,23 @@
+image=BWship_100x100_5.png
+name=Garh Ju
+turnSpeed=0.76
+cargoSize=300
+warpSpeed=250
+enginePower=0.3
+cost=3550000
+maxCrew=4
+passengers=6
+mintech=0.77
+available=1
+maxmissiles=14
+turret?=1
+firefrom(w,h)=-13,31
+turretat(x,y)=0,69
+[thrusters]
+-13,78
+13,78
+[/thrusters]
+M7 Allrounder - Boasting a decent engine power for its size, the Garh Ju is one of the fastest difference enabled ships available today. Its cargo size and 6 passenger cabins make it a viable purchase.
+producedBy=Chin & Sons
+yearDeveloped=3022
+funTrivia=The Garh Ju was originally supposed to be a non-split capable cargo barge but was changed at the last minute to accommodate higher powers.

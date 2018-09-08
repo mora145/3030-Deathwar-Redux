@@ -1,0 +1,86 @@
+//begin
+// [ ] 1 - "What's up?"
+// [ ] 2 - "I just want an easy life."
+// [ ] 3 - "Still relaxing at the bar?"
+// [ ] 51 - "Did you get anywhere with the case of my stolen ship?"
+// [ ] 52 - "What about my stolen ship you lazy git!"
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hey Grah.
+other:Hi, Falcon! I thought you might turn up.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // What's up?
+ego:What's up?
+other:Go talk to Kent.
+other:He's your Buddy, right?
+option-off 1
+option-off 2
+option-off 3
+option-on 51
+option-on 52
+return
+
+@2 // I just want an easy life.
+ego:I just want an easy life.
+other:Don't we all?
+other:Go talk to Kent. He's not having it easy.
+other:He's your Buddy, right?
+option-off 1
+option-off 2
+option-off 3
+option-on 51
+option-on 52
+return
+
+@3 // Still relaxing at the bar?
+ego:Still relaxing at the bar?
+ego:Shouldn't you be out fighting crime?
+other:Watch it, Pal. 
+other:I lost some good cops this week.
+other:There is an active incident going on.
+option-off 1
+option-off 2
+option-off 3
+option-on 51
+option-on 52
+return
+
+@51 // Did you get anywhere with the case of my stolen ship?
+ego:Did you get anywhere with the case of my stolen ship?
+other:Let it go, Man. It's just a ship.
+ego:I take it from that you did not investigate further. 
+ego:I also had some gang member attempt to kill me.
+other:Let it go, Man. It was just an attempt.
+other:If they are successful, then report it.
+other:We don't have the resources to follow up on attempted murder.
+other:I got bigger problems right now.
+option-off 51
+option-off 52
+return
+
+@52 // What about my stolen ship you lazy git!
+ego:What about my stolen ship you lazy git!
+other:Falcon, you just keep pushing it.
+other:You just earned yourself a 200 fine.
+other:Insulting an pig.. I mean Officer.
+takemoney,200,Fined for insulting Officer Grah
+option-off 51
+option-off 52
+return
+
+@4 // Bye
+ego:Bye.
+other:Oh, one more thing...
+other:Your friend over there is in a bunch of trouble. 
+other:You should talk to him.
+Stop
+

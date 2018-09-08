@@ -1,0 +1,15 @@
+//begin
+// [x] 1 - "I'm on my way."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:The cleaners are still not aware we have their code.
+other:This is the perfect moment to strike.
+other:Time to get out there and fight.
+return
+
+@1 // ok, I'm on my way.
+ego:I'm on my way.
+stop

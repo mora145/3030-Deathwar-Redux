@@ -1,0 +1,120 @@
+//begin
+// [x] 1 - "whereabouts?"
+// [x] 2 - "I don't believe those bull stories anymore."
+// [ ] 3 - "You seen the great in your time?"
+// [ ] 4 - "Why aren't you out there trading or something?"
+// [ ] 5 - "Why? What happened?"
+// [ ] 6 - "Never had any?"
+// [ ] 7 - "Actually I do mind. tell me."
+// [ ] 8 - "never mind, eh."
+// [ ] 9 - "Thanks, I might check it out."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:hey, buddy.
+ego:nice place.
+other:not really. it's a craphole.
+other:the music is good though.
+other:...
+other:hey, you heard about that derelict?
+other:supposed to be around here somewhere.
+return
+
+@1 // whereabouts?
+other:dunno, just heard rumours.
+other:they don't appear on the scanners.
+ego:what's so good about those derelicts anyway?
+other:salvage really. sometimes you find stuff in 'em.
+option-off 1
+option-off 2
+option-on 3
+option-on 4
+option-on 9
+return
+
+@2 // I don't believe those bull stories anymore.
+other:ha. I like you, man. I don't believe them either.
+ego:...
+other:All I believe in is booze.
+other:and lots of it.
+option-on 3
+option-on 4
+option-off 2
+option-off 1
+return
+
+@3 // You seen the great in your time?
+ego:You seen the great in your time?
+other:me? yeah, plenty of times. from the window of a freighter.
+other:everybody knows you don't get to talk about them in you been in a fight.
+ego:yeah. have they ever let anyone go?
+other:after engaging them? man, you gotta be kiddin' me.
+other:your pop never teach you anything?
+other:those great don't got no feelin's.
+other:man, 'round here we call 'em great bullshit.
+ego:I've never seen them.
+other:and hope you don't ever see 'em.
+other:they'll kill you without blinkin' an eyelid.
+other:that's if they got eyelids.
+other:goddamn sons o' bitches.
+other:bar keep, more whiskey.
+stop
+
+
+
+@4 // Why aren't you out there trading or something?
+ego:Why aren't you out there trading or something?
+other:man, booze is all I got.
+ego:you got nothing else?
+other:nope.
+other:great destroyed my fleet, man. thanks to them, all I got is council pension.
+other:and that ain't a lot.
+ego:I suppose you can barely feed your kids.
+other:kids? don't got no kids no more.
+option-off 4
+option-off 3
+option-on 5
+option-on 6
+return
+
+@5 // Why? What happened?
+ego:Why? What happened?
+other:I'd rather not talk about it if you don't mind.
+option-off 5
+option-off 6
+option-on 7
+option-on 8
+return
+
+@6 // Never had any?
+ego:Never had any?
+other:Oh, I had plenty.
+ego:so where are they now?
+other:man, if you must know, they're all dead.
+ego:how?
+other:the god damn great bullshits killed em all, man.
+other:leave me the fuck alone. I got to kill this mindset right now.
+other:bar keep, gimme two fingers o' the best blindin' whiskey you got.
+stop
+
+@7 // Actually I do mind. tell me.
+ego:Actually I do mind. tell me.
+other:man, you are pushy. get away from me.
+other:bar keep. gimme more booze.
+other:and don't cease till I do.
+stop
+
+@8 // never mind, eh.
+ego:never mind, eh.
+other:yeah, got nothin' to look forward to now anyway
+other:'cept drinking myself to death.
+ego:nice. very nice.
+return
+
+@9 // Thanks, I might check it out.
+ego:Thanks, I might check it out.
+ego:anyway, I better leave you to your booze.
+other:thanks. and next time, how 'bout you buy me some, 'stead of yappin' at me.
+stop

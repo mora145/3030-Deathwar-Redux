@@ -1,0 +1,13 @@
+name=m1 basic fuel manifold
+cost=2300
+tech lvl=0.3
+avaiable=1
+desc=decreases fuel usage while splitting by 10%.
+once=1
+mass=0
+department=fuel consumption
+value#=0.90
+[incompat]
+fuel consumption
+[incompat]
+image=data/images/upgrades/fuel0.png

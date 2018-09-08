@@ -1,0 +1,60 @@
+//begin
+// [ ] 1 - "Know anything about the pirate gangs?"
+// [ ] 11 - "Jeremiah Johnson?"
+// [ ] 2 - "Ever been out of this system?"
+// [x] 3 - "Bye."
+
+//end
+
+// dialog script file
+@S // dialog startup entry point
+other:What's up?
+ego:One more thing...
+option-on 1
+option-on 2
+return
+
+@1 // Know anything about the pirate gangs?
+ego:Know anything about the pirate gangs?
+other:I know they wanted the Largo cargo.
+other:Guess they are still out to get salvagers.
+other:They are not the most logical of people.
+other:You've had trouble?
+ego:Some.
+other:Sorry to hear that.
+other:I'm afraid that once you get on their hit list...
+other:...they don't give up.
+other:You'll have to be a Jeremiah Johnson for a while.
+ego:I used to be a bounty hunter.
+ego:Let 'em come.
+option-off 1
+option-on 11
+return
+
+@11 // Jeremiah Johnson?
+ego:Jeremiah Johnson?
+other:Sure. That old earth movie.
+other:where the guy keeps getting attacked.
+other:By the robot crows.
+ego:Really? 
+other:The robot crows just won't quit.
+other:It's a remake of a Milius classic.
+ego:Not sure I know that one.
+option-off 11
+return
+
+@2 // Ever been out of this system?
+ego:Ever been out of this system?
+other:Sure thing. Coolk has been around.
+other:I used to live in Leesti.
+other:Junk salvage to the max.
+ego:Why so much junk there?
+other:They have a scrap yard. Old ships and stations get sent there.
+option-off 2
+return
+
+@3 // Bye
+ego:Bye.
+other:Bye, be lucky.
+Stop
+

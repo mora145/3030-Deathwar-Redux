@@ -1,0 +1,13 @@
+name=m3 yokohama cruise tractor beam
+cost=24700
+tech lvl=0.79
+avaiable=0
+desc=Lets you mine very quickly. Target an object like an asteroid or cargo container. Move closer to the target. When you are close enough the tractor beam button turns green. click on this to engage. To disengage, click the button again.
+once=1
+mass=0
+department=tractor beam
+value#=20
+[incompat]
+tractor beam
+[incompat]
+image=data/images/upgrades/tractor3.png

@@ -1,0 +1,30 @@
+//begin
+// [x] 1 - "Ok, if its a new one."
+// [x] 2 - "No."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hey.
+other:Hey, you want hear a new trader joke?
+return
+
+@1 // Yes ok.
+ego:Ok, hit me.
+other:What's the difference between a..
+other:...no, I forgot it again.
+ego:Oh well.
+other:Sorry.
+ego:No problem.
+stop
+
+@2 // No.
+ego:No.
+other:Ooh, come on.
+other:It's a good'n.
+ego:No.
+other:Ok then, stay safe out there.
+ego:I always do.
+stop
+

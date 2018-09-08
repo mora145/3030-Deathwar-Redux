@@ -1,0 +1,138 @@
+//begin
+// [x] 1 - "Gimme a drink."
+// [ ] 2 - "Gimme a Vodka."
+// [ ] 3 - "Hit me with a Macalacharraca."
+// [ ] 4 - "You got any coffee?"
+// [ ] 5 - "Tastes good."
+// [ ] 6 - "This tastes like Froog!"
+// [x] 7 - "See you later."
+// [x] 8 - "Heard any news?"
+// [x] 9 - "You got any jobs here?"
+// [ ] 10 - "Actually, I changed my mind."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Mmmmm good day to you, Sir.
+ego:Hi there.
+other:How may I be of service?
+ego:Let's see.....
+return
+
+
+@1 // Gimme a drink.
+ego:Gimme a drink.
+other:Yes Sir, here's the menu.
+option-on 2
+option-on 3
+option-on 4
+option-on 10
+option-off 1
+option-off 8
+option-off 9
+return
+
+@2 // Gimme an Vodka
+ego:Hit me with a Vodka.
+other:Coming right up Sir.
+ego:*Gulp*
+ego:*aahhh*
+takeMoney,100,DRINK AT THE BAR
+option-off 2
+option-off 3
+option-off 4
+option-off 10
+option-on 5
+option-on 6
+return
+
+@3 // Hit me with a Macalacharraca
+ego:Hit me with a Macalacharraca.
+other:Yes sir, one Macalacharraca coming up.
+other:Here you are - enjoy!
+ego:Thanks.
+ego:*sip sip*
+other:How is it, Sir?
+takeMoney,250,BOUGHT A MACALACHARRACA
+offerDrinkAchievement
+option-off 2
+option-off 3
+option-off 4
+option-off 10
+option-on 5 
+option-on 6
+return
+
+@4 // You got any coffee?
+ego:You got any coffee?
+other:No no, no coffee.
+ego:Why's that?
+other:I never heard of it.
+ego:Coffee?
+other:No, you want anything else, Sir?
+option-off 4
+option-on 2
+option-on 3
+option-on 10
+return
+
+@5 // Tastes good.
+ego:Tastes good.
+other:Thank you for your custom.
+option-on 8
+option-on 9
+option-on 7
+option-off 5
+option-off 6
+return
+
+
+@6 // This tastes like Froog!
+ego:This tastes like Froog!
+other:I'm sorry Sir, no refunds.
+ego:But I didn't order this!
+other:I'm sorry Sir.
+ego:Sorry enough to replace it with what I ordered?
+other:No.
+option-on 8
+option-on 9
+option-on 7
+option-off 5
+option-off 6
+return
+
+@7 // See you later
+ego:See you later. 
+other:Good day, Sir.
+ego:Yeah.
+stop
+
+@8 // Heard any news?
+ego:Heard any news?
+other:No Sir, no one talks to me.
+option-off 8 
+return
+
+
+@9 // You got any jobs here?
+ego:You got any jobs here?
+other:Check the consoles for that Sir.
+option-off 9
+option-on 7
+return
+
+@10 // Actually, I changed my mind.
+ego:Actually, I changed my mind.
+other:Very well, sir.
+other:Is there something wrong with the one you have?
+ego:Never mind.
+option-off 10
+option-off 4
+option-off 3
+option-off 2
+option-off 1
+option-on 8
+option-on 9
+option-on 7
+return

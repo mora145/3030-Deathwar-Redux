@@ -1,0 +1,33 @@
+//begin
+// [x] 1 - "Is that dangerous?"
+// [x] 2 - "Is the droid ok?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Yo.
+other:Yo.
+other:You smell that lift?
+ego:I did notice something.
+other:Mmm, a droid just leaked acid from his old batteries .
+ego:Oh oh.
+other:uh huh.
+other:It reacted with the anti-rad paint.
+return
+
+@1 // Is that dangerous?
+ego:Is that dangerous?
+other:Probably was at first
+other:Probably still is! Ha
+ego:I don't think I inhaled to much
+other:No, I'm just joking, it was just stinking.
+other:Like Sulphur and methane.
+stop
+
+@2 // The droid ok?
+ego:Is the droid ok?
+other:Fine.
+other:He wouldn't have noticed unless I'd told him.
+ego:Those droids.
+stop

@@ -1,0 +1,24 @@
+//begin
+// [x] 1 - "No problem."
+// [x] 2 - "Have fun with it."
+//end
+
+@S
+ego:Here's your package.
+other:I've been waiting. Thanks.
+option-on 1
+return 
+
+
+@1 
+ego:No problem.
+stop
+
+@2 // Have fun with it.
+ego:Have fun with it.
+other:Yeah, I will I think it's...
+other:..erotic.
+ego:Ok, enjoy.
+other:Thanks.
+
+stop

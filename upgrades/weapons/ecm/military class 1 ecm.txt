@@ -1,0 +1,13 @@
+name=M4 military class I ecm
+cost=123000
+tech lvl=0.82
+avaiable=0
+desc=will destroy missiles within 300 om range upon use. Keyboard shortcut: Shift. On Controller: X.
+once=1
+mass=0
+department=ecm
+value#=300
+[incompat]
+ecm
+[incompat]
+image=data/images/upgrades/ecm3.png

@@ -1,0 +1,50 @@
+//begin
+// [ ] 1 - " q1 ?"
+// [ ] 2 - " q2 ?"
+// [ ] 3 - " q3 ?"
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi again.
+ego:One more thing..
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // q1?
+ego:xxxxxxxxxxxx?
+other:xxxxxxx? 
+other:xxxxxxxxx
+ego:xxx
+other:xx
+option-off 1
+return
+
+@2 // q2?
+ego:xx
+other:xx
+other:xx
+other:xxx
+other:xx
+option-off 2
+return
+
+@3 // q3?
+ego:xxx
+other:xxx
+other:xxx
+other:xxx
+other:xxxx
+option-off 3
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye.
+Stop
+

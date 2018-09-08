@@ -1,0 +1,13 @@
+//begin
+// [x] 1 - "Sayonara."
+//end
+
+@S
+ego:Here's your photos.
+other:Domo arigatou gaziamasu
+option-on 1
+return
+
+@1
+ego:Sayonara.
+stop

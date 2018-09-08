@@ -1,0 +1,57 @@
+background
+{
+data/cutscenes/images/yourMidDeck1.png
+}
+
+people 
+{
+vasquez,data/stations/special characters/Vasquez1_50x108_4.png,192,130,facing right,visible
+falcon,data/stations/player/falcon4Talk_50x115_7.png,303,133,facing left,visible
+corpse,data/stations/special characters/corpse1_130x55_1.png,238,154,facing right,visible
+
+kent,data/stations/special characters/kent_50x108_8.png,158,138,facing right,visible
+}
+
+dialogue
+{
+falcon:I'm back. All ok?:data/voice/newgame1/f1.wav
+vasquez:Ok? Does this look ok? :data/voice/newgame1/v2.wav
+falcon:Who the hell is that? :data/voice/newgame1/f3.wav
+vasquez:I found him stuffed in an old cargo locker. :data/voice/newgame1/v4.wav
+vasquez:Looks like he's been dead for weeks. :data/voice/newgame1/v5.wav
+vasquez:If we get boarded now we're in big trouble. :data/voice/newgame1/v6.wav
+falcon:Kent, did you search the body? :data/voice/newgame1/f5.wav
+kent:No Identification... No money... :data/voice/newgame1/k2.wav
+kent:...and a hole in his head the size of Lake Michigan. :data/voice/newgame1/k4.wav
+kent:Looks like a small calibre round. Close range.:data/voice/newgame1/k5.wav
+falcon:This new ship is literally full of surprises. :data/voice/newgame1/f6.wav
+kent:Sure is. :data/voice/newgame1/k7.wav
+falcon:Shit. I do five minutes of salvaging... :data/voice/newgame1/f8.wav
+falcon:...and there's a murdered corpse in my mid-ships. :data/voice/newgame1/f9.wav
+vasquez:We must jettison him. :data/voice/newgame1/v8.wav
+kent:Agreed. :data/voice/newgame1/k8.wav
+falcon:Right. :data/voice/newgame1/f11.wav
+falcon:Kent, you give him another search for info. :data/voice/newgame1/f12.wav
+kent:Can I open an investigation? :data/voice/newgame1/k10.wav
+falcon:In your own time. :data/voice/newgame1/f13.wav
+falcon:Vasquez, put him in an unmarked crate. :data/voice/newgame1/f14.wav
+vasquez:The crate of rotten Jumba Beans? :data/voice/newgame1/v10.wav
+falcon:Good idea. I'll jettison it en route to the station. :data/voice/newgame1/f17.wav
+falcon:First, I'll get us out of this asteroid field. :data/voice/newgame1/f20.wav
+
+}
+
+text
+{
+
+}
+
+sounds
+{
+
+}
+
+music
+{
+data/sounds/music/AdventureGame/Kevin MacLeod - Chipper Doodle v2.mp3,repeat
+}

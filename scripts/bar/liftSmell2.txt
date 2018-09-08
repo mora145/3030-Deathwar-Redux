@@ -1,0 +1,36 @@
+//begin
+// [x] 1 - "If you can't stand the smell.."
+// [x] 2 - "You tried asking the droids about it?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi.
+other:Yo.
+other:You smell that lift?
+ego:Yeah, it's hard not to.
+other:The cleaning droids must not go in there.
+other:It gets on my nerves.
+other:It gets right up my nose! Ha
+ego:Err, har har.
+ego:I'm sure they'll get round to it.
+other:Yeah, maybe.
+return
+
+@1 // If you can't stand the smell..
+ego:If you can't stand the smell...
+ego:...you could wear your suit like some of the other traders.
+other:I used to, all the time.
+other:But I could still smell the lifts in some stations.
+ego:Oh well. 
+ego:Catch ya later.
+stop
+
+@2 // You tried asking the droids about it?
+ego:You tried asking the droids about it?
+ego:They may just not have been told it stinks.
+other:No, the cleaning droids hate me.
+ego:Those droids.
+ego:Later.
+stop

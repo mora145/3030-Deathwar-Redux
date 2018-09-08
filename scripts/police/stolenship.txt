@@ -1,0 +1,319 @@
+//begin
+// [x] 1 - "I just bought that ship!"
+// [x] 2 - "You've made a mistake, I'm someone else."
+// [x] 3 - "This is bullshit, Officer."
+// [x] 31 - "How about I slip you 800 credits?"
+// [ ] 32 - "So what now?"
+
+// [ ] 4 - "Prove you're really an officer!"
+// [ ] 5 - "But I just recovered some salvage."
+// [ ] 51 - "But I used to be a bounty hunter."
+// [ ] 52 - "402? Who gave the 2?"
+
+// [ ] 41 - "Is my ship still where I docked it?"
+// [ ] 42 - "What about my possessions?"
+// [ ] 43 - "What about my other clothes?
+// [ ] 44 - "What about my side-kick droid?"
+// [ ] 45 - "What about my..."
+// [ ] 60 - "I'll tell you about Kent."
+// [ ] 61 - "Yes please, everyone needs a door opening droid."
+// [ ] 62 - "No need."
+// [ ] 63 - "Sure, a description of Kent."
+// [ ] 99 - "Goodbye Officer."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Halt!
+ego:What's the problem, Officer?
+other:It's my duty to inform you...
+other:...that Your ship is registered as stolen.
+option-on 1
+option-on 2
+option-on 3
+option-on 31
+return
+
+@1 // I just bought that ship!
+ego:I just bought that ship!
+other:Well it's registered as stolen from Zog Dongo.
+other:Do you know that person? 
+ego:No. I bought it from a mechanic called Frank Zoed.
+other:We'll have to impound your ship.
+other:But I've been authorised to give you $1500 credits. 
+other:And issue you an old shuttle.
+ego:An old shuttle?
+ego:Well, I guess that's something.
+option-off 1
+option-off 2
+option-off 3
+option-off 31
+option-on 32
+option-on 99
+return
+
+@2 // You've made a mistake, I'm someone else.
+ego:You've made a mistake, I'm someone else.
+other:Are you Mr Dongo, the owner of the ship? 
+ego:That's me.
+other:No. You're John Falcon, ex-bounty hunter.
+ego:Ok ok, just get on with it.
+other:Your Ship is registered as stolen from Zog Dongo.
+other:Do you know that person? 
+ego:No. I bought it from a guy called Zoed.
+ego:Frank Zoed.
+other:The ship you arrived with is now impounded.
+other:We've been authorised to give you $1500 credits. 
+other:And issue you an old shuttle.
+ego:An old shuttle?
+ego:What a day.
+option-off 1
+option-off 2
+option-off 3
+option-off 31
+option-on 32
+option-on 99
+return
+
+@3 // This is bullshit, Officer.
+ego:This is bullshit, Officer.
+other:Sir! It is registered as stolen from Zog Dongo.
+ego:But I bought it from a mechanic called Frank Zoed!
+other:We are looking into the matter.
+other:But we'll have to take your ship.
+ego:Say what? My new ship!
+other:We've been authorised to give you $1500 credits. 
+other:And issue you an old shuttle.
+ego:A bullshit old shuttle?
+ego:Great. Fantastic.
+option-off 1
+option-off 2
+option-off 3
+option-off 31
+option-on 32
+option-on 99
+return
+
+
+@31 // How about I slip you 800 credits?
+ego:How about I slip you 800 credits?
+other:Trying to bribe an officer of the law?
+ego:Based on your reaction... 
+ego:No.
+other:Attempted bribery and piloting a stolen ship. 
+other:That ship is registered as stolen from Zog Dongo.
+ego:I bought it from a mechanic called Frank Zoed.
+other:We are looking into the matter.
+other:But we'll have to take your ship.
+ego:Say what? My new ship?!
+other:We've been authorised to give you $1500 credits. 
+other:And issue you an old shuttle.
+other:But I'll have to fine you 50 for the attempted bribe.
+ego:What a day.
+takemoney,50,Fined for attempted bribery
+option-off 1
+option-off 2
+option-off 3
+option-off 31
+option-on 32
+option-on 99
+return
+
+
+@32 // So what now?
+ego:So what now?
+other:You go about your business.
+ego:My business needs a ship, not a shuttle.
+other:There's lots of small jobs here in Andinti.
+other:Buy a jetsuit and a gun.
+other:Junk shooting is a safe way to relieve stress.
+other:Don't track down this Frank Zoed yourself!
+other:Leave it to the law!
+option-off 1
+option-off 2
+option-off 3
+option-off 31
+option-off 32
+option-on 4
+option-on 5
+option-on 41
+option-on 42
+option-on 99
+return
+
+
+@4 // Prove you're really an officer!
+ego:Prove you're really an officer!
+ego:This could be a non-internet-based scam.
+ego:I read about those.
+other:Sorry about this, Sir.
+other:It's true.
+other:Take my badge number if you like.
+other:Also, I have this weapon.
+other:Only police can have weapons on stations.
+option-off 51
+option-off 4
+return
+
+@5 // But I just recovered some salvage?
+ego:But I just recovered some salvage?
+ego:Do I at least get that back.
+ego:So I can sell it. That would be something.
+other:That is still on the ship.
+other:All cargo and fitted upgrades have to stay on it.
+ego:Great.
+option-off 5
+return
+
+@51 // But I used to be a bounty hunter.
+ego:But I used to be a bounty hunter.
+ego:I helped you cops out in many a battle.
+ego:No way to let me keep the ship for now?
+other:I know your record Mr Falcon.
+other:Me and the guys pulled together and got you and extra 402.
+ego:Great, thanks.
+ego:That will help me get back on my feet.
+givemoney,402,Extra from Grah for Bounty Hunter Rep
+option-off 51
+option-off 41
+option-off 4
+option-on 52
+return
+
+@52 // 402? Who gave the 2?
+ego:402? Who gave the 2?
+other:Stingy John Brown.
+ego:That John Brown always hated me.
+other:For what?
+ego:I do not know.
+ego:I guess it all helps.
+option-off 52
+return
+
+
+@41 // Is my ship still where I docked it?
+ego:Is my ship still where I docked it?
+other:Why? Want to leave quickly? 
+other:Before we impound it?
+ego:Maybe.
+other:Sir, it's already being towed away. 
+option-off 52
+option-off 41
+return
+
+@42 // What about my possessions?
+ego:What about my possessions?
+other:Errr. About that.
+other:That's the main reason we gave you $1500.
+ego:What happened!?
+other:It's my duty to have to inform you...
+ego:Oh no.
+other:..that your ship contents were taken away.
+other:An over-zealous cleaning droid..
+other:..fed them into the garbage compactor.
+ego:This gets better and better.
+option-off 42
+option-on 43
+option-on 44
+option-on 45
+option-off 52
+return
+
+@43 // What about my other clothes?
+ego:What about my other clothes?
+other:Yes.
+other:Fed into the garbage compactor.
+ego:Looks like I'll be wearing this outfit for a while.
+other:Join the club.
+ego:At least you get an anti-stab vest.
+option-off 43
+option-off 52
+return
+
+@44 // What about my side-kick droid?
+ego:What about my side-kick droid?
+other:Oh? What was its name?
+ego:Kent.
+other:I'll make a note of it.
+other:Even an over-zealous cleaning droid...
+other:...should not have compacted another droid.
+ego:Phew.
+ego:I hope it made it. 
+ego:It was my comic relief on long journeys.
+other:Tell me about this Kent if you like.
+other:For my notes.
+option-off 44
+option-on 60
+option-off 52
+return
+
+@45 // What about my...
+ego:What about my...
+other:Sir!
+other:Everything else in the ship was garbage compacted.
+other:You'll have to follow it up with Central Bureaucracy.
+option-off 45
+option-off 52
+return
+
+@60 // I'll tell you about Kent.
+ego:I'll tell you about Kent.
+ego:It used to follow me around.
+ego:Make puns and occasionally get me out of scrapes.
+ego:Like the time I was trapped in a garbage compactor.
+ego:Come to think of it.
+ego:it would have escaped again.
+ego:Its main skill was opening doors.
+other:I guess this 'Kent' droid is on the loose then.
+other:Do you want me to post a missing droid report?
+option-off 60
+option-on 61
+option-on 62
+return
+
+@61 // Yes please, everyone needs a door opening droid.
+ego:Yes please, everyone needs a door opening droid.
+ego:Kent and I go way back.
+ego:And I could do with its help right now.
+other:I understand.
+other:I'll post a missing droid report.
+other:I'll need a description.
+option-off 61
+option-off 62
+option-on 63
+return
+
+@62 // No need.
+ego:No need.
+ego:Kent and I go way back.
+ego:It will find me if it wants to.
+other:It is its own droid.
+other:As you wish, Sir.
+option-off 61
+option-off 62
+return
+
+@63 // Sure, a description of Kent.
+ego:Sure, a description of Kent.
+ego:It was small and moved around.
+ego:It liked puns.
+ego:Blue.... or grey.... 
+ego:...or black. With some red bits.
+ego:It responds to the name of Kent.
+ego:So...
+ego:I think it was called Kent.
+other:That's it?
+other:I was hoping for a serial code.
+ego:It will find me if it wants to.
+other:I'll post a missing droid report anyway.
+other:You will be contacted if we track it down.
+ego:Ok, thanks.
+option-off 63
+return
+
+
+@99 // Goodbye Officer.
+ego:Goodbye Officer.
+other:Sorry about this, Sir.
+stop

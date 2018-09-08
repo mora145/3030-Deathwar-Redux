@@ -1,0 +1,34 @@
+//begin
+// [x] 1 - "I'm having trouble killing pirates."
+// [x] 2 - "Can't you help me with the password?"
+//end
+
+
+@S
+ego:Hello again.
+other:Hello, how can I help you?
+option-on 1
+option-on 2
+return
+
+@1
+ego:I'm having trouble killing pirates.
+other:You shouldn't be. They're all looking for you.
+ego:Tell me about it.
+other:Make sure you get all the necessary upgrades from here before you start off.
+ego:like what?
+other:Well, there's the 'whos targeting me' upgrade.
+other:you definitely need a combat scanner.
+other:Perhaps an ECM and an afterburner.
+ego:Ok, thanks for your help.
+other:No problem. Good luck.
+other:Don't forget to see j'mes learner when you have more than 10 kills.
+stop
+
+@2
+ego:Can't you help me with the password?
+other:No, I'm afraid I can't. I don't know it.
+other:But j'mes learner does. See him - after you've killed 50 pirates.
+other:And he'll help you out.
+ego:ok, thanks.
+stop

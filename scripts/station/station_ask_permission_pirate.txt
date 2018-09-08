@@ -1,0 +1,38 @@
+//begin
+// [x] 1 - "Request Docking Clearance"
+// [x] 2 - "Are you a pirate station?"
+// [x] 3 - "How much is the docking fee?"
+// [x] 4 - "Cancel"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+option-off 0
+option-on 1
+option-on 2
+option-on 3
+option-on 4
+return
+
+
+@1 // Request Docking Clearance
+other:Please wait..
+dock_granted
+stop
+
+@2 // pirate station?
+other:*playerSystem*'s finest. Do you wanna to dock or what?
+stop
+
+@3 // docking fee
+other:Independent pirate station. No docking fee.
+ego:That's what I like hearing.
+other:Coming on board?
+ego:I might just, thank you.
+stop
+
+@4 // Cancel
+other:Alright, call back soon.
+dock_cancel
+stop

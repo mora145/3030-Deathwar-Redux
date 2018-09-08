@@ -1,0 +1,33 @@
+//begin
+// [x] 1 - "Know any good trade route from here?"
+// [x] 2 - "I travelled a long way to get you those photos."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Here, your photos.
+other:Great.
+other:These will help a lot.
+other:Mmmm, excellent.
+
+option-on 1
+option-on 2
+return
+
+@1 // Know any good trade route from here?
+ego:Know any good trade route from here?
+other:Huh, nah.
+ego:Ok, later.
+
+
+stop
+
+@2 // I travelled a long way to get you those photos.
+ego:I travelled a long way to get you those photos.
+other:Yeah, thanks. Good work.
+other:Can't give you any more creds, sorry.
+ego:I'm gonna check the consoles.
+other:Thanks again.
+
+stop

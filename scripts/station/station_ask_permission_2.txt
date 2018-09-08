@@ -1,0 +1,50 @@
+//begin
+// [x] 1 - "Request Docking Clearance"
+// [x] 2 - "What system is this?"
+// [x] 3 - "How much is the docking fee?"
+// [x] 4 - "Hold fire! I'll pay my fines."
+// [x] 5 - "Cancel"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+option-off 0
+option-on 1
+option-on 2
+option-on 3
+option-on 4
+return
+
+
+@1 // Request Docking Clearance
+other:Please wait..
+dock_granted
+stop
+
+@2 // what system is this?
+other:You're currently in the *playerSystem* system
+stop
+
+@3 // docking fee
+other:The docking fee has been set at $4 for the past 120 years, sir.
+ego:Is it ever likely to change?
+other:I'd go out on a limb and say no.
+ego:You sound very sure. Are you a friend of the council leaders?
+other:No, sir. I'm very busy. 
+stop
+
+@4 // fines?
+ego:Hold fire! I'll pay my fines.
+other:You owe *crim_total* in total.
+other:You got that kind of money?
+ego:No, what do I do now?
+other:Well, I recommend you get away from our turrets.
+other:There are no half options with the police.
+other:You should have thought of this before you started being a naughty boy.
+stop
+
+@5 // Cancel
+other:Roger, clearance denied.
+dock_cancel
+stop

@@ -1,0 +1,23 @@
+image=Ctwinship1_100x100_5.png
+name=Marso 550
+turnSpeed=0.88
+cargoSize=400
+warpSpeed=300
+enginePower=0.34
+cost=6500000
+maxCrew=4
+passengers=8
+mintech=0.9
+available=1
+maxmissiles=20
+turret?=0
+firefrom(w,h)=-3,26
+turretat(x,y)=0,0
+[thrusters]
+-13,74
+13,74
+[/thrusters]
+M9 Allrounder - Exactly how a ship like this gains its reputation is clearly evident in her stats. Check those bad boys out. What a cargo size. What a turn speed. Man, 20 missile racks, 8 passengers and a massive difference ratio - the fastest in her class. Buy her now; you won't look back.
+producedBy=ATC spaceflight
+yearDeveloped=3026
+funTrivia=A recent addition to the ATC catalogue, she comes in granite and glorious pink for the female pilots out there.

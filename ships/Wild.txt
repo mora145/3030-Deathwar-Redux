@@ -1,0 +1,23 @@
+image=APassShip_100x100_5.png
+name=Wild
+turnSpeed=0.75
+cargoSize=62
+warpSpeed=300
+enginePower=0.34
+cost=3450000
+maxCrew=4
+passengers=2
+mintech=0.76
+available=1
+maxmissiles=16
+turret?=1
+firefrom(w,h)=0,33
+turretat(x,y)=0,52
+[thrusters]
+-11,65
+11,65
+[/thrusters]
+M7 Interceptor - One of the fastest in its class the Wild doesn't fall under any specific category easily. Her tiny cargo space combined with an amazing speed place her somewhat in the attack ship heading. If you can afford her, buy her. A true classic still with us.
+producedBy=ho ma
+yearDeveloped=3001
+funTrivia=Attempting to save their own arses, ho ma released this ship one year after the essential identical Proud Anselmo.

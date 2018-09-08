@@ -1,0 +1,13 @@
+//begin
+// [x] 1 - "Ok, see you soon."
+//end
+
+@S // dialog startup entry point
+other:John, I'll send you a message soon.
+other:Just keep a watch for it.
+option-on 1
+return
+
+@1 // Ok, see you soon.
+ego:Ok, see you soon.
+stop

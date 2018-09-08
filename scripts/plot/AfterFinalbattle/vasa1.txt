@@ -1,0 +1,73 @@
+//begin
+// [x] 1 - "Hey vasquez!"
+// [x] 2 - "Where have you been?"
+// [x] 3 - "Long time no see!"
+
+// [x] 99 - "See you later."
+//end
+
+// dialog script file
+@S // dialog startup entry point
+other:What a battle!
+other:I helped out upgrading a lot of the police ships here.
+ego:Thanks vasquez!
+return
+
+@1 // Hey vasquez!
+ego:Hey vasquez!
+other:yeah?
+ego:Did you see my skills?
+other:I saw you use a powerful ship to fight a load of poor pilots.
+ego:Haha. Right, they were not the best.
+ego:But they took a lot of damage.
+other:Great news. 
+other:I heard we can go down to the planets!
+ego:Yes. I got taken to see one.
+other:Really! You lucky git.
+other:we should get back together sometime.
+ego:Sounds good. 
+ego:I prefer a crewed ship rather than flying solo.
+other:Kent wants to team up like old days.
+option-off 1
+option-off 2
+option-off 3
+return
+
+@2 // Where have you been?
+ego:Where have you been?
+other:Hi there!
+other:Great news. 
+other:I heard we can go down to the planets!
+ego:Yes. I got taken to see one.
+other:Really! You lucky git.
+other:we should get back together sometime.
+ego:Sounds good. 
+ego:I prefer a crewed ship rather than flying solo.
+other:Kent wants to team up like old days.
+option-off 1
+option-off 2
+option-off 3
+return
+
+@3 // Long time no see!
+ego:Long time no see!
+other:Hi there!
+other:Great news. 
+other:I heard we can go down to the planets!
+ego:Yes. I got taken to see one.
+other:Really! You lucky git.
+other:we should get back together sometime.
+ego:Sounds good. 
+ego:I prefer a crewed ship rather than flying solo.
+other:Kent wants to team up like old days.
+option-off 1
+option-off 2
+option-off 3
+return
+
+@99 // See you later.
+ego:See you later.
+other:Later.
+option-off 99
+stop
+

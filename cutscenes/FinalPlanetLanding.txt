@@ -1,0 +1,54 @@
+background
+{
+data/cutscenes/images/FinalPlanetLanding.png
+}
+
+people 
+{
+StaticDroidnomovetiny,data/stations/drinkdroids/floaterholo3_36x50_2.png,250,60,facing right,visible
+Static2Droidnomovetiny,data/stations/drinkdroids/drinkDroidN_36x50_2.png,80,62,facing right,visible
+
+vassmall,data/stations/special characters/Vasquez1_50x108_4.png,100,99,facing right,visible
+Kentsmall,data/stations/special characters/kent_50x108_8.png,82,108,facing right,visible
+Falconsmall,data/stations/player/falcon4talk_50x115_7.png,278,150,facing left,visible
+Droidsmall,data/stations\drinkdroids/floaterholo_36x50_2.png,63,125,facing left,visible
+
+}
+
+fades
+{
+in
+out
+}
+
+dialogue
+{
+Falconsmall:Scans show the final enemy ship is down on the planet.
+Kentsmall:Right. Time for a Surprise attack.
+Falconsmall:I'll re-enter the atmosphere and parachute down.
+vassmall:I'll land our ship in front of theirs after the pod lands.
+Kentsmall:And I'll lock the lift and guard the ship.
+Falconsmall:Right. See you planetside, guys.
+vassmall:Good Luck.
+Kentsmall:Good Luck, Chief.
+}
+
+text
+{
+
+}
+
+animation
+{
+split right
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+data/sounds/music/background/Steve Finney - Journey forward.ogg,repeat
+}

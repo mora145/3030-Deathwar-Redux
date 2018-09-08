@@ -1,0 +1,37 @@
+//begin
+// [ ] 1 - "Ok, I'll get it done."
+// [ ] 2 - "No, not yet. I might come back later."
+//end
+
+@S // dialog startup entry point
+ego:Hi, I'm back.
+ego:Can you help me?
+other:yes. you are to take this ancient artefact to daphice.
+other:It is very important it gets there as quick as possible.
+ego:Speed is not a problem.
+other:So you'll deliver it?
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // yes
+ego:Ok, I'll get it done.
+other:Excellent. I've given the artefact to my associate.
+other:He will place the package in your hold shortly.
+other:One more thing, it's urgent you get it there as quickly as possible.
+other:it's a long journey. You can use a shortcut through the nebula.
+other:I've added the nebula gap in your map. 
+other:Just view the nebula read-out to see it.
+other:If you head straight up past andinti, Watch out for nebula. 
+other:They'll slow you down.
+ego:Ok, thanks.
+setMissionAnswer 1
+stop
+
+@2 // no
+ego:No, not yet. I might come back later.
+other:Very well, I'll be here if you change your mind.
+other:K'ta Fly won't allow me to give this to anyone else.
+setMissionAnswer 0
+stop

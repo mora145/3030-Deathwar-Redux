@@ -1,0 +1,72 @@
+//begin
+// [x] 1 - "Looks like he's had enough."
+// [x] 2 - "Looks like he needs more."
+// [x] 3 - "Looks like he needs one more."
+// [x] 4 - "Looks like he enjoys it."
+// [x] 5 - "Looks like you should take on someone your own size."
+// [x] 99 - "I gotta go."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+return
+
+@1 // Looks like he's had enough.
+ego:Looks like he's had enough.
+other:You know this guy?
+ego:Compassion for all creatures.
+ego:I heard it was best.
+other:That's cool.
+other:Krull here agrees too.
+option-off 1
+option-off 2
+option-off 3
+option-off 4
+return
+
+@2 // Looks like he needs more.
+ego:Looks like he needs more.
+other:Yes, let's...
+other:Give..
+other:...him...some..
+other:...more.
+return
+
+@3 // Looks like he needs one more.
+ego:Looks like he needs one more.
+ego:Only one more.
+other:No more?
+ego:One more..
+ego:Then no more after that.
+option-off 2
+option-off 3
+return
+
+@4 // Looks like he enjoys it.
+ego:Looks like he enjoys it.
+other:He enjoys to start fights he can't finish.
+other:I helped him out this time.
+other:My name's Yong by the way.
+ego:I go by Falcon. 
+ego:John Falcon. 
+option-off 4
+return
+
+@5 // Looks like you should take on someone your own size.
+ego:Looks like you should take on someone your own size.
+other:You his mate or what?
+other:I'd knock you right out.
+ego:I doubt it.
+other:Well we'll never know...
+other:..I'm busy with this gimp.
+option-off 5
+stop
+
+@99 // I gotta go.
+ego:I gotta go.
+other:No problem.
+option-off 99
+stop
+

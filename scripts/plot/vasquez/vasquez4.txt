@@ -1,0 +1,18 @@
+//begin
+// [x] 7 - "Bye for now."
+//end
+
+// dialog script file
+@S // dialog startup entry point
+other:Hiya.
+other:What's up?
+ego:Not much.
+ego:I'm about to leave.
+other:Safe flying.
+return
+
+@7 // Bye
+ego:Bye for now.
+other:See you later.
+Stop
+

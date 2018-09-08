@@ -1,0 +1,40 @@
+//begin
+// [ ] 1 - "Tell me about Frank Zoed."
+// [ ] 2 - "Tell me about Zog Dongo."
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi again.
+ego:One more thing..
+option-on 1
+option-on 2
+return
+
+@1 // Tell me about Frank Zoed.
+ego:Tell me about Frank Zoed.
+other:You're asking a lot of questions.
+other:I don't know him well.
+option-off 1
+return
+
+@2 // Tell me about Zog Dongo.
+ego:Tell me about Zog Dongo.
+other:Good guy. 
+other:Not seen him for a few weeks.
+ego:Did you hear he sold his ship?
+other:No way. You heard wrong.
+other:He'd never sell that orange Detra.
+ego:I guess i heard wrong.
+option-off 2
+return
+
+
+@4 // Bye
+ego:Bye.
+other:Bye.
+Stop
+

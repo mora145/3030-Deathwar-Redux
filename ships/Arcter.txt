@@ -1,0 +1,27 @@
+image=CArcShip1_100x100_5.png
+name=Arcter
+turnSpeed=0.38
+cargoSize=110
+warpSpeed=102
+enginePower=0.16
+cost=335000
+maxCrew=3
+passengers=5
+mintech=0.35
+available=1
+maxmissiles=3
+turret?=1
+firefrom(w,h)=0,36
+turretat(x,y)=0,53
+[thrusters]
+-11,76
+-16,77
+-21,78
+21,78
+16,77
+11,76
+[/thrusters]
+M3 Trader - Curved and slick, the Arcter is designed for cargo duty. Load her up and feel the power. Worth the money but could be faster. With a diff ratio that would leave your grandmother feeling comfortable, the Arcter shines as a hauler.
+producedBy=Fernando
+yearDeveloped=3012
+funTrivia=The fire button was originally made of plastic but the designers decided to make it a little bit special and turned the knob into pure diamond.

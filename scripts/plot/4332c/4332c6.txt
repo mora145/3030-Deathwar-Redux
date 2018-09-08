@@ -1,0 +1,39 @@
+//begin
+// [x] 1 - "I'm on my way."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:That was a battle well fought.
+other:But the war is not yet won.
+ego:It's not?
+ego:But we blew up their command ship.
+other:The command ship, yes.
+other:But the cleaner commander, F'zuh still lives.
+ego:He's just one guy. Is that really that bad?
+other:He is in hiding, and preparing to release all of the nanos...
+other:thus killing everyone on every station and every planet.
+ego:Ok, that's bad.
+other:Luckily we intercepted the command ship's final message.
+other:It was a launch code...
+other:and is the last puzzle piece needed to launch the nanos.
+other:The target of the message was somewhere in the badlands.
+other:You'll need to go there and find him.
+other:And then end his plans, by any means necessary.
+ego:What? Me again?
+other:Yes, you're our most trusted and reliable pilot.
+other:Also, you're the only one with a gun.
+other:It sort of limits our options.
+ego:Great.
+other:He isn't hiding on the station.
+other:We have spies there, and would know of it.
+other:He must be somewhere else in the system.
+other:You'll find him I'm sure.
+other:We're all trusting in you.
+other:Not that we have another option.
+return
+
+@1 // I'm on my way.
+ego:I'm on my way.
+stop

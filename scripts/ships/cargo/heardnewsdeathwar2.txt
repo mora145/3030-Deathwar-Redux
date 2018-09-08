@@ -1,0 +1,64 @@
+//begin
+// [x] 1 - "Heard any news?"
+// [x] 2 - "Nice ship!"
+// [x] 3 - "Bye."
+// [ ] 4 - "What things?"
+// [ ] 5 - "Sorry, no time for that."
+//end
+
+@S 
+ego:Hi there.
+other:Hi.
+return
+
+@1 
+ego:Heard any news?
+other:About the Deathwar?
+ego:Why not, you know something.
+other:Yeah. I know an ex-council guy.
+other:They had Inside knowledge of some things.
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+return
+
+@2 
+ego:Nice ship!
+other:It's alright. I've owned better.
+other:It needs a new captains chair.
+other:Previous owner did something in this one.
+ego:Oh?
+other:You don't want to know the details. It's gross.
+other:I can't get rid of it, so a new chair is the only option.
+option-off 2
+return
+
+@3 
+ego:Bye.
+stop
+
+@4
+ego:What things?
+ego:You can tell me.
+other:Ok. Let me encrypt this channel.
+ego:So go on what's the scoop?
+other:He said he saw secret reports that the nanobot threat on planets was long gone.
+ego:Interesting.
+other:Landings are still prevented by the council, but there is really no need.
+ego:I guess that's politics.
+other:No, it's deeper. 
+other:There are forces who want to push some species to extinction.
+other:Don't repeat this in stations. It's not safe to talk about.
+ego:No problem.
+option-off 4
+option-off 5
+option-on 3
+return
+
+@5 
+ego:Sorry, no time for that.
+other:No problem.
+option-off 4
+option-off 5
+return

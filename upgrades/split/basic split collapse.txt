@@ -1,0 +1,12 @@
+name=basic diff collapse accelerator
+cost=935
+tech lvl=0.69
+avaiable=1
+desc=slows the ship automatically after splitting.
+once=1
+mass=0
+department=collapse
+value#=0
+[incompat]
+[incompat]
+image=data/images/upgrades/split0.png

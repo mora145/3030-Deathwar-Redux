@@ -1,0 +1,53 @@
+background
+{
+data/cutscenes/images/apartment1b.png
+}
+
+people 
+{
+Shuttleforefloat,data/stations\drinkdroids/floaterholo77_36x50_2.png,80,122,facing left,visible
+
+
+ktafly,data/stations/special characters/Plotmonk1Guy_50x108_4.png,115,153,facing right,visible
+cjisri,data/stations/special characters/plotmonk2_50x108_4.png,182,146,facing left,visible
+Fore,data/stations\drinkdroids/drinkDroidtray2_36x50_2.png,154,150,facing right,visible
+Fore,data/stations\drinkdroids/drinkDroidtray_36x50_2.png,188,160,facing left,visible
+vas,data/stations/special characters/Vasquez1_50x108_4.png,238,156,facing left,visible
+}
+
+animation
+{
+stationary stars
+}
+
+dialogue
+{
+ktafly:Have you seen the news reports?
+cjisri:yes. As the last person to leave Daphice...
+cjisri:...Falcon's face is on every TV in the trader bars.
+ktafly:He is being set up as the prophecy.
+cjisri:He does have a great hat!
+ktafly:You've lost me.
+cjisri:Never mind.
+vas:I didn't join you to be on the losing side.
+vas:Let's act.
+vas:A new wave of deadly nanos could appear any time now and it's game over.
+ktafly:Yes. We will have to intervene soon.
+ktafly:Contact Falcon as soon as you can.
+cjisri:I will get in touch with him when the time is right.
+}
+
+text
+{
+act IV: THE FOUR CORNER STONES
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+data/sounds/music/background/Steve Finney - Journey forward.ogg,repeat
+}

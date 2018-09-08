@@ -1,0 +1,46 @@
+//begin
+// [x] 1 - "Heard about any derelicts?"
+// [x] 2 - "You smelt that lift?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hello.
+other:Whoa!
+ego:Whats up?
+other:What are you wearing?
+ego:My casuals.
+other:You look like a gimboid.
+ego:Watch it, I'm double hard.
+ego:Anyway I like my clothes.
+ego:Comfort first.
+other:Style first, my man.
+ego:*You* Talking to *me* about style.
+ego:I have more style than your spacesuit.
+other:Hey, I just got a new suit. 
+ego:Yeah, where is it?
+other:I keep it on my ship.
+other:Don't want to get it dirty.
+ego:Is it, super-white!
+other:Yes, yes it is.
+ego:You should have got the anti-static dirt-repellent one.
+other:They do them??
+ego:Yeah, at all good retailers. 
+other:I'll look into it.
+return
+
+@1 // Heard about any derelicts?
+ego:Heard about any derelicts?
+other:No, I don't do salvage.
+ego:Ok, I'm gonna check the consoles.
+stop
+
+@2 // You smelt that lift?
+ego:You smelt that lift?
+other:Yeah, worse than normal.
+other:I think the station managers are having a comp.
+ego:To have the most pungent lift?
+other:Uh huh.
+ego:Who knows, I'm gonna check the consoles.
+stop

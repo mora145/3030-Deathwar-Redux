@@ -1,0 +1,31 @@
+background
+{
+data/cutscenes/images/inpaper1.png
+}
+
+people 
+{
+persona,data/stations/special characters/Plotmonk1Guy_50x108_4.png,353,136,facing left,invisible
+helper,data/stations/special characters/plotmonk2_50x108_4.png,170,136,facing right,invisible
+}
+
+dialogue
+{
+persona:You reading about the supernova?
+persona:The council are looking for the last one to leave the system.
+helper:Nah, I'm trying to find the zero-g darts league table.
+persona:Hasn't that been banned?
+helper:What! Again?
+helper:I need a froog.
+helper:Bar-droid! 
+}
+
+animation
+{
+stationary
+}
+
+sounds
+{
+data/sounds/station/quiet/lowchatter2.ogg,repeat
+}

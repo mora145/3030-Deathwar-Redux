@@ -1,0 +1,51 @@
+//begin
+// [ ] 1 - "What movie?"
+// [ ] 2 - "At that drive-in outside?"
+// [ ] 3 - "I ain't got time for movies today."
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi.
+other:Yes?
+other:You here for the movie tonight?
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // What movie?
+ego:What movie?
+other:The drive in movie tonight.
+other:It's Samurai night.
+other:That's why I'm dressed up.
+ego:I did wonder.
+option-off 1
+return
+
+@2 // At that drive-in outside?
+ego:At that drive-in outside?
+other:Yes. Just pull up in a spot.
+other:You are meant to buy a ticket really.
+other:But who cares.
+option-off 2
+return
+
+@3 // I ain't got time for movies today.
+ego:I ain't got time for movies today.
+other:Even samurai movies?
+other:Think about it.
+other:Classics from old earth.
+other:Next week it's Classic French.
+other:Know what I mean.
+option-off 3
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye.
+Stop
+

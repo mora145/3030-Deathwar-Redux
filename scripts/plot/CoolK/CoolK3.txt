@@ -1,0 +1,93 @@
+//begin
+// [ ] 1 - "What crash?"
+// [ ] 2 - "What happened?"
+// [ ] 21 - "Have you seen the crash site?"
+// [ ] 22 - "Everyone seems very calm."
+// [ ] 23 - "I see you still have the Octopus."
+// [x] 3 - "Bye."
+
+//end
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi there.
+other:Boom! What a crash?
+other:Oh man. CoolK feels lucky to be alive.
+option-on 1
+option-on 2
+return
+
+@1 // What crash?
+ego:What crash?
+other:The Largo. It hit the freakin' station.
+other:The crash site is locked down.
+other:It was meant to be full of gold.
+other:Remaining cargo will go to pay the insurance company or something.
+other:CoolK is just glad nobody got hurt.
+option-off 1
+option-off 2
+option-on 21
+option-on 22
+option-on 23
+return
+
+
+@2 // What happened?
+ego:What happened?
+other:Don't you know?
+other:That missing ship... the Largo.
+other:Its split drive was warping it around the system.
+other:And bam! It hit this station.
+ego:No more info than that?
+other:You need more? Just go and take a look outside.
+other:It's a mess.
+option-off 1
+option-off 2
+option-on 21
+option-on 22
+option-on 23
+return
+
+@21 // Have you seen the crash site?
+ego:Have you seen the crash site?
+other:Sure. I watched it happen on my mobile.
+other:We were warned by the station announcer.
+other:they managed to slow the ship down with some..
+other:...you know. Tug-ships. With industrial tractor beams.
+ego:That must have saved the station.
+other:I guess. It did a lot of damage even slowed down.
+option-off 21
+option-off 22
+return
+
+@22 // Everyone seems very calm.
+ego:Everyone seems very calm.
+ego:Considering what happened.
+other:Well. I suspect a lot of people are on drugs.
+other:Caffeine. It rots your brain.
+other:Did you see that study where they gave a variety of drugs to spiders?
+other:webs on caffeine were pretty bad.
+ego:Spiders? ones from earth?
+other:I guess so. I just looked at the pictures.
+ego:Thanks for the info.
+option-off 22
+option-off 21
+return
+
+@23 // I see you still have the Octopus.
+ego:I see you still have the Octopus.
+other:Don't remind me.
+other:It's not a mimic Octopus. So I can't sell it anywhere.
+ego:so you got a pet.
+other:I am getting fond of it.
+other:And it's a good ice breaker with the ladies.
+ego:I find that hard to believe.
+other:stay optimistic, that's the coolk way.
+option-off 23
+return
+
+@3 // Bye.
+ego:Bye.
+other:Bye, and stay lucky.
+Stop
+

@@ -1,0 +1,104 @@
+//begin
+// [ ] 1 - "Where do you want to go next?"
+// [ ] 2 - "Any other ideas?"
+// [ ] 22 - "What do you suggest?"
+// [ ] 3 - "Heard anything from Vasquez?"
+// [x] 4 - "Ok. See you on the ship!"
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:hi Kent. I did it.
+other:I heard!
+other:I just need to get my clearance form done.
+other:He gave me this Congrats Balloon!
+ego:That's weird.
+other:I know, right.
+other:I'm just playing along until I get out of here.
+ego:Grah said you're free to go after that. 
+ego:See you on the ship!
+other:I can't wait!
+option-on 1
+option-on 3
+return
+
+@1 // Where do you want to go next?
+ego:Where do you want to go next?
+other:Hmmm.
+other:We could check if any jobs go up to andinti.
+other:That would be a safe option.
+other:Or If you want some flying time...
+other:I hear there are moneyball races going on down at Tibefa.
+ego:Tibefa? That's due south past the nebula.
+other:Yeah. It's a fair distance.
+other:And we'd need a good afterburner to compete.
+other:It's easy, and the prizes get quite high!
+ego:It's easy because people only watch for the fights.
+other:That's true, but I do like a bit of moneyball.
+option-off 1
+option-on 2
+option-on 22
+return
+
+@2 // Any other ideas?
+ego:Any other ideas?
+other:Any other ideas?
+other:Hmmm.
+other:Grah said this system has a lot of salvageable ships.
+ego:that makes sense, as no gangs operate here.
+other:Correct-a-mundo.
+other:If our ship has an ok cargo capacity...
+other:..we could go hit those grey dots on the map.
+other:Maybe we'll get lucky!
+option-off 2
+return
+
+
+@22 // What do you suggest?
+ego:What do you suggest?
+other:What I'd really like?
+other:Chief, you know want I want.
+other:I want to go show you the Nebula Aliens.
+ego:Not this again.
+other:It's true-a-mundo.
+other:Just hang out in the nebula for a couple of minutes.
+ego:yeah, Taking damage to our shields.
+other:It's worth it. They are funky.
+other:If you leave the nebula map overlay up...
+other:...I can map the nebula edges to improve our travel map.
+ego:Not sure about that one. Anything else?
+other:I always wanted to see the Giant carved-head asteroid station.
+ego:GHA Station? That's light years away, and a Pirate station!
+other:Yeah, it's north-east from here across Lowell's Divide.
+other:System KP-FQI.
+other:I know it's far, but we could do jobs on the way.
+other:You asked what I wanted. I've never seen it.
+other:It would be an achievement for me. 
+option-off 22
+return
+
+@3 // Heard anything from Vasquez?
+ego:Heard anything from Vasquez?
+other:Not since I got caged here.
+other:Last I heard she got a new ship.
+other:But that's all.
+ego:We should try to get her back as lead engineer.
+other:Right. I'll try to find out what she's doing.
+other:What ship do you have now anyway?
+ego:You'll see soon enough.
+other:Right on, Chief!
+other:I'll bring my balloon.
+option-off 3
+return
+
+
+@4 // Ok. See you on the ship!
+ego:Ok. See you on the ship!
+other:Right, I'll be there!
+other:Maybe ask Grah if he has any more info.
+ego:About the kill-bots?
+other:Yeah. He's not as stupid as he looks.
+Stop
+

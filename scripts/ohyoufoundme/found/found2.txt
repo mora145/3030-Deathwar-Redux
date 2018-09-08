@@ -1,0 +1,32 @@
+//begin
+// [x] 1 - "Seems someone is looking for you."
+// [x] 2 - "No, just accidentally started talking to you."
+//end
+
+
+@S
+other:Can I help you?
+option-on 1
+option-on 2
+return
+
+@1
+ego:Seems someone is looking for you.
+other:Oh yeah? Who?
+ego:Can't really say. Confidentiality and all that.
+other:Well, maybe I don't want to be found.
+ego:Say what?
+other:How much is this mystery person offering you?
+ego:I can't say. Why?
+other:I dunno, just curious I suppose. So what now?
+ego:Nothing. I just go back and tell them you're here.
+other:Huh. Well, hope it's someone I want to find me.
+other:See you around.
+setMyselfFreeform
+stop
+
+@2
+ego:No, just accidentally started talking to you.
+other:Oh, ok. See you 'round, buddy.
+setMyselfFreeform
+stop

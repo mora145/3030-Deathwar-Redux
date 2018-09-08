@@ -1,0 +1,22 @@
+image=Bshuttle_100x100_5.png
+name=Shuttle
+turnSpeed=0.8
+cargoSize=11
+warpSpeed=0
+enginePower=0.3
+cost=8500
+maxCrew=1
+passengers=2
+mintech=0.0
+available=1
+maxmissiles=0
+turret?=0
+firefrom(w,h)=0,46
+turretat(x,y)=0,0
+[thrusters]
+0,64
+[/thrusters]
+Local Shuttle - The shuttle is the fallback for captains needing to downsize for cashback. No Split-Drive but it's fast for station-to-station work. Well suited for Taxi service, Deliveries and Junk Destruction when kitted out with a Front gun. 
+producedBy=Freespace & Thompson
+yearDeveloped=3011
+funTrivia=Designed to echo land vehicles by Debbie Thompson, company co-founder.

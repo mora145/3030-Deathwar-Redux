@@ -1,0 +1,21 @@
+//begin
+// [x] 1 - "Ok."
+// [x] 2 - "Doesn't matter."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:I'm sorry Sir.
+other:I'm just cleaning up for a minute.
+other:Won't be a minute Sir.
+return
+
+@1 // Ok.
+ego:Ok. 
+ego:I'll wait.
+stop
+
+@2 // Doesn't matter.
+ego:Doesn't matter.
+stop

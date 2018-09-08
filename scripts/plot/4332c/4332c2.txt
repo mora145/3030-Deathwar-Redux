@@ -1,0 +1,36 @@
+//begin
+// [x] 1 - "Yeah, I'll do it."
+// [x] 2 - "Not right now."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:So you are back. 
+ego:I told you, I'll be back.
+other:No, no you didn't.
+other:Will you accept the mission?
+option-on 1
+option-on 2
+return
+
+@1 // Yeah, I'll do it.
+ego:Yeah, I'll do it.
+ego:Just tell me what you need doing.
+other:Go to waessda and aresswa and search the asteroid fields for devices.
+other:If you find any, tractor-beam them back here.
+other:We will get our head scientist to analyse them when he arrives here.
+other:He is currently en route but travel is difficult at the moment...
+other:...with F'Zuh's obsession with that prophecy.
+other:He will kill you at all costs.
+ego:He's gone as far as to destroy a system.
+ego:I understand how much he wants me dead.
+other:Be very careful. Those systems are swarming with pirates.
+setMissionAnswer 1
+stop
+
+@2 // Not right now.
+ego:Not right now.
+other:Oh... OK then.
+setMissionAnswer 0
+stop

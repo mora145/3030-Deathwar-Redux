@@ -1,0 +1,13 @@
+//begin
+// [x] 1 - "No problem."
+//end
+
+@S
+ego:Here's your photos.
+other:The photos! sweet.
+option-on 1
+return
+
+@1
+ego:No problem.
+stop

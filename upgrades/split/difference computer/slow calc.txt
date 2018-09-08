@@ -1,0 +1,13 @@
+name=m1 33 MHz split computer
+cost=1900
+tech lvl=0.2
+avaiable=1
+desc=enables very slow turning during diff-split.
+once=1
+mass=0
+department=split computer
+value#=0.12
+[incompat]
+split computer
+[incompat]
+image=data/images/upgrades/split0.png

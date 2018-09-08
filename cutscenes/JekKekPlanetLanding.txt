@@ -1,0 +1,59 @@
+background
+{
+data/cutscenes/images/FinalPlanetLanding.png
+}
+
+people 
+{
+StaticDroidnomovetiny,data/stations/drinkdroids/floaterholo3_36x50_2.png,140,50,facing right,visible
+Static2Droidnomovetiny,data/stations/drinkdroids/drinkDroidN_36x50_2.png,160,52,facing left,visible
+
+Falconsmall,data/stations/player/falcon4talk_50x115_7.png,100,99,facing right,visible
+Kentsmall,data/stations/special characters/kent_50x108_8.png,82,108,facing right,visible
+
+Droidsmall,data/stations\drinkdroids/floaterholo_36x50_2.png,63,125,facing left,visible
+
+}
+
+fades
+{
+in
+out
+}
+
+dialogue
+{
+Falconsmall:Scans show a small campsite on the planet.
+Falconsmall:Nice work setting up the launch mechanism, Kent.
+Kentsmall:Thanks, Chief. But I still don't like Pods.
+Kentsmall:Parachute fails, and splat! Very dangerous.
+Falconsmall:I know, but it has special jamming equipment.
+Falconsmall:You can land the ship undetected after I get down there.
+Kentsmall:So you're just investigating what that cop is up to?
+Falconsmall:Right. I just find out what's going on down there.
+Kentsmall:Spy mission! In and out, clean. Like the old days.
+Kentsmall:Strap in, Re-entry is a wild ride. 
+Kentsmall:Heatsheild fails, and sizzle! Very dangerous.
+Kentsmall:Unless you're a robot with a great cooling system, like me.
+Falconsmall:Shut up, Kent.
+}
+
+text
+{
+
+}
+
+animation
+{
+split right
+}
+
+sounds
+{
+
+}
+
+music
+{
+data/sounds/music/background/Steve Finney - Genetik.ogg,repeat
+}

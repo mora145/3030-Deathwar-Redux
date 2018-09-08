@@ -1,0 +1,91 @@
+//begin
+// [x] 1 - "Request Docking Clearance"
+// [x] 2 - "What system is this?"
+// [x] 3 - "How much is the docking fee?"
+// [x] 4 - "Hold fire! I'll pay my fines."
+// [x] 5 - "Cancel"
+// [ ] 6 - "I'll pay."
+// [ ] 7 - "No way, forget it"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+option-off 0
+option-on 1
+option-on 2
+option-on 3
+option-on 4
+return
+
+
+@1 // Request Docking Clearance
+other:Please wait..
+dock_granted
+stop
+
+@2 // what system is this?
+other:You're currently in the *playerSystem* system
+stop
+
+@3 // docking fee
+other:The docking fee has been set at $4 for the past 120 years, sir.
+ego:Is it ever likely to change?
+other:I'd go out on a limb and say no.
+ego:You sound very sure. Are you a friend of the council leaders?
+other:No, sir. I'm very busy. 
+stop
+
+@4 // fines?
+ego:Hold fire! I'll pay my fines.
+other:You owe *crim_total* in total.
+other:do you want to pay it or not?
+option-on 6
+option-on 7
+option-off 1
+option-off 2
+option-off 3
+option-off 4
+option-off 5
+return
+
+@5 // Cancel
+other:Roger, clearance denied.
+dock_cancel
+stop
+
+@6
+ego:I'll pay.
+other:Good.. one second while I transfer the money.
+other:.. done.
+other:Now, is there anything else?
+option-off 1
+option-off 2
+option-off 3
+option-off 4
+option-off 5
+option-off 6
+option-off 7
+option-on 1
+option-on 2
+option-on 3
+option-on 5
+takeMoney,-1,Paying off fines
+wipecrimrecordclean
+return
+
+@7
+ego:No way, forget it
+other:Alright. Anything else?
+option-off 1
+option-off 2
+option-off 3
+option-off 4
+option-off 5
+option-off 6
+option-off 7
+option-on 1
+option-on 2
+option-on 3
+option-on 5
+return

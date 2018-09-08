@@ -1,0 +1,38 @@
+//begin
+// [ ] 1 - "Where did you say you would be?"
+// [ ] 2 - "I decided I'll come to HBE."
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hello again.
+other:Fancy some tidy profit?
+other:I'm due a shipment of Diamonds.
+other:Help me shift em.
+option-on 1
+option-on 2
+return
+
+@1 // Where did you say you would be?
+ego:Where did you say you would be?
+other:Next? HBE station.
+other:I'm heading down there soon.
+option-off 1
+return
+
+@2 // I decided I'll come to HBE.
+ego:I decided I'll come to HBE.
+other:I know...
+other:...diamonds.
+other:Irresistible.
+other:See you there.
+option-off 2
+return
+
+@4 // Bye
+ego:Bye.
+Stop
+

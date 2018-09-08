@@ -1,0 +1,56 @@
+//begin
+// [ ] 1 - "Any news about my ship?"
+// [ ] 2 - "What's up Grah?"
+// [ ] 3 - "I'm here for my compensation!"
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hey Officer Grah!
+other:Yes?
+other:Oh, Hi there...
+other:..Falcon, right?
+other:An Officer of the Law never forgets a face.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // Any news about my ship?
+ego:Any news about my ship?
+other:I heard it happened to several traders.
+other:Some kind of scam.
+other:Word is it had to do with that Largo ship.
+other:But you were one of the last to get stung.
+ego:Great. 
+other:Sorry, Buddy.
+option-off 1
+return
+
+@2 // What's up Grah?
+ego:What's up Grah?
+other:Oh, you know.
+other:I'm off duty so having drink.
+other:Getting the combat drugs out of my system.
+option-off 2
+return
+
+@3 // I'm here for my compensation!
+ego:I'm here for my compensation!
+other:What? Hahaha.
+other:For the stolen ship you bought?
+other:You will not get any from the police.
+other:...or the Council.
+ego:Well I've nearly earned it back now anyway.
+other:Yeah, Freelancers get the big money.
+option-off 3
+return
+
+@4 // Bye
+ego:Bye.
+other:Later.
+Stop
+

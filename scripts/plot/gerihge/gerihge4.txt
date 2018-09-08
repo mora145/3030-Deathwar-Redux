@@ -1,0 +1,24 @@
+//begin
+// [x] 1 - "Ok."
+//end
+
+@S
+ego:I won.
+other:yeah, I can see that.
+other:I won too. A lot of money.
+other:The clue I promised is Aolol.
+other:Hope that means something to you.
+other:If you want to play some more races, just talk to the bar droid on dwelwa in the miareth system. 
+other:That's the only place that still does public matches.
+other:we do private matches here and they're not open to just anyone.
+other:You can bet yourself there, too.
+other:If you want to race for me, come and chat to me later.
+ego:Will do, thanks.
+other:I've put the clue in your contact list.
+other:See you around, speedy.
+option-on 1
+return
+
+@1
+ego:Ok.
+stop

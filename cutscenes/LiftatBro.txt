@@ -1,0 +1,42 @@
+background
+{
+data/cutscenes/images/LiftBro.png
+}
+
+people 
+{
+liftFalcon,data/stations/player/falcon4talk_50x115_7.png,194,133,facing right,visible
+
+}
+
+fades
+{
+in
+out
+}
+
+dialogue
+{
+
+
+}
+
+text
+{
+
+}
+
+animation
+{
+split right
+}
+
+sounds
+{
+data/sounds/tractorbeam.ogg,repeat
+}
+
+music
+{
+data/sounds/music/background/Steve Finney - Call from out there.ogg,repeat
+}

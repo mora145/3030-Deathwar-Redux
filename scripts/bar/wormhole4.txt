@@ -1,0 +1,45 @@
+//begin
+// [x] 1 - "Know any good areas for salvage?"
+// [x] 2 - "Heard anything about wormholes?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi
+other:Yo.
+ego:What's up?
+other:I'm taking a station break.
+ego:Me too.
+other:I've been doing salvage.
+other:It's quite good fun if you have a sense of adventure.
+return
+
+@1 // Know any good areas for salvage?
+ego:Know any good areas for salvage?
+other:Not that I'm gonna tell you about.
+ego:Fair enough.
+other:Finding them is part of the skill of the job.
+ego:Ok ok. Chill out.
+ego:I don't want to steal your booty.
+ego:I'm going to check the job console.
+other:Safe flying.
+ego:Later.
+stop
+
+@2 // Heard anything about wormholes?
+ego:Heard anything about wormholes?
+other:Yeah, bits and pieces. People don't like to talk about em.
+ego:Your telling me.
+other:I don't like secrecy and you seem to be ok.
+ego:So you'll tell me?
+other:Yeah, whatever. I heard there was one in Tapley.
+ego:Yeah, but how do you find it?
+other:I guess they are in low orbit around planets or moons.
+ego:Right. 
+other:I've never seen one myself.
+ego:Are you sure they're really out there?
+other:Yeah, I know a commodity trader who uses em.
+ego:Thanks for that. Safe flying. 
+other:Safe flying.
+stop

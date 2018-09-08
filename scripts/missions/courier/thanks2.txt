@@ -1,0 +1,32 @@
+//begin
+// [x] 1 - "I got here in reasonable time."
+// [x] 2 - "I was fighting pirates, wouldn't you know it."
+// [x] 3 - "None of your business."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Here's something you've been waiting for.
+other:Hey, thanks for delivering this. What took you so long?
+option-on 1
+option-on 2
+return
+
+@1 // I got here in reasonable time.
+ego:I got here in reasonable time.
+other:I guess, sorry, I didn't mean to criticize.
+ego:No problem. 
+stop
+
+@2 // I was fighting pirates, wouldn't you know it.
+ego:I was fighting pirates, wouldn't you know it.
+other:Really? I don't believe you.
+ego:No not really. I had my good ship impounded.
+stop
+
+@3 // None of your business.
+ego:None of your business.
+other:Ok, mate, take it easy.
+ego:I will.
+stop

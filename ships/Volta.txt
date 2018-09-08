@@ -1,0 +1,22 @@
+image=Casymship1_100x100_5.png
+name=Volta
+turnSpeed=0.65
+cargoSize=36
+warpSpeed=150
+enginePower=0.25
+cost=350000
+maxCrew=2
+passengers=2
+mintech=0.36
+available=1
+maxmissiles=4
+turret?=0
+firefrom(w,h)=-11,39
+turretat(x,y)=0,0
+[thrusters]
+0,66
+[/thrusters]
+M3 Interceptor - Making up for the low passenger capacity with its impressive diff-ratio capabilities makes this a very specific kind of ship. Whether you'll want to explore the far corners of the galaxy or chase around pirates, either way you'll be getting a cheap ship that does what it says on the hull.
+producedBy=carlton construction
+yearDeveloped=3011
+funTrivia=The dash board is made from ground up sponge and the captain's seat is in fact a chair.

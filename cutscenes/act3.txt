@@ -1,0 +1,61 @@
+background
+{
+data/cutscenes/images/pirateUnderbar2.png
+}
+
+people 
+{
+bossOnbike,data/stations/special characters/plotbossOnBike_160x128_4.png,185,145,facing right,visible
+helper2,data/stations/standing_at_bar/squidman1_50x130_4.png,298,149,facing left,visible
+helper,data/stations/special characters/plotzoidman2_50x130_4.png,85,149,facing right,visible
+}
+
+animation
+{
+split right
+}
+
+dialogue
+{
+helper2:sir, I have a report from one of my sources...
+helper2:...that k'ta fly has been receiving help from a trader.
+bossOnbike:His name?
+helper2:john falcon.
+bossOnbike:what?
+helper2:I didn't believe it myself.
+helper:A Falcon is a bird, right?
+bossOnbike:We won't see the end of this prophecy. 
+bossOnbike:they must of heard of this guy.
+helper:Because a Falcon is a bird, right?
+helper2:The elders on the council still love the legends.
+bossOnbike:Yes they do.
+helper2:it's the only reason they aren't continuing the cleaner attack plans.
+helper:I'm going to assume a Falcon is a bird.
+bossOnbike:then perhaps this offers us an opportunity.
+helper2:how so?
+bossOnbike:if the council believes this john falcon is a legendary whatever... 
+bossOnbike:...then they will be pleased to hear of his death.
+helper:Like poor Jeff Eagle.
+bossOnbike:yes, it worked last time.
+helper2:but he's just a human, why think he's the one told of in legend?
+bossOnbike:Stop with the incessant bloody questions.
+bossOnbike:Always questions!
+helper2:you have a plan?
+bossOnbike:I surely do. Get my ship ready.
+helper:Aye, sir.
+}
+
+text
+{
+act III: the plot
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+data/sounds/music/AdventureGame/Kevin MacLeod - Secrets of the Schoolyard.mp3,repeat
+}

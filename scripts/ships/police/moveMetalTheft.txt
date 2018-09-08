@@ -1,0 +1,76 @@
+//begin
+// [x] 1 - "Heard any news?"
+// [x] 2 - "What's this place like?"
+// [x] 3 - "Bye."
+// [ ] 4 - "My business is bounty hunting."
+// [ ] 5 - "Have you heard about a new deathwar?"
+// [ ] 6 - "Any info on the stolen ships in andinti?"
+//end
+
+@S 
+ego:Hi there, Officer.
+other:Great to meet you, Citizen.
+other:I'm here to serve and protect.
+return
+
+@1 
+ego:Heard any news?
+other:All quite here, Citizen.
+other:Piracy, ramming, rebels and gangs.
+other:Metal theft is on the rise.
+other:It's fubar.
+other:Like normal.
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+option-on 6
+return
+
+@2 
+ego:What's this place like?
+other:We have growing problem.
+other:People in jetsuits keep ripping off metal.
+other:They come up to the side of stations.
+other:Stealing the metal panels for resale.
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+option-on 6
+return
+
+@3 
+ego:Bye.
+stop
+
+@4
+ego:Metal theft?
+other:yeah. normally people in jetsuits.
+other:They take the rad-grade metal sheets from stations.
+other:Guess they have some platimum in them or something.
+other:It's a major issue these days.
+option-off 4
+option-off 5
+option-off 6
+return
+
+@5 
+ego:Have you heard about a new deathwar?
+other:Only rumours, Citizen.
+other:I'm not in the business of spreading rumours.
+other:Keep calm and go about your business, Citizen.
+option-off 4
+option-off 5
+option-off 6
+return
+
+@6 
+ego:Any info on the stolen ships in andinti?
+other:It was about that missing ship, the Largo.
+other:Gold attracts crime, Citizen.
+other:Like dirty consoles attract bugs.
+option-off 4
+option-off 5
+option-off 6
+return

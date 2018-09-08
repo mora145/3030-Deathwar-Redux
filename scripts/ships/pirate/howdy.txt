@@ -1,0 +1,61 @@
+//begin
+// [x] 1 - "Heard any news?"
+// [x] 2 - "What's this place like?"
+// [x] 3 - "Bye."
+// [ ] 4 - "I'll buy you a beer at the bar."
+// [ ] 5 - "Sorry, not interested."
+//end
+
+@S 
+ego:Hi there.
+other:Yo!
+return
+
+@1 
+ego:Heard any news?
+other:I may have....
+ego:Oh?
+other:Buy me a drink and I'll tell you.
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+@2 
+ego:What's this place like?
+other:It's alright. I've been to better places.
+option-off 2
+return
+
+@3 
+ego:Bye.
+stop
+
+@4
+ego:I'll buy you a beer at the bar.
+other:Ok deal.
+ego:So go on what's the scoop?
+other:Lot of pirates in the area recently....
+other:...and the price of bounties has gone up.
+ego:That's it?
+other:No, of course not.
+ego:Oh, good. So what else?
+other:It's my birthday.
+ego:Great.
+takeMoney,50,DRINK AT THE BAR
+option-off 4
+option-off 5
+option-on 2
+option-on 3
+return
+
+@5 
+ego:Sorry, not interested.
+other:Your loss.
+option-off 4
+option-off 5
+option-on 2
+option-on 3
+return

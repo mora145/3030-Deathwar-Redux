@@ -1,0 +1,18 @@
+//begin
+// [x] 1 - "Thanks."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:hi again.
+other:What are you still doing here?
+other:You need to follow jek kek to Waiool and figure out what he's doing.
+other:The lander is attached to your ship, you just need to get close to the planet.
+other:Good luck.
+option-on 1
+return
+
+@1 // New
+ego:Thanks.
+stop

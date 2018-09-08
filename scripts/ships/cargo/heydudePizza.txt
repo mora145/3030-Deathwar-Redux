@@ -1,0 +1,57 @@
+//begin
+// [x] 1 - "No, sorry."
+// [x] 2 - "I Sure am."
+// [x] 3 - "Bye."
+// [ ] 4 - "Where can I get some?"
+// [ ] 5 - "Enjoy."
+//end
+
+@S 
+other:Hey dude!
+other:Are you the one who ordered the pizza?
+other:I got a great pizza here for someone.
+
+return
+
+@1 
+ego:No, sorry.
+other:Oh great. What a waste.
+other:I'll guess I'll eat it myself.
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+return
+
+@2 
+ego:I Sure am.
+other:Don't blag me, pal.
+other:Your ship reg is not correct.
+other:What a waste.
+other:It smells great but it's getting real cold.
+option-off 2
+return
+
+@3 
+ego:Bye.
+stop
+
+@4
+ego:Where can I get some?
+other:Pizza?
+other:I don't know where this was made. 
+other:A guy at HBE police station just paid me to deliver it.
+other:A guy with a mustache.
+other:Officer Grah.
+ego:I guess it's for a police officer then.
+other:I guess.
+other:He paid half up front, half on delivery.
+other:But I can't find the ship with the correct reg number.
+option-off 4
+return
+
+@5 
+ego:Enjoy.
+other:Yeah, a quick reheat and it should be nice.
+other:Bye.
+stop

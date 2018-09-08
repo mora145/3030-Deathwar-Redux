@@ -1,0 +1,39 @@
+background
+{
+data/cutscenes/images/introAster.png
+}
+
+
+people 
+{
+boss,data/stations/special characters/plotboss_50x108_4.png,86,177,facing right,invisible
+
+}
+
+fades
+{
+in
+}
+
+dialogue
+{
+boss:..Kent, I'm suited and booted. :data/voice/newgame1/fa1.wav
+boss:Open outer hatch. :data/voice/newgame1/fa2.wav
+boss:I'll go cut in. :data/voice/newgame1/fa3.wav
+boss:Over. :data/voice/newgame1/fa4.wav
+}
+
+text
+{
+Out in the asteroid field...
+}
+
+animation
+{
+
+}
+
+sounds
+{
+
+}

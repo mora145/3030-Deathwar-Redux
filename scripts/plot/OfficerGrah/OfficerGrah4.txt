@@ -1,0 +1,105 @@
+//begin
+// [ ] 1 - "What's the problem now?"
+// [ ] 2 - "You need my bounty hunting skills?"
+// [ ] 3 - "I don't have authority for hand weapons."
+// [ ] 51 - "I was quit when I came in here. I'm twice as quit now."
+// [ ] 52 - "Sounds like you have a problem, not me."
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hey Grah.
+other:Hi, Falcon! I saw you talking to Kent.
+other:Did he tell you my offer?
+other:I need an old timer, I need someone with hand weapon skills.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // What's the problem now?
+ego:What's the problem now?
+other:Droids. Some gang released a droid hit swarm.
+other:And it's out of control.
+ego:Hover drones?
+other:Yeah. Stab drones. 
+other:They are attacking traders randomly on a few stations.
+other:This is a bad one, the worst yet.
+option-off 1
+option-off 2
+option-off 3
+option-on 51
+option-on 52
+return
+
+@2 // You need my bounty hunting skills?
+ego:You need my bounty hunting skills?
+other:Droids. Some gang released a droid hit swarm.
+other:And it's out of control.
+ego:Hover drones?
+other:Yeah. Stab drones. 
+other:They are attacking traders randomly on a few stations.
+other:This is a bad one, the worst yet.
+option-off 1
+option-off 2
+option-off 3
+option-on 51
+option-on 52
+return
+
+@3 // I don't have authority for hand weapons.
+ego:I don't have authority for hand weapons.
+ego:I let my licence lapse.
+other:Never mind that, Falcon.
+other:Some gang released a droid hit swarm.
+other:And it's freaking out of control.
+ego:Hover drones?
+other:Yeah. Hover Stab drones, Kill-bots, whatever you call them. 
+other:They are attacking traders randomly on a few stations.
+other:This is a bad one, the worst yet.
+option-off 1
+option-off 2
+option-off 3
+option-on 51
+option-on 52
+return
+
+@51 // I was quit when I came in here. I'm twice as quit now.
+ego:I was quit when I came in here. I'm twice as quit now.
+other:If you say so, Falcon.
+other:But I think you might change your mind.
+option-off 51
+return
+
+@52 // Sounds like you have a problem, not me.
+ego:Sounds like you have a problem, not me.
+other:You might change your mind, Falcon.
+option-off 52
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye. 
+other:Here is your gun... and Good luck.
+other:My rookies are being slashed to pieces.
+ego:But... I didn't accept any mission!
+other:Then I'll have to arrest you.
+other:On account of having that pistol.
+ego:Ok, ok. I get it.
+other:Listen, last night they committed a hit on a trader.
+other:In the AOLBE system.
+other:We think it was originally a swarm of about twenty.
+other:My rookies took out about ten...
+other:One of them got fried flying into an electrical panel. 
+other:We lost the others.
+other:Go south to the AOLBE system, go directly to Brorelocci station.
+ego:Broccoli station?
+other:They say it Broor-e-locci. 
+other:It looks like a big blue manta ray, you can't miss it.
+other:Destroy any Drones there, and find out the situation.
+other:In return, Kent will be released.
+Stop
+

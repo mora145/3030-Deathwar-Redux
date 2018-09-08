@@ -1,0 +1,47 @@
+//begin
+// [x] 1 - "Yeah, don't worry. I'll find him."
+// [x] 2 - "Nevermind."
+// [ ] 3 - "What happens when I find him?"
+// [ ] 4 - "Alright. I'll see you later."
+//end
+
+
+@S
+other:Hey, aren't you supposed to be doing a job for me?
+ego:Yeah, finding someone, right?
+other:That's right. What do you want?
+other:And why aren't you out there doing what I'm paying for?
+option-on 1
+option-on 2
+return
+
+@1
+ego:Yeah, don't worry. I'll find him.
+other:Good. It's a lot of money. And I haven't seen him in years.
+other:Get on your way.
+other:Come back and see me when you've found him.
+option-off 1
+option-off 2
+option-on 3
+option-on 4
+return
+
+@2
+ego:Nevermind.
+other:Ok, just get going.
+stop
+
+@3
+ego:What happens when I find him?
+other:Well, you should talk to him to confirm his identity.
+other:Then come back and talk to me. 
+other:When we've talked, I'll pay you your money.
+other:That sound fair?
+ego:Fair enough.
+other:Ok, get going.
+stop
+
+@4
+ego:Alright. I'll see you later.
+other:Good.
+stop

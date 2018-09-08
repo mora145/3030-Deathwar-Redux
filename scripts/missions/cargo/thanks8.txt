@@ -1,0 +1,26 @@
+//begin
+// [x] 1 - "Yeah. Easy.."
+// [x] 2 - "No. I did some other stuff on the way."
+//end
+
+@S
+ego:Your cargo has been delivered.
+other:Thanks. Your money has been credited to you.
+other:Was it straight forward?
+option-on 1
+option-on 2
+return
+
+@1 
+ego:Yeah. Easy.
+other:Cool. I'll tell my friends you did a good job.
+ego:Thanks, must go.
+stop
+
+@2
+ego:No. I did some other stuff on the way. 
+other:Really? Not bounty hunting!?
+ego:With your cargo, of course not.
+other:I should hope not!
+ego:Must split.
+stop

@@ -1,0 +1,25 @@
+image=BbigGship_100x100_5.png
+name=Churchill
+turnSpeed=0.52
+cargoSize=360
+warpSpeed=200
+enginePower=0.22
+cost=2145000
+maxCrew=5
+passengers=7
+mintech=0.66
+available=1
+maxmissiles=8
+turret?=1
+firefrom(w,h)=-13,30
+turretat(x,y)=-9,59
+[thrusters]
+-10,94
+10,94
+-7,96
+7,96
+[/thrusters]
+M6 Trader - A true cargo ship to be proud of. The Churchill boasts a considerable cargo size and a decent turn speed for its size. The downsides, of which there aren't many, include the low diff ratio and a small amount of passengers for its size.
+producedBy=ATC Spaceflight
+yearDeveloped=3015
+funTrivia=Named after a famous dog, apparently. Oh yes.

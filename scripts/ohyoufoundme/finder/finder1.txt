@@ -1,0 +1,25 @@
+//begin
+// [x] 1 - "No problem, glad I could help."
+// [x] 2 - "See you around."
+//end
+
+
+@S
+other:Thanks for your hard work, I can finally go and see him.
+other:I just hope he doesn't go anywhere before I can get there.
+other:I've paid your money into your account.
+ego:I've put his location into your data cube.
+other:Thanks for helping me out.
+option-on 1
+option-on 2
+return
+
+@1
+ego:No problem, glad I could help.
+other:Good luck, my friend.
+stop
+
+@2
+ego:See you around.
+other:You too, I hope. Goodbye.
+stop

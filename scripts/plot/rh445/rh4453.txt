@@ -1,0 +1,30 @@
+//begin
+// [x] 1 - "Yeah, gimme a try."
+// [x] 2 - "Not right now."
+//end
+
+@S // start
+other:Hi, can I help you?
+other:Oh, it's you again.
+other:You want to try that circuit board again?
+option-on 1
+option-on 2
+return
+
+@1 // I'll give it a try.
+ego:I'll give it a try.
+other:Great. If you get stuck or you don't know how to unscramble it completely
+other:just press escape.
+ego:So, how do I unscramble them again?
+other:Just click on a node to move. 
+other:When all the circuits aren't crossing...
+other:...you have successfully unscrambled it.
+other:Ok? Have a go.
+setMissionAnswer 1
+stop
+
+@2 //Not right now.
+ego:Not right now.
+other:Ok, come back when you want to give it a shot.
+setMissionAnswer 0
+stop

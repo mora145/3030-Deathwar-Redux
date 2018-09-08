@@ -1,0 +1,104 @@
+//begin
+// [x] 1 - "What's up?"
+// [x] 2 - "Who's that?"
+// [x] 3 - "Are you in a fight?"
+// [x] 31 - "Bar Fight!"
+
+// [ ] 40 - "I always miss the bar fights."
+// [ ] 41 - "What did he do to you?"
+// [ ] 42 - "Is he a pirate?"
+// [x] 99 - "I gotta go."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+
+return
+
+@1 // What's up?
+ego:What's up?
+other:Just holding this creep.
+ego:What for?
+other:So I can punch him like this.
+other:Like this.
+option-off 1
+return
+
+@2 // Who's that?
+ego:Who's that?
+other:This is Krull.
+other:He needs..
+other:...a good..
+other:....hard....
+other:...punching.
+other:Right in the face.
+option-off 1
+option-off 2
+option-off 3
+option-off 99
+option-off 31
+option-on 40
+option-on 41
+option-on 42
+return
+
+@3 // Are you in a fight?
+ego:Are you in a fight?
+other:The fight is over.
+other:I won.
+
+option-off 3
+return
+
+@31 // Bar Fight!
+ego:Bar Fight!
+ego:Is this a bar fight starting?
+ego:Or did I miss it?
+ego:I missed it didn't I.
+other:Yes.
+other:I'm just restraining this creep.
+option-off 31
+return
+
+
+@40 // I always miss the bar fights.
+ego:I always miss the bar fights.
+ego:I hear they're common around here..
+ego:...but I've never seen one yet.
+other:Who told you that?
+other:Hardly get any since they armed the bardroids.
+option-off 40
+return
+
+@41 // What did he do to you?
+ego:What did he do to you?
+other:He's been talking shit about me.
+other:And he spat at my sister.
+other:So now, he gets beats.
+other:He gets the beats until I feel satisfied.
+ego:I guess that's natural justice.
+other:I guess. 
+other:It sure feels good.
+option-off 40
+option-off 41
+option-off 42
+option-on 99
+return
+
+@42 // Is he a pirate?
+ego:Is he a pirate?
+other:Pirate, haha.
+other:No, he's been talking shit and spitting.
+other:Haven't you Krull.
+other:So now, he gets beats.
+option-off 42
+return
+
+@99 // I gotta go.
+ego:I gotta go.
+other:No problem.
+option-off 99
+stop
+

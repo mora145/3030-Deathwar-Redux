@@ -1,0 +1,286 @@
+//begin
+// [x] 1 - "Aaaah, I lost my ship!"
+// [x] 2 - "I just had my ship impounded!"
+// [x] 21 - "I am looking for Frank Zoed."
+// [x] 22 - "What Species are you?"
+// [ ] 23 - "If they have bounties on them, send your goons."
+// [ ] 233 - "Do I look like I only have a shuttle?"
+// [ ] 24 - "I didn't come here looking for trouble."
+
+
+// [ ] 3 - "Where is Frank now?"
+// [ ] 31 - "What did Frank give as compensation?"
+// [ ] 32 - "Is that some sort of hover-chair?"
+// [ ] 33 - "How do I get to the Rub Ba stations?"
+// [ ] 34 - "Did police give you an old shuttle too?"
+// [ ] 35 - "So, where can I get my hover-chair?"
+// [ ] 36 - "How does the hover-chair hover?"
+// [ ] 37 - "What Ad did you pay for?"
+// [ ] 38 - "What can I do with a shuttle?"
+// [ ] 39 - "Why do you ask about salvage?"
+// [ ] 40 - "What was this missing ship called?"
+// [ ] 41 - "So... Nice place this?"
+// [ ] 42 - "Are you plugged into it?"
+// [x] 99 - "I'm off."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Have we met?
+return
+
+@1 // Aaaah, I lost my ship!
+ego:Aaaah, I lost my ship!
+other:Have we met?
+ego:No, but I had to speak to someone.
+ego:I'm fuming.
+other:And I'm a busy Slug.
+other:I'm Gebbo you know.
+ego:Gebbo, I think I have heard of you.
+other:I have my own ship related problems.
+option-off 1
+return
+
+@2 // I just had my ship impounded!
+ego:I just had my ship impounded!
+other:Me too, all the way.
+other:Police took it.
+other:Sold a hot ship I was.
+other:I have many others.
+other:Shit happens.
+option-off 2
+return
+
+@21 // I am looking for Frank Zoed.
+ego:I am looking for Frank Zoed.
+other:That's who sold a hot ship to me!
+ego:I wonder how many people are after him.
+other:Poor Frank, haha. 
+other:He must have bought a whole load of hot ships!
+other:And all the way I thought it was just me! 
+ego:Poor Frank!??
+ego:It might be ok for you...
+ego:...I only had one ship.
+ego:I demand compensation.
+other:Well, I already did! Haha.
+option-on 3
+option-on 31
+option-on 32
+option-off 1
+option-off 2
+option-off 21
+return
+
+@22 // What Species are you?
+ego:What Species are you?
+other:What?
+other:You just up from a planet?
+other:I'm an effing Slug.
+other:Slug-species.
+other:You're a slug phobe huh?
+other:I know your type.
+other:I can call some of my spacers.
+other:You can talk to them outside.
+other:If you like.
+option-off 22
+option-on 23
+option-on 24
+return
+
+@23 // If they have bounties on them, send your goons.
+ego:If they have bounties on them, send your goons.
+other:As you like it, I'll give the order.
+other:You'll meet a couple of bounties soon.
+other:Hope for you that you've got more than a shuttle.
+attackyououtside,1,Gebbos Dragon
+option-off 23
+option-off 24
+option-on 233
+return
+
+@233 // Do I look like I only have a shuttle?
+ego:Do I look like I only have a shuttle?
+other:Who cares? Get lost will you.
+option-off 233
+return
+
+@24 // I didn't come here looking for trouble.
+ego:I didn't come here looking for trouble.
+other:Then don't insult me. I'm Gebbo!
+ego:No problem. Just making conversation.
+option-off 23
+option-off 24
+return
+
+@3 // Where is Frank now?
+ego:Where is Frank now?
+other:I think now he is on Rub Ba 2.
+other:Maybe Rub Ba 3.
+ego:Ok, thanks.
+other:Don't kill him!
+other:He's doing a job for me.
+other:As means of repayment.
+other:He's no good to me injured.
+ego:Sure.
+other:Make sure!
+other:I didn't ask for direct financial repayment...
+other:...perhaps Frank has some money spare for you.
+option-off 3
+option-on 33
+return
+
+@31 // What did Frank give as compensation?
+ego:What did Frank give as compensation?
+other:I got him to do a special task.
+ego:Sounds intriguing.
+other:Yeah. I should make some nice profit on it.
+ego:And what is it?
+other:Frank used to have a different career.
+other:He wasn't always a mechanic.
+other:You'll find out if you watch the Tv.
+other:Haha. 
+other:I just paid for the Ads.
+option-off 31
+option-on 34
+option-on 37
+return
+
+@32 // Is that some sort of hover-chair?
+ego:Is that some sort of hover-chair?
+other:Yes. 
+ego:Can I get one?
+other:They are for us Slugs.
+other:But sure, why not.
+option-off 32
+option-on 35
+option-on 36
+return
+
+
+@33 // How do I get to the Rub Ba stations?
+ego:How do I get to the Rub Ba stations?
+other:At this time of orbit... 
+other:...just launch and go Left.
+other:Relative to the standard chart.
+other:Don't you use the nav map?
+ego:I just got given an old shuttle....
+ego:Who knows if it has one!
+option-off 33
+return
+
+@34 // Did police give you an old shuttle too?
+ego:Did police give you an old shuttle too?
+other:Yes, but want it I don't.
+other:I'll just sell it.
+option-off 34
+option-on 38
+return
+
+
+@35 // So, where can I get my hover-chair?
+ego:So, where can I get my hover-chair?
+other:Haha, you really like the hover-chair.
+ego:Looks comfy.
+other:They sure are.
+other:Don't know where you'd get one for a human.
+option-off 35
+return
+
+@36 // How does the hover-chair hover?
+ego:How does the hover-chair hover?
+other:Science.
+other:All the way.
+other:Don't you have bigger concerns?
+ego:Just curious. 
+ego:I've not seen one before.
+option-off 36
+option-on 41
+option-on 42
+return
+
+@37 // What Ad did you pay for?
+ego:What Ad did you pay for?
+other:For Frank Zoed's job for me.
+other:You'll see it.
+other:If you watch the bar Tv long enough.
+ego:I ain't got time for that.
+other:No problem.
+other:Upset I'd be too.
+other:If I only had a shuttle like you.
+option-off 37
+return
+
+@38 // What can I do with a shuttle?
+ego:What can I do with a shuttle?
+other:Taxi and delivery jobs.
+other:At a push, you could get all the way to Elesw.
+other:If you have a little patience.
+ego:I ain't got time for that yet.
+ego:I'll just do local jobs until I can get a better ship.
+other:You were doing salvage before this?
+other:Before you lost your ship?
+ego:I was.
+option-off 38
+option-on 39
+return
+
+@39 // Why do you ask about salvage?
+ego:Why do you ask about salvage?
+other:Well.. rumour is...
+other:A ship went missing after it was attacked.
+other:It has a very valuable cargo.
+ego:Interesting.
+other:Maybe contact me, when a better ship you have.
+other:I'll need a good pilot if I get a tip-off.
+ego:A tip-off on this salvage location?
+other:Exactly.
+option-off 39
+option-on 40
+return
+
+@40 // What was this missing ship called?
+ego:What was this missing ship called?
+other:I can't tell you everything.
+other:You might start looking for it on your own.
+other:Enough people already are.
+other:I'm only going to if I get a good tip.
+ego:Interesting.
+option-off 40
+return
+
+@41 // So... Nice place this?
+ego:So... Nice place this?
+other:It's ok.
+other:It's a good system to be based in.
+other:We are the right most station of a group of three.
+other:Rub Ba 2, Rub Ba 3, and here.
+ego:Yes, I know this system.
+ego:I meant this bar.
+other:It sells my favourite drink.
+other:That's all I need from a bar.
+option-off 41
+return
+
+@42 // Are you plugged into it?
+ego:Are you plugged into it?
+other:My chair?
+other:Sure am.
+other:It's attached to my nervous system.
+other:So I can control it easy.
+ego:Ah, it's not a urinary catheter then?
+other:It's that too.
+option-off 42
+return
+
+@99 // I'm off.
+ego:I'm off.
+ego:Going to get some payback.
+other:Sure.
+other:Why not take a package delivery.
+other:Use the Job Console on your way out.
+other:Sounds like you need the money!
+option-off 99
+stop
+

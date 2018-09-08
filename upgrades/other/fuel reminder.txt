@@ -1,0 +1,12 @@
+name=low fuel reminder
+cost=425
+tech lvl=0.1
+avaiable=1
+desc=Warns you if you try leaving a station without full fuel tanks.
+once=1
+mass=0
+department=low fuel reminder
+value#=0
+[incompat]
+[incompat]
+image=data/images/upgrades/ecm0.png

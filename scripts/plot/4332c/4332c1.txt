@@ -1,0 +1,88 @@
+//begin
+// [x] 1 - "Ok, I'll help."
+// [x] 2 - "I can't right now, maybe later."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Well, well, we finally meet.
+ego:Indeed. You're not quite what I expected.
+other:Yes, some find it strange a droid is leading the resistance.
+other:Though droids have as many rights as organics.
+ego:I'm not here to talk semantics, I'm here to help you out.
+other:I understand. Firstly, well done for getting here.
+ego:It took some time to get the damn clues and the password.
+ego:What's up with that password?
+ego:A little cliche isn't it?
+other:It has more than one meaning, Mr. Falcon.
+other:Anyway, enough of that. We need your help again.
+ego:Go on.
+other:I'm sending your ship's computer a datadisc.
+other:It has info retrieved from a damaged datadisc found floating in space.
+other:I'll let you read it later, but for now I will paraphrase.
+other:Every cleaner scout and capital ship has a backup shield code.
+other:It will deactivate the shields in an emergency.
+other:If only we had that code...
+other:...we could succeed in finally fighting them mano-a-mano.
+ego:Classic.
+other:Indeed.
+ego:So, where do I get it, and how do you use it?
+other:Good questions. Firstly we don't know where the code is.
+other:Secondly, we aren't sure how to use it.
+ego:Great, so you have no idea.
+other:As of yet, no.
+other:All we know is it exists. 
+other:When we have it we will find its function and how to use it.
+ego:How?
+other:Top Droids.
+other:With 133MHz CPUs. 
+ego:Any ideas as to where you might find this code?
+other:Yes we do. We could salvage one.
+other:A recent report arrived of a derelict near an asteroid field.
+other:The reason for its destruction is unknown....
+other:...and the freighter who forwarded the info was destroyed...
+other:...before it could divulge the location. 
+other:All we know is it's in an asteroid belt, floating there.
+ego:Which belts?
+other:We have search parties out now, scouring each one for this floating package.
+ego:So how can I help?
+other:Would you consider helping us search?
+ego:Where do you need me to go?
+other:Should you choose to accept it...
+other:...your search grid takes you to the systems, waessda and aresswa.
+other:What do you say Captain?
+option-on 1
+option-on 2
+return
+
+
+@1 // Ok, I'll help.
+ego:Ok, I'll help.
+ego:I don't have plans this weekend anyway.
+ego:Just tell me what you need doing.
+other:Great. 
+other:Go to waessda and aresswa and search the asteroid fields for devices.
+other:If you find any, tractor-beam them back here.
+other:We will get our head scientist to analyse them when he arrives here.
+other:He is currently en route but travel is difficult at the moment...
+other:...with F'Zuh's obsession with that prophecy.
+other:He will kill you at all costs.
+ego:He's gone as far as to destroy a system.
+ego:I understand how much he wants me dead.
+other:Be very careful. Those systems are swarming with pirates.
+setMissionAnswer 1
+stop
+
+@2 // I can't right now, maybe later.
+ego:I can't right now, maybe later.
+other:I see. I can't say I understand.
+other:You are currently wanted by the galactic police.
+other:And by the council for crimes you did not commit.
+other:You will have a hard time leading a normal life.
+other:When you have seen sense and changed your mind..
+other:Come back and let me know.
+ego:Don't try guilt trippin' me.
+ego:I'll do it when, and if, I feel like it.
+setMissionAnswer 0
+stop

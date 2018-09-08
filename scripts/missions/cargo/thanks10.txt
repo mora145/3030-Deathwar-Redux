@@ -1,0 +1,30 @@
+//begin
+// [x] 1 - "Yeah, but I took most of them out."
+// [x] 2 - "No. Only fools attack me any more."
+//end
+
+@S
+ego:Your cargo has been delivered.
+other:Oh good. You have been credited.
+other:Did you get attacked at all?
+other:I hear piracy is on the rise.
+option-on 1
+option-on 2
+return
+
+@1 
+ego:Yeah, but I took most of them out.
+other:In that crate?
+ego:Shut up, my ship's ace.
+other:Ha!
+ego:Checkout my kills with your bio-reader.
+other:Don't have one.
+ego:Well there are a lot, Pal.
+stop
+
+@2
+ego:No. Only fools attack me any more.
+ego:They can spot dangerous pilot like me.
+other:Sure they can.
+ego:Enough of this mindless banter. See ya later.
+stop

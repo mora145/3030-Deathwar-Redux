@@ -1,0 +1,52 @@
+//begin
+// [x] 1 - "Charming."
+// [x] 2 - "Oh Nice!"
+// [x] 3 - "Bye."
+// [ ] 4 - "ok, lets do this!"
+// [ ] 5 - "No problem."
+//end
+
+@S 
+ego:Hi there.
+other:Who the hell are you?
+other:Get the smack off my comms link.
+other:Shit face.
+return
+
+@1 
+ego:Charming.
+other:Shit face.
+ego:You've got anger issues.
+other:Whatever!
+other:Get the smack off my comms.
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+return
+
+@2 
+ego:Oh Nice!
+other:Whatever!
+other:Get the smack off my comms.
+other:Idiot pilots should be shot.
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+return
+
+@3 
+ego:Bye.
+stop
+
+@4
+ego:ok, lets do this!
+other:Smack off my comms right now.
+other:I'll blast you right up.
+ego:I don't think so.
+stop
+
+@5 
+ego:No problem.
+stop

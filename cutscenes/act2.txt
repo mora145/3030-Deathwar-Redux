@@ -1,0 +1,59 @@
+background
+{
+data/cutscenes/images/councilHallway.png
+}
+
+people 
+{
+bosscape,data/stations/special characters/plotbossCloak_80x130_4.png,220,144,facing right,visible
+helper2,data/stations/standing_at_bar/squidman1_50x130_4.png,310,151,facing left,visible
+helper,data/stations/special characters/plotzoidman2_50x130_4.png,167,145,facing right,visible
+badcop,data/stations/special characters/bigCopAlien1_80x130_4.png,116,159,facing right,visible
+
+Shuttleforefloat,data/stations\drinkdroids/floater3_36x50_2.png,336,128,facing left,visible
+
+}
+
+dialogue
+{
+helper2:We should finish off these last species and begin terraforming.
+helper2:The nanobots have worked perfectly so far. Why the delay? 
+bosscape:I'll tell you why.
+bosscape:Because now some of us are helping these scum.
+helper:Nobody seriously believes the stories do they?
+bosscape:If anything matches a detail in their ambiguous legends...
+bosscape:...they want to pause the plan.
+helper2:And which detail is it this time?
+bosscape:"Then the birdperson appeared and caused much Howling!"
+helper2:Not that one again. Who was it last time?
+helper:Oh yeah, I remember that! Jeff Eagle wasn't it.
+bosscape:It's quite preposterous.
+helper:I like it.
+badcop:Me too.
+bosscape:You two, and some of the elders, have brain fade.
+bosscape:This is the only thing stopping us clean up space.
+bosscape:These beings are disgusting. 
+bosscape:They're making my life like a urinal full of spunk.
+helper:Ewww. Sir, Please.
+helper2:So we just have to wait?
+bosscape:I want to release a new wave of nanos right now!
+bosscape:But the council is withholding access.
+bosscape:We need to remove their fear of this legend.
+helper2:Then what are we to do?
+bosscape:Keep a lookout for another chump with a bird name.
+}
+
+text
+{
+act II: the birdperson
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+data/sounds/music/AdventureGame/Kevin MacLeod - Secrets of the Schoolyard.mp3,repeat
+}

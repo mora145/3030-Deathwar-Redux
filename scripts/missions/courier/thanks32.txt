@@ -1,0 +1,23 @@
+//begin
+// [x] 1 - "No problem."
+// [x] 2 - "I'm a professional."
+//end
+
+@S
+ego:Here's your package.
+other:Hey, thanks for delivering this.
+option-on 1
+return 
+
+@1 
+ego:No problem.
+stop
+
+@2 // I'm a professional.
+ego:I'm a professional.
+other:Yeah, thanks again speedy delivery.
+other:I think it's from my friend.
+ego:That's nice but I have to get going.
+other:Thanks again.
+
+stop

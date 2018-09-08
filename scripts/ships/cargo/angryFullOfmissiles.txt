@@ -1,0 +1,61 @@
+//begin
+// [x] 1 - "Take it easy."
+// [x] 2 - "Is this a dangerous place?"
+// [x] 3 - "Bye."
+// [ ] 4 - "I can see you are busy."
+// [ ] 5 - "No problem."
+//end
+
+@S 
+ego:Hi there.
+other:Don't try it, buddy!
+other:I got lasers and all sorts of missiles!
+other:I'm full of missiles!
+other:You don't know how many!
+return
+
+@1 
+ego:Take it easy.
+other:I'm full of missiles!
+other:Back off!
+other:full of missiles! missiles! 
+other:100 missiles!
+other:You hear me, buddy!
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+return
+
+@2 
+ego:Is this a dangerous place?
+other:It sure is, buddy.
+other:Get fully stocked with missiles.
+other:Just like me.
+other:The most expensive you can.
+other:As many as you can.
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+return
+
+@3 
+ego:Bye.
+stop
+
+@4
+ego:I can see you are busy.
+ego:Stay safe.
+other:Just back off!
+other:I'm ready to defence myself.
+ego:defence yourself?
+other:yeah. I'd defence you into bits.
+other:With my missiles. 100 times.
+ego:Good for you.
+stop
+
+@5 
+ego:No problem.
+ego:Bye.
+stop

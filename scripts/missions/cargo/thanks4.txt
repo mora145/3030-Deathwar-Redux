@@ -1,0 +1,42 @@
+//begin
+// [x] 1 - "Any news from the council?"
+// [x] 2 - "Any new trader jokes?"
+// [x] 3 - "What's going down here?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Your cargo container is outside.
+other:Fantastic, thanks. 
+ego:Just doing my job, dude.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // Any news from the council?
+ego:Any news from the council?
+other:There was a micro-meteorites shower earlier.
+other:The station was in lockdown.
+ego:Unlucky.
+other:Yeah. Well, I had to wait for you anyway.
+ego:The shower has passed has it.
+other:Yeah.
+ego:Cool, I'm gonna go check the consoles.
+stop
+
+@2 // Any new trader jokes?
+ego:Any new trader jokes?
+other:No. Buzz off.
+stop
+
+@3 // What's going down here?
+ego:What's going down here?
+other:Going down? Not much.
+other:What's happening out in space.
+ego:The usual.
+other:Thanks again for the container.
+stop
+
+

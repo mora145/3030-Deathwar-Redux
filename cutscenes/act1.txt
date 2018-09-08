@@ -1,0 +1,55 @@
+background
+{
+data/cutscenes/images/badDeck.png
+}
+
+people 
+{
+bosschair,data/stations/special characters/plotbossSeat_80x130_4.png,188,129,facing right,visible
+Shuttleforefloat,data/stations\drinkdroids/floater2_36x50_2.png,225,124,facing right,visible
+helper,data/stations/special characters/plotzoidman2_50x130_4.png,245,136,facing left,visible
+goon,data/stations/special characters/suitPaper2onChair_50x108_4.png,127,141,facing right,visible
+shipbaddeckLighting,data/stations/special characters/baddeckLighting_400x160_1.png,200,160,facing right,visible
+
+}
+
+fades
+{
+in
+out
+}
+
+dialogue
+{
+bosschair:Until we track down the Largo...:data/voice/act1/act1-a.wav
+bosschair:...Warn off all the salvagers.:data/voice/act1/act1-c.wav
+bosschair:Kill the ones who don't get the message.
+helper:Aye Sir. :data/voice/act1/act1-d.wav
+goon:Right, that ship is ours!:data/voice/act1/act1-e.wav
+helper:It's a big ship. We'll find it soon, Sir.:data/voice/act1/act1-f.wav
+bosschair:When it went missing it was stuffed with Gold, Boys!:data/voice/act1/act1-g.wav
+bosschair:Nine...
+bosschair:Thousand...
+bosschair:Tons.:data/voice/act1/act1-i.wav
+bosschair:Now go hunt down those salvagers!
+}
+
+text
+{
+
+}
+
+animation
+{
+split right
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+keep playing
+}

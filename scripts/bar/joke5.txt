@@ -1,0 +1,50 @@
+//begin
+// [x] 1 - "Ok, hit me."
+// [x] 2 - "No."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hey.
+other:Hiya.
+other:You want hear a new trader joke?
+return
+
+@1 // Yes ok.
+ego:Ok, hit me.
+other:Ok.
+other:What do you call a bar-droid who over-charges?
+ego:I don't know.
+other:Sir!
+other:They all have blasters under the bar you know.
+other:Ha!
+ego:I'm gonna check the consoles.
+other:Safe flying.
+ego:Yeah.
+stop
+
+@2 // No.
+ego:No.
+other:Oooh, come on, dude.
+ego:Nah.
+other:Ooooh, you know you wanna.
+other:Come on.
+ego:No jokes.
+other:It's a good joke.
+ego:I doubt it.
+other:It's new.
+ego:I doubt it.
+other:Oh, you the joke master are you?
+ego:No.
+other:No no, go on. Hit me with your best.
+ego:Hey, back off, pal.
+other:No no, go on.
+ego:Ok then.
+other:Cool.
+ego:There was a trader on a station. 
+ego:He got a smack in the face by a guy in a hat.
+other:Cool.
+other:I don't get it.
+stop
+

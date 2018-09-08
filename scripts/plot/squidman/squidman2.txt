@@ -1,0 +1,15 @@
+//begin
+// [ ] 1 - "Stay right there."
+//end
+
+// dialog script file
+@S // dialog startup entry point
+other:No more ejaculations out of my mouth, Mr Falcon.
+other:I'm distancing myself from this fiasco.
+option-on 1
+return
+
+@1 // Stay right there.
+ego:Stay right there.
+option-off 1
+stop

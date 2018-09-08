@@ -1,0 +1,52 @@
+//begin
+// [x] 1 - "Take it easy."
+// [x] 2 - "Is this a dangerous place?"
+// [x] 3 - "Bye."
+// [ ] 4 - "I can see you are busy."
+// [ ] 5 - "No problem."
+//end
+
+@S 
+ego:Hi there.
+other:Don't get too close to me, Killer!
+other:I know what you're doing!
+other:You're scoping me out, right?
+other:I'm packing some firepower here so back off!
+return
+
+@1 
+ego:Take it easy, I'm not planning an attack.
+other:Then back away, please.
+other:You are making me nervous.
+ego:I'm just going about my business.
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+return
+
+@2 
+ego:Is this a dangerous place?
+other:It sure is, buddy.
+other:Get a good weapon and better shields.
+other:From the high tech systems.
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+return
+
+@3 
+ego:Bye.
+stop
+
+@4
+ego:I can see you are busy.
+ego:Stay safe.
+other:Stay safe.
+stop
+
+@5 
+ego:No problem.
+ego:Bye.
+stop

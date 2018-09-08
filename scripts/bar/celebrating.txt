@@ -1,0 +1,51 @@
+//begin
+// [x] 1 - "What about?"
+// [x] 2 - "In that case..."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Ahoy there.
+ego:Hi.
+ego:What's up with you?
+other:I'm celebrating.
+return
+
+@1 // What about?
+ego:What about?
+other:I completed an epic trade run.
+other:I've been in space for ages.
+ego:What where you trading?
+other:Some diamonds, some titanium.
+ego:Make much profit.
+other:Yeah. That's what I'm celebrating.
+other:That, and making it safely. 
+ego:Yeah, I can get pretty hairy out there.
+ego:Get attacked at all?
+other:Nah, didn't drop out of diff-split much.
+ego:Just for re-fueling.
+other:You got it.
+ego:Smooth. I'm gonna check the jobs board n stuff.
+ego:Catch ya later.
+other:Ok.
+stop
+
+@2 // In that case...
+ego:In that case... 
+ego:I recommend splashing out on some Peanuts.
+other:Ha, yeah, the entertainments for traders are quite limited.
+other:My friend is at the bar now trying to order some drinks.
+other:He's taking his time.
+ego:The bar-droid is probably doing another head count.
+other:Yeah, what is with that?
+ego:It's a management thing they say.
+other:Well, I don't know about management, but I know I like prompt service.
+ego:I might go to the bar myself.
+other:Good luck getting served.
+ego:I make my own luck.
+other:Ha.
+stop
+
+
+

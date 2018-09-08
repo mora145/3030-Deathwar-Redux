@@ -1,0 +1,33 @@
+//begin
+// [x] 1 - "No, I still don't have it."
+// [x] 2 - "How did you suggest I make money?"
+// [x] 3 - "Doesn't matter, goodbye."
+//end
+
+@S
+other:Oh, you're back. you got that money?
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 
+ego:No, I still don't have it.
+other:Well, don't you think you should get it?
+ego:Yeah. I'm working on it.
+option-off 1
+return
+
+@2 
+ego:How did you suggest I make money?
+other:Work for it. Trade, bounty hunt, whatever. 
+other:I really don't care.
+other:And I don't have time for your questions.
+other:Come back when you have the money.
+option-off 2
+return
+
+@3 
+ego:Doesn't matter, goodbye.
+other:Alright, see you later.
+stop

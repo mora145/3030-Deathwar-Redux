@@ -1,0 +1,59 @@
+background
+{
+data/cutscenes/images/hangerbay1.png
+}
+
+people 
+{
+goon,data/stations/special characters/suitPaper2_50x108_4.png,221,128,facing right,visible
+helper,data/stations/special characters/plotzoidman2_50x130_4.png,172,142,facing right,visible
+zig,data/stations/drinkdroids/drinkDroidN_36x50_2.png,70,138,facing right,visible
+}
+
+fades
+{
+in
+out
+}
+
+dialogue
+{
+
+helper:That's what I heard.
+goon:For real?
+goon:Captain Liu?
+helper:Yeah.
+helper:She had her new ship impounded.
+goon:Boss will be pleased.
+goon:Will stall her hunting for the Largo.
+helper:Aye.
+helper:So we won't bother warning her off.
+helper:Then we won't have to deal with her chief engineer.
+goon:Yeah, I remember him. He can go berserk.
+helper:You sure you'll recognise this other guy?
+goon:Yeah. He's a human with a hat on.
+goon:Listen to this story...
+goon:Leading council members involved in a sex-pervert ring.
+goon:With kids.
+helper:Sick fucking bastards.
+goon:Fucking sick bastards.
+goon:Comparatively, our criminality is honourable.
+helper:Aye.
+helper:I heard Boss was on the look-out for one of my species.
+helper:During his time in max-security prison...
+helper:...there was one on his block.
+helper:He's been trying to track him down for years.
+goon:Finish telling me about that later.
+goon:Here he comes...
+
+}
+
+text
+{
+Idle talk 
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}

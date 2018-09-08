@@ -1,0 +1,22 @@
+image=BCargoShip1_100x100_5.png
+name=Montford JW5
+turnSpeed=0.49
+cargoSize=230
+warpSpeed=175
+enginePower=0.21
+cost=1225000
+maxCrew=4
+passengers=6
+mintech=0.57
+available=1
+maxmissiles=6
+turret?=1
+firefrom(w,h)=-11,12
+turretat(x,y)=0,62
+[thrusters]
+0,88
+[/thrusters]
+M5 Trader - Some say that all Montfords are cursed with the demons of past captains. Some say that's a pile of crap. You can't possibly believe that crud. Anyway, demons aside, this ship offers an impressive cargo size at the cost of a slow diff ratio. If you buy her just make sure you've had her exorcised first.
+producedBy=Montford Jr
+yearDeveloped=3017
+funTrivia=A captain of a montford once caught fire and burned to death while another accidentally got vented out into space.

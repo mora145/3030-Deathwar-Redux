@@ -1,0 +1,40 @@
+//begin
+// [ ] 1 - "You heard anything about the Largo?"
+// [ ] 2 - "Know how I can make fast money?"
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi again.
+ego:One more thing..
+option-on 1
+option-on 2
+return
+
+@1 // You heard anything about the Largo?
+ego:You heard anything about the Largo?
+other:No. I don't know what that is.
+ego:Ok, nevermind.
+option-off 1
+option-off 2
+return
+
+@2 // Know how I can make fast money?
+ego:Know how I can make fast money?
+other:In this area.
+other:Can't beat junk shooting.
+other:Get a Jetsuit and a gun.
+other:Get out there and blast that junk.
+ego:I know about that but thanks anyway.
+option-off 1
+option-off 2
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye.
+Stop
+

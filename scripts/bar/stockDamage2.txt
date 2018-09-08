@@ -1,0 +1,36 @@
+//begin
+// [x] 1 - "Any derelicts around these parts?"
+// [x] 2 - "Any other news?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi.
+other:Hi there.
+other:If you're a commodity trader the Methane tanks are contaminated.
+ego:What with?
+other:Don't know. They failed a quality test.
+other:Actually they probably sorted the problem by now.
+ego:Ok.
+return
+
+@1 // Any derelicts around these parts?
+ego:Any derelicts around in these parts?
+other:I'm not sure.
+other:I tried salvage for a while but I didn't find much.
+other:Now I just trade commodities.
+ego:I see.
+ego:Catch ya later.
+stop
+
+@2 // Any other news?
+ego:Anything else going down?
+other:Two droids nearly came to blows before.
+other:The bar-droid told em to shut it.
+ego:Ha.
+other:Yeah, It was quite funny. He threatened to get out his blaster.
+ego:Ha.
+other:Safe flying.
+ego:Later.
+stop

@@ -1,0 +1,5 @@
+Does anyone even know what an ECM is? if you're a trader then chances are, no. If you're into space combat then it's a must. ECM stands for Electronic Countermeasures, which use an Electro Magnetic Pulse. In short, this pulse will cause a missile's guidance circuits to become fried within a certain range. 
+
+They are available in various classes and are a favourite of bounty hunters. When a missile gets within the assigned maximum range of the ECM you have loaded then press -shift- to activate. If you're lucky you'll just get blown out of the way of the missile as it explodes. If you're not lucky you'll probably get a hull breach. I know I'd prefer the former.
+
+You can get them at your local station.

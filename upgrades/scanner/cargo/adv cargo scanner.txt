@@ -1,0 +1,13 @@
+name=advanced cargo scanner
+cost=1150
+tech lvl=0.45
+avaiable=0
+desc=offers a readout of the targeted ships cargo manifest and quantity.
+once=1
+mass=0
+department=cargo scanner
+value#=0
+[incompat]
+cargo scanner
+[incompat]
+image=data/images/upgrades/carScan2.png

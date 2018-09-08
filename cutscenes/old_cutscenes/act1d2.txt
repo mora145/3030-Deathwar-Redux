@@ -1,0 +1,33 @@
+background
+{
+data/cutscenes/images/bossLair1b.png
+}
+
+people 
+{
+boss,data/stations/special characters/plotboss_50x108_4.png,300,140,facing right,visible
+helper,data/stations/special characters/plotzoidman2_50x130_4.png,350,145,facing left,visible
+
+noise,data/stations/standing_at_bar/zoidman1_50x130_4.png,30,230,facing right,invisible
+
+}
+
+dialogue
+{   
+helper:I'll get a mop.
+}
+
+text
+{
+..one graphic animation later
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+data/sounds/music/background/Steve Finney - A beautiful dream.ogg,repeat
+}

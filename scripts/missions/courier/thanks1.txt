@@ -1,0 +1,20 @@
+//begin
+// [x] 1 - "No problem."
+// [x] 2 - "Have a good day."
+//end
+
+@S
+ego:Here you go.
+other:Hey, thanks!
+option-on 1
+return 
+
+@1
+ego:No problem.
+stop
+
+@2
+ego:Have a good day.
+other:Hey, what's a day?
+ego:Never mind.
+stop

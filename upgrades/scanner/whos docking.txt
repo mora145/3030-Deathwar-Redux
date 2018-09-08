@@ -1,0 +1,12 @@
+name=whos docking
+cost=260
+tech lvl=0.8
+avaiable=1
+desc=allows a pilot to see who is currently docking at a selected station.
+once=1
+mass=0
+department=whos docking
+value#=0
+[incompat]
+[incompat]
+image=data/images/upgrades/misc3.png

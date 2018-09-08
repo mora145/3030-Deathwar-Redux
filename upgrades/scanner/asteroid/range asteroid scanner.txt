@@ -1,0 +1,13 @@
+name=M3 range asteroid scanner
+cost=4840
+tech lvl=0.85
+avaiable=0
+desc=gives a coloured HUD visual representation of surrounding asteroids mineral content and amount.
+once=1
+mass=0
+department=asteroid scanner
+value#=0
+[incompat]
+asteroid scanner
+[incompat]
+image=data/images/upgrades/scanAster3.png

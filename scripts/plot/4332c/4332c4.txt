@@ -1,0 +1,30 @@
+//begin
+// [x] 1 - "Yeah, I'll help out."
+// [x] 2 - "Not right now."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:So, you're back. Do you want to help us now?
+option-on 1
+option-on 2
+return
+
+@1 // Yeah, I'll help out.
+ego:Yeah, I'll help out.
+other:Good.
+ego:And where is this scientist?
+other:Our head scientist is stuck on Qucieda in KP-FQ1.
+ego:So far away!
+other:Yeah, no money for this mission. It just has to get done.
+ego:Ok, fine.
+setMissionAnswer 1
+stop
+
+@2 // Not right now.
+ego:Not right now.
+other:Not right now?
+other:Come back and see me when you're ready.
+setMissionAnswer 0
+stop

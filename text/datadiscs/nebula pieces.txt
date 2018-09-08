@@ -1,0 +1,5 @@
+Nebula Pieces, the Mystery Solved
+
+Recently, council members have become worried about ships being entangled in the nebula without any way to protect themselves from preying pirates. This was solved recently with the addition of the nebula map pieces scheme. 
+
+The principle is simple: as scouting crews scan the nebula they update a universal database with ultra precise nebula positions. This information is then fed directly into all ships' databases. The information can be seen by going to your map database and enabling nebula data. A readout will tell you how much has been updated to your ship computer. Obviously the process is on going but I think we can all agree this will help ships being ensnared in the nebulas and take hours off your journey time.

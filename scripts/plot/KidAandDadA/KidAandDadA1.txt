@@ -1,0 +1,135 @@
+//begin
+// [ ] 1 - "Why don't we give him a call?"
+// [ ] 2 - "How old are you?"
+// [ ] 3 - "Is this some sort of con?"
+// [ ] 31 - "I still think this feels like a setup."
+// [ ] 4 - "Where might he be?"
+// [ ] 41 - "And what is your name?"
+// [ ] 5 - "I'll keep an eye out for him."
+// [ ] 6 - "I'll go find him.."
+// [x] 7 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hello, Mr.
+other:Could you help me?
+ego:What's the problem?
+other:My Dad is meant to meet me here.
+other:But he's not arrived.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // Why don't we give him a call?
+ego:Why don't we give him a call?
+ego:What's his ID?
+other:I don't remember.
+other:Now I am worried about him.
+other:Can you help me find him?
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+@2 // 2?
+ego:How old are you?
+other:I am about 6 cycles and a half.
+ego:Well that's too young to be left at this place.
+other:So you will help me find my Dad?
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+@3 // 3?
+ego:Is this some sort of con?
+other:What's a.. con?
+other:I've lost my Dad.
+other:It's true.
+other:I think he's gone to the wrong place.
+other:Can you help me find him?
+option-off 1
+option-off 2
+option-off 3
+option-on 31
+option-on 4
+option-on 5
+return
+
+@31 // I still think this feels like a setup.
+ego:I still think this feels like a setup.
+ego:You're probably a robot of some kind.
+other:No Sir.
+other:I've lost my Dad.
+other:It's true.
+ego:Ok sure. 
+ego:But if you turn out to be a robot...
+ego:...or just a short woman in her 50's.
+ego:You've picked on the wrong mark.
+other:It's true, Mr.
+option-off 31
+return
+
+@4 // Where might he be?
+ego:Where might he be?
+other:I think he went to one of the other Stations.
+other:We are from Daphice.
+other:We thought there was only one...
+other:.and were to meet at the Andinti Station.
+ego:I see, you both came by different taxi shuttles?
+other:Yes, taxi. He had to come later.
+other:He should have met me by now.
+other:He must have been put on another station.
+ego:Ok. Don't worry.
+ego:He won't be far.
+option-off 4
+option-on 41
+option-on 5
+option-on 6
+return
+
+@41 // And what is your name?
+ego:And what is your name?
+other:My name is Ugan.
+ego:Ok then, Ugan.
+ego:You stay here and don't go anywhere.
+option-off 41
+return
+
+@5 // I'll keep an eye out for him.
+ego:I'll keep an eye out for him.
+other:Ok, Mr.
+other:He should be in his blue top.
+other:It would be great if you found him.
+ego:I bet he'll be at Rub Ba 2 or YSA station.
+other:Thanks, Mr. I feel better already.
+option-off 5
+Stop
+
+@6 // I'll go find him.
+ego:I'll go find him.
+ego:I'll tell him where you are.
+other:Wow, thanks Mr.
+other:He's called... 
+other:...err... I just call him Daddy.
+other:He will be wearing his blue top.
+ego:OK, I'll find him.
+ego:I bet he'll be at Rub Ba 2 or YSA station.
+other:Thanks, Mr. I feel better already.
+option-off 6
+Stop
+
+@7 // Bye
+ego:Bye.
+other:Bye, Mr.
+other:Hope you look for him.
+Stop
+

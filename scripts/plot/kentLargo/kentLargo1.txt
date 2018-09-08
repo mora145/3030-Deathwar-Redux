@@ -1,0 +1,219 @@
+//begin
+// [ ] 1 - "Hi Kent! How's it going down there."
+// [ ] 2 - "Find out anything about that corpse in the cargo locker?"
+// [ ] 3 - "Did you investigate the Largo?"
+// [ ] 4 - "Heard anything from Vasquez?"
+// [ ] 31 - "Tell me more about the map."
+// [ ] 32 - "A locket? What's that?"
+// [ ] 33 - "I think I have a hit on me."
+// [ ] 40 - "Do the sightings help locate the Largo?"
+// [ ] 41 - "how do we find it then?"
+// [ ] 42 - "Do you want to be my co-pilot again?"
+// [ ] 43 - "Are you sure the Largo will appear on the local charts?"
+// [ ] 99 - "Ok Kent, thanks. I best get moving."
+// [ ] 98 - "Bye for now. Great investigating!"
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+option-on 1
+option-on 2
+option-on 3
+option-on 4
+return
+
+@1 // Hi Kent! How's it going down there.
+ego:Hi Kent! How's it going down there.
+other:Hi Chief.
+other:I didn't ask to be made this small.
+ego:But you could get some longer legs fitted.
+ego:I nearly didn't see you.
+other:This is my style. 
+other:Plus, people don't notice me.
+ego:Which is good for...
+other:Investigating! bingo-bango.
+other:speaking of which.. I've been busy.
+ego:I'm all ears.
+option-off 1
+return
+
+@2 // Find out anything about that corpse in the cargo locker?
+ego:Find out anything about that corpse in the cargo locker?
+other:Yeah. the guy checks out as the previous owner, Zog Dongo.
+other:Looks like it was an accident.
+other:By which I mean... the murder wasn't planned.
+other:He probably confronted the Gang members trying to steal his ship.
+ego:why do you think that?
+other:No other ship thefts involved murders.
+ego:I see.
+other:but his body did have something... 
+ego:Go on.
+other:A locket around his neck. 
+other:Inside was a map, with plots of sightings of the Largo.
+other:Despite what others may have told you. 
+other:...no one has yet found the Largo.
+ego:And its gold shipment.
+other:correct-a-mundo.
+ego:Good old Zog, if we use his map...
+ego:...at least we can get the bounty before his killers.
+other:that's good post-hoc rationalisation chief.
+ego:thanks.
+option-off 1
+option-off 2
+option-off 3
+option-on 31
+option-on 32
+option-on 33
+option-on 40
+option-on 42
+return
+
+@3 // Did you investigate the Largo?
+ego:Did you investigate the Largo?
+other:Not at first.
+other:I investigated that corpse in the cargo locker.
+other:The guy checks out as the previous owner, Zog Dongo.
+other:Looks like it was an accident.
+other:By which I mean... the murder wasn't planned.
+other:He probably confronted the Gang members trying to steal his ship.
+ego:why do you think that?
+other:No other ship thefts involved murders.
+ego:I see. How does this relate to the Largo?
+other:His body did have something on it... 
+ego:Hear it comes...
+other:A locket around his neck. 
+other:Inside was a map, with plots of sightings of the Largo.
+ego:Amber nectar!
+other:Despite what others may have told you. 
+other:...no one has yet found the Largo.
+ego:And its gold shipment.
+other:correct-a-mundo. 
+option-off 1
+option-off 2
+option-off 3
+option-on 31
+option-on 32
+option-on 33
+option-on 40
+option-on 42
+return
+
+@4 // Heard anything from Vasquez?
+ego:Heard anything from Vasquez?
+other:I can't contact her.
+other:She might be searching the nebula for the Largo.
+other:No signal.
+option-off 4
+return
+
+@31 // Tell me more about the map.
+ego:Tell me more about the map.
+ego:Hang on...
+ego:...it's not got ripped into four pieces has it?
+ego:Then I have to trek around to different places...
+ego:...and visit different characters...
+ego:...doing mundane tasks, to get all the pieces?
+other:Yes.
+ego:Oh crap.
+other:But I did all that for you...
+other:...and stuck it together with space-tape.
+ego:Phew. Thanks.
+other:It was never ripped up, you idiot.
+other:It was safe in his locket.
+option-off 31
+return
+
+@32 // A locket? What's that?
+ego:A locket? What's that?
+other:You know what a pendant with a little storage space is?
+other:Same thing.
+ego:I've never seen a pendant with a little storage space, but i know what you mean.
+other:You can reach down and flip it open.
+ego:Yeah, and access your storage space.
+ego:I get it. 
+option-off 32
+return
+
+@33 // I think I have a hit on me.
+ego:I think I have a hit on me.
+ego:Probably same gang who killed Zog.
+other:It wouldn't surprise me.
+other:Several traders have been taken out recently.
+other:I find knowledge is the best protection.
+ego:I quite agree.
+option-off 33
+return
+
+@40 // Do the sightings help locate the Largo?
+ego:Do the sightings help locate the Largo?
+ego:I guess it's not x marks the spot?
+other:not quite.
+other:It looks like the Largo's split drive is going on and off.
+other:It changes location at random.
+ego:what system?
+other:It was in the nebula for a while.
+other:Now it's back here, in Andinti somewhere. 
+option-off 40
+option-on 41
+return
+
+@41 // how do we find it then?
+ego:how do we find it then?
+other:Chief, it's easy.
+other:Your Local chart updates every time you dock and launch.
+other:Check out the Grey dots on the local chart, they are derelict ships.
+other:So every time you launch in Andinti...
+other:One dot will move. Get it?
+ego:Right, Check derelicts on the local map...
+ego:...after I dock and launch again, it will show a derelict at a new location!
+other:Correct-a-mundo Chief!
+other:But as It's so simple, others will notice soon.
+ego:yes. No time to lose!
+option-off 31
+option-off 41
+option-on 98
+option-on 99
+option-on 43
+return
+
+@42 // Do you want to be my co-pilot again?
+ego:Do you want to be my co-pilot again?
+other:Sure!
+other:I guess I finished my investigation.
+other:I'll join up with you in a few months.
+other:I have to deal with a court case.
+ego:a court case? 
+other:I punched officer grah in the shins.
+option-off 42
+return
+
+@43 // Are you sure the Largo will appear on the local charts?
+ego:Are you sure the Largo will appear on the local charts?
+other:When they update it does yeah. I've been checking the database.
+other:Each station tracks large objects and transfers the data to a public database.
+other:It helps avoids collisions, and encourages salvagers who often save crews.
+other:Every time a ship leaves a station, it gets its local map updated.
+other:One grey dot keeps jumping to a new location. It must be the Largo.
+other:I didn't investigate just for fun.
+other:Get moving will ya. I want a share of that gold shipment!
+option-off 43
+return
+
+
+@99 // Ok Kent, thanks. I best get moving.
+ego:Ok Kent, thanks. I best get moving.
+other:No problem. 
+other:Get going. and give me a share!
+ego:Sure thing, Kent.
+option-off 99
+stop
+
+@98 // Bye for now. Great investigating!
+ego:Bye for now. Great investigating!
+other:No problem. It's what I do.
+other:Get going. and give me a share!
+ego:Sure thing, Kent.
+option-off 98
+stop

@@ -1,0 +1,297 @@
+//begin
+// [x] 1 - "How do I make money for a new ship?"
+// [x] 2 - "Can you help me some more?"
+// [ ] 3 - "What are K'ta's jobs likely to be?"
+// [ ] 4 - "Who is this K'ta guy?"
+// [ ] 5 - "You got any tips for me?"
+// [ ] 6 - "Will you be my wingman?"
+// [ ] 7 - "Who is the boss of the Taoists then?"
+// [ ] 8 - "How can I sell my organs?"
+// [ ] 9 - "Give me another tip."
+// [x] 10 - "Is Frank in trouble now?"
+// [ ] 11 - "Tell me more about Gebbo."
+// [ ] 30 - "I might have to investigate these Gangs."
+// [ ] 31 - "Jeet Gang?"
+// [ ] 32 - "Andinti Crew?"
+// [ ] 40 - "Frank was a cage fighter?"
+// [ ] 41 - "Why don't we bet on Frank?"
+// [ ] 50 - "How do I find Pirates for bounty?"
+// [ ] 80 - "I think I might sell my organs,"
+// [x] 99 - "Bye and thanks again."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hope you choose to visit K'ta. He's in your contact list.
+other:You'll need a split drive to get there.
+ego:Yeah, I know.
+ego:I was wondering...
+option-on 1
+option-on 2
+return
+
+@1 // How can I make money?
+ego:How do I make money for a new ship?
+other:There are quite a few ways.
+ego:Well, name two.
+other:Courier jobs from the computer over there.
+other:You do know about those already though, right?
+ego:Of course, I'm not an idiot.
+other:Grey dots on your local map are derelicts.
+other:But until you get a better ship, only attempt the close ones.
+ego:Any other other way to make money?
+other:Selling your organs.
+ego:Thanks.
+ego:Thanks for nothing, Jimmy.
+
+option-on 3
+option-on 4
+option-on 5
+option-on 8
+option-off 1
+return
+
+@2 // Can you help me some more please?
+ego:Can you help me some more please?
+other:I'll try.
+option-off 2
+option-on 3
+option-on 4
+option-on 5
+// option-on 7
+option-on 10
+return
+
+@3 // What are K'ta's jobs likely to be?
+ego:What are K'ta's jobs likely to be?
+other:I expect he need a long distance delivery.
+other:The type where you need to use a tractor beam...
+other:...you go somewhere, start towing a crate, then come back to where you started.
+other:Always try to read the mission details closely for those ones.
+ego:Ok, I'll try to remember that.
+other:You'd be surprised how many novice traders get confused...
+other:...because they never read the job spec.
+other:If you know what I mean.
+other:Anyway...
+other:...I'd recommend you earn money here for a bit.
+other:And go when you have a good ship.
+other:Maybe test it out on some weak pirates here.
+other:I mean, the job could be a little dangerous.
+other:So best get used to your new ship here.
+other:Then go meet him.
+other:Or don't.
+option-off 3
+option-on 50
+return
+
+@4 // Who is this K'ta guy?
+ego:Who is this K'ta guy?
+other:Let's just say he's the man.
+other:He's a great guy and he's fighting for the right reasons.
+ego:Fighting what?
+other:He'll tell you all about it when you see him
+other:I've already told him you're coming. 
+other:He said he was expecting you.
+other:Not sure what he meant though.
+ego:That's odd.
+other:Yeah, he can be a bit odd.
+other:But I think we are all a bit odd.
+option-off 4
+return
+
+@5 // You got any tips for me?
+ego:You got any tips for me?
+other:Yeah, one or two.
+other:Have a read of some data discs.
+other:They're informative and sometimes amuse.
+ego:Ok, might try that.
+other:If you get a gun and go doing junk destruction...
+other:..be careful not to hit a Trader's ship.
+other:You will get the station guns shooting at you.
+other:Just dock quickly and pay the fine.
+other:Man, that's happened to me on more than one occasion.
+other:You can try and bribe cops but I wouldn't recommend it.
+ego:Ok, thanks jimmy.
+option-off 5
+option-on 9
+return
+
+
+
+@7 // Who is the boss of the Taoists then?
+ego:Who is the boss of the Taoists then?
+other:I don't know. Not sure if they have one.
+ego:It wouldn't be them who have been threatening me?
+ego:Trying to get me to quit salvaging?
+other:No way. Sounds more like the Jeet Gang.
+other:Or the Andinti Crew.
+ego:You're sure.
+other:Definitely.
+other:The Taoist are not criminals.
+other:They are just...
+other:You know... 
+other:...have issues with the Council.
+option-off 7
+return
+
+
+@8 // How can I sell my organs?
+ego:How can I sell my organs?
+other:That was a joke.
+other:You realise that, right.
+ego:Sure.
+option-off 8
+option-on 80
+return
+
+@9 // Give me another tip.
+ego:Give me another tip.
+other:Ok... when flying in space..
+other:Press 'C' when you want to see the local system.
+other:It pops up the local system overlaid on your HUD.
+other:All the modern ships do it.
+ego:Yeah, I use that already.
+option-off 9
+return
+
+@10 // Is Frank in trouble now?
+ego:Is Frank in trouble now?
+other:He is, but he's crafty.
+other:I just was texting him about these stolen ships.
+other:He says Gebbo the slug is on his case.
+other:Making him go back into cage fighting.
+ego:Yeah? No Shit.
+other:Gebbo is pretty tough.
+other:Even the gangs won't touch him.
+other:So Frank has to play it well.
+option-off 10
+option-on 11
+option-on 30
+option-on 40
+return
+
+@11 // Tell me more about Gebbo.
+ego:Tell me more about Gebbo.
+other:Gebbo?
+other:He's into all sorts of businesses.
+other:Gambling, Trading Antiques, Selling ships...
+other:He has a reputation for not taking any shit.
+ego:I see.
+other:And he is always with A-Quan.
+other:He's a bad ass. Long range.
+ego:Long range?
+other:Yeah, on account of his long legs.
+other:He can kick your face off.
+option-off 11
+return
+
+
+@30 // I might have to investigate these Gangs.
+ego:I might have to investigate these Gangs.
+other:Oh?
+ego:I think I had a hit on me.
+ego:And so there may be another.
+other:Sounds very serious.
+other:What's your plan?
+ego:Kill 'em all.
+other:Well, that's one way.
+other:I guess if you think you've had an attempt on your life...
+other:It's not an injudicious thing to consider.
+other:You're an ambitious individual Mr. Falcon.
+other:You surprise me.
+other:The two main gangs which operate around here are...
+other:The Jeet Gang and the Andinti Crew.
+other:i don't know much about either I'm afraid.
+
+option-off 30
+option-on 31
+option-on 32
+return
+
+
+@31 // Jeet Gang?
+ego:Jeet Gang?
+other:They have a base on a ship.
+other:They focus on hit and runs on traders.
+other:I hear the boss is called Morko.
+other:But I don't know who or what it is.
+option-off 31
+return
+
+@32 // Andinti Crew?
+ego:Andinti Crew?
+other:They are more like a small federation.
+other:They are more into fraud and crime on stations.
+other:They pool some of their takings and can use it to pay for a hit.
+other:Jeet Gang would do their own.
+option-off 32
+return
+
+@40 // Frank was a cage fighter?
+ego:Frank was a cage fighter?
+other:Oh yeah. He was famous for a while.
+ego:I guess I shouldn't have threatened to punch him.
+other:He's a bit out of shape now...
+other:..but yeah, he could still do some damage.
+other:Clearly, otherwise Gebbo wouldn't want him to fight.
+ego:Do you think we will see him in the ring?
+other:Probably not.
+other:Frank is crafty, he will work a way out of it.
+ego:I hope so.
+ego:Unless he can make my money back doing it.
+other:I think Gebbo would take any profits from that venture.
+ego:Hmmm
+option-off 40
+option-on 41
+return
+
+@41 // Why don't we bet on Frank?
+ego:Why don't we bet on Frank?
+other:And get him to go down at a set round?
+ego:Yeah. Then he can get all his money back.
+other:I guess he has considered betting on himself.
+other:It's not a new trope.
+other:But Gebbo would have him killed for sure.
+option-off 41
+return
+
+@50 // How do I find Pirates for bounty?
+ego:How do I find Pirates for bounty?
+other:Bounty hunting eh?
+other:I used to do it a lot.
+other:Used to love using missiles as a finisher.
+other:It's easy, fly out into space...
+other:..use the HUD to find ships.
+other:The white boxes represent ships...
+other:...the ones with red lines over them are pirates.
+other:Pirates means bounty.
+ego:I like the sound of bounty.
+other:Who doesn't, if you are new to it...
+other:...select their icon and check how dangerous they are first.
+other:And don't be foolish, if your shields fail and hull starts getting damaged...
+other:...just split to the nearest station, dock and repair.
+option-off 50
+return
+
+
+@80 // I think I might sell my organs,
+ego:I think I might sell my organs,
+other:Err, ok. 
+other:And what, become a cyborg?
+ego:Sure, transhuman.
+ego:I might need to be super strong.
+other:Oh, I see. 
+other:I would like a robo-eye.
+other:Too many credits for me.
+option-off 80
+return
+
+
+@99 // Bye and thanks again.
+ego:Bye and thanks again.
+other:That's ok.
+stop
+
+
+

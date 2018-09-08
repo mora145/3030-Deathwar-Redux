@@ -1,0 +1,70 @@
+background
+{
+data/cutscenes/images/corri2.png
+}
+
+people 
+{
+frank,data/stations/special characters/Frank1hides_50x108_4.png,315,110,facing left,visible
+
+cop,data/stations/police/police4_50x108_5.png,250,140,facing right,visible
+cop2,data/stations/police/police3_50x108_5.png,215,145,facing right,visible
+
+guy3,data/stations/standing_at_bar/mecho5_50x108_4.png,120,141,facing right,visible
+guy4,data/stations/standing_at_bar/scap3_50x108_4.png,85,141,facing right,visible
+
+zag,data/stations/drinkdroids/drinkDroidJug_36x50_2.png,100,145,facing right,visible
+zig,data/stations/drinkdroids/drinkDroidFF_36x50_2.png,335,138,facing left,visible
+
+}
+
+dialogue
+{
+guy3:It's sad really.
+cop:Come on Frank...
+frank:No!
+guy3:Shoot him!
+cop:Everyone calm down.
+cop:Frank, climb back over.
+frank:I'm innocent.
+cop2:Come out from behind there!
+frank:No way.
+cop:It's just a matter of stolen goods, Frank.
+cop2:I could hit him from here.
+frank:Hey, I heard that!
+frank:I'm right here.
+ 
+cop:We just need to question you.
+frank:I am waiting for legal advice.
+cop:Ok, whatever. We're going to go for now.
+cop:Ok Frank?
+cop2:Look, you've kicked out the cable on that console.
+cop2:Plug the console back in.
+cop2:Or we'll add a charge of criminal damage.
+frank:That wasn't me.
+frank:It's a system crash.
+frank:Not a data-connection issue.
+cop2:I ain't got time for this.
+cop:Let's go get some food.
+cop2:Good call.
+zig:
+zag: 
+zig:  
+zag:  
+cop:We'll come back later.
+guy4: ....... ... ........
+guy3:Exactly, Larry. 
+guy3:What a chump.
+frank:Trust me guys, I am going to resolve this.
+
+}
+
+text
+{
+Hide and seek
+}
+
+music
+{
+data/sounds/music/background/Steve Finney - Journey forward.ogg,repeat
+}

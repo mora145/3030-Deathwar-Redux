@@ -1,0 +1,61 @@
+//begin
+// [x] 1 - "Err, ok, lay it on me."
+// [x] 2 - "Not right now."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi there.
+other:Hi.
+other:How's space treatin' ya?
+ego:I'm cool
+other:I'm bored.
+other:Wanna play a word game?
+return
+
+@1 // Err, ok, shoot.
+ego:Err, ok, lay it on me.
+other:Allrighty!
+other:Want a game of twenty questions?
+ego:Where you pick an animal, veg, or mineral.
+ego:And I work it out, using Yes/no questions?
+other:Yeah.
+ego:Just checking.
+ego:Sure. Go for it.
+ego:I have to warn you. I'm *the* master at twenty questions.
+other:You think so do you?
+ego:Yes Sir.
+other:Ok, i'll make it an extra hard one.
+ego:Fine.
+other:Fine.
+other:hmmmm..
+other:Ha, I got one.
+other:Ok then, I'm a mineral.
+ego:Ok.
+ego:Have you seen one recently?
+other:Yes.
+ego:Were you made for to do a specific job?
+other:Yeah.
+ego:Do you have you electrical components?
+other:Yes.
+ego:Do stay still to do your job?
+other:No.
+ego:Do have legs?
+other:No.
+ego:Are you a type of droid?
+other:Yes.
+ego:Hmmm..
+ego:Are you a Class 4 bio-contamination scutter?
+other:No, no I'm not.
+ego:Are you a Class *5* bio-contamination scutter?
+other:Damn. Yes.
+ego:(they always are)
+stop
+
+@2 // Not right now
+ego:Not right now.
+ego:Nah, ain't not not got the inclination.
+other:Ha. Huh?
+other:I get it.
+stop

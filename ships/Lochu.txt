@@ -1,0 +1,23 @@
+image=Ctallship1_100x100_5.png
+name=Lochu
+turnSpeed=0.66
+cargoSize=100
+warpSpeed=160
+enginePower=0.25
+cost=600000
+maxCrew=3
+passengers=4
+mintech=0.46
+available=5
+maxmissiles=2
+turret?=1
+firefrom(w,h)=0,27
+turretat(x,y)=0,51
+[thrusters]
+5,73
+-5,73
+[/thrusters]
+M4 Allrounder - First in the line of Ultarian Revolution ships, the Lochu boasts and impressive cargo size but lacks in diff engine capability. Load her up with passengers and she's good to go. The added turret allows a defensive capability not seen in her smaller brother.
+producedBy=Freespace & Thompson / Wext
+yearDeveloped=2982
+funTrivia=One of the oldest ship designs known to still exist. The original designers, Wext was bought out by freespace & thompson.

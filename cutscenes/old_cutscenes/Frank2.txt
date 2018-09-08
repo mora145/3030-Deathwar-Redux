@@ -1,0 +1,66 @@
+background
+{
+data/cutscenes/images/bar1.png
+}
+
+people 
+{
+frank,data/stations/special characters/Frank1_50x108_4.png,290,140,facing left,visible
+
+LingLiu,data/stations/special characters/Liu1_50x108_4.png,180,136,facing right,visible
+guy2,data/stations/standing_at_bar/mecho5_50x108_4.png,146,140,facing right,visible
+guy3,data/stations/standing_at_bar/scap2_50x108_4.png,118,143,facing right,visible
+guy4,data/stations/standing_at_bar/scap3_50x108_4.png,86,147,facing right,visible
+
+zig,data/stations/drinkdroids/drinkDroidtray2_36x50_2.png,210,140,facing left,visible
+}
+
+dialogue
+{
+
+frank:Oh.. Shit. 
+frank:Hi guys!
+LingLiu:Frank you are in it deep.
+LingLiu:My crew insisted they came along.
+LingLiu:We sold our ship..
+LingLiu:..now the one we bought from you just got impounded by the police.
+guy2:Yeah man. You better start talking.
+LingLiu:They loved that ship.
+frank:I....
+LingLiu:It took me weeks to persuade them to trade it in.
+guy2:Selling stolen goods is serious.
+guy2:And selling them to us is extra serious.
+guy3:Larry is fuming.
+frank:Ok but....
+guy3:Me and Larry worked for months on that drive!
+guy4:..... ...... .. ......
+guy2:Calm down, Larry.
+frank:Ling, can I call you Ling.
+LingLiu:You can call me Captain Liu.
+zig:More Tea Captain?
+frank:Captain Liu, I can't apologise enough for this situation.
+frank:I had a bad delivery of ships.
+guy2:Not our problem.
+frank:I'm trying to help the buyers
+guy4: ... ...... ..
+guy4: ...... ...
+guy3:Larry is getting pissed Frank.
+frank:Trust me guys, I am going to resolve this.
+LingLiu:How frank?
+frank:Well first, I have to do a job for a Slug...
+frank:..or he's literally going to kill me.
+frank:Then I'll work something out for you guys.
+LingLiu:Ok Frank, you have one orbit to sort something out.
+frank:Thanks Ling.
+
+}
+
+text
+{
+On a nearby station..
+}
+
+music
+{
+data/sounds/music/background/Steve Finney - Journey forward.ogg,repeat
+}

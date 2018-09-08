@@ -1,0 +1,169 @@
+//begin
+// [x] 1 - "Gimme a drink."
+// [ ] 2 - "Gimme tea."
+// [ ] 3 - "Hit me with a Macalacharraca."
+// [ ] 4 - "You got any Scotch?"
+// [ ] 5 - "Tastes good."
+// [ ] 6 - "Hey! this tastes like froog!"
+// [x] 7 - "See you later."
+// [x] 8 - "Make me up a random cocktail."
+// [x] 9 - "Do you really have a blaster behind there?"
+// [ ] 10 -"I'll just have some peanuts."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Mmmmm good day to you, sir.
+ego:Hi there.
+other:How may I be of service?
+ego:Let's see.....
+return
+
+
+@1 // Gimme a drink.
+ego:Gimme a drink.
+other:Yes sir, here's the menu.
+option-on 2
+option-on 3
+option-on 4
+option-on 10
+option-off 1
+option-off 8
+option-off 9
+return
+
+@2 // Gimme tea
+ego:Gimme tea.
+other:House Tea coming right up sir.
+ego:*Gulp Gulp*
+other:How is it?
+ego:*hhooho*
+ego:Hot, but..
+takeMoney,50,DRINK AT THE BAR
+option-off 2
+option-off 3
+option-off 4
+option-off 10
+option-on 5
+option-on 6
+return
+
+@3 // Hit me with a Macalacharraca
+ego:Hit me with a Macalacharraca.
+other:One Macalacharraca coming up.
+other:Is your species meant to drink that?
+ego:I'm begining to think not.
+other:Here is your Macalacharraca - enjoy!
+ego:Thank you.
+ego:*sip sip*
+ego:*schmooo*
+ego:....
+ego:*schmooope*
+ego:Oooh.
+other:How is it, Sir?
+takeMoney,250,BOUGHT A MACALACHARRACA
+offerDrinkAchievement
+option-off 2
+option-off 3
+option-off 4
+option-off 10
+option-on 5 
+option-on 6
+return
+
+@4 // You got any Scotch?
+ego:You got any Scotch?
+other:Sorry, I don't know what that is.
+ego:Oh boy.
+other:I can probably order it in.
+other:There has not been a demand for it.
+ego:Yeah, ok. 
+other:You want anything else, Sir?
+option-off 4
+option-on 2
+option-on 3
+option-on 10
+return
+
+@5 // Tastes good.
+ego:Tastes good.
+ego:Mmmm, it always goes down smooth.
+other:Thank you for your custom.
+option-on 8
+option-on 9
+option-on 7
+option-off 5
+option-off 6
+return
+
+
+@6 // Hey! this tastes like froog!
+ego:Hey! this tastes like froog!
+other:I'm sorry sir, strictly no refunds.
+ego:Yeah yeah.
+option-on 8
+option-on 9
+option-on 7
+option-off 5
+option-off 6
+return
+
+@7 // See you later
+ego:See you later. 
+other:Good day, sir.
+ego:See you
+stop
+
+@8 // Make me up a random cocktail.
+ego:Make me up a random cocktail.
+other:Err, I really shouldn't, but ok Sir.
+other:How hard can it be?
+other:I'll just put in some...
+other:And a shot of...
+other:...mix it a little...
+other:..Add a two shots of...
+other:...mix, pour.
+other:And there you have it Sir.
+ego:Ok. Here goes..
+ego:*Gulp Gulp Gulp*
+ego:*Gulp*
+ego:Yoooowza!
+ego:That's criminal.
+ego:It's vomit inducing.
+other:Yeah, I don't know how to do cocktails Sir.
+ego:What kind of bar-droid are you?
+other:One with a blaster under the bar, Sir.
+option-off 8 
+return
+
+
+@9 // Do you really have a blaster behind there?
+ego:Do you really have a blaster behind there?
+other:You'd better believe it Sir.
+other:We bar-droids have to keep order.
+ego:Can I have it?
+other:No.
+ego:Can I see it?
+other:No Sir.
+other:I'd get fired for that.
+ego:Just for showing me?
+other:Yeah, the other customers might think I'm freaking out.
+ego:Good call.
+option-off 9
+option-on 7
+return
+
+@10 // I'll just have some peanuts.
+ego:I'll just have some peanuts.
+Other:Peanuts, Very well, Sir.
+Other:Good choice.
+option-off 10
+option-off 4
+option-off 3
+option-off 2
+option-off 1
+option-on 8
+option-on 9
+option-on 7
+return

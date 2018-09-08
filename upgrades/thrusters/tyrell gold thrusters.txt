@@ -1,0 +1,13 @@
+name=m3 tyrell gold thrusters
+cost=24500
+tech lvl=0.71
+avaiable=0
+desc=speeds up ship turning by upgrading the thruster output by 27%.
+once=1
+mass=0
+department=thruster
+value#=1.27
+[incompat]
+thruster
+[incompat]
+image=data/images/upgrades/thrust3.png

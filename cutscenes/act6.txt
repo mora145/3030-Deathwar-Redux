@@ -1,0 +1,44 @@
+background
+{
+data/cutscenes/images/cleaner1.png
+}
+
+people 
+{
+bosscape,data/stations/special characters/plotbossCloak_80x130_4.png,165,130,facing right,visible
+helper,data/stations/special characters/plotzoidman2_50x130_4.png,110,143,facing right,visible
+Shuttleforefloat,data/stations\drinkdroids/floater3_36x50_2.png,234,130,facing left,visible
+helper2,data/stations/standing_at_bar/squidman1_50x130_4.png,256,139,facing left,visible
+badcop,data/stations/special characters/bigCopAlien1_80x130_4.png,320,150,facing left,visible
+
+}
+
+dialogue
+{
+helper:Sir, I'm quitting. 
+bosscape:quitting?
+helper:I've been thinking. I think *we* are the bad guys.
+helper:Using Nano tech to clean up the scummy lifeforms...
+helper:...seems excessive.
+bosscape:Boo hoo.
+bosscape:Get out of my sight.
+bosscape:Any update on Falcon?
+helper2:He's evading us so far.
+badcop:We think he's being directed to their hidden Base.
+bosscape:Keep looking, and prepare the rest of the fleet.
+}
+
+text
+{
+Act VI: The Password
+}
+
+animation
+{
+split left
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}

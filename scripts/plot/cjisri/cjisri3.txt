@@ -1,0 +1,87 @@
+//begin
+// [x] 1 - "Well, what's the password?"
+// [x] 2 - "I bet you don't know it, right?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:You wanted to see me?
+other:Yeah, I heard you have all the clues. 
+other:I don't know how you use them.
+other:But i guess they fit together somehow.
+other:It's so that no individual can have the location beaten out of them.
+ego:I get it. 
+other:I do know that if you find the base, you will need a password when you dock.
+ego:Why is that?
+other:In case a trader accidentally finds walker base, or worse, an enemy agent.
+other:We couldn't have them just docking and walking around.
+option-on 1
+option-on 2
+return
+
+@1 // Well, what's the password?
+ego:Well, what's the password?
+other:I don't know it. 
+ego:Who does?
+other:Well, there was a fellow in daphice who knew, waylen dor.
+other:But you know what happened there. There is another but I'm not sure of his location.
+other:All I know is the system he resides in.
+other:Kp-FQ1. It's a pirate system with two pirates stations and two council stations.
+ego:So you don't know which station he's at?
+other:No
+ego:How many stations are there in kp-fq1?
+other:Four, but you'll be able to dock at two of them.
+other:If you hadn't noticed you have one hell of a criminal record.
+ego:Great. What's his name?
+other:J'mes Learner.
+ego:Names are never simple around here are they.
+other:I quite agree. 
+other:One other thing, he won't talk to you unless you're experienced enough.
+other:He's very strange like that. He's one of the elders. 
+other:I think having 10 kills should be enough to make him take you seriously.
+ego:How do I get 10 kills?
+other:If you haven't got them already then you must kill 10 or more pirates.
+other:According to the council record keeping system a pirate it counts as +1 kill.
+other:Killing a police officer or cargo ship counts as -2 kills.
+other:You can handle it.
+other:When you find walker base, dock and talk to 433-2c.
+other:A good friend of mine. He will fill you in.
+other:Be careful and stock up on fuel here.
+other:Better still, buy a fuel scoop. 
+other:You won't be able to dock at council stations at all.
+ego:Yeah, it was hard enough getting here.
+other:I bet. Stay safe.
+stop
+
+@2 // I bet you don't know it, right?
+ego:I bet you don't know it, right?
+other:Well, there was a fellow in daphice who knew, waylen dor
+other:But you know what happened there. There is another but I'm not sure of his location.
+other:All I know is the system he resides in.
+other:Kp-FQ1. It's a pirate system with two pirates stations and two council stations.
+ego:So you don't know which station he's at?
+other:No
+ego:How many stations are there in kp-fq1?
+other:Four, but you'll be able to dock at two of them. 
+other:If you hadn't noticed you have one hell of a criminal record.
+ego:Great. What's his name?
+other:J'mes Learner.
+ego:Names are never simple around here are they.
+other:I quite agree. 
+other:One other thing, he won't talk to you unless you're experienced enough.
+other:He's very strange like that. He's one of the elders. 
+other:I think having 10 kills should be enough to make him take you seriously.
+ego:How do I get 10 kills?
+other:If you haven't got them already then you must kill 10 or more pirates.
+other:According to the council record keeping system if you kill a pirate it counts as one kill.
+other:Killing a police officer or cargo ship counts as -2 kills.
+other:You can handle it.
+other:When you find walker base, dock and talk to 433-2c. 
+other:A good friend of mine. He will fill you in.
+other:Be careful and stock up on fuel here.
+other:Better still, buy a fuel scoop. 
+other:You won't be able to dock at council stations at all.
+ego:Yeah, it was hard enough getting here.
+other:I bet. Stay safe.
+stop

@@ -1,0 +1,40 @@
+//begin
+// [x] 1 - "Hold fire! I'll pay my fines."
+// [ ] 2 - "I'll pay."
+// [ ] 3 - "No way, forget it."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:What?
+option-off 0
+option-on 1
+return
+
+// dialog script file
+@1 // fines?
+ego:Hold fire! I'll pay my fines.
+other:You owe *crim_total* in total.
+other:do you want to pay it or not?
+option-on 2
+option-on 3
+option-off 1
+return
+
+@2 // I'll pay.
+ego:I'll pay.
+other:Good, transferring. ...and done.
+other:Now move along.
+option-off 2
+option-off 3
+takeMoney,-1,Paying off fines
+wipecrimrecordclean
+stop
+
+@3 // No way, forget it.
+ego:No way, forget it.
+other:Alright. Then we're coming for you.
+option-off 2
+option-off 3
+stop

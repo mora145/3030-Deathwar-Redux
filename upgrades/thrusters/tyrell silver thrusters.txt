@@ -1,0 +1,13 @@
+name=m2 tyrell silver thrusters
+cost=6350
+tech lvl=0.61
+avaiable=1
+desc=speeds up ship turning by upgrading the thruster output by 20%.
+once=1
+mass=0
+department=thruster
+value#=1.20
+[incompat]
+thruster
+[incompat]
+image=data/images/upgrades/thrust2.png

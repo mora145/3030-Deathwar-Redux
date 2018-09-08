@@ -1,0 +1,47 @@
+//begin
+// [ ] 1 - "How can I make quick money in this system?"
+// [ ] 2 - "Now you listen.."
+// [x] 3 - "Bye."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:You again.
+ego:Just one more thing...
+option-on 1
+return
+
+@1 // How can I make quick money in this system?
+ego:How can I make quick money in this system?
+other:The absolutely fastest way? 
+ego:Yeah.
+other:The totally, absolutely fastest way? 
+ego:Yeah.
+other:Sell your organs.
+ego:I was hoping for more from this conversation.
+other:Well tough shit pal.
+other:Now fuck off, I'm busy.
+option-off 1
+option-on 2
+return
+
+@2 // Now you listen...
+ego:Now you listen...
+other:Huh?
+ego:I may look like just another spacer...
+ego:But I'm a genre savvy bastard.
+other:OK... and?
+ego:And sometimes you have to talk to people twice.
+other:Well, I have nothing more to tell.
+ego:Ok, that's cool.
+ego:No need to get aggressive.
+option-off 1
+option-on 2
+stop
+
+
+@3 // Bye
+ego:Bye.
+other:Whatever.
+Stop

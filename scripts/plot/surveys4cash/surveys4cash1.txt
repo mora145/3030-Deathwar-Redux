@@ -1,0 +1,146 @@
+//begin
+// [x] 1 - "What's on your jumper?"
+// [x] 2 - "Surveys for cash?"
+// [x] 3 - "Are you really offering cash?"
+// [x] 31 - "Are you playing games on that?"
+
+// [ ] 40 - "I'll do it for $100."
+// [ ] 41 - "I'll do it for $500."
+// [ ] 42 - "I'll do it for $1000."
+
+// [ ] 50 - "Yes, it's a blast."
+// [ ] 51 - "No, don't like it this series."
+
+// [x] 99 - "Actually, I gotta go."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+return
+
+@1 // What's on your jumper?
+ego:What's on your jumper?
+other:Surveys... but with a Dollar sign for the 'S'.
+ego:What for?
+other:It's the uniform I have to wear.
+other:I work for a survey company.
+other:This is the Surveys4cash uniform.
+option-off 1
+return
+
+@2 // Surveys for cash?
+ego:Surveys for cash?
+other:Yeah, it's my job.
+other:I work for Surveys4cash.co.com
+other:Are you interested in some cash?
+other:Just for answering some questions.
+other:It only takes five minutes
+ego:How much cash?
+option-off 1
+option-off 2
+option-off 3
+option-off 31
+option-on 40
+option-on 41
+option-on 42
+option-on 99
+return
+
+@3 // Are you really offering cash?
+ego:Are you really offering cash?
+other:Yes Sir.
+other:Surveys for cash!
+option-off 3
+return
+
+@31 // Are you playing games on that?
+ego:Are you playing games on that?
+other:I can, if I check for drones.
+other:Surveys4cash monitor their staff sometimes.
+other:...with cam-drones.
+other:I normally don't risk it.
+option-off 31
+return
+
+
+@40 // I'll do it for $100.
+ego:I'll do it for $100.
+other:Well, you will be pleased then.
+other:We offer 500. Straight cash.
+other:But it does take a while.
+option-off 40
+return
+
+@41 // I'll do it for $500.
+ego:I'll do it for $500.
+other:Great... let's get started.
+other:First, I'll need your ID.
+ego:Sure.. the name's John Falcon.
+other:Ok... one second.
+other:Let me just run that through our database.
+other:You are not registered?
+ego:Registered where?
+other:Yes, I have it.
+other:Let's start the survey.
+other:Do you enjoy DeathBike?
+option-off 40
+option-off 41
+option-off 42
+option-on 50
+option-on 51
+return
+
+@42 // I'll do it for $1000.
+ego:I'll do it for $1000.
+other:Haha.
+other:$1000! No way.
+option-off 42
+return
+
+@50 // Yes, it's a blast.
+ego:Yes, it's a blast.
+other:Ok Sir.
+other:And how much do you watch it?
+ego:These days? Never.
+other:Ok. Thanks.
+other:That's all then.
+other:The survey's all about the latest series...
+other:So that's it all done.
+ego:That it?
+other:Thanks for your time.
+other:Sir, here's your cash.
+ego:Where?
+other:It's on it's way.
+ego:It better be.
+givemoney,500,paymentFromSurveys4Cash
+option-off 50
+option-off 51
+stop
+
+@51 // No, don't like it this series.
+ego:No, don't like it this series.
+other:Ok, that's fine.
+other:And what don't you like about it?
+ego:Not enough ramps.
+other:Ok, more ramps. Thanks.
+other:A lot of people saying ramps today.
+other:That's it.
+ego:That's it?
+other:Yes Sir. Here's your cash.
+ego:Where?
+other:It's on it's way.
+ego:It better be.
+givemoney,500,paymentFromSurveys4Cash
+option-off 50
+option-off 51
+stop
+
+@99 // Actually, I gotta go.
+ego:Actually, I gotta go.
+other:Ok Sir.
+other:Come back if you have more time.
+option-off 99
+stop
+

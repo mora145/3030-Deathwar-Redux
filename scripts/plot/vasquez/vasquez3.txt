@@ -1,0 +1,114 @@
+//begin
+// [ ] 1 - "Yes. I had just docked there!"
+// [ ] 2 - "Shit happens."
+// [ ] 3 - "Do you have any plans?"
+// [ ] 30 - "How much money do I owe you exactly?"
+// [ ] 31 - "I have a bad feeling..."
+// [ ] 32 - "I have a good feeling..."
+// [x] 7 - "Bye for now."
+//end
+
+// dialog script file
+@S // dialog startup entry point
+other:Hiya.
+other:What's up?
+other:You heard about the Largo crash?
+option-on 1
+option-on 2
+return
+
+@1 // Yes. I had just docked there!
+ego:Yes. I had just docked there!
+other:No way!
+other:Kent was there too wasn't he?
+ego:Yeah.
+ego:He's fine.
+other:My friend Captain Liu said she visited the Largo a few times.
+other:Cleared out a couple of decks.
+other:She got about 120 tons. 
+other:Set me up with a new ship.
+ego:Nice. I am doing ok myself.
+other:I just need to get a shield upgrade and an afterburner.
+other:Other than that it's not a bad ship.
+option-off 1
+option-off 2
+option-on 3
+option-on 30
+return
+
+@2 // Shit happens.
+ego:Shit happens.
+other:It sure does.
+other:My friend Captain Liu said she visited the Largo a few times.
+other:Cleared out a couple of decks.
+other:She got about 120 tons. 
+other:Set me up with a new ship.
+ego:Nice. I'm doing ok myself.
+other:I just need to get a shield upgrade and an afterburner.
+other:Other than that it's not a bad ship.
+option-off 1
+option-off 2
+option-on 3
+option-on 30
+return
+
+@3 // Do you have any plans?
+ego:Do you have any plans?
+other:Not right now.
+other:You.
+ego:Just making progress upgrading my ship.
+ego:Getting used to being a solo pilot again.
+other:I know. a droid like Kent makes it so much easier.
+ego:And it helps to have a good engineer.
+other:I am pretty good aren't I.
+other:How about you?
+option-off 3
+option-off 30
+option-on 31
+option-on 32
+return
+
+@30 // How much money do I owe you exactly?
+ego:How much money do I owe you exactly?
+other:Hey. You can relax about that.
+other:I'm OK for money.
+other:Spend it on getting a better means of transport.
+other:I saw you dock. 
+other:I think something fell off it.
+ego:Hey now. It's not that bad.
+other:How about you? what are you up to?
+option-off 30
+option-off 3
+option-on 31
+option-on 32
+return
+
+@31 // I have a bad feeling...
+ego:I have a bad feeling... 
+ego:...that I'm getting drawn into a...
+other:A bad novel?
+other:that's called life.
+other:relax and have a drink at the bar.
+option-off 31
+option-off 32
+return
+
+@32 // I have a good feeling...
+ego:I have a good feeling... 
+ego:...that I'm making progress.
+other:Me too.
+other:I might head out of this system for a while.
+other:Go looking for that worm hole.
+ego:Interesting. I always wanted to find one of those.
+other:I heard some credible reports.
+other:When I find one first, I'll let you know the coords.
+ego:Sure thing.
+option-off 31
+option-off 32
+return
+
+@7 // Bye
+ego:Bye for now.
+other:Later.
+Stop
+

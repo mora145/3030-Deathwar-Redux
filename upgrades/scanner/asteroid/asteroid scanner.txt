@@ -1,0 +1,13 @@
+name=M1 asteroid survey scanner
+cost=1360
+tech lvl=0.2
+avaiable=1
+desc=allows basic scanning of a targeted asteroid's mineral content.
+once=1
+mass=0
+department=asteroid scanner
+value#=0
+[incompat]
+asteroid scanner
+[incompat]
+image=data/images/upgrades/scanAster.png

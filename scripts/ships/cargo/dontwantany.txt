@@ -1,0 +1,34 @@
+//begin
+// [x] 1 - "I'm just making conversation."
+// [x] 2 - "I'm not selling."
+// [x] 3 - "Bye."
+//end
+
+@S 
+ego:Hi there.
+other:No. 
+other:I don't want any.
+other:No insurance.
+other:No sex discs.
+other:Nothing.
+return
+
+@1 
+ego:I'm just making conversation.
+other:I don't want whatever it is.
+ego:I'm investigating this system.
+other:Sure.
+other:Bye.
+stop
+
+@2 
+ego:I'm not selling.
+ego:Just asking traders for info.
+other:Good luck with that.
+option-off 2
+stop
+
+@3 
+ego:Bye.
+stop
+

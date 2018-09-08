@@ -1,0 +1,50 @@
+//begin
+// [ ] 1 - "1?"
+// [ ] 2 - "2?"
+// [ ] 3 - "3?"
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Excuse me.
+other:Yes?
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // 1?
+ego:x
+other:x
+other:x
+ego:x
+other:x
+option-off 1
+return
+
+@2 // 2?
+ego:x
+other:x
+other:x
+other:x
+other:x
+option-off 2
+return
+
+@3 // 3?
+ego:x
+other:x
+other:x
+other:x
+other:x
+option-off 3
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye.
+Stop
+

@@ -1,0 +1,13 @@
+name=subspace crossover shunt
+cost=300
+tech lvl=0.2
+avaiable=1
+desc=increases communications range with stations by 150%.
+once=1
+mass=0
+department=comms
+value#=1.5
+[incompat]
+comms
+[incompat]
+image=data/images/upgrades/dish1.png

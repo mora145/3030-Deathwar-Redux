@@ -1,0 +1,24 @@
+//begin
+// [x] 1 - "You got a problem?"
+// [x] 2 - "I have to go."
+//end
+
+@S // dialog startup entry point
+ego:Here're your photographs.
+other:Chottomate kudasai!
+option-on 1
+option-on 2
+return
+
+@1 // You got a problem?
+ego:You got a problem?
+other:(examines photograph)
+other:iie, Domo arigatou
+ego:That's ok.
+stop
+
+@2 // I have to go.
+ego:I have to go.
+ego:That was the photo I was told to get.
+other:Ok, Domo.
+stop

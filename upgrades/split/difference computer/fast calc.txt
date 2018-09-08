@@ -1,0 +1,13 @@
+name=m3 1 GHz difference computer
+cost=24100
+tech lvl=0.8
+avaiable=0
+desc=enables almost immediate turning during diff-split.
+once=1
+mass=0
+department=split computer
+value#=0.8
+[incompat]
+split computer
+[incompat]
+image=data/images/upgrades/split1.png

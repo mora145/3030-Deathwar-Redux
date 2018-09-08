@@ -1,0 +1,13 @@
+name=m4 Large Fitted afterburner
+cost=95000
+tech lvl=0.84
+avaiable=0
+desc=Gives you a substantial burst of thrust. Keyboard shortcut: Hold Ctrl. On Controller: Hold LT.
+once=1
+mass=0
+department=after burner
+value#=1.9
+[incompat]
+after burner
+[incompat]
+image=data/images/upgrades/after3.png

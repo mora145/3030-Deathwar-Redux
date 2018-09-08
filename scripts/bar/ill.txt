@@ -1,0 +1,42 @@
+//begin
+// [x] 1 - "Yes."
+// [x] 2 - "No."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hiya
+other:Hi.
+other:Hey, do I look ill?
+ego:Hmmm.
+return
+
+@1 // Yes.
+ego:Yes.
+ego:Now that you mention it.
+ego:Actually, I can't tell. Have you tried beer?
+other:Not yet, good idea.
+ego:If that doesn't work, try peanuts.
+other:For the protein and salt?
+ego:Err.. yeah. 
+ego:I got things to do.
+other:Stay safe out there.
+ego:I always do.
+stop
+
+@2 // No, not that I can tell.
+ego:No.
+ego:Not that I can tell.
+other:I'm feeling a bit odd.
+other:Maybe I need more G-exercise.
+ego:How long you been off station.
+other:I just did a trade run and a micro-met smashed my difference engine.
+ego:Unlucky.
+other:Yeah, took me an extra five hours travel.
+ego:Could have been worse, at least you where only hours from a station.
+ego:I gotta go.
+other:Stay safe out there.
+ego:I always do.
+stop
+

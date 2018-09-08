@@ -1,0 +1,36 @@
+background
+{
+data/cutscenes/images/StationFrank.png
+}
+
+
+people 
+{
+helper,data/stations/special characters/plotzoidman2_50x130_4.png,205,160,facing left,invisible
+
+}
+
+fades
+{
+in
+}
+
+dialogue
+{
+helper:Stop right there!:data/voice/Frank1/stop1.wav
+}
+
+text
+{
+Meanwhile, on a station nearby...
+}
+
+animation
+{
+stationary stars
+}
+
+sounds
+{
+
+}

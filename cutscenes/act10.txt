@@ -1,0 +1,51 @@
+background
+{
+data/cutscenes/images/planet.png
+}
+
+people 
+{
+ktafly,data/stations/special characters/Plotmonk1Guy_50x108_4.png,163,320,facing right,visible
+falcon,data/stations/player/falcon4talk_50x115_7.png,292,328,facing left,visible
+boss,data/stations/standing_at_bar/robo1_50x108_4.png,205,320,facing right,visible
+kent,data/stations/special characters/kent_50x108_8.png,342,320,facing left,visible
+vas,data/stations/special characters/Vasquez1_50x108_4.png,390,320,facing left,visible
+guy1,data/stations/standing_at_bar/Ling1_50x108_4.png,457,327,facing left,visible
+guy2,data/stations/standing_at_bar/traderscanner_50x108_4.png,520,325,facing left,visible
+guy3,data/stations/standing_at_bar/kryto_50x108_4.png,35,325,facing right,visible
+}
+
+dialogue
+{
+ktafly:We're attempting to cull the bad side of the council.
+ktafly:People still think the taoists are bad people after all the propaganda.
+ktafly:We will probably disband.
+ktafly:We've cleared your criminal record by the way.
+falcon:Sound.
+ktafly:Once the nano threat has been explained the council will re-allow access to the planets.
+ktafly:More will be made habitable again. We can start a-fresh.
+boss:We owe you a great deal of gratitude. 
+boss:As a small token we have credited your account with a substantial amount of money.
+falcon:Visiting a planet with life on it is reward enough. It's amazing.
+ktafly:There is one thing though, you cannot tell people of this yet.
+Falcon:Right, I can see why.
+ktafly:They must learn to understand the council was being manipulated.
+ktafly:If they are disillusioned now, the galactic council structure will break down.
+ktafly:Then there could be a deathwar.
+boss:K'ta is always looking for problems.
+ktafly:You are welcome to become one of the first settlers if you are tired of space life.
+boss:Ever considered managing a planetoid global re-construction program.
+Falcon:Yes.
+Falcon:But I expect i'll keep trading a while.
+ktafly:Well then, you will not hear from us again for some time. We have a lot to do.
+boss:Live long and prosper, Falcon.
+ktafly:One thing, why did you ever agree to keep helping us?
+Falcon:Honestly..
+Falcon:I have absolutely no idea.
+}
+
+text
+{
+Act X: The Beginning
+}
+

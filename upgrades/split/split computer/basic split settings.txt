@@ -1,0 +1,13 @@
+name=m1 basic split settings
+cost=1800
+tech lvl=0.21
+avaiable=1
+desc=decreases split initialisation time by 40%.
+once=1
+mass=0
+department=init split settings
+value#=0.60
+[incompat]
+init split settings
+[incompat]
+image=data/images/upgrades/split00.png

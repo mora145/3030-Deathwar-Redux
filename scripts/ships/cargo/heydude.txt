@@ -1,0 +1,49 @@
+//begin
+// [x] 1 - "Thanks."
+// [x] 2 - "Heard any news?"
+// [x] 3 - "Bye."
+// [ ] 4 - "Sure thing."
+// [ ] 5 - "I mind my own business."
+//end
+
+@S 
+ego:Hi there.
+other:Hey dude!
+other:Nice day today.
+other:I hope you're having a good one.
+return
+
+@1 
+ego:Thanks.
+other:Traders have to be more friendly.
+other:Don't you think?
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+return
+
+@2 
+ego:Heard any news?
+other:Some traders found some diamond rich asteroids near here.
+other:But I'm not sure it's true.
+option-off 2
+return
+
+@3 
+ego:Bye.
+stop
+
+@4
+ego:Sure thing.
+other:It's tough to make a living, dude.
+other:I'm doing ok at the moment.
+other:But who knows what will come next.
+other:Have a good one, Dude.
+stop
+
+@5 
+ego:I mind my own business.
+other:But it's good to talk, Dude.
+other:Have a good one.
+stop

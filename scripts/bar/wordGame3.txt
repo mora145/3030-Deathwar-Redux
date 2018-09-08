@@ -1,0 +1,65 @@
+//begin
+// [x] 1 - "Ok, go for it."
+// [x] 2 - "Nah."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi there.
+other:How's space treatin' ya?
+ego:I'm cool.
+other:Word game?
+return
+
+@1 // Ok, go for it.
+ego:Ok, go for it.
+other:k
+other:Want a game of twenty questions?
+ego:Ok, i'll pick
+other:Ok then.
+ego:Hmmm. Ok I got one. I'm a vegetable
+other:Right. Do you have a face?
+ego:No I'm a veg. Organic, Plant life
+other:Right, are you a peanut?
+ego:No.
+other:Are you a curry?
+ego:No. You might want to narrow it down a bit first.
+other:Are you edible?
+ego:Yes.
+other:Could I eat one whole?
+ego:Yeah, just about.
+other:Are you a peanut?
+ego:No, I said. That won't count to your twenty.
+other:Oh, yeah, I was just reminding myself.
+other:Hmmm..
+other:Are you a small fish?
+ego:No.
+other:Hmmm, Some thing I can eat in one go...
+other:Can I buy you at a station bar?
+ego:No.
+other:Are you brightly coloured?
+ego:Yes.
+other:Are you a fruit?
+ego:Yes.
+other:Are you a fruit of the humans?
+ego:Yes Sir.
+other:Ok, how many questions I got left?
+ego:Err... ten left I think.
+other:Are you a, no....are you a, what are they called again?
+other:Are you an appool? 
+ego:Err. No.
+other:Are you round shaped?
+ego:No.
+other:Oh, are you one of those banananans or whatever they are called?
+ego:You got it.
+other:Cool.
+ego:K, I'm going to check the job console.
+other:Safe flying.
+stop
+
+@2 // Nah
+ego:Nah.
+ego:Maybe later.
+other:Ok.
+stop

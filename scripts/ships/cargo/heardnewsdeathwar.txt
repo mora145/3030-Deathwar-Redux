@@ -1,0 +1,59 @@
+//begin
+// [x] 1 - "Heard any news?"
+// [x] 2 - "Nice ship!"
+// [x] 3 - "Bye."
+// [ ] 4 - "What things?"
+// [ ] 5 - "Sorry, no time for that."
+//end
+
+@S 
+ego:Hi there.
+other:Hi.
+return
+
+@1 
+ego:Heard any news?
+other:About the Deathwar?
+other:It's coming.
+ego:Oh?
+other:Yeah. I know a station security chief.
+other:They hear things.
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+return
+
+@2 
+ego:Nice ship!
+other:It's alright. I've owned better.
+other:It needs repainting.
+other:What do you want?
+other:I don't trade ship to ship.
+option-off 2
+return
+
+@3 
+ego:Bye.
+stop
+
+@4
+ego:What things?
+ego:You can tell me.
+other:Ok. Let me encrypt this channel.
+ego:So go on what's the scoop?
+other:Some stations have found nanobot making equipment.
+other:And plans for new nanobots.
+ego:That's not good.
+other:No. You didn't hear anything from me.
+option-off 4
+option-off 5
+option-on 3
+return
+
+@5 
+ego:Sorry, no time for that.
+other:No problem.
+option-off 4
+option-off 5
+return

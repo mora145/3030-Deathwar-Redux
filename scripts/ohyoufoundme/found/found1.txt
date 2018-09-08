@@ -1,0 +1,105 @@
+//begin
+// [x] 1 - "Seems someone is looking for you."
+// [x] 2 - "No, just accidentally started talking to you."
+// [ ] 3 - "Yeah, sounds good to me."
+// [ ] 4 - "No, I'll complete my mission like I ought to."
+// [ ] 5 - "I really don't want anything."
+// [ ] 6 - "It's none of your damned business what I want."
+// [ ] 7 - "I've been sent to find you."
+//end
+
+
+@S
+other:Can I help you?
+option-on 1
+option-on 2
+return
+
+@1
+ego:Seems someone is looking for you.
+other:Oh yeah? Who?
+ego:Can't really say. Confidentiality and all that.
+other:Well, maybe I don't want to be found.
+ego:Say what?
+other:How much is this mystery person offering you?
+ego:I can't say. Why?
+other:Well, maybe I'll pay you $5,000 right now to cancel your job and go away.
+ego:So you want to pay me off?
+other:What do you say?
+option-off 1
+option-off 2
+option-on 3
+option-on 4
+return
+
+@2
+ego:No, just accidentally started talking to you.
+other:right. That always happens.
+other:What do you really want?
+option-off 1
+option-off 2
+option-on 5
+option-on 6
+option-on 7
+return
+
+@3
+ego:Yeah, sounds good to me.
+other:Yeah, sounds damn good to me, too.
+other:Ok, here's your money.
+other:Now you walk out of here.
+ego:Ok, nice doing business with you.
+cancelMissionInvolvingMe
+giveMoney,5000,BRIBE FOR NOT TURNING IN SUSPECT
+setMyselfFreeform
+stop
+
+@4
+ego:No, I'll complete my mission like I ought to.
+other:What? You want to turn me in?
+other:I should kill you right here.
+ego:But you won't.
+ego:We both know that.
+ego:You'd make a scene and get yourself arrested.
+other:So what you going to do?
+ego:Go back and turn you in. I'll get my money and will have done the right thing.
+other:Fuck you.
+ego:No, fuck you.
+setMyselfFreeform
+stop
+
+@5
+ego:I really don't want anything.
+other:Alright. Then quit bumping into me like you meant to.
+ego:See you around.
+setMyselfFreeform
+stop
+
+@6
+ego:It's none of your damned business what I want.
+other:Seems to me like it might be.
+other:Why you so confrontational?
+other:Got something to hide?
+ego:Got nothing, my friend. nothing.
+ego:See you around.
+setMyselfFreeform
+stop
+
+@7
+ego:I've been sent to find you.
+other:Say what?
+other:Who?
+ego:Can't really say. Confidentiality and all that.
+other:Well, maybe I don't want to be found.
+ego:Say what?
+other:How much is this mystery person offering you?
+ego:I can't say. Why?
+other:Well, maybe I'll pay you $5,000 right now to cancel your job and go away.
+ego:So you want to pay me off?
+other:What do you say?
+option-off 5
+option-off 6
+option-off 7
+option-on 3
+option-on 4
+return

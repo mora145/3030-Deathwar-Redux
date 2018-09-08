@@ -1,0 +1,89 @@
+//begin
+// [x] 1 - "Of course."
+// [x] 2 - "Not yet but I'll find it."
+// [x] 3 - "I haven't a clue where it is."
+// [ ] 4 - "Ok, I'll get it done."
+// [ ] 5 - "No, not yet. I might come back later."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi, I got k'ta fly's message to meet you here.
+ego:he said you'd be able to help me.
+other:Yes, my name is morgan yu and I'm an old friend of k'ta.
+other:he has told me about you and asked me to entrust you...
+other:...with a delicate mission.
+ego:delicate you say?
+other:yes, quite. you are to take this religious artefact to daphice. 
+other:do you know where that is?
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // of course
+ego:Of course.
+ego:which station?
+other:Clearly you can't know it very well...
+other:...there is only one station; Ssinil Station 1.
+ego:Yes, that was a joke. It's a mining outpost.
+other:So will you do it?
+ego:How much is the pay?
+other:It's a mission of import. I'm afraid i can't give you much, $20,000?
+ego:That's a pathetic rate of pay for a faulty droid.
+other:Too much money changing hands would draw unwanted attention.
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+@2 // not yet
+ego:Not yet but I'll find it.
+other:Very good. I've made it visible on your map for you.
+other:You'd have to take it to Ssinil Station 1 there.
+other:I can pay only $20,000 because of the nature of the delivery.
+other:Too much money changing hands would draw unwanted attention.
+other:Will you do it?
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+@3 // no clue
+ego:I haven't a clue where it is.
+other:Well, nevermind. I've added the information to your map. 
+other:Next time you access it you'll be able to see daphice there.
+ego:Thanks.
+other:The actual destination is the Ssinil Station.
+other:So, do you want this mission? It's very simple.
+ego:How much does it pay?
+other:Only $20,000 I'm afraid. We don't want to draw attention to ourselves.
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+@4 // yes
+ego:Ok, I'll get it done.
+other:Excellent. I've given the artefact to my associate.
+other:He will place the package in your hold shortly.
+other:One more thing, it's urgent you get it there as quickly as possible.
+other:it's a long journey. You can use a shortcut through the nebula.
+other:I've added the nebula gap in your map. 
+other:Just view the nebula read-out to see it.
+setMissionAnswer 1
+stop
+
+@5 // No, not yet. I might come back later.
+ego:No, not yet. I might come back later.
+other:Very well, I'll be here if you change your mind.
+other:K'ta Fly won't allow me to give this to anyone else.
+setMissionAnswer 0
+stop

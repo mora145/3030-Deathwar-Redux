@@ -1,0 +1,21 @@
+//begin
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hello Sir.
+other:I'm just updating my database.
+ego:No problem.
+other:Stupid OS on this thing.
+other:A Real pain it is.
+return
+
+@4 // Bye
+ego:Bye.
+other:Stupid effing machine!
+other:Update!
+Stop
+

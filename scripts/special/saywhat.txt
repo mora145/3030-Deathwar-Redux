@@ -1,0 +1,35 @@
+//begin
+// [x] 1 - "the truth"
+// [x] 2 - "lie"
+// [ ] 3 - "yes"
+// [ ] 4 - "no"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:hi
+james:hi matt what's up?
+return
+
+@1 // the truth
+ego:Well you worked so hard i've decided to give you 10% of the take.
+jay:wow you mean it?
+option-off 2
+option-off 1
+option-on 3
+option-on 4
+return
+
+@2 // lie
+ego:nothin
+jay:cya
+stop
+
+@3 // yes
+ego:yes i did. a verbal contract in the county of flintshire is binding
+stop
+
+@4 // no
+ego:no sorry, i meant 20%. a verbal contract in the county of flintshire is binding
+stop

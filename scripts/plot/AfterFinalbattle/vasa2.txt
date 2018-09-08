@@ -1,0 +1,17 @@
+//begin
+// [x] 99 - "See you later."
+//end
+
+// dialog script file
+@S // dialog startup entry point
+ego:I'll see you soon, ok?
+other:Yeah. let me know what you decide to do after this.
+ego:Will do.
+return
+
+@99 // See you later.
+ego:See you later.
+other:See ya.
+option-off 99
+stop
+

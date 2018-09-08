@@ -1,0 +1,22 @@
+//begin
+// [x] 1 - "No. I wish to dock."
+// [x] 2 - "Yes, cancel my docking permission."
+//end
+
+@S
+other:You're already in our docking queue.
+other:Do you wish to cancel your docking clearance?
+option-off 0
+option-on 1
+option-on 2
+return
+
+@1 
+other:Roger, please wait in the queue.
+stop
+
+@2 
+other:Roger, clearance denied.
+other:Please back away from the station.
+dock_cancel
+stop

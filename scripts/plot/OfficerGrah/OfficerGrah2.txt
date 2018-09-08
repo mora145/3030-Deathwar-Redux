@@ -1,0 +1,80 @@
+//begin
+// [ ] 1 - "Nice 'tash!"
+// [ ] 2 - "Hate your 'tash!"
+// [ ] 22 - "Sorry, it's nice."
+// [ ] 23 - "Really? How Much?"
+// [ ] 3 - "You know anything about a Kent?"
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hey Grah..
+ego:...one more thing.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // Nice 'tash!
+ego:Nice 'tash!
+other:My Mustache is my life, Buddy.
+other:Are you being sarcastic?
+ego:No way.
+other:Ok. Thanks.
+option-off 1
+return
+
+@2 // Hate your 'tash!
+ego:Hate your 'tash!
+other:Hey now!
+other:My Mustache is my life, Buddy.
+other:You earned yourself a fine.
+other:Insulting an officer.
+takemoney,200,Fined for insulting Officer Grah
+option-off 1
+option-off 2
+option-on 22
+option-on 23
+return
+
+@22 // Sorry, it's nice.
+ego:Sorry, it's Nice.
+other:Too late, Buddy.
+other:The fine has been issued.
+ego:No way.
+other:Yes way.
+option-off 22
+return
+
+@23 // Really? How Much?
+ego:Really? How Much?
+other:I fined your ass Two Hundred.
+ego:Guess I deserved that.
+option-off 23
+return
+
+
+@3 // You know anything about a Kent?
+ego:You know anything about a Kent?
+other:Hmmm..
+other:Nah. Never heard of her, or him.
+ego:It's a droid.
+other:Oh yeah, Kent Droid.
+other:He was asking about the previous owner of your ship.
+other:The one who is missing. 
+other:Actually, it was quite aggressive about it all.
+ego:Yeah, Kent takes investigations seriously.
+ego:Thanks for the info.
+option-off 3
+return
+
+
+@4 // Bye
+ego:Bye.
+other:Later. 
+other:Keep out of trouble.
+Stop
+

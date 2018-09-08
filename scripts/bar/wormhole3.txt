@@ -1,0 +1,35 @@
+//begin
+// [x] 1 - "Know any good trade routes?"
+// [x] 2 - "Heard anything about wormholes?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi
+other:Yo
+ego:What's up?
+other:I'm taking a break.
+ego:Me too.
+other:I've been doing courier jobs.
+other:It's quite good work if you have a fast ship.
+return
+
+@1 // Know any good trade routes?
+ego:Know any good trade routes?
+other:Nah, I don't keep track since I started doing courier jobs.
+ego:Ok, I should make a move.
+ego:Catch ya later.
+stop
+
+@2 // Heard anything about wormholes?
+ego:Heard anything about these wormholes?
+other:Ah, you've heard about those have you?
+ego:Yeah, I hear lots of things.
+other:If your looking to find one I'd look in the Tapley sys.
+ego:Tapley system.
+other:I can't say any more. I use em for business.
+other:Don't want it getting out to everyone.
+ego:I get ya. Thanks.
+ego:I'll check it out sometime.
+stop

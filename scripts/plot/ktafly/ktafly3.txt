@@ -1,0 +1,84 @@
+//begin
+// [ ] 1 - "So who are they?"
+// [ ] 2 - "What's started again?"
+// [ ] 3 - "Nevermind."
+// [ ] 4 - "What do you know about this?"
+// [ ] 5 - "So, are you a Cleaner?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Your cargo container is outside.
+ego:Also, there were some weird ships after me. 
+ego:What's that all about?
+other:Firstly, thanks for delivering my cargo. It was quite important.
+other:Secondly, the objects....
+other:Were they black, like space?
+ego:Yeah, from what I saw of them. Who are they?
+other:Oh dear, it's started again.
+option-on 1
+option-on 2
+option-on 3
+return
+
+
+@1 // So who are they?
+ego:So who are they?
+other:They're the Cleaners. At least how you know them.
+other:I know them in a very different way.
+other:Very different.
+ego:Why are they back?
+other:It seems the wheels have been put back in motion.
+other:This means serious trouble.
+option-on 4
+option-off 1
+return
+
+@2 // What's started again?
+ego:What's started again?
+other:The attacks. 
+other:300 years have passed but now the council has started again.
+ego:The council?
+other:Parties within the Council.
+other:They want to clean the place up.
+other:If you know what I mean.
+option-off 2
+option-on 3
+return
+
+@3 // nevermind
+ego:Nevermind. See you later.
+other:Very well. I may talk to you in the future. 
+other:I will send you a message soon.
+stop
+
+@4 // What do you know about this?
+ego:What do you know about this?
+other:Unfortunately, too much. I'm part of it.
+ego:You're associated with the cleaners?
+ego:How?
+other:Well, there's a lot of background.
+other:We used to be one big organisation.
+other:The previous governing Council.
+other:We split off from them about 300 years ago.
+ego:300 years ago is when the cleaners last appeared.
+other:Yes. Strange indeed.
+other:We both want very different things.
+ego:How do they involve those black ships?
+other:That is all for another time, my friend.
+
+option-off 4
+option-on 5
+return
+
+@5 //So, are you a cleaner?
+ego:So, are you a cleaner?
+other:No, of course not.
+ego:Tell me about it.
+other:I can't. I'll talk to my colleagues about this.
+other:Recent bombings have been blamed on us.
+other:Interesting times to be alive.
+ego:Indeed. 
+other:I will send you a message soon.
+stop

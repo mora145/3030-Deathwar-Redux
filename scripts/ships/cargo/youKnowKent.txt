@@ -1,0 +1,68 @@
+//begin
+// [x] 1 - "You know Kent?"
+// [x] 2 - "Heard any news?"
+// [ ] 22 - "Sounds like you have a good plan."
+// [x] 3 - "Bye."
+// [ ] 4 - "Great."
+// [ ] 5 - "I mind my own business."
+//end
+
+@S 
+ego:Hi there.
+other:Hi.
+other:Aren't you the pilot of Kent the robot?
+ego:Yeah. Kent's my navigator.
+ego:Except when it's off investigating crime.
+return
+
+@1 
+ego:You know Kent?
+other:Sure. It tracked down some criminals for me.
+other:Kent is a top private investigator.
+ego:It does love investigating things.
+other:How's it going with you?
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+return
+
+@2 
+ego:Heard any news?
+other:Some traders found a derelict full of gold.
+other:Probably just a rumour.
+other:I'm doing photography work right now.
+other:Long trips, but good reward.
+other:I asteroid mine when I get into the destination system.
+other:To make some extra, too.
+option-off 2
+option-on 22
+return
+
+@22 
+ego:Sounds like you have a good plan.
+other:It's ok for me.
+other:I read the news, or listen to music on the journey.
+other:Soon I can retire. If I want.
+other:But I'll keep on rolling.
+option-off 22
+return
+
+
+@3 
+ego:Bye.
+stop
+
+@4
+ego:Great.
+other:It's tough to make a living trading goods.
+other:I don't have any deals for you.
+other:Safe flying.
+stop
+
+@5 
+ego:I mind my own business.
+other:Me too.
+other:Safe flying. 
+other:Say hi to Kent for me.
+stop

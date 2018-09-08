@@ -1,0 +1,49 @@
+//begin
+// [x] 1 - "But where is walker base?"
+// [x] 2 - "I can't find the bloody thing."
+// [x] 3 - "Alright, let's get this thing done."
+// [ ] 4 - "Ok, thanks."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:What does 'in freedom, truth' mean?
+other:You have proven yourself worthy of the password.
+other:Now board walker base and go and talk to 4332c.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1
+ego:But where is walker base?
+other:You've got all the clues, haven't you?
+ego:Yes, but what do they mean?
+other:It's not what they mean, it's where they mean.
+other:Think about it.
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+return
+
+@2
+ego:I can't find the bloody thing.
+other:Seems to me you're trying to hard to find a riddle in the clues.
+other:Just look at where they are not what they are.
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+return
+
+@3 
+ego:Alright, let's get this thing done.
+other:Good. Now leave me to my drink.
+other:Oh god, I love froog.
+stop
+
+@4 
+ego:Ok, thanks.
+stop

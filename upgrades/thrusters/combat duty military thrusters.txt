@@ -1,0 +1,13 @@
+name=m4 combat duty thrusters
+cost=79000
+tech lvl=0.81
+avaiable=0
+desc=speeds up ship turning by upgrading the thruster output by 45%.
+once=1
+mass=0
+department=thruster
+value#=1.45
+[incompat]
+thruster
+[incompat]
+image=data/images/upgrades/thrust4.png

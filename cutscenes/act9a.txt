@@ -1,0 +1,65 @@
+background
+{
+data/cutscenes/images/rebelbase.png
+}
+
+people 
+{
+cjisri,data/stations/special characters/plotmonk2_50x108_4.png,75,146,facing right,visible
+
+Min,data/stations/special characters/BMin_50x108_4.png,325,150,facing right,visible
+Aquan,data/stations/special characters/GebbosAquan_50x108_4.png,345,153,facing left,visible
+
+falcon,data/stations/player/falcon4talk_50x115_7.png,138,149,facing right,visible
+kent,data/stations/special characters/kent_50x108_8.png,119,157,facing right,visible
+ktafly,data/stations/special characters/Plotmonk1Guy_50x108_4.png,226,140,facing left,visible
+
+
+boss,data/stations/standing_at_bar/robo1_50x108_4.png,190,145,facing left,visible
+helper,data/stations/special characters/plotzoidman2_50x130_4.png,250,152,facing left,visible
+vas,data/stations/special characters/Vasquez1_50x108_4.png,290,158,facing left,visible
+
+Fore,data/stations\drinkdroids/drinkDroidJug_36x50_2.png,200,160,facing right,visible
+}
+
+dialogue
+{
+vas:Hi John, Hi Kent. 
+falcon:Hi Vasquez!
+Kent:Hi Vas. 
+Kent:I thought you might be involved with these guys.
+boss:No time for reunions!
+boss:We've done it. we've transmitted the unlock code for their shields.
+boss:They are as defenceless as us!
+falcon:That's a good thing?
+boss:We've detected their armada coming towards us.
+boss:Probably to destroy us before we release the code. but it's too late.
+vas:A quick attack now will catch them unaware. 
+boss:Head out with the rest of the fleet to destroy them.
+helper:Destroy the cleaner mothership at all costs.
+helper:All orders come from that ship.
+ktafly:Our drunken informant is correct, Mr Falcon.
+ktafly:If we Knock out the mothership...
+ktafly:...No more council, no more world destroying nano tech.
+falcon:What are our chances then, Mr Robot.
+boss:I calculate we have a 70% percent probability... of failure.
+Kent:Wrong.
+boss:We launch Immediately. I'm boarding my ship right now.
+boss:They'll be splitting in any minute now.
+boss:You still up for it?
+vas:If you need a engineer, I can jump in with you.
+Kent:Great! Just like old times.
+falcon:Sure, let's do this.
+}
+
+
+animation
+{
+stationary
+}
+
+text
+{
+Act IX: The End
+}
+

@@ -1,0 +1,25 @@
+image=CcleanerMother_100x200_5.png
+name=Cleaner Mothership
+turnSpeed=0.3
+cargoSize=8070
+warpSpeed=80
+enginePower=0.16
+cost=0
+maxCrew=3
+passengers=15
+mintech=999
+available=0
+maxmissiles=14
+turret?=1
+firefrom(w,h)=14,9
+turretat(x,y)=37,32
+[thrusters]
+-9,64
+9,64
+-7,74
+7,74
+[/thrusters]
+??????
+producedBy=??????
+yearDeveloped=1
+funTrivia=??????

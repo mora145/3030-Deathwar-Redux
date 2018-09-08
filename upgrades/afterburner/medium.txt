@@ -1,0 +1,13 @@
+name=m3 Medium Size afterburner
+cost=17700
+tech lvl=0.54
+avaiable=1
+desc=Gives you a medium burst of thrust. Keyboard shortcut: Hold Ctrl. On Controller: Hold LT.
+once=1
+mass=0
+department=after burner
+value#=1.4
+[incompat]
+after burner
+[incompat]
+image=data/images/upgrades/after2.png

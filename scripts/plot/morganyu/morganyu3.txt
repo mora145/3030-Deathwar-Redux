@@ -1,0 +1,27 @@
+//begin
+// [ ] 1 - "Ok, I'm on my way."
+// [ ] 2 - "What is this artefact?"
+//end
+
+@S // dialog startup entry point
+ego:Hello again.
+other:Hello again. I do not think you have much time. 
+other:Please take the artefact to daphice as quickly as possible.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // Ok, I'm on my way.
+ego:Ok, I'm on my way.
+other:Good. Make haste!
+stop
+
+@2 //What is this artefact
+ego:What is this artefact?
+other:Listen. We have no time to talk about this. 
+other:Please take it to daphice.
+other:I will talk to you about this afterwards.
+other:If you still want to know more.
+ego:Ok, I'm on my way.
+stop

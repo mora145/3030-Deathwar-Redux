@@ -1,0 +1,23 @@
+image=AJship_100x100_5.png
+name=Caroliiam Fighter
+turnSpeed=0.9
+cargoSize=60
+warpSpeed=250
+enginePower=0.32
+cost=4400000
+maxCrew=4
+passengers=3
+mintech=0.89
+available=1
+maxmissiles=22
+turret?=1
+firefrom(w,h)=-17,34
+turretat(x,y)=0,56
+[thrusters]
+-3,73
+3,73
+[/thrusters]
+M8 Fighter - An instant classic, The Caroliiam Fighter has more umph than a Venturian star destroyer. In the right hands, this ship can take down pretty much anything that is put up against it.
+producedBy=Virol 5
+yearDeveloped=3028
+funTrivia=If you turn too many light on in the engine room the entire ship will turn itself off.

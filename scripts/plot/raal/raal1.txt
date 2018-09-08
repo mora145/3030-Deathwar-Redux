@@ -1,0 +1,256 @@
+//begin
+// [x] 1 - "I'm john Falcon, I was told to meet with you."
+// [x] 2 - "Are you Raal?"
+// [x] 21 - "I need a drink."
+// [ ] 22 - "I need new clothes."
+// [ ] 3 - "How do I know you're really Raal and not a cleaner?"
+// [ ] 4 - "so do you have contacts for me?"
+// [ ] 41 - "First, lets deal with these contacts."
+// [ ] 42 - "Get to it, What ships?"
+// [ ] 43 - "Any word about Daphice?"
+// [ ] 5 - "I'll take the big and quick trader."
+// [ ] 6 - "I'll take the nimble fighter."
+// [ ] 7 - "I'll take the balanced allrounder."
+//end
+
+@S // dialog startup entry point
+other:Hello there.
+option-on 1
+option-on 2
+option-on 21
+return
+
+@1 // I'm john Falcon, I was told to meet with you.
+ego:I'm john Falcon, I was told to meet with you.
+other:Did you come through the wormhole?
+ego:I might have.
+other:Well, bear in mind there are a few more too.
+other:If you find one, be sure to note down its location.
+other:Trust me, they can be a pain to find again. 
+other:Nobody knows where they came from but boy, they're handy.
+option-off 1
+option-off 2
+option-off 21
+option-off 22
+option-on 4
+return
+
+@2 // Are you Raal?
+ego:Are you Raal?
+other:I am indeed. I have some things for you here;
+other:Money, ships and a reg code.
+option-off 1
+option-off 2
+option-off 21
+option-off 22
+option-on 3
+option-on 4
+return
+
+@21 // 
+ego:I need a drink.
+other:Me too.
+other:I'm meant to meet some guy called Falco.
+other:But I've not even been told what Species it is.
+option-off 21
+option-on 22
+return
+
+@22 // 
+ego:I need new clothes.
+other:Yeah, hard to get new ones for us traders.
+other:I have a supplier. The lining in this is pure rat.
+other:Looking Good, feel good.
+option-off 22
+return
+
+@3 // How do I know you're really Raal and not a cleaner?
+ego:How do I know you're really Raal and not a cleaner?
+other:Cji S'ri told you about me didn't he?
+other:Wouldn't that be enough?
+ego:You'd think. But I have been deceived before.
+other:trust me, john, this is the real raal.
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+return
+
+
+@4 // so do you have contacts for me?
+ego:So do you have contacts for me?
+other:Indeed, but first..
+other:You need a new ship, Mr Falcon.
+ego:No need to be rude, my ship is alright.
+other:Not due to it's quality.
+other:My mechanic scanned it and she's sure it has a tracker on it somewhere.
+ego:I guess I have to take your word for it.
+ego:What are you suggesting?
+other:Here is $10,000. That is all I have with me.
+other:And you can choose one of three ships we have here.
+other:That should keep you off the grid for now.
+other:We'll sell your old one and transfer your upgrades.
+other:I'll send you the cash after repairs are done.
+ego:Sounds like I'm being scammed again.
+ego:This better not be a non-internet-based scam!
+other:No. It's a good deal for you, these are top ships.
+ego:Top Ships?
+other:Well... above average paint jobs. Minimum bad welds.
+other:I got my mechanic to find me them. Frank Zoed.
+ego:Oh great. Small galaxy.
+other:Huh? You met him?
+ego:In andinti, a long time ago.
+option-off 4
+option-on 41
+option-on 42
+option-on 43
+return
+
+@41 // First, lets deal with these contacts.
+ego:First, lets deal with these contacts.
+other:I'll update your ship's contacts list with four new people.
+other:The contacts are: 
+other:evan t'ny in tibefa system.
+other:glor ops in enuray system.
+other:geri h'ge in waiool system.
+other:and rh 445 in the badlands system.
+other:You can visit them in any order you like. 
+other:I'm sure a trader like you can plot an efficient course.
+ego:Sure.
+other:We are split into cells these days.
+other:So I don't have anymore info on them.
+other:I'm sorry to hear about daphice by the way. Tragic.
+ego:I'm looking for some payback on that score.
+other:Sadly, it is nothing to what the council did last time.
+other:On World after world they wiped out all life.
+ego:So I gather. Nanobots, right?
+other:Correct. They released Nanobots that ate all organic and plastic matter.
+other:Working with us is the best way you have to get even, Mr Falcon.
+other:Now back to business.
+other:You will have to choose a new ship.
+other:I can offer you one of three ships we have available.
+other:I recommend you still do some jobs to earn money for repairs.
+other:We can give you a quick trader with a large cargo hold. Great for derelict salvage work.
+other:A specially designed fighter, with high turn speed.
+other:Or an allrounder, a medium sized ship with solid split speed.
+other:What will it be?
+option-off 1
+option-off 2
+option-off 3
+option-off 41
+option-off 42
+option-off 43
+option-on 5
+option-on 6
+option-on 7
+return
+
+@42 // Get to it, What ships?
+ego:Get to it, What ships?
+other:I can offer you one of three ships we have available.
+other:Unless you have good savings, I recommend you still do some jobs to earn money for repairs.
+other:We can give you a quick trader with a large cargo hold. Great for derelict salvage work.
+other:A specially designed fighter, with high turn speed.
+other:Or an allrounder, a medium sized ship with solid split speed.
+ego:Ok I get it.
+other:After you have selected what ship you want...
+other:...I'll update your ship's contacts list with four new people.
+other:The contacts are: 
+other:evan t'ny in tibefa system.
+other:glor ops in enuray system.
+other:geri h'ge in waiool system.
+other:and rh 445 in the badlands system.
+other:You can visit them in any order you like. 
+other:I'm sure a trader like you can plot an efficient course.
+ego:Sure.
+other:We are split into cells these days.
+other:So I don't have anymore info on them.
+other:I'm sorry to hear about daphice by the way. Tragic.
+ego:I'm looking for some payback on that score.
+other:Sadly, it is nothing to what the council did last time.
+other:On World after world they wiped out all life.
+ego:So I gather. Nanobots, right?
+other:Correct. They released Nanobots that ate all organic and plastic matter.
+other:Working with us is the best way you have to get even, Mr Falcon.
+other:Have you decided on the type of ship you want to take?
+option-off 1
+option-off 2
+option-off 3
+option-off 41
+option-off 42
+option-off 43
+option-on 5
+option-on 6
+option-on 7
+return
+
+@43 // Any word about Daphice?
+ego:Any word about Daphice?
+other:No. I was sorry to hear about that. Tragic.
+ego:I'm looking for some payback on that score.
+other:Sadly, it is nothing to what the council did last time.
+other:On World after world they wiped out all life.
+ego:So I gather. Nanobots, right?
+other:Correct. They released Nanobots that ate all organic and plastic matter.
+other:Working with us is the best way you have to get even, Mr Falcon.
+other:Now back to our current business.
+other:You will have to choose a new ship.
+other:I can offer you one of three ships we have available.
+other:Unless you have good savings, I recommend you still do some jobs to earn money for repairs.
+other:We can give you a quick trader. Large cargo hold, Great for salvage work.
+other:A quality fighter, with a high turn speed.
+other:Or an allrounder, a medium sized ship with solid split speed.
+ego:Ok I get it.
+other:After you have selected what ship you want...
+other:...I'll update your ship's contacts list with four new people.
+other:The contacts are: 
+other:evan t'ny in tibefa system.
+other:glor ops in enuray system.
+other:geri h'ge in waiool system.
+other:and rh 445 in the badlands system.
+other:You can visit them in any order you like. 
+other:I'm sure a trader like you can plot an efficient course.
+ego:Sure.
+other:We are split into cells these days.
+other:So I don't have anymore info for you.
+other:Have you decided on the type of ship you want to take?
+option-off 1
+option-off 2
+option-off 3
+option-off 41
+option-off 42
+option-off 43
+option-on 5
+option-on 6
+option-on 7
+return
+
+
+@5 // I'll take the trader.
+ego:I'll take the trader.
+ego:I'll downsize if it's too slow for me.
+other:Not an injudicious thing to do, Sir.
+other:For travelling long distance, you can load up on fuel.
+ego:As Kent would say, Correct-a-mundo.
+setDialogueAnswer ship1
+stop
+
+@6 // I'll take the fighter.
+ego:I'll take the fighter.
+ego:High turn speed it what I need. 
+other:Not an injudicious thing to do, Sir. Dangerous times.
+other:For travelling long distance, maybe get a fuel scoop upgrade.
+other:You can always rely on the sun.
+other:...Except when they explode. Tragic.
+setDialogueAnswer ship2
+stop
+
+@7 // I'll take the balanced allrounder.
+ego:I'll take the allrounder.
+ego:Well balanced, Just like me.
+other:Not an injudicious thing to do, Sir.
+other:For travelling long distance, maybe get a fuel scoop upgrade.
+other:You can always rely on the sun.
+other:...Except when they explode. Tragic.
+setDialogueAnswer ship3
+stop

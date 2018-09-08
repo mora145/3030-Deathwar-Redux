@@ -1,0 +1,42 @@
+//begin
+// [ ] 1 - "Actually. It looks like a bad idea."
+// [ ] 2 - "Lets do this."
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hello again.
+other:Here for the Diamonds?
+other:Good move my friend.
+other:Same rules Pal.
+other:If you don't take the deal now, you'll miss out.
+option-on 1
+option-on 2
+return
+
+@1 // Actually. It looks like a bad idea.
+ego:Actually. It looks like a bad idea.
+other:I know most of these guys.
+other:I sell them cheap ship parts.
+other:It's cool.
+option-off 1
+return
+
+@2 // Lets do this.
+ego:Lets do this.
+other:Great.
+other:I got 20 units.
+other:I can give you 100 each.. that's 2000.
+other:Easy money.
+takemoney,2000,Gave money for no-tax Diamonds
+givecargo 10 20
+option-off 2
+Stop
+
+@4 // Bye
+ego:Bye.
+Stop
+

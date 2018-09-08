@@ -1,0 +1,18 @@
+//begin
+// [x] 1 - "Alright, I'll hurry."
+//end
+
+
+@S 
+other:Your search grid asteroid belts are in waessda and aresswa.
+other:Search there. 
+other:When you have found a device, tractor-beam it back here.
+other:Leave it outside the station and board.
+other:We'll have our head scientist study it.
+other:Be as quick as you can.
+option-on 1
+return
+
+@1
+ego:Alright, I'll hurry.
+stop

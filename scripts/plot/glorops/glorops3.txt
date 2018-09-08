@@ -1,0 +1,51 @@
+//begin
+// [x] 1 - "So what you spent that $25,000 on?"
+// [x] 2 - "What was the clue again?"
+// [x] 3 - "Doesn't matter, goodbye."
+//end
+
+@S
+ego:Hey, can I ask you some questions?
+other:Sure.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 //So what you spent that $25,000 on?
+ego:So what you spent that $25,000 on?
+other:This and that, you know.
+ego:No, I don't know.
+other:Oh, I did buy that special froog. it is awesome.
+other:I only had a 1/2 a shot and I was out for 4 hours.
+other:it's potent stuff.
+other:You heard that froog is made out of?
+ego:No, what?
+other:Visor beast extract.
+ego:Extract? That does not sound good.
+other:Well, the normal stuff you can get from any shmo is synthesised.
+other:The real special stuff is all natural.
+ego:All natural what?
+other:Visor beast man juice.
+ego:Say what?
+other:Yeah, it's a rare commodity, rarely sold.
+other:It's mostly used in business affairs and exchanged.
+other:That's why it's so expensive.
+ego:So you don't mind drinking visor beast sperm?
+other:Hey, if it does the job, it does the job.
+option-off 1
+return
+
+@2 //What was the clue again?
+ego:What was the clue again?
+other:I added it to your contact list. It's Faedda.
+ego:Any idea what it means?
+other:Nope. You?
+ego:Maybe.
+option-off 2
+return
+
+@3 //Doesn't matter, goodbye.
+ego:Doesn't matter, goodbye.
+other:Alright, see you around.
+stop

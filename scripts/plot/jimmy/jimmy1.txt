@@ -1,0 +1,277 @@
+//begin
+// [x] 1 - "Excuse me, Sir."
+// [x] 2 - "You have premium rate jobs?"
+// [x] 21 - "Hey, Frank recommended you."
+// [x] 22 - "Hi, Jimmy Chou?"
+// [x] 23 - "Frank Zoed. You know him?"
+// [ ] 24 - "Nice communicator unit."
+// [ ] 3 - "So what can you do for me?"
+// [ ] 31 - "Can it make up for losing my ship?"
+// [ ] 4 - "Tell me more about the Taoists then."
+// [ ] 5 - "Do you have any jobs for me or what?"
+// [ ] 6 - "Are you saying you don't personally have any jobs?"
+// [ ] 7 - "Look, people are trying to have me killed..."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hello. Do I know you?
+return
+
+@1 // Excuse me, Sir.
+ego:Excuse me, Sir. 
+other:I don't know you.
+ego:You have premium rate jobs?
+other:Who told you that?
+other:Buzz off.
+option-off 1
+return
+
+@2 // You have premium rate jobs?
+ego:You have premium rate jobs?
+other:I don't know you.
+other:Buzz off.
+option-off 2
+return
+
+@21 // Hey, Frank recommended you
+ego:Hey, Frank recommended you
+other:Ol' Zoedy? Man, I haven't seen him in a while.
+other:How do you know him?
+ego:He sold me a hot ship.
+other:You mean he sold you a stolen ship?
+other:What's he got mixed up in now.
+ego:He said you had jobs with premium rates.
+ego:Which could help me get back on track.
+other:My friend, Frank might have been the best thing to ever happen to you.
+ego:How so?
+other:He recommended me, didn't he?!
+option-on 3
+option-on 31
+option-off 1
+option-off 2
+option-off 21
+option-off 22
+option-off 23
+return
+
+@22 // Hi, Jimmy Chou?
+ego:Hi, Jimmy Chou?
+other:Yes. Who are you?
+ego:I'm John.
+ego:John Falcon.
+other:And what can I help you with?
+other:I'm just typing a message on my communicator unit.
+other:One second, then I'll be right with you.
+option-off 22
+option-on 24
+return
+
+@23 // Frank Zoed. You know him?
+ego:Frank Zoed. You know him?
+other:I do, but I don't know you.
+ego:You have premium rate jobs?
+other:Who told you that?
+other:Frank.
+other:I'm just typing a message on my communicator unit.
+other:One second, then I'll be right with you.
+option-off 23
+return
+
+@24 // Nice communicator unit.
+ego:Nice communicator unit.
+other:Yeah, my new phone.
+ego:Is it good?
+other:I'm just getting used to it.
+other:Transferring all my old contacts to it.
+ego:It looks good.
+ego:Nice screen for web browsing.
+other:Yeah, but the font is too small.
+other:They had a few complaints about that.
+ego:I guess they can fix that in the next version.
+other:Yeah, it's just a software issue,
+other:One second, then I'll be right with you.
+option-off 24
+return
+
+@3 // So what can you do for me?
+ego:So what can you do for me?
+other:You ever heard of the Taoists?
+ego:What? 
+ego:Aren't they a just a pirate gang?
+other:Is that what you think?
+ego:That's what I've heard.
+other:You're so wrong.
+ego:How so?
+other:You'll have to find out more on your own.
+other:The group does a lot of good work.
+ego:By being pirates?
+other:Never mind.
+ego:Listen, I'm more interested in the jobs.
+ego:Premium rate jobs.
+other:Hmmm.
+option-off 3
+option-off 31
+option-on 4
+option-on 5
+option-on 6
+return
+
+@31 // Can it make up for losing my ship?
+ego:Can it make up for losing my ship?
+other:Maybe.
+other:If you like adventure.
+other:You ever heard of the Taoists?
+ego:Err, aren't they a just a pirate gang?
+other:Is that what you think?
+ego:That's what I've heard.
+other:You're so wrong.
+ego:How so?
+other:I suppose they are, legally speaking, pirates.
+other:You'll have to find out more on your own.
+other:The Taoists do a lot of good work.
+ego:By being pirates?
+other:Never mind.
+ego:Listen, I'm more interested in the jobs.
+ego:Premium rate jobs.
+other:Hmmm.
+option-off 3
+option-off 31
+option-on 4
+option-on 5
+option-on 6
+return
+
+@4 // Tell me more about the Taoists then.
+ego:Tell me more about the Taoists then?
+other:I can tell you little.
+other:But you'll have to get into their good books.
+other:By doing some stuff for em.
+ego:Stuff?
+other:Nothing dodgey, just jobs. 
+other:They pay better than the job console.
+other:You interested?
+ego:Why not.
+other:In that case I have a contact for you.
+other:His name is K'ta fly. He's in Sophiha.
+ego:Sophiha! 
+ego:That's the next System south on the map?
+other:Yeah, you'll need a split drive.
+other:K'ta fly is quite high in the group, I think.
+other:You can trust him.
+ego:Thanks for the info.
+other:Least I can do.
+other:Oh, you'll need fuel. Here. Have some... on me. 
+other:To get there, target and engage your split drive. 
+other:Don't worry, you'll speed up when you leave the system.
+other:If you need more help now, talk to me, I know this system well.
+other:I'll help all I can.
+other:But if you have to go, Safe flying. 
+givefuel
+option-off 4
+option-off 5
+option-off 6
+stop
+
+@5 // Do you have any jobs for me or what?
+ego:Do you have any jobs for me or what?
+other:Sure, since Frank recommended you.
+other:The Taoist group pay really well.
+other:But you'll have to get into their good books.
+other:By doing some stuff for em.
+ego:Stuff?
+other:Nothing dodgey, just jobs. 
+other:They pay better than the job console.
+other:You interested?
+ego:Why not.
+other:In that case I have a contact for you.
+other:His name is K'ta fly. He's in Sophiha.
+ego:Sophiha!
+ego:That's the next System south on the map?
+other:Yeah, you'll need a split drive.
+other:K'ta fly is quite high in the group, I think.
+other:You can trust him.
+ego:Thanks for the info.
+other:Least I can do.
+other:Oh, you'll need fuel. Here. Have some... on me. 
+other:To get there, target and engage your split drive. 
+other:Don't worry, you'll speed up when you leave the system.
+other:Let's keep talking, I know this system well.
+other:I'll help all I can.
+other:But if you have to go, Safe flying. 
+givefuel
+option-off 4
+option-off 5
+option-off 6
+option-off 7
+stop
+
+@6 // Are you saying you don't personally have any jobs?
+ego:Are you saying you don't personally have any jobs?
+other:Me?
+other:No, but since Frank recommended you...
+other:I'm hooking you up with this group.
+other:The Taoist group pay really well.
+other:That must be what Frank intended.
+other:They pay better than the job console.
+other:You interested?
+ego:Why not.
+other:In that case I have a contact for you.
+other:His name is K'ta fly. He's in Sophiha.
+ego:Sophiha!
+ego:That's the next System south on the map?
+other:Yeah, you'll need a split drive.
+other:K'ta fly is quite high in the group, I think.
+other:You can trust him.
+ego:Thanks for the info.
+other:Least I can do.
+other:Oh, you'll need fuel. Here. Have some... on me. 
+other:To get there, target and engage your split drive. 
+other:Don't worry, you'll speed up when you leave the system.
+other:Let's keep talking, I know this system well.
+other:I'll help all I can.
+other:But if you have to go, Safe flying. 
+givefuel
+option-off 4
+option-off 5
+option-off 6
+option-off 7
+stop
+
+@6 // Look, people are trying to have me killed...
+ego:Look, people are trying to have me killed...
+ego:...can we speed this up a bit?
+ego:I lost my new ship due to Frank...
+ego:...and I need to earn money fast...
+ego:...as I'm pretty sure some gang wants me dead.
+other:You do have it bad. Ok, sure.
+other:I'm hooking you up with this group.
+other:The Taoist group pay really well.
+other:That must be what Frank intended.
+other:They pay better than the job console.
+other:You interested?
+ego:Why not.
+other:In that case I have a contact for you.
+other:His name is K'ta fly. He's in Sophiha.
+ego:Sophiha!
+ego:That's the next System south on the map?
+other:Yeah, you'll need a split drive.
+other:K'ta fly is quite high in the group, I think.
+other:You can trust him.
+ego:Thanks for the info.
+other:Least I can do.
+other:Oh, you'll need fuel. Here. Have some... on me. 
+other:To get there, target and engage your split drive. 
+other:Don't worry, you'll speed up when you leave the system.
+other:Let's keep talking, I know this system well.
+other:I'll help all I can.
+other:But if you have to go, Safe flying. 
+givefuel
+option-off 4
+option-off 5
+option-off 6
+option-off 7
+stop
+

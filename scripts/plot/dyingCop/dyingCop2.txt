@@ -1,0 +1,87 @@
+//begin
+// [x] 1 - "Cooooooooppppp!"
+// [x] 2 - "Where have you been?"
+// [x] 3 - "Opened any doors recently?"
+// [x] 31 - "There you are little buddy!"
+
+// [ ] 40 - "What's happening here?"
+// [ ] 41 - "Are you undercover again?"
+// [ ] 42 - "It's me, John."
+// [ ] 99 - "Sorry, I thought you were some other droid."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+
+return
+
+@1 // Kent!
+ego:Kent!
+other:Not now.
+ego:Huh?
+option-off 1
+return
+
+@2 // Where have you been?
+ego:Where have you been?
+other:Not now.
+option-off 1
+option-off 2
+option-off 3
+option-off 31
+option-on 40
+option-on 41
+option-on 42
+return
+
+@3 // Opened any doors recently?
+ego:Opened any doors recently?
+other:Not now.
+option-off 3
+return
+
+@31 // There you are little buddy!
+ego:There you are little buddy!
+ego:Did you h...
+other:Not now.
+option-off 31
+return
+
+
+@40 // What's happening here?
+ego:What's happening here?
+ego:It's me.
+ego:Has someone wiped your memory.
+other:I'm not the droid you're looking for.
+option-off 40
+return
+
+@41 // Are you undercover again?
+ego:Are you undercover again?
+other:Correct-a-mundo, Chief.
+other:Investigating.
+other:Can't talk.
+other:Explain later.
+option-off 40
+option-off 41
+option-off 42
+option-on 99
+return
+
+@42 // It's me, John.
+ego:It's me, John.
+other:Shhhhh...
+other:Investigating.
+option-off 42
+return
+
+
+@99 // Sorry, I thought you were some other droid.
+ego:Sorry, I thought you were some other droid.
+other:No problem.
+other:Bye.
+option-off 99
+stop
+

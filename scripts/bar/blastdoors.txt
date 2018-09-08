@@ -1,0 +1,41 @@
+//begin
+// [x] 1 - "Did you complain?"
+// [x] 2 - "I hate it when blastdoors try and crush you."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:You look flustered.
+other:I would do.
+other:You dock ok?
+ego:Yeah, why?
+other:I was just docking and the blastdoors started to shut.
+ego:Nightmare.
+other:Yeah, my aft section was nearly crushed.
+other:I managed to scrape through.
+ego:I didn't have a problem.
+other:Must have been a one off.
+return
+
+@1 // Did you complain?
+ego:Did you complain?
+other:Did I!
+other:Oh yeah, I complained alright.
+ego:Any explanation?
+other:No, I nearly got a fine for abusive language.
+other:But I got them to pay for my hull re-spray.
+ego:Cool.
+ego:Safe flying.
+other:I try.
+stop
+
+@2 // I hate it when blastdoors try and crush you.
+ego:I hate it when blastdoors try and crush you.
+other:Happened to you has it?
+ego:I couldn't be sure cos my rear-cam is broken. 
+other:Oh well. I'm still alive.
+ego:That's the main thing.
+ego:Safe flying.
+other:I try.
+stop

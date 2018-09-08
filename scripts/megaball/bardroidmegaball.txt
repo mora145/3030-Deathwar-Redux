@@ -1,0 +1,20 @@
+//begin
+// [x] 1 - "Erm... password, MEGABALL?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Good day to you sir, how can I help you?
+return
+
+
+@1 // Erm... password, MEGABALL?
+ego:Erm... password, MEGABALL?.
+other:Password accepted. Geri told me the clue is Aolol.
+ego:Aolol. I got it, great.
+other:I hope that means something to you, Sir.
+other:The clue has been added to your contact list.
+other:Goodbye sir.
+setMissionAnswer 1
+stop

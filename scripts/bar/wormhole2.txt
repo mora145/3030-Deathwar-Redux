@@ -1,0 +1,34 @@
+//begin
+// [x] 1 - "Go on."
+// [x] 2 - "Not interested."
+//end
+
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi there.
+other:You heard about that wormhole rumour?
+ego:Probably, which one?
+other:The one I just heard.
+return
+
+@1 // Go on.
+ego:Go on?
+other:Said to be near the loaay system somewhere.
+ego:You mean in loaay?
+other:No, heard it from a friend that it's in a system near there though.
+other:Traders who know about it don't like to be specific.
+ego:I bet.
+other:Yeah, must be useful.
+ego:I'll keep an eye out, thanks.
+stop
+
+
+@2 // Not interested.
+ego:Not interested. They are just old traders tales.
+other:Maybe. I've heard it of a few people now though.
+ego:Well If they're out there, I'll find em.
+ego:Later.
+stop
+

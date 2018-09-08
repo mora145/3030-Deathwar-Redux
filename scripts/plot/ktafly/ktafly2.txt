@@ -1,0 +1,36 @@
+//begin
+// [ ] 1 - "What is this taoist business all about?"
+// [ ] 2 - "You seem a strange person"
+// [ ] 3 - "See you later"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:One more thing, K'ta.
+other:Go on, my friend. Speak up.
+option-on 1
+option-on 2
+return
+
+
+@1 // What is this taoist business all about?
+ego:What is this taoist business all about?
+other:Perhaps another time.
+other:Complete my job and perhaps we will talk.
+option-on 3
+option-off 1
+return
+
+@2 // You seem a strange person
+ego:You seem a strange person
+other:Well thank you. I think.
+option-off 2
+option-on 3
+return
+
+@3 // see you later.
+ego:See you later
+other:Sure.
+other:Just drop the cargo container outside this station.
+stop

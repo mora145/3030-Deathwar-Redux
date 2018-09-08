@@ -1,0 +1,167 @@
+//begin
+// [x] 1 - "Gimme a drink."
+// [ ] 2 - "Gimme an e-cola."
+// [ ] 3 - "Hit me with a Macalacharraca."
+// [ ] 4 - "You got hot chocolate?"
+// [ ] 5 - "Tastes real good."
+// [ ] 6 - "Hey! this tastes like battery acid!"
+// [x] 7 - "See you later."
+// [x] 8 - "Make me up a random cocktail."
+// [x] 9 - "You got any jobs here?"
+// [ ] 10 -"I'll just have a water."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Mmmmm good day to you, sir.
+ego:Hi there.
+other:How may I be of service?
+ego:Go clean the lift!
+other:Sorry Sir? I don't understand.
+ego:Nevermind.
+return
+
+
+@1 // Gimme a drink.
+ego:Gimme a drink.
+other:Yes sir, here's the menu.
+option-on 2
+option-on 3
+option-on 4
+option-on 10
+option-off 1
+option-off 8
+option-off 9
+return
+
+@2 // Gimme an e-cola
+ego:Gimme an e-cola.
+other:Coming right up sir
+ego:*Gulp Gulp*
+other:How is it?
+ego:...
+takeMoney,50,DRINK AT THE BAR
+option-off 2
+option-off 3
+option-off 4
+option-off 10
+option-on 5
+option-on 6
+return
+
+@3 // Hit me with a Macalacharraca
+ego:Hit me with a Macalacharraca.
+other:One Macalacharraca coming up.
+other:I don't think your species is meant to drink that?
+ego:So.
+other:Here is your Macalacharraca - enjoy!
+ego:Thank you.
+ego:*sip sip*
+ego:*baaa k*
+ego:....
+ego:*kikiikiki*
+ego:....
+ego:*waaag kiki*
+ego:Ooh, funky.
+other:How is it, sir?
+takeMoney,250,BOUGHT A MACALACHARRACA
+offerDrinkAchievement
+option-off 2
+option-off 3
+option-off 4
+option-off 10
+option-on 5 
+option-on 6
+return
+
+@4 // You got hot chocolate?
+ego:You got hot chocolate?
+other:No Sir.
+ego:You get it in sometimes though?
+other:Oh yes.
+other:It runs out fast and we get re-stocked slow.
+ego:Yeah, ok. 
+other:You want anything else, Sir?
+option-off 4
+option-on 2
+option-on 3
+option-on 10
+return
+
+@5 // Tastes real good.
+ego:Tastes real good.
+other:Thank you for your custom.
+ego:Thank you for your custom, Sir!
+other:Sorry Sir.
+ego:Only joking, you don't have to call me Sir.
+other:Sorry Sir.
+option-on 8
+option-on 9
+option-on 7
+option-off 5
+option-off 6
+return
+
+
+@6 // Hey! this tastes like battery acid!
+ego:Hey! this tastes like battery acid!
+other:I'm sorry sir, strictly no refunds.
+ego:Yeah yeah.
+option-on 8
+option-on 9
+option-on 7
+option-off 5
+option-off 6
+return
+
+@7 // See you later
+ego:See you later. 
+other:Good day, sir.
+ego:See you.
+stop
+
+@8 // Make me up a random cocktail.
+ego:Make me up a random cocktail.
+other:Err, I really shouldn't, but ok Sir.
+other:No one ever asks for cocktails.
+other:I'll just put in some...
+other:And a shot of...
+other:...mix it a little...
+other:..Add a shot of...
+other:...mix, pour.
+other:And there you have it.
+ego:Ok. Here goes..
+ego:*Gulp Gulp Gulp*
+ego:*Gulp*
+ego:*Uh huuuu.*
+ego:Yes, that is awful.
+ego:I see why no one asks you for cocktails.
+other:Yeah, I don't know how to do it Sir.
+ego:*Now* he tells me.
+
+option-off 8 
+return
+
+
+@9 // You got any jobs here?
+ego:You got any jobs here?
+other:Check the console Sir.
+other:We have many jobs for pilots like yourself.
+ego:Hmmm
+option-off 9
+option-on 7
+return
+
+@10 // I'll just have a water.
+ego:I'll just have a water.
+Other:Water, Very well, Sir.
+option-off 10
+option-off 4
+option-off 3
+option-off 2
+option-off 1
+option-on 8
+option-on 9
+option-on 7
+return

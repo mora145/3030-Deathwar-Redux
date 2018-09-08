@@ -1,0 +1,19 @@
+//begin
+// [x] 1 - "Ok."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi
+other:You're back? Get on with the job, will you.
+ego:I forgot what I was supposed to do.
+other:I've uploaded the job outline to your mission computer.
+other:It's in there. Have a look because I can't be bothered telling you again.
+option-on 1
+return
+
+@1 // New
+ego:Ok.
+stop
+

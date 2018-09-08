@@ -1,0 +1,35 @@
+//begin
+// [x] 1 - "Anything else get damaged?"
+// [x] 2 - "Any other news?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi
+other:Hello Sir. Just docked?
+ego:Uh huh.
+other:Oh, I've just been told that the Delavian Chocolate here is a bit off.
+ego:A bit off?
+ego:What, someone let the stock get damp?
+other:The sprinkler system was activated by mistake.
+other:You don't look like the sort who trades in foodstuffs though.
+ego:No, thanks for the tip though.
+return
+
+@1 // Any thing else get damaged?
+ego:Any thing else get damaged?
+other:The Jumba Beans.
+other:I don't think they where affected.
+ego:Oh well. 
+ego:Catch ya later.
+stop
+
+@2 // Any other news?
+ego:Anything else going down?
+other:Not really Sir. Some pirate activity in the asteroid fields.
+ego:Oh?
+other:Nothing of interest.
+ego:Ok, thanks for the tip again.
+other:Safe flying Sir.
+stop

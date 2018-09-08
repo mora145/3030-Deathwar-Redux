@@ -1,0 +1,55 @@
+//begin
+// [x] 1 - "Heard any news?"
+// [x] 2 - "What's this place like?"
+// [x] 3 - "Bye."
+// [ ] 4 - "I think I'll keep my cargo thanks."
+// [ ] 5 - "Sure, I'll eject something for you."
+//end
+
+@S 
+ego:Hi there.
+other:Yo!
+return
+
+@1 
+ego:Heard any news?
+other:I heard lots of things, pal.
+ego:Oh?
+other:Drop some cargo for me and I'll tell you.
+option-off 1
+option-on 4
+option-on 5
+return
+
+@2 
+ego:What's this place like?
+other:It's alright, some easy marks.
+other:Cops are so slow to launch.
+other:Know what I mean, haha.
+option-off 2
+return
+
+@3 
+ego:Bye.
+stop
+
+@4
+ego:I think I'll keep my cargo thanks.
+other:fair enough.
+other:See you around.
+other:You're not some bounty hunter wannabe are you?
+other:Nah. You're just a punk ass trader.
+ego:Now you're gettin' nasty.
+other:What are you gonna do about it?
+option-off 4
+option-off 5
+return
+
+@5 
+ego:Sure, I'll eject something for you.
+other:If it's not high value, don't bother.
+other:Or if you have a death wish, lets go already!
+other:I'm locked and loaded, pal.
+option-off 4
+option-off 5
+return

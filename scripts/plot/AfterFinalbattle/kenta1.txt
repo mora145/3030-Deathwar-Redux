@@ -1,0 +1,60 @@
+//begin
+// [x] 1 - "Kent!"
+// [x] 2 - "Where have you been?"
+// [x] 3 - "There you are little buddy!"
+
+// [x] 99 - "See you later."
+//end
+
+// dialog script file
+@S // dialog startup entry point
+
+return
+
+@1 // Kent!
+ego:Kent!
+other:Hi there!
+other:What a day!
+other:I heard you did some good work out there!
+other:You ready for a co-pilot?
+ego:Sure thing.
+other:Looks like you could use a drink.
+other:Let's party.
+option-off 1
+option-off 2
+option-off 3
+return
+
+@2 // Where have you been?
+ego:Where have you been?
+other:I was doing some engineering work on the ships here.
+other:I couldn't let you have all the credit.
+other:You ready for a co-pilot?
+ego:Sure thing.
+other:Looks like you could use a drink.
+other:Let's party.
+option-off 1
+option-off 2
+option-off 3
+return
+
+@3 // There you are little buddy!
+ego:There you are little buddy!
+ego:Victory
+other:Correct-a-mundo!
+other:You ready for a co-pilot?
+ego:Sure thing.
+other:Looks like you could use a drink.
+other:Let's party.
+option-off 1
+option-off 2
+option-off 3
+return
+
+@99 // See you later.
+ego:See you later.
+other:No problem.
+other:Be safe!
+option-off 99
+stop
+

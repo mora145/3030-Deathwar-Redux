@@ -1,0 +1,13 @@
+name=m5 super-charged thrusters
+cost=280000
+tech lvl=0.84
+avaiable=0
+desc=super-charges ship turning by upgrading the thruster output by 60%.
+once=1
+mass=0
+department=thruster
+value#=1.60
+[incompat]
+thruster
+[incompat]
+image=data/images/upgrades/thrust4.png

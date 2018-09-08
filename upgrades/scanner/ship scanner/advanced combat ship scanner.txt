@@ -1,0 +1,13 @@
+name=advanced combat ship scanner
+cost=5490
+tech lvl=0.4
+avaiable=1
+desc=offers a tactical readout of the target ship's shields and hull on your HUD. Target this ship to enable visual display.
+once=1
+mass=0
+department=cbt scanner
+value#=0
+[incompat]
+cbt scanner
+[incompat]
+image=data/images/upgrades/scan2.png

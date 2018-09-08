@@ -1,0 +1,18 @@
+//begin
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi again, Mr.
+other:Thanks for helping me!
+ego:No problem, Kid.
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye.
+Stop
+

@@ -1,0 +1,23 @@
+image=Borange_100x100_5.png
+name=Lochu Detra
+turnSpeed=0.72
+cargoSize=56
+warpSpeed=260
+enginePower=0.3
+cost=2420000
+maxCrew=2
+passengers=2
+mintech=0.68
+available=1
+maxmissiles=14
+turret?=0
+firefrom(w,h)=0,27
+turretat(x,y)=0,0
+[thrusters]
+4,70
+-4,70
+[/thrusters]
+M6 Interceptor - The Lochu's follow-up caters to the heavy defense requirements so needed in the system today. She's smaller but packs a hefty punch. If you can find one that is. Designed for long range recon missions by the military, the Lochu Detra is now a common enough sight at many starports.
+producedBy=Freespace & Thompson / Wext
+yearDeveloped=3025
+funTrivia=A long time coming upgrade from the lochu, partly constructed from old cargo vessels.

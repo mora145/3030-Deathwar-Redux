@@ -1,0 +1,145 @@
+//begin
+// [x] 1 - "Gimme a drink."
+// [ ] 2 - "Gimme an e-cola."
+// [ ] 3 - "Hit me with a Macalacharraca."
+// [ ] 4 - "You got any Scotch?"
+// [ ] 5 - "Tastes good."
+// [ ] 6 - "Hey! this tastes like battery acid!"
+// [x] 7 - "See you later."
+// [x] 8 - "Heard any news?"
+// [x] 9 - "Do you really have a blaster behind there?"
+// [ ] 10 -"I'll just have a water."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Mmmmm good day to you, Sir.
+ego:Hi there.
+other:How may I be of service?
+ego:Let's see.....
+return
+
+
+@1 // Gimme a drink.
+ego:Gimme a drink.
+other:Yes Sir, here's the menu.
+option-on 2
+option-on 3
+option-on 4
+option-on 10
+option-off 1
+option-off 8
+option-off 9
+return
+
+@2 // Gimme an e-cola
+ego:Gimme an e-cola.
+other:Coming right up sir.
+ego:*Gulp Gulp*
+other:How is it?
+ego:...
+takeMoney,50,DRINK AT THE BAR
+option-off 2
+option-off 3
+option-off 4
+option-off 10
+option-on 5
+option-on 6
+return
+
+@3 // Hit me with a Macalacharraca
+ego:Hit me with a Macalacharraca.
+other:One Macalacharraca coming up.
+other:Is your species meant to drink that?
+ego:I don't know.
+other:Here is your Macalacharraca - enjoy!
+ego:Thank you.
+ego:*sip sip*
+ego:*hummmk heeeb*
+ego:....
+ego:*kikiikiki*
+ego:Ooh. Not good.
+other:You love it don't you?
+takeMoney,250,BOUGHT A MACALACHARRACA
+offerDrinkAchievement
+option-off 2
+option-off 3
+option-off 4
+option-off 10
+option-on 5 
+option-on 6
+return
+
+@4 // You got any Scotch?
+ego:You got any Scotch?
+other:Sorry, I don't know what that is.
+ego:Oh boy.
+other:I can probably order it in.
+other:There has not been a demand for it.
+ego:Yeah, ok. 
+other:You want anything else, Sir?
+option-off 4
+option-on 2
+option-on 3
+option-on 10
+return
+
+@5 // Tastes good.
+ego:Tastes good.
+ego:Mmmm, it always goes down smooth.
+other:Thank you for your custom.
+option-on 8
+option-on 9
+option-on 7
+option-off 5
+option-off 6
+return
+
+
+@6 // Hey! this tastes like battery acid!
+ego:Hey! this tastes like battery acid!
+other:I'm sorry sir, strictly no refunds.
+ego:Yeah yeah.
+option-on 8
+option-on 9
+option-on 7
+option-off 5
+option-off 6
+return
+
+@7 // See you later
+ego:See you later.
+other:Good day, Sir.
+ego:See you
+stop
+
+@8 // Heard any news?
+ego:Heard any news?
+other:Just the normal stuff, pirate attacks, etc etc.
+ego:I see.
+option-off 8 
+return
+
+
+@9 // Do you really have a blaster behind there?
+ego:Do you really have a blaster behind there?
+other:You'd better believe it Sir.
+other:We bar-droids have to keep order.
+ego:Cool.
+option-off 9
+option-on 7
+return
+
+@10 // I'll just have a water.
+ego:I'll just have a water.
+Other:Water, a wise choice, Sir.
+option-off 10
+option-off 4
+option-off 3
+option-off 2
+option-off 1
+option-on 8
+option-on 9
+option-on 7
+return

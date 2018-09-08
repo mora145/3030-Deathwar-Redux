@@ -1,0 +1,46 @@
+background
+{
+data/cutscenes/images/1stExitJetsuit.png
+}
+
+people 
+{
+Falconsmall,data/stations/player/falcon4TalkWithPackage_50x115_7.png,100,99,facing right,visible
+Kentsmall,data/stations/special characters/kent_50x108_8.png,78,108,facing right,visible
+}
+
+fades
+{
+in
+out
+}
+
+dialogue
+{
+Falconsmall:What do you think, Kent?
+Kentsmall:Cool! You down graded to a Jetsuit.
+Kentsmall:Going junk shooting huh? Good call.
+Kentsmall:I want to go question Officer Grah about this business.
+Falconsmall:Ok sure. See you around, Kent.
+Kentsmall:Good Luck, Chief.
+}
+
+text
+{
+
+}
+
+animation
+{
+split right
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+keep playing
+}

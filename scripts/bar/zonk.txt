@@ -1,0 +1,38 @@
+//begin
+// [x] 1 - "Yeah, sometimes."
+// [x] 2 - "No."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi dude.
+ego:Hi.
+other:The news is, there is a bad batch of Zonk cola around. 
+ego:They done a re-call?
+other:Yeah, their new formula is making people ill.
+other:Do you trade in food goods?
+return
+
+@1 // Yeah, sometimes.
+ego:Yeah, sometimes.
+other:Yeah. 
+ego:I don't have any shipments of Zonk though.
+other:No, it's mostly station dwellers who drink it.
+ego:Ok, thanks for the tip.
+stop
+
+@2 // No.
+ego:No, it won't affect me.
+other:Ok.
+other:Just thought I'd say.
+other:A friend of mine was supplying a load to a sunspot restaurant station.
+other:They just turned him away.
+other:Said it was up to him to return them to the manufacturer.
+ego:K, thanks for the tip.
+other:We traders gotta stick together.
+ego:Right.
+stop
+
+
+

@@ -1,0 +1,35 @@
+//begin
+// [x] 1 - "I'm tired and I want to go to bed."
+// [x] 2 - "I don't sing sober."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi there.
+other:(hick up)
+ego:How's space treatin' ya?
+other:Ow Kayy (hick up)
+other:You look ike yo ned,(hick up) a drink..
+other:ohhh, show me the way to go home.
+return
+
+@1 // I'm tired and I want to go to bed.
+ego:I'm tired and I want to go to bed.
+other:I had a little drink about and hour ago.
+ego:And it went right to my head.
+other:Oh...
+other:Wherever I may roam..
+ego:On land on sea or foam.
+other:I thi-(hick)-nk i'm gonna Vomit..
+ego:Not in my personal space.
+ego:I'm outta here.
+stop
+
+@2 // I don't sing sober.
+ego:I don't sing sober.
+other:Huh? (hick)
+ego:I think I saw someone breaking into your ship.
+other:Who? Wha? (hick up)
+ego:And I'm gone.
+stop

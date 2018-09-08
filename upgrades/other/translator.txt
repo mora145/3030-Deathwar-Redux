@@ -1,0 +1,12 @@
+name=translator
+cost=5300
+tech lvl=0.3
+avaiable=1
+desc=Translates alien jobs on the job computer.
+once=1
+mass=0
+department=trl
+value#=0
+[incompat]
+[incompat]
+image=data/images/upgrades/translator.png

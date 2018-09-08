@@ -1,0 +1,39 @@
+//begin
+// [x] 1 - "Ok, I'll play along."
+// [x] 2 - "No."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:What are you after?
+other:Excuse me sir, you look like the kinda guy...?
+ego:Wait a second.
+ego:This is a sales pitch right?
+other:Oh no.
+ego:No?
+other:No, this is an investment opportuni..
+ego:Cut to it.
+other:Life insurance?
+return
+
+@1 // Ok, I'll play along
+ego:Ok, I'll play along.
+ego:Actually, that Is something I would consider.
+other:REALLY?
+ego:Yes sir
+other:REALLY?
+ego:No.
+stop
+
+@2 // No
+ego:No.
+ego:I think you knew I was going to say that.
+other:I see you have a job to do, but I'm not interested?
+ego:Try again.
+other:Please quit talking to me?
+ego:Again.
+other:Quit talking or I may physically attack you?
+ego:That's the one.
+other:*sigh*
+stop

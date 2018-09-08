@@ -1,0 +1,54 @@
+background
+{
+data/cutscenes/images/spytime.png
+}
+
+people 
+{
+seller,data/stations/special characters/GebboSlug_50x108_4.png,136,142,facing right,visible
+Shuttleforefloat,data/stations\drinkdroids/floater3_36x50_2.png,105,130,facing right,visible
+
+helper,data/stations/standing_at_bar/squidman1_50x130_4.png,270,132,facing left,visible
+badcop,data/stations/special characters/bigCopAlien1_80x130_4.png,310,142,facing left,visible
+
+}
+
+dialogue
+{
+helper:A deal is a deal, Gebbo.
+badcop:Yeah, give us your nanobots.
+seller:For this I'll give you Blue Mambas. The best!
+badcop:Noice! Blue Mambas eat through stations in seconds.
+badcop:Boss will be well pleased.
+seller:I can't believe you found her for me!
+badcop:Our whole fleet was sent to scan for it.
+helper:We spared no expense for you, Mr Gebbo.
+seller:The mummified remains of the Last Queen of Bop!
+helper:Your suspicion was correct, Mr Gebbo.
+seller:Hidden in the Badlands nebula after the battle of Jowe!
+seller:I knew it!
+seller:Come with me and I'll give you one nanobot.
+seller:It can replicate itself into as many as you plan to use.
+seller:It will eat targeted proteins and polymers and spread like the wind.
+helper:The lesser species are about to suffer a rapid decline in population.
+helper:Muhaha.
+badcop:Let's go already.
+badcop:It smells like unwashed human in these caves.
+helper:Lead the way, Mr Gebbo. 
+
+}
+
+text
+{
+
+}
+
+animation
+{
+
+}
+
+sounds
+{
+
+}

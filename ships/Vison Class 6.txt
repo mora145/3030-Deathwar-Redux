@@ -1,0 +1,24 @@
+image=Alienship1_100x100_5.png
+name=Vison Class 6
+turnSpeed=0.41
+cargoSize=160
+warpSpeed=150
+enginePower=0.18
+cost=615000
+maxCrew=4
+passengers=6
+mintech=0.47
+available=1
+maxmissiles=6
+turret?=1
+firefrom(w,h)=0,30
+turretat(x,y)=0,47
+[thrusters]
+-12,74
+0,71
+12,72
+[/thrusters]
+M4 Trader - What can be said about the Vison Class 6 that hasn't already been said in all the Visor media. She's slick. She's slow. But she can carry your mother and her potato collection.
+producedBy=virol 5
+yearDeveloped=2997
+funTrivia=The passenger decks are easily some of the most beautiful sleeping quarters ever designed.

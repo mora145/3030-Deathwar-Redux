@@ -1,0 +1,40 @@
+background
+{
+data/cutscenes/images/cleaner1.png
+}
+
+people 
+{
+bosscape,data/stations/special characters/plotbossCloak_80x130_4.png,157,130,facing left,visible
+helper2,data/stations/standing_at_bar/squidman1_50x130_4.png,104,131,facing right,visible
+}
+
+dialogue
+{
+helper2:Sir, reports coming in show our enemy have been searching asteroid fields.
+bosscape:And?
+helper2:Most likely for our ship components.
+bosscape:Like what?
+helper2:If they recover one of our shield code module's they could..
+bosscape:Decrypt our shield codes and disrupt our shields!
+bosscape:Inconceivable!
+bosscape:If they have the codes, they might stand a chance..
+helper2:They are en route to our fleet right now.
+bosscape:Ha, even without our shielding, we will crush them!
+bosscape:Set course!
+}
+
+animation
+{
+stationary
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+data/sounds/music/AdventureGame/Kevin MacLeod - Secrets of the Schoolyard.mp3,repeat
+}

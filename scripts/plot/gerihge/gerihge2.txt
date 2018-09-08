@@ -1,0 +1,78 @@
+//begin
+// [ ] 1 - "Yeah, ok, gimme another go."
+// [ ] 2 - "Not right now, thanks."
+// [ ] 3 - "What are the controls?"
+// [ ] 4 - "What are the rules?"
+// [ ] 5 - "How do you win?"
+// [ ] 6 - "I understand the controls, thanks."
+//end
+
+
+// dialog script file
+@S // intro
+other:Well, you want to try again or something?
+other:it's quite difficult. Did you understand the controls?
+option-on 3
+option-on 4
+option-on 5
+option-on 6
+option-off 1
+option-off 2
+return
+
+@1 //I'm in.
+ego:Yeah, ok, gimme another go.
+other:Great, get to it.
+setMissionAnswer 1
+stop
+
+@2 // Not right now, thanks.
+ego:not right now, thanks.
+other:Come back when you want the clue, buddy.
+setMissionAnswer 0
+stop
+
+@3 
+ego:What are the controls?
+other:Up is forward, left and right. That's it.
+other:Your acceleration is slower the more balls you carry.
+other:So you want to try again?
+option-on 1
+option-on 2
+option-off 3
+return 
+
+@4 
+ego:What are the rules?
+other:There are no rules. just pick up the balls and take them back to the score zone.
+other:you can't foul or destroy your car. So you want to try again?
+option-on 1
+option-on 2
+option-off 4
+return 
+
+@5
+ego:How do you win?
+other:It's the first to 0.
+other:Collect a string of balls and take them back to the centre zone.
+other:reds are worth 1 point, other colours are worth more.
+other:There are also multiply balls which will multiply your
+other:string when you go to the scoring zone.
+ego:Right.
+other:Other than that, just drive as fast as you can and collect the balls before the others.
+other:So you want to try again?
+option-on 1
+option-on 2
+option-off 5
+return 
+
+@6
+ego:I understand the controls, thanks.
+other:Ok, another go?
+option-off 3
+option-off 4
+option-off 5
+option-off 6
+option-on 1
+option-on 2
+return

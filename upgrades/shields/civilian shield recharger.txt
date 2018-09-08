@@ -1,0 +1,13 @@
+name=m1 civilian shield recharger
+cost=1220
+tech lvl=0.22
+avaiable=1
+desc=allows the shield computer to cycle energy faster. therefore repairing the shields 30% quicker.
+once=1
+mass=0
+department=shield recharger
+value#=1.3
+[incompat]
+shield recharger
+[incompat]
+image=data/images/upgrades/shield0.png

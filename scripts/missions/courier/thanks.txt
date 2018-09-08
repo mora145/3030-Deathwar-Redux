@@ -1,0 +1,41 @@
+//begin
+// [x] 1 - "No problem."
+// [x] 2 - "Have fun with it."
+// [x] 3 - "I'm going to be a mighty pirate."
+//end
+
+@S
+ego:Here's your package
+other:Thank you!
+option-on 1
+return 
+
+
+@1 
+ego:No problem.
+stop
+
+@2 // Have fun with it.
+ego:Have fun with it.
+other:Yeah, I will.
+other:Can't wait to open it.
+ego:Let me know if you need a delivery.
+other:Thank you Sir.
+stop
+
+@3 // I am going to be a mighty pirate.
+ego:I am going to be a mighty pirate.
+other:Well hope that works out for you.
+other:Last pirate I knew was shot.
+other:In the face.
+other:...and the crotch.
+other:...and the buttocks.
+other:It was all one incident.
+ego:And then?
+other:He was in the news.
+other:It's a tough vocation.
+ego:Well, I'm gonna get well far.
+other:Good to know, don't come after me though.
+other:Thanks for the package.
+
+stop

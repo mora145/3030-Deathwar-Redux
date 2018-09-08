@@ -1,0 +1,13 @@
+name=basic cargo scanner
+cost=230
+tech lvl=0.1
+avaiable=1
+desc=offers a readout of the targeted ships cargo manifest but does not supply quantity.
+once=1
+mass=0
+department=cargo scanner
+value#=0
+[incompat]
+cargo scanner
+[incompat]
+image=data/images/upgrades/carScan.png

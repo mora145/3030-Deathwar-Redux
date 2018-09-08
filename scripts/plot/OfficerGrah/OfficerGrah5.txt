@@ -1,0 +1,86 @@
+//begin
+// [ ] 1 - "Nice 'tash!"
+// [ ] 2 - "Hate your 'tash!"
+// [ ] 22 - "Sorry, it's nice."
+// [ ] 23 - "Really? How Much?"
+// [ ] 3 - "Did you really have to extend Kents sentence?"
+// [ ] 31 - "Tell me again about the details of these kill-bot stab drone things."
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hey Grah, one more thing...
+ego:..before I go hunt down these kill-bots.
+option-on 1
+option-on 2
+option-on 3
+option-on 31
+return
+
+@1 // Nice 'tash!
+ego:Nice 'tash!
+other:My Mustache is my life, Buddy.
+other:Are you being sarcastic?
+ego:No way.
+other:Ok. Thanks.
+option-off 1
+return
+
+@2 // Hate your 'tash!
+ego:Hate your 'tash!
+other:Hey now! 
+other:My Mustache is my life, Buddy.
+other:You earned yourself a fine.
+other:Insulting an officer.
+other:Now get out there and kill those drones!
+takemoney,200,Fined for insulting Officer Grah
+option-off 1
+option-off 2
+option-on 22
+option-on 23
+return
+
+@22 // Sorry, it's nice.
+ego:Sorry, it's Nice.
+other:Too late, Buddy.
+other:The fine has been issued.
+ego:No way.
+other:Yes way.
+option-off 22
+return
+
+@23 // Really? How Much?
+ego:Really? How Much?
+other:I fined your ass Two Hundred.
+ego:Guess I deserved that.
+option-off 23
+return
+
+
+@3 // Did you really have to extend Kent's sentence?
+ego:Did you really have to extend Kent's sentence?
+other:Kent Droid has an attitude.
+other:Do the job for me, and it will be set free.
+option-off 3
+return
+
+@31 // Tell me again about the kill-bot stab drone things.
+ego:Tell me again about the kill-bot stab drone things.
+other:Go south to the AOLBE system, to Brorelocci station.
+other:Use the gun I gave you. 
+other:'G' key on the gun turns the safety off.
+other:Aim high if they are high, duck low to shoot the low ones. 
+other:Unfortunately my rookies got caught by surprise.
+other:Do this for me, and Kent will be set free.
+option-off 31
+return
+
+@4 // Bye
+ego:Bye.
+other:Get moving and retire those machines!
+other:Good luck.
+Stop
+

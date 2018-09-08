@@ -1,0 +1,39 @@
+//begin
+// [x] 1 - "Try it."
+// [x] 2 - "Ok, here goes.."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Yo, Nice hat.
+ego:Thanks, I like it.
+other:Hey, I was wondering.
+other:Why do you have to keep clear of the lift doors?
+return
+
+@1 // Try it.
+ego:Try it.
+other:I think I will.
+other:Actually, I might get my leg ripped off by that door.
+ego:You got it.
+ego:They have taken the sensors off some of them.
+ego:'Cos cleaning droids kept getting stuck in there.
+other:Those crazy droids.
+other:Later.
+ego:Safe flying.
+stop
+
+@2 // Ok, here goes..
+ego:Ok, here goes..
+ego:One; you are blocking a public thoroughfare.
+ego:Two; you let the heated air into the lift. 
+ego:Three; the cheap industrial pneumatic power-door, will literally rip your limbs off.
+other:Oh yeah.
+other:Like what happened to that droid.
+ego:Uh huh.
+other:Safe flying.
+stop
+
+
+

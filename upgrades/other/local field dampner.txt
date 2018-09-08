@@ -1,0 +1,13 @@
+name=local field dampner
+cost=850
+tech lvl=0.3
+avaiable=1
+desc=Slows down the fitted vessel quicker. Slightly reducing speed, but also improving manoeuvrability.
+once=1
+mass=0
+department=field dampner
+value#=0
+[incompat]
+field dampner
+[incompat]
+image=data/images/upgrades/misc1.png

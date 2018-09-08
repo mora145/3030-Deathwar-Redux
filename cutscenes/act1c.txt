@@ -1,0 +1,43 @@
+background
+{
+data/cutscenes/images/hangerbay1.png
+}
+
+people 
+{
+
+helper,data/stations/special characters/plotzoidman2_50x130_4.png,180,142,facing right,visible
+falcon,data/stations/player/falcon4TalkWithPackage_50x115_7.png,270,140,facing left,visible
+}
+
+dialogue
+{
+
+helper:Falcon!
+helper:YOU TWAT!
+falcon:Huh? What's your problem now?
+helper:You know what, 
+helper:Where's my space-suited friend J-Bo?
+falcon:I don't have a clue.
+falcon:Where did you lose him?
+helper:Shut it.
+helper:Ok Mr. Falcon. Listen to my face.
+helper:We want you out of Andinti.
+falcon:It's a free system.
+helper:You'll see.
+falcon:No yooou'll see.
+helper:What? 
+helper:You're so lucky I can't bring weapons inside.
+helper:I'll be seeing you.
+falcon:Any time, Pal.
+}
+
+text
+{
+J-Bo no more
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}

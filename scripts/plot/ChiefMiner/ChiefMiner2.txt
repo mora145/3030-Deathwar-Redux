@@ -1,0 +1,74 @@
+//begin
+// [ ] 1 - "Tell me more about the mining outpost."
+// [ ] 12 - "Do you need any help?"
+// [ ] 2 - "Is mining profitable?"
+// [ ] 3 - "How do I get into asteroid mining?"
+// [ ] 31 - "How do I find a place to mine?"
+// [x] 4 - "Bye."
+
+//end
+
+// dialog script file
+@S // dialog startup entry point
+ego:It's me again.
+other:Yes?
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // Tell me more about the mining outpost.
+ego:Tell me more about the mining outpost.
+other:What's to say.
+other:We have a nice community here.
+other:We drink, and talk about how to..
+other:..Boom! Win our independence!
+option-off 1
+option-on 12
+return
+
+@12 // Do you need any help?
+ego:Do you need any help?
+other:Yes.
+other:Council is paying Pirates to give us trouble.
+other:See any in this system.
+other:Boom! You know what to do Dawg!
+option-off 12
+return
+
+@2 // 2?
+ego:Is mining profitable?
+other:Can be.
+other:But you need a large cargo hold.
+other:Otherwise, bam! You'll be full.
+other:Bigger ship the better.
+ego:I see, I'll think about it.
+option-off 2
+return
+
+@3 // How do I get into asteroid mining??
+ego:How do I get into asteroid mining?
+other:You forgot already?
+other:Dawg, it's easy as.
+other:Bam! 
+other:Get yourself a Tractor Beam.
+other:Get yourself an Asteroid Survey Scanner.
+other:And Bam Boom!
+option-off 3
+option-on 31
+return
+
+@31 // How do I find a place to mine?
+ego:How do I find a place to mine?
+other:I told you.
+other:Use your map, the big brown dots..
+other:Asteroid clusters.
+other:Go select one, try your luck.
+option-off 31
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye.
+Stop
+

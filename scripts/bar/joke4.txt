@@ -1,0 +1,34 @@
+//begin
+// [x] 1 - "Ok, go for it."
+// [x] 2 - "No."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hey.
+other:Hi there.
+other:Hey, you want hear a new trader joke?
+return
+
+@1 // Yes ok.
+ego:Ok, go for it.
+other:Ok.
+other:What do you call a bar-droid who tries to feel you up?
+ego:I don't know.
+other:Sir!
+other:They all have blasters under the bar you know.
+other:Ha!
+ego:I'm gonna check the consoles.
+other:Safe flying.
+ego:Yeah.
+stop
+
+@2 // No.
+ego:No.
+other:Oooh, come on.
+ego:No jokes.
+other:It's a good'n.
+ego:I doubt it.
+stop
+

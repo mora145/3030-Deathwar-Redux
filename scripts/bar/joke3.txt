@@ -1,0 +1,38 @@
+//begin
+// [x] 1 - "Ok, hit me."
+// [x] 2 - "No."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hey.
+other:Hi there.
+other:You want hear a trader joke?
+return
+
+@1 // Yes ok.
+ego:Ok, hit me.
+other:What do you call a captain of a Bac Mk1 being chased by two pirates in arcters?
+ego:I don't know.
+other:Someone who's about to activate his difference drive!
+other:Ha!
+other:What do you call a captain of a Bac Mk1 being chased by two pirates in arcters.
+other:And his difference engine is damaged?
+ego:Someone who's rapidly repairing his diff engine.
+other:Oh, you've heard it.
+ego:Yeah. It's rubbish.
+ego:I'm gonna check the consoles.
+other:Safe flying.
+ego:Yeah.
+stop
+
+@2 // No.
+ego:No.
+other:Ooh, come on.
+other:It's a good'n.
+ego:No.
+other:Safe flying.
+ego:Safe flying.
+stop
+

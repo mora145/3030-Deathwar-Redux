@@ -1,0 +1,24 @@
+//begin
+// [ ] 1 - "Not going to happen."
+// [ ] 2 - "You don't look like you're doing anything."
+//end
+
+// dialog script file
+@S // dialog startup entry point
+other:There's nothing you can do.
+other:Now watch me kill all this useless filth.
+option-on 1
+option-on 2
+return
+
+@1 // Not going to happen.
+ego:Not going to happen.
+option-off 1
+stop
+
+@2 // You don't look like you're doing anything.
+ego:You don't look like you're doing anything.
+other:Ever heard of a remote voice control.
+other:I only have to say the word. 
+option-off 2
+stop

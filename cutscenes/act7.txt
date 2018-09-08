@@ -1,0 +1,51 @@
+background
+{
+data/cutscenes/images/cleaner1.png
+}
+
+people 
+{
+bosscape,data/stations/special characters/plotbossCloak_80x130_4.png,220,122,facing right,visible
+helper,data/stations/standing_at_bar/squidman1_50x130_4.png,280,128,facing left,visible
+Shuttleforefloat,data/stations\drinkdroids/floater3_36x50_2.png,300,100,facing right,visible
+badcop,data/stations/special characters/bigCopAlien1_80x130_4.png,143,142,facing right,visible
+
+}
+
+dialogue
+{
+bosscape:The situation is becoming intolerable.
+helper:You mean the lack of seating in these ships?
+bosscape:No! The human and the rest of them.
+helper:Yes, we should never have halted the extermination of these pathetic species.
+bosscape:Quite. Falcon is the key. He must be expunged.
+bosscape:The elders still prefer to force the council police to do our dirty work.
+helper:With the backing of the rebels, the prophecy is becoming self fulfilling.
+badcop:What if we make it look like an accident?
+badcop:With these ships we could split into him whilst cloaked. Boom!
+helper:Yes. It would make it look like an unfortunate collision with a comet. 
+bosscape:We must not risk giving away our fleet's location yet.
+bosscape:The so called taoists are planning something.
+bosscape:Let us arrange another little explosion for Falcon.
+helper:Our probes are seeking him out now, won't be long until they find him.
+}
+
+text
+{
+Act VII: Who Am I?
+}
+
+animation
+{
+split left
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+data/sounds/music/AdventureGame/Kevin MacLeod - Secrets of the Schoolyard.mp3,repeat
+}

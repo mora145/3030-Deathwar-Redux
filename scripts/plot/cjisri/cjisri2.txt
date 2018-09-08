@@ -1,0 +1,15 @@
+//begin
+// [x] 1 - "Ok, thanks."
+//end
+
+@S
+other:Go and see Raal. Don't forget to use the wormhole.
+other:Go to the second moon of the first planet in aenso. 
+other:There you'll find a wormhole to beexen.
+other:It'll save you a lot of time.
+option-on 1
+return
+
+@1 // thanks
+ego:Ok, thanks.
+stop

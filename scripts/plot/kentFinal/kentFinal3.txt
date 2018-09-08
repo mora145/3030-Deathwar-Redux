@@ -1,0 +1,61 @@
+//begin
+// [x] 1 - "The boss had an accident."
+// [x] 2 - "When someone is about to release killer nanobots, Shoot first."
+// [x] 3 - "Yeah, but I didn't get my damn money."
+
+// [ ] 99 - "Check on the landing gear then jump in."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:I heard an explosion.
+other:What happened?
+return
+
+@1 // The boss had an accident.
+ego:The boss had an accident.
+ego:A bullet hit a grenade belt he was wearing.
+other:Nice one.
+other:Still No nanobots detected around here.
+other:Finish up quick and let's go already.
+option-off 1
+option-off 2
+option-off 3
+option-on 99
+return
+
+@2 // When someone is about to release killer nanobots, Shoot first.
+ego:When someone is about to release killer nanobots, Shoot first.
+other:Good advice.
+other:Still No nanobots detected around here.
+other:Finish up quick and let's go already.
+option-off 1
+option-off 2
+option-off 3
+option-on 99
+return
+
+@3 // Yeah, but I didn't get my damn money.
+ego:Yeah, but I didn't get my damn money.
+ego:I shot a grenade belt he was wearing.
+ego:And the rest is history.
+other:Nice one.
+other:Still No nanobots detected around here.
+other:Finish up quick and let's go already.
+option-off 1
+option-off 2
+option-off 3
+option-on 99
+return
+
+@99 // Check on the landing gear then jump in.
+ego:Check on the landing gear then jump in.
+ego:We'll take off soon.
+other:Sure thing. 
+other:See you up top, Chief.
+other:I can wash those clothes now?
+option-off 99
+stop
+

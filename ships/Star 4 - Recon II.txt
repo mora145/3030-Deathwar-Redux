@@ -1,0 +1,23 @@
+image=BYfship_100x100_5.png
+name=Star 4 - Recon II
+turnSpeed=0.78
+cargoSize=31
+warpSpeed=125
+enginePower=0.25
+cost=630000
+maxCrew=2
+passengers=2
+mintech=0.48
+available=1
+maxmissiles=10
+turret?=0
+firefrom(w,h)=0,44
+turretat(x,y)=0,0
+[thrusters]
+-9,76
+9,76
+[/thrusters]
+M4 Fighter - Arguably the best thing the Filities ever brought to the galaxy. A smooth ride. If you want to start a bounty hunting endeavour then I suggest this little beauty. With a very decent diff-ratio and missile payload you'll be a mean match for any pirate.
+producedBy=Fil-Wst
+yearDeveloped=3005
+funTrivia=The only vessel to come out of the filities design house, fil-wst. The engine purr like kittens eating really expensive food.

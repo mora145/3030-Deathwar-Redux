@@ -1,0 +1,66 @@
+//begin
+
+// [x] 4 - "Bye."
+// [x] 5 - "Good luck."
+// [ ] 51 - "What's it about?"
+// [ ] 52 - "An asteroid? Nice idea."
+// [ ] 53 - "Haha, what a total waste of time."
+
+
+//end
+
+// dialog script file
+@S // dialog startup entry point
+other:Hello again.
+other:I don't think I'll do any more trading.
+other:Last one was my last big score.
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye for now.
+Stop
+
+@5 // Good luck.
+ego:Good luck.
+other:Bye for now.
+other:I'm going to add this to my kickstarter funding.
+other:Big plans Bro.
+ego:Hope it goes well for you.
+other:Good luck on your travels.
+ego:Thanks.
+option-off 5
+option-on 51
+return
+
+@51 // What's it about?
+ego:What's it about?
+other:My kickstarter project?
+other:We are going to carve a big ass face into an asteroid.
+option-off 51
+option-on 52
+option-on 53
+return
+
+@52 // An asteroid? Nice idea.
+ego:An asteroid? Nice idea.
+other:It should be real impressive.
+ego:Sure will.
+option-off 52
+option-off 53
+return
+
+@53 // Haha, what a total waste of time.
+ego:Haha, what a total waste of time.
+other:Hey! It's gonna be great.
+other:A big ass face. 
+ego:You do just mean big.. not..
+ego:...an Ass-Face?
+other:No. One big carved face.
+other:Maybe I'll see you there.
+ego:Maybe.
+option-off 52
+option-off 53
+return
+
+

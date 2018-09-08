@@ -1,0 +1,13 @@
+name=m2 niko shield boost tech I
+cost=4650
+tech lvl=0.44
+avaiable=1
+desc=allows the shield computer to cycle energy faster. therefore repairing the shields 50% quicker.
+once=1
+mass=0
+department=shield recharger
+value#=1.5
+[incompat]
+shield recharger
+[incompat]
+image=data/images/upgrades/shield1.png

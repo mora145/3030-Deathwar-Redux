@@ -1,0 +1,75 @@
+//begin
+// [x] 1 - "What happened?"
+// [x] 2 - "What's this place like?"
+// [x] 3 - "Bye"
+// [ ] 4 - "Go on"
+// [ ] 5 - "Ah pirates."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi.
+other:Huh?, Oh, Hi.
+other:You just docked?
+ego:That's right.
+other:You just missed it then.
+return
+
+@1 // What happened?
+ego:What happened, the bar-droid freak out?
+other:Nah.
+ego:Someone rammed the station?
+other:No, there was police skirmish with pirates a few hours ago.
+ego:Oh yeah?
+other:Not that interesting.
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+@2 // What's this place like?
+ego:What's this station like?
+other:I like it, I'm waiting to get my station clearance.
+ego:You giving up trading?
+other:Yeah, for a while, I'm gonna rent a habitation module.
+ego:Any reason? 
+other:I'm gonna see my relatives based on the station.
+ego:I see.
+option-off 2
+return
+
+@3 // Bye
+ego:Bye.
+stop
+
+@4 // Go on
+ego:Go on
+other:A couple of local pirates tried to take out the police chief.
+ego:A good fight?
+other:Not really, the police where ready for them.
+ego:An informer?
+other:No, they were mouthing of in the bar earlier.
+ego:Idiots.
+other:Shh, their friends may be around.
+ego:Bring em on. I could do with some bounty.
+option-off 4
+option-off 5
+option-on 2
+option-on 3
+return
+
+
+@5 // Ah pirates.
+ego:Ah, pirates.
+other:Yeah, was a bit of excitement for a while
+other:We watched the battle on the tv, live feed.
+ego:That's entertainment, I guess.
+other:Yeah.
+option-off 4
+option-off 5
+option-on 2
+option-on 3
+return

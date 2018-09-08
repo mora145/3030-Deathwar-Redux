@@ -1,0 +1,12 @@
+name=bio reader
+cost=120
+tech lvl=0.0
+avaiable=1
+desc=Allows you to see bios for people on station by standing next to them. Keyboard shortcut: Space. On Controller: RT.
+once=1
+mass=0
+department=bio reader
+value#=0
+[incompat]
+[incompat]
+image=data/images/upgrades/bioreader.png

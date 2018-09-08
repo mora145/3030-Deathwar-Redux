@@ -1,0 +1,27 @@
+image=CXPShip1_200x100_5.png
+name=WhiteStar SuperSplit
+turnSpeed=0.45
+cargoSize=50
+warpSpeed=400
+enginePower=0.5
+cost=8000000
+maxCrew=8
+passengers=50
+mintech=0.9
+available=1
+maxmissiles=0
+turret?=0
+firefrom(w,h)=0,35
+turretat(x,y)=0,0
+[thrusters]
+-16,76
+-22,77
+-28,78
+28,78
+22,77
+16,76
+[/thrusters]
+M9 SuperSplitter - A Passenger liner no longer in production. Handles and eats fuel like a pig, but Splits like a pig on fire. 
+producedBy=Greedo Ships
+yearDeveloped=2550
+funTrivia=Rumour is the engines suffer an explosive failure fault, leading to the presumed death of Guitar Legend, ChikyTika.

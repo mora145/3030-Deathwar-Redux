@@ -1,0 +1,47 @@
+//begin
+// [ ] 1 - "I'm still kinda angry with you frank."
+// [ ] 2 - "Yeah, I'll do it."
+// [ ] 3 - "No, not right now."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:So, you thought about it?
+other:Jimmy Chou will probably have some jobs for you.
+other:He can pay you above average prices. Ain't so bad.
+ego:Ain't so bad? I lost 2 mil....
+ego:Oh, you know what, I'm over it now.
+ego:It's gonna give me stress. I don't need stress today.
+other:So, what you say?
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // I'm still kinda angry with you frank.
+other:I'm trying to get some money for you here, John.
+option-off 1
+return
+
+@2 // Yeah, I'll do it.
+ego:Ok, I'll do it. When and where?
+other:Ok, you gotta find Jimmy Chou.
+other:The only problem is I'm not sure where he is. He's in this system,
+other:I'm sure of that. I'm just not sure which station.
+other:Board whichever station you think he's on, if he's there, talk to him.
+other:Hell he could even be on this station. I don't know.
+ego:I'm just interested in how much you're going to pay me.
+other:Luckily for you, kid, Chou will offer you some jobs.
+ego:You better feel lucky, frank.
+other:Why?
+ego:Lucky I don't punch you in the face.
+other:Oh boy.
+setMissionAnswer 1
+stop
+
+@3 // No, not right now.
+ego:Not right now, Frank.
+other:Ok, come back and see me when you change your mind.
+SetMissionAnswer 0
+stop

@@ -1,0 +1,13 @@
+name=M2 class II ecm
+cost=6500
+tech lvl=0.4
+avaiable=1
+desc=will destroy missiles within 160 om range upon use. Keyboard shortcut: Shift. On Controller: X.
+once=1
+mass=0
+department=ecm
+value#=160
+[incompat]
+ecm
+[incompat]
+image=data/images/upgrades/ecm1.png

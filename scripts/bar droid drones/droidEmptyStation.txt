@@ -1,0 +1,186 @@
+//begin
+// [x] 1 - "I've been hired to clean up the drones. What happened here?"
+// [x] 2 - "I'm John Falcon, and I'm here to save the station."
+// [ ] 22 - "What about the big guy?"
+// [ ] 221 - "What did you hear about him being a test pilot?"
+// [ ] 222 - "Do you know any more about this Taoist group?"
+// [ ] 223 - "Looks like he scrawled a word in blood."
+// [x] 3 - "Shut up and Hit me with a whiskey."
+// [ ] 33 - "Hit me with another whiskey, a better one."
+// [ ] 4 - "Where are the kill-bots now?"
+// [ ] 5 - "Quickly... Do you know where they went?"
+// [ ] 6 - "Can you tell me any more about the person who released the drones?"
+// [ ] 66 - "About the stations."
+// [ ] 7 - "I'm leaving."
+// [ ] 8 - "If you can, tell the other bardroids to try to distract them."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Are you the special forces guy?
+return
+
+
+@1 // I've been hired to clean up the drones. What happened here?
+ego:I've been hired to clean up the drones. What happened here?
+other:Sir, It was carnage!
+other:Some scum pirate released a set of kill-bots!
+other:No doubt some assassination attempt.
+ego:Go on.
+other:I pressed the alarm... 
+other:...people ran to the lift and the sleeping quarters.
+other:I presume that guy was the target of the assassination. 
+other:But the drones kept attacking everyone else.
+other:Some cops came in, but they got cut up real bad.
+ego:Yeah, I can see that.
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+option-on 22
+return
+
+@2 // I'm John Falcon, and I'm here to save the station.
+ego:I'm John Falcon, and I'm here to save the station.
+other:Sir, I'm glad you are here.
+other:The drones have gone to other stations!
+ego:Gone? Where are the drones?
+other:Sir, It was carnage!
+other:I guess you know that some scum released a set of kill-bots!
+ego:So what happened next?
+other:I pressed the alarm... 
+other:...people ran to the lift and the sleeping quarters.
+other:I presume that guy was the target of the assassination. 
+other:But the drones kept attacking everyone else.
+other:Some cops came in, but they got cut up real bad.
+ego:Yeah, I can see that.
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+option-on 22
+return
+
+@22 // What about the big guy?
+ego:What about the big guy?
+ego:Do you have a name for him?
+other:No, he came here around once a month.
+ego:Do you know what he was involved in?
+other:I think he was a test pilot for the Taoists.
+other:I hear they develop their own ships.
+other:I hear a lot in my profession.
+option-off 22
+option-on 221
+option-on 222
+option-on 223
+return
+
+@221 // What did you hear about him being a test pilot?
+ego:What did you hear about him being a test pilot?
+other:Sir, Shouldn't you get going?
+other:Kill-bots are at other stations right now!
+option-off 221
+return
+
+@222 // Do you know any more about this Taoist group?
+ego:Do you know any more about this Taoist group?
+other:Sir, Shouldn't you get to the other stations?
+other:Those kill-bots need taking down, urgently.
+ego:You're right. 
+ego:A droid friend of mine may come to investigate.
+other:No problem, Crime scene protocol is in effect.
+option-off 222
+
+@223 // Looks like he scrawled a word in blood.
+ego:Looks like he scrawled a word in blood.
+other:I can't see from back here.
+other:I'll inform the HBE Detectives when they arrive.
+other:Sir, Shouldn't you get going?
+option-off 223
+return
+
+@3 // Shut up and Hit me with a whiskey.
+ego:Shut up and Hit me with a whiskey.
+other:Yes Sir, one Whiskey coming up.
+other:Good choice, Sir.
+other:Here it is - enjoy!
+ego:Thanks.
+ego:*gulp*
+option-off 3
+option-on 33
+return
+
+@33 // Hit me with another whiskey, a better one.
+ego:Hit me with another whiskey, a better one.
+other:Yes Sir. I have...
+other:...here GlenBorangey.
+other:Here it is - hope this is more to your liking!
+ego:*gulp*
+other:Good luck, Sir.
+option-off 33
+return
+
+
+@4 // Where are the kill-bots now?
+ego:Where are the kill-bots now?
+other:Two other Bardroids in this system...
+other:...messaged me that they are now on their stations.
+other:The drones must have stowed onboard fleeing ships.
+ego:Right.
+option-off 4
+option-off 5
+option-on 6
+option-on 7
+return
+
+@5 // Quickly... Do you know where they went?
+ego:Quickly... Do you know where they went?
+other:Two other Bardroids in this system...
+other:...messaged me that they are now on their stations.
+other:The drones must have stowed onboard fleeing ships.
+ego:Right.
+option-off 4
+option-off 5
+option-on 6
+option-on 7
+option-on 8
+return
+
+
+@6 // Can you tell me any more about the person who released the drones?
+ego:Can you tell me any more about the person who released the drones?
+other:Sorry, I ducked down to press the alarm button.
+other:People said the scum went down in the lift.
+other:I focused on getting the bar evacuated.
+ego:Good work. You probably saved some lives.
+option-off 6
+option-on 66
+return
+
+@66 // About the stations.
+ego:About the stations.
+ego:You said they are now on two stations in this system?
+other:Yes. I received a couple of messages from bardroids.
+ego:So which stations exactly?
+other:Sorry, I don't know.
+other:Bardroids work shifts on different stations...
+other:...and after those messages I received no more.
+ego:Ok thanks. You have been very helpful.
+option-on 8
+option-off 66
+return
+
+@7 // I'm leaving.
+ego:I'm leaving.
+other:Good luck out there.
+stop
+
+@8 // If you can, tell the other bardroids to try to distract them.
+ego:If you can, tell the other bardroids to try to distract them.
+ego:Away from the lift area, know what I mean? 
+other:Sure, I Will send them a message right now.  
+option-off 8
+return
+

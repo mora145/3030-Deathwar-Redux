@@ -1,0 +1,110 @@
+//begin
+// [ ] 1 - "Are you a trader in this system?"
+// [ ] 2 - "I'll tell you what's up."
+// [ ] 3 - "What do you have time for?"
+// [ ] 31 - "I paint too!"
+// [ ] 32 - "The greatest technique..."
+// [ ] 33 - "What landscapes?"
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi there.
+other:Yes. 
+other:What's up?
+option-on 1
+option-on 2
+return
+
+@1 // Are you a trader in this system?
+ego:Are you a trader in this system?
+other:I'm a freelance nav officer.
+other:My captain's ship just got impounded.
+ego:Another ship impounded?
+other:Yeah, probably gang related.
+other:I'm glad to be freelance in these situations.
+other:Stolen ships... Police bureaucracy...
+other:...I ain't got time for that.
+option-off 1
+option-off 2
+option-on 11
+option-on 3
+return
+
+
+@2 // I'll tell you what's up.
+ego:I'll tell you what's up.
+ego:My thirst for payback is up.
+other:Not another angry character...
+other:...people are so angry these days.
+other:I ain't got time for that.
+option-off 1
+option-off 2
+option-on 3
+return
+
+@11 // Ain't nobody got time for that.
+ego:Ain't nobody got time for that.
+other:True dat.
+option-off 11
+return
+
+
+@3 // What do you have time for?
+ego:What do you have time for?
+other:Me?
+other:I like to paint.
+other:Stereoscopic landscapes.
+ego:Nice, sounds difficult.
+other:There are techniques to it.
+option-off 3
+option-off 11
+option-on 31
+option-on 32
+option-on 33
+return
+
+@31 // I paint too!
+ego:I paint too!
+other:Really?
+ego:Sure. Now and then.
+other:Well tell me about it sometime.
+other:Right now, I'm trying to get laid.
+option-off 31
+option-off 32
+option-off 33
+stop
+
+@32 // The greatest technique...
+ego:The greatest technique...
+other:...is to have no technique.
+other:Yeah yeah. I heard that one.
+other:I get the effect I want.
+option-off 31
+option-off 32
+return
+
+@33 // What landscapes?
+ego:What landscapes?
+other:Old earth locations.
+other:Imagined scenes...
+other:...trying to combine fractal math..
+other:.with naive aesthetics.
+ego:Fractals eh?
+other:Yeah, based on those used to randomise evasive manoeuvres.
+other:From combat navigation.
+other:Chat later if you like...
+other:..now, I'm waiting for someone.
+option-off 31
+option-off 32
+option-off 33
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye.
+Stop
+

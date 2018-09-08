@@ -1,0 +1,32 @@
+//begin
+// [x] 1 - "Yeah, gimme a try."
+// [x] 2 - "No, I'm busy, thanks though."
+//end
+
+@S // start
+ego:Hi again.
+other:Mr Falcon, welcome back.
+other:You looking to unscramble something else for me?
+ego:I might be, is it complicated?
+other:Damn straight.
+other:What you say? You wan to give it a try?
+option-on 1
+option-on 2
+return
+
+@1 // Yeah, gimme a try.
+ego:Yeah, gimme a try.
+other:alright, it's more tricky that the first one.
+other:If you do get it I'll give you $10,000.
+other:That sound enough?
+ego:I'll give it a shot.
+setMissionAnswer 1
+stop
+
+@2 // No, I'm busy, thanks though.
+ego:No, I'm busy, thanks though.
+other:Ok, come back and see me later then.
+other:I can always do with someone who has hands like yours.
+other:Bye.
+setMissionAnswer 0
+stop

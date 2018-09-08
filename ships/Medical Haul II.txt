@@ -1,0 +1,23 @@
+image=CMediShip_100x100_5.png
+name=Medical Haul II
+turnSpeed=0.7
+cargoSize=155
+warpSpeed=185
+enginePower=0.26
+cost=1100000
+maxCrew=3
+passengers=5
+mintech=0.56
+available=1
+maxmissiles=10
+turret?=1
+firefrom(w,h)=19,38
+turretat(x,y)=0,0
+[thrusters]
+-8,73
+8,73
+[/thrusters]
+M5 Allrounder - A refitted hospital ship. Looking at her stats you're probably wondering why everyone doesn't use this as a cargo vessel. Look closely at her engine and turn stats. That's why. And with a turret and 10 missile racks if you come into a fight chances are good you'll be coming out of it.
+producedBy=Carlton Construction
+yearDeveloped=3013
+funTrivia=The only known medical to still exist. There is no interesting trivia about this vessel. It's well boring.

@@ -1,0 +1,23 @@
+image=CdropshipX_100x100_5.png
+name=Bac Mk II
+turnSpeed=0.76
+cargoSize=44
+warpSpeed=220
+enginePower=0.28
+cost=1375000
+maxCrew=2
+passengers=2
+mintech=0.58
+available=1
+maxmissiles=12
+turret?=0
+firefrom(w,h)=0,30
+turretat(x,y)=0,0
+[thrusters]
+-7,61
+7,61
+[/thrusters]
+M5 Interceptor - The newer Bac has a large missile rack and a superb diff ratio thanks to leading technology developed by the Visors. Nothing like the previous Bac, this is a good ship if you can get it.
+producedBy=Paxtons
+yearDeveloped=3016
+funTrivia=The first bac was so popular the president of paxtons industries was forced to quit after allegations he wasn't going to make another.

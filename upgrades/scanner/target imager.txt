@@ -1,0 +1,12 @@
+name=target imager
+cost=200
+tech lvl=0.25
+avaiable=1
+desc=allows a pilot to see a target's representation in the target information screen.
+once=1
+mass=0
+department=target imager
+value#=0
+[incompat]
+[incompat]
+image=data/images/upgrades/misc2.png

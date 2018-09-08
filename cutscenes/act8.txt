@@ -1,0 +1,31 @@
+background
+{
+data/cutscenes/images/junkfield1.png
+}
+
+people 
+{
+bossa8,data/stations\special characters/robo1Act8headshot_50x108_4.png,350,120,facing left,visible
+}
+
+dialogue
+{
+bossa8:I need you to search asteroid fields in two systems for a cargo container. 
+bossa8:We have reason to think it holds an enemy cloaking and shield code module.
+bossa8:If so we can un-mask the secret fleet and provide evidence to the public of their plot.
+bossa8:At the same time the code should disable the shields of their entire fleet.
+bossa8:Then we'll settle this with a regular old space battle. Classic.
+
+}
+
+
+animation
+{
+stationary
+}
+
+text
+{
+Act VIII: Searching Junk
+}
+

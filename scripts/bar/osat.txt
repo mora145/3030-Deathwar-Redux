@@ -1,0 +1,39 @@
+//begin
+// [x] 1 - "You'll have to sell it at the trade console."
+// [x] 2 - "Shame, you heard anything about wormholes?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi trader.
+ego:Hi.
+other:You don't happen to know someone who trades in Osat? 
+ego:No, why?
+other:I've just brought a load for a private client.
+other:Now he doesn't need it.
+return
+
+@1 // You'll have to sell it at the trade console.
+ego:You'll have to sell it at the trade console.
+other:Yeah. 
+ego:How much of it did you have?
+other:A fair amount.
+other:I think sell it and I'll get some ship upgrades
+other:Do they have many here?
+ego:Upgrades? 
+ego:A reasonable range last time I looked.
+other:Cool.
+stop
+
+@2 // Heard anything about wormholes?
+ego:Shame, you heard anything about wormholes?
+other:Nothing new. 
+other:I'm not bothered about em.
+other:I'm doing alright trade running. 
+ego:I see. I gotta make a move.
+other:Ok.
+stop
+
+
+

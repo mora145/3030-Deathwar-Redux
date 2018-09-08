@@ -1,0 +1,13 @@
+name=m4 6.2 GHz split computer
+cost=85000
+tech lvl=0.95
+avaiable=0
+desc=enables real-time turning during diff-split.
+once=1
+mass=0
+department=split computer
+value#=1
+[incompat]
+split computer
+[incompat]
+image=data/images/upgrades/split1.png

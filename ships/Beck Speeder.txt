@@ -1,0 +1,22 @@
+image=Bspeeder_100x100_5.png
+name=Beck Speeder
+turnSpeed=0.9
+cargoSize=4
+warpSpeed=75
+enginePower=0.38
+cost=14800
+maxCrew=1
+passengers=3
+mintech=0.0
+available=1
+maxmissiles=0
+turret?=0
+firefrom(w,h)=0,46
+turretat(x,y)=0,0
+[thrusters]
+0,65
+[/thrusters]
+Beck Speeder - Its basic Split-Drive is faster than an EVA Jetsuit, so it can reach anywhere within a system in reasonable time.
+producedBy=Beck Jojojo
+yearDeveloped=3009
+funTrivia=None

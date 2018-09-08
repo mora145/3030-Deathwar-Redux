@@ -1,0 +1,12 @@
+name=autopilot
+cost=5100
+tech lvl=0.7
+avaiable=1
+desc=Lets the attached ship fly to a select destination by itself. Click icon in bottom-right or use Keyboard shortcut: Z. On Controller: RB + X.
+once=1
+mass=0
+department=autopilot
+value#=0
+[incompat]
+[incompat]
+image=data/images/upgrades/autopilot.png

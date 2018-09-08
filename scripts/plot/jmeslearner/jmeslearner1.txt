@@ -1,0 +1,61 @@
+//begin
+// [x] 1 - "Apparently I'm the prophecy."
+// [x] 2 - "John Falcon, pleased to meet you. Finally."
+// [ ] 3 - "Cji S'ri says you know the password to walker base."
+// [ ] 4 - "Do you have the password?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hello, are you j'mes learner?
+other:I am indeed young fellow. Who might you be?
+option-on 1
+option-on 2
+return
+
+@1 // Apparently I'm the prophecy.
+ego:Apparently I'm the prophecy.
+other:Really? Not very modest are you?
+ego:Modesty's my middle name.
+other:Really?
+ego:No, it's J.
+other:J? Does it not stand for something?
+other:Like Jeremiah or something?
+ego:No, it's just J. John J Falcon.
+other:So how can I help you?
+option-off 1
+option-off 2
+option-on 3
+option-on 4
+return
+
+@2 // John Falcon, pleased to meet you. Finally.
+ego:John Falcon, pleased to meet you. Finally.
+other:You've been waiting to see me?
+ego:Did nobody tell you I was coming?
+other:No.
+ego:I've been searching these stations for you.
+other:And now you found me, how can I help?
+option-off 1
+option-off 2
+option-on 3
+option-on 4
+return
+
+
+@3 // Cji S'ri says you know the password to walker base.
+ego:Cji S'ri says you know the password to walker base.
+other:That I would, but it seems according to your record you have less than 10 kills.
+other:I can't take anyone seriously who hasn't had at least a little experience.
+other:C'mon, what are you, a baby?
+ego:So that's what you need? 10 kills?
+other:Well, at least. If you don't get out of my face I'll make it 100.
+stop
+
+@4 // Do you have the password?
+ego:Do you have the password?
+other:Seems you have less than 10 kills!
+other:My god, you expect me to tell you the password to walker base when you have no flight experience?
+other:Come back when you're out of nappies.
+stop

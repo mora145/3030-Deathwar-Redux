@@ -1,0 +1,28 @@
+image=ABoboShip_100x100_5.png
+name=Bobo
+turnSpeed=0.58
+cargoSize=500
+warpSpeed=230
+enginePower=0.24
+cost=3255000
+maxCrew=5
+passengers=8
+mintech=0.75
+available=1
+maxmissiles=10
+turret?=1
+firefrom(w,h)=-12,10
+turretat(x,y)=21,31
+[thrusters]
+-34,71
+-24,61
+-16,70
+9,70
+14,58
+29,75
+40,69
+[/thrusters]
+M7 Trader - Named Bobo by the miner community, this ship is huge. Largest cargo capacity you can get. But you pay for this with a slow turn speed and even slower acceleration. For its protection it boasts 10 missile racks and a turret which is uncommon in large cargo ships.
+producedBy=Frankfurt Aus
+yearDeveloped=3008
+funTrivia=The bobo was named after a famous miner, alec bobomington smashed his ship straight into one on a drunk night out.

@@ -1,0 +1,35 @@
+//begin
+// [x] 1 - "Yeah, I got it. Here."
+// [x] 2 - "You're not having my money."
+//end
+
+@S
+other:Oh, you're back. you got that money?
+option-on 1
+option-on 2
+return
+
+@1 
+ego:Yeah, I got it. Here.
+other:Alright. Just press here.
+ego:...
+other:Thanks. Here's your receipt.
+other:Oh, that's right, there is no receipt.
+other:The clue is Faedda. 
+other:I've added it to your contact list so you don't forget.
+ego:Wow, was that not worth it.
+other:See you around.
+setMissionAnswer 1
+stop
+
+@2 
+ego:You're not having my money.
+other:Whatever. 
+other:Come back when you want to quit wasting my time.
+setMissionAnswer 0
+stop
+
+@3 
+ego:Doesn't matter, goodbye.
+other:Alright, see you later.
+stop

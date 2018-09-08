@@ -1,0 +1,13 @@
+name=m4 deluxe shield charger
+cost=145000
+tech lvl=0.84
+avaiable=1
+desc=allows shields to regenerate 90% quicker.
+once=1
+mass=0
+department=shield recharger
+value#=1.9
+[incompat]
+shield recharger
+[incompat]
+image=data/images/upgrades/shield3.png

@@ -1,0 +1,60 @@
+background
+{
+data/cutscenes/images/bossLair1.png
+}
+
+people 
+{
+boss,data/stations/special characters/plotboss_50x108_4.png,300,140,facing right,visible
+helper,data/stations/special characters/plotzoidman2_50x130_4.png,350,145,facing left,visible
+
+goon,data/stations/standing_at_bar/zoidman1_50x130_4.png,140,145,facing right,visible
+
+
+matti,data/stations/standing_at_bar/zoidman1_50x130_4.png,30,130,facing right,invisible
+}
+
+dialogue
+{
+boss:Ah...
+boss:...so good to get back on my ship.
+helper:Aye Sir
+boss:Who's this?
+helper:A bounty hunter, Sir. 
+helper:We need more pilots.
+helper:This John Falcon might be a hard target.
+boss:Ok.
+boss:We'll deal with this Falcon.
+boss:But focus on the Largo first, tha...
+goon:Yo Mr. Boss man!
+helper:Err...
+boss:Yo?
+boss:Yo?
+goon:Yo!
+boss:Yo????
+boss:I recognise you.
+boss:From D-Block.
+goon:Me?
+goon:Naaah.
+helper:Oh boy.
+boss:Hold my helmet for a second.
+helper:Aye Sir.
+
+}
+
+text
+{
+Somewhere in the Andinti System...
+--table,data/stations/special characters/pooltable_65_143_1.png,140,161,facing left,visible
+
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+data/sounds/music/background/Steve Finney - Dissolve.ogg,repeat
+}

@@ -1,0 +1,13 @@
+name=class 1 fuel scoop
+cost=450
+tech lvl=0.2
+avaiable=1
+desc=Allows fuel to be collected slowly from a star's corona.
+once=1
+mass=0
+department=scoop
+value#=0.004
+[incompat]
+scoop
+[incompat]
+image=data/images/upgrades/scoop1.png

@@ -1,0 +1,47 @@
+//begin
+// [ ] 1 - "You look familiar."
+// [ ] 2 - "What are you in for?"
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Excuse me.
+other:Yes?
+other:What?
+option-on 1
+option-on 2
+option-on 4
+return
+
+@1 // You look familiar.
+ego:You look familiar.
+other:How interesting that must be for you.
+other:Just leave me be will you.
+other:I had nothing to do with the Stab Drones!
+other:Hey, you're that Falcon guy. 
+other:People are saying you cleaned up the outbreak.
+ego:Yeah. I got blackmailed into it.
+other:Well, at least you're not in a rusty cage.
+option-off 1
+return
+
+@2 // What are you in for?
+ego:What are you in for?
+other:I bought some fuel from a trader in an asteroid field.
+other:I was all out due to a fuel leak.
+ego:What was wrong with that?
+other:It turned out the trader had looted the fuel from a local cargo tow.
+other:When I docked here, I got caged up until they check out my story.
+other:Don't worry about it. I'll be out in ten minutes.
+ego:If you say so. 
+option-off 2
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye.
+Stop
+

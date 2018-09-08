@@ -1,0 +1,60 @@
+//begin
+// [x] 1 - "I'm Falcon."
+// [ ] 2 - "I'm a trader. Here to help out."
+// [ ] 3 - "The password is..."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi.
+other:Hi. 
+other:Hang on a minute.
+ego:Why?
+other:I don't recognise you.
+option-on 1
+option-on 2
+return
+
+
+@1 // I'm Falcon.
+ego:I'm Falcon.
+ego:John Falcon.
+other:I don't know that name.
+ego:I've been doing work for your friends.
+other:Maybe you have, maybe you haven't.
+ego:Then how do I know about the base. 
+other:What is the password?
+
+option-on 3
+option-off 1
+option-off 2
+return
+
+@2 // I'm a trader. Here to help out.
+ego:I'm a trader. Here to help out.
+other:Great. 
+other:We need all the help we can get.
+ego:I've been doing work for your friends.
+other:Maybe you have, maybe you haven't.
+ego:I found the base didn't I. 
+other:Do you have the password though?
+
+option-on 3
+option-off 1
+option-off 2
+return
+
+@3 // The password is...
+ego:The password is 'in freedom, truth'.
+other:Yeah. That's right.
+other:Sorry, It's the rules. 
+other:I got to check everyone.
+ego:No problem.
+other:Welcome to our little outpost.
+other:Please go through and talk to our boss.
+ego:Your boss?
+other:We call him that. 
+other:He's over there.
+ego:Ok. I'll find him.
+stop

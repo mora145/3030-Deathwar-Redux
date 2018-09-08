@@ -1,0 +1,51 @@
+//begin
+// [x] 1 - "What ship did they get?"
+// [x] 2 - "How did they make the creds?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hey, how's things here?
+ego:Good, how you doing?
+other:Fine. My friend's just bought a freighter.
+ego:Cool.
+return
+
+@1 // What ship did they get?
+ego:What ship did they get?
+other:A  Churchill, it is massive.
+other:She's gonna move into commodity trading.
+ego:I guess that was the idea of getting that ship.
+other:Yeah right. 
+other:You should have seen it inside.
+other:We had to use bikes to get around.
+ego:I bet you could have played football in the cargo bay.
+other:Ha, you could have almost had orbital races!
+ego:Ha, I'm gonna check the consoles.
+other:Safe flying.
+ego:Yeah.
+stop
+
+@2 // How did they make the creds?
+ego:How did they make the creds?
+other:She's an expert at doing salvage.
+other:She's found loads of Silver and gold.
+other:I don't understand why the containers are just left there anyway.
+ego:Err, they are destroyed ships.
+ego:It's not like they had much time to evacuate.
+other:Yes, I know, but sometimes it's like they have been put there after.
+ego:Well a lot of them have been.
+other:Oh?
+ego:Well a lot of them are pirate stashes. 
+other:Really. She didn't tell me that.
+other:Isn't that dangerous then? Taking crims stuff?
+ego:They know the risk of putting it there.
+other:And once they leave it, it's fair legal salvage.
+ego:You got it. I'm gonna check the consoles.
+other:Safe flying.
+ego:Safe flying.
+stop
+
+
+

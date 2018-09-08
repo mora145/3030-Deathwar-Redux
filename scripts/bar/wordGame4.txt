@@ -1,0 +1,70 @@
+//begin
+// [x] 1 - "Ok, hit me."
+// [x] 2 - "No thanks."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi there.
+other:Hi.
+ego:Space treatin' ya well?
+other:Yeah, I'm just hanging around.
+other:Word game?
+return
+
+@1 // Ok, hit me.
+ego:Ok, hit me.
+other:k.
+other:Twenty questions?
+ego:Ok, i'll pick one
+other:Ok then.
+ego:Hmmm. Ok I got one. I'm a mineral
+other:Ok, are you... a metal?
+ego:yeah.
+other:Do you have a high melting point?
+ego:Relatively? No 
+other:Are you mercury?
+ego:No. 
+other:Do you have more than one part?
+ego:Yes.
+other:Are you a tool?
+ego:Yeah.
+other:Can I buy one easily?
+ego:Depends.
+other:Can I buy one easily if I had loads of creds?
+ego:Yeah.
+other:Hmmmm.
+other:Hmmm, Something hand held?
+ego:No.
+other:Are you brightly coloured?
+ego:No.
+other:Are you a ship upgrade of some sort?
+ego:Yes.
+other:Ah ha. Are you an afterburner?
+ego:No.
+other:Ok, how many questions I got left?
+ego:Err... about half.
+other:Are you a weapon?
+ego:Yeah.
+other:Are you a missile?
+ego:No.
+other:Oh, do you have *cannon* in your name?
+ego:Yeah.
+other:Are you an Ion Cannon?
+ego:No.
+other: Are you an Ion Cannon II?
+ego: No
+other:Are you.. a Plasma Cannon?
+ego:You got it.
+other:Ha.
+ego:I thought you were gonna run out of questions.
+other:It was close, good game.
+ego:Catch ya later.
+stop
+
+@2 // No thanks
+ego:No thanks, I'm busy.
+ego:Maybe later.
+other:Ok, safe flying.
+stop

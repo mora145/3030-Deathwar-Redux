@@ -1,0 +1,13 @@
+name=m2 standard fuel manifold
+cost=6300
+tech lvl=0.6
+avaiable=0
+desc=decreases fuel usage while splitting by 25%.
+once=1
+mass=0
+department=fuel consumption
+value#=0.75
+[incompat]
+fuel consumption
+[incompat]
+image=data/images/upgrades/fuel1.png

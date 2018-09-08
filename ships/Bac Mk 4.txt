@@ -1,0 +1,23 @@
+image=CGeeship_100x100_5.png
+name=Bac Mk IV
+turnSpeed=0.8
+cargoSize=35
+warpSpeed=150
+enginePower=0.26
+cost=1445000
+maxCrew=2
+passengers=2
+mintech=0.59
+available=1
+maxmissiles=16
+turret?=0
+firefrom(w,h)=0,34
+turretat(x,y)=0,0
+[thrusters]
+5,65
+-4,65
+[/thrusters]
+M5 Fighter - Practical oozing 'stay the hell away from me', this attack vessel packs a punch. 16 missile racks and a quick turn rate makes this a killer assault vessel.
+producedBy=Paxtons/Virol 5
+yearDeveloped=3022
+funTrivia=Visor tech was used in this ship as paxtons was bought up by one of the visor beasts biggest firms.

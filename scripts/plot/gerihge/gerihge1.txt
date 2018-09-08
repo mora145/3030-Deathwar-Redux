@@ -1,0 +1,87 @@
+//begin
+// [x] 1 - "You're supposed to give me a clue."
+// [x] 2 - "I think you have a clue for me."
+// [x] 3 - "It doesn't matter. Later."
+// [ ] 4 - "Me? Megaball? Yes siree."
+// [ ] 5 - "Not really."
+// [ ] 6 - "I'm in."
+// [ ] 7 - "Not right now, thanks."
+//end
+
+
+// dialog script file
+@S // intro
+ego:You Geri G'he?
+other:Yeah, what's this concerning?
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // You're supposed to give me a clue.
+ego:You're supposed to give me a clue.
+other:Yeah, I do. I also have a problem.
+ego:What's that?
+ego:And does it relate to some kind of task?
+other:It does. You ever played megaball?
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+@2 // I think you have a clue for me.
+ego:I think you have a clue for me.
+other:Oh, you're falcon. I heard you were en route.
+other:You want the clue, do you?
+ego:Uhhh, yeah.
+other:you ever played megaball?
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+@3 // It doesn't matter. Later.
+ego:It doesn't matter. Later.
+other:Right, come back and see me when you want some info.
+stop
+
+@4 // Me? Megaball? Yes siree.
+ego:Me? Megaball? Yes siree.
+other:Well, it used to be a popular game, but not anymore.
+other:I want you to talk to a bardroid I know. The password is "MEGABALL".
+other:You speak to him, he'll give you the clue. You in?
+option-off 4
+option-off 5
+option-on 6
+option-on 7
+return
+
+@5 // Not really.
+ego:Not really.
+other:Well, it used to be a popular game round here, but not anymore.
+other:I want you to talk to a bardroid I know. The password is "MEGABALL".
+other:You speak to him, he'll give you the clue. You in?
+option-off 4
+option-off 5
+option-on 6
+option-on 7
+return
+
+@6 // I'm in.
+ego:I'm in.
+other:Excellent news. You'll need to go to Dwelwa in Miareth.
+other:There's a bardroid there. Don't forget, the password is MEGABALL.
+other:I've added a contact to your ship's computer. 
+setMissionAnswer 1
+stop
+
+@7 //Not right now, thanks.
+ego:Not right now, thanks.
+other:Well, great. 
+other:Come back to me when you want the clue.
+setMissionAnswer 0
+stop

@@ -1,0 +1,50 @@
+//begin
+// [ ] 1 - "Did you hear about Frank?"
+// [ ] 2 - "Do you want to rejoin my crew?"
+// [ ] 3 - "Are you investigating the.. guy?"
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Shhh..
+ego:I need to ask you something.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // Did you hear about Frank?
+ego:Did you hear about Frank?
+other:Frank? 
+other:The guy who sold us the ship?
+ego:Yeah.
+other:He seems to be a genuine victim in this.
+option-off 1
+return
+
+@2 // Do you want to rejoin my crew?
+ego:Do you want to rejoin my crew?
+other:Of course, Captain!
+other:But not right now.
+other:I'm on the case of..
+other:...our uninvited guest.
+option-off 2
+return
+
+@3 // Are you investigating the.. guy?
+ego:Are you investigating the.. guy?
+other:Exactly.
+other:Zog Dongo.
+other:Someone has to.
+other:Like last time.
+option-off 3
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye for now, Captain.
+Stop
+

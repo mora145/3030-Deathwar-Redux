@@ -1,0 +1,13 @@
+name=wired comms unit extension
+cost=900
+tech lvl=0.6
+avaiable=0
+desc=increases communications range with stations by 250%.
+once=1
+mass=0
+department=comms
+value#=2.5
+[incompat]
+comms
+[incompat]
+image=data/images/upgrades/dish1.png

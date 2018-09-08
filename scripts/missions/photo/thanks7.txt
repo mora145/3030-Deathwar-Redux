@@ -1,0 +1,19 @@
+//begin
+// [x] 1 - "I'm off to refuel."
+//end
+
+@S
+ego:Photo package.
+other:Huh, the photos!
+other:At last. These better be good.
+ego:Hey, you get what you paid for.
+ego:I'm a trader, not a pro-photographer.
+other:Ha, good point.
+other:Speed was the most important thing.
+option-on 1
+return
+
+@1
+ego:I'm off to refuel.
+other:thanks again.
+stop

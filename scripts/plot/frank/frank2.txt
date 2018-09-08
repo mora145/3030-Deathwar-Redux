@@ -1,0 +1,16 @@
+//begin
+// [x] 1 - "I'll get on it."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hey bud. You seen jimmy yet? Try checking out the other stations and looking for him.
+other:Hell he could even be on this station. I don't know.
+option-on 1
+return
+
+@1 // I'll get on it.
+ego:I'll get on it.
+other:Ok.
+stop

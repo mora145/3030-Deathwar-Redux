@@ -1,0 +1,85 @@
+//begin
+// [x] 1 - "Kent!"
+// [x] 2 - "Where have you been?"
+// [x] 3 - "Opened any doors recently?"
+
+// [ ] 40 - "How can I help?"
+// [ ] 41 - "Why did he increase your sentence?"
+
+// [ ] 99 - "Bye, Kent."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+
+return
+
+@1 // Kent!
+ego:Kent!
+other:Hi Chief.
+other:In case you can't tell. I have sad face on.
+option-off 1
+return
+
+@2 // Where have you been?
+ego:Where have you been?
+other:Didn't I tell you already?
+other:I had to serve some time here for assaulting Officer Grah.
+other:After our ship got impounded...
+other:...I pounded his shins.
+ego:I would like to have witnessed that.
+other:He was mocking me, big style.
+other:Anyway... he just increased my sentence.
+option-off 1
+option-off 2
+option-off 3
+option-on 40
+option-on 41
+option-on 42
+return
+
+@3 // Opened any doors recently?
+ego:Opened any doors recently?
+ego:I guess you found one you couldn't open.
+other:I am not in the mood for joking around, John.
+other:You need to get me out of here.
+option-off 3
+return
+
+@40 // How can I help?
+ego:How can I help?
+other:Other than bringing me industrial acid...
+other:...and making a distraction over there?
+ego:Yeah, preferably other than that.
+other:Some major pirate gang action went down recently.
+other:Grah knows you used to be a bounty hunter.
+ego:What, so he's holding you hostage?
+ego:Don't worry, I'll go talk to Grah.
+option-off 40
+option-off 41
+option-on 99
+return
+
+@41 // Why did he increase your sentence?
+ego:Why did he increase your sentence?
+other:A pirate gang released some attack drones or something.
+other:Grah knows you used to be a bounty hunter.
+ego:What, so he's holding you hostage?
+other:Correct-a-mundo, Chief.
+other:Unless I can get you to help out...
+other:...I'm in this crate in for one year.
+ego:Don't worry, I'll go talk to Grah.
+option-off 40
+option-off 41
+option-on 99
+return
+
+
+@99 // Bye, Kent.
+ego:Bye, Kent.
+other:Get me outta here, Chief.
+option-off 99
+stop
+

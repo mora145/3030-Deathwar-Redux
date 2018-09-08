@@ -1,0 +1,98 @@
+//begin
+// [ ] 1 - "Are you Quaid?"
+// [ ] 2 - "I have something to tell you."
+// [ ] 3 - "You remind me of someone."
+// [x] 8 - "Nevermind."
+// [ ] 21 - "I have a message from your brother."
+// [ ] 22 - "He says, Eat me! I'm not paying."
+// [ ] 23 - "He says he's the only Quaid."
+// [ ] 24 - "He wants you to give me 600."
+
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Excuse me.
+other:Yes?
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // 1?
+ego:Are you Quaid?
+other:I am the one and only.
+other:Quaid.
+option-off 1
+return
+
+@2 // I have something to tell you.
+ego:I have something to tell you.
+other:Oh yes?
+other:What's that?
+option-off 2
+option-on 21
+return
+
+@3 // 3?
+ego:You remind me of someone.
+other:Yeah?
+other:Probably my brother Quaid.
+other:What a git
+other:Have you met him?
+other:Yeah.
+option-off 3
+return
+
+@21 // I have a message from your brother.
+ego:I have a message from your brother.
+other:That git.
+other:What is it this time.
+option-off 21
+option-on 22
+option-on 23
+option-on 24
+return
+
+@22 // 22
+ego:He says, Eat me! I'm not paying.
+other:He says what!
+other:Right. I going right over there..
+other:Going to take back that speeder I bought him.
+other:The cheek of it.
+ego:Sorry about that.
+ego:Just passing on the message.
+other:Aaaaaargh!
+other:He's gonna get it he is.
+other:What a git.
+quaidisntpaying
+option-off 22
+stop
+
+@23 // He says he's the only Quaid.
+ego:He says he's the only Quaid.
+other:I'm the real Quaid.
+other:He's my lame bro Quaid.
+option-off 23
+return
+
+@24 // He wants you to give me 600.
+ego:He wants you to give me 600.
+ego:For a job I did for him.
+other:Really?
+other:Well. It's not unusual.
+other:He's always in money trouble.
+other:Ok. I'll transfer the 600 shortly.
+ego:Great.
+quaidgavememoney
+option-off 24
+givemoney,600,Falcon blagged Quaid Two
+Stop
+
+@8 // Nevermind.
+ego:Nevermind.
+other:Bye.
+Stop
+

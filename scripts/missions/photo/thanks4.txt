@@ -1,0 +1,34 @@
+//begin
+// [x] 1 - "Oh?"
+// [x] 2 - "I'm busy."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Here's your package
+other:The photos, thanks.
+other:You heard the news?
+
+option-on 1
+option-on 2
+return
+
+@1 // Oh?
+ego:Oh?
+other:Someone found a new short-cut through a nebula.
+ego:Yeah, good for them.
+ego:I stay clear of the nebula.
+other:Probably wise.
+other:I got stuck in one for 2hrs.
+ego:2hrs! 
+other:I nearly ran out of fuel.
+other:Anyway, thanks for the photo.
+
+stop
+
+@2 // I'm busy.
+ego:I'm busy.
+ego:Later.
+
+stop

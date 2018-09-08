@@ -1,0 +1,108 @@
+//begin
+// [ ] 1 - "Give me the full list."
+// [ ] 2 - "What will give me the best return?"
+// [ ] 3 - "How do I profit?"
+
+// [ ] 51 - "Delavian Chocolate."
+// [ ] 52 - "Mercury Silk."
+// [x] 6 - "Nevermind."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Are you a seller?
+other:Sure am!
+other:If you buy from me right now...
+other:...you can get a good deal!
+other:But I'll be sold out any second...
+other:..and you'll need some free cargo space.
+other:You only get one chance with us station sellers!
+other:So it's now or never.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // Give me the full list.
+ego:Give me the full list.
+other:Not much today..
+other:Delavian Chocolate...
+other:...and Mercury Silk.
+ego:Ok.
+other:Interested?
+ego:I'll take...
+option-off 1
+option-off 2
+option-off 3
+
+option-on 51
+option-on 52
+
+return
+
+@2 // What will give me the best return?
+ego:What will give me the best return?
+other:That's easy.. Mercury Silk
+other:I got some genuine uncut.
+other:Always tradeable on the console..
+other:..for a tidy profit.
+other:Fancy anything?
+option-off 1
+option-off 2
+option-off 3
+
+option-on 51
+option-on 52
+return
+
+@3 // How do I profit?
+ego:How do I profit?
+other:You resell it over there...
+other:...at the trade console. For a tidy profit.
+ego:I see.
+ego:Maybe I'll buy...
+option-off 1
+option-off 2
+option-off 3
+
+option-on 51
+option-on 52
+return
+
+@51 // Delavian Chocolate.
+ego:Delavian Chocolate.
+other:Sure, I sell them by the 6 pack
+other:That's only 60.
+other:Transfer creds, I'll send it to your hold.
+other:Sell on the Trade Console, 'Goods' screen. 
+other:Scroll down for Delavian Chocolate, and sell.
+other:Then come back..
+other:...I have a big deal to tell you about.
+takemoney,60,Gave money for Delavian Chocolate
+givecargo 24 6
+option-off 5
+option-off 51
+stop
+
+@52 // Mercury Silk.
+ego:Mercury Silk.
+other:Sure, I sell them by the 5 pack
+other:That's 100.
+other:Transfer creds, I'll send it to your hold.
+other:Sell on the Trade Console, 'Goods' screen. 
+other:Then come back..
+other:...I have a big deal to tell you about.
+takemoney,100,Gave money for Mercury Silk
+givecargo 11 5
+option-off 52
+stop
+
+@6 // Nevermind.
+ego:Nevermind.
+other:Ok. 
+other:I'll be sold out soon...
+other:..but come back and talk to me.
+other:I have a big deal coming up at Elesw.
+Stop
+

@@ -1,0 +1,25 @@
+//begin
+// [x] 1 - "Hm, doesn't really matter to me, it's all gravy."
+// [x] 2 - "Hope you catch the bastard."
+//end
+
+
+@S
+other:Oh you found him. Excellent.
+other:That sonufabitch stole my life savings. I've been looking for him for months.
+ego:But you said he was your friend...
+other:I'm sorry, I had to say that to secure someone's help.
+other:I've put the money into your account.
+option-on 1
+option-on 2
+return
+
+@1
+ego:Hm, doesn't really matter to me, it's all gravy.
+other:Thank you and good luck, my friend.
+stop
+
+@2
+ego:Hope you catch the bastard.
+other:I do too. Goodbye.
+stop

@@ -1,0 +1,22 @@
+//begin
+// [x] 1 - "No problem."
+// [x] 2 - "Have fun with it."
+//end
+
+@S
+ego:Here you go. Don't drop it.
+other:A package. Great.
+option-on 1
+return 
+
+
+@1 
+ego:No problem.
+stop
+
+@2 // Have fun with it.
+ego:Have fun with it.
+other:That's made my day.
+other:Have a good one.
+
+stop

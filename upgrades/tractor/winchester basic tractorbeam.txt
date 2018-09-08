@@ -1,0 +1,13 @@
+name=m2 winchester tractor beam
+cost=7200
+tech lvl=0.55
+avaiable=1
+desc=Lets you mine at a medium pace. Target an object like an asteroid or cargo container. Move closer to the target. When you are close enough the tractor beam button turns green. click on this to engage. To disengage, click the button again.
+once=1
+mass=0
+department=tractor beam
+value#=19
+[incompat]
+tractor beam
+[incompat]
+image=data/images/upgrades/tractor2.png

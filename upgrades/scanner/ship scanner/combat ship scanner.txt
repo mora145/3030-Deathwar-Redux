@@ -1,0 +1,13 @@
+name=combat ship scanner
+cost=920
+tech lvl=0.0
+avaiable=1
+desc=offers a tactical readout of the target ship's shields and hull.
+once=1
+mass=0
+department=cbt scanner
+value#=0
+[incompat]
+cbt scanner
+[incompat]
+image=data/images/upgrades/scan1.png

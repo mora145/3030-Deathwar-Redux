@@ -1,0 +1,23 @@
+//begin
+// [x] 1 - "No, you heard about any derelicts?"
+// [x] 2 - "No."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hiya.
+other:Hey, you want hear a new trader joke?
+return
+
+@1 // No, you heard about any derelicts?
+ego:No, you heard about any derelicts?
+other:I heard nothin'.
+stop
+
+@2 // No.
+ego:No.
+other:Ok dude, stay safe out there.
+ego:I always do.
+stop
+

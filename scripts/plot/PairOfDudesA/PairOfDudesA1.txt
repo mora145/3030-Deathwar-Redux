@@ -1,0 +1,126 @@
+//begin
+// [ ] 1 - "Are you feeling ok?"
+// [ ] 2 - "Do you have Plague?"
+// [ ] 3 - "Killer boots man!"
+
+// [ ] 4 - "What is it?"
+// [ ] 41 - "I thought Quaid was your name?
+// [ ] 5 - "Not interested."
+// [ ] 6 - "Ok, If I'm passing."
+// [x] 7 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Excuse me.
+other:Quaid at your service.
+other:The one and only.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // 1?
+ego:Are you feeling ok?
+other:Don't I look ok?
+other:No time for that...
+other:You're just the type of trader I was looking for.
+ego:Oh?
+other:You look like a busy guy...
+other:...travelling around.
+other:Could you do something for me?
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+@2 // 2?
+ego:Do you have Plague?
+other:I didn't think so...
+other:...but now that you mention it.
+other:Hmm. Nah.
+other:I do have an emergency though.
+other:Could you do me a solid favour?
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+@3 // 3?
+ego:Killer boots man!
+other:Thanks.
+other:They're my pride and joy.
+other:Could you do me a solid favour?
+other:It's not boots related.
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+
+@4 // What is it?
+ego:What is it?
+other:I have a bro on another station.
+other:He's a right git.
+other:If you're passing, tell him this..
+other:Eat me! I'm not paying.
+ego:Gee. How's he going to take that?
+other:He'll be furious haha.
+other:But you'll be fine.
+ego:Maybe, if I'm passing and bored.
+ego:What's his name?
+other:Quaid. 
+option-off 4
+option-on 41
+option-on 5
+option-on 6
+return
+
+
+@41 // I thought Quaid was your name?
+ego:I thought Quaid was your name?
+other:Sure is.
+other:I'm Quaid.
+other:He's Quaid.
+other:But he's a git. And I'm not paying him back.
+option-off 41
+return
+
+@5 // Not interested.
+ego:Not interested.
+other:Ok. It wasn't urgent.
+other:I was going to ask you tell my Bro..
+other:I'm not paying him.
+other:I owe him 600 I ain't got.
+other:You know how it is.
+option-off 5
+Stop
+
+@6 // Ok, If I'm passing.
+ego:Ok, If I'm passing.
+ego:I'll tell him your message.
+other:Ok. Cool.
+other:He's called Quaid.
+other:Looks a bit like me...
+other:He hangs out at the bars around here.
+ego:OK, I might find him on my travels.
+other:Remember.. say, Eat me! I'm not paying.
+other:Thanks. It will make my year.
+option-off 6
+Stop
+
+@7 // Bye
+ego:Bye.
+other:Bye.
+other:If you see my bro, Quaid...
+other:Tell him I'm the real Quaid.
+Stop
+

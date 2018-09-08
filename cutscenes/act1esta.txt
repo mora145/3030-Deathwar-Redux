@@ -1,0 +1,47 @@
+background
+{
+data/cutscenes/images/3ships.png
+}
+
+
+people 
+{
+boss,data/stations/special characters/plotboss_50x108_4.png,220,170,facing right,invisible
+helper,data/stations/special characters/plotzoidman2_50x130_4.png,225,170,facing left,invisible
+goon,data/stations/special characters/suitPaper2_50x108_4.png,225,170,facing right,invisible
+shipflares,data/stations/special characters/3shipsUnder1_400x160_1.png,200,160,facing right,visible
+shipminipeople,data/stations/special characters/3shipsUnder2_400x160_1.png,200,160,facing right,visible
+
+}
+
+fades
+{
+in
+}
+
+dialogue
+{
+helper:You asked to see us, Sir?:data/voice/act1esta/a.wav
+goon:What's on the agenda, Boss?:data/voice/act1esta/c.wav
+boss:The Largo of course!:data/voice/act1esta/d.wav
+}
+
+text
+{
+ACT I: The Largo Cargo
+}
+
+animation
+{
+split right
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+data/sounds/music/background/Steve Finney - A beautiful dream.ogg,repeat
+}

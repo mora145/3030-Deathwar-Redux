@@ -1,0 +1,52 @@
+//begin
+// [x] 1 - "Err, ok, shoot."
+// [x] 2 - "Not right now."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi there.
+other:Hi.
+other:How's space treatin' ya?
+ego:I'm cool.
+other:I'm bored.
+other:Wanna play a word game?
+return
+
+@1 // Err, ok, shoot.
+ego:Err, ok, shoot.
+other:Allright!
+other:Want a game of twenty questions?
+ego:Where you pick an animal, veg, or mineral.
+ego:And I work it out, using Yes/no questions?
+other:Yeah.
+ego:Sure. Go for it.
+ego:I have to warn you. I'm *the* master at twenty questions.
+other:Oh yeah.
+ego:Yeah.
+other:Ok, i'll make it a hard one.
+ego:Fine.
+other:I'm a mineral.
+ego:Have you seen one recently?
+other:Yes.
+ego:Do you have moving parts?
+other:Yes.
+ego:Do have legs?
+other:No.
+ego:Do you have autonomous motion capabilities?
+other:Yeah.
+ego:Are you a type of droid?
+other:Yes.
+ego:Hmmm..
+ego:Are you a Class 5 bio-contamination scutter?
+other:Yeah!
+ego:(they always are)
+stop
+
+@2 // Not right now
+ego:Not right now.
+other:Har, No one does.
+ego:Maybe later dude.
+other:See ya.
+stop

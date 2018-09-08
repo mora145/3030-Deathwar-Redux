@@ -1,0 +1,36 @@
+//begin
+// [x] 1 - "Drink yourself to death why don't you."
+// [x] 2 - "Have one on me."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hello.
+ego:J'mes learner?
+other:The very only.
+other:Are you john falcon?
+ego:Yes, yes I am.
+other:Good because you need to know this:
+other:'in freedom, truth'
+ego:What?
+other:See that contact I added to your list?
+other:It's our leader, 433-2c, he's on board walker base.
+other:Now all you have to do is find it.
+other:Now leave me alone, I'm drinking.
+option-on 1
+option-on 2
+return
+
+@1 // nothing
+ego:Drink yourself to death why don't you.
+other:I heard that.
+stop
+
+@2 // nothing
+ego:Have one on me.
+other:Gee, thanks kid.
+takeMoney,50,DRINK AT THE BAR
+stop
+
+

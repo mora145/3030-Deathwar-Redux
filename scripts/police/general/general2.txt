@@ -1,0 +1,118 @@
+//begin
+// [x] 1 - "What do you do when you find a pirate?"
+// [x] 2 - "Why are you here now but not at other times?"
+// [x] 3 - "No, thanks."
+// [ ] 4 - "You go for a dump!"
+// [ ] 5 - "You spend most of your time in the crapper?"
+// [ ] 6 - "What if I accidentally hit or kill a trader?"
+// [ ] 7 - "What if I want to kill them?"
+// [ ] 8 - "Maybe."
+// [ ] 9 - "No thanks"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi, can I do anything for you?
+ego:As a matter of fact I have a few questions.
+return
+
+@1 // what do you do when you find a pirate?
+ego:What do you do when you find a pirate?
+other:Council regulations state that you can destroy a pirate's ship at any time. 
+other:Use your map and look for white boxes with the red line.
+other:In the safer systems there may not be any, or only one.
+other:Don't attack normal traders or else we'll come down hard on you. 
+other:Okay?
+option-off 1
+option-off 2
+option-off 3
+option-on 6
+option-on 7
+return
+
+@2 // Why are you here now but not at other times?
+ego:Why are you here now but not at other times?
+other:I'll leave that up to your imagination, Sir.
+ego:Ok, thanks.
+ego:...
+ego:so....
+ego:...
+option-off 2
+option-off 1
+option-off 3
+option-on 4
+option-on 5
+return
+
+@3 // No, thanks.
+ego:No, thanks.
+other:No problem. enjoy your stay here.
+stop
+
+@4 // You go for a dump!
+ego:You go for a dump!
+other:Damn it, you're quick.
+ego:Thanks.
+other:Ever thought about joining the police force?
+option-off 5
+option-off 2
+option-off 4
+option-on 8
+option-on 9
+return
+
+@5 // You spend most of your time in the crapper?
+ego:You spend most of your time in the crapper?
+other:Listen kid, I don't have the time to yap with you about this.
+other:Get back to your business.
+stop
+
+@6 // What if I accidentally hit or kill a trader?
+ego:What if I accidentally hit or kill a trader?
+other:You'd have to try damn hard to accidentally kill a trader, my friend.
+other:We'd probably kill you. It's the law I'm afraid.
+other:If you are shooting junk and hit one by accident...
+other:..the stations guns could attack you. Just dock fast.
+other:You didn't hear that from me, right.
+ego:Right.
+other:Is there anything else?
+option-off 6
+option-off 7
+option-off 1
+option-on 2
+option-on 3
+return
+
+@7 // What if I want to kill them?
+ego:What if I want to kill them?
+other:We'll add a charge to your criminal record.
+other:Then you might not be able board some stations.
+other:Or you'll have a fine to pay 
+other:Or we may even try and kill you ourselves.
+other:Depends on the circumstances.
+ego:I see.
+stop
+
+@8 // Maybe.
+ego:Maybe.
+other:I wouldn't advise it.
+ego:No? why?
+other:The pay is awful and the clothes... uch
+other:Don't get me started on the clothes.
+ego:Right, I'll stay away then.
+other:Good for you. now if you don't mind I have to get back to work.
+ego:No problem.
+stop
+
+@9 // No thanks.
+ego:No thanks
+other:can't blame you.
+other:the pay is awful and the quarantine is crud.
+other:I haven't seen my mother in 5 weeks.
+ego:nevermind, eh.
+other:yeah. the sooner I get out of the hell hole, the better.
+ego:when are we being allowed into the other parts of the station?
+other:when the quarantine is lifted which could be months.
+ego:ok, well, thanks for your help, officer.
+stop

@@ -1,0 +1,62 @@
+background
+{
+data/cutscenes/images/1stExit.png
+}
+
+people 
+{
+Droidtiny,data/stations/drinkdroids/drinkDroidFF_36x50_2.png,275,54,facing right,visible
+StaticDroidnomovetiny,data/stations/drinkdroids/floaterholo3_36x50_2.png,250,60,facing right,visible
+Static2Droidnomovetiny,data/stations/drinkdroids/drinkDroidN_36x50_2.png,80,62,facing right,visible
+
+Falconsmall,data/stations/player/falcon4TalkWithPackage_50x115_7.png,100,99,facing right,visible
+Kentsmall,data/stations/special characters/kent_50x108_8.png,82,108,facing right,visible
+
+Krytotiny,data/stations/standing_at_bar/kryto_50x108_4.png,33,67,facing right,visible
+Mantiny,data/stations/special characters/GebbosAquan_50x108_4.png,50,65,facing right,visible
+
+Mantiny,data/stations/standing_at_bar/traderWang_50x108_4.png,220,56,facing left,visible
+Lingtiny,data/stations/standing_at_bar/Ling1_50x108_4.png,200,57,facing right,visible
+
+
+Copsmaller,data/stations\police/police4_50x108_5.png,360,138,facing right,visible
+Droidsmall,data/stations\drinkdroids/floaterholo_36x50_2.png,63,125,facing left,visible
+
+Shuttleforefloat,data/stations/stationSpecials/Shuttle_101x56_2.png,281,122,facing right,visible
+
+}
+
+fades
+{
+in
+out
+}
+
+dialogue
+{
+Falconsmall:Look at it. What a piece of junk!
+Kentsmall:It's ok... but I'll do my own thing for a while.
+Kentsmall:I want to go question Officer Grah about this business.
+Falconsmall:Ok sure. See you around, Kent.
+Kentsmall:Good Luck, Chief.
+}
+
+text
+{
+
+}
+
+animation
+{
+split right
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}
+
+music
+{
+keep playing
+}

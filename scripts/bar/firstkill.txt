@@ -1,0 +1,97 @@
+//begin
+// [x] 1 - "So what happened?"
+// [x] 2 - "Just won the lottery?"
+// [ ] 3 - "So you caught the bounty hunting bug now?"
+// [ ] 4 - "Don't get cocky kid!"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:You look pleased with yourself.
+other:Haha! Yes I am actually.
+return
+
+@1 // So what happened?
+ego:So what happened?
+other:I just made my first kill!
+ego:Oh yeah?
+other:Yeah, this pirate kept blasting at me..
+ego:Trying to get you to drop your cargo?
+other:Probably, but I was like, no way man.
+other:And I gave him the old evasive manoeuvres.
+other:Left, left, hard left, hard right.
+ego:Yeah ok, I get the idea.
+other:right, right, right.
+other:Fire!
+ego:What ship was he in?
+other:A Mac mk 1.
+ego:Err that's a pretty poor ship.
+other:Yeah, well he shouldn't have attacked me in it then!
+ego:No, not with your silky skills.
+other:Precisely.
+option-off 1
+option-off 2
+option-on 3
+option-on 4
+return
+
+@2 // Just won the lottery?
+ego:Just won the lottery?
+other:Better than that.
+other:I just survived my first combat.
+ego:Oh yeah?
+other:Yeah, this pirate kept blasting at me..
+ego:Trying to get you to drop your cargo?
+other:Probably, but I was like, no way man.
+other:And I gave him the old evasive manoeuvres .
+other:I even blew up their ship.
+other:I got a 10000 bounty.
+option-off 1
+option-off 2
+option-on 3
+option-on 4
+return
+
+@3 // So you caught the bounty hunting bug now?
+ego:So you caught the bounty hunting bug now?
+other:Nah. It was just exciting.
+other:Good to get my own back for once.
+ego:You had trouble before?
+other:Yes, my last few trade runs I had someone after me.
+ego:Well don't get over-confident.
+ego:Next time it may not be a Bac mk 1 attacking you.
+other:Are you *threatening* me?
+ego:Easy tiger, I'm just saying there are tougher guys out there.
+other:Oh right. Yes, that's true.
+ego:But nice going anyway.
+other:Yes, thanks, I had to tell someone.
+ego:I gotta go.
+other:Sound.
+stop
+
+@4 // Don't get cocky kid!
+ego:Don't get cocky kid!
+other:Ha.
+other:Yes, I must be sounding like a synth with droid rot.
+other:I think I'm still on the adrenaline.
+ego:Sounds like it.
+ego:But nice going anyway.
+other:Yes, thanks, I had to tell someone.
+other:I was; left left, right.... fire! fire!
+ego:uh huh. Wel...
+other:Left, straight, hard left, hard right..
+other:..and then I had him just where i wanted him.
+other:Whooooo, reverse thrust!
+other:Wait for it......
+other:Launch missile!
+ego:Sounds faaantastic.
+other:Oh, sorry. I went off again.
+ego:Just a little, I'm gonna check the consoles.
+other:Sound.
+stop
+
+
+
+
+

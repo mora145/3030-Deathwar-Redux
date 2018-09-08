@@ -1,0 +1,88 @@
+//begin
+// [ ] 1 - "What's that you've got there?"
+// [ ] 11 - "Why did you get it?"
+// [ ] 2 - "My name's Falcon."
+// [ ] 3 - "You heard anything about stolen ships?"
+// [ ] 31 - "What about the Largo?"
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Excuse me.
+other:Yes, my man.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // What's that you've got there?
+ego:What's that you've got there?
+other:This?
+other:This is my new acquisition.
+ego:An octopus?
+other:Yeah.
+other:Freakin' sweet huh?
+ego:Yes.
+other:It's meant to be rare.
+other:I'm not sure...
+other:..but he's still cool.
+option-off 1
+option-on 11
+return
+
+@11 // Why did you get it?
+ego:Why did you get it?
+other:An octopus?
+other:It's meant to be rare.
+other:I know a Police Boss who's got a large aquarium.
+other:Several actually.
+other:If it is rare. He might buy it.
+other:It's meant to be a mimic octopus.
+ego:Good luck with that.
+option-off 11
+return
+
+@2 // My name's Falcon.
+ego:My name's Falcon.
+other:I'm CoolK.
+ego:That a nickname?
+other:Yeah. My name starts with K.
+other:At engineering school...
+other:...the ladies called me Cool K.
+other:And it stuck.
+option-off 2
+return
+
+@3 // You heard anything about stolen ships?
+ego:You heard anything about stolen ships?
+other:Yeah. Lot's of traders got hit.
+other:What a scam. The word is..
+other:...it's to stall others finding the Largo.
+option-off 3
+option-on 31
+return
+
+@31 // What about the Largo?
+ego:What about the Largo?
+other:The Largo?
+other:That ship packed with the rich stuff?
+other:Only that it's out there.
+other:Just waiting to be a salvager's dream.
+other:But shhh, even talking about it can get you...
+other:Disappeared. Know what I mean?
+other:These days, make sure you got a front gun mounted.
+ego:Traders are being targeted?
+other:Sure. One was attacked today near here.
+ego:Thanks for the warning.
+attackyououtside,1,The Bad Sloop
+option-off 31
+return
+
+@4 // Bye
+ego:Bye.
+other:See you next time.
+Stop
+

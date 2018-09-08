@@ -1,0 +1,22 @@
+//begin
+
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi.
+other:Sorry, can't talk.
+other:I'm planning to leave this place.
+other:As soon as the bar droid gets my beer.
+return
+
+
+@4 // Bye
+ego:Bye.
+ego:Don't hit my ship drunk.
+other:relax, I'll use auto pilot.
+Stop
+

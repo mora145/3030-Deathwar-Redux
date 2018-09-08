@@ -1,0 +1,54 @@
+//begin
+// [ ] 1 - "Are you in charge around here?"
+// [ ] 2 - "Does this place specialise in junk or something?"
+// [ ] 3 - "Heard anything about the Largo?"
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Excuse me.
+other:Yes?
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // Are you in charge around here?
+ego:Are you in charge around here?
+other:Astute of you to notice.
+other:I'm Lax Green.
+other:I'm the large whale in these parts.
+other:I own this whole junk yard here.
+other:I'm a samurai with a sledgehammer.
+other:I'm a...
+other:I'm...
+other:I'm Lax Green!
+option-off 1
+return
+
+@2 // Does this place specialise in junk or something?
+ego:Does this place specialise in junk or something?
+other:That's right. I'm the Junk Master.
+other:The junk yard here is my baby.
+other:Self made.
+other:Mega rich.
+option-off 2
+return
+
+@3 // Heard anything about the Largo?
+ego:Heard anything about the Largo?
+other:The Largo?
+other:Oh yeah. That ship?
+other:I don't need money buddy.
+other:I'm rolling in it.
+option-off 3
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye.
+Stop
+

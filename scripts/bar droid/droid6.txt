@@ -1,0 +1,27 @@
+//begin
+// [x] 1 - "Ok."
+// [x] 2 - "What for?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Mmmmm I'm sorry Sir.
+other:I'm just counting the customers.
+other:Won't be a minute, Sir.
+return
+
+@1 // Ok.
+ego:Ok.
+ego:I'll be back!.
+stop
+
+@2 // What for?
+ego:What for?
+other:Management want to know Sir.
+other:I just do what I'm told to.
+other:Oh, oh dear, you've made me forget now.
+ego:Who me?
+other:I'll have to start again.
+other:Oh bollox!, I'll do it later.
+stop

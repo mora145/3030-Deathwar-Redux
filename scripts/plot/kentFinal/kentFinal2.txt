@@ -1,0 +1,52 @@
+//begin
+// [x] 1 - "What do you think of that beast?"
+// [x] 2 - "Where's Vasquez?"
+// [x] 3 - "Are the engines ready?."
+
+// [ ] 99 - "Bye, Kent."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hey again, Kent.
+other:Hey no time to hang around.
+other:I don't feel like being disassembled by tiny robots today.
+other:Blast your way in and end this thing.
+option-on 99
+return
+
+@1 // What do you think of that beast?
+ego:What do you think of that beast?
+other:It seems healthy. It doesn't seem to be native to this planet.
+other:Is that what you mean?
+other:I'm not a beast encyclopedia. 
+other:If it's no threat, ignore it.
+other:Finish up and Let's get outta here.
+other:They could be about to release some nano robot things any second!
+option-off 1
+return
+
+@2 // Where's Vasquez?
+ego:Where's Vasquez?
+other:She's in the engine room.
+other:There was a small gas leak. 
+other:Nothing unusual.
+option-off 2
+option-on 99
+return
+
+@3 // Are the engines ready?
+ego:Are the engines ready?
+other:Vasquez says we're good to go.
+option-off 3
+option-on 99
+return
+
+@99 // Bye, Kent.
+ego:Bye, Kent.
+ego:Good luck. I'll stay guarding the ship.
+option-off 99
+stop
+

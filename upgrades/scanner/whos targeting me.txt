@@ -1,0 +1,12 @@
+name=whos targeting me
+cost=800
+tech lvl=0.8
+avaiable=1
+desc=Allows a pilot to see who is currently targeting them.
+once=1
+mass=0
+department=wtargeter
+value#=0
+[incompat]
+[incompat]
+image=data/images/upgrades/misc1.png

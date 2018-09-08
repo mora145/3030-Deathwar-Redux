@@ -1,0 +1,12 @@
+name=Spark boost
+cost=1000
+tech lvl=0.31
+avaiable=1
+desc=Will repair the shields with a single boost. Only usable once. Keyboard shortcut: X. On Controller: RB + A.
+once=1
+mass=0
+department=spark boost
+value#=0
+[incompat]
+[incompat]
+image=data/images/upgrades/shield1.png

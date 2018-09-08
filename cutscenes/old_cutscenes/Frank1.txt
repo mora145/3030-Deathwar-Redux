@@ -1,0 +1,57 @@
+background
+{
+data/cutscenes/images/corri1.png
+}
+
+people 
+{
+frank,data/stations/special characters/Frank1_50x108_4.png,260,140,facing leftvisible
+slug,data/stations/special characters/GebboSlug_50x108_4.png,150,128,facing left,visible
+aquan,data/stations/special characters/GebbosAquan_50x108_4.png,110,135,facing right,visible
+}
+
+dialogue
+{
+
+frank:Oh.. erm.. :data/voice/Frank1/f1.wav
+frank:Hi guys!:data/voice/Frank1/f2.wav
+slug:Frank!:data/voice/Frank1/g1.wav
+slug:A-Quan wanted to blast you up outside.:data/voice/Frank1/g2.wav
+frank:For real? Why?:data/voice/Frank1/f3.wav
+slug:Guess.:data/voice/Frank1/g3.wav
+frank:Because...:data/voice/Frank1/f4.wav
+frank:I sold you a stolen ship?:data/voice/Frank1/f5.wav
+slug:Bingo Bango Frank.:data/voice/Frank1/g4.wav
+slug:We want a total refund, don't we A-Quan?:data/voice/Frank1/g5.wav
+aquan:Right.:data/voice/Frank1/aq1.wav
+slug:Or next time you launch...:data/voice/Frank1/g6.wav
+aquan:I'm blasting you up.:data/voice/Frank1/aq2.wav
+frank:Ok listen. :data/voice/Frank1/f6.wav
+frank:I got a bad delivery of ships.:data/voice/Frank1/f7.wav
+frank:I'm not going to lie, I messed up big time.:data/voice/Frank1/f8.wav
+frank:I'm trying to help the buyers as best I can.:data/voice/Frank1/f9.wav
+frank:Trust me, I'll fix this!:data/voice/Frank1/f10.wav
+slug:You will, and I am going to tell you how.:data/voice/Frank1/g7.wav
+frank:Aw man, you want me to go back in the cage??:data/voice/Frank1/f11.wav
+frank:I'm totally retired! :data/voice/Frank1/f12.wav
+frank:I'm not in shape!:data/voice/Frank1/f13.wav
+frank:I'm totally not in shape!:data/voice/Frank1/f14.wav
+slug:Back in the cage.:data/voice/Frank1/g8.wav
+slug:You'll fight for me now Frank.:data/voice/Frank1/g9.wav
+
+}
+
+text
+{
+
+}
+
+animation
+{
+stationary stars
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}

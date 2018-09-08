@@ -1,0 +1,139 @@
+//begin
+// [x] 1 - "I am here for the meeting."
+// [ ] 11 - "I'm a bit late, who's arrived so far?"
+// [ ] 12 - "A trade?"
+// [x] 2 - "What are you doing out here?"
+// [x] 3 - "Who do you work for?"
+// [ ] 99 - "I'm off."
+// [x] 98 - "Bye."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hello. Are you here for the secret meeting?
+other:Err...
+other:Forget I mentioned that.
+other:(beep beep) 
+other:Unless you're here for it.
+option-on 98
+return
+
+@1 // I am here for the meeting.
+ego:I am here for the meeting.
+other:You better get down there then. 
+other:The others arrived already.
+ego:Can I use that lift?
+other:If it knows your biometric data.
+other:But if you're not meant to be here it won't work for you.
+other:Unless you shoot the lock off.
+other:(beep beep) 
+other:Forget I mentioned that.
+option-off 1
+option-on 99
+option-on 11
+option-off 98
+return
+
+
+@11 // I'm a bit late, who's arrived so far?
+ego:I'm a bit late, who's arrived so far?
+other:Hmmm.
+other:Who was it.
+other:There was one smug yellow squid.
+other:Very rude.
+other:(beep beep) 
+other:And a large Police Officer.
+other:They arrived together in that ship by the camp.
+ego:I see. Anyone else?
+other:Just my boss.
+other:I think they are doing a trade.
+option-off 11
+option-on 12
+return
+
+@12 // A trade?
+ego:A trade?
+other:Boss likes history. He wants a lost artifact.
+ego:Sounds valuable. What is he offering for it?
+other:You didn't hear it from me...
+other:...but I think those two are part of a conspiracy.
+other:To do with the last Deathwar.
+other:Boss is offering top class nanobot technology.
+other:(beep beep) 
+other:Forget I mentioned that.
+other:I talk to much.
+other:But aren't you to attend the meeting?
+other:Please don't report me.
+ego:No problem.
+option-off 12
+return
+
+
+@2 // What are you doing out here?
+ego:What are you doing out here?
+other:I keep the fire going.
+other:Tidy up.
+other:Stack rocks.
+other:Scan for intruders.
+other:Stack more rocks.
+other:(beep beep)  
+other:I Forgot to check.
+other:Are you an intruder?
+ego:No. I am here for the meeting.
+other:Oh yes. The meeting.
+other:Very good.
+option-off 2
+option-on 99
+option-off 98
+return
+
+@3 // Who do you work for?
+ego:Who do you work for?
+other:I work for a rich business person.
+other:They have a base here.
+ego:I can see that.
+other:This part is just extracting water from the air.
+ego:There is more underground?
+other:Just a large natural cave network.
+other:That's where the meeting is.
+other:But the main base is a long way from here through the caves.
+other:This is just an outpost really.
+other:For secretive meetings and smuggling.
+other:That sort of thing. 
+ego:Of course.
+other:Do you fancy a game of chess?
+other:I'll use a low difficulty setting for you.
+other:Or a game of speed Rock Stacking?
+ego:Maybe later.
+other:Great! (beep beep) 
+option-off 3
+option-on 99
+option-off 98
+return
+
+@99 // I'm off.
+ego:I'm off.
+ego:I need to get going now.
+other:Ok, just one thing...
+other:Do you happen to know who landed that ship over there?
+other:A droid called Kent messaged me saying it was here for the meeting too.
+other:I never heard of this Kent droid.
+other:Are they attending the meeting?
+ego:No, Kent is here to pick me up, after the meeting.
+other:All visitors accounted for then.
+other:(beep beep) 
+other:Have a good day.
+option-off 99
+option-off 98
+stop
+
+@98 // Bye.
+ego:Bye.
+other:Has the meeting finished already?
+other:The others must have left via the caves.
+other:I'll get back to ordering these rocks.
+other:(beep beep) 
+other:Have a good day.
+option-off 99
+stop

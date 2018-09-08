@@ -1,0 +1,40 @@
+//begin
+// [x] 1 - "Go on."
+// [x] 2 - "Not interested."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi there.
+other:Hi friend.
+other:You heard about those wormholes?
+ego:I've heard some things.
+other:I heard it from a trader friend. He's a little bit mad though.
+return
+
+@1 // Go on.
+ego:What was it?
+other:He said he saw a bright light.
+other:Even had to drop his sun visor.
+ego:Go on?
+other:He claims he flew into it and got spat out light years away.
+ego:Did he say where?
+other:No. He says it's his secret.
+ego:You believe him?
+other:He does disappear for weeks and make loads from trade runs.
+ego:Interesting.
+ego:Well If they're out there, I'll find em.
+ego:Later.
+stop
+
+
+@2 // Not interested.
+ego:Not interested. They are just old traders tales.
+other:Maybe.
+ego:Well If they're out there, I'll find em.
+ego:Later.
+stop
+
+
+

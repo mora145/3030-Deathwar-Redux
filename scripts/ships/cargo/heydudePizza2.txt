@@ -1,0 +1,51 @@
+//begin
+// [x] 1 - "Not me, sorry."
+// [x] 2 - "If it's paid for, they're for me."
+// [x] 3 - "Bye."
+// [ ] 4 - "Where can I get some?"
+// [ ] 5 - "Good luck."
+//end
+
+@S 
+other:Hey dude!
+other:who ordered the pizzas?
+other:I got a monster pizza order here.
+
+return
+
+@1 
+ego:Not me, sorry.
+other:Oh great. This always happens.
+other:I'll try sell it to someone else.
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+return
+
+@2 
+ego:If it's paid for, they're for me.
+other:Nice try, buddy.
+other:Your ship reg is not correct.
+other:It smells great but it's getting real cold.
+other:I'll try in the station, then the asteroids.
+other:Miners love pizza.
+option-off 2
+return
+
+@3 
+ego:Bye.
+stop
+
+@4
+ego:Where can I get some?
+other:I'm just doing the delivery.
+other:I don't get paid enough to promote the company.
+option-off 4
+return
+
+@5 
+ego:Good luck.
+other:Yeah.
+other:Bye.
+stop

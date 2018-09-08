@@ -1,0 +1,20 @@
+//begin
+// [x] 1 - "Mhhh.... De rien?"
+// [x] 2 - "I have stuff to do."
+//end
+
+@S
+ego:I have a package for you.
+other:Je l'attendais. Merci.
+option-on 1
+option-on 2
+return 
+
+@1 
+ego:Mhhh.... De rien?
+other:Au revoir mon ami.
+stop
+
+@2 // I have stuff to do.
+ego:I have stuff to do.
+stop

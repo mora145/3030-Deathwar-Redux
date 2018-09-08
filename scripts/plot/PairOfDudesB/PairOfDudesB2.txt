@@ -1,0 +1,17 @@
+//begin
+// [x] 4 - "Nevermind then."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:You again.
+other:I'm busy.
+return
+
+@4 // Bye
+ego:Nevermind then.
+other:Bye.
+Stop
+

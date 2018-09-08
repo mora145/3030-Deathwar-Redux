@@ -1,0 +1,25 @@
+//begin
+// [x] 1 - "No problem."
+// [x] 2 - "Have fun with it."
+//end
+
+@S
+ego:Here's your package.
+other:What package?
+other:Oh, do I have to pay you?
+ego:No, It's pre-paid in escrow.
+ego:I'll be paid once you accept it.
+other:Ok. Thanks.
+option-on 1
+return 
+
+
+@1 
+ego:No problem.
+stop
+
+@2 // Have fun with it.
+ego:Have fun with it.
+other:I'll keep it until I get to my ship.
+other:Thank you.
+stop

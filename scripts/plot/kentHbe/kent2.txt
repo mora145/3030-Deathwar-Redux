@@ -1,0 +1,56 @@
+//begin
+// [ ] 1 - "He wants me to clear some stations of stab-drones."
+// [ ] 2 - "He gave me a gun."
+// [ ] 3 - "He implied that he'd let you out if I do a job for him."
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Did you talk to Grah?
+ego:Yeah. 
+other:What did he say?
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // He wants me to clear some stations of stab-drones.
+ego:He wants me to clear some stations of stab-drones.
+other:Well, that'll be easy for you!
+other:Get it done.
+ego:I'll see what I can do.
+other:Then he'll let me out I hope.
+option-off 1
+return
+
+@2 // He gave me a gun.
+ego:He gave me a gun.
+other:Nice.
+other:You remember how to do the business?
+other:Draw, Fire, Fire, Duck, Fire!
+ego:It's a police issue blaster pistol.
+other:You know the rules. 
+other:Don't pull your gun out on stations unless you can justify it.
+option-off 2
+return
+
+@3 // He implied that he'd let you out if I do a job for him.
+ego:He implied that he'd let you out if I do a job for him.
+other:That's what I thought.
+other:Sorry, Chief.
+other:Sorry, I got you caught up in this.
+ego:It's cool. It could actually be good for me.
+ego:I know some gang wants me dead, this gets me a gun and licence.
+other:Oh Yeah! Thank me after you get me out of here.
+option-off 3
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye for now, Captain.
+other:Good luck.
+Stop
+

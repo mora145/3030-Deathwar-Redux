@@ -1,0 +1,115 @@
+//begin
+// [ ] 1 - "So, do you have any jobs?"
+// [ ] 2 - "Are you taoists a pirate gang?"
+// [ ] 3 - "I'll do it."
+// [ ] 4 - "I don't want to do it now."
+// [x] 5 - "Nice shades."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi, I'm Falcon.
+ego:Jimmy Chou said you may have some work for me.
+other:Yeah, I was expecting you.
+ego:Yeah.
+other:I haven't seen him in months. 
+ego:Who, Jimmy Chou?
+other:Yeah, how was he? 
+ego:Seemed well enough.
+other:Good good.
+option-on 1
+option-on 2
+return
+
+
+@1 // So, do you have any jobs?
+ego:So, do you have any jobs?
+other:Yes, there is something.
+other:You should be able to handle it.
+ego:Almost certainly.
+other:Good.
+other:You'll need a tractor beam to pick me up a cargo container.
+ego:Go on.
+other:Pick up the cargo from Ckesera Station 2 in the Leesti system. 
+other:You up to it? 
+ego:Yeah.
+other:Tractor beams can be expensive.
+other:I think they sell them here.
+other:If you don't have one, better get one first and come back later.
+
+option-on 2
+option-off 1
+return
+
+@2 // Are you taoists a pirate gang?
+ego:Are you taoists a pirate gang?
+other:No, just a group of trading partners.
+ego:I'm not bothered, just what I heard.
+other:You heard wrong.
+other:Our business is... private.
+ego:Jimmy Chou made you sound like a cult leader.
+other:Ha! That jimmy is always exaggerating.
+other:So you want this job or what?
+
+option-off 2
+option-off 1
+option-on 3
+option-on 4
+return
+
+@3 //I'll do it.
+ego:I'll do it.
+ego:If the pay is ok.
+other:$12,000?
+ego:Sounds fair.
+other:You'll need a tractor beam.
+ego:Sure.
+other:To be clear, the job is;
+other:One.. Go to Ckesera Station 2 in the Leesti system.
+other:Two.. Pick up the cargo container outside the station.
+other:Three.. Tow it back here. 
+ego:Can do.
+other:To get a tractor beam use the trade computer.
+other:They should sell them here.
+ego:I'm on my way.
+setMissionAnswer 1
+stop
+
+@4 //I don't want to do it now.
+ego:I don't want to do it now.
+ego:I have some things to do first.
+other:Ok, come back if you change your mind.
+other:You know where I'll be.
+setMissionAnswer 0
+stop
+
+@5 //Nice shades.
+ego:Nice shades.
+other:Yeah, they are.
+other:Bought them from a miner on the asteroid station.
+option-off 5
+option-on 6
+return
+
+@6 //Asteroid station?
+ego:Asteroid station?
+other:Yeah. You've not been?
+other:It's unusual.
+other:You should check it out sometime.
+ego:Where is it?
+other:I can't remember the name...Daphice?
+other:Just fly 'north' from Andinti on your map.
+other:It's that system.
+other:The bar is full of miners.
+other:Good for local gossip....
+other:..and epic Taxi jobs.
+option-off 6
+return
+
+
+
+
+
+
+

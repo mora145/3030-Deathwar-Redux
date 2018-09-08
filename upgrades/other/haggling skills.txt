@@ -1,0 +1,12 @@
+name=haggling permit
+cost=861
+tech lvl=0.3
+avaiable=0
+desc=Will allow you to haggle with a mission contact to gain more money. Haggling success depends strongly on your reputation.
+once=1
+mass=0
+department=haggling permit
+value#=0
+[incompat]
+[incompat]
+image=data/images/upgrades/misc2.png

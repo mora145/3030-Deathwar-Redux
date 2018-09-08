@@ -1,0 +1,13 @@
+name=M1 class I ecm
+cost=1500
+tech lvl=0.21
+avaiable=1
+desc=will destroy missiles within 120 om range upon use. Keyboard shortcut: Shift. On Controller: X.
+once=1
+mass=0
+department=ecm
+value#=120
+[incompat]
+ecm
+[incompat]
+image=data/images/upgrades/ecm0.png

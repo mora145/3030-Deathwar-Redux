@@ -1,0 +1,12 @@
+name=credit history
+cost=335
+tech lvl=0.1
+avaiable=0
+desc=Allows a pilot to see his previous spending. View in your personal screen.
+once=1
+mass=0
+department=credit history
+value#=0
+[incompat]
+[incompat]
+image=data/images/upgrades/credithistory.png

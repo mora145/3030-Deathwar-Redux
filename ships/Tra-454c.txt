@@ -1,0 +1,24 @@
+image=Ctrader_100x100_5.png
+name=Tra-454c
+turnSpeed=0.74
+cargoSize=205
+warpSpeed=220
+enginePower=0.28
+cost=2300000
+maxCrew=4
+passengers=6
+mintech=0.67
+available=1
+maxmissiles=11
+turret?=1
+firefrom(w,h)=15,28
+turretat(x,y)=-9,44
+[thrusters]
+-5,76
+0,77
+5,76
+[/thrusters]
+M6 Allrounder - The Tra is known as one of the faster cargo runners available today. It's able to pack a heavy payload as well with a 11 available missile racks. A great cargo runner.
+producedBy=Tao mining company
+yearDeveloped=3010
+funTrivia=Designed by Tao mining in 3010 this vessel is strangely, equipped with three coffee makers.

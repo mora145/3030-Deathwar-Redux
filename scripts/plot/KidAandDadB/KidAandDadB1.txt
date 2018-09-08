@@ -1,0 +1,84 @@
+//begin
+// [ ] 1 - "Are you missing someone?"
+// [ ] 2 - "Have you lost your daughter?"
+// [ ] 3 - "Is that a still-suit top?"
+// [ ] 21 - "She asked me to find you."
+// [ ] 22 - "She's safe."
+// [ ] 8 - "Nevermind."
+
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Excuse me.
+other:Yes?
+option-on 1
+option-on 2
+option-on 3
+option-on 8
+return
+
+@1 // Are you missing someone?
+ego:Are you missing someone?
+other:Yes! 
+other:How did you know?
+option-off 1
+return
+
+@2 // Have you lost your daughter?
+ego:Have you lost your daughter?
+other:That's right!
+other:Have you seen her?
+other:Is she safe?
+option-off 1
+option-off 2
+option-off 3
+option-on 21
+option-on 22
+return
+
+@3 // 3?
+ego:Is that a still-suit top?
+other:Yeah.
+other:But that's not important right now.
+other:I'm in big trouble.
+other:I have to go get to her.
+option-off 3
+return
+
+@21 // She asked me to find you.
+ego:She asked me to find you.
+other:She's safe?
+ego:Yes. Quite safe.
+ego:She's waiting for you at Rub Ba 3.
+other:Great. Thanks a lot man!
+other:I'll take a fast Speeder right away.
+ego:No problemo.
+option-off 21
+option-off 22
+Stop
+
+@22 // She's safe.
+ego:She's safe.
+other:Great!
+ego:She asked me to find you.
+other:Where is she?
+other:I have to go to her.
+ego:She's waiting for you at Rub Ba 3.
+other:Great. So glad she's safe. Thanks!
+other:I'll take a fast Speeder right away.
+ego:No problemo.
+option-off 21
+option-off 22
+Stop
+
+
+@8 // Nevermind.
+ego:Nevermind.
+other:You think you've seen her?
+ego:I might have seen her on Rub Ba 3.
+other:Ok, great!. Thanks.
+Stop
+

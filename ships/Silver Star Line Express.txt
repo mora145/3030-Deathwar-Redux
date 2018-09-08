@@ -1,0 +1,23 @@
+image=BPassShip_100x100_5.png
+name=Proud Anselmo
+turnSpeed=0.75
+cargoSize=62
+warpSpeed=300
+enginePower=0.34
+cost=3450000
+maxCrew=4
+passengers=2
+mintech=0.76
+available=1
+maxmissiles=16
+turret?=1
+firefrom(w,h)=0,33
+turretat(x,y)=0,50
+[thrusters]
+-7,70
+7,70
+[/thrusters]
+M7 Interceptor - One of the fastest in its class the Proud Anselmo doesn't fall under any specific category easily. Her tiny cargo space combined with an amazing speed place her somewhat in the attack ship heading. If you can afford her, buy her. A true classic still with us.
+producedBy=Ho Ma
+yearDeveloped=3000
+funTrivia=Released by the now bankrupt Ho Ma group as a celebration of the third millennium.

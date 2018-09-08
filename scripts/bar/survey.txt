@@ -1,0 +1,52 @@
+//begin
+// [x] 1 - "Ok, I got time to kill."
+// [x] 2 - "No way."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:What are you after?
+other:Excuse me sir, I'm a part-time jouro.
+other:Could you answer some questions?
+ego:For a survey.
+other:Yes sir, a survey of traders opinions on a few issues.
+ego:Issues huh.
+other:uh huh.
+other:Only take a minute.
+return
+
+@1 // Ok, I got time to kill
+ego:Ok, I got time to kill.
+other:Great! Ok, question one.
+other:Do you believe the bars should be allowed to sell alcohol?
+other:Yes, No or Not sure.
+ego:No.
+other:Ok... 
+other:Do you believe the bars should sell a greater food range?
+other:Yes, No or Not sure.
+ego:Not with their hygiene standards.
+other:Yes, No or Not sure?
+ego:I said No.
+other:So you're saying No.
+ego:Look this is taking too long.
+other:Ok, thanks, that's more than I got from anyone else.
+ego:*That's* the most you've got?
+other:Yeah, most people in this bar are angry.
+ego:Good luck kid.
+other:Thanks, I need it.
+stop
+
+@2 // No way
+ego:No way.
+ego:I think you know what I'm going to say.
+other:I see you have a job to do, but I'm not interested?
+ego:Try again.
+other:Not another stupid survey?
+ego:Again.
+other:Quit talking or I may physically attack you?
+ego:That's the one. No offence.
+other:Non taken, these questions are rubbish.
+ego:Good luck kid.
+other:Thanks, I need it.
+stop

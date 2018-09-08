@@ -1,0 +1,234 @@
+//begin
+// [x] 1 - "You're supposed to give me a clue."
+// [x] 2 - "You should know."
+// [x] 3 - "It doesn't matter. Later."
+// [ ] 4 - "Come on, let's dispense with this."
+// [ ] 5 - "I haven't got time for this."
+// [ ] 6 - "This is taking way too much of my time."
+// [ ] 7 - "Raal sent me."
+// [ ] 8 - "The name's Falcon, John Falcon."
+// [ ] 9 - "She's fine?"
+// [ ] 10 - "She, like I, doesn't like time wasters."
+// [ ] 11 - "Yeah, I'll do it."
+// [ ] 12 - "No, not now. Maybe later."
+// [ ] 13 - "Oh man. Are you? Just tell me."
+// [ ] 14 - "I'll assume you are. What's the clue?"
+// [ ] 15 - "Not right now, no."
+// [ ] 16 - "Yeah, I have it, just not for you."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi, I'm Falcon. Raal told me about you.
+other:Yeah, what's this concerning?
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // You're supposed to give me a clue.
+ego:You're supposed to give me a clue.
+other:Oh really?
+other:What makes you think I know anything about any clue?
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+option-on 6
+return
+
+@2 // You should know.
+ego:You should know.
+other:You're right, I do.
+other:Let's get straight to the point, shall we?
+other:We suspect a police boss named jek kek is working for the council.
+other:On the wrong side, if you know what I mean.
+other:We need you to photograph them on board tia. 
+other:We need to know who he is meeting with to start piecing things together.
+ego:Right.
+other:You'll get a camera but we can't reward you at all.
+other:You in?
+option-off 1
+option-off 2
+option-off 3
+option-on 11
+option-on 12
+return
+
+
+@3 // It doesn't matter. Later.
+ego:It doesn't matter. Later.
+other:Ok, come back when you have something to talk about.
+stop
+
+@4 // Come on, let's dispense with this.
+ego:Come on, let's dispense with this.
+other:Dispense with what? Who are you?
+option-off 4
+option-off 5
+option-off 6
+option-on 7
+option-on 8
+return
+
+
+@5 // I haven't got time for this.
+ego:I haven't got time for this.
+ego:Are you even the right person?
+other:I may or may not be the right person.
+option-off 6
+option-off 4
+option-off 5
+option-on 13
+option-on 14
+return
+
+
+@6 // This is taking way too much of my time.
+ego:This is taking way too much of my time.
+other:Really?
+ego:Yes, goodbye.
+stop
+
+@7 // Raal sent me.
+ego:Raal sent me.
+other:Oh, raal. I see. How is she?
+option-off 7
+option-off 8
+option-on 9
+option-on 10
+return
+
+@8 // The name's Falcon, John Falcon.
+ego:The name's Falcon, John Falcon.
+other:Falcon. I don't recognise the name.
+ego:Nevermind, just tell me the information you obviously have and quit being a dick.
+other:Right, not a problem, my friend. Since you're being so calm about all this.
+other:I don't know what anyone else knows but I have a clue for you.
+other:I also need something. Take this camera and photograph a person called jek kek.
+other:He'll be on board tia not far from here. He's a police boss so be careful.
+other:You'll just have to photograph him and bring the camera back here to me.
+ego:Seems easy enough.
+other:it is pretty easy. Therefore you won't get any money for doing it.
+other:We just need to keep him under surveillance.
+other:You want in?
+option-off 7
+option-off 8
+option-on 11
+option-on 12
+return
+
+@9 // She's fine?
+ego:She's fine?
+other:Yeah, I suppose you're ok. 
+other:I don't know what anyone else knows but I have a clue for you.
+other:I also need something. Take this camera and photograph a person called jek kek.
+other:He'll be on board tia not far from here. Just be careful. He doesn't like people spying on him.
+other:You'll just have to photograph him and bring the camera back here to me.
+ego:Seems easy enough.
+other:it is pretty easy. Therefore you won't get any money for doing it.
+other:You want in?
+option-off 9
+option-off 10
+option-on 11
+option-on 12
+return
+
+
+@10 // She, like I, doesn't like time wasters.
+ego:She, like I, doesn't like time wasters.
+other:man oh man. I'm no time waster.
+other:I need something. Take this camera and photograph a person called jek kek.
+other:He's no time waster. He's a police boss, so be careful.
+other:He'll be on board tia not far from here. He doesn't like people spying on him.
+other:We'd like to keep him under surveillance.
+other:You'll just have to photograph him and bring the camera back here to me.
+ego:Seems easy enough.
+other:it is pretty easy. Therefore you won't get any money for doing it.
+other:You want in?
+option-off 9
+option-off 10
+option-on 11
+option-on 12
+return
+
+@11 // Yeah, I'll do it.
+ego:Yeah, I'll do it.
+other:Good, here's the camera. Get on with it.
+other:When you've taken the photo come back here and I'll tell you my information.
+setMissionAnswer 1
+stop
+
+@12 // No, not now. Maybe later.
+ego:No, not now. Maybe later.
+other:Fair enough. I'll be here if you change your mind.
+setMissionAnswer 0
+stop
+
+@13 // Oh man. Are you? Just tell me.
+ego:Oh man. Are you? Just tell me.
+other:Yeah, I just happen to be the right guy.
+other:You don't have very much patience do you?
+option-off 13
+option-off 14
+option-on 15
+option-on 16
+return
+
+@14 // I'll assume you are. What's the clue?
+ego:I'll assume you are. What's the clue?
+other:I can't just give you the clue. Well, I could, but I won't.
+other:We suspect a police chief named jek kek is courupt.
+other:Working for our competitors, if you know what I mean.
+other:We need you to photograph him on board tia.
+other:We need to know who he's talking to.
+ego:Right.
+other:You'll get a camera but we can't reward you at all.
+other:You in?
+option-off 13
+option-off 14
+option-on 11
+option-on 12
+return
+
+@15 // Not right now, no.
+ego:Not right now, no.
+other:Ok, I need something from you. 
+ego:What?
+other:A small, unpaid job.
+ego:What is it?
+other:Take this camera and photograph a person called jek kek.
+other:He'll be on board tia not far from here. Just be careful, he's a police chief.
+other:We'd like to keep him under surveillance.
+other:You'll just have to photograph him and bring the camera back here to me.
+ego:Seems easy enough.
+other:it is pretty easy. Therefore you won't get any money for doing it.
+other:You want in?
+option-on 11
+option-on 12
+option-off 15
+option-off 16
+return
+
+
+
+@16 // Yeah, I have it, just not for you.
+ego:Yeah, I have it, just not for you.
+other:Ok, I need something from you. 
+ego:What?
+other:A small, unpaid job.
+ego:What is it?
+other:Take this camera and photograph a person called jek kek.
+other:He'll be on board tia not far from here. Just be careful, he's a police chief.
+other:We'd like to keep him under surveillance.
+other:You'll just have to photograph him and bring the camera back here to me.
+ego:Seems easy enough.
+other:it is pretty easy. Therefore you won't get any money for doing it.
+other:You want in?
+option-on 11
+option-on 12
+option-off 15
+option-off 16
+return

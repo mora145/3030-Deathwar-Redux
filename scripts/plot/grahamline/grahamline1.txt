@@ -1,0 +1,94 @@
+//begin
+// [x] 1 - "I'm Falcon."
+// [x] 2 - "It's my first time here."
+// [x] 3 - "I was here last week."
+// [ ] 4 - "Is it..."
+// [ ] 5 - "I haven't been told a password."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi.
+other:Hi. 
+other:Hang on a minute.
+ego:Why?
+other:I don't recognise you.
+option-on 1
+option-on 2
+option-on 3
+return
+
+
+@1 // I'm Falcon.
+ego:I'm Falcon.
+ego:John Falcon.
+other:I don't know that name.
+ego:I've been doing work for your friends.
+other:Maybe you have, maybe you haven't.
+ego:Then how did I find the base. 
+other:Well then.
+other:You will know the password.
+
+option-on 4
+option-on 5
+option-off 1
+option-off 2
+option-off 3
+return
+
+
+@2 // It's my first time here.
+ego:It's my first time here.
+other:Welcome.
+other:Have you been told the password?
+
+option-on 4
+option-on 5
+option-off 1
+option-off 2
+option-off 3
+return
+
+@3 // I was here last week.
+ego:I was here last week.
+other:Hmmm. 
+other:Password?
+
+option-on 4
+option-on 5
+option-off 1
+option-off 2
+option-off 3
+return
+
+@4 // Is it...
+ego:Is it....
+ego:Momo 287
+other:(grins)
+ego:No wait, Fishmaster3 ?
+other:I think you'd better leave.
+ego:No wait, now I remember.
+other:Oh?
+ego:Momo 288?
+other:No. I don't know what you're on about.
+ego:Ok, ok. 
+
+option-on 5
+option-off 1
+option-off 2
+option-off 3
+option-off 4
+return
+
+@5 // I haven't been told a password.
+ego:I haven't been told a password.
+other:In that case you can't enter.
+other:Sorry, It's the rules.
+ego:But it took me ages to get here.
+other:That's what they all say.
+ego:Who.
+other:Traders who find us but haven't got the password.
+other:You'll have to go and find someone willing to tell you the password.
+ego:Ok then. 
+stop

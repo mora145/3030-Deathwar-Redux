@@ -1,0 +1,19 @@
+//begin
+// [x] 1 - "No problem."
+// [x] 2 - "Have fun with it."
+//end
+
+@S
+ego:Here!
+other:Great job, thanks for delivering this.
+option-on 1
+return 
+
+@1 
+ego:No problem.
+stop
+
+@2 // Have fun with it.
+ego:Have fun with it.
+other:I will, Thanks.
+stop

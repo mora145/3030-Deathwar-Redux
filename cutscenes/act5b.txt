@@ -1,0 +1,39 @@
+background
+{
+data/cutscenes/images/planetbase1.png
+}
+
+people 
+{
+bosscape,data/stations/special characters/plotbossCloak_80x130_4.png,230,142,facing left,visible
+helper2,data/stations/standing_at_bar/squidman1_50x130_4.png,165,138,facing right,visible
+badcop,data/stations/special characters/bigCopAlien1_80x130_4.png,123,149,facing right,visible
+
+}
+
+dialogue
+{
+bosscape:Why can't we find him?
+helper2:Sir, we have been searching but he seems to have disappeared.
+bosscape:He can't have just disappeared.
+badcop:I was not given his description.
+helper2:He's not hard to spot. Always wearing a jacket and brown hat.
+badcop:Hey! I think I saw a guy like that on Tia Station!
+bosscape:Great. He was probably finding you! 
+bosscape:Lets turn up the pressure.
+bosscape:Add more incentive for bounty hunters and police to find him.
+badcop:No problem. I'll make sure there is a large bounty on his head. 
+bosscape:Give him a criminal record that would make "Ghh the destroyer" look like a petty thief.
+badcop:It will be done.
+
+}
+
+animation
+{
+stationary
+}
+
+sounds
+{
+data/sounds/station/turbine/rumble1.ogg,repeat
+}

@@ -1,0 +1,59 @@
+//begin
+// [ ] 1 - "Have you ever heard of Zog Dongo?"
+// [ ] 2 - "Do you happen to know a Frank Zoed?"
+// [ ] 3 - "Do you know the droid Kent?"
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Excuse me.
+other:Yes?
+ego:You're a local around here?
+other:What of it?
+ego:I need some info.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // Have you ever heard of Zog Dongo?
+ego:Have you ever heard of Zog Dongo?
+other:The Zogger? Sure.
+other:He's not been around for a while.
+ego:I see.
+ego:Was he in any trouble?
+other:Hmmm. Don't think so.
+option-off 1
+return
+
+@2 // Do you happen to know a Frank Zoed?
+ego:Do you happen to know a Frank Zoed?
+other:The mechanic? Yeah.
+other:He's around Andinti somewhere.
+other:You need repairs?
+ego:I need reparations.
+other:Oh. Good luck.
+option-off 2
+return
+
+@3 // Do you know the droid Kent?
+ego:Do you know the droid Kent?
+other:Kent?
+other:Oh yeah, you're the captain that hangs around with Kent!
+ego:Err, no. Kent hangs around with me.
+other:You're the one who flew into that EVA dude!
+ego:The dude was already dead. Technically it was space junk.
+other:Kent was telling me that story.
+other:He was here a minute ago.
+ego:Ok. Thanks.
+option-off 3
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye.
+Stop
+

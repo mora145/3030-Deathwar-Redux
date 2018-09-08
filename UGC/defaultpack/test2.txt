@@ -1,0 +1,1 @@
+{"Context":["OnDocked","OnStarted"],"Criteria":["timesDocked() > 5","getMoney() > 500"],"Response":["addPersonToStation('Brian Butterfield','rub ba station 2','random')","setPersonScriptFile('Brian Butterfield','data/scripts/plot/evantny/evantny1.ovl')"],"RuleName":"BrianButterFieldMission1"}

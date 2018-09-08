@@ -1,0 +1,79 @@
+//begin
+// [ ] 1 - "Have you seen Kent around?"
+// [ ] 2 - "How are things in Andinti?"
+// [ ] 22 - "a favour?"
+// [ ] 23 - "Sure, ok."
+// [ ] 24 - "no thanks."
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi Mr. Falcon.
+ego:Hi.
+option-on 1
+option-on 2
+return
+
+@1 // Have you seen Kent around?
+ego:Have you seen Kent around?
+other:You just missed him.
+other:He seemed well. 
+ego:He's off doing his own thing these days.
+ego:If you see him, tell him I could do with a co-pilot again.
+other:Oh, you get a big ship already?
+ego:Big enough.
+option-off 1
+return
+
+@2 // How are things in Andinti?
+ego:How are things in Andinti?
+other:Good.
+other:Not much going on.
+other:A few more gang related attacks.
+other:Could you do me a favour?
+option-off 2
+option-on 22
+return
+
+@22 // a favour?
+ego:a favour?
+other:i got some Jeffscredium here.
+other:But I'm banned from trading.
+other:Since I punched officer Grah in the balls.
+other:I'll sell you 10 units for 3000.
+other:You'll lose some if you don't have 10 free space.
+ego:For 3000? That's a good price even for 3 units.
+other:I know, you can sell them full price.
+option-off 22
+option-on 23
+option-on 24
+return
+
+@23 // Sure, ok.
+ego:Sure, ok.
+other:great. Transfer 3000 creds...
+other:...and I'll transfer the Jeffscredium. 
+other:It's 10 units, so you'll make a nice profit.
+other:If your cargo has space for it all.
+takemoney,3000,Paid Gruff for Jeffscredium
+givecargo 13 10
+option-off 23
+option-off 24
+return
+
+@24 // no thanks.
+ego:No thanks.
+other:I understand.
+other:The walls have ears in these stations.
+option-off 23
+option-off 24
+return
+
+@4 // Bye
+ego:Bye.
+other:Bye.
+Stop
+

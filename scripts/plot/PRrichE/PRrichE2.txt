@@ -1,0 +1,70 @@
+//begin
+// [ ] 1 - "were you in space cop?"
+// [ ] 2 - "I'm sure I saw you..."
+// [ ] 3 - "You look like you could use some money."
+// [ ] 31 - "The crate..."
+// [ ] 32 - "about That crate..."
+
+// [x] 4 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi again.
+ego:One more thing..
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // were you in space cop?
+ego:were you in space cop?
+other:Never heard of it, buzz off. 
+option-off 1
+return
+
+@2 // I'm sure I saw you...
+ego:I'm sure I saw you...
+other:In an old video...
+other:..doing something with a toy droid...
+other:It wasn't me.
+other:Fuck off.
+option-off 2
+return
+
+@3 // You look like you could use some money.
+ego:You look like you could use some money.
+ego:Sitting there on your crate.
+other:If I had a wealthy subscribers...
+other:...and I was more talented...
+other:...I'd be doing fine.
+other:Anyway, you don't know what I've got in my crate.
+other:It's fucking awesome.
+option-off 3
+option-on 31
+return
+
+@31 // The crate...
+ego:The crate...
+other:It's only the best mcguffin ever.
+other:Can you see it?
+other:No.
+option-off 31
+option-on 32
+return
+
+@32 // about That crate...
+ego:about That crate...
+other:The best mcguffin ever...
+other:...it's not for you.
+other:Move along.
+option-off 32
+return
+
+@4 // Bye
+ego:Bye.
+other:bye.
+Stop
+

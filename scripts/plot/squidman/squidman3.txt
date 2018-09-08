@@ -1,0 +1,41 @@
+//begin
+// [ ] 1 - "I'm done here."
+// [ ] 2 - "None of your concern."
+//end
+
+// dialog script file
+@S // dialog startup entry point
+other:I saw your work on a monitor. 
+other:You are a straight shooter, Mr Falcon, like a squidman.
+other:Maybe we should team up!
+other:Are you all done here?
+option-on 1
+option-on 2
+return
+
+@1 // I'm done here.
+ego:I'm done here.
+other:So I'm free to leave?
+other:This batch of nanobots can only be released by the boss.
+other:Your flesh won't be rotting today.
+ego:You're staying right here.
+ego:The authorities will collect you and destroy those weapons.
+ego:There is no escape. 
+other:It makes no difference to me.
+other:No prison can hold me.
+other:I'll break out, get a great new outfit...
+other:And I'll see you real soon.
+option-off 1
+option-off 2
+stop
+
+
+@2 // None of your concern.
+ego:None of your concern.
+ego:In a few minutes you'll be surrounded.
+ego:Attempt to take off and your ship will be destroyed.
+ego:If any sensors detect a release of nanobots...
+ego:You'll get vaporised from orbit.
+option-off 1
+option-off 2
+stop

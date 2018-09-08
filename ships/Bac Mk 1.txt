@@ -1,0 +1,23 @@
+image=Cdropship1_100x100_5.png
+name=Bac Mk 1
+turnSpeed=0.6
+cargoSize=24
+warpSpeed=80
+enginePower=0.17
+cost=14000
+maxCrew=2
+passengers=2
+mintech=0.1
+available=1
+maxmissiles=2
+turret?=0
+firefrom(w,h)=0,30
+turretat(x,y)=0,0
+[thrusters]
+-7,56
+7,56
+[/thrusters]
+M1 Allrounder - One of the first versions of the now famous Bac line. It shows its age too with a slow turn and engine speed. The only saving grace is the price and the difference ratio. If you're looking to get your foot on the ship owner's ladder I'd recommend this little beauty.
+producedBy=Paxtons
+yearDeveloped=2980
+funTrivia=The first in the bac line was inspired by a visor beasts ankle.

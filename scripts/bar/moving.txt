@@ -1,0 +1,65 @@
+//begin
+// [x] 1 - "What is it like on the station proper?"
+// [x] 2 - "I do miss the entertainments."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Are you waiting for someone?
+other:That's right.
+other:I'm waiting for a shuttle I've ordered.
+ego:Are you a trader?
+other:No, I'm just moving station.
+ego:oooh, a station dweller.
+ego:Don't get many of you outside quarantine.
+other:Not surprised. 
+other:It's gonna take me two weeks before I'm let in.
+ego:When you get to your new station?
+other:Yes. I'll have to wait until I can be screened.
+return
+
+@1 // What is it like on the station proper?
+ego:What is it like on the station proper?
+ego:I haven't been on for a while.
+other:It's pretty swish compared to these dirty bars.
+other:You traders have it rough don't you?
+ego:Most traders like dirty I've found.
+ego:Matches our dirty cockpits, so we feel at home.
+other:Ha.
+other:On the habitat decks, we have it easy.
+other:But then the cost of living is very high.
+ego:Do you still have droid-fights?
+other:No they've been banned.
+ego:Oh.
+ego:Zero-g football?
+other:Of course!
+ego:Sweet.
+ego:I gotta go check the consoles.
+other:ok.
+ego:Oh, good luck on your move.
+other:Cheers.
+stop
+
+@2 // I do miss the entertainments.
+ego:I do miss the entertainments.
+other:On the habitation decks?
+other:Mmm, must get pretty dull out here in trader land.
+ego:It's ok actually
+other:Not for me.
+ego:No? 
+other:No, I like the creature comforts.
+other:Like a range of food choices!
+ego:Tell me about it.
+ego:If you don't like peanuts, your in a world of pain out here.
+other:Ha.
+ego:I gotta go.
+ego:Oh, good luck on your move.
+other:Stay safe out there.
+ego:I always do.
+stop
+
+
+
+
+

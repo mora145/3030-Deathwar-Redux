@@ -1,0 +1,84 @@
+//begin
+// [ ] 1 - "remind me how I find the Largo."
+// [ ] 2 - "Just a warning."
+// [ ] 3 - "You don't have to call me chief you know."
+// [ ] 31 - "What would you say if I told you I've found the Largo?"
+// [ ] 4 - "Do you want to be my co-pilot again?"
+// [x] 5 - "see you later, Kent."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi Chief. 
+other:How's it going.
+ego:One more thing.
+option-on 1
+option-on 2
+option-on 3
+option-on 31
+option-on 4
+option-on 5
+
+return
+
+@1 // remind me how I find the Largo.
+ego:remind me how I find the Largo.
+other:What.. explicitly?
+ego:I don't want to have to come back and ask if I can't find it.
+other:First, go out into andinti space...
+other:Pull up a local system map and check out the pattern of derelicts.
+ego:I know, the grey dots.
+other:Right.
+other:Then dock and launch, and view the new local system map.
+other:One of the grey dots should have moved.
+other:That will be the Largo.
+other:Its broken split drive shifting it around andinti.
+ego:All too easy.
+other:Exactly.
+other:Also. I guess you'll be able to visit it a few times.
+other:It was meant to have a large shipment.
+other:And the larger cargo capacity of your ship the better.
+option-off 1
+return
+
+@2 // Just a warning.
+ego:Just a warning.
+ego:Pirates are still targeting traders and salvagers in general.
+ego:So watch your back little buddy.
+other:Will do Chief.
+option-off 2
+return
+
+@3 // You don't have to call me chief you know.
+ego:You don't have to call me chief you know.
+other:I know.
+option-off 3
+return
+
+@31 // What would you say if I told you I've found the Largo?
+ego:What would you say if I told you I've found the Largo?
+other:I'd say..
+other:great! I'll expect some cash coming my way real soon.
+other:but Chief...
+other:...watch out for pirate attacks if you keep going back for more!
+ego:Will do.
+option-off 31
+return
+
+@4 // Do you want to be my co-pilot again?
+ego:Do you want to be my co-pilot again?
+other:Sure, but I have to deal with a court case.
+other:I punched officer grah in the shins.
+ego:Sounds like a minor offence. 
+other:Yeah. I should be free to join up with you in a few months.
+option-off 4
+return
+
+
+@5 // see you later, Kent.
+ego:see you later, Kent.
+other:Bye for now.
+Stop
+

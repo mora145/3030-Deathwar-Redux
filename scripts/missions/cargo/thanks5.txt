@@ -1,0 +1,15 @@
+//begin
+// [x] 1 - "Thanks!"
+//end
+
+@S 
+ego:I've left your cargo container outside.
+other:Thanks, I'll get my secretary to pick it up now.
+ego:Cool. You paid me?
+other:Totally. The money's in your account now.
+option-on 1
+return
+
+@1
+ego:Thanks!
+stop

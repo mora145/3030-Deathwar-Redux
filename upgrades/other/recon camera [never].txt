@@ -1,0 +1,12 @@
+name=recon camera
+cost=900
+tech lvl=0.86
+avaiable=0
+desc=Allows the capture of evidence such as ship positions, etc.
+once=1
+mass=0
+department=recon camera
+value#=6
+[incompat]
+[incompat]
+image=data/images/upgrades/recon.png

@@ -1,0 +1,54 @@
+//begin
+// [x] 1 - "Looks good."
+// [x] 2 - "Heard any news?"
+// [x] 3 - "Bye."
+// [ ] 4 - "Sure thing."
+// [ ] 5 - "I mind my own business."
+//end
+
+@S 
+ego:Hi there.
+other:Hey there!
+other:I'm from Andinti system.
+other:Born and raised on YSA station.
+other:I Just got my first cargo ship.
+return
+
+@1 
+ego:Looks good.
+other:You should get a cargo ship.
+other:Asteroid mining is a respectable trade.
+other:Don't you think?
+option-off 1
+option-off 2
+option-on 4
+option-on 5
+return
+
+@2 
+ego:Heard any news?
+other:Some traders found some diamond rich asteroids near here.
+other:But those 'roids are probably all gone.
+other:Still, there are good minerals in this system.
+option-off 2
+return
+
+@3 
+ego:Bye.
+stop
+
+@4
+ego:Sure thing.
+other:People say it's tough to make a living.
+other:I'm just starting.
+other:But who knows what will come next.
+other:Good luck.
+stop
+
+@5 
+ego:I mind my own business.
+other:But it's good to share tips.
+ego:My tip... get good shields.
+other:I hear that!
+other:Good luck out there.
+stop

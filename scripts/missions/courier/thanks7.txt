@@ -1,0 +1,20 @@
+//begin
+// [x] 1 - "No problem."
+// [x] 2 - "Catch ya later."
+//end
+
+@S
+ego:Here you go.
+other:Thank you!
+option-on 1
+return 
+
+@1 
+ego:No problem.
+stop
+
+@2 // Catch ya later.
+ego:Catch ya later.
+ego:Let me know if you need a delivery.
+
+stop

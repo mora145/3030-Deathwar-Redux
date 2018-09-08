@@ -1,0 +1,23 @@
+image=DspaceBus1_100x100_5.png
+name=Kayak Shuttle Bus
+turnSpeed=0.5
+cargoSize=6
+warpSpeed=85
+enginePower=0.20
+cost=14500
+maxCrew=2
+passengers=30
+mintech=0.3
+available=1
+maxmissiles=0
+turret?=0
+firefrom(w,h)=2,38
+turretat(x,y)=0,0
+[thrusters]
+-7,73
+7,73
+[/thrusters]
+M3 Transporter - A cargo vessel configured for up to 30 passengers and inter-system travel. A great engine for the price, but little capacity for extra fuel. 
+producedBy=Carlton Construction
+yearDeveloped=3003
+funTrivia=The marks on the roof indicate it's Inter-System class, not just a local shuttle bus.

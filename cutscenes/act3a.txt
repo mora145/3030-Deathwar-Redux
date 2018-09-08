@@ -1,0 +1,15 @@
+background
+{
+sun explosion
+daphice
+}
+
+animation
+{
+stationary stars
+}
+
+music
+{
+data/sounds/music/background/Steve Finney - Genetik.ogg,repeat
+}

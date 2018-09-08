@@ -1,0 +1,45 @@
+//begin
+// [x] 1 - "You're off you face aren't you."
+// [x] 2 - "Look behind you a three headed monkey!"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Word up.
+other:Yo.
+other:How's space treatin' ya?
+ego:Alright.
+other:You look like you need a drink.
+ego:I *have* been working like a dog. 
+other:Huh? Whats a dog?
+ego:It's an organic quadruped from the old human world.
+other:Huh? 
+ego:A beast the Humans grew up with.
+other:Huh? 
+ego:A loyal domesticated creature.
+other:What are you talking about? (hick) 
+ego:Never mind.
+other:Hey. I saw a dog once.
+ego:But you..
+other:Wha?
+return
+
+@1 // You're off you face aren't you.
+ego:You're off you face aren't you.
+other:Proobabley, (hick)
+other:I've been in a drink-(hick)-ing comp with a hairy trader.
+ego:Cool, you win?
+other:Not sure.
+other:(hick)
+other:I thi-(hick)-nk i'm gonna Vom
+ego:Not on my shoes!
+ego:I'm outta here.
+stop
+
+@2 // Look behind you a three headed monkey!
+ego:Look behind you a three headed monkey!
+other:Huh? (hick)
+other:A monzey, wiv three heads??
+ego:And I'm gone.
+stop

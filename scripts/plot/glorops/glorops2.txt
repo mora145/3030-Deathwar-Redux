@@ -1,0 +1,95 @@
+//begin
+// [x] 1 - "25 grand?"
+// [x] 2 - "Say what?"
+// [x] 3 - "No. Goodbye."
+// [ ] 4 - "Do I even need this clue?"
+// [ ] 5 - "I don't have your money right now."
+// [ ] 6 - "No, I'm not going to pay. Later."
+//end
+
+@S
+ego:Hi
+other:Hey. You here about the suction bot repair?
+ego:No.
+ego:I'm here for the clue to the whereabouts of walker base.
+ego:You able to help me?
+other:Yeah. Totally. You got the money?
+ego:What money?
+other:Oh yeah, I forgot to mention. $25,000.
+other:That's how much I'll need.
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 //25 grand?
+ego:25 grand? 
+ego:That's a bit much!
+other:No, that's not much by today's standard. 
+other:What, you don't got it?
+ego:No, I don't. That's a lot of money for me right now.
+other:You just bought a new ship or something?
+other:So, what? Do some jobs, sell some cargo. 
+other:Maybe you do got it. maybe you're just being an ass.
+other:You gonna pay it?
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+option-on 6
+return
+
+@2 //Say what?
+ego:Say what?
+other:It isn't really that much.
+ego:Why so much? What's it for?
+other:It goes to pay my informants, taxes.. 
+other:I might get a new pair of shoes.
+other:you know.. important stuff.
+other:I might even buy one of those really nice bottles of firewine.
+other:They are really hard to come by these days.
+ego:Right.
+other:So, you gonna pay?
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+option-on 6
+return
+
+@3 //No, goodbye.
+ego:No, goodbye.
+other:Alright, you know where I am when you change your mind.
+stop
+
+@4 //Do I even need this clue?
+ego:Do I even need this clue?
+other:I think you do, else how you gonna find this walker base?
+ego:I could just rummage the universe from top to bottom.
+ego:It'd probably be cheaper in fuel costs than to pay you.
+other:You and I both know you're going to pay me the money
+other:So why don't we just get this over with.
+option-off 4
+return 
+
+@5 //I don't have your money right now.
+ego:I don't have your money right now.
+other:Well alright. Get it.
+ego:Right, how am I gonna get $25,000?
+other:The same way everyone round here does.
+other:Steal it or earn it.
+other:You tried megaball? It's where the money is, baby.
+other:Anyway, see you later when you have the money.
+setMissionAnswer 0
+stop
+
+@6 //No, I'm not going to pay. Later.
+ego:No, I'm not going to pay. Later.
+other:Fine with me. You'll be back. you know it and I know it.
+setMissionAnswer 0
+stop
+
+
+

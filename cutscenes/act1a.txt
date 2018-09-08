@@ -1,0 +1,59 @@
+background
+{
+data/cutscenes/images/hangerbay1.png
+}
+
+people 
+{
+goon,data/stations/special characters/suitPaper2_50x108_4.png,221,128,facing right,visible
+helper,data/stations/special characters/plotzoidman2_50x130_4.png,172,142,facing right,visible
+falcon,data/stations/player/falcon4TalkWithPackage_50x115_7.png,305,140,facing left,visible
+
+zig,data/stations/drinkdroids/drinkDroidN_36x50_2.png,150,145,facing right,visible
+Shuttleforefloat,data/stations\drinkdroids/floaterholo_36x50_2.png,28,100,facing right,visible
+
+}
+
+fades
+{
+in
+out
+}
+
+dialogue
+{
+goon:Hey there, Trader.
+falcon:Excuse me, you're blocking my way.
+helper:we're here to give you a warning.
+helper:Keep out of the salvage business, Pal.
+helper:What's his name.
+goon:Uhh... I forgot.
+falcon:The name's Falcon... 
+falcon:John Falcon.
+helper:Falcon ey? 
+falcon:It's the name I go by these days.
+helper:Ok Mr. Falcon. Listen to my face.
+helper:Here in Andinti, salvage work is prohibited.
+falcon:Oh really? 
+falcon:By who?   
+goon:By us. We work for a Pirate Lord.
+falcon:So that's the way it is around here?
+helper:Aye. You have been warned!
+goon:It is what it is.
+falcon:Thanks for the warning, but I'll do as I please.
+falcon:Anyway, I don't do Salvage work any more.
+falcon:Too dangerous.
+goon:True Dat!
+falcon:I just do courier jobs now, delivering packages.
+helper:Lets go.
+goon:Righto.
+}
+
+text
+{
+The Warning
+}
+
+sounds
+{
+}

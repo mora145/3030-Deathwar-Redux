@@ -1,0 +1,86 @@
+//begin
+// [x] 1 - "Not much."
+// [x] 2 - "Any news?"
+// [ ] 3 - "What's Kent up to?"
+// [ ] 4 - "Last time?"
+// [ ] 5 - "The E.V.A. incident..."
+// [ ] 6 - "Is that Gebbo over there?"
+// [x] 7 - "Bye."
+
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hiya.
+other:What's up?
+option-on 1
+option-on 2
+option-on 3
+return
+
+@1 // Not much.
+ego:Not much.
+other:I think I'll get a jet-suit and gun.
+other:Good instant cash on a junk shoot.
+ego:True.
+option-off 1
+option-on 6
+return
+
+@2 // Any news?
+ego:Any news?
+ego:I keep overhearing things about...
+other:The valuable salvage ship?
+other:I've not made contact with my friend yet.
+other:Captain Liu.
+other:If it's true, she'll know about it.
+option-off 2
+option-off 1
+return
+
+@3 // What's Kent up to?
+ego:What's Kent up to?
+other:Thinking about it..
+other:That dead guy from the cargo locker...
+other:..I'd expect he's investigating that.
+other:Like last time.
+option-off 3
+option-off 1
+option-on 4
+return
+
+@4 // Last time?
+ego:Last time?
+other:Last time.. the time you hit that guy doing E.V.A.
+ego:Hey, he was already dead!
+ego:That means it was classed as space debris.
+other:But we only knew that after.
+other:After Kent autopsied him.
+option-off 4
+option-on 5
+return
+
+@5 // The E.V.A. incident.
+ego:That E.V.A. incident...
+ego:..I wish you hadn't reminded me!
+ego:The stink when he thawed out.
+other:Oh yeah. Rotten meat.
+option-off 5
+option-on 6
+return
+
+
+@6 // Is that Gebbo over there?
+ego:Is that Gebbo over there?
+other:I think so.
+other:He's a big player in Andinti, isn't he?
+ego:That's what I heard.
+option-off 6
+return
+
+@7 // Bye
+ego:Bye.
+other:Later.
+Stop
+

@@ -1,0 +1,26 @@
+//begin
+// [x] 1 - "I'll do it."
+// [x] 2 - "Not right now, thanks."
+//end
+
+
+// dialog script file
+@S // intro
+other:So you think you're good. Do you want some more money?
+other:If you do, you could win $100,000.
+other:You want in?
+option-on 1
+option-on 2
+return
+
+@1 //I'm in.
+ego:I'll do it.
+other:Great, it'll be a difficult round. Try your best.
+setMissionAnswer 1
+stop
+
+@2 // Not right now, thanks.
+ego:Not right now, thanks.
+other:Come back when you want the some big money.
+setMissionAnswer 0
+stop

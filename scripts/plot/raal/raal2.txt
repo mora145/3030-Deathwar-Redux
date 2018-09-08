@@ -1,0 +1,52 @@
+//begin
+// [x] 1 - "Where are these contacts?"
+// [x] 2 - "Do you have any more information?"
+// [x] 3 - "Know of any more wormholes?"
+// [x] 4 - "Never mind"
+//end
+
+@S // dialog startup entry point
+other:You should be on your way. 
+other:Find the contacts and find walker base.
+option-on 1
+option-on 2
+option-on 3
+option-on 4
+return
+
+@1 // Where are these contacts?
+ego:Where are these contacts?
+other:I've added their whereabouts to your contact list.
+other:Simply find them on the stations I've outlined and talk to them.
+other:I don't know what they want or what they'll give you.
+option-off 1
+return
+
+@2 // Do you have any more information?
+ego:Do you have any more information?
+other:I don't know anything else. Just keep away from the police.
+other:They're neither helpful or useful.
+option-off 2
+return
+
+@3 // Know of any more wormholes?
+ego:Know of any more wormholes?
+other:I heard that aenso is a hotspot for them. 
+other:It must be a strange universal focal point.
+other:Try searching around there if you want.
+other:You hear some horror stories about those.
+ego:Oh?
+other:I heard of a crew who lost their minds travelling in a wormhole...
+other:...and they half melted into the metal walls of their ship...
+other:...and just kept screaming for the rest of their days.
+other:Which was 3 days.. in the story.
+other:I'm not sure of the validity of this though.
+other:You should try it.
+ego:Cool story. Thanks.
+option-off 3
+return
+
+@4 // Never mind
+ego:Never mind.
+other:Good luck.
+stop

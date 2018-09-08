@@ -1,0 +1,14 @@
+//begin
+// [x] 1 - "No problem."
+//end
+
+@S
+ego:Here's your photos.
+other:Photos, Oh yes. Thanks
+other:These could save my life!
+option-on 1
+return
+
+@1
+ego:No problem.
+stop

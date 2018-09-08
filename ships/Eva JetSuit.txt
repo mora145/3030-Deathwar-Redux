@@ -1,0 +1,22 @@
+image=Cevajetsuit_100x100_5.png
+name=Carlton EVA JetSuit
+turnSpeed=0.65
+cargoSize=2
+warpSpeed=50
+enginePower=0.25
+cost=3500
+maxCrew=1
+passengers=0
+mintech=0.16
+available=1
+maxmissiles=2
+turret?=0
+firefrom(w,h)=-11,39
+turretat(x,y)=0,0
+[thrusters]
+0,59
+[/thrusters]
+Jetsuit - Starting out at in-system package delivery or junk destruction? Stuck away from your ship after a weekend partying? An EVA JetSuit will get you Station-to-Station. With its basic Split-Drive active it's about as fast as a shuttle but has minimal cargo capacity.
+producedBy=Carlton Construction
+yearDeveloped=2560
+funTrivia=Mandated to be always white as they are so small.

@@ -1,0 +1,29 @@
+//begin
+// [x] 1 - "Yeah. nothing interesting."
+// [x] 2 - "No, took me ages to get here."
+//end
+
+@S
+ego:Your cargo has been delivered. 
+ego:If you check the station cameras you'll see it outside.
+other:Yeah, I checked already. 
+other:Thanks. Your money has been credited to you.
+other:Was it straight forward?
+option-on 1
+option-on 2
+return
+
+@1 
+ego:Yeah. nothing interesting.
+ego:It was a normal trip but...
+other:...Uh-uh. Great. I'm not really interested. 
+other:I was just being pleasant.
+ego:fair enough.
+stop
+
+@2
+other:No, took me ages to get here.
+other:Really? 
+other:Bloody hell, sorry. 
+other:You should think of changing jobs, my friend.
+stop

@@ -1,0 +1,13 @@
+name=M3 class III ecm
+cost=26000
+tech lvl=0.6
+avaiable=0
+desc=will destroy missiles within 200 om range upon use. Keyboard shortcut: Shift. On Controller: X.
+once=1
+mass=0
+department=ecm
+value#=200
+[incompat]
+ecm
+[incompat]
+image=data/images/upgrades/ecm2.png

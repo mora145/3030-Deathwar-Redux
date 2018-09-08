@@ -1,0 +1,30 @@
+//begin
+// [x] 1 - "ok, I'm on my way."
+// [x] 2 - "I'm on it, calm down."
+// [x] 3 - "Jus' chillax, homes."
+// [x] 4 - "Dude. I'm on it. K?"
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:I see you're still here. Pick up the scientist to help us analyse the data.
+other:Check your mission log for further information.
+return
+
+@1 // ok, I'm on my way.
+ego:ok, I'm on my way.
+stop
+
+
+@2 // ok
+ego:I'm on it, calm down.
+stop
+
+@3
+ego:Jus' chillax, homes.
+stop
+
+@4
+ego:Dude. I'm on it. K?
+stop

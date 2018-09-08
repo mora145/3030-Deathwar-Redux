@@ -1,0 +1,20 @@
+//begin
+// [x] 1 - "Thanks, see you around."
+//end
+
+@S // start
+ego:I unscrambled the circuit for you.
+other:Damn right you did. I've been trying to get that sorted for weeks now.
+other:I suppose you deserve the clue, right?
+other:It's BD-946. I've added it to your ship's contact list.
+ego:Thanks.
+other:No, thank you. 
+other:If you want to try and unscramble any more...
+other:...come back and see me, you hear?
+option-on 1
+return
+
+@1 // aaa
+ego:Thanks, see you around.
+other:No problem.
+stop

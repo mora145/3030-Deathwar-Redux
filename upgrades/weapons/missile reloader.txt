@@ -1,0 +1,13 @@
+name=M2 auto missile reloader
+cost=30150
+tech lvl=0.8
+avaiable=1
+desc=auto reloads a missile after you've fired.
+once=1
+mass=0
+department=missile reloader
+value#=0
+[incompat]
+missile reloader
+[incompat]
+image=data/images/upgrades/misRe1.png

@@ -1,0 +1,22 @@
+//begin
+// [x] 1 - "No problem."
+// [x] 2 - "Have fun with it."
+//end
+
+@S
+ego:I have something, I think it's broken.
+other:Oh no, but thank you!
+option-on 1
+return 
+
+@1 
+ego:No problem.
+stop
+
+@2 // Have fun with it.
+ego:Have fun with it.
+other:I'll wait to open it.
+ego:It's yours now.
+other:Thank you Sir.
+
+stop

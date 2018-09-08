@@ -1,0 +1,105 @@
+//begin
+// [ ] 1 - "What's this great stock you have?"
+// [ ] 2 - "Where do you get your stock?"
+// [ ] 3 - "Is that wine?"
+// [ ] 4 - "I'll take all your A Grade Sika."
+
+// [ ] 41 - "Where will you be next time?"
+// [ ] 42 - "HBE station?"
+// [ ] 43 - "What system is HBE station exactly?"
+// [x] 6 - "See you later."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hi again.
+other:Hey! You made it! 
+other:Good fortune for you my friend.
+other:You know the rules, one shot at this...
+other:...I have other buyers ready.
+other:If you don't take the deal now, you'll miss out.
+option-on 1
+option-on 2
+option-on 3
+
+return
+
+
+@1 // What's this great stock you have?
+ego:What's this stock you have?
+other:Sika at 50.
+other:20 units.
+other:Interested?
+other:It's Grade A.
+option-off 1
+option-on 4
+return
+
+@2 // Where do you get your stock?
+ego:Where do you get your stock?
+other:If I told you that, you might cut me out.
+other:Trade secrets.
+option-off 2
+return
+
+@3 // Is that wine?
+ego:Is that wine?
+other:By my feet? Sure is.
+other:Mature Firewine.
+other:It's not for sale.
+option-off 3
+return
+
+@4 // I'll take all your A Grade Sika.
+ego:I'll take all your A Grade Sika.
+other:Really? Great.
+ego:This better not be grade C.
+other:I would sell grade B to a trader like yourself?
+other:Transfer creds, I send it to your hold.
+other:By the way, it's at the very bottom of the Goods list.
+ego:Ok, thanks.
+takemoney,1000,Gave money for A Grade Sika
+givecargo 31 20
+option-off 4
+option-on 41
+return
+
+@41 // Where will you be next time?
+ego:Where will you be next time?
+other:Next... I'm heading south.
+other:I got a much better offer for you.
+other:Diamonds.
+ego:How much?
+other:At least 15 units.
+other:Maybe more.
+other:I'll be at HBE station.
+option-off 41
+option-on 42
+option-on 43
+return
+
+@42 // HBE station?
+ego:HBE station?
+other:It's the big frigate ship the police use as HQ.
+other:The police swat teams all come from there.
+ego:I know. Isn't it risky to sell from there?
+other:Nah. I know people.
+option-off 42
+return
+
+@43 // What system is HBE station exactly?
+ego:What system is HBE station exactly?
+other:It's in Ceara system, or something like that.
+other:Two down from here. It's a long way.
+other:It's more of a ship than a station isn't it.
+other:I'll be at the Thirsty Pig.
+option-off 43
+return
+
+@6 // See you later.
+ego:See you later.
+other:If you fancy some diamonds.
+other:See you at HBE.
+Stop
+

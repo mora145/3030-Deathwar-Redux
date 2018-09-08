@@ -1,0 +1,38 @@
+//begin
+// [x] 1 - "Yeah, I am over 18 and would love to hear your dirty joke."
+// [x] 2 - "Not now. I'm busy."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Hey.
+other:Hi there, just docked?.
+ego:Yeah.
+other:Hey, you want hear a dirty joke?
+return
+
+@1 // Yeah, I am over 18 and would love to hear your dirty joke.
+ego:Yeah, I am over 18 and would love to hear your dirty joke.
+other:Ok.
+other:A bar-droid slapped his genital unit on the bar.
+other:All the traders were shocked, as you would be.
+ego:As you would be.
+other:Yeah. You would be.
+other:One trader in a spacesuit said 'What *do* you think you're doing?!'
+other:The bar-droid just laughed and said.
+other:I'm just showing of my genital unit, it's good init?
+other:The trader in a spacesuit said, 'We don't wanna see it though!'
+other:'Hey', said the bar-droid,'I don't give a shit!'
+other:Ha!
+ego:....
+other:....
+ego:Err ok. 
+ego:That's more of an anecdote than a joke.
+other:Yeah, needs a bit of work doesn't it.
+stop
+
+@2 // Not now. I'm busy.
+ego:Not now. I'm busy.
+stop
+

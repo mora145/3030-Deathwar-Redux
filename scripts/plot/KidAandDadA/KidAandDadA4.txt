@@ -1,0 +1,27 @@
+//begin
+// [x] 1 - "I'm just doing my thing."
+// [x] 2 - "I could do with the fortune..."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+other:Hi again Mr.
+other:Hope you find your fortune and glory.
+return
+
+@1 // I'm just doing my thing.
+ego:I'm just doing my thing.
+ego:Travelling, investigating.
+other:Sounds exciting, Mr.
+ego:I guess so.
+Stop
+
+@2 // I could do with the fortune...
+ego:I could do with the fortune...
+ego:..glory is a bit abstract.
+other:I don't know what that means, Mr.
+ego:Nevermind, Kid.
+other:Bye, Mr.
+Stop
+

@@ -1,0 +1,30 @@
+//begin
+// [x] 1 - "Yes."
+// [x] 2 - "Honestly? No not really."
+//end
+
+
+// dialog script file
+@S // dialog startup entry point
+ego:Evening.
+other:Excuse me sir, have you ever considered modelling?
+ego:I ummm....
+return
+
+@1 // Yes.
+ego:Yes.
+ego:Now that you mention it...
+ego:...i always did think i had the chiselled good looks required for vogue.
+other:The only issue i have is you won't be able to wear that battered old hat.
+ego:...
+other:Sir?
+ego:...
+other:Are you ok?
+ego:I'm leaving now
+stop
+
+@2 // Honestly? No not really.
+ego:Honestly? No not really.
+other:Would you consider it as a career path?
+ego:What? Get out of here!
+stop
