@@ -17,7 +17,7 @@ in
 
 dialogue
 {
-helper:¡Detente justo ahi!:data/voice/Frank1/stop1.wav
+helper:Â¡Detente justo ahi!:data/voice/Frank1/stop1.wav
 }
 
 text

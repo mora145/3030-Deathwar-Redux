@@ -33,9 +33,9 @@ frank:Trato de ayudar a los compradores lo mejor que puedo.:data/voice/Frank1/f9
 frank:Confia en mi, arreglare esto.!:data/voice/Frank1/f10.wav
 slug:Lo haras, y voy a decirte como.:data/voice/Frank1/g7.wav
 frank:Quieres que vuelva a la jaula?:data/voice/Frank1/f11.wav
-frank:¡Estoy totalmente retirado! :data/voice/Frank1/f12.wav
-frank:¡No estoy en forma!:data/voice/Frank1/f13.wav
-frank:¡No estoy en forma!:data/voice/Frank1/f14.wav
+frank:Â¡Estoy totalmente retirado! :data/voice/Frank1/f12.wav
+frank:Â¡No estoy en forma!:data/voice/Frank1/f13.wav
+frank:Â¡No estoy en forma!:data/voice/Frank1/f14.wav
 slug:De vuelta a la jaula.:data/voice/Frank1/g8.wav
 slug:Ahora pelearas por mi, Frank.:data/voice/Frank1/g9.wav
 

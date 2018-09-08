@@ -27,7 +27,7 @@ Osiris:En ese caso que...
 falcon:Espera...
 falcon:Como llegue aqui?
 falcon:Ademas, eres un personaje ficticio
-Osiris:¡No, no lo soy!
+Osiris:Â¡No, no lo soy!
 falcon:Si lo eres, Osiris.
 falcon:Por eso estas verde.
 Osiris:Quiero que sepas que eso es simbolico.
@@ -37,7 +37,7 @@ falcon:Exactamente, debido al hecho de que es mi sueno.
 falcon:Cualquiera que sea Gran 'O'.
 falcon:Es hora de cambiar este paisaje de ensueno.
 Osiris:Dulce.
-Osiris:¡Empecemos la fiesta!
+Osiris:Â¡Empecemos la fiesta!
 falcon:Muy bien.
 goon:No se por que estoy aqui.
 goon:Estas seguro de que estas sonando?
@@ -46,9 +46,9 @@ falcon:Hmmm, si realmente estoy sonando..
 falcon:Vamos a animar a esa criatura.
 Osiris:Senor, usted es el rey aqui.
 Osiris:Hey criatura..
-SE:Yo? ¡Traga! ¡Traga! ¡Traga!
+SE:Yo? Â¡Traga! Â¡Traga! Â¡Traga!
 SE:Chomp! Tengo la cabeza de un cocodrilo.
-SE:En realidad es bastante tierno. ¡Traga! ¡Traga!
+SE:En realidad es bastante tierno. Â¡Traga! Â¡Traga!
 goon:Silencio de caracter periferico.
 SE:Periferico!!?
 SE:Me trago los corazones del companero indigno.
@@ -56,10 +56,10 @@ falcon:Si, lo recuerdo.
 goon:Me gustaria preguntar...
 goon:Puedo unirme a la fiesta?
 falcon:Todos somos yo aqui, seguro.
-goon:¡Si!
+goon:Â¡Si!
 goon:Bien hecho, yo.
-Osiris:¡Yo autorizo un buen rato!
-SE:¡Estoy dentro! ¡Traga! ¡Traga!
+Osiris:Â¡Yo autorizo un buen rato!
+SE:Â¡Estoy dentro! Â¡Traga! Â¡Traga!
 falcon:Incluso para mi, este es un sueno bastante raro.
 falcon:Lo siento chicos...
 falcon:...tendremos que posponer la fiesta.
