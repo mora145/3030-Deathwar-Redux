@@ -16,36 +16,36 @@ Shuttleforefloat,data/stations\drinkdroids/floater3_36x50_2.png,336,128,facing l
 
 dialogue
 {
-helper2:We should finish off these last species and begin terraforming.
-helper2:The nanobots have worked perfectly so far. Why the delay? 
-bosscape:I'll tell you why.
-bosscape:Because now some of us are helping these scum.
-helper:Nobody seriously believes the stories do they?
-bosscape:If anything matches a detail in their ambiguous legends...
-bosscape:...they want to pause the plan.
-helper2:And which detail is it this time?
-bosscape:"Then the birdperson appeared and caused much Howling!"
-helper2:Not that one again. Who was it last time?
-helper:Oh yeah, I remember that! Jeff Eagle wasn't it.
-bosscape:It's quite preposterous.
-helper:I like it.
-badcop:Me too.
-bosscape:You two, and some of the elders, have brain fade.
-bosscape:This is the only thing stopping us clean up space.
-bosscape:These beings are disgusting. 
-bosscape:They're making my life like a urinal full of spunk.
-helper:Ewww. Sir, Please.
-helper2:So we just have to wait?
-bosscape:I want to release a new wave of nanos right now!
-bosscape:But the council is withholding access.
-bosscape:We need to remove their fear of this legend.
-helper2:Then what are we to do?
-bosscape:Keep a lookout for another chump with a bird name.
+helper2:Deberiamos acabar con estas ultimas especies y empezar a terraformar.
+helper2:Los nanobots han funcionado perfectamente hasta ahora. Por que el retraso? 
+bosscape:Te dire por que.
+bosscape:Porque ahora algunos de nosotros estamos ayudando a esta escoria.
+helper:Nadie cree seriamente las historias, verdad?
+bosscape:Si algo coincide con un detalle de sus ambiguas leyendas...
+bosscape:...quieren detener el plan.
+helper2:Y que detalle es esta vez?
+bosscape:"¡Entonces aparecio el pajaro y causo muchos aullidos!"
+helper2:Esa otra vez no. Quien fue la ultima vez?
+helper:¡Ah, si, me acuerdo de eso! Jeff Eagle no lo era.
+bosscape:Es bastante absurdo.
+helper:Me gusta.
+badcop:A mi tambien.
+bosscape:Ustedes dos, y algunos de los ancianos, tienen el cerebro afectado.
+bosscape:Esto es lo unico que nos impide limpiar el espacio.
+bosscape:Estos seres son asquerosos.  
+bosscape:Estan haciendo mi vida como un orinal lleno de esperma.
+helper:Ewwww. Senor, por favor.
+helper2:Asi que tenemos que esperar?
+bosscape:Quiero lanzar una nueva ola de nanos ahora mismo!
+bosscape:Pero el consejo esta reteniendo el acceso.
+bosscape:Tenemos que eliminar su miedo a esta leyenda.
+helper2:Entonces que debemos hacer?
+bosscape:Busca a otro tonto con nombre de pajaro.
 }
 
 text
 {
-act II: the birdperson
+Acto II: La persona ave
 }
 
 sounds

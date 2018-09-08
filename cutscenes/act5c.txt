@@ -11,13 +11,13 @@ helper,data/stations/special characters/plotmonk2_50x108_4.png,170,136,facing ri
 
 dialogue
 {
-persona:You reading about the supernova?
-persona:The council are looking for the last one to leave the system.
-helper:Nah, I'm trying to find the zero-g darts league table.
-persona:Hasn't that been banned?
-helper:What! Again?
-helper:I need a froog.
-helper:Bar-droid! 
+persona:Estas leyendo sobre la supernova?
+persona:El consejo esta buscando al ultimo en abandonar el sistema.
+helper:No, estoy tratando de encontrar la tabla de la liga de dardos de cero gramos.
+persona:No ha sido prohibido?
+helper:¡Que! Otra vez?
+helper:Necesito un froog.
+helper:¡Bar-droide!
 }
 
 animation

@@ -11,16 +11,16 @@ helper,data/stations/standing_at_bar/squidman1_50x130_4.png,210,149,facing left,
 
 dialogue
 {
-helper:No reports of Falcon Sir.
-bosscape:Ah, these council police are worthless.
-helper:Our probe network could find him.
-bosscape:True, I'll try and get clearance to use them.
-bosscape:He must have dropped off the grid.
-helper:Helped by the traitors?
-bosscape:Must have been. See if you can find him.
-helper:Yes Sir.
-bosscape:I will continue putting pressure on our elders to rebuild our stealth fleet.
-bosscape:And once I have tracked down these traitors I will destroy them myself.
+helper:No hay informes de Falcon senor.
+bosscape:Ah, estos policias del consejo no valen nada.
+helper:Nuestra red de sondas podria encontrarlo.
+bosscape:Cierto, intentare conseguir autorizacion para usarlas.
+bosscape:Debe haber desaparecido del mapa.
+helper:Ayudado por los traidores?
+bosscape:Seguramente. Ve a ver si lo encuentras.
+helper:Si senor.
+bosscape:Seguire presionando a nuestros mayores para que reconstruyan nuestra flota de sigilo.
+bosscape:Y una vez que haya localizado a estos traidores, los destruiré yo mismo..
 }
 
 animation
@@ -30,7 +30,7 @@ split left
 
 text
 {
-act V: Wanted Dead/Alive
+Acto V: Se busca vivo o muerto
 }
 
 sounds

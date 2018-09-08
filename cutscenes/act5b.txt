@@ -13,18 +13,18 @@ badcop,data/stations/special characters/bigCopAlien1_80x130_4.png,123,149,facing
 
 dialogue
 {
-bosscape:Why can't we find him?
-helper2:Sir, we have been searching but he seems to have disappeared.
-bosscape:He can't have just disappeared.
-badcop:I was not given his description.
-helper2:He's not hard to spot. Always wearing a jacket and brown hat.
-badcop:Hey! I think I saw a guy like that on Tia Station!
-bosscape:Great. He was probably finding you! 
-bosscape:Lets turn up the pressure.
-bosscape:Add more incentive for bounty hunters and police to find him.
-badcop:No problem. I'll make sure there is a large bounty on his head. 
-bosscape:Give him a criminal record that would make "Ghh the destroyer" look like a petty thief.
-badcop:It will be done.
+bosscape:Por que no podemos encontrarlo?
+helper2:Senor, hemos estado buscando pero parece que ha desaparecido.
+bosscape:No puede haber desaparecido.
+badcop:No me dieron su descripcion.
+helper2:No es dificil de reconocer. Siempre con chaqueta y sombrero marron.
+badcop:¡Oye! ¡Creo que vi a un tipo asi en la estacion Tia!
+bosscape:Genial. ¡Probablemente te estaba encontrando! 
+bosscape:Subamos la presion.
+bosscape:Anade mas incentivos para que los cazarrecompensas y la policia lo encuentren.
+badcop:No hay problema. Me asegurare de que haya una gran recompensa por su cabeza.
+bosscape:Dale un registro criminal que haga que "Ghh el destructor" parezca un ladronzuelo.
+badcop:Se cumplira.
 
 }
 

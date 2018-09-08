@@ -22,36 +22,36 @@ out
 
 dialogue
 {
-goon:Hey there, Trader.
-falcon:Excuse me, you're blocking my way.
-helper:we're here to give you a warning.
-helper:Keep out of the salvage business, Pal.
-helper:What's his name.
-goon:Uhh... I forgot.
-falcon:The name's Falcon... 
+goon:Hola comerciante.
+falcon:Disculpe, me esta bloqueando el paso.
+helper:Estamos aqui para darte una advertencia.
+helper:No te metas en el negocio de los rescates amigo...
+helper:Cual es su nombre?
+goon:Uhh... Lo olvide.
+falcon:Me llamo Falcon...
 falcon:John Falcon.
-helper:Falcon ey? 
-falcon:It's the name I go by these days.
-helper:Ok Mr. Falcon. Listen to my face.
-helper:Here in Andinti, salvage work is prohibited.
-falcon:Oh really? 
-falcon:By who?   
-goon:By us. We work for a Pirate Lord.
-falcon:So that's the way it is around here?
-helper:Aye. You have been warned!
-goon:It is what it is.
-falcon:Thanks for the warning, but I'll do as I please.
-falcon:Anyway, I don't do Salvage work any more.
-falcon:Too dangerous.
-goon:True Dat!
-falcon:I just do courier jobs now, delivering packages.
-helper:Lets go.
-goon:Righto.
+helper:Falcon eh?
+falcon:Es el nombre que uso hoy dia.
+helper:Ok senor Falcon. Prestame atencion.
+helper:Aqui en Andinti el trabajo de rescate esta prohibido.
+falcon:Oh, en serio?
+falcon:Por quien?
+goon:Por nosotros. Trabajamos para un senor pirata.
+falcon:Asi que asi son las cosas por aqui?
+helper:Si. ¡Has sido advertido!
+goon:Es lo que es.
+falcon:Gracias por la advertencia, pero hare lo que me plazca.
+falcon:De todos modos, ya no hago trabajo de salvamento.
+falcon:Es muy peligroso.
+goon:¡Eso es cierto!
+falcon:Ahora solo hago trabajos de mensajeria, entregando paquetes.
+helper:Vamonos.
+goon:De acuerdo.
 }
 
 text
 {
-The Warning
+La advertencia
 }
 
 sounds

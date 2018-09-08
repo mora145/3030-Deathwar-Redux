@@ -15,26 +15,26 @@ badcop,data/stations/special characters/bigCopAlien1_80x130_4.png,310,142,facing
 
 dialogue
 {
-helper:A deal is a deal, Gebbo.
-badcop:Yeah, give us your nanobots.
-seller:For this I'll give you Blue Mambas. The best!
-badcop:Noice! Blue Mambas eat through stations in seconds.
-badcop:Boss will be well pleased.
-seller:I can't believe you found her for me!
-badcop:Our whole fleet was sent to scan for it.
-helper:We spared no expense for you, Mr Gebbo.
-seller:The mummified remains of the Last Queen of Bop!
-helper:Your suspicion was correct, Mr Gebbo.
-seller:Hidden in the Badlands nebula after the battle of Jowe!
-seller:I knew it!
-seller:Come with me and I'll give you one nanobot.
-seller:It can replicate itself into as many as you plan to use.
-seller:It will eat targeted proteins and polymers and spread like the wind.
-helper:The lesser species are about to suffer a rapid decline in population.
+helper:Un trato es un trato, Gebbo.
+badcop:Si, danos tus nanobots.
+seller:Por esto te dare Mambas Azules. El mejor!
+badcop:Noice! Las Mambas Azules se comen las estaciones en segundos.
+badcop:El jefe estara encantado.
+seller:¡No puedo creer que la hayas encontrado para mi!
+badcop:Toda nuestra flota fue enviada a buscarlo.
+helper:No escatimamos en gastos por usted, Sr. Gebbo.
+seller:Los restos momificados de la ultima reina de Bop!
+helper:Su sospecha era correcta, Sr. Gebbo.
+seller:¡Escondida en la nebulosa Badlands despues de la batalla de Jowe!
+seller:¡Lo sabia!
+seller:Ven conmigo y te dare un nanobot.
+seller:Puede replicarse a si mismo tantas veces como planee usar.
+seller:Comera proteinas y polimeros especificos y se propagara como el viento.
+helper:Las especies inferiores estan a punto de sufrir una rapida disminucion de su poblacion
 helper:Muhaha.
-badcop:Let's go already.
-badcop:It smells like unwashed human in these caves.
-helper:Lead the way, Mr Gebbo. 
+badcop:Vamonos de una vez.
+badcop:Huele a sucio humano en estas cuevas.
+helper:Adelante, Sr. Gebbo. 
 
 }
 

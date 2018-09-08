@@ -17,22 +17,22 @@ split right
 
 dialogue
 {
-bosscape:It is done.
-bosscape:He didn't even know he delivered the bomb.
-helper2:Excellent! We can now persuade the council to hunt him down.
-bosscape:Right! Soon they'll have his picture all over the TV news.
-helper2:Once they see the prophecy is invalid, our agenda will be carried forward.
-helper:Why didn't we blow just him up?
-helper:I liked that system!
-helper2:It was just a mining system, lousy with humans.
-helper:but it had character.
-bosscape:What is one system? we are trying to take the galaxy.
-bosscape:We can each have our own planet.
-helper:Really? I will call mine..
+bosscape:Ya esta hecho.
+bosscape:Ni siquiera sabia que habia entregado la bomba.
+helper2:¡Excelente! Ahora podemos persuadir al consejo para que lo persiga.
+bosscape:¡De acuerdo! Pronto tendran su foto en todos los noticieros de TV.
+helper2:Una vez que vean que la profecia es invalida, nuestra agenda se llevara a cabo.
+helper:Por que no lo volamos?
+helper:Me gustaba ese sistema!
+helper2:Era solo un sistema minero, asqueroso con humanos.
+helper:pero tenia caracter.
+bosscape:Que es un sistema? Estamos tratando de tomar la galaxia.
+bosscape:Cada uno puede tener su propio planeta.
+helper:En serio? Llamare al mio..
 helper:..Ultimo Prime.
-bosscape:Shut it.
-helper2:This plan is sound. Falcon is now an outlaw.
-bosscape:Falcon is toast.
+bosscape:Callate.
+helper2:Este plan es solido. Falcon es ahora un forajido.
+bosscape:Falcon esta frito.
 }
 
 sounds

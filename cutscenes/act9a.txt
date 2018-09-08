@@ -24,32 +24,32 @@ Fore,data/stations\drinkdroids/drinkDroidJug_36x50_2.png,200,160,facing right,vi
 
 dialogue
 {
-vas:Hi John, Hi Kent. 
-falcon:Hi Vasquez!
-Kent:Hi Vas. 
-Kent:I thought you might be involved with these guys.
-boss:No time for reunions!
-boss:We've done it. we've transmitted the unlock code for their shields.
-boss:They are as defenceless as us!
-falcon:That's a good thing?
-boss:We've detected their armada coming towards us.
-boss:Probably to destroy us before we release the code. but it's too late.
-vas:A quick attack now will catch them unaware. 
-boss:Head out with the rest of the fleet to destroy them.
-helper:Destroy the cleaner mothership at all costs.
-helper:All orders come from that ship.
-ktafly:Our drunken informant is correct, Mr Falcon.
-ktafly:If we Knock out the mothership...
-ktafly:...No more council, no more world destroying nano tech.
-falcon:What are our chances then, Mr Robot.
-boss:I calculate we have a 70% percent probability... of failure.
-Kent:Wrong.
-boss:We launch Immediately. I'm boarding my ship right now.
-boss:They'll be splitting in any minute now.
-boss:You still up for it?
-vas:If you need a engineer, I can jump in with you.
-Kent:Great! Just like old times.
-falcon:Sure, let's do this.
+vas:Hola, John. Hola, Kent.
+falcon:Hola Vasquez!
+Kent:Hola Vas. 
+Kent:Pense que podrias estar involucrado con estos tipos.
+boss:¡No hay tiempo para reuniones!
+boss:Lo hemos hecho. Hemos transmitido el codigo de desbloqueo de sus escudos.
+boss:¡Son tan indefensos como nosotros!
+falcon:Eso es algo bueno?
+boss:Hemos detectado que su armada viene hacia nosotros.
+boss:Probablemente para destruirnos antes de que liberemos el codigo. Pero es demasiado tarde.
+vas:Un ataque rapido ahora les cogera desprevenidos. 
+boss:Vayan a destruirlos con el resto de la flota.
+helper:Destruye la nave nodriza a toda costa.
+helper:Todas las ordenes vienen de esa nave.
+ktafly:Nuestro informante borracho tiene razon, Sr. Falcon.
+ktafly:Si destruimos la nave nodriza...
+ktafly:...No mas consejos, no mas mundos destruyendose con nanotecnologia.
+falcon:Cuales son nuestras posibilidades entonces, Sr. Robot?
+boss:Calculo que tenemos un 70% de probabilidad... de fracaso.
+Kent:Error..
+boss:Lanzamos inmediatamente. Estoy abordando mi nave ahora mismo.
+boss:Se separaran en cualquier momento.
+boss:Todavia estas listo para eso?
+vas:Si necesitas un ingeniero, puedo saltar contigo.
+Kent:¡Genial! Como en los viejos tiempos.
+falcon:Claro, hagamoslo.
 }
 
 
@@ -60,6 +60,6 @@ stationary
 
 text
 {
-Act IX: The End
+Acto IX: El fin
 }
 

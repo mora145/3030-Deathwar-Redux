@@ -18,22 +18,22 @@ Shuttleforefloat,data/stations\drinkdroids/floaterholo_36x50_2.png,28,100,facing
 
 dialogue
 {
-ktafly:It appears falcon is progressing well.
-ktafly:I may have started to believe this wild legend.
-cjisri:It's that hat. It's a good one.
-cjisri:Why can't we just tell him the location of the base?
-ktafly:That rule on slow disclosure has saved us many times.
-Rich:Like when they sent those fake droids.
-cjisri:Oh Yeah. With those pestilent organic endoskeletons.
-ktafly:Don't remind me.
-ktafly:That episode cost me my best rug.
-cjisri:Sorry about that... the flamethrower had no power control.
+ktafly:Parece que el halcon esta progresando bien.
+ktafly:Puede que haya empezado a creer esta salvaje leyenda.
+cjisri:Es ese sombrero. Es uno bueno.
+cjisri:Por que no podemos simplemente decirle la ubicacion de la base?
+ktafly:Esa regla sobre la lentitud en la divulgacion nos ha salvado muchas veces.
+Rich:Como cuando enviaron a esos droides falsos.
+cjisri:Oh si. con esos pestilentes endoesqueletos organicos.
+ktafly:No me lo recuerdes.
+ktafly:Ese episodio me costo mi mejor alfombra.
+cjisri:Lo siento por eso... el lanzallamas no tenia control de energia.
 ktafly:Hmmm.
-cjisri:Anyway...
-cjisri:If he does find the base then it proves he's a good asset.
-cjisri:An asset that will lead to the destruction of the council.
-ktafly:Perhaps yes, perhaps no. 
-cjisri:Perhaps yes, Fly man.
+cjisri:De todos modos...
+cjisri:Si encuentra la base, entonces eso prueba que es un buen activo.
+cjisri:Un activo que llevara a la destruccion del consejo.
+ktafly:Tal vez si, tal vez no. 
+cjisri:Tal vez si, hombre volador
 }
 
 animation

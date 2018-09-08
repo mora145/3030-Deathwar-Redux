@@ -23,19 +23,19 @@ out
 
 dialogue
 {
-Falconsmall:Scans show a small campsite on the planet.
-Falconsmall:Nice work setting up the launch mechanism, Kent.
-Kentsmall:Thanks, Chief. But I still don't like Pods.
-Kentsmall:Parachute fails, and splat! Very dangerous.
-Falconsmall:I know, but it has special jamming equipment.
-Falconsmall:You can land the ship undetected after I get down there.
-Kentsmall:So you're just investigating what that cop is up to?
-Falconsmall:Right. I just find out what's going on down there.
-Kentsmall:Spy mission! In and out, clean. Like the old days.
-Kentsmall:Strap in, Re-entry is a wild ride. 
-Kentsmall:Heatsheild fails, and sizzle! Very dangerous.
-Kentsmall:Unless you're a robot with a great cooling system, like me.
-Falconsmall:Shut up, Kent.
+Falconsmall:Los escaneres muestran un pequeno campamento en el planeta.
+Falconsmall:Buen trabajo montando el mecanismo de lanzamiento, Kent.
+Kentsmall:Gracias, Jefe. Pero aun no me gustan las capsulas.
+Kentsmall:¡El paracaidas falla y se desploma! Es muy peligroso.
+Falconsmall:Lo se, pero tiene un equipo especial de interferencia.
+Falconsmall:Puedes aterrizar la nave sin ser detectado despues de que yo baje.
+Kentsmall:Asi que solo estas investigando lo que esta tramando ese policia?
+Falconsmall:Cierto. Acabo de averiguar que esta pasando ahi abajo.
+Kentsmall:¡Mision de espionaje! Dentro y fuera, limpio. Como en los viejos tiempos.
+Kentsmall:Ponte el cinturon, la reentrada es un recorrido salvaje.
+Kentsmall:¡El escudo termico falla y arde! Es muy peligroso.
+Kentsmall:A menos que seas un robot con un gran sistema de refrigeracion, como yo.
+Falconsmall:Callate, Kent.
 }
 
 text

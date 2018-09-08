@@ -17,35 +17,35 @@ guy3,data/stations/standing_at_bar/kryto_50x108_4.png,35,325,facing right,visibl
 
 dialogue
 {
-ktafly:We're attempting to cull the bad side of the council.
-ktafly:People still think the taoists are bad people after all the propaganda.
-ktafly:We will probably disband.
-ktafly:We've cleared your criminal record by the way.
-falcon:Sound.
-ktafly:Once the nano threat has been explained the council will re-allow access to the planets.
-ktafly:More will be made habitable again. We can start a-fresh.
-boss:We owe you a great deal of gratitude. 
-boss:As a small token we have credited your account with a substantial amount of money.
-falcon:Visiting a planet with life on it is reward enough. It's amazing.
-ktafly:There is one thing though, you cannot tell people of this yet.
-Falcon:Right, I can see why.
-ktafly:They must learn to understand the council was being manipulated.
-ktafly:If they are disillusioned now, the galactic council structure will break down.
-ktafly:Then there could be a deathwar.
-boss:K'ta is always looking for problems.
-ktafly:You are welcome to become one of the first settlers if you are tired of space life.
-boss:Ever considered managing a planetoid global re-construction program.
-Falcon:Yes.
-Falcon:But I expect i'll keep trading a while.
-ktafly:Well then, you will not hear from us again for some time. We have a lot to do.
-boss:Live long and prosper, Falcon.
-ktafly:One thing, why did you ever agree to keep helping us?
-Falcon:Honestly..
-Falcon:I have absolutely no idea.
+ktafly:Estamos tratando de eliminar el lado malo del consejo.
+ktafly:La gente sigue pensando que los taoistas son malas personas despues de toda la propaganda.
+ktafly:Probablemente nos disolveremos.
+ktafly:Por cierto, hemos borrado tus antecedentes penales.
+falcon:Sonido.
+ktafly:Una vez que la nano-amenaza haya sido explicada, el consejo volvera a permitir el acceso a los planetas.
+ktafly:Se haran mas habitables de nuevo. Podemos empezar de cero.
+boss:Le debemos mucha gratitud. 
+boss:Como pequena muestra hemos acreditado a su cuenta una cantidad sustancial de dinero.
+falcon:Visitar un planeta con vida es recompensa suficiente. Es asombroso.
+ktafly:Hay una cosa, sin embargo, que no se puede decir a la gente todavia.
+Falcon:Bien, puedo ver por que.
+ktafly:Deben aprender a entender que el consejo estaba siendo manipulado.
+ktafly:Si se desilusionan ahora, la estructura del consejo galactico se rompera.
+ktafly:Entonces podria haber una gran guerra.
+boss:K'ta siempre esta buscando problemas.
+ktafly:Eres bienvenido a convertirte en uno de los primeros colonos si estas cansado de la vida espacial.
+boss:Alguna vez consideraste administrar un programa de reconstruccion global de planetoides?
+Falcon:Si.
+Falcon:Pero espero seguir intercambiando por un tiempo.
+ktafly:Bueno, entonces, no volveras a saber de nosotros por algun tiempo. Tenemos mucho que hacer.
+boss:Larga y prospera vida, Falcon.
+ktafly:Una cosa, por que aceptaste seguir ayudandonos?
+Falcon:Honestamente..
+Falcon:No tengo ni la menor idea.
 }
 
 text
 {
-Act X: The Beginning
+Acto X: El Comienzo
 }
 

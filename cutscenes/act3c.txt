@@ -16,25 +16,25 @@ stationary stars
 
 dialogue
 {
-cjisri:What were the elders thinking of with such a dangerous scheme?
-cjisri:Nanos are one thing, but forcing a supernova?! A thousand people are dead!
-ktafly:I doubt the elders did this...
-ktafly:...this smells like the work of F'Zuh.
-ktafly:Do you have any information about the device?
-cjisri:Unfortunately, yes. 
-cjisri:A package was delivered by John Falcon a few minutes before the explosion.
-ktafly:Is the prophecy coming to pass? I'm suspicious of this whole thing.
-ktafly:It seems F'zuh will stop at nothing. 
-ktafly:It was not falcon's fault. He did not know.
-ktafly:I am reliably informed he is a pawn in all of this. 
-ktafly:He cannot know, it will devastate him.
-cjisri:I understand. But what shall we do now?
-cjisri:Shall we contact falcon?
-ktafly:Not yet. I'll talk to a few people and see what we can do.
-ktafly:Get in contact with him when I give you the signal.
-ktafly:For now I hope he can survive on his own.
-cjisri:Yes, when he is ready and has some more combat experience...
-cjisri:...we can contact him again.
+cjisri:En que pensaban los ancianos con un plan tan peligroso?
+cjisri:Los nano son una cosa, pero forzar una supernova? ¡Mil personas han muerto!
+ktafly:Dudo que los ancianos hicieran esto...
+ktafly:...esto huele como un trabajo de F'Zuh.
+ktafly:Tiene alguna informacion sobre el dispositivo?
+cjisri:Desafortunadamente, si. 
+cjisri:John Falcon entrego un paquete unos minutos antes de la explosion.
+ktafly:Se cumple la profecia? Sospecho de todo esto.
+ktafly:Parece que F'zuh no se detendra ante nada. 
+ktafly:No fue culpa de Falcon. el no lo sabia. 
+ktafly:Estoy informado de que es un peon en todo esto.
+ktafly:No puede saberlo, lo devastaria.
+cjisri:Lo entiendo. Pero que haremos ahora?
+cjisri:Deberiamos contactar con Falcon?
+ktafly:Todavia no. Hablare con algunas personas y vere que podemos hacer.
+ktafly:Ponte en contacto con el cuando te de la senal.
+ktafly:Por ahora espero que pueda sobrevivir por su cuenta.
+cjisri:Si, cuando este listo y tenga mas experiencia en combate...
+cjisri:...podemos contactarlo de nuevo.
 }
 
 sounds

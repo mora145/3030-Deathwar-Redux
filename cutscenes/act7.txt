@@ -14,25 +14,25 @@ badcop,data/stations/special characters/bigCopAlien1_80x130_4.png,143,142,facing
 
 dialogue
 {
-bosscape:The situation is becoming intolerable.
-helper:You mean the lack of seating in these ships?
-bosscape:No! The human and the rest of them.
-helper:Yes, we should never have halted the extermination of these pathetic species.
-bosscape:Quite. Falcon is the key. He must be expunged.
-bosscape:The elders still prefer to force the council police to do our dirty work.
-helper:With the backing of the rebels, the prophecy is becoming self fulfilling.
-badcop:What if we make it look like an accident?
-badcop:With these ships we could split into him whilst cloaked. Boom!
-helper:Yes. It would make it look like an unfortunate collision with a comet. 
-bosscape:We must not risk giving away our fleet's location yet.
-bosscape:The so called taoists are planning something.
-bosscape:Let us arrange another little explosion for Falcon.
-helper:Our probes are seeking him out now, won't be long until they find him.
+bosscape:La situacion se esta volviendo intolerable.
+helper:Te refieres a la falta de asientos en estas naves?
+bosscape:¡No! El humano y el resto de ellos.
+helper:Si, nunca debimos detener el exterminio de estas pateticas especies.
+bosscape:Absolutamente. Falcon es la clave. Debe ser borrado.
+bosscape:Los ancianos aun prefieren obligar a la policia del consejo a hacer nuestro trabajo sucio.
+helper:Con el respaldo de los rebeldes, la profecia se esta cumpliendo por si misma.
+badcop:Y si lo hacemos parecer un accidente?
+badcop:Con estas naves podriamos dividirnos en el mientras estamos camuflados. ¡Boom!
+helper:Si. Haria que pareciera una desafortunada colision con un cometa. 
+bosscape:No debemos arriesgarnos a revelar la ubicacion de nuestra flota todavia.
+bosscape:Los llamados taoistas estan planeando algo.
+bosscape:Arreglemos otra pequena explosion para Falcon.
+helper:Nuestras sondas lo estan buscando ahora mismo, no tardaran en encontrarlo.
 }
 
 text
 {
-Act VII: Who Am I?
+Acto VII: Quien soy yo?
 }
 
 animation

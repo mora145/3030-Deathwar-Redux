@@ -23,14 +23,14 @@ out
 
 dialogue
 {
-Falconsmall:Scans show the final enemy ship is down on the planet.
-Kentsmall:Right. Time for a Surprise attack.
-Falconsmall:I'll re-enter the atmosphere and parachute down.
-vassmall:I'll land our ship in front of theirs after the pod lands.
-Kentsmall:And I'll lock the lift and guard the ship.
-Falconsmall:Right. See you planetside, guys.
-vassmall:Good Luck.
-Kentsmall:Good Luck, Chief.
+Falconsmall:Los escaneres muestran que la ultima nave enemiga esta en el planeta.
+Kentsmall:Cierto. Es hora de un ataque sorpresa.
+Falconsmall:Volvere a entrar en la atmosfera y bajare en paracaidas.
+vassmall:Aterrizare nuestra nave frente a la de ellos despues de que aterrice la capsula.
+Kentsmall:Yo cerrare el ascensor y vigilare la nave.
+Falconsmall:Bien. Nos vemos en el planeta, chicos.
+vassmall:Buena Suerte.
+Kentsmall:Buena suerte, jefe.
 }
 
 text

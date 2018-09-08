@@ -22,24 +22,24 @@ stationary stars
 
 dialogue
 {
-ktafly:Have you seen the news reports?
-cjisri:yes. As the last person to leave Daphice...
-cjisri:...Falcon's face is on every TV in the trader bars.
-ktafly:He is being set up as the prophecy.
-cjisri:He does have a great hat!
-ktafly:You've lost me.
-cjisri:Never mind.
-vas:I didn't join you to be on the losing side.
-vas:Let's act.
-vas:A new wave of deadly nanos could appear any time now and it's game over.
-ktafly:Yes. We will have to intervene soon.
-ktafly:Contact Falcon as soon as you can.
-cjisri:I will get in touch with him when the time is right.
+ktafly:Has visto las noticias?
+cjisri:si. Como la ultima persona en dejar Daphice...
+cjisri:...la cara de Falcon esta en todas las TVs de los bares.
+ktafly:el esta siendo erigido como la profecia.
+cjisri:¡Tiene un gran sombrero!
+ktafly:Me has perdido.
+cjisri:No importa.
+vas:No me uni a ti para estar en el lado perdedor.
+vas:Vamos a actuar.
+vas:Una nueva ola de nanos mortales podria aparecer en cualquier momento y se acabo el juego.
+ktafly:Si. Tendremos que intervenir pronto.
+ktafly:Contacta con Falcon tan pronto como puedas.
+cjisri:Me pondre en contacto con el cuando sea el momento adecuado.
 }
 
 text
 {
-act IV: THE FOUR CORNER STONES
+acto IV: LAS CUATRO PIEDRAS DE LAS ESQUINAS
 }
 
 sounds

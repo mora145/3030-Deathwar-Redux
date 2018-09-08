@@ -12,41 +12,41 @@ goon,data/stations/special characters/suitPaper2_50x108_4.png,140,151,facing rig
 
 dialogue
 {
-goon:This paper is crap.
-boss:Why buy it then? 
-boss:I'm surrounded by idiots.
-helper:Excuse me Sir..
-boss:Pass your time with something not so crap.
-goon:Nah. Keeps me informed.
-boss:Misinformed.
-goon:It is what it is.
-helper:Captain..
-helper:A salvager is still hanging around.
-boss:Aaaar fucking Spacers. Looting my derelicts. 
-boss:These guys are busting my fucking balls.
-helper:His name is Falcon.. John Falcon.
-goon:We warned him off, but are not sure if he's hunting the Largo.
-boss:Let's not risk it. Take him out.
-boss:It not all about the Largo anyway, it's about my reputation.
-boss:You do it, you're not busy.
-goon:Me? Why me?
-boss:You said, "It is what it is."
-boss:I fucking hate that phrase.
-boss:Meaningless.
-goon:Ok sure. I'll wait for him outside a station...
-goon:...and BAM!!! 
-goon:Right up his shitter!
-helper:If we're lucky Falcon won't be armed.
-boss:Report back to me when it's done.
-goon:Righto.
-helper:Aye Sir. 
-helper:In 5 minutes, John Falcon will die.
+goon:Este periodico es una mierda.
+boss:Por que lo compraste entonces?
+boss:Estoy rodeado de idiotas.
+helper:Disculpe, senor.
+boss:Pasa el tiempo con algo no tan malo.
+goon:Nah. Me mantiene informado.
+boss:Mal informado.
+goon:Es lo que es.
+helper:Capitan...
+helper:Un rescatador todavia esta por aqui.
+boss:Aaaar Malditos espaciales. Saqueando mis abandonados.
+boss:Estos tipos me estan rompiendo las pelotas.
+helper:Su nombre es Falcon... John Falcon.
+goon:Le advertimos, pero no estamos seguros de que este cazando al Largo.
+boss:No nos arriesguemos. Llevatelo a pasear.
+boss:No todo se trata del Largo, se trata de mi reputacion.
+boss:Hazlo, no estas ocupado.
+goon:Yo? Por que yo?
+boss:Dijiste: "Es lo que es".
+boss:Odio esa frase.
+boss:No tiene sentido.
+goon:Ok seguro. Le esperare fuera de una estacion...
+goon:...y BAM!!! 
+goon:¡Metete en su cagadero!
+helper:Si tenemos suerte, Falcon no estara armado.
+boss:Informame cuando este hecho.
+goon:De acuerdo.
+helper:Si, senor.
+helper:En 5 minutos, John Falcon morira.
 
 }
 
 text
 {
-The Hit
+El golpe
 }
 
 sounds

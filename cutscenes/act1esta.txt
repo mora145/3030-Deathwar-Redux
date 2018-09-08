@@ -21,14 +21,14 @@ in
 
 dialogue
 {
-helper:You asked to see us, Sir?:data/voice/act1esta/a.wav
-goon:What's on the agenda, Boss?:data/voice/act1esta/c.wav
-boss:The Largo of course!:data/voice/act1esta/d.wav
+helper:Queria verme, senor?:data/voice/act1esta/a.wav
+goon:Que hay en la agenda, Jefe?:data/voice/act1esta/c.wav
+boss:¡El Largo, por supuesto!:data/voice/act1esta/d.wav
 }
 
 text
 {
-ACT I: The Largo Cargo
+ACTO I: El carguero de Largo
 }
 
 animation

@@ -17,37 +17,37 @@ split right
 
 dialogue
 {
-helper2:sir, I have a report from one of my sources...
-helper2:...that k'ta fly has been receiving help from a trader.
-bossOnbike:His name?
+helper2:Senor, tengo un informe de una de mis fuentes....
+helper2:...que la mosca k'ta ha estado recibiendo ayuda de un comerciante.
+bossOnbike:Su nombre?
 helper2:john falcon.
-bossOnbike:what?
-helper2:I didn't believe it myself.
-helper:A Falcon is a bird, right?
-bossOnbike:We won't see the end of this prophecy. 
-bossOnbike:they must of heard of this guy.
-helper:Because a Falcon is a bird, right?
-helper2:The elders on the council still love the legends.
-bossOnbike:Yes they do.
-helper2:it's the only reason they aren't continuing the cleaner attack plans.
-helper:I'm going to assume a Falcon is a bird.
-bossOnbike:then perhaps this offers us an opportunity.
-helper2:how so?
-bossOnbike:if the council believes this john falcon is a legendary whatever... 
-bossOnbike:...then they will be pleased to hear of his death.
-helper:Like poor Jeff Eagle.
-bossOnbike:yes, it worked last time.
-helper2:but he's just a human, why think he's the one told of in legend?
-bossOnbike:Stop with the incessant bloody questions.
-bossOnbike:Always questions!
-helper2:you have a plan?
-bossOnbike:I surely do. Get my ship ready.
-helper:Aye, sir.
+bossOnbike:Que?
+helper2:Yo mismo no lo creia.
+helper:Un Falcon es un pajaro, verdad?
+bossOnbike:No veremos el final de esta profecia. 
+bossOnbike:Deben haber oido hablar de este tipo.
+helper:Porque un Falcon es un pajaro, verdad?
+helper2:Los ancianos del consejo aun aman las leyendas.
+bossOnbike:Si, lo hacen.
+helper2:es la unica razon por la que no continuan con los planes de ataque de los limpiadores.
+helper:Voy a asumir que un Falcon es un pajaro.
+bossOnbike:entonces quizas esto nos ofrezca una oportunidad.
+helper2:como es eso?
+bossOnbike:si el consejo cree que este John Falcon es un legendario... 
+bossOnbike:...entonces estaran encantados de saber de su muerte.
+helper:Como el pobre Jeff Eagle.
+bossOnbike:Si, funciono la ultima vez.
+helper2:pero es solo un humano, por que crees que es el que se cuenta en la leyenda?
+bossOnbike:Basta de preguntas incesantes y sangrientas.
+bossOnbike:¡Siempre preguntas!
+helper2:Tienes un plan?
+bossOnbike:Por supuesto que si. Prepara mi nave.
+helper:Si, senor.
 }
 
 text
 {
-act III: the plot
+acto III: La trama
 }
 
 sounds
