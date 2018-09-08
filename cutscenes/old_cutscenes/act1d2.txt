@@ -14,12 +14,12 @@ noise,data/stations/standing_at_bar/zoidman1_50x130_4.png,30,230,facing right,in
 
 dialogue
 {   
-helper:I'll get a mop.
+helper:Traere un trapeador.
 }
 
 text
 {
-..one graphic animation later
+...una animacion grafica despues
 }
 
 sounds

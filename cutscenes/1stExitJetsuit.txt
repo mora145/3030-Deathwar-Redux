@@ -17,12 +17,12 @@ out
 
 dialogue
 {
-Falconsmall:What do you think, Kent?
-Kentsmall:Cool! You down graded to a Jetsuit.
-Kentsmall:Going junk shooting huh? Good call.
-Kentsmall:I want to go question Officer Grah about this business.
-Falconsmall:Ok sure. See you around, Kent.
-Kentsmall:Good Luck, Chief.
+Falconsmall:Que opinas, Kent?
+Kentsmall:¡Genial! Has bajado de categoria a un traje de neopreno.
+Kentsmall:Vas a disparar basura? Buena decision.
+Kentsmall:Quiero ir a interrogar al oficial Grah sobre este asunto.
+Falconsmall:Ok seguro. Nos vemos, Kent.
+Kentsmall:Buena suerte, jefe.
 }
 
 text

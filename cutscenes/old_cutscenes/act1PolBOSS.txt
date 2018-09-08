@@ -13,28 +13,28 @@ pofficer,data/stations/police/police4_50x108_5.png,260,145,facing left,visible
 dialogue
 {
 
-pboss:This is not going to end well.:data/voice/act1PolBOSS/p1.wav
-pofficer:Shall we...:data/voice/act1PolBOSS/c1.wav
-pofficer:...get prepared?:data/voice/act1PolBOSS/c2.wav
-pofficer:Call for a SWAT team from HBE?:data/voice/act1PolBOSS/c3.wav
-pboss:Let's play it lighty for now.:data/voice/act1PolBOSS/p2.wav
-pofficer:Word will already be getting out about the Largo...:data/voice/act1PolBOSS/c4.wav
-pofficer:...and all these stolen ships flooding Andinti...:data/voice/act1PolBOSS/c5.wav
-pboss:I know. It's no coincidence.:data/voice/act1PolBOSS/p3.wav
-pboss:Getting us to impound half of the indie salvager's ships...:data/voice/act1PolBOSS/p4.wav
-pboss:...just when the biggest prize is up for grabs.:data/voice/act1PolBOSS/p5.wav
-pboss:It's a smart move.:data/voice/act1PolBOSS/p6.wav
-pofficer:Any ideas on who planned it?:data/voice/act1PolBOSS/c6.wav
-pboss:I sure do.:data/voice/act1PolBOSS/p7.wav
-pboss:Put the word out. We'll have to pull in these stolen ships.:data/voice/act1PolBOSS/p8.wav
-pboss:But be prepared for some pissed crews.:data/voice/act1PolBOSS/p9.wav
-pboss:Expect incidents and "accidents" until that damn ship is found.:data/voice/act1PolBOSS/p10.wav
+pboss:Esto no va a terminar bien.:data/voice/act1PolBOSS/p1.wav
+pofficer:Deberiamos...:data/voice/act1PolBOSS/c1.wav
+pofficer:...que se preparen?:data/voice/act1PolBOSS/c2.wav
+pofficer:Llamar a un equipo SWAT de HBE?:data/voice/act1PolBOSS/c3.wav
+pboss:Juguemos despacio por ahora.:data/voice/act1PolBOSS/p2.wav
+pofficer:Ya se correra la voz sobre el Largo...:data/voice/act1PolBOSS/c4.wav
+pofficer:...y todas esas naves robadas inundando Andinti...:data/voice/act1PolBOSS/c5.wav
+pboss:Lo se. No es una coincidencia.:data/voice/act1PolBOSS/p3.wav
+pboss:Hacer que incautemos la mitad de las naves de salvamento independientes...:data/voice/act1PolBOSS/p4.wav
+pboss:...justo cuando el mayor premio esta en juego.:data/voice/act1PolBOSS/p5.wav
+pboss:Es un movimiento inteligente.:data/voice/act1PolBOSS/p6.wav
+pofficer:Alguna idea de quien lo planeo?:data/voice/act1PolBOSS/c6.wav
+pboss:Seguro que si.:data/voice/act1PolBOSS/p7.wav
+pboss:Corre la voz. Tendremos que atrapar estas naves robadas.:data/voice/act1PolBOSS/p8.wav
+pboss:Pero preparate para algunas tripulaciones enojadas.:data/voice/act1PolBOSS/p9.wav
+pboss:Espere incidentes y "accidentes" hasta que esa maldita nave sea encontrada.:data/voice/act1PolBOSS/p10.wav
 
 }
 
 text
 {
-Andinti Police Department
+Departamento de Policia de Andinti
 }
 
 animation

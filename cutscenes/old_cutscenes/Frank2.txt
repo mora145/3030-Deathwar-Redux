@@ -18,46 +18,46 @@ zig,data/stations/drinkdroids/drinkDroidtray2_36x50_2.png,210,140,facing left,vi
 dialogue
 {
 
-frank:Oh.. Shit. 
-frank:Hi guys!
-LingLiu:Frank you are in it deep.
-LingLiu:My crew insisted they came along.
-LingLiu:We sold our ship..
-LingLiu:..now the one we bought from you just got impounded by the police.
-guy2:Yeah man. You better start talking.
-LingLiu:They loved that ship.
-frank:I....
-LingLiu:It took me weeks to persuade them to trade it in.
-guy2:Selling stolen goods is serious.
-guy2:And selling them to us is extra serious.
-guy3:Larry is fuming.
-frank:Ok but....
-guy3:Me and Larry worked for months on that drive!
+frank:Oh... Mierda. 
+frank:Hola chicos!
+LingLiu:Frank, estas metido en esto.
+LingLiu:Mi tripulacion insistio en que vinieran.
+LingLiu:Vendimos nuestra nave..
+LingLiu:.. Ahora la que te compramos acaba de ser confiscada por la policia.
+guy2:Si, hombre. Sera mejor que empieces a hablar.
+LingLiu:Ellos amaban esa nave.
+frank:Yo...
+LingLiu:Tarde semanas en convencerlos de que la vendieran.
+guy2:Vender articulos robados es algo serio.
+guy2:Y vendernoslas es extra serio.
+guy3:Larry esta furioso.
+frank:Ok pero....
+guy3:Larry y yo trabajamos durante meses en ese viaje.
 guy4:..... ...... .. ......
-guy2:Calm down, Larry.
-frank:Ling, can I call you Ling.
-LingLiu:You can call me Captain Liu.
-zig:More Tea Captain?
-frank:Captain Liu, I can't apologise enough for this situation.
-frank:I had a bad delivery of ships.
-guy2:Not our problem.
-frank:I'm trying to help the buyers
+guy2:Calmate, Larry.
+frank:Ling, puedo llamarte Ling?
+LingLiu:Puedes llamarme Capitan Liu.
+zig:Mas Te, Capitan?
+frank:Capitan Liu, no puedo disculparme lo suficiente por esta situacion.
+frank:Tuve una mala entrega de naves.
+guy2:No es nuestro problema.
+frank:Estoy tratando de ayudar a los compradores
 guy4: ... ...... ..
 guy4: ...... ...
-guy3:Larry is getting pissed Frank.
-frank:Trust me guys, I am going to resolve this.
-LingLiu:How frank?
-frank:Well first, I have to do a job for a Slug...
-frank:..or he's literally going to kill me.
-frank:Then I'll work something out for you guys.
-LingLiu:Ok Frank, you have one orbit to sort something out.
-frank:Thanks Ling.
+guy3:Larry se esta cabreando, Frank.
+frank:Creanme chicos, voy a resolver esto.
+LingLiu:Como Frank?
+frank:Bueno, primero, tengo que hacer un trabajo para un Slug....
+frank:...o literalmente va a matarme.
+frank:Entonces se me ocurrira algo para ustedes.
+LingLiu:Bien Frank, tienes una orbita para arreglar las cosas.
+frank:Gracias Ling.
 
 }
 
 text
 {
-On a nearby station..
+En una estacion cercana.
 }
 
 music

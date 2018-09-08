@@ -14,30 +14,30 @@ dialogue
 {
 
 frank:Oh.. erm.. :data/voice/Frank1/f1.wav
-frank:Hi guys!:data/voice/Frank1/f2.wav
+frank:Hola chicos!:data/voice/Frank1/f2.wav
 slug:Frank!:data/voice/Frank1/g1.wav
-slug:A-Quan wanted to blast you up outside.:data/voice/Frank1/g2.wav
-frank:For real? Why?:data/voice/Frank1/f3.wav
-slug:Guess.:data/voice/Frank1/g3.wav
-frank:Because...:data/voice/Frank1/f4.wav
-frank:I sold you a stolen ship?:data/voice/Frank1/f5.wav
+slug:A-Quan queria volarte por los aires..:data/voice/Frank1/g2.wav
+frank:De verdad? Por que?:data/voice/Frank1/f3.wav
+slug:Adivina.:data/voice/Frank1/g3.wav
+frank:Porque...:data/voice/Frank1/f4.wav
+frank:Te vendi una nave robada?:data/voice/Frank1/f5.wav
 slug:Bingo Bango Frank.:data/voice/Frank1/g4.wav
-slug:We want a total refund, don't we A-Quan?:data/voice/Frank1/g5.wav
-aquan:Right.:data/voice/Frank1/aq1.wav
-slug:Or next time you launch...:data/voice/Frank1/g6.wav
-aquan:I'm blasting you up.:data/voice/Frank1/aq2.wav
-frank:Ok listen. :data/voice/Frank1/f6.wav
-frank:I got a bad delivery of ships.:data/voice/Frank1/f7.wav
-frank:I'm not going to lie, I messed up big time.:data/voice/Frank1/f8.wav
-frank:I'm trying to help the buyers as best I can.:data/voice/Frank1/f9.wav
-frank:Trust me, I'll fix this!:data/voice/Frank1/f10.wav
-slug:You will, and I am going to tell you how.:data/voice/Frank1/g7.wav
-frank:Aw man, you want me to go back in the cage??:data/voice/Frank1/f11.wav
-frank:I'm totally retired! :data/voice/Frank1/f12.wav
-frank:I'm not in shape!:data/voice/Frank1/f13.wav
-frank:I'm totally not in shape!:data/voice/Frank1/f14.wav
-slug:Back in the cage.:data/voice/Frank1/g8.wav
-slug:You'll fight for me now Frank.:data/voice/Frank1/g9.wav
+slug:Queremos un reembolso total, no es asi, A-Quan?:data/voice/Frank1/g5.wav
+aquan:Cierto.:data/voice/Frank1/aq1.wav
+slug:O la proxima vez que despegues...:data/voice/Frank1/g6.wav
+aquan:Te hare explotar.:data/voice/Frank1/aq2.wav
+frank:Bien escuchame.:data/voice/Frank1/f6.wav
+frank:Tengo una mala entrega de naves.:data/voice/Frank1/f7.wav
+frank:No voy a mentir, la he cagado a lo grande.:data/voice/Frank1/f8.wav
+frank:Trato de ayudar a los compradores lo mejor que puedo.:data/voice/Frank1/f9.wav
+frank:Confia en mi, arreglare esto.!:data/voice/Frank1/f10.wav
+slug:Lo haras, y voy a decirte como.:data/voice/Frank1/g7.wav
+frank:Quieres que vuelva a la jaula?:data/voice/Frank1/f11.wav
+frank:¡Estoy totalmente retirado! :data/voice/Frank1/f12.wav
+frank:¡No estoy en forma!:data/voice/Frank1/f13.wav
+frank:¡No estoy en forma!:data/voice/Frank1/f14.wav
+slug:De vuelta a la jaula.:data/voice/Frank1/g8.wav
+slug:Ahora pelearas por mi, Frank.:data/voice/Frank1/g9.wav
 
 }
 

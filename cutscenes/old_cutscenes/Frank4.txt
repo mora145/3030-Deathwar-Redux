@@ -13,56 +13,56 @@ bip,data/stations/drinkdroids/drinkDroidtray_36x50_2.png,250,162,facing left,vis
 dialogue
 {
 
-frank:Matti, I've been looking everywhere for you.
-frank:I got serious problems.
-matti:Mechanic business not treating you well huh?
-frank:I branched out last year...
-frank:...started selling ships.
-matti:I don't remember this.
-matti:Are you sure?
-frank:No time for that..
-matti:Are you sure?
-frank:Stop messing, I got serious problems.
-matti:Gee man, you are serious.
-bip:Can I offer you a drink Mr Zoed.
-frank:No thanks.
-bip:No problem.
-matti:What is it?
-frank:I bought about ten ships from a guy who..
-matti:Turned out to be a criminal?
-frank:Yup. 
-frank:Now I'm balls deep.
-frank:I sold five before I found out.
-frank:Used the money to pay off my debts.
-frank:So I can't refund anyone.
+frank:Matti, te he estado buscando por todas partes.
+frank:Tengo serios problemas.
+matti:El negocio mecanico no te trata bien, eh?
+frank:Me independice el ano pasado...
+frank:...empece a vender naves.
+matti:No recuerdo eso.
+matti:Estas seguro de eso?
+frank:No hay tiempo para eso..
+matti:Estas seguro?
+frank:Deja de fastidiar, tengo serios problemas.
+matti:Cielos, hablas en serio.
+bip:Puedo ofrecerle un trago, Sr. Zoed?
+frank:No, gracias.
+bip:No hay problema.
+matti:Que es esto?
+frank:Le compre unas diez naves a un tipo que..
+matti:Resulto ser un criminal?
+frank:Sip.
+frank:Ahora tengo las pelotas hasta el fondo.
+frank:Vendi cinco antes de descubrirlo.
+frank:Use el dinero para pagar mis deudas.
+frank:Asi que no puedo reembolsarle a nadie.
 bip:Hehehehe.
-matti:Oh man!
-frank:It gets worse.
-frank:One of them I sold to Gebbo.
-matti:Shit bro! Not Gebbo, the slug?
-matti:A-Quan is gonna crush your bones bro!
+matti:Oh hombre!
+frank:Se pone peor.
+frank:Uno de ellos se lo vendi a Gebbo.
+matti:¡Mierda hermano! No es Gebbo, la babosa?
+matti:¡A-Quan va a aplastar tus huesos, hermano!
 bip:Hehehehe.
 bip:Hehehe.
-bip:Sorry.
-matti:Oh wait..
-matti:He wants you back in the cage for him, right?
-frank:And I'm not in shape for that.
-matti:You're totally not in shape for that.
-frank:I need one of your Matti plans bro.
-frank:I need the old equaliser.
-matti:I retired from the private investigatin' business.
-frank:Like I retired from cage fighting, shit happens bro.
+bip:Lo siento.
+matti:Oh espera..
+matti:Quiere que vuelvas a la jaula para el, verdad?
+frank:Y no estoy en forma para eso.
+matti:No estas en forma para eso.
+frank:Necesito uno de tus planes Matti, hermano.
+frank:Necesito el viejo ecualizador.
+matti:Me retire del negocio de la investigacion privada.
+frank:Como si me hubiera retirado de las peleas en jaulas, la mierda pasa, hermano.
 matti:Hmmm. 
-frank:Serious problems bro.
-matti:You're lucky I am already drunk today.
-matti:Buy me a beer and lets discuss it.
-matti:Looks like I've got a new case.
+frank:Serios problemas, hermano.
+matti:Tienes suerte de que ya este borracho hoy.
+matti:Comprame una cerveza y hablemos de ello.
+matti:Parece que tengo un nuevo caso.
 
 }
 
 text
 {
-Somewhere, this is going on
+En algun lugar, esto esta pasando
 }
 
 music

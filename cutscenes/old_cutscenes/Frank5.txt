@@ -14,22 +14,22 @@ LingLiu,data/stations/special characters/Liu1_50x108_4.png,190,140,facing left,v
 dialogue
 {
 
-LingLiu:I think we should go for it.
-guy2:I agree, it's worth the risk.
-LingLiu:It has to be the Largo.
-LingLiu:We've found it for sure.
-guy2:Yes, lets take the loan and get a replacement ship.
-guy2:We can't lose any more time to the others.
-LingLiu:Indeed.
-LingLiu:We'll find it.
-LingLiu:Soon we will be able to buy our own station.
+LingLiu:Creo que deberiamos ir a por ello.
+guy2:Estoy de acuerdo, vale la pena el riesgo.
+LingLiu:Tiene que ser el Largo.
+LingLiu:Lo hemos encontrado de seguro.
+guy2:Si, tomemos el prestamo y consigamos una nave de reemplazo.
+guy2:No podemos perder mas tiempo con los demas.
+LingLiu:De veras.
+LingLiu:Lo encontraremos.
+LingLiu:Pronto podremos comprar nuestra propia estacion.
 
 
 }
 
 text
 {
-In a nearby station bar..
+En un bar cercano a la estacion..
 }
 
 music

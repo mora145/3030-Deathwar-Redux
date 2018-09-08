@@ -20,48 +20,48 @@ zig,data/stations/drinkdroids/drinkDroidFF_36x50_2.png,335,138,facing left,visib
 
 dialogue
 {
-guy3:It's sad really.
-cop:Come on Frank...
+guy3:Es realmente triste.
+cop:Vamos Frank...
 frank:No!
-guy3:Shoot him!
-cop:Everyone calm down.
-cop:Frank, climb back over.
-frank:I'm innocent.
-cop2:Come out from behind there!
-frank:No way.
-cop:It's just a matter of stolen goods, Frank.
-cop2:I could hit him from here.
-frank:Hey, I heard that!
-frank:I'm right here.
+guy3:¡Disparale!
+cop:Que todo el mundo se calme.
+cop:Frank, vuelve a subir.
+frank:Soy inocente.
+cop2:¡Sal de ahi detras!
+frank:De ninguna manera.
+cop:Es solo un asunto de bienes robados, Frank.
+cop2:Podria darle desde aqui.
+frank:¡Hey, escuche eso!
+frank:Estoy justo aqui.
  
-cop:We just need to question you.
-frank:I am waiting for legal advice.
-cop:Ok, whatever. We're going to go for now.
+cop:Solo necesitamos interrogarte.
+frank:Estoy esperando consejo legal.
+cop:Ok, lo que sea. Nos vamos a ir por ahora.
 cop:Ok Frank?
-cop2:Look, you've kicked out the cable on that console.
-cop2:Plug the console back in.
-cop2:Or we'll add a charge of criminal damage.
-frank:That wasn't me.
-frank:It's a system crash.
-frank:Not a data-connection issue.
-cop2:I ain't got time for this.
-cop:Let's go get some food.
-cop2:Good call.
+cop2:Mira, has echado a patadas el cable de esa consola.
+cop2:Vuelve a conectar la consola.
+cop2:O anadiremos un cargo de dano criminal.
+frank:Ese no fui yo.
+frank:Es un fallo del sistema.
+frank:No es un problema de conexion de datos.
+cop2:No tengo tiempo para esto.
+cop:Vamos a comer algo.
+cop2:Bien pensado.
 zig:
 zag: 
 zig:  
 zag:  
-cop:We'll come back later.
+cop:Volveremos mas tarde.
 guy4: ....... ... ........
-guy3:Exactly, Larry. 
-guy3:What a chump.
-frank:Trust me guys, I am going to resolve this.
+guy3:Exactamente, Larry.
+guy3:Que tonto.
+frank:Creanme chicos, voy a resolver esto.
 
 }
 
 text
 {
-Hide and seek
+Escondido y buscando
 }
 
 music

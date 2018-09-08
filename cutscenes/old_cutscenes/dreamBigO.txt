@@ -14,62 +14,62 @@ Osiris,data/stations/special characters/osiris_50x108_4.png,326,143,facing right
 dialogue
 {
 
-falcon:But I had to find the passage back.
-Osiris:Where to?
-falcon:To the place I was before.
-Osiris:Shouldn't you be worried...
-Osiris:..about your final judgement?
-falcon:Relax.
-falcon:I'm pretty balanced guy.
-falcon:I'm down with Maat. Well orderly I am.
-falcon:Got a classic ethos going on.
-Osiris:In that case wh...
-falcon:Hang on...
-falcon:How did I get here anyway?
-falcon:Also, you're a fictional character
-Osiris:No I'm not!
-falcon:Yes you are, Osiris.
-falcon:That's why you're green.
-Osiris:I'll have you know that's symbolic that is.
-Osiris:It means something... 
-Osiris:..but can't recall as you've forgotten.
-falcon:Exactly, due to the fact it's my dream.
-falcon:Whatevs big 'O'.
-falcon:Time to change this dreamscape up a notch.
-Osiris:Sweet.
-Osiris:Let's get this party started!
-falcon:Right on.
-goon:I don't know why I'm here.
-goon:Are you sure you're dreaming?
-falcon:Probably just that I met you recently.
-falcon:Hmmm, If I am really dreaming..
-falcon:Let's animate that creature.
-Osiris:Sir, you're the king here.
-Osiris:Hey creature..
-SE:Me? Chomp! chomp!
-SE:Chomp! I've got the head of a crocodile.
-SE:It's pretty sweet actually. Chomp! chomp!
-goon:Silence peripheral character.
-SE:Peripheral!!?
-SE:I chomp the hearts of the unworthy mate.
-falcon:Yeah, I remember that.
-goon:I'd like to ask...
-goon:...can I join the party?
-falcon:We're all me here, so sure.
-goon:Yeah!
-goon:Nice one me.
-Osiris:I authorise a good time!
-SE:I'm in! Chomp! chomp!
-falcon:Even for me, this is quite a weird dream.
-falcon:Sorry guys...
-falcon:..we'll have to postpone the party.
-falcon:I'm waking up.
+falcon:Pero tenia que encontrar el pasaje de vuelta.
+Osiris:Adonde?
+falcon:Al lugar donde estaba antes.
+Osiris:No deberias estar preocupado...
+Osiris:...sobre tu juicio final?
+falcon:Relajate.
+falcon:Soy un tipo bastante equilibrado.
+falcon:Estoy de acuerdo con Maat. Bueno, soy ordenado.
+falcon:Tiene un caracter clasico.
+Osiris:En ese caso que...
+falcon:Espera...
+falcon:Como llegue aqui?
+falcon:Ademas, eres un personaje ficticio
+Osiris:¡No, no lo soy!
+falcon:Si lo eres, Osiris.
+falcon:Por eso estas verde.
+Osiris:Quiero que sepas que eso es simbolico.
+Osiris:Significa algo... 
+Osiris:...pero no puedo recordarlo como lo has olvidado.
+falcon:Exactamente, debido al hecho de que es mi sueno.
+falcon:Cualquiera que sea Gran 'O'.
+falcon:Es hora de cambiar este paisaje de ensueno.
+Osiris:Dulce.
+Osiris:¡Empecemos la fiesta!
+falcon:Muy bien.
+goon:No se por que estoy aqui.
+goon:Estas seguro de que estas sonando?
+falcon:Probablemente solo que te conoci hace poco.
+falcon:Hmmm, si realmente estoy sonando..
+falcon:Vamos a animar a esa criatura.
+Osiris:Senor, usted es el rey aqui.
+Osiris:Hey criatura..
+SE:Yo? ¡Traga! ¡Traga! ¡Traga!
+SE:Chomp! Tengo la cabeza de un cocodrilo.
+SE:En realidad es bastante tierno. ¡Traga! ¡Traga!
+goon:Silencio de caracter periferico.
+SE:Periferico!!?
+SE:Me trago los corazones del companero indigno.
+falcon:Si, lo recuerdo.
+goon:Me gustaria preguntar...
+goon:Puedo unirme a la fiesta?
+falcon:Todos somos yo aqui, seguro.
+goon:¡Si!
+goon:Bien hecho, yo.
+Osiris:¡Yo autorizo un buen rato!
+SE:¡Estoy dentro! ¡Traga! ¡Traga!
+falcon:Incluso para mi, este es un sueno bastante raro.
+falcon:Lo siento chicos...
+falcon:...tendremos que posponer la fiesta.
+falcon:Me estoy despertando.
 
 }
 
 text
 {
-Just a dream: In the house of big 'O'.
+Solo es un sueno: En la casa del gran 'O'.
 }
 
 sounds

@@ -17,34 +17,34 @@ matti,data/stations/standing_at_bar/zoidman1_50x130_4.png,30,130,facing right,in
 dialogue
 {
 boss:Ah...
-boss:...so good to get back on my ship.
-helper:Aye Sir
-boss:Who's this?
-helper:A bounty hunter, Sir. 
-helper:We need more pilots.
-helper:This John Falcon might be a hard target.
-boss:Ok.
-boss:We'll deal with this Falcon.
-boss:But focus on the Largo first, tha...
-goon:Yo Mr. Boss man!
+boss:...es tan bueno volver a mi nave.
+helper:Si, senor.
+boss:Quien es este?
+helper:Un cazarrecompensas, senor. 
+helper:Necesitamos mas pilotos.
+helper:Este John Falcon podria ser un blanco dificil.
+boss:Bien.
+boss:Nos encargaremos de este Falcon.
+boss:Pero concentrate en el Largo primero, que...
+goon:¡Eh, Sr. Jefe!
 helper:Err...
-boss:Yo?
-boss:Yo?
-goon:Yo!
-boss:Yo????
-boss:I recognise you.
-boss:From D-Block.
-goon:Me?
+boss:Ey?
+boss:Ey?
+goon:Ey!
+boss:Ey?????
+boss:Yo te conozco.
+boss:Del bloque-D
+goon:Yo?
 goon:Naaah.
-helper:Oh boy.
-boss:Hold my helmet for a second.
-helper:Aye Sir.
+helper:Oh chico.
+boss:Sosten mi casco por un segundo.
+helper:Si, senor.
 
 }
 
 text
 {
-Somewhere in the Andinti System...
+En algun lugar del Sistema Andinti...
 --table,data/stations/special characters/pooltable_65_143_1.png,140,161,facing left,visible
 
 }

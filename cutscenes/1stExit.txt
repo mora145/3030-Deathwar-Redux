@@ -34,11 +34,11 @@ out
 
 dialogue
 {
-Falconsmall:Look at it. What a piece of junk!
-Kentsmall:It's ok... but I'll do my own thing for a while.
-Kentsmall:I want to go question Officer Grah about this business.
-Falconsmall:Ok sure. See you around, Kent.
-Kentsmall:Good Luck, Chief.
+Falconsmall:Miralo. ¡Que pedazo de chatarra!
+Kentsmall:Esta bien... pero hare lo mio por un tiempo.
+Kentsmall:Quiero ir a interrogar al oficial Grah sobre este asunto.
+Falconsmall:Ok seguro. Nos vemos, Kent.
+Kentsmall:Buena suerte, jefe.
 }
 
 text

@@ -17,12 +17,12 @@ in
 
 dialogue
 {
-helper:Stop right there!:data/voice/Frank1/stop1.wav
+helper:¡Detente justo ahi!:data/voice/Frank1/stop1.wav
 }
 
 text
 {
-Meanwhile, on a station nearby...
+Mientras tanto, en una estacion cercana...
 }
 
 animation
