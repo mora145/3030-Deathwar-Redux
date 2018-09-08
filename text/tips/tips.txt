@@ -1,31 +1,31 @@
-Not all upgrades are immediately available. As you become more experienced you will be given access to them.
-If you'd like to try mining then you'll need more experience to see mining related upgrades.
-When a new upgrade becomes available you'll be notified. Check out the station's upgrade list for these.
-Afterburners are a decent way of getting around quick. But be warned, they use more fuel.
-Thrusters help increase your turn speed.
-If you need to repair your ship simply dock and choose repair from the trade computer.
-Some say there are stable wormholes around but not many who use them divulge their whereabouts.
-If you like mining make sure you buy the best tractor beam. You'll yield ore quicker.
-Want to see what other ships are carrying in their holds? Buy a cargo scanner.
-In combat a lot? Buy a ship combat scanner to quickly see the opponent's shield and hull readouts.
-If you mine a lot, look into buying a range asteroid scanner.
-If you fight a lot, why not buy a shield generator.
-If you're finding engaging your split drive takes longer than you want, buy split setting upgrades.
-want to turn whilst splitting? Buy a difference computer.
-If you want fuel to last longer, why not buy a fuel manifold.
-If you're in combat a lot, why not buy an ECM upgrade to destroy missiles before they hit you.
-If you use missiles a lot, you might find the missile auto reloader handy.
-Why not buy some data discs from your local station's upgrade screen?
-Think you're not getting enough for your missions? Buy a haggle skill upgrade and you might get more.
-If you want to read some background, get a data disc at your local station.
-Tired of flying manually? Get an autopilot and let the computer take control.
-Want to know more about your fellow station dwellers? Buy a bio reader and find out.
-Always make sure you have enough fuel for your journey. You travel very slowly on an empty tank.
-Try to avoid the nebula clouds, they slow your ship down and might damage you.
-Try and learn some routes through the nebula. They might come in handy one day.
-If you have a substantial criminal record it might be an idea to find a pirate station and get it expunged.
-There are a few pirate stations littered around the systems. They show up as red stations in the map.
-Want to change your ship's registration ID? Why not? Find a pirate station and ask around.
-Sometimes a ship will drop not only its cargo but a few handy upgrades too.
-Your game is auto saved each time you dock as soon as you have no active missions.
-If you want to see where your money's going then buy a credit history upgrade from your local station.
+Los propulsores ayudan a aumentar la velocidad de giro.
+Si necesita reparar su nave, simplemente atraque y seleccione reparar desde la computadora de comercio.
+Algunos dicen que hay agujeros de gusano estables alrededor pero pocos que los usan divulgan su paradero.
+Si te gusta la mineria, asegurate de comprar el mejor rayo tractor. Tendras mas rapido el mineral.
+Quieres ver lo que otras naves llevan en sus bodegas? Compre un escaner de carga.
+En combate a menudo? Compra un escaner de combate de nave para ver rapidamente el escudo del oponente y las lecturas del casco.
+Si usted mina mucho, busque comprar un escaner de rango de asteroides.
+Si peleas mucho, por que no compras un generador de escudos?
+Si encuentra que la activacion de la unidad dividida lleva mas tiempo del que desea, compre actualizaciones de la configuracion de division.
+quieres girar mientras te alejas? Compra una computadora diferente.
+Si desea que el combustible dure mas, por que no comprar un colector de combustible?
+Si usted esta en combate a menudo, por que no comprar una actualizacion de ECM para destruir misiles antes de que le golpeen.
+Si usted usa muchos misiles, puede que encuentre util el cargador automatico de misiles.
+Por que no comprar algunos discos de datos en la pantalla de actualizacion de su estacion local?
+Crees que no estas recibiendo lo suficiente por tus misiones? Compre una actualizacion de habilidades de regateo y podria obtener mas.
+Si desea leer algun trasfondo, consiga un disco de datos en su estacion local.
+Cansado de volar manualmente? Consigue un piloto automatico y deja que el ordenador tome el control.
+Quiere saber mas sobre sus companeros de estacion? Compra un lector de biografias y averigualo.
+Asegurese siempre de tener suficiente combustible para su viaje. Viajas muy despacio con el tanque vacio.
+Intenta evitar las nubes de la nebulosa, ralentizan tu nave y podrian danarte.
+Intenta aprender algunas rutas a traves de la nebulosa. Podrian ser utiles algun dia.
+Si usted tiene un registro criminal substancial puede ser que sea una buena idea encontrar una estacion pirata y eliminarla.
+Hay algunas estaciones piratas en los sistemas. Aparecen como estaciones rojas en el mapa.
+Desea cambiar el ID de registro de su nave? Por que no? Encuentra una estacion pirata y pregunta por ahi.
+A veces una nave dejara caer no solo su carga sino tambien algunas mejoras utiles.
+Tu juego se guarda automaticamente cada vez que te acoplas tan pronto como no tengas misiones activas.
+Si quiere ver a donde va su dinero, entonces compra una actualizacion de su historial de credito en su estacion local.
+No todas las actualizaciones estan disponibles inmediatamente. A medida que vayas adquiriendo experiencia, se te dara acceso a ellas.
+Si desea probar la mineria, necesitara mas experiencia para ver las actualizaciones relacionadas con la mineria.
+Cuando una nueva actualizacion este disponible, se le notificara. Compruebe la lista de actualizaciones de la estacion.
+Los quemadores de postcombustion son una forma decente de desplazarse rapidamente. Pero ten cuidado, usan mas combustible.
