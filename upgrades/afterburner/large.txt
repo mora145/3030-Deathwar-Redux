@@ -1,4 +1,4 @@
-name=quemador de postcombustion de gran tamaño m4
+name=quemador de postcombustion de gran tamaÃ±o m4
 cost=95000
 tech lvl=0.84
 avaiable=0

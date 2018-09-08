@@ -1,8 +1,8 @@
-name=quemador de postcombustion clase pequeña m2
+name=quemador de postcombustion clase pequeÃ±a m2
 cost=7100
 tech lvl=0.22
 avaiable=1
-desc=Te da un pequeño impulso. Atajo de teclado: Mantener pulsada la tecla Ctrl. En control: Mantener LT.
+desc=Te da un pequeÃ±o impulso. Atajo de teclado: Mantener pulsada la tecla Ctrl. En control: Mantener LT.
 once=1
 mass=0
 department=after burner
