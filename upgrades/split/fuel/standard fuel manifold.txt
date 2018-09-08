@@ -1,8 +1,8 @@
-name=m2 standard fuel manifold
+name=m2 colector de combustible estandar
 cost=6300
 tech lvl=0.6
 avaiable=0
-desc=decreases fuel usage while splitting by 25%.
+desc=reduce el consumo de combustible durante la division en un 25%.
 once=1
 mass=0
 department=fuel consumption

@@ -1,8 +1,8 @@
-name=whos docking
+name=quien atracando
 cost=260
 tech lvl=0.8
 avaiable=1
-desc=allows a pilot to see who is currently docking at a selected station.
+desc=permite a un piloto ver quien esta acoplandose en ese momento en una estacion seleccionada.
 once=1
 mass=0
 department=whos docking

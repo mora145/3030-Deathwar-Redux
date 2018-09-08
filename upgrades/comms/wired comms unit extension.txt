@@ -1,8 +1,8 @@
-name=wired comms unit extension
+name=extension por cable de la unidad de comunicacion 
 cost=900
 tech lvl=0.6
 avaiable=0
-desc=increases communications range with stations by 250%.
+desc=aumenta el alcance de las comunicaciones con las estaciones en un 250%.
 once=1
 mass=0
 department=comms

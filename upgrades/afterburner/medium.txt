@@ -1,8 +1,8 @@
-name=m3 Medium Size afterburner
+name=quemador de postcombustion mediano m3
 cost=17700
 tech lvl=0.54
 avaiable=1
-desc=Gives you a medium burst of thrust. Keyboard shortcut: Hold Ctrl. On Controller: Hold LT.
+desc=Te da un impulso medio de empuje. Atajo de teclado: Mantener pulsada la tecla Ctrl. En control: Mantener LT.
 once=1
 mass=0
 department=after burner

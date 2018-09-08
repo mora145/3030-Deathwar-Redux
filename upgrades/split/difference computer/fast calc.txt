@@ -1,8 +1,8 @@
-name=m3 1 GHz difference computer
+name=m3 computadora diferencial de 1 GHz
 cost=24100
 tech lvl=0.8
 avaiable=0
-desc=enables almost immediate turning during diff-split.
+desc=permite un giro casi inmediato durante el desdoblamiento.
 once=1
 mass=0
 department=split computer

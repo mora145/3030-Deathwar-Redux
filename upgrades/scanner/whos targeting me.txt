@@ -1,8 +1,8 @@
-name=whos targeting me
+name=quien me apunta
 cost=800
 tech lvl=0.8
 avaiable=1
-desc=Allows a pilot to see who is currently targeting them.
+desc=Permite a un piloto ver quien esta apuntandolo.
 once=1
 mass=0
 department=wtargeter

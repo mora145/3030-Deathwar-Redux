@@ -1,8 +1,8 @@
-name=basic diff collapse accelerator
+name=acelerador de colapso diff basico
 cost=935
 tech lvl=0.69
 avaiable=1
-desc=slows the ship automatically after splitting.
+desc=ralentiza la nave automaticamente despues de la division.
 once=1
 mass=0
 department=collapse

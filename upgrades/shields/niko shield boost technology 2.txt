@@ -1,8 +1,8 @@
-name=m3 niko shield boost tech II
+name=m3 aceleramiento de escudo tech II
 cost=16500
 tech lvl=0.61
 avaiable=1
-desc=allows the shield computer to cycle energy faster. therefore repairing the shields 75% quicker.
+desc=permite que el ordenador del escudo haga ciclos de energia mas rapidos, reparando asi los escudos un 75% mas rapido.
 once=1
 mass=0
 department=shield recharger

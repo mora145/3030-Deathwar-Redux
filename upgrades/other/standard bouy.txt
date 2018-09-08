@@ -1,8 +1,8 @@
-name=standard buoy
+name=boya estandar
 cost=750
 tech lvl=0.5
 avaiable=1
-desc=marks a position in space. Use button on bottom right HUD, or Keyboard shortcut: B. 
+desc=marca una posicion en el espacio. Usa el boton en la parte inferior derecha del HUD, o el atajo de teclado: B. 
 once=1
 mass=0
 department=buoy

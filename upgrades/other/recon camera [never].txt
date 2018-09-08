@@ -1,8 +1,8 @@
-name=recon camera
+name=camara de reconocimiento
 cost=900
 tech lvl=0.86
 avaiable=0
-desc=Allows the capture of evidence such as ship positions, etc.
+desc=Permite la captura de pruebas tales como la posicion de las naves, etc.
 once=1
 mass=0
 department=recon camera

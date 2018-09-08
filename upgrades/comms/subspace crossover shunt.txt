@@ -1,8 +1,8 @@
-name=subspace crossover shunt
+name=derivador de cruce subespacial
 cost=300
 tech lvl=0.2
 avaiable=1
-desc=increases communications range with stations by 150%.
+desc=aumenta el alcance de las comunicaciones con las estaciones en un 150%.
 once=1
 mass=0
 department=comms

@@ -1,8 +1,8 @@
-name=advanced combat ship scanner
+name=escaner avanzado de naves de combate
 cost=5490
 tech lvl=0.4
 avaiable=1
-desc=offers a tactical readout of the target ship's shields and hull on your HUD. Target this ship to enable visual display.
+desc=ofrece una lectura tactica de los escudos y casco de la nave objetivo en su HUD. Apunta a esta nave para activar la visualizacion.
 once=1
 mass=0
 department=cbt scanner

@@ -1,8 +1,8 @@
-name=m1 civilian thruster
+name=m1 propulsor civil
 cost=1250
 tech lvl=0.1
 avaiable=1
-desc=speeds up ship turning by upgrading the thruster output by 16%.
+desc=acelera el giro de la nave al mejorando la salida de los propulsores en un 16%.
 once=1
 mass=0
 department=thruster

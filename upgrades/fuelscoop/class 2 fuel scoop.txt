@@ -1,8 +1,8 @@
-name=class 2 fuel scoop
+name=bomba de combustible clase 2
 cost=965
 tech lvl=0.84
 avaiable=1
-desc=Allows fuel to be collected more quickly from a star's corona.
+desc=Permite recolectar combustible mas rapidamente de la corona de una estrella.
 once=1
 mass=0
 department=scoop

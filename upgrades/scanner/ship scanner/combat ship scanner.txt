@@ -1,8 +1,8 @@
-name=combat ship scanner
+name=escaner de naves de combate
 cost=920
 tech lvl=0.0
 avaiable=1
-desc=offers a tactical readout of the target ship's shields and hull.
+desc=ofrece una lectura tactica de los escudos y el casco de la nave objetivo.
 once=1
 mass=0
 department=cbt scanner

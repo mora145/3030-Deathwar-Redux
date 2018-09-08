@@ -1,8 +1,8 @@
-name=m1 basic fuel manifold
+name=m1 colector de combustible basico
 cost=2300
 tech lvl=0.3
 avaiable=1
-desc=decreases fuel usage while splitting by 10%.
+desc=reduce el consumo de combustible durante la division en un 10%.
 once=1
 mass=0
 department=fuel consumption

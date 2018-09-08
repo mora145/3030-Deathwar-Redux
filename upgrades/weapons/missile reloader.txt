@@ -1,8 +1,8 @@
-name=M2 auto missile reloader
+name=M2 recargador automatico de misiles
 cost=30150
 tech lvl=0.8
 avaiable=1
-desc=auto reloads a missile after you've fired.
+desc=recarga automaticamente un misil despues de haberlo disparado.
 once=1
 mass=0
 department=missile reloader

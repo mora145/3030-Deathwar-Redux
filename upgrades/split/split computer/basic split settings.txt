@@ -1,8 +1,8 @@
-name=m1 basic split settings
+name=m1 parametrizaciones basicas de division
 cost=1800
 tech lvl=0.21
 avaiable=1
-desc=decreases split initialisation time by 40%.
+desc=reduce el tiempo de la inicializacion dividida en un 40%.
 once=1
 mass=0
 department=init split settings

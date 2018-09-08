@@ -1,8 +1,8 @@
-name=m4 combat duty thrusters
+name=m4 propulsores de combate
 cost=79000
 tech lvl=0.81
 avaiable=0
-desc=speeds up ship turning by upgrading the thruster output by 45%.
+desc=acelera el giro de la nave mejorando la salida de los propulsores en un 45%.
 once=1
 mass=0
 department=thruster

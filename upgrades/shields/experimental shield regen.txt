@@ -1,8 +1,8 @@
-name=m4 deluxe shield charger
+name=m4 cargador de escudo de lujo
 cost=145000
 tech lvl=0.84
 avaiable=1
-desc=allows shields to regenerate 90% quicker.
+desc=permite que los escudos se regeneren un 90% mas rapido.
 once=1
 mass=0
 department=shield recharger

@@ -1,8 +1,8 @@
-name=local field dampner
+name=amortiguador de sobrecarga local
 cost=850
 tech lvl=0.3
 avaiable=1
-desc=Slows down the fitted vessel quicker. Slightly reducing speed, but also improving manoeuvrability.
+desc=Disminuye la velocidad de la carga mas rapidamente. Disminuye ligeramente la velocidad, pero tambien mejora la maniobrabilidad.
 once=1
 mass=0
 department=field dampner

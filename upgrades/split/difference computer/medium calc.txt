@@ -1,8 +1,8 @@
-name=m2 DX4 100 MHz split computer
+name=m2 Computadora dividida DX4 de 100 MHz
 cost=4600
 tech lvl=0.6
 avaiable=0
-desc=enables slow turning during diff-split.
+desc=permite un giro lento durante el diff-split.
 once=1
 mass=0
 department=split computer

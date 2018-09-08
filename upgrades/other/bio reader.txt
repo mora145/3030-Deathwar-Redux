@@ -1,8 +1,8 @@
-name=bio reader
+name=bio lector
 cost=120
 tech lvl=0.0
 avaiable=1
-desc=Allows you to see bios for people on station by standing next to them. Keyboard shortcut: Space. On Controller: RT.
+desc=Te permite ver las biografias de las personas en la estacion parandote junto a ellas. Atajo de teclado: Espacio. En el mando: RT.
 once=1
 mass=0
 department=bio reader

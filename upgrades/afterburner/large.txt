@@ -1,8 +1,8 @@
-name=m4 Large Fitted afterburner
+name=quemador de postcombustion de gran tamaño m4
 cost=95000
 tech lvl=0.84
 avaiable=0
-desc=Gives you a substantial burst of thrust. Keyboard shortcut: Hold Ctrl. On Controller: Hold LT.
+desc=Te da un impulso sustancial. Atajo de teclado: Mantener pulsada la tecla Ctrl. En control: Mantener LT.
 once=1
 mass=0
 department=after burner

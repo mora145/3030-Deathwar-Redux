@@ -1,8 +1,8 @@
-name=M3 range asteroid scanner
+name=M3 escaner de asteroides de largo alcance
 cost=4840
 tech lvl=0.85
 avaiable=0
-desc=gives a coloured HUD visual representation of surrounding asteroids mineral content and amount.
+desc=ofrece una representacion visual en color en el HUD del contenido y la cantidad de minerales de los asteroides circundantes.
 once=1
 mass=0
 department=asteroid scanner

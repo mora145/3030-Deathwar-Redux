@@ -1,8 +1,8 @@
-name=m4 6.2 GHz split computer
+name=m4 Ordenador dividido de 6,2 GHz
 cost=85000
 tech lvl=0.95
 avaiable=0
-desc=enables real-time turning during diff-split.
+desc=permite el giro en tiempo real durante el diff-split.
 once=1
 mass=0
 department=split computer

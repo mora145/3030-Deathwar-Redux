@@ -1,8 +1,8 @@
-name=M3 class III ecm
+name=M3 ecm clase II
 cost=26000
 tech lvl=0.6
 avaiable=0
-desc=will destroy missiles within 200 om range upon use. Keyboard shortcut: Shift. On Controller: X.
+desc=destruye los misiles dentro del rango de 200 om en el momento de su uso. Atajo de teclado: Mayusculas (Shift). En el mando: X.
 once=1
 mass=0
 department=ecm

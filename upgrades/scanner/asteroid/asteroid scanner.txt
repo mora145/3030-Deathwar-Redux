@@ -1,8 +1,8 @@
-name=M1 asteroid survey scanner
+name=M1 escaner para mediciones de asteroides 
 cost=1360
 tech lvl=0.2
 avaiable=1
-desc=allows basic scanning of a targeted asteroid's mineral content.
+desc=permite el escaneo basico del contenido mineral de un determinado asteroide.
 once=1
 mass=0
 department=asteroid scanner

@@ -1,8 +1,8 @@
-name=m1 33 MHz split computer
+name=m1 Computadora dividida de 33 MHz
 cost=1900
 tech lvl=0.2
 avaiable=1
-desc=enables very slow turning during diff-split.
+desc=permite un giro muy lento durante el diff-split.
 once=1
 mass=0
 department=split computer

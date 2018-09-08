@@ -1,8 +1,8 @@
-name=pilot imager
+name=imagen de piloto
 cost=650
 tech lvl=0.23
 avaiable=1
-desc=Allows pilot to see a target pilot's representation in the target information screen.
+desc=Permite al piloto ver la representacion de un piloto objetivo en la pantalla de informacion del objetivo.
 once=1
 mass=0
 department=target imager

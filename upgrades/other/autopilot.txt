@@ -1,8 +1,8 @@
-name=autopilot
+name=autopiloto
 cost=5100
 tech lvl=0.7
 avaiable=1
-desc=Lets the attached ship fly to a select destination by itself. Click icon in bottom-right or use Keyboard shortcut: Z. On Controller: RB + X.
+desc=Permite que la nave adherida vuele a un destino seleccionado por si misma. Haga clic en el icono en la parte inferior derecha o utilice el acceso directo de teclado: Z. En el mando: RB + X.
 once=1
 mass=0
 department=autopilot

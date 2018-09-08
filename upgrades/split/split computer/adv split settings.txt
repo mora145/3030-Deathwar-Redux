@@ -1,8 +1,8 @@
-name=m2 advanced splitting settings
+name=m2 configuracion avanzada de division
 cost=8900
 tech lvl=0.61
 avaiable=0
-desc=decreases split initialisation time by 80%.
+desc=reduce el tiempo de la inicializacion dividida en un 80%.
 once=1
 mass=0
 department=init split settings

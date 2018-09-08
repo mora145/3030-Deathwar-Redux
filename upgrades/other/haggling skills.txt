@@ -1,8 +1,8 @@
-name=haggling permit
+name=permiso de regateo
 cost=861
 tech lvl=0.3
 avaiable=0
-desc=Will allow you to haggle with a mission contact to gain more money. Haggling success depends strongly on your reputation.
+desc=Te permitira regatear con un contacto de la mision para ganar mas dinero. El exito depende en gran medida de tu reputacion.
 once=1
 mass=0
 department=haggling permit

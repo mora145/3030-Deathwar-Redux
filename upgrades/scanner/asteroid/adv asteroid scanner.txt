@@ -1,8 +1,8 @@
-name=M2 advanced asteroid scanner
+name=M2 escaner de asteroides avanzado 
 cost=2660
 tech lvl=0.45
 avaiable=1
-desc=allows scanning of a targeted asteroid's mineral content and mineral amount.
+desc=permite escanear el contenido mineral y la cantidad de minerales de un asteroide especifico.
 once=1
 mass=0
 department=asteroid scanner

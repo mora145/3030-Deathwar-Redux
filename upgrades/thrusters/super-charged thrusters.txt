@@ -1,8 +1,8 @@
-name=m5 super-charged thrusters
+name=m5 propulsores sobrealimentados
 cost=280000
 tech lvl=0.84
 avaiable=0
-desc=super-charges ship turning by upgrading the thruster output by 60%.
+desc=nave supercargada mejora que aumenta la salida del propulsor en un 60%.
 once=1
 mass=0
 department=thruster

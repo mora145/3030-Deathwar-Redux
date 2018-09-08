@@ -1,8 +1,8 @@
-name=low fuel reminder
+name=recordatorio combustible bajo
 cost=425
 tech lvl=0.1
 avaiable=1
-desc=Warns you if you try leaving a station without full fuel tanks.
+desc=Te advierte si intentas salir de una estacion sin los depositos de combustible llenos.
 once=1
 mass=0
 department=low fuel reminder

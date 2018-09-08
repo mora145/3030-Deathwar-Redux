@@ -1,8 +1,8 @@
-name=basic cargo scanner
+name=escaner de carga basico
 cost=230
 tech lvl=0.1
 avaiable=1
-desc=offers a readout of the targeted ships cargo manifest but does not supply quantity.
+desc=ofrece una lectura del manifiesto de carga de las naves objetivo, pero no suministra la cantidad.
 once=1
 mass=0
 department=cargo scanner

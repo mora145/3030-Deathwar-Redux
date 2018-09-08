@@ -1,8 +1,8 @@
-name=m2 winchester tractor beam
+name=m2 rayo tractor winchester
 cost=7200
 tech lvl=0.55
 avaiable=1
-desc=Lets you mine at a medium pace. Target an object like an asteroid or cargo container. Move closer to the target. When you are close enough the tractor beam button turns green. click on this to engage. To disengage, click the button again.
+desc=Le permite minar a un ritmo medio. Apunte a un objeto como un asteroide o un contenedor de carga. Acerquese al objetivo. Cuando este lo suficientemente cerca, el boton del haz del tractor se pondra de color verde. Para desconectarlo, haga clic de nuevo en el boton.
 once=1
 mass=0
 department=tractor beam

@@ -1,8 +1,8 @@
-name=credit history
+name=historial de credito
 cost=335
 tech lvl=0.1
 avaiable=0
-desc=Allows a pilot to see his previous spending. View in your personal screen.
+desc=Permite al piloto ver sus gastos anteriores. Visualizalo en tu pantalla personal.
 once=1
 mass=0
 department=credit history

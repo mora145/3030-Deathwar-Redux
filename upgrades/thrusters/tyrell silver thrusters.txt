@@ -1,8 +1,8 @@
-name=m2 tyrell silver thrusters
+name=m2 impulsores tyrell - plata
 cost=6350
 tech lvl=0.61
 avaiable=1
-desc=speeds up ship turning by upgrading the thruster output by 20%.
+desc=acelera el giro de la nave mejorando la salida de los propulsores en un 20%.
 once=1
 mass=0
 department=thruster

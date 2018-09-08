@@ -1,8 +1,8 @@
-name=M4 military class I ecm
+name=M4 ecm I clase militar
 cost=123000
 tech lvl=0.82
 avaiable=0
-desc=will destroy missiles within 300 om range upon use. Keyboard shortcut: Shift. On Controller: X.
+desc=destruye los misiles dentro del rango de 300 om en el momento de su uso. Atajo de teclado: Mayusculas (Shift). En el mando: X.
 once=1
 mass=0
 department=ecm

@@ -1,8 +1,8 @@
-name=advanced cargo scanner
+name=escaner de carga avanzado
 cost=1150
 tech lvl=0.45
 avaiable=0
-desc=offers a readout of the targeted ships cargo manifest and quantity.
+desc=ofrece una lectura del manifiesto del cargamento y la cantidad de las naves objetivo.
 once=1
 mass=0
 department=cargo scanner

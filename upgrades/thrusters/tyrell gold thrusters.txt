@@ -1,8 +1,8 @@
-name=m3 tyrell gold thrusters
+name=m3 impulsores tyrell - oro
 cost=24500
 tech lvl=0.71
 avaiable=0
-desc=speeds up ship turning by upgrading the thruster output by 27%.
+desc=acelera el giro de la nave mejorando la salida de los propulsores en un 27%.
 once=1
 mass=0
 department=thruster

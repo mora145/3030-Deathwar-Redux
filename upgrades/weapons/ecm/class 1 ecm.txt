@@ -1,8 +1,8 @@
-name=M1 class I ecm
+name=M1 ecm clase I
 cost=1500
 tech lvl=0.21
 avaiable=1
-desc=will destroy missiles within 120 om range upon use. Keyboard shortcut: Shift. On Controller: X.
+desc=destruye los misiles dentro del rango de 120 om en el momento de su uso. Atajo de teclado: Mayusculas (Shift). En el mando: X.
 once=1
 mass=0
 department=ecm

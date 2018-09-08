@@ -1,8 +1,8 @@
-name=m1 civilian shield recharger
+name=m1 recargador civil de escudos
 cost=1220
 tech lvl=0.22
 avaiable=1
-desc=allows the shield computer to cycle energy faster. therefore repairing the shields 30% quicker.
+desc=permite que el ordenador del escudo haga ciclos de energia mas rapidos, por lo que la reparacion de los escudos es un 30% mas rapida.
 once=1
 mass=0
 department=shield recharger

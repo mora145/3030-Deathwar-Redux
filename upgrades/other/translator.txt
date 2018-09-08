@@ -1,8 +1,8 @@
-name=translator
+name=traductor
 cost=5300
 tech lvl=0.3
 avaiable=1
-desc=Translates alien jobs on the job computer.
+desc=Traduce los trabajos alienigenas de la computadora de trabajo.
 once=1
 mass=0
 department=trl

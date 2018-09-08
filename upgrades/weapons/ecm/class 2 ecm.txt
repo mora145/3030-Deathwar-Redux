@@ -1,8 +1,8 @@
-name=M2 class II ecm
+name=M2 ecm clase II
 cost=6500
 tech lvl=0.4
 avaiable=1
-desc=will destroy missiles within 160 om range upon use. Keyboard shortcut: Shift. On Controller: X.
+desc=destruye los misiles dentro del rango de 160 om en el momento de su uso. Atajo de teclado: Mayusculas (Shift). En el mando: X.
 once=1
 mass=0
 department=ecm
