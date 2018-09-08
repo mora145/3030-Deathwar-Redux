@@ -1,4 +1,4 @@
-name=black widow missile
+name=misil viuda negra
 imageFile=missile_blackwidow
 weaponType=missile
 explodingShell=0

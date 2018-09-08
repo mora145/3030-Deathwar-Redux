@@ -1,4 +1,4 @@
-name=lagroll missile
+name=misil lagroll
 imageFile=missile_lagroll
 weaponType=missile
 explodingShell=0

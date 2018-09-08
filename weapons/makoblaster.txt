@@ -1,4 +1,4 @@
-name=mako blaster
+name=lanzador mako
 imageFile=shot_long_thin
 weaponType=normal
 explodingShell=0

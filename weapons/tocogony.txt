@@ -1,4 +1,4 @@
-name=tocogony
+name=tocogonia
 imageFile=shot_long_thin
 weaponType=normal
 explodingShell=0

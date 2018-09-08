@@ -1,4 +1,4 @@
-name=r98 assault cannon
+name=cañón de asalto r98
 imageFile=shot_long_thin
 weaponType=normal
 explodingShell=0

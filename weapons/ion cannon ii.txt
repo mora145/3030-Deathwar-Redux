@@ -1,4 +1,4 @@
-name=m50 rapier
+name=estoque m50
 imageFile=shot_long_thin
 weaponType=normal
 explodingShell=0

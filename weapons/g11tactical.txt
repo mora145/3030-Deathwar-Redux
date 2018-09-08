@@ -1,4 +1,4 @@
-name=G11 Tactical strike missile
+name=Misil de ataque táctico G11
 imageFile=missile_g11tac
 weaponType=missile
 explodingShell=0

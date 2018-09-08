@@ -1,4 +1,4 @@
-name=ADB Dustball Missile
+name=ADB Misil Bola de polvo
 imageFile=missile_adb
 weaponType=missile
 explodingShell=0
