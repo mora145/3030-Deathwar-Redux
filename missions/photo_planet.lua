@@ -84,82 +84,82 @@ function prototype()
 	
 	if moneyFirst==1 then
 		local t4={}
-		t4[1]="The remuneration for this action will be $".. prize.. "."
-		t4[2]="$" .. prize.. " is all we can offer."
-		t4[3]="I've been ordered to pay you $".. prize.. " for your effort."
-		t4[4]="we can pay $"..prize.."."		
-		t4[5]="Your remuneration will be $"..prize.."."
-		t4[6]="I think you'll find $"..prize.." is ample for this kind of work."
+		t4[1]="La remuneración por esta acción será de ".. prize.."$."
+		t4[2]=.. prize.. "$ es todo lo que podemos ofrecer."
+		t4[3]="Me han ordenado que le pague ".. prize.. "$ por su esfuerzo."
+		t4[4]="Podemos pagarle "..prize.."$."		
+		t4[5]="Su remuneración será de "..prize.."$."
+		t4[6]="Creo que ganarás "..prize.."$, es suficiente para este tipo de trabajo."
 		bigDesc=bigDesc.." "..t4[math.random(table.getn(t4))]			
 	end
 
 	local t3={}
-	t3[1]="Council Research: Scientific data required."
-	t3[2]="Planetary data required."
-	t3[3]="Do you like taking pictures of planets?"
-	t3[4]="Scanning of planet required."
-	t3[5]="Scanning of "..photoPlanet.." required."
-	t3[6]="Planetary research photography required."
-	t3[7]="Council research: "..photoPlanet.."."
+	t3[1]="Investigación del Consejo: Datos científicos requeridos."
+	t3[2]="Datos planetarios requeridos."
+	t3[3]="¿Te gusta tomar fotos de planetas?"
+	t3[4]="Escaneo planetario requerido."
+	t3[5]="Escaneo del planeta "..photoPlanet.." requerido."
+	t3[6]="Se requiere fotografía para investigación planetaria."
+	t3[7]="Investigación del Consejo: "..photoPlanet.."."
 	smallDesc=t3[math.random(table.getn(t3))]
 	
 	if (dangerous==1) then
-		smallDesc=smallDesc.." (Warning: Dangerous)"
+		smallDesc=smallDesc.." (Advertencia: Peligroso)"
 	end
 	
 	local t={}
-	t[1]="Afternoon. "
-	t[2]="We're looking for a scientific researcher to help us out."
-	t[3]="Glad to see you're interested."
+	t[1]="Tarde. "
+	t[2]="Buscamos a un investigador científico que nos ayude."
+	t[3]="Me alegra ver que estás interesado."
 	t[4]=""	
-	t[5]="We're researching possible reasons for the annihilation of "..photoPlanet.."."
-	t[6]="We could use a pilot like yourself."
+	t[5]="Estamos investigando las posibles razones de la aniquilación del planeta "..photoPlanet.."."
+	t[6]="Nos vendría bien un piloto como tú."
 	bigDesc=t[math.random(table.getn(t))]	
 		
 	local t2={}
-	t2[1]="You'll need to photograph "..photoPlanet..". It's in the "..pickupSystem.." system."
-	t2[2]="The job's easy. Take a photo of "..photoPlanet..". You'll need to get to the "..pickupSystem.." system."
-	t2[3]="Head over to "..pickupSystem.." and look for "..photoPlanet..". Take a photo of it then bring it back."
-	t2[4]="We need a photo of the atmosphere from "..photoPlanet..". Get to "..pickupSystem.." and you'll find it there."
-	t2[5]="It's a distinct planet. head over to "..photoPlanet.." and take a photo. It's in the "..pickupSystem.." system."
+	t2[1]="Necesitarás fotografiar el planeta "..photoPlanet..". Está en el sistema "..pickupSystem.."."
+	t2[2]="El trabajo es fácil. Toma una foto del planeta "..photoPlanet..". Necesitarás llegar al sistema "..pickupSystem.."."
+	t2[3]="Dirígete al sistema "..pickupSystem.." y busca el planeta "..photoPlanet..". Tómale una foto y tráela de vuelta."
+	t2[4]="Necesitamos una foto de la atmósfera del planeta "..photoPlanet..". Dirígete al sistema "..pickupSystem.." y lo encontrarás allí."
+	t2[5]="Es un planeta distinto. Dirígete al planeta "..photoPlanet.." y tomale una foto. Está en el sistema "..pickupSystem.."."
 	bigDesc=bigDesc.." "..t2[math.random(table.getn(t2))]
 	
 	local more=math.random(0,1)
 	if more==0 then
 		local tm={}
-		tm[1]="It's just a simple research mission. Think you can do it?"
-		tm[2]="What do you think?"
-		tm[3]="Would you help us out?"
-		tm[4]="The results might help us to understand what happened."
-		tm[5]="Are you willing?"
+		tm[1]="Es una simple misión de investigación. ¿Crees que puedes hacerlo?"
+		tm[2]="¿Qué opinas tú?"
+		tm[3]="¿Nos ayudarías?"
+		tm[4]="Los resultados podrían ayudarnos a entender lo que pasó."
+		tm[5]="¿Estás dispuesto?"
 		bigDesc=bigDesc.." "..tm[math.random(table.getn(tm))]
 	end	
 		
 	if moneyFirst~=1 then	
 		local t4={}
-		t4[1]="The remuneration for this action will be $".. prize.. "."
-		t4[2]="$" .. prize.. " is all we can offer."
-		t4[3]="I've been ordered to pay you $".. prize.. " for your effort."
-		t4[4]="we can pay $"..prize.."."		
-		t4[5]="Your remuneration will be $"..prize.."."
-		t4[6]="I think you'll find $"..prize.." is ample for this kind of work."
+		t4[1]="La remuneración por esta acción será de "..prize.."$."
+		t4[2]=.. prize.. "$ es todo lo que podemos ofrecer"
+		t4[3]="Me han ordenado que le pague "..prize.."$ por su esfuerzo."
+		t4[4]="podemos pagar "..prize.."$."		
+		t4[5]="Su remuneración será de "..prize.."$."
+		t4[6]="Creo que encontrarás "..prize.."$ es suficiente para este tipo de trabajo."
 		bigDesc=bigDesc.." "..t4[math.random(table.getn(t4))]
 	end
 	
 	local t6={}
-	t6[1]="Once you have the photo, bring it back to "..contactPerson.." at "..dropOffStation.." in "..dropOffSystem.."."
-	t6[2]="Your job is complete when you take the photo back to "..contactPerson.." on board "..dropOffStation.." in "..dropOffSystem.."."
-	t6[3]="I've got someone waiting for you at "..dropOffStation.." in "..dropOffSystem..". Give the photo to "..contactPerson.." once you get there."
-	t6[4]="You can drop the evidence off at "..dropOffStation.." in "..dropOffSystem..". hand it to "..contactPerson.." and we'll pay you."
-	t6[5]="I then want to see the photo in my friend's hands. "..contactPerson.." will be waiting for you at "..dropOffStation.." in "..dropOffSystem.."."
+	t6[1]="Una vez que tenga la foto, tráigala de vuelta a "..contactPerson.." en la estación "..dropOffStation.." del sistema "..dropOffSystem.."."
+	t6[2]="Su trabajo estará completo cuando devuelva la foto a "..contactPerson.." en la estación "..dropOffStation.." del sistema "..dropOffSystem.."."
+	t6[3]="Tengo a alguien esperándote en la estación "..dropOffStation.." del sistema "..dropOffSystem..". Dale la foto a "..contactPerson.." una vez que llegues allí."
+	t6[4]="Puedes dejar las pruebas en la estación "..dropOffStation.." del sistema "..dropOffSystem..". dáselas a "..contactPerson.." y te pagaremos."
+	t6[5]="Después quiero ver la foto en las manos de mi amigo "..contactPerson.." te estará esperando en la estación "..dropOffStation.." del sistema "..dropOffSystem.."."
 	bigDesc=bigDesc.." "..t6[math.random(table.getn(t6))]
 	
 	local t7={}
-	t7[1]="a camera will be provided."
-	t7[2]="We'll supply you with a camera."
-	t7[3]="You'll also get a camera."
-	t7[4]="A Camera is included."
-	t7[5]="Don't worry, the camera's included."
+	t7[1]="se le proporcionará una cámara."
+	t7[2]="Te daremos una cámara."
+	t7[3]="También obtendrás una cámara."
+	t7[4]="Se incluyó una cámara."
+	t7[5]="No te preocupes, la cámara está incluida."
 	bigDesc=bigDesc.." "..t7[math.random(table.getn(t7))]
 	
 	return 1
@@ -168,10 +168,10 @@ end
 
 function canTakeMission() -- check to see if you can take this mission
 	if (( getSplitSpeed() == 0 ) and ( getDistanceToStation(dropOffStation) > 50000 )) then
-		return "No thanks. It's pretty far and your ship doesn't have a split drive."
+		return "No, gracias. Está bastante lejos y tu nave no tiene un motor divisor."
 	end
  	if (stillHavePhotoMission()==1) then
-		return "You can only have one photo mission at a time."
+		return "Sólo puedes tener una misión fotográfica a la vez."
 	end
 	return ""
 end
@@ -184,11 +184,11 @@ function takeMission() -- upon taking the mission set up things, like:
 		createMissionBountyTrigger(getRandomShipID(),getRandomName(),skill,bounty,0,pickupSystem)
 	end
 
-	if hasUpgrade("recon camera")==0 then
-		giveUpgrade("recon camera")
-		info2("You have been afforded a recon camera to accomplish this mission.")
+	if hasUpgrade("camara de reconocimiento")==0 then
+		giveUpgrade("camara de reconocimiento")
+		info2("Se te ha proporcionado una cámara de reconocimiento para cumplir esta misión.")
 	else
-		info2("You already seem to have a recon camera. Use that to accomplish this mission.")
+		info2("Parece que ya tienes una cámara de reconocimiento. Úsala para cumplir esta misión.")
 	end	
 
 	-- add the contact person
@@ -237,7 +237,7 @@ function cleanUp()
 	
 	if (stillHavePhotoMission()==0) then
 		-- since you were given the camera and you didnt buy it, it gets taken away.
-		removeUpgrade("recon camera") -- removes photos and stuff too.
+		removeUpgrade("camara de reconocimiento") -- removes photos and stuff too.
 	end
 end
  -- ====================================================== CLEAN UP
@@ -280,11 +280,11 @@ function loseHaggle()
 end
 
 function getDropOff()
-	return dropOffStation.." in "..dropOffSystem.." system."
+	return dropOffStation.." en el sistema "..dropOffSystem.."."
 end
 
 function getDestination()
-	return photoPlanet.." in "..pickupSystem.." system."
+	return photoPlanet.." en el sistema "..pickupSystem.."."
 end
 
 function returnImageFile()

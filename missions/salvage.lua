@@ -11,28 +11,28 @@ function prototype()
 		
 	if math.random(0,1)==1 then
 		local tractor={}
-		tractor[1]="Do you have a thirst for salvage?"
-		tractor[2]="Want to explore your own system?"
-		tractor[3]="Salvage isn't going to explore itself!"
-		tractor[4]="Get out there and take advantage of others' misfortunes!"
+		tractor[1]="¿Tienes sed de rescates?"
+		tractor[2]="¿Quieres explorar tu propio sistema?"
+		tractor[3]="¡El salvamento no se va a explorar solo!"
+		tractor[4]="Sal y aprovecha las desgracias de los demás!"
 		bigDesc=bigDesc.." "..tractor[math.random(table.getn(tractor))]
 	end
 		
 	local t3={}
-	t3[1]="This is friendly reminder that salvage junks are out there!"
-	t3[2]="Take the time to look for salvage missions in each system for great rewards."
-	t3[3]="Salvage junks are out there!"
-	t3[4]="Want free stuff?"
-	t3[5]="Reminder: Salvage junks are available in your system right now"
+	t3[1]="Este es un recordatorio amistoso de que hay chatarra recuperable por ahí!"
+	t3[2]="Tómese el tiempo para buscar misiones de salvamento en cada sistema y obtener grandes recompensas."
+	t3[3]="La chatarra recuperable está ahí fuera!"
+	t3[4]="¿Quieres cosas gratis?"
+	t3[5]="Recordatorio: Hay chatarra recuperable disponible ahora mismo en su sistema."
 	smallDesc=t3[math.random(table.getn(t3))]
 		
 	local t4={}
-	t4[1]="This is just a reminder, check your system map for -grey- dots. They're salvage junks. Fly in to them to explore!"
+	t4[1]="Esto es sólo un recordatorio, revise el mapa de su sistema para ver si hay puntos grises. Son chatarra recuperable. Regresa para explorarla!"
 	bigDesc=bigDesc.." "..t4[1]
 		
 	local t5={}
-	t5[1]=" [br] [br] Are you ready for adventure?"
-	t5[2]=" [br] [br] Get out there commander."
+	t5[1]=" [br] [br] ¿Estás listo para la aventura?"
+	t5[2]=" [br] [br] Salga, comandante."
 	bigDesc=bigDesc.." "..t5[math.random(table.getn(t5))]		
 
 	return 1
@@ -113,8 +113,8 @@ end
 -- MAIN!
 -- ========================================================
 
-contactPerson = "System information"
-advertPerson = "Automated service droid"
+contactPerson = "Información del sistema"
+advertPerson = "Droide de servicio automatizado"
 packageName = ""
 prize = 0
 haggleExtra = 0
