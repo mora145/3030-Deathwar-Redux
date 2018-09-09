@@ -1,31 +1,31 @@
+No todas las actualizaciones están disponibles inmediatamente. A medida que usted se haga más experimentado, se le dará acceso a ellos.
+Si desea probar la minería, necesitará más experiencia para ver las actualizaciones relacionadas con la minería.
+Cuando una nueva actualización esté disponible, se le notificará. Compruebe la lista de actualizaciones de la estación para ver si hay alguna de ellas.
+Los quemadores de postcombustión son una forma decente de desplazarse rápidamente. Pero ten cuidado, usan más combustible.
 Los propulsores ayudan a aumentar la velocidad de giro.
-Si necesita reparar su nave, simplemente atraque y seleccione reparar desde la computadora de comercio.
-Algunos dicen que hay agujeros de gusano estables alrededor pero pocos que los usan divulgan su paradero.
-Si te gusta la mineria, asegurate de comprar el mejor rayo tractor. Tendras mas rapido el mineral.
-Quieres ver lo que otras naves llevan en sus bodegas? Compre un escaner de carga.
-En combate a menudo? Compra un escaner de combate de nave para ver rapidamente el escudo del oponente y las lecturas del casco.
-Si usted mina mucho, busque comprar un escaner de rango de asteroides.
-Si peleas mucho, por que no compras un generador de escudos?
-Si encuentra que la activacion de la unidad dividida lleva mas tiempo del que desea, compre actualizaciones de la configuracion de division.
-quieres girar mientras te alejas? Compra una computadora diferente.
-Si desea que el combustible dure mas, por que no comprar un colector de combustible?
-Si usted esta en combate a menudo, por que no comprar una actualizacion de ECM para destruir misiles antes de que le golpeen.
-Si usted usa muchos misiles, puede que encuentre util el cargador automatico de misiles.
-Por que no comprar algunos discos de datos en la pantalla de actualizacion de su estacion local?
-Crees que no estas recibiendo lo suficiente por tus misiones? Compre una actualizacion de habilidades de regateo y podria obtener mas.
-Si desea leer algun trasfondo, consiga un disco de datos en su estacion local.
-Cansado de volar manualmente? Consigue un piloto automatico y deja que el ordenador tome el control.
-Quiere saber mas sobre sus companeros de estacion? Compra un lector de biografias y averigualo.
-Asegurese siempre de tener suficiente combustible para su viaje. Viajas muy despacio con el tanque vacio.
-Intenta evitar las nubes de la nebulosa, ralentizan tu nave y podrian danarte.
-Intenta aprender algunas rutas a traves de la nebulosa. Podrian ser utiles algun dia.
-Si usted tiene un registro criminal substancial puede ser que sea una buena idea encontrar una estacion pirata y eliminarla.
-Hay algunas estaciones piratas en los sistemas. Aparecen como estaciones rojas en el mapa.
-Desea cambiar el ID de registro de su nave? Por que no? Encuentra una estacion pirata y pregunta por ahi.
-A veces una nave dejara caer no solo su carga sino tambien algunas mejoras utiles.
-Tu juego se guarda automaticamente cada vez que te acoplas tan pronto como no tengas misiones activas.
-Si quiere ver a donde va su dinero, entonces compra una actualizacion de su historial de credito en su estacion local.
-No todas las actualizaciones estan disponibles inmediatamente. A medida que vayas adquiriendo experiencia, se te dara acceso a ellas.
-Si desea probar la mineria, necesitara mas experiencia para ver las actualizaciones relacionadas con la mineria.
-Cuando una nueva actualizacion este disponible, se le notificara. Compruebe la lista de actualizaciones de la estacion.
-Los quemadores de postcombustion son una forma decente de desplazarse rapidamente. Pero ten cuidado, usan mas combustible.
+Si necesita reparar su nave, simplemente atraque y elija reparar desde la computadora de comercio.
+Algunos dicen que hay agujeros de gusano estables alrededor, pero no muchos de los que los usan divulgan su paradero.
+Si te gusta la minería, asegúrate de comprar el mejor rayo tractor. Cederás mineral más rápido.
+¿Quieres ver lo que otras naves llevan en sus bodegas? Compre un escáner de carga.
+¿Muchas veces en combate? Compra un escáner de combate de nave para ver rápidamente el escudo del oponente y las lecturas del casco.
+Si usted mina a menudo, busque comprar un escáner de asteroides de rango.
+Si peleas a menudo, ¿por qué no compras un generador de escudos?
+Si encuentra que la activación de la unidad dividida lleva más tiempo del que desea, compre actualizaciones de la configuración de la unidad dividida.
+¿quieres girar mientras te divides? Compra una computadora diferente.
+Si desea que el combustible dure más, ¿por qué no comprar un colector de combustible?
+Si combates a menudo, por qué no comprar una actualización de ECM para destruir misiles antes de que te alcancen.
+Si usted usa muchos misiles, puede encontrar el cargador automático de misiles muy práctico.
+¿Por qué no comprar algunos discos de datos en la pantalla de actualización de su estación local?
+¿Crees que no estás recibiendo lo suficiente por tus misiones? Compre una actualización de habilidades de regateo y podría obtener más.
+Si desea leer algún trasfondo, consiga un disco de datos en su estación local.
+¿Cansado de volar manualmente? Consigue un piloto automático y deja que la computadora tome el control.
+¿Quiere saber más sobre sus compañeros de estación? Compra un lector de biografías y averígualo.
+Asegúrese siempre de tener suficiente combustible para su viaje. Viajas muy despacio con el tanque vacío.
+Intenta evitar las nubes de la nebulosa, ralentizan tu nave y pueden dañarte.
+Intenta aprender algunas rutas a través de la nebulosa. Podrían ser útiles algún día.
+Si usted tiene un registro criminal sustancial, puede ser una buena idea encontrar una estación pirata y hacer que la eliminen.
+Hay algunas estaciones piratas en los alrededores de los sistemas. Aparecen como estaciones rojas en el mapa.
+¿Desea cambiar el ID de registro de su nave? ¿Por qué no? Encuentra una estación pirata y pregunta por ahí.
+A veces una nave dejará caer no sólo su carga sino también algunas mejoras útiles.
+Tu juego se guarda automáticamente cada vez que te acoplas y no tienes misiones activas.
+Si quieres ver a dónde va tu dinero, entonces compra una actualización de historial de crédito en tu estación local.
