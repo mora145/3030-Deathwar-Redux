@@ -1,52 +1,52 @@
 //begin
-// [x] 1 - "Err, ok, shoot."
-// [x] 2 - "Not right now."
+// [x] 1 - "Err, ok, dispara."
+// [x] 2 - "No en este momento."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi there.
-other:Hi.
-other:How's space treatin' ya?
-ego:I'm cool.
-other:I'm bored.
-other:Wanna play a word game?
+ego:Hola, hola.
+other:Hola.
+other:¿Cómo te trata el espacio?
+ego:Estoy bien...
+other:...Estoy aburrido.
+other:¿Quieres jugar un juego de palabras?
 return
 
-@1 // Err, ok, shoot.
-ego:Err, ok, shoot.
-other:Allright!
-other:Want a game of twenty questions?
-ego:Where you pick an animal, veg, or mineral.
-ego:And I work it out, using Yes/no questions?
-other:Yeah.
-ego:Sure. Go for it.
-ego:I have to warn you. I'm *the* master at twenty questions.
-other:Oh yeah.
-ego:Yeah.
-other:Ok, i'll make it a hard one.
-ego:Fine.
-other:I'm a mineral.
-ego:Have you seen one recently?
-other:Yes.
-ego:Do you have moving parts?
-other:Yes.
-ego:Do have legs?
+@1 // Err, ok, dispara.
+ego:Err, ok, dispara.
+other:De acuerdo!
+other:¿Quieres un juego de veinte preguntas?
+ego:Donde usted escoge un animal, una verdura o un mineral.
+ego:Y lo resuelvo, usando preguntas de Sí/No?
+other:Sii.
+ego:Claro. Ve a por ello.
+ego:Tengo que advertirte. Soy el maestro en "veinte preguntas".
+other:Oh si...?
+ego:Si...
+other:Ok, lo haré más difícil.
+ego:Bien.
+other:Soy un mineral.
+ego:¿Has visto uno recientemente?
+other:Si.
+ego:¿Tiene partes móviles?
+other:Si.
+ego:¿Tiene piernas?
 other:No.
-ego:Do you have autonomous motion capabilities?
-other:Yeah.
-ego:Are you a type of droid?
-other:Yes.
+ego:¿Tiene capacidades de movimiento autónomo?
+other:Si.
+ego:¿Eres un tipo de droide?
+other:Si.
 ego:Hmmm..
-ego:Are you a Class 5 bio-contamination scutter?
-other:Yeah!
-ego:(they always are)
+ego:¿Es usted un robot de mantenimiento de biocontaminacion de clase *5*?
+other:Si!
+ego:(siempre lo son)
 stop
 
-@2 // Not right now
-ego:Not right now.
-other:Har, No one does.
-ego:Maybe later dude.
-other:See ya.
+@2 // No en este momento
+ego:No en este momento.
+other:Ha, a nadie le gusta.
+ego:Tal vez más tarde, amigo.
+other:Nos vemos.
 stop

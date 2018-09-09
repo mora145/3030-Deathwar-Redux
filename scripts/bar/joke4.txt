@@ -1,34 +1,34 @@
 //begin
-// [x] 1 - "Ok, go for it."
+// [x] 1 - "Ok, ve por ello."
 // [x] 2 - "No."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hey.
-other:Hi there.
-other:Hey, you want hear a new trader joke?
+ego:Ey!.
+other:Hola a todos.
+other:Oye, ¿quieres oír un nuevo chiste de comerciantes?
 return
 
-@1 // Yes ok.
-ego:Ok, go for it.
-other:Ok.
-other:What do you call a bar-droid who tries to feel you up?
-ego:I don't know.
-other:Sir!
-other:They all have blasters under the bar you know.
+@1 // Si ok.
+ego:Bien, ve por ello.
+other:Bien.
+other:¿Cómo le llamas a un droide que trata de tocarte?
+ego:No lo se.
+other:Señor!
+other:Todos tienen pistolas bajo la barra, ya sabes.
 other:Ha!
-ego:I'm gonna check the consoles.
-other:Safe flying.
+ego:Voy a revisar las consolas.
+other:Buen vuelo
 ego:Yeah.
 stop
 
 @2 // No.
 ego:No.
-other:Oooh, come on.
-ego:No jokes.
-other:It's a good'n.
-ego:I doubt it.
+other:Oooh, vamos.
+ego:Nada de bromas.
+other:Es uno bueno.
+ego:Lo dudo.
 stop
 

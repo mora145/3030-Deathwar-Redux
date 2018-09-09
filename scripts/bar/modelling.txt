@@ -1,30 +1,30 @@
 //begin
-// [x] 1 - "Yes."
-// [x] 2 - "Honestly? No not really."
+// [x] 1 - "Si."
+// [x] 2 - "¿Honestamente? No, no realmente."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Evening.
-other:Excuse me sir, have you ever considered modelling?
-ego:I ummm....
+ego:Bueenas noches.
+other:Disculpe señor, ¿alguna vez ha considerado modelar?
+ego:Yo ummm....
 return
 
-@1 // Yes.
-ego:Yes.
-ego:Now that you mention it...
-ego:...i always did think i had the chiselled good looks required for vogue.
-other:The only issue i have is you won't be able to wear that battered old hat.
+@1 // Si.
+ego:Si.
+ego:Ahora que lo mencionas...
+ego:...siempre pensé que tenía el aspecto cincelado requerido para la Moda.
+other:El único problema que tengo es que no serás capaz de usar ese viejo sombrero maltratado.
 ego:...
-other:Sir?
+other:Señor?
 ego:...
-other:Are you ok?
-ego:I'm leaving now
+other:¿Se encuentra bien?
+ego:Ya me voy.
 stop
 
-@2 // Honestly? No not really.
-ego:Honestly? No not really.
-other:Would you consider it as a career path?
-ego:What? Get out of here!
+@2 // ¿Honestamente? No, no realmente.
+ego:¿Honestamente? No, no realmente.
+other:¿Lo consideraría como una carrera profesional?
+ego:¿Qué? ¡Váyanse de aquí!
 stop

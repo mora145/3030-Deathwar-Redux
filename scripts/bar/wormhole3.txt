@@ -1,35 +1,35 @@
 //begin
-// [x] 1 - "Know any good trade routes?"
-// [x] 2 - "Heard anything about wormholes?"
+// [x] 1 - "¿Conoces alguna buena ruta comercial?"
+// [x] 2 - "¿Has oído algo sobre agujeros de gusano?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi
-other:Yo
-ego:What's up?
-other:I'm taking a break.
-ego:Me too.
-other:I've been doing courier jobs.
-other:It's quite good work if you have a fast ship.
+ego:Hola.
+other:Hola...
+ego:¿Qué hay de nuevo?
+other:Me estoy tomando un descanso.
+ego:Yo tambien.
+other:He estado haciendo trabajos de mensajería.
+other:Es un buen trabajo si tienes una nave rápida.
 return
 
-@1 // Know any good trade routes?
-ego:Know any good trade routes?
-other:Nah, I don't keep track since I started doing courier jobs.
-ego:Ok, I should make a move.
-ego:Catch ya later.
+@1 // ¿Conoces alguna buena ruta comercial?
+ego:¿Conoces alguna buena ruta comercial?
+other:No, no llevo la cuenta desde que empecé a hacer trabajos de mensajería.
+ego:Vale, debo hacer una movida.
+ego:Nos vemos luego.
 stop
 
-@2 // Heard anything about wormholes?
-ego:Heard anything about these wormholes?
-other:Ah, you've heard about those have you?
-ego:Yeah, I hear lots of things.
-other:If your looking to find one I'd look in the Tapley sys.
-ego:Tapley system.
-other:I can't say any more. I use em for business.
-other:Don't want it getting out to everyone.
-ego:I get ya. Thanks.
-ego:I'll check it out sometime.
+@2 // ¿Has oído algo sobre agujeros de gusano?
+ego:¿Has oído algo sobre agujeros de gusano?
+other:Ah, has oído hablar de eso, ¿verdad?
+ego:Sí, oigo muchas cosas.
+other:Si estás buscando uno, yo lo buscaría en el sistema Tapley.
+ego:Sistema Tapley.
+other:No puedo decir nada más. Los uso para los negocios.
+other:No quiero que todo el mundo lo sepa.
+ego:Te entiendo. Gracias.
+ego:Lo comprobaré alguna vez.
 stop

@@ -1,38 +1,38 @@
 //begin
-// [x] 1 - "You'll have to sell it at the trade console."
-// [x] 2 - "Shame, you heard anything about wormholes?"
+// [x] 1 - "Tendrás que venderla en la consola de comercio.."
+// [x] 2 - "Lástima, ¿has oído algo sobre agujeros de gusano?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi trader.
-ego:Hi.
-other:You don't happen to know someone who trades in Osat? 
-ego:No, why?
-other:I've just brought a load for a private client.
-other:Now he doesn't need it.
+other:Hola comerciante.
+ego:Hola.
+other:¿Por casualidad no conoces a alguien que comercie en Osat? 
+ego:No, ¿por qué?
+other:Acabo de traer una carga para un cliente privado.
+other:Ahora ya no la necesita.
 return
 
-@1 // You'll have to sell it at the trade console.
-ego:You'll have to sell it at the trade console.
+@1 // Tendrás que venderla en la consola de comercio.
+ego:Tendrás que venderla en la consola de comercio.
 other:Yeah. 
-ego:How much of it did you have?
-other:A fair amount.
-other:I think sell it and I'll get some ship upgrades
-other:Do they have many here?
-ego:Upgrades? 
-ego:A reasonable range last time I looked.
-other:Cool.
+ego:¿Cuánto de eso tenías?
+other:Una buena cantidad.
+other:Creo que lo venderé y obtendré algunas mejoras para la nave.
+other:¿Tienen muchas aquí?
+ego:Actualizaciones? 
+ego:Un rango razonable la última vez que miré.
+other:Excelente.
 stop
 
-@2 // Heard anything about wormholes?
-ego:Shame, you heard anything about wormholes?
-other:Nothing new. 
-other:I'm not bothered about em.
-other:I'm doing alright trade running. 
-ego:I see. I gotta make a move.
-other:Ok.
+@2 // ¿Has oído algo sobre agujeros de gusano?
+ego:Lástima, ¿has oído algo sobre agujeros de gusano?
+other:Nada nuevo. 
+other:No me preocupan.
+other:Estoy haciendo un buen negocio. 
+ego:Ya veo. Tengo que hacer una movida.
+other:Esta bien.
 stop
 
 

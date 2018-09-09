@@ -3,18 +3,18 @@
 // 09 Nov 2005, 17:45:45
 // ---------------------------------
 
-// Instruction on how to integrate with AGS:
-// Create a new topic, and add 7 blank choices
-// Change their show checkboxes to read like this:
-// [x] 1 - "How do I pay my fines?"
-// [x] 2 - "Why should I pay fines?"
-// [x] 3 - "Screw that."
-// [ ] 4 - "I better had."
-// [ ] 5 - "No, I'll leave it."
-// [ ] 6 - "Why?"
-// [ ] 7 - "Don't you?"
-// Click on 'Edit Script', copy this entire text
-// and paste into the script window. Viola.
+//Instrucción sobre cómo integrarse con AGS:
+//Crear un nuevo tema, y añadir 7 opciones en blanco
+//Cambie las casillas de verificación de sus programas para que digan lo siguiente:
+// [x] 1 - "¿Cómo pago mis multas?"
+// [x] 2 - "¿Por qué debo pagar multas?"
+// [x] 3 - "Al diablo con eso."
+// [ ] 4 - "Más vale que lo haga."
+// [ ] 5 - "No, lo dejaré."
+// [ ] 6 - "Por qué?"
+// [ ] 7 - "¿No es así?"
+//Haga clic en 'Editar guión', copie todo el texto
+//y péguelo en la ventana del script. Viola.
 // <------------ CUT ------------>
 
 
@@ -25,10 +25,10 @@ ego:What?
 other:Unfortunately, I can't let you pass until you pay them.
 return
 
-@1 // How do I pay my fines?
-ego:How do I pay my fines?
-other:You can pay them now, through the trade console. 
-other:Do you want to?
+@1 // ¿Cómo pago mis multas?
+ego:¿Cómo pago mis multas?
+other:Puedes pagarlas ahora, a través de la consola de comercio. 
+other:¿Quieres hacerlo?
 option-on 4
 option-on 5
 option-off 1
@@ -39,15 +39,15 @@ option-off 7
 return
 
 
-@2 // Why should I pay fines?
-ego:Why should I pay fines?
-other:Why?
-other:Why?
+@2 // ¿Por qué debo pagar multas?
+ego:¿Por qué debo pagar multas?
+other:Por qué?
+other:Por qué?
 other:...
-other:Because the council tells you to, my friend.
-other:You'll be classed as a pirate if you didn't at least believe in the council.
-other:Or worse still, one of those pirate gang taoists.
-other:I hate those guys.
+other:Porque el consejo te dice que lo hagas, amigo mío.
+other:Serás clasificado como pirata si al menos no crees en el consejo.
+other:O peor aún, uno de esos piratas taoístas de pandillas.
+other:Odio a esos tipos.
 option-off 1
 option-off 3
 option-off 2
@@ -56,46 +56,46 @@ option-on 7
 return
 
 
-@3 // Screw that.
-ego:Screw that.
-other:That's fine with me, my friend. 
-other:You won't be able to access the station until then.
-ego:fine, I'll go somewhere else.
-other:Try it.
+@3 // Al diablo con eso.
+ego:Al diablo con eso.
+other:Por mí está bien, amigo mío.
+other:No podrás acceder a la estación hasta entonces.
+ego:Bien, iré a otro lado.
+other:Inténtalo.
 stop
 
-@4 // I better had.
-ego:I better had.
-other:Good, ok, pay here.
+@4 // Más vale que lo haga.
+ego:Más vale que lo haga.
+other:Bien, bien, paga aquí.
 goto-police
 stop
 
-@5 // No, I'll leave it.
-ego:No, I'll leave it.
-other:Well, I don't recommend it, but it's your choice.
-ego:Ok, thanks.
+@5 // No, lo dejaré.
+ego:No, lo dejaré.
+other:Bueno, no lo recomiendo, pero es tu elección.
+ego:De acuerdo, gracias.
 stop
 
-@6 // Why?
-ego:Why?
-other:Well, they just grind my gears.
-ego:I've not heard much about them.
-other:They're all up in the council's face
-other:telling them to come up with ways to send probes and stuff
-other:I just don't like them.
-ego:fair enough. thanks anyway.
+@6 // Por qué?
+ego:Por qué??
+other:Bueno, ellos sólo me afilan los engranajes.
+ego:No he oído mucho sobre ellos.
+other:Están todos en la cúpula del consejo
+other:diciéndoles que inventaran formas de enviar sondas y esas cosas
+other:Simplemente no me gustan.
+ego:Me parece justo. Gracias de todos modos.
 stop
 
-@7 // Don't you?
-ego:Don't you?
-other:Isn't it obvious they'll be the demise of us all?
-ego:No, it's not obvious.
-other:Maybe not to you. 
-other:But I can see them playing a bigger role than you think.
-other:Maybe a role that'll get us all killed.
-ego:Anyway, you won't let me in, no?
-other:Can't until you've paid your fines.
-other:Do you want to pay them now?
+@7 // ¿No es así?
+ego:¿No es así?
+other:¿No es obvio que serán la muerte de todos nosotros?
+ego:No, no es obvio.
+other:Tal vez no para ti.
+other:Pero puedo verlos jugando un papel más importante de lo que crees.
+other:Tal vez un papel que nos mate a todos.
+ego:De todos modos, no me dejas entrar, ¿no?
+other:No puedo hasta que hayas pagado las multas.
+other:¿Quieres pagarlas ahora?
 option-off 6
 option-off 7
 option-off 1

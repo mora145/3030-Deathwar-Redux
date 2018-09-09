@@ -1,34 +1,34 @@
 //begin
-// [x] 1 - "Yeah, I doubt it's new though."
+// [x] 1 - "Sí, pero dudo que sea nuevo."
 // [x] 2 - "No."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hey.
-other:Hi there, just in?.
-ego:Just docked yeah.
-other:Hey, you want hear a new trader joke?
+ego:Hola!.
+other:Hola, ¿acabas de llegar?
+ego:Acabo de atracar, sí.
+other:Oye, ¿quieres oír un nuevo chiste de comerciante?
 return
 
-@1 // Yeah, I doubt it's new though.
+@1 // Sí, pero dudo que sea nuevo.
 ego:Yeah, I doubt it's new though.
 other:Ok.
-other:What do you call a bar-droid who over-charges?
-ego:I'd call him Mr. Smith.
+other:¿Cómo le llamas a un droide de bar que cobra de más?
+ego:Yo lo llamaría Sr. Smith.
 other:Huh?
-other:No, you're spoiling it.
-ego:How? I would call him Mr. Smith.
-other:No, you're supposed to say, 'I don't know' or something
-ego:Am I?
-other:Yeah. Anyway why Mr. Smith?
-ego:I was just messing, I heard that joke before.
-other:Oh, ha. I see.
+other:No, lo estás estropeando.
+ego:¿Cómo? Yo lo llamaría Sr. Smith.
+other:No, se supone que tienes que decir: "No lo sé" o algo así.
+ego:¿Lo estoy?
+other:Sí. De todos modos, ¿por qué Sr. Smith?
+ego:Sólo estaba bromeando, escuché ese chiste antes.
+other:Oh, ja. Ya veo.
 stop
 
 @2 // No.
 ego:No.
-ego:Piss off.
+ego:Vete al diablo.
 stop
 

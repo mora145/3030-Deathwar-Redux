@@ -1,34 +1,34 @@
 //begin
-// [x] 1 - "It is a good hat isn't it."
-// [x] 2 - "I don't go anywhere without it."
+// [x] 1 - "Es un buen sombrero, ¿no?"
+// [x] 2 - "No voy a ninguna parte sin él."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hello.
-other:Whoa!
-ego:Whats wrong?
-other:Wrong? Nothing's wrong, I love your hat!
+ego:Hola!.
+other:Hola!
+ego:¿Qué está mal?
+other:¿Mal? No pasa nada, me encanta tu sombrero.
 return
 
-@1 // It is a good hat isn't it.
-ego:It is a good hat isn't it.
-other:I love your hat!
-ego:Errr thanks, thanks a lot. I have to go now.
+@1 // Es un buen sombrero, ¿no?
+ego:Es un buen sombrero, ¿no?
+other:¡Me encanta tu sombrero!
+ego:Ehhh gracias, muchas gracias. Ya me tengo que ir.
 stop
 
-@2 // "I don't go anywhere without it."
-ego:I don't go anywhere without it.
-other:Can I buy it?
-ego:Errr, no. Well. How much?
-other:20 creds?
-ego:Are you nuts!
-other:25 creds!
-ego:Are you nuts!
-other:Ok, 50 creds.
-ego:Are you nuts!
-other:100 creds?
-ego:500 creds?
-other:No way. Bye.
+@2 // "No voy a ninguna parte sin él."
+ego:No voy a ninguna parte sin él.
+other:Puedo comprartelo?
+ego:Ehhh, no. Bueno. ¿Cuánto?
+other:20 creditos?
+ego:Estás loco?!
+other:25 creditos!
+ego:Estás loco!
+other:Bien, 50 creditos.
+ego:Estás loco!
+other:100 creditos?
+ego:500 creditos?
+other:De ninguna manera. Adiós.
 stop

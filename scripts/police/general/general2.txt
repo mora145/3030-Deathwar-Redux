@@ -1,29 +1,29 @@
 //begin
-// [x] 1 - "What do you do when you find a pirate?"
-// [x] 2 - "Why are you here now but not at other times?"
-// [x] 3 - "No, thanks."
-// [ ] 4 - "You go for a dump!"
-// [ ] 5 - "You spend most of your time in the crapper?"
-// [ ] 6 - "What if I accidentally hit or kill a trader?"
-// [ ] 7 - "What if I want to kill them?"
-// [ ] 8 - "Maybe."
-// [ ] 9 - "No thanks"
+// [x] 1 - "Qué haces cuando encuentras un pirata?"
+// [x] 2 - "Por qué estás aquí ahora y no en otras ocasiones?"
+// [x] 3 - "No, gracias."
+// [ ] 4 - "Vas a cagar!"
+// [ ] 5 - "Pasas la mayor parte del tiempo en el baño?"
+// [ ] 6 - "Qué pasa si accidentalmente golpeo o mato a un comerciante?"
+// [ ] 7 - "Y si quiero matarlos?"
+// [ ] 8 - "Tal vez."
+// [ ] 9 - "No gracias"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi, can I do anything for you?
-ego:As a matter of fact I have a few questions.
+other:Hola. Puedo hacer algo por ti?
+ego:De hecho, tengo algunas preguntas.
 return
 
 @1 // what do you do when you find a pirate?
-ego:What do you do when you find a pirate?
-other:Council regulations state that you can destroy a pirate's ship at any time. 
-other:Use your map and look for white boxes with the red line.
-other:In the safer systems there may not be any, or only one.
-other:Don't attack normal traders or else we'll come down hard on you. 
-other:Okay?
+ego:Qué haces cuando encuentras un pirata?
+other:Las normas del Consejo establecen que puedes destruir la nave de un pirata en cualquier momento. 
+other:Usa tu mapa y busca cuadros blancos con la línea roja.
+other:En los sistemas más seguros puede que no haya ninguno, o sólo uno.
+other:No ataques a los comerciantes normales o si no seremos duros contigo. 
+other:Bien?
 option-off 1
 option-off 2
 option-off 3
@@ -32,11 +32,11 @@ option-on 7
 return
 
 @2 // Why are you here now but not at other times?
-ego:Why are you here now but not at other times?
-other:I'll leave that up to your imagination, Sir.
-ego:Ok, thanks.
+ego:Por qué estás aquí ahora y no en otras ocasiones?
+other:Dejaré eso a su imaginación, señor.
+ego:Ok, gracias.
 ego:...
-ego:so....
+ego:asi que....
 ego:...
 option-off 2
 option-off 1
@@ -46,15 +46,15 @@ option-on 5
 return
 
 @3 // No, thanks.
-ego:No, thanks.
-other:No problem. enjoy your stay here.
+ego:No, gracias.
+other:No hay problema. Disfruta tu estancia aquí.
 stop
 
 @4 // You go for a dump!
-ego:You go for a dump!
-other:Damn it, you're quick.
-ego:Thanks.
-other:Ever thought about joining the police force?
+ego:¡Vas a cagar!
+other:Maldita sea, eres rápido.
+ego:Gracias.
+other:¿Alguna vez pensaste en unirte a la policía?
 option-off 5
 option-off 2
 option-off 4
@@ -63,20 +63,20 @@ option-on 9
 return
 
 @5 // You spend most of your time in the crapper?
-ego:You spend most of your time in the crapper?
-other:Listen kid, I don't have the time to yap with you about this.
-other:Get back to your business.
+ego:Pasas la mayor parte del tiempo en el baño?
+other:Escucha chico, no tengo tiempo para hablar contigo de esto.
+other:Vuelve a tus asuntos.
 stop
 
 @6 // What if I accidentally hit or kill a trader?
-ego:What if I accidentally hit or kill a trader?
-other:You'd have to try damn hard to accidentally kill a trader, my friend.
-other:We'd probably kill you. It's the law I'm afraid.
-other:If you are shooting junk and hit one by accident...
-other:..the stations guns could attack you. Just dock fast.
-other:You didn't hear that from me, right.
-ego:Right.
-other:Is there anything else?
+ego:¿Qué pasa si accidentalmente golpeo o mato a un comerciante?
+other:Tendrías que intentar matar accidentalmente a un comerciante, amigo mío.
+other:Probablemente te mataríamos. Me temo que es la ley.
+other:Si estás disparando chatarra y le das a uno por accidente....
+other:..los cañones de la estación podrían atacarte. Atraca rápido.
+other:Yo no te lo dije, ¿verdad?
+ego:De acuerdo.
+other:¿Hay alguna otra cosa?
 option-off 6
 option-off 7
 option-off 1
@@ -85,34 +85,34 @@ option-on 3
 return
 
 @7 // What if I want to kill them?
-ego:What if I want to kill them?
-other:We'll add a charge to your criminal record.
-other:Then you might not be able board some stations.
-other:Or you'll have a fine to pay 
-other:Or we may even try and kill you ourselves.
-other:Depends on the circumstances.
-ego:I see.
+ego:¿Y si quiero matarlos?
+other:Agregaremos un cargo a sus antecedentes penales.
+other:Entonces es posible que no pueda abordar algunas estaciones.
+other:O tendrás que pagar una multa.
+other:O puede que incluso intentemos matarte nosotros mismos.
+other:Depende de las circunstancias.
+ego:Ya veo.
 stop
 
 @8 // Maybe.
-ego:Maybe.
-other:I wouldn't advise it.
-ego:No? why?
-other:The pay is awful and the clothes... uch
-other:Don't get me started on the clothes.
-ego:Right, I'll stay away then.
-other:Good for you. now if you don't mind I have to get back to work.
-ego:No problem.
+ego:Tal vez.
+other:No se lo aconsejo.
+ego:No? por que?
+other:La paga es horrible y la ropa... uch
+other:No me hagas empezar con la ropa.
+ego:Bien, me mantendré alejado entonces.
+other:Bien por ti. Ahora, si no te importa, tengo que volver al trabajo.
+ego:No hay problema.
 stop
 
 @9 // No thanks.
-ego:No thanks
-other:can't blame you.
-other:the pay is awful and the quarantine is crud.
-other:I haven't seen my mother in 5 weeks.
-ego:nevermind, eh.
-other:yeah. the sooner I get out of the hell hole, the better.
-ego:when are we being allowed into the other parts of the station?
-other:when the quarantine is lifted which could be months.
-ego:ok, well, thanks for your help, officer.
+ego:No gracias
+other:No puedo culparte..
+other:la paga es horrible y la cuarentena es una porquería.
+other:No he visto a mi madre en 5 semanas.
+ego:no importa, eh.
+other:Sí. Cuanto antes salga del agujero del infierno, mejor.
+ego:¿cuándo se nos permitirá entrar en las otras partes de la estación?
+other:cuando se levante la cuarentena, que podrían ser meses.
+ego:Ok, bien, gracias por su ayuda, oficial.
 stop

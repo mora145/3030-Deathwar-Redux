@@ -1,35 +1,35 @@
 //begin
-// [x] 1 - "Anything else get damaged?"
-// [x] 2 - "Any other news?"
+// [x] 1 - "¿Algo más se dañó?"
+// [x] 2 - "¿Alguna otra noticia?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi
-other:Hello Sir. Just docked?
+ego:Hola.
+other:Hola señor. ¿Acaba de atracar?
 ego:Uh huh.
-other:Oh, I've just been told that the Delavian Chocolate here is a bit off.
-ego:A bit off?
-ego:What, someone let the stock get damp?
-other:The sprinkler system was activated by mistake.
-other:You don't look like the sort who trades in foodstuffs though.
-ego:No, thanks for the tip though.
+other:Oh, me acaban de decir que el Chocolate Delaviano aquí está un poco fuera de lugar.
+ego:¿Un poco fuera de lugar?
+ego:¿Qué, alguien dejó que las mercancías se mojaran?
+other:El sistema de rociadores se activó por error.
+other:Pero no pareces el tipo de persona que comercia con productos alimenticios.
+ego:No, gracias por el consejo.
 return
 
-@1 // Any thing else get damaged?
-ego:Any thing else get damaged?
-other:The Jumba Beans.
-other:I don't think they where affected.
-ego:Oh well. 
-ego:Catch ya later.
+@1 // ¿Alguna otra cosa se dañó?
+ego:¿Alguna otra cosa se dañó?
+other:Los frijoles Jumba 
+other:No creo que se vieran afectados.
+ego:Oh bien. 
+ego:Nos vemos luego.
 stop
 
-@2 // Any other news?
-ego:Anything else going down?
-other:Not really Sir. Some pirate activity in the asteroid fields.
+@2 // ¿Alguna otra noticia?
+ego:¿Alguna otra noticia?
+other:En realidad no, señor. Alguna actividad pirata en los campos de asteroides.
 ego:Oh?
-other:Nothing of interest.
-ego:Ok, thanks for the tip again.
-other:Safe flying Sir.
+other:Nada de interés.
+ego:Ok, de nuevo gracias por el aviso.
+other:Buen vuelo, señor.
 stop

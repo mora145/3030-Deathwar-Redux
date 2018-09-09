@@ -1,28 +1,28 @@
 //begin
-// [x] 1 - "What happened?"
-// [x] 2 - "What's this place like?"
-// [x] 3 - "Bye"
-// [ ] 4 - "Go on"
-// [ ] 5 - "Ah pirates."
+// [x] 1 - "¿Qué pasó?"
+// [x] 2 - "¿Qué tal es este lugar?"
+// [x] 3 - "hasta luego"
+// [ ] 4 - "Adelante"
+// [ ] 5 - "Ah, piratas."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi.
-other:Huh?, Oh, Hi.
-other:You just docked?
-ego:That's right.
-other:You just missed it then.
+ego:Hola.
+other:¿Eh?, Oh, hola.
+other:¿Acabas de atracar?
+ego:Es correcto.
+other:Te lo perdiste entonces.
 return
 
-@1 // What happened?
-ego:What happened, the bar-droid freak out?
+@1 // ¿Qué pasó?
+ego:¿Qué pasó? ¿Se volvió loco el droide del bar?
 other:Nah.
-ego:Someone rammed the station?
-other:No, there was police skirmish with pirates a few hours ago.
-ego:Oh yeah?
-other:Not that interesting.
+ego:¿Alguien chocó contra la estación?
+other:No, hubo una escaramuza policial con piratas hace unas horas.
+ego:Oh si?
+other:No es tan interesante.
 option-off 1
 option-off 2
 option-off 3
@@ -30,31 +30,31 @@ option-on 4
 option-on 5
 return
 
-@2 // What's this place like?
-ego:What's this station like?
-other:I like it, I'm waiting to get my station clearance.
-ego:You giving up trading?
-other:Yeah, for a while, I'm gonna rent a habitation module.
-ego:Any reason? 
-other:I'm gonna see my relatives based on the station.
-ego:I see.
+@2 // ¿Qué tal es este lugar?
+ego:¿Qué tal es este lugar?
+other:Me gusta, estoy esperando la autorización de la estación.
+ego:¿Vas a dejar de comerciar?
+other:Sí, por un tiempo, voy a alquilar un módulo habitacional.
+ego:¿Alguna razón? 
+other:Voy a ver a mis parientes en la estación.
+ego:Ya veo.
 option-off 2
 return
 
-@3 // Bye
-ego:Bye.
+@3 // Chao
+ego:Hasta luego.
 stop
 
-@4 // Go on
-ego:Go on
-other:A couple of local pirates tried to take out the police chief.
-ego:A good fight?
-other:Not really, the police where ready for them.
-ego:An informer?
-other:No, they were mouthing of in the bar earlier.
-ego:Idiots.
-other:Shh, their friends may be around.
-ego:Bring em on. I could do with some bounty.
+@4 // Adelante
+ego:Adelante
+other:Un par de piratas locales intentaron eliminar al jefe de policía.
+ego:¿Una buena pelea?
+other:En realidad no, la policía estaba lista para recibirlos.
+ego:¿Un informante?
+other:No, estaban hablando en el bar.
+ego:Idiotas.
+other:Shh, sus amigos pueden estar por aquí.
+ego:Tráiganmelos. Me vendría bien algo de recompensa.
 option-off 4
 option-off 5
 option-on 2
@@ -62,11 +62,11 @@ option-on 3
 return
 
 
-@5 // Ah pirates.
-ego:Ah, pirates.
-other:Yeah, was a bit of excitement for a while
-other:We watched the battle on the tv, live feed.
-ego:That's entertainment, I guess.
+@5 // Ah piratas.
+ego:Ah, piratas.
+other:Sí, estuvo un poco emocionante por un rato.
+other:Vimos la batalla por televisión, en directo.
+ego:Eso es entretenimiento, supongo.
 other:Yeah.
 option-off 4
 option-off 5

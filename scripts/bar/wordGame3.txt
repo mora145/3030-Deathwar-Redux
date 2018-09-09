@@ -1,65 +1,65 @@
 //begin
-// [x] 1 - "Ok, go for it."
+// [x] 1 - "Ok, ve a por ello."
 // [x] 2 - "Nah."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi there.
-other:How's space treatin' ya?
-ego:I'm cool.
-other:Word game?
+other:Hola, hola.
+other:¿Cómo te trata el espacio?
+ego:Estoy bien...
+other:Juego de palabras?
 return
 
-@1 // Ok, go for it.
-ego:Ok, go for it.
-other:k
-other:Want a game of twenty questions?
-ego:Ok, i'll pick
-other:Ok then.
-ego:Hmmm. Ok I got one. I'm a vegetable
-other:Right. Do you have a face?
-ego:No I'm a veg. Organic, Plant life
-other:Right, are you a peanut?
+@1 // Ok, ve a por ello.
+ego:Ok, ve a por ello.
+other:Bien...
+other:¿Quieres un juego de veinte preguntas?
+ego:Bien, yo escogeré.
+other:De acuerdo, entonces.
+ego:Hmmm. Ok, tengo uno. Soy un vegetal
+other:Bien. ¿Tienes cara?
+ego:No, soy un vegetal. Orgánico, vida vegetal.
+other:Bien, ¿eres un maní?
 ego:No.
-other:Are you a curry?
-ego:No. You might want to narrow it down a bit first.
-other:Are you edible?
-ego:Yes.
-other:Could I eat one whole?
-ego:Yeah, just about.
-other:Are you a peanut?
-ego:No, I said. That won't count to your twenty.
-other:Oh, yeah, I was just reminding myself.
+other:¿Eres un curry?
+ego:No. Tal vez quieras reducirlo un poco primero.
+other:¿Eres comestible?
+ego:Si.
+other:¿Puedo comerme uno entero?
+ego:Sí, casi.
+other:¿Eres un maní?
+ego:No, he dicho que no. Esta no contará para tus veinte.
+other:Oh, sí, sólo me lo recordaba.
 other:Hmmm..
-other:Are you a small fish?
+other:¿Eres un pez pequeño?
 ego:No.
-other:Hmmm, Some thing I can eat in one go...
-other:Can I buy you at a station bar?
+other:Hmmm, algo que pueda comer de una sola vez....
+other:¿Puedo comprarte en un bar de la estación?
 ego:No.
-other:Are you brightly coloured?
-ego:Yes.
-other:Are you a fruit?
-ego:Yes.
-other:Are you a fruit of the humans?
-ego:Yes Sir.
-other:Ok, how many questions I got left?
-ego:Err... ten left I think.
-other:Are you a, no....are you a, what are they called again?
-other:Are you an appool? 
+other:¿Eres de colores brillantes?
+ego:Si.
+other:¿Eres una fruta?
+ego:Si.
+other:¿Eres un fruto de los humanos?
+ego:Si señor.
+other:Vale, ¿cuántas preguntas me quedan?
+ego:Err.... diez, creo.
+other:¿Eres tú, no....? ¿Eres tú...? ¿Cómo es que se dice...?
+other:¿Es usted una monzona? 
 ego:Err. No.
-other:Are you round shaped?
+other:¿Eres de forma redonda?
 ego:No.
-other:Oh, are you one of those banananans or whatever they are called?
-ego:You got it.
-other:Cool.
-ego:K, I'm going to check the job console.
-other:Safe flying.
+other:Oh, ¿eres uno de esos bananeros o como se llamen?
+ego:Ya lo tienes.
+other:Genial!
+ego:Excelente, voy a revisar la consola de trabajo.
+other:Buen vuelo.
 stop
 
 @2 // Nah
 ego:Nah.
-ego:Maybe later.
-other:Ok.
+ego:Tal vez más tarde.
+other:Bien.
 stop

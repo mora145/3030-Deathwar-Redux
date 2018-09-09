@@ -1,40 +1,40 @@
 //begin
-// [x] 1 - "Heard any news?"
-// [ ] 2 - "Really?"
-// [x] 3 - "Bye"
+// [x] 1 - "¿Has oído alguna noticia?"
+// [ ] 2 - "Realmente?"
+// [x] 3 - "Hasta luego"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi there.
-other:Hello.
+ego:Hola a todos.
+other:Hola.
 ego:...
 return
 
 @1 // Heard any news?
-ego:Heard any news?
-other:Nothing new, sorry.
-ego:I see....
+ego:¿Has oído alguna noticia??
+other:Nada nuevo, lo siento.
+ego:Ya veo....
 option-off 1
 option-on 2
 return
 
-@2 // Really?
-ego:Really?
-other:Well, I heard from a pilot friend yesterday he nearly got blown up.
-other:when entering Jia Kun space.
-ego:really?
-other:He said some police mistook his ship for a pirate freighter...
-other:...and started firing without warning.
-ego:Why did they cease?
-other:Not sure, but apparently he's taking a break on some pleasure station.
-ego:Interesting.
+@2 // Realmente?
+ego:De veras?
+other:Bueno, escuché de un amigo piloto ayer que casi explota.
+other:al entrar en el espacio Jia Kun.
+ego:De veras?
+other:Dijo que la policía confundió su nave con un carguero pirata...
+other:...y empezó a disparar sin avisar.
+ego:¿Por qué se detuvieron?
+other:No estoy seguro, pero aparentemente está tomando un descanso en alguna estación de placer.
+ego:Interesante.
 option-on 3
 option-off 2
 return
 
-@3 // Bye
-ego:Bye.
-other:Safe flying.
+@3 // Hasta luego
+ego:Hasta luego.
+other:Vuela con cuidado.
 stop

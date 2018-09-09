@@ -1,42 +1,42 @@
 //begin
-// [x] 1 - "Yes."
+// [x] 1 - "Si."
 // [x] 2 - "No."
 //end
 
 
 // dialog script file
-@S // dialog startup entry point
+@S // punto de entrada de inicio de diálogo
 ego:Hiya
-other:Hi.
-other:Hey, do I look ill?
+other:Hola.
+other:Oye, ¿parezco enfermo?
 ego:Hmmm.
 return
 
-@1 // Yes.
-ego:Yes.
-ego:Now that you mention it.
-ego:Actually, I can't tell. Have you tried beer?
-other:Not yet, good idea.
-ego:If that doesn't work, try peanuts.
-other:For the protein and salt?
-ego:Err.. yeah. 
-ego:I got things to do.
-other:Stay safe out there.
-ego:I always do.
+@1 // Si.
+ego:Si.
+ego:Ahora que lo mencionas.
+ego:En realidad, no puedo decírtelo. ¿Has probado la cerveza?
+other:Aún no, buena idea.
+ego:Si eso no funciona, pruebe con cacahuetes.
+other:¿Por las proteínas y la sal?
+ego:Err.. Siiii... 
+ego:Tengo cosas que hacer.
+other:Mantente a salvo ahí fuera.
+ego:Siempre lo hago.
 stop
 
-@2 // No, not that I can tell.
+@2 // No, no que yo sepa.
 ego:No.
-ego:Not that I can tell.
-other:I'm feeling a bit odd.
-other:Maybe I need more G-exercise.
-ego:How long you been off station.
-other:I just did a trade run and a micro-met smashed my difference engine.
-ego:Unlucky.
-other:Yeah, took me an extra five hours travel.
-ego:Could have been worse, at least you where only hours from a station.
-ego:I gotta go.
-other:Stay safe out there.
-ego:I always do.
+ego:No, no que yo sepa.
+other:Me siento un poco raro.
+other:Tal vez necesito más ejercicio G.
+ego:Cuánto tiempo llevas fuera de la estación.
+other:Acabo de hacer una carrera comercial y un micro-met rompió mi motor diferencial.
+ego:Mala suerte.
+other:Sí, me llevó cinco horas más de viaje.
+ego:Podría haber sido peor, al menos estabas a sólo horas de una estación.
+ego:Me tengo que ir.
+other:Mantente a salvo ahí fuera.
+ego:Siempre lo hago.
 stop
 

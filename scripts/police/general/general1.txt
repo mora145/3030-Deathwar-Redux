@@ -1,35 +1,35 @@
 //begin
-// [x] 1 - "When's this quarantine going to end?"
-// [x] 2 - "Where can I get some bounty missions?"
-// [x] 3 - "No, thanks."
-// [ ] 4 - "Where's the mission computer?"
-// [ ] 5 - "Thanks for your help, officer."
+// [x] 1 - "¿Cuándo va a terminar esta cuarentena?"
+// [x] 2 - "Dónde puedo conseguir algunas misiones con recompensa?"
+// [x] 3 - "No, gracias."
+// [ ] 4 - "Dónde está la computadora misional??"
+// [ ] 5 - "Gracias por su ayuda, oficial..."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Evening, can I do anything for you?
-ego:Yeah, you can actually.
+other:Buenas noches, ¿puedo hacer algo por ti??
+ego:Sí, en realidad puedes.
 return
 
 @1 // when's this quarantine going to end?
-ego:When's this quarantine going to end?
-other:Sir, I've been quarantined just like you. 
-other:The council have given no definite time as to when it'll be lifted.
-other:Until then we'll just have to get along. 
-other:Now is there anything else I can do for you?
+ego:¿Cuándo va a terminar esta cuarentena??
+other:Señor, me han puesto en cuarentena como a usted.. 
+other:El consejo no ha dado un tiempo definido sobre cuándo será levantada.
+other:Hasta entonces tendremos que llevarnos bien. 
+other:Hay algo más que pueda hacer por ti?
 option-off 1
 return
 
 @2 // Where can I get some bounty missions?
-ego:Where can I get some bounty missions?
-other:You can either get them from the mission computer.
-other:Or go out looking for pirates.
-other:Use you map, they are the white boxes with the red line.
-other:They usually have a bounty on their head.
-other:It's dangerous though, so I suggest you arm up.
-ego:Right, thanks. I'll bear that in mind.
+ego:¿Dónde puedo conseguir algunas misiones con recompensa?
+other:Puedes conseguirlos del ordenador de misiónes.
+other:O salir a buscar piratas.
+other:Usa tu mapa, son los recuadros blancos con la línea roja.
+other:Normalmente tienen una recompensa por su cabeza.
+other:Pero es peligroso, así que te sugiero que te prepares.
+ego:De acuerdo, gracias. Lo tendré en cuenta.
 option-off 2
 option-off 3
 option-on 4
@@ -37,17 +37,17 @@ option-on 5
 return
 
 @3 // No, thanks.
-ego:No, thanks.
-other:No problem. Enjoy your stay here.
+ego:No, gracias.
+other:No hay problema. Disfrute de su estancia aquí.
 stop
 
 @4 // 
-ego:Where's the mission computer?
-other:Right over there. The second screen to the right.
-ego:Thanks.
+ego:Dónde está la computadora de misión?
+other:Justo por allí. La segunda pantalla a la derecha.
+ego:Gracias.
 stop
 
 @5 // thanks for your help, officer.
-ego:Thanks for your help, officer.
-other:No problem. Just stay out of trouble.
+ego:Gracias por su ayuda, oficial..
+other:No hay problema. No te metas en problemas.
 stop

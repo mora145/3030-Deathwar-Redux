@@ -1,38 +1,38 @@
 //begin
-// [x] 1 - "Yeah, I am over 18 and would love to hear your dirty joke."
-// [x] 2 - "Not now. I'm busy."
+// [x] 1 - "Sí, tengo más de 18 años y me encantaría oír tu verde sucio."
+// [x] 2 - "Ahora no. Estoy ocupado."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hey.
-other:Hi there, just docked?.
+ego:Ey!.
+other:Hola, ¿acabas de atracar?
 ego:Yeah.
-other:Hey, you want hear a dirty joke?
+other:Oye, ¿quieres oír un chiste sucio?
 return
 
-@1 // Yeah, I am over 18 and would love to hear your dirty joke.
-ego:Yeah, I am over 18 and would love to hear your dirty joke.
+@1 // Sí, tengo más de 18 años y me encantaría oír tu chiste sucio.
+ego:Sí, tengo más de 18 años y me encantaría oír tu chiste sucio.
 other:Ok.
-other:A bar-droid slapped his genital unit on the bar.
-other:All the traders were shocked, as you would be.
-ego:As you would be.
-other:Yeah. You would be.
-other:One trader in a spacesuit said 'What *do* you think you're doing?!'
-other:The bar-droid just laughed and said.
-other:I'm just showing of my genital unit, it's good init?
-other:The trader in a spacesuit said, 'We don't wanna see it though!'
-other:'Hey', said the bar-droid,'I don't give a shit!'
+other:Un droide de bar abofeteó su unidad genital.
+other:Todos los comerciantes estaban conmocionados, como tú lo estarías.
+ego:Como lo estarías tú.
+other:Sí. Lo estarías.
+other:Un comerciante en un traje espacial dijo:'¡¿Qué crees que *estás* haciendo?!'
+other:El droide del bar se rió y dijo:
+other:Sólo estoy mostrando mi unidad genital, ¿está bien?
+other:El comerciante en traje espacial dijo: "¡Pero no queremos verla!
+other:'Hey', dijo el droide del bar,'¡Me importa una mierda!''.
 other:Ha!
 ego:....
 other:....
-ego:Err ok. 
-ego:That's more of an anecdote than a joke.
-other:Yeah, needs a bit of work doesn't it.
+ego:Ehhh...Bieeen... 
+ego:Eso es más una anécdota que un chiste.
+other:Sí, necesita un poco de trabajo, ¿no?
 stop
 
-@2 // Not now. I'm busy.
-ego:Not now. I'm busy.
+@2 // Ahora no. Estoy ocupado.
+ego:Ahora no. Estoy ocupado.
 stop
 

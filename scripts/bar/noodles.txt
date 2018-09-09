@@ -1,45 +1,45 @@
 //begin
-// [x] 1 - "Where did you get those?"
-// [x] 2 - "Mmmm noodles."
+// [x] 1 - "¿De dónde los has sacado?"
+// [x] 2 - "Fideos Mmmm."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hey there trader.
-ego:Hi.
-ego:Can you smell something? 
-other:Oh, that's probably me.
-other:I've just finished some noodles.
+other:Hey, comerciante..
+ego:Hola.
+ego:¿Puedes oler eso? 
+other:Oh, probablemente sea yo.
+other:Acabo de terminar unos fideos.
 return
 
 @1 // Where did you get those?
-ego:Where did you get those?
-other:A friend with habitat clearance smuggled them out to me. 
-ego:Doesn't that breach bio-containment regs.
-other:Probably. Can't hurt bringing stuff out. 
-other:It's stuff getting on they worried about.
-ego:Yeah, well good for you.
-ego:Can you get me any?
-other:No, he's gone on a trade run now.
-ego:What goods is he trading?
-other:I don't know. I don't talk to him about that.
-ego:Ok. Catch ya later.
-other:Ok.
+ego:¿De dónde los has sacado?
+other:Un amigo en el hábitat limpio me los trajo de contrabando. 
+ego:¿Eso no viola las normas de contención biológica?
+other:Probablemente. No puede hacer daño sacar cosas. 
+other:Son cosas que les preocupan.
+ego:Sí, bien por ti.
+ego:¿Puedes conseguirme un poco?
+other:No, se ha ido en una carrera comercial ahora.
+ego:¿Qué bienes está negociando?
+other:No lo se. No le hablo de eso.
+ego:Ok. Nos vemos luego.
+other:Bien.
 stop
 
-@2 // Mmmm noodles.
-ego:Mmmm noodles.
-ego:I haven't had noodles for a while.
-other:Me either. 
-other:I need to go wash my hands.
-other:I can't believe they still won't supply us traders with toilet facilities.
-other:I'll have to wait till I'm back on my ship.
-ego:Yeah, it's annoying for us organics.
-ego:You heard any new jokes?
-other:Nah. Just the old ones.
-ego:Ok, catch ya later. I gotta make a move.
-other:Ok.
+@2 // Mmmm fideos.
+ego:Mmmm fideos.
+ego:Hace tiempo que no como fideos.
+other:Yo tampoco. 
+other:Necesito ir a lavarme las manos.
+other:No puedo creer que todavía no suministren instalaciones sanitarias a los comerciantes
+other:Tendré que esperar hasta que vuelva a mi nave.
+ego:Sí, es molesto para nosotros los orgánicos.
+ego:¿Escuchaste algún chiste nuevo?
+other:Nah. Sólo los viejos.
+ego:Ok, nos vemos luego. Tengo que hacer una movida.
+other:Bien.
 stop
 
 

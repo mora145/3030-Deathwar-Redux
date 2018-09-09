@@ -1,50 +1,50 @@
 //begin
-// [x] 1 - "I just bought that ship!"
-// [x] 2 - "You've made a mistake, I'm someone else."
-// [x] 3 - "This is bullshit, Officer."
-// [x] 31 - "How about I slip you 800 credits?"
-// [ ] 32 - "So what now?"
+// [x] 1 - "¡Acabo de comprar esa nave!"
+// [x] 2 - "Has cometido un error, soy otra persona."
+// [x] 3 - "Esto es una mierda, oficial."
+// [x] 31 - "¿Qué tal si te doy 800 créditos?"
+// [ ] 32 - "¿Y ahora qué?"
 
-// [ ] 4 - "Prove you're really an officer!"
-// [ ] 5 - "But I just recovered some salvage."
-// [ ] 51 - "But I used to be a bounty hunter."
-// [ ] 52 - "402? Who gave the 2?"
+// [ ] 4 - "¡Prueba que eres un oficial de verdad!"
+// [ ] 5 - "Pero acabo de recuperar algo del salvamento."
+// [ ] 51 - "Pero yo solía ser un cazarrecompensas."
+// [ ] 52 - "402? ¿Quién dio el 2?"
 
-// [ ] 41 - "Is my ship still where I docked it?"
-// [ ] 42 - "What about my possessions?"
-// [ ] 43 - "What about my other clothes?
-// [ ] 44 - "What about my side-kick droid?"
-// [ ] 45 - "What about my..."
-// [ ] 60 - "I'll tell you about Kent."
-// [ ] 61 - "Yes please, everyone needs a door opening droid."
-// [ ] 62 - "No need."
-// [ ] 63 - "Sure, a description of Kent."
-// [ ] 99 - "Goodbye Officer."
+// [ ] 41 - "¿Está mi nave donde la atracé?"
+// [ ] 42 - "¿Qué hay de mis posesiones?"
+// [ ] 43 - "¿Qué hay de mi otra ropa?
+// [ ] 44 - "¿Qué hay de mi droide de apoyo?"
+// [ ] 45 - "¿Qué hay de mi..."
+// [ ] 60 - "Te hablaré de Kent."
+// [ ] 61 - "Sí, por favor, todo el mundo necesita un droide que abra la puerta."
+// [ ] 62 - "No es necesario."
+// [ ] 63 - "Claro, una descripción de Kent."
+// [ ] 99 - "Adiós oficial."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Halt!
-ego:What's the problem, Officer?
-other:It's my duty to inform you...
-other:...that Your ship is registered as stolen.
+other:¡Alto!
+ego:¿Cuál es el problema, oficial?
+other:Es mi deber informarle...
+other:...que su nave está registrada como robada.
 option-on 1
 option-on 2
 option-on 3
 option-on 31
 return
 
-@1 // I just bought that ship!
-ego:I just bought that ship!
-other:Well it's registered as stolen from Zog Dongo.
-other:Do you know that person? 
-ego:No. I bought it from a mechanic called Frank Zoed.
-other:We'll have to impound your ship.
-other:But I've been authorised to give you $1500 credits. 
-other:And issue you an old shuttle.
-ego:An old shuttle?
-ego:Well, I guess that's something.
+@1 // ¡Acabo de comprar esa nave!
+ego:¡Acabo de comprar esa nave!
+other:Bueno, está registrada como robada al Sr. Zog Dongo.
+other:¿Conoces a esa persona? 
+ego:No. Se la compré a un mecánico llamado Frank Zoed.
+other:Tendremos que confiscar su nave.
+other:Pero me autorizaron a darle 1.500 dólares en créditos. 
+other:Y te daré un viejo trasbordador.
+ego:Un viejo trasbordador?
+ego:Bueno, supongo que eso es algo.
 option-off 1
 option-off 2
 option-off 3
@@ -53,21 +53,20 @@ option-on 32
 option-on 99
 return
 
-@2 // You've made a mistake, I'm someone else.
-ego:You've made a mistake, I'm someone else.
-other:Are you Mr Dongo, the owner of the ship? 
-ego:That's me.
-other:No. You're John Falcon, ex-bounty hunter.
-ego:Ok ok, just get on with it.
-other:Your Ship is registered as stolen from Zog Dongo.
-other:Do you know that person? 
-ego:No. I bought it from a guy called Zoed.
+@2 // Ha cometido un error, soy otra persona.
+ego:Ha cometido un error, soy otra persona.
+other:¿Es usted el Sr. Dongo, el propietario del barco? 
+ego:No. Tú eres John Falcon, ex cazador de recompensas.
+ego:Ok ok ok, solo sigue...
+other:Su nave está registrada como robada a Zog Dongo.
+other:¿Conoces a esa persona? 
+ego:No. Se lo compré a un tipo llamado Zoed.
 ego:Frank Zoed.
-other:The ship you arrived with is now impounded.
-other:We've been authorised to give you $1500 credits. 
-other:And issue you an old shuttle.
-ego:An old shuttle?
-ego:What a day.
+other:La nave con la que llegó ahora está confiscada.
+other:Nos han autorizado a darle 1.500 dólares en créditos. 
+other:Y te daré un viejo trasbordador.
+ego:¿Un viejo trasbordador?
+ego:Qué día.
 option-off 1
 option-off 2
 option-off 3
@@ -76,17 +75,17 @@ option-on 32
 option-on 99
 return
 
-@3 // This is bullshit, Officer.
-ego:This is bullshit, Officer.
-other:Sir! It is registered as stolen from Zog Dongo.
-ego:But I bought it from a mechanic called Frank Zoed!
-other:We are looking into the matter.
-other:But we'll have to take your ship.
-ego:Say what? My new ship!
-other:We've been authorised to give you $1500 credits. 
-other:And issue you an old shuttle.
-ego:A bullshit old shuttle?
-ego:Great. Fantastic.
+@3 // Esto es una mierda, oficial.
+ego:Esto es una mierda, oficial.
+other:¡Señor! Está registrada como robada a Zog Dongo.
+ego:¡Pero se lo compré a un mecánico llamado Frank Zoed!
+other:Estamos investigando el asunto.
+other:Pero tendremos que llevarnos su nave.
+ego:¿Qué es lo que dices? ¡Mi nave nueva!
+other:Nos han autorizado a darle 1.500 dólares en créditos.
+other:Y te daré un viejo trasbordador.
+ego:¿Un viejo trasbordador de mierda?
+ego:Genial. Fantástico.
 option-off 1
 option-off 2
 option-off 3
@@ -96,22 +95,22 @@ option-on 99
 return
 
 
-@31 // How about I slip you 800 credits?
-ego:How about I slip you 800 credits?
-other:Trying to bribe an officer of the law?
-ego:Based on your reaction... 
+@31 // ¿Qué tal si te doy 800 créditos?
+ego:¿Qué tal si te doy 800 créditos?
+other:¿Tratando de sobornar a un oficial de la ley?
+ego:Basado en su reacción... 
 ego:No.
-other:Attempted bribery and piloting a stolen ship. 
-other:That ship is registered as stolen from Zog Dongo.
-ego:I bought it from a mechanic called Frank Zoed.
-other:We are looking into the matter.
-other:But we'll have to take your ship.
-ego:Say what? My new ship?!
-other:We've been authorised to give you $1500 credits. 
-other:And issue you an old shuttle.
-other:But I'll have to fine you 50 for the attempted bribe.
-ego:What a day.
-takemoney,50,Fined for attempted bribery
+other:Intento de soborno y pilotaje de una nave robada. 
+other:Esa nave está registrada como robada a Zog Dongo.
+ego:Se la compré a un mecánico llamado Frank Zoed.
+other:Estamos investigando el asunto.
+other:Pero tendremos que tomar su nave.
+ego:¿Qué es lo que dices? ¡Mi nave nueva!
+other:Nos han autorizado a darle 1.500 dólares en créditos. 
+other:Y le daré un viejo trasbordador.
+other:Pero tendré que multarte con 50 por el intento de soborno.
+ego:Qué día.
+takemoney,50,Multado por intento de soborno
 option-off 1
 option-off 2
 option-off 3
@@ -121,15 +120,15 @@ option-on 99
 return
 
 
-@32 // So what now?
-ego:So what now?
-other:You go about your business.
-ego:My business needs a ship, not a shuttle.
-other:There's lots of small jobs here in Andinti.
-other:Buy a jetsuit and a gun.
-other:Junk shooting is a safe way to relieve stress.
-other:Don't track down this Frank Zoed yourself!
-other:Leave it to the law!
+@32 // ¿Y ahora qué?
+ego:¿Y ahora qué?
+other:Ocúpate de tus asuntos.
+ego:Mi negocio necesita una nave, no un transbordador.
+other:Hay muchos trabajos pequeños aquí en Andinti.
+other:Compre un jetsuit y un arma.
+other:Disparar chatarra es una forma segura de aliviar el estrés.
+other:¡No busques a Frank Zoed tú mismo!
+other:¡Déjalo en manos de la ley!
 option-off 1
 option-off 2
 option-off 3
@@ -143,76 +142,76 @@ option-on 99
 return
 
 
-@4 // Prove you're really an officer!
-ego:Prove you're really an officer!
-ego:This could be a non-internet-based scam.
-ego:I read about those.
-other:Sorry about this, Sir.
-other:It's true.
-other:Take my badge number if you like.
-other:Also, I have this weapon.
-other:Only police can have weapons on stations.
+@4 // ¡Prueba que eres un oficial de verdad!
+ego:¡Prueba que eres un oficial de verdad!
+ego:Esto podría ser una estafa.
+ego:Leí sobre eso.
+other:Lamento todo esto, señor.
+other:Es verdad.
+other:Tome mi número de placa si quiere.
+other:Además, tengo un arma.
+other:Sólo la policía puede tener armas en las estaciones.
 option-off 51
 option-off 4
 return
 
-@5 // But I just recovered some salvage?
-ego:But I just recovered some salvage?
-ego:Do I at least get that back.
-ego:So I can sell it. That would be something.
-other:That is still on the ship.
-other:All cargo and fitted upgrades have to stay on it.
-ego:Great.
+@5 // ¿Pero acabo de recuperar algo de salvamento?
+ego:¿Pero acabo de recuperar algo de salvamento?
+ego:¿Al menos me lo devuelves?
+ego:Para poder venderlo. Eso sería algo.
+other:Eso aún está en la nave.
+other:Toda la carga y las mejoras instaladas deben permanecer en ella.
+ego:Genial...
 option-off 5
 return
 
-@51 // But I used to be a bounty hunter.
-ego:But I used to be a bounty hunter.
-ego:I helped you cops out in many a battle.
-ego:No way to let me keep the ship for now?
-other:I know your record Mr Falcon.
-other:Me and the guys pulled together and got you and extra 402.
-ego:Great, thanks.
-ego:That will help me get back on my feet.
-givemoney,402,Extra from Grah for Bounty Hunter Rep
+@51 // Pero yo solía ser un cazarrecompensas.
+ego:Pero yo solía ser un cazarrecompensas.
+ego:Los ayudé a ustedes, policías, en muchas batallas.
+ego:¿No hay forma de dejarme conservar la nave por ahora?
+other:Conozco su historial, Sr. Falcon.
+other:Los chicos y yo nos juntamos y te conseguimos 402 creditos extra.
+ego:Genial, gracias.
+ego:Eso me ayudará a recuperarme.
+givemoney,402,Extra de Grah para Rep. Cazarrecompensas
 option-off 51
 option-off 41
 option-off 4
 option-on 52
 return
 
-@52 // 402? Who gave the 2?
+@52 // 402? ¿Quién dio el 2?
 ego:402? Who gave the 2?
 other:Stingy John Brown.
-ego:That John Brown always hated me.
-other:For what?
-ego:I do not know.
-ego:I guess it all helps.
+ego:Ese John Brown siempre me ha odiado.
+other:¿Por qué?
+ego:No lo sé.
+ego:Supongo que todo ayuda.
 option-off 52
 return
 
 
-@41 // Is my ship still where I docked it?
-ego:Is my ship still where I docked it?
-other:Why? Want to leave quickly? 
-other:Before we impound it?
-ego:Maybe.
-other:Sir, it's already being towed away. 
+@41 // ¿Está mi nave donde la atracé?
+ego:¿Está mi nave donde la atracé?
+other:Por qué? ¿Quieres irte rápido? 
+other:¿Antes de que la confisquemos?
+ego:Tal vez.
+other:Señor, ya está siendo remolcada. 
 option-off 52
 option-off 41
 return
 
-@42 // What about my possessions?
-ego:What about my possessions?
-other:Errr. About that.
-other:That's the main reason we gave you $1500.
-ego:What happened!?
-other:It's my duty to have to inform you...
+@42 // ¿Qué hay de mis posesiones?
+ego:¿Qué hay de mis posesiones?
+other:Errr. Sobre eso.
+other:Esa es la razón principal por la que te dimos 1500 dólares.
+ego:¿¡Qué ha pasado!?
+other:Es mi deber tener que informarle...
 ego:Oh no.
-other:..that your ship contents were taken away.
-other:An over-zealous cleaning droid..
-other:..fed them into the garbage compactor.
-ego:This gets better and better.
+other:...que el contenido de su nave se lo llevaron.
+other:Un droide limpiador demasiado celoso...
+other:...los introdujo en el compactador de basura.
+ego:Esto se pone cada vez mejor.
 option-off 42
 option-on 43
 option-on 44
@@ -220,100 +219,100 @@ option-on 45
 option-off 52
 return
 
-@43 // What about my other clothes?
-ego:What about my other clothes?
-other:Yes.
-other:Fed into the garbage compactor.
-ego:Looks like I'll be wearing this outfit for a while.
-other:Join the club.
-ego:At least you get an anti-stab vest.
+@43 // ¿Qué hay de mi otra ropa?
+ego:¿Qué hay de mi otra ropa?
+other:Si.
+other:La metieron en el compactador de basura.
+ego:Parece que voy a usar este traje por un tiempo.
+other:Únase al club.
+ego:Al menos tienes un chaleco anti puñaladas.
 option-off 43
 option-off 52
 return
 
-@44 // What about my side-kick droid?
-ego:What about my side-kick droid?
-other:Oh? What was its name?
+@44 // ¿Qué hay de mi droide de apoyo?
+ego:¿Qué hay de mi droide de apoyo?
+other:¿Oh? ¿Cómo se llamaba?
 ego:Kent.
-other:I'll make a note of it.
-other:Even an over-zealous cleaning droid...
-other:...should not have compacted another droid.
-ego:Phew.
-ego:I hope it made it. 
-ego:It was my comic relief on long journeys.
-other:Tell me about this Kent if you like.
-other:For my notes.
+other:Tomaré nota de eso.
+other:Hasta un droide limpiador demasiado celoso....
+other:....no debería haber compactado a otro droide.
+ego:Uf.
+ego:Espero que haya sobrevivido.
+ego:Era mi desahogo humorístico en los viajes largos.
+other:Háblame de este Kent si quieres.
+other:Para mis notas.
 option-off 44
 option-on 60
 option-off 52
 return
 
-@45 // What about my...
-ego:What about my...
-other:Sir!
-other:Everything else in the ship was garbage compacted.
-other:You'll have to follow it up with Central Bureaucracy.
+@45 // ¿Qué hay de mi...
+ego:¿Qué hay de mi...
+other:Señor!
+other:Todo lo demás en la nave era basura compactada.
+other:Tendrás que hacer un seguimiento con la burocracia central.
 option-off 45
 option-off 52
 return
 
-@60 // I'll tell you about Kent.
-ego:I'll tell you about Kent.
-ego:It used to follow me around.
-ego:Make puns and occasionally get me out of scrapes.
-ego:Like the time I was trapped in a garbage compactor.
-ego:Come to think of it.
-ego:it would have escaped again.
-ego:Its main skill was opening doors.
-other:I guess this 'Kent' droid is on the loose then.
-other:Do you want me to post a missing droid report?
+@60 // Te hablaré de Kent.
+ego:Te hablaré de Kent.
+ego:Solía seguirme a todas partes.
+ego:Haciendo juegos de palabras y de vez en cuando sacándome de líos.
+ego:Como la vez que estuve atrapado en un compactador de basura.
+ego:Ahora que lo pienso.
+ego:Se habría vuelto a escapar.
+ego:Su principal habilidad era abrir puertas.
+other:Supongo que este droide 'Kent' anda suelto entonces.
+other:¿Quieres que publique un informe de droides desaparecidos?
 option-off 60
 option-on 61
 option-on 62
 return
 
-@61 // Yes please, everyone needs a door opening droid.
-ego:Yes please, everyone needs a door opening droid.
-ego:Kent and I go way back.
-ego:And I could do with its help right now.
-other:I understand.
-other:I'll post a missing droid report.
-other:I'll need a description.
+@61 // Sí, por favor, todo el mundo necesita un droide que abra la puerta.
+ego:Sí, por favor, todo el mundo necesita un droide que abra la puerta.
+ego:Kent y yo nos conocemos desde hace mucho tiempo.
+ego:Y me vendría bien su ayuda ahora mismo.
+other:Entiendo.
+other:Pondré un informe de droides desaparecidos.
+other:Necesitaré una descripción.
 option-off 61
 option-off 62
 option-on 63
 return
 
-@62 // No need.
-ego:No need.
-ego:Kent and I go way back.
-ego:It will find me if it wants to.
-other:It is its own droid.
-other:As you wish, Sir.
+@62 // No es necesario.
+ego:No es necesario.
+ego:Kent y yo nos conocemos desde hace mucho tiempo.
+ego:Me encontrará si quiere.
+other:Es dueño de sí mismo.
+other:Como desee, señor.
 option-off 61
 option-off 62
 return
 
-@63 // Sure, a description of Kent.
-ego:Sure, a description of Kent.
-ego:It was small and moved around.
-ego:It liked puns.
-ego:Blue.... or grey.... 
-ego:...or black. With some red bits.
-ego:It responds to the name of Kent.
-ego:So...
-ego:I think it was called Kent.
-other:That's it?
-other:I was hoping for a serial code.
-ego:It will find me if it wants to.
-other:I'll post a missing droid report anyway.
-other:You will be contacted if we track it down.
-ego:Ok, thanks.
+@63 // Claro, una descripción de Kent.
+ego:Claro, una descripción de Kent.
+ego:Era pequeño y se movía.
+ego:Le gustaban los juegos de palabras.
+ego:Azul... o gris...
+ego:...o negro. Con algunos trozos rojos.
+ego:Responde al nombre de Kent.
+ego:Así que...
+ego:Creo que se llamaba Kent.
+other:¿Eso es todo?
+other:Esperaba un código de serie.
+ego:Me encontrará si quiere.
+other:Publicaré un informe de androide desaparecido de todos modos.
+other:Nos pondremos en contacto con usted si lo localizamos.
+ego:De acuerdo, gracias.
 option-off 63
 return
 
 
-@99 // Goodbye Officer.
-ego:Goodbye Officer.
-other:Sorry about this, Sir.
+@99 // Adiós oficial.
+ego:Adiós oficial.
+other:Lamento todo esto, señor.
 stop

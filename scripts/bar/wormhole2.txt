@@ -1,34 +1,34 @@
 //begin
-// [x] 1 - "Go on."
-// [x] 2 - "Not interested."
+// [x] 1 - "Continúa."
+// [x] 2 - "No estoy interesado."
 //end
 
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi there.
-other:You heard about that wormhole rumour?
-ego:Probably, which one?
-other:The one I just heard.
+ego:Hola, hola.
+other:¿Escuchaste sobre el rumor del agujero de gusano?
+ego:Probablemente, ¿cuál?
+other:El que acabo de oír.
 return
 
-@1 // Go on.
-ego:Go on?
-other:Said to be near the loaay system somewhere.
-ego:You mean in loaay?
-other:No, heard it from a friend that it's in a system near there though.
-other:Traders who know about it don't like to be specific.
-ego:I bet.
-other:Yeah, must be useful.
-ego:I'll keep an eye out, thanks.
+@1 // Continúa.
+ego:Continúa...
+other:Se dice que está cerca del sistema Loaay en alguna parte.
+ego:¿Quieres decir en Loaay?
+other:No, lo escuché de un amigo que está en un sistema cerca de allí.
+other:A los comerciantes que lo saben no les gusta ser específicos.
+ego:Apuesto a que sí.
+other:Sí, debe ser útil.
+ego:Estaré atento, gracias.
 stop
 
 
-@2 // Not interested.
-ego:Not interested. They are just old traders tales.
-other:Maybe. I've heard it of a few people now though.
-ego:Well If they're out there, I'll find em.
-ego:Later.
+@2 // No me interesa..
+ego:No me interesa. Son sólo cuentos de viejos comerciantes.
+other:Tal vez. Lo he oído de algunas personas.
+ego:Bueno, si están ahí fuera, los encontraré.
+ego:Hasta luego.
 stop
 

@@ -1,94 +1,94 @@
 //begin
-// [x] 1 - "So what happened?"
-// [x] 2 - "Just won the lottery?"
-// [ ] 3 - "So you caught the bounty hunting bug now?"
-// [ ] 4 - "Don't get cocky kid!"
+// [x] 1 - "Entonces, ¿qué pasó?"
+// [x] 2 - "¿Acaba de ganar la lotería?"
+// [ ] 3 - "¿Así que ahora te contagiaste de la caza de recompensas?"
+// [ ] 4 - "¡No te pongas arrogante!"
 //end
 
 
 // dialog script file
-@S // dialog startup entry point
-ego:You look pleased with yourself.
-other:Haha! Yes I am actually.
+@S // punto de entrada de inicio de diálogo
+ego:Pareces contento contigo mismo.
+other:Jaja! Sí, en realidad lo estoy.
 return
 
-@1 // So what happened?
-ego:So what happened?
-other:I just made my first kill!
-ego:Oh yeah?
-other:Yeah, this pirate kept blasting at me..
-ego:Trying to get you to drop your cargo?
-other:Probably, but I was like, no way man.
-other:And I gave him the old evasive manoeuvres.
-other:Left, left, hard left, hard right.
-ego:Yeah ok, I get the idea.
-other:right, right, right.
-other:Fire!
-ego:What ship was he in?
-other:A Mac mk 1.
-ego:Err that's a pretty poor ship.
-other:Yeah, well he shouldn't have attacked me in it then!
-ego:No, not with your silky skills.
-other:Precisely.
+@1 // Entonces, ¿qué pasó?
+ego:Entonces, ¿qué pasó?
+other:¡Acabo de cometer mi primer asesinato!
+ego:Oh si?
+other:Sí, ese pirata no paraba de dispararme...
+ego:¿Intentando que dejaras caer tu carga?
+other:Probablemente, pero yo estaba en plan, "de ninguna manera hombre".
+other:Y le hice las viejas maniobras evasivas.
+other:Izquierda, izquierda, izquierda fuerte, derecha fuerte.
+ego:Sí, vale, entiendo la idea.
+other:Derecha, derecha, derecha.
+other:Fuego!
+ego:¿En qué nave estaba?
+other:Un Mac mk 1.
+ego:Es una nave bastante mala.
+other:¡Sí, bueno, entonces no debería haberme atacado con ella!
+ego:No, no con tus habilidades como la seda.
+other:Precisamente.
 option-off 1
 option-off 2
 option-on 3
 option-on 4
 return
 
-@2 // Just won the lottery?
+@2 // ¿Acabas de ganar la lotería?
 ego:Just won the lottery?
-other:Better than that.
-other:I just survived my first combat.
-ego:Oh yeah?
-other:Yeah, this pirate kept blasting at me..
-ego:Trying to get you to drop your cargo?
-other:Probably, but I was like, no way man.
-other:And I gave him the old evasive manoeuvres .
-other:I even blew up their ship.
-other:I got a 10000 bounty.
+other:Mejor que eso.
+other:Acabo de sobrevivir a mi primer combate.
+ego:Oh si?
+other:Sí, ese pirata no paraba de dispararme...
+ego:¿Intentando que dejaras caer tu carga?
+other:Probablemente, pero yo estaba en plan, "de ninguna manera hombre".
+other:Y le hice las viejas maniobras evasivas.
+other:Incluso volé su nave.
+other:Conseguí una recompensa de 10.000.
 option-off 1
 option-off 2
 option-on 3
 option-on 4
 return
 
-@3 // So you caught the bounty hunting bug now?
-ego:So you caught the bounty hunting bug now?
-other:Nah. It was just exciting.
-other:Good to get my own back for once.
-ego:You had trouble before?
-other:Yes, my last few trade runs I had someone after me.
-ego:Well don't get over-confident.
-ego:Next time it may not be a Bac mk 1 attacking you.
-other:Are you *threatening* me?
-ego:Easy tiger, I'm just saying there are tougher guys out there.
-other:Oh right. Yes, that's true.
-ego:But nice going anyway.
-other:Yes, thanks, I had to tell someone.
-ego:I gotta go.
-other:Sound.
+@3 // ¿Así que ahora te contagiaste de la caza de recompensas?
+ego:¿Así que ahora te contagiaste de la caza de recompensas?
+other:Nah. Fue emocionante.
+other:Es bueno sentirme de vuelta por una vez.
+ego:¿Tuviste problemas antes?
+other:Sí, en mis últimas compras tuve a alguien detrás de mí.
+ego:Bueno, no te confíes demasiado.
+ego:La próxima vez puede que no sea un Bac mk 1 atacándote.
+other:¿Me estás *amenazando*?
+ego:Tranquilo tigre, sólo digo que hay tipos más duros ahí fuera.
+other:Oh, claro. Sí, eso es cierto.
+ego:Pero bien hecho de todos modos.
+other:Sí, gracias, tenía que decírselo a alguien.
+ego:Me tengo que ir.
+other:Hasta luego.
 stop
 
-@4 // Don't get cocky kid!
-ego:Don't get cocky kid!
+@4 // ¡No te pongas arrogante!
+ego:¡No te pongas arrogante!
 other:Ha.
-other:Yes, I must be sounding like a synth with droid rot.
-other:I think I'm still on the adrenaline.
-ego:Sounds like it.
-ego:But nice going anyway.
-other:Yes, thanks, I had to tell someone.
-other:I was; left left, right.... fire! fire!
-ego:uh huh. Wel...
-other:Left, straight, hard left, hard right..
-other:..and then I had him just where i wanted him.
-other:Whooooo, reverse thrust!
-other:Wait for it......
-other:Launch missile!
-ego:Sounds faaantastic.
-other:Oh, sorry. I went off again.
-ego:Just a little, I'm gonna check the consoles.
-other:Sound.
+other:Sí, debo estar sonando como un sintetizador con la putrefacción de los droides.
+other:Creo que sigo sintiendo la adrenalina.
+ego:Eso parece.
+ego:Pero bien hecho de todos modos.
+other:Sí, gracias, tenía que decírselo a alguien.
+other:Yo estaba; izquierda izquierda, derecha.... ¡fuego! ¡fuego!
+ego:uh huh. Bue...
+other:Izquierda, derecha, izquierda cerrada, derecha cerrada..
+other:.. Y luego lo tuve justo donde lo quería.
+other:¡Whooooo, retroceso!
+other:Espéralo........
+other:¡Lanzar misil!
+ego:Suena faaantastico.
+other:Oh, lo siento. Me fui de nuevo.
+ego:Sólo un momento, voy a revisar las consolas.
+other:Esta bien...
 stop
 
 

@@ -1,22 +1,22 @@
 //begin
-// [x] 1 - "Heard any news?"
-// [x] 2 - "What's this place like?"
-// [x] 3 - "Bye."
-// [ ] 4 - "Ok, you want a beer?"
-// [ ] 5 - "Sorry, not worth it."
+// [x] 1 - "Has oído alguna noticia?"
+// [x] 2 - "Qué tal es este lugar?"
+// [x] 3 - "Hasta luego"
+// [ ] 4 - "Bien, ¿quieres una cerveza?"
+// [ ] 5 - "Lo siento, no vale la pena."
 //end
 
 @S 
-ego:Hi there.
-other:Yo!
+ego:Hola a todos.
+other:Hola!
 ego:...
 return
 
 @1 
-ego:Heard any news?
-other:I may have....
+ego:¿Has oído alguna noticia?
+other:Puede que tenga una...
 ego:Oh?
-other:Buy me a drink and I'll tell you.
+other:Cómprame un trago y te lo diré.
 option-off 1
 option-off 2
 option-off 3
@@ -25,8 +25,8 @@ option-on 5
 return
 
 @2 
-ego:What's this place like?
-other:It's alright. I've been to better places.
+ego:Qué tal es este lugar?
+other:Está bien. He estado en mejores lugares.
 option-off 2
 return
 
@@ -35,17 +35,17 @@ ego:Bye.
 stop
 
 @4
-ego:Ok, you want a beer?
-ego:Go on then, this better be worth it.
-other:Thanks.
-ego:So go on what's the scoop?
-other:Lot of pirates in the area recently....
-other:...and the price of bounties has gone up.
-ego:That's it?
-other:No, of course not.
-ego:Oh, good. So what else?
-other:It's my birthday today, I'm 38.
-ego:Great.
+ego:Bien, ¿quieres una cerveza??
+ego:Adelante entonces, más vale que valga la pena.
+other:Gracias.
+ego:Así que, ¿cuál es la primicia??
+other:Muchos piratas en el área recientemente...
+other:...y el precio de las recompensas ha subido.
+ego:Eso es todo?
+other:No, por supuesto que no.
+ego:Oh, bien. Entonces, ¿qué más?
+other:Hoy es mi cumpleaños, tengo 38 años.
+ego:Grandioso.
 option-off 4
 option-off 5
 option-on 2
@@ -53,8 +53,8 @@ option-on 3
 return
 
 @5 
-ego:Sorry, not worth it.
-other:Your loss.
+ego:Lo siento, no vale la pena.
+other:Tú te lo pierdes.
 option-off 4
 option-off 5
 option-on 2

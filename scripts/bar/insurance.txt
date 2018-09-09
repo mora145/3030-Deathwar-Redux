@@ -1,39 +1,39 @@
 //begin
-// [x] 1 - "Ok, I'll play along."
+// [x] 1 - "Vale, te seguiré el juego."
 // [x] 2 - "No."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:What are you after?
-other:Excuse me sir, you look like the kinda guy...?
-ego:Wait a second.
-ego:This is a sales pitch right?
+ego:¿Qué es lo que buscas?
+other:Disculpe, señor, ¿parece el tipo de hombre...?
+ego:Espere un segundo.
+ego:Esto es un discurso de venta, ¿verdad?
 other:Oh no.
 ego:No?
-other:No, this is an investment opportuni..
-ego:Cut to it.
-other:Life insurance?
+other:No, esta es una oportunidad de inversión...
+ego:Ve al grano.
+other:¿Seguro de vida?
 return
 
-@1 // Ok, I'll play along
-ego:Ok, I'll play along.
-ego:Actually, that Is something I would consider.
-other:REALLY?
-ego:Yes sir
-other:REALLY?
+@1 // De acuerdo, te seguiré el juego.
+ego:De acuerdo, te seguiré el juego.
+ego:En realidad, eso es algo que yo consideraría.
+other:REALMENTE?
+ego:Si señor
+other:REALMENTE?
 ego:No.
 stop
 
 @2 // No
 ego:No.
-ego:I think you knew I was going to say that.
-other:I see you have a job to do, but I'm not interested?
-ego:Try again.
-other:Please quit talking to me?
-ego:Again.
-other:Quit talking or I may physically attack you?
-ego:That's the one.
-other:*sigh*
+ego:Creo que sabías que iba a decir eso.
+other:Veo que tienes un trabajo que hacer, ¿pero no te interesa?
+ego:Inténtalo de nuevo.
+other:Por favor, ¿puedes dejar de hablarme?
+ego:Inténtalo de nuevo.
+other:¿Dejar de hablar o puedo atacarte físicamente?
+ego:Eso es...
+other:*suspiro*
 stop

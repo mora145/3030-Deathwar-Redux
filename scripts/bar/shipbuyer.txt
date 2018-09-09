@@ -1,38 +1,38 @@
 //begin
-// [x] 1 - "Oh? What ship?"
-// [x] 2 - "How d'you make the creds?"
+// [x] 1 - ¿Oh? ¿Qué nave?
+// [x] 2 - "¿Cómo hiciste las credenciales?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hey, how's things?
-ego:Good, you?
-other:Yeah. I have nearly saved up enough for a new ship.
+other:Hola, ¿cómo van las cosas?
+ego:Bien, ¿tú?
+other:Sí. Casi he ahorrado lo suficiente para una nueva nave.
 return
 
-@1 // Oh? What ship?
-ego:Oh? What ship?
-other:I'm not sure yet.
-other:I've been seeing what's on offer at different stations.
-ego:Any catch your eye?
-other:I'm thinking of getting a Monford.
-ego:She's a biggun'.
-other:Yeah, maybe I'll get a Lochu and kit it out smart.
-other:Like I said, I'm not sure yet.
-ego:K, Catch ya later.
-other:Safe flying.
+@1 // ¿Oh? ¿Qué nave?
+ego:¿Oh? ¿Qué nave?
+other:Aún no estoy seguro.
+other:He estado viendo lo que se ofrece en diferentes estaciones.
+ego:¿AIguna te llama la atención?
+other:Estoy pensando en comprarme un Monford.
+ego:Es una gra ametralladora.
+other:Sí, tal vez consiga un Lochu y lo arregle con inteligencia.
+other:Como dije, aún no estoy seguro.
+ego:Ok, nos vemos luego.
+other:Que tengas buen vuelo.
 stop
 
-@2 // How d'you make the creds?
-ego:How d'you make the creds?
-other:This and that. 
-other:Mostly stuff off the job console.
-ego:Well remember to kit it out with upgrades.
-other:Will do. I'm gonna have all the comforts.
-other:I'm gonna get a games console in the cockpit.
-ego:Won't that distract you from piloting?
-other:Nah, I've hired a pilot.
-ego:Cool.
-ego:Later.
+@2 // ¿Cómo hiciste los creditos?
+ego:¿Cómo hiciste los creditos?
+other:Esto y aquello. 
+other:Mayormente cosas de la consola de trabajo.
+ego:Bueno, recuerda equiparlo con actualizaciones.
+other:Lo haré. Voy a tener todas las comodidades.
+other:Voy a poner una consola de juegos en la cabina.
+ego:¿Eso no te distraerá de pilotear?
+other:Nah, he contratado a un piloto.
+ego:Que bien!
+ego:Hasta luego.
 stop

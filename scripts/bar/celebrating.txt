@@ -1,49 +1,49 @@
 //begin
-// [x] 1 - "What about?"
-// [x] 2 - "In that case..."
+// [x] 1 - "Por qué?"
+// [x] 2 - "En ese caso..."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Ahoy there.
-ego:Hi.
-ego:What's up with you?
-other:I'm celebrating.
+other:Ey, ahí está..
+ego:Hola.
+ego:¿Qué esta pasando contigo?
+other:Estoy celebrando.
 return
 
 @1 // What about?
-ego:What about?
-other:I completed an epic trade run.
-other:I've been in space for ages.
-ego:What where you trading?
-other:Some diamonds, some titanium.
-ego:Make much profit.
-other:Yeah. That's what I'm celebrating.
-other:That, and making it safely. 
-ego:Yeah, I can get pretty hairy out there.
-ego:Get attacked at all?
-other:Nah, didn't drop out of diff-split much.
-ego:Just for re-fueling.
-other:You got it.
-ego:Smooth. I'm gonna check the jobs board n stuff.
-ego:Catch ya later.
+ego:Acerca de qué??
+other:Completé una épica carrera comercial.
+other:He estado en el espacio por años.
+ego:¿Qué es lo que comercias?
+other:Algunos diamantes, algo de titanio.
+ego:Consigue muchos beneficios.
+other:Sí. Eso es lo que estoy celebrando.
+other:Eso, y hacerlo a salvo.
+ego:Sí, puedo ponerme bastante peludo ahí fuera.
+ego:¿Fue atacado?
+other:No, no salí mucho del diff-split.
+ego:Sólo para cargar combustible.
+other:Lo has conseguido.
+ego:Suave... Voy a revisar la bolsa de trabajo.
+ego:Te veo luego.
 other:Ok.
 stop
 
 @2 // In that case...
-ego:In that case... 
-ego:I recommend splashing out on some Peanuts.
-other:Ha, yeah, the entertainments for traders are quite limited.
-other:My friend is at the bar now trying to order some drinks.
-other:He's taking his time.
-ego:The bar-droid is probably doing another head count.
-other:Yeah, what is with that?
-ego:It's a management thing they say.
-other:Well, I don't know about management, but I know I like prompt service.
-ego:I might go to the bar myself.
-other:Good luck getting served.
-ego:I make my own luck.
+ego:En ese caso... 
+ego:Recomiendo salpicar algunos cacahuetes.
+other:Sí, el entretenimiento para los comerciantes es bastante limitado.
+other:Mi amigo está en el bar ahora tratando de pedir algunas bebidas.
+other:Se está tomando su tiempo.
+ego:El bar-droide probablemente esté haciendo otro recuento.
+other:Sí, ¿qué pasa con eso?
+ego:Es algo que dicen los directivos.
+other:Bueno, no sé nada de administración, pero sé que me gusta el servicio rápido.
+ego:Yo también podría ir al bar.
+other:Buena suerte con el servicio.
+ego:Yo hago mi propia suerte.
 other:Ha.
 stop
 

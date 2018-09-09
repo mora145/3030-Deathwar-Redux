@@ -1,30 +1,30 @@
 //begin
-// [x] 1 - "Ok, if its a new one."
+// [x] 1 - "Ok, si es uno nuevo."
 // [x] 2 - "No."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hey.
-other:Hey, you want hear a new trader joke?
+ego:Ey.
+other:Oye, ¿quieres oír un nuevo chiste de comerciante?
 return
 
-@1 // Yes ok.
-ego:Ok, hit me.
-other:What's the difference between a..
-other:...no, I forgot it again.
-ego:Oh well.
-other:Sorry.
-ego:No problem.
+@1 // Si, bien.
+ego:Ok, lanzamelo.
+other:¿Cuál es la diferencia entre un..
+other:...no, lo olvidé otra vez.
+ego:Oh bien.
+other:Perdon.
+ego:No hay problema.
 stop
 
 @2 // No.
 ego:No.
-other:Ooh, come on.
-other:It's a good'n.
+other:Ooh, vamos.
+other:Es uno de los buenos.
 ego:No.
-other:Ok then, stay safe out there.
-ego:I always do.
+other:De acuerdo, entonces, mantente a salvo ahí fuera.
+ego:Siempre lo hago.
 stop
 

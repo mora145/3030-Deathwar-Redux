@@ -1,70 +1,70 @@
 //begin
-// [x] 1 - "Ok, hit me."
-// [x] 2 - "No thanks."
+// [x] 1 - "Ok, golpéame."
+// [x] 2 - "No gracias."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi there.
-other:Hi.
-ego:Space treatin' ya well?
-other:Yeah, I'm just hanging around.
-other:Word game?
+ego:Hola, hola.
+other:Hola.
+ego:¿Te trata bien el espacio?
+other:Sí, sólo estoy dando vueltas.
+other:¿Juego de palabras?
 return
 
-@1 // Ok, hit me.
-ego:Ok, hit me.
-other:k.
-other:Twenty questions?
-ego:Ok, i'll pick one
-other:Ok then.
-ego:Hmmm. Ok I got one. I'm a mineral
-other:Ok, are you... a metal?
-ego:yeah.
-other:Do you have a high melting point?
-ego:Relatively? No 
-other:Are you mercury?
+@1 // Ok, golpéame.
+ego:Ok, golpéame.
+other:Bien.
+other:¿Veinte preguntas?
+ego:De acuerdo, escogeré uno.
+other:De acuerdo.
+ego:Hmmm. Ok, tengo uno. Soy un mineral
+other:Vale, ¿eres... un metal?
+ego:Si.
+other:¿Tiene un alto punto de fusión?
+ego:¿Relativamente? No
+other:¿Eres Mercurio?
 ego:No. 
-other:Do you have more than one part?
-ego:Yes.
-other:Are you a tool?
-ego:Yeah.
-other:Can I buy one easily?
-ego:Depends.
-other:Can I buy one easily if I had loads of creds?
-ego:Yeah.
+other:¿Tienes más de una parte?
+ego:Si.
+other:¿Eres una herramienta?
+ego:Si!
+other:¿Puedo comprar uno fácilmente?
+ego:Depende.
+other:¿Puedo comprar uno fácilmente si tengo un montón de creditos?
+ego:Si!
 other:Hmmmm.
-other:Hmmm, Something hand held?
+other:Hmmm, ¿algo que se puede sostener de la mano?
 ego:No.
-other:Are you brightly coloured?
+other:¿Eres de colores brillantes?
 ego:No.
-other:Are you a ship upgrade of some sort?
-ego:Yes.
-other:Ah ha. Are you an afterburner?
+other:¿Es usted una mejora de nave, de algún tipo?
+ego:Si.
+other:Ah ha. ¿Eres un postcombustión?
 ego:No.
-other:Ok, how many questions I got left?
-ego:Err... about half.
-other:Are you a weapon?
-ego:Yeah.
-other:Are you a missile?
+other:Vale, ¿cuántas preguntas me quedan?
+ego:Err.... como la mitad.
+other:¿Eres un arma?
+ego:Si!
+other:¿Eres un misil?
 ego:No.
-other:Oh, do you have *cannon* in your name?
-ego:Yeah.
-other:Are you an Ion Cannon?
+other:Oh, ¿tienes *cañón* en tu nombre?
+ego:Si!
+other:¿Eres un Cañón de Iones?
 ego:No.
-other: Are you an Ion Cannon II?
+other: ¿Eres un Cañón de Iones tipo II?
 ego: No
-other:Are you.. a Plasma Cannon?
-ego:You got it.
+other:¿Eres... un cañón de plasma?
+ego:Ya lo tienes!
 other:Ha.
-ego:I thought you were gonna run out of questions.
-other:It was close, good game.
-ego:Catch ya later.
+ego:Pensé que te ibas a quedar sin preguntas.
+other:Estuvo cerca, buen juego.
+ego:Nos vemos luego.
 stop
 
-@2 // No thanks
-ego:No thanks, I'm busy.
-ego:Maybe later.
-other:Ok, safe flying.
+@2 // No, gracias
+ego:No, gracias, estoy ocupado.
+ego:Tal vez más tarde.
+other:Vale, que tengas buen vuelo.
 stop

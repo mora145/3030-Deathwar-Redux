@@ -1,52 +1,52 @@
 //begin
-// [x] 1 - "Ok, I got time to kill."
-// [x] 2 - "No way."
+// [x] 1 - "Ok, tengo tiempo para matar."
+// [x] 2 - "De ninguna manera."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:What are you after?
-other:Excuse me sir, I'm a part-time jouro.
-other:Could you answer some questions?
-ego:For a survey.
-other:Yes sir, a survey of traders opinions on a few issues.
-ego:Issues huh.
+ego:¿Qué es lo que buscas?
+other:Disculpe señor, soy un jouro de medio tiempo.
+other:¿Podría responder algunas preguntas?
+ego:Para una encuesta.
+other:Sí, señor, una encuesta de las opiniones de los comerciantes sobre algunos temas.
+ego:Problemas ¿eh?
 other:uh huh.
-other:Only take a minute.
+other:Sólo tomará un minuto.
 return
 
-@1 // Ok, I got time to kill
-ego:Ok, I got time to kill.
-other:Great! Ok, question one.
-other:Do you believe the bars should be allowed to sell alcohol?
-other:Yes, No or Not sure.
+@1 // Ok, tengo tiempo para matar
+ego:Ok, tengo tiempo para matar
+other:¡Genial! Bien, primera pregunta.
+other:¿Cree que los bares deberían poder vender alcohol?
+other:Sí, No o No estoy seguro.
 ego:No.
-other:Ok... 
-other:Do you believe the bars should sell a greater food range?
-other:Yes, No or Not sure.
-ego:Not with their hygiene standards.
-other:Yes, No or Not sure?
-ego:I said No.
-other:So you're saying No.
-ego:Look this is taking too long.
-other:Ok, thanks, that's more than I got from anyone else.
-ego:*That's* the most you've got?
-other:Yeah, most people in this bar are angry.
-ego:Good luck kid.
-other:Thanks, I need it.
+other:Bien... 
+other:¿Crees que los bares deberían vender una mayor variedad de alimentos?
+other:Sí, No o No estoy seguro.
+ego:No con sus estándares de higiene.
+other:Sí, No o No estoy seguro.
+ego:Dije que no.
+other:Entonces dices que no.
+ego:Mira, esto está tomando demasiado tiempo.
+other:Vale, gracias, eso es más de lo que he conseguido de nadie más.
+ego:¿*Esto* es lo máximo que tienes?
+other:Sí, la mayoría de la gente en este bar está enfadada.
+ego:Buena suerte, chico.
+other:Gracias, la necesito.
 stop
 
-@2 // No way
-ego:No way.
-ego:I think you know what I'm going to say.
-other:I see you have a job to do, but I'm not interested?
-ego:Try again.
-other:Not another stupid survey?
-ego:Again.
-other:Quit talking or I may physically attack you?
-ego:That's the one. No offence.
-other:Non taken, these questions are rubbish.
-ego:Good luck kid.
-other:Thanks, I need it.
+@2 // De ninguna manera
+ego:De ninguna manera.
+ego:Creo que sabes lo que voy a decir.
+other:Veo que tienes un trabajo que hacer, ¿pero no estoy interesado?
+ego:Inténtalo de nuevo.
+other:¿No otra estúpida encuesta?
+ego:De nuevo.
+other:¿Dejar de hablar o puedo atacarte físicamente?
+ego:Esa es la única. Sin ánimo de ofender.
+other:Si no se hacen, estas preguntas son basura.
+ego:Buena suerte, chico.
+other:Gracias, la necesito.
 stop

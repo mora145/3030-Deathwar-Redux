@@ -1,41 +1,41 @@
 //begin
-// [x] 1 - "Did you complain?"
-// [x] 2 - "I hate it when blastdoors try and crush you."
+// [x] 1 - "Te has quejado?"
+// [x] 2 - "Odio cuando las puertas blindadas intentan aplastarte."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:You look flustered.
-other:I would do.
-other:You dock ok?
-ego:Yeah, why?
-other:I was just docking and the blastdoors started to shut.
-ego:Nightmare.
-other:Yeah, my aft section was nearly crushed.
-other:I managed to scrape through.
-ego:I didn't have a problem.
-other:Must have been a one off.
+ego:Pareces nervioso.
+other:Yo lo haría.
+other:Atracas bien?
+ego:Sí, ¿por qué?
+other:Estaba atracando y las puertas blindadas empezaron a cerrarse.
+ego:Una pesadilla.
+other:Sí, mi sección de popa fue casi aplastada.
+other:Me las arreglé para salir adelante.
+ego:No tuve ningún problema.
+other:Debió haber sido un fracaso.
 return
 
-@1 // Did you complain?
-ego:Did you complain?
-other:Did I!
-other:Oh yeah, I complained alright.
-ego:Any explanation?
-other:No, I nearly got a fine for abusive language.
-other:But I got them to pay for my hull re-spray.
+@1 // ¿Te has quejado?
+ego:¿Te has quejado?
+other:Lo hice!
+other:Oh sí, me quejé muy bien.
+ego:¿Alguna disculpa?
+other:No, casi me multan por lenguaje abusivo.
+other:Pero conseguí que pagaran por mi re-pulverización del casco.
 ego:Cool.
-ego:Safe flying.
-other:I try.
+ego:Vuela con cuidado.
+other:Lo intento.
 stop
 
-@2 // I hate it when blastdoors try and crush you.
-ego:I hate it when blastdoors try and crush you.
-other:Happened to you has it?
-ego:I couldn't be sure cos my rear-cam is broken. 
-other:Oh well. I'm still alive.
-ego:That's the main thing.
-ego:Safe flying.
-other:I try.
+@2 // Odio cuando las puertas blindadas intentan aplastarte.
+ego:Odio cuando las puertas blindadas intentan aplastarte.
+other:Te pasó a ti, ¿no?
+ego:No puedo estar seguro porque mi camara trasera está rota.
+other:Oh bien. Todavía estoy vivo.
+ego:Eso es lo que importa.
+ego:Vuela con cuidado.
+other:Lo intento.
 stop

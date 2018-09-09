@@ -1,23 +1,23 @@
 //begin
-// [x] 1 - "No, you heard about any derelicts?"
+// [x] 1 - "No, ¿has oído hablar de algún abandonado?"
 // [x] 2 - "No."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hiya.
-other:Hey, you want hear a new trader joke?
+ego:Hola.
+other:Oye, ¿quieres oír un nuevo chiste de trader?
 return
 
-@1 // No, you heard about any derelicts?
-ego:No, you heard about any derelicts?
-other:I heard nothin'.
+@1 // No, ¿has oído hablar de algún abandonado?
+ego:No, ¿has oído hablar de algún abandonado?
+other:No he oído nada.
 stop
 
 @2 // No.
 ego:No.
-other:Ok dude, stay safe out there.
-ego:I always do.
+other:Ok amigo, mantente a salvo ahí fuera.
+ego:Siempre lo hago.
 stop
 

@@ -1,33 +1,33 @@
 //begin
-// [x] 1 - "Is that dangerous?"
-// [x] 2 - "Is the droid ok?"
+// [x] 1 - "¿Eso es peligroso?"
+// [x] 2 - "¿El droide está bien?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Yo.
-other:Yo.
-other:You smell that lift?
-ego:I did notice something.
-other:Mmm, a droid just leaked acid from his old batteries .
+ego:Hola.
+other:Hola.
+other:¿Hueles ese elevador?
+ego:Me di cuenta de algo.
+other:Un droide acaba de derramar ácido de sus viejas baterías.
 ego:Oh oh.
 other:uh huh.
-other:It reacted with the anti-rad paint.
+other:Reaccionó con la pintura antirradiación.
 return
 
-@1 // Is that dangerous?
-ego:Is that dangerous?
-other:Probably was at first
-other:Probably still is! Ha
-ego:I don't think I inhaled to much
-other:No, I'm just joking, it was just stinking.
-other:Like Sulphur and methane.
+@1 // ¿Eso es peligroso?
+ego:¿Eso es peligroso?
+other:Probablemente al principio
+other:¡Probablemente lo siga siendo! Ah...
+ego:No creo que inhalara mucho.
+other:No, sólo bromeaba, sólo era apestoso.
+other:Como el azufre y el metano.
 stop
 
-@2 // The droid ok?
-ego:Is the droid ok?
-other:Fine.
-other:He wouldn't have noticed unless I'd told him.
-ego:Those droids.
+@2 // ¿El droide está bien?
+ego:¿El droide está bien?
+other:Bien.
+other:No lo habría notado si no se lo hubiera dicho.
+ego:Estos droides.
 stop

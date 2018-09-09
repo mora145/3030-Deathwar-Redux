@@ -1,46 +1,46 @@
 //begin
-// [x] 1 - "Ok, I got time to kill."
-// [x] 2 - "Sorry dude, I'm busy at the moment."
+// [x] 1 - "Vale, tengo tiempo para matar."
+// [x] 2 - "Lo siento amigo, estoy ocupado en este momento."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:What are you after?
-other:Excuse me sir, I'm a part-time jouro.
-other:Could you answer some questions?
-ego:For a survey.
-other:Yes sir, a survey of traders opinions on a few issues.
-other:It'll only take a minute.
+ego:¿Qué es lo que buscas?
+other:Disculpe señor, soy un jouro de medio tiempo.
+other:¿Podría responder algunas preguntas?
+ego:Para una encuesta.
+other:Sí, señor, una encuesta de las opiniones de los comerciantes sobre algunos temas.
+other:Sólo tomará un minuto.
 ego:Hmmm
 return
 
-@1 // Ok, I got time to kill
-ego:Ok, I got time to kill.
-other:Ace! Ok, question one;
-other:Do you believe the bars should pay to show sports coverage?
-ego:Yeah.
-other:Ok... 
-other:Would you like to see;
-other:Zero-G darts, Football, Moneyball races?
-ego:All are better than that news channel.
-other:Yes to all?
-ego:Yeah. I'd prefer them to put on the music channels sometimes.
-other:Ok. Music channels.
-ego:Why can't they show other stuff?
-other:Oh, most bars can't afford the rights to show other channels.
-other:The Council are thinking of subsidising them.
-ego:Really?
-other:Yeah, they want to keep you traders happy.
-other:You provide an invaluable service you provide transporting goods they say.
-ego:Well, hope that helped but I gotta go.
-other:Ok, thanks, that's more than I got from anyone else.
-ego:Good luck.
-other:Thanks.
+@1 // Ok, tengo tiempo para matar
+ego:Ok, tengo tiempo para matar
+other:Bien! primera pregunta;
+other:¿Crees que los bares deberían pagar por mostrar cobertura deportiva?
+ego:Siii.
+other:Bien... 
+other:¿Te gustaría ver;
+other:Dardos Zero-G, Fútbol, carreras de Moneyball?
+ego:Todos son mejores que ese canal de noticias.
+other:¿Sí a todos?
+ego:Sí. Preferiría que pusieran los canales de música a veces.
+other:Ok. Canales de música.
+ego:¿Por qué no pueden mostrar otras cosas?
+other:Oh, la mayoría de los bares no pueden permitirse los derechos para mostrar otros canales.
+other:El Consejo está pensando en subvencionarlos.
+ego:De verdad?
+other:Sí, quieren que los comerciantes estén contentos.
+other:Usted proporciona un servicio inestimable que proporciona el transporte de mercancías que ellos dicen.
+ego:Bueno, espero que eso haya ayudado, pero tengo que irme.
+other:Bien, gracias, es más de lo que conseguí de cualquier otro.
+ego:Buena suerte.
+other:Gracias.
 stop
 
-@2 // Sorry dude, I'm busy at the moment.
-ego:Sorry dude, I'm busy at the moment.
-ego:Good luck.
-other:Thanks, I need it.
+@2 // Lo siento amigo, estoy ocupado en este momento.
+ego:Lo siento amigo, estoy ocupado en este momento.
+ego:Buena suerte.
+other:Gracias, la necesito.
 stop

@@ -1,35 +1,35 @@
 //begin
-// [x] 1 - "I'm tired and I want to go to bed."
-// [x] 2 - "I don't sing sober."
+// [x] 1 - "Estoy cansado y quiero irme a la cama."
+// [x] 2 - "No canto sobrio."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi there.
-other:(hick up)
-ego:How's space treatin' ya?
-other:Ow Kayy (hick up)
-other:You look ike yo ned,(hick up) a drink..
-other:ohhh, show me the way to go home.
+ego:Hola a todos.
+other:(Hick)
+ego:¿Cómo te trata el espacio?
+other:Biiienn (hick)
+other:Te ves como si hubieras bebido un trago..
+other:Ohhh, muéstrame el camino a casa.
 return
 
-@1 // I'm tired and I want to go to bed.
-ego:I'm tired and I want to go to bed.
-other:I had a little drink about and hour ago.
-ego:And it went right to my head.
+@1 // Estoy cansado y quiero irme a la cama..
+ego:Estoy cansado y quiero irme a la cama.
+other:Tomé un trago hace una hora.
+ego:Y se me subió a la cabeza.
 other:Oh...
-other:Wherever I may roam..
-ego:On land on sea or foam.
-other:I thi-(hick)-nk i'm gonna Vomit..
-ego:Not in my personal space.
-ego:I'm outta here.
+other:Dondequiera que pueda vagar..
+ego:En la tierra en el mar o la espuma.
+other:Creo que voy a vomitar..
+ego:No en mi espacio personal.
+ego:Yo me voy de aquí.
 stop
 
-@2 // I don't sing sober.
-ego:I don't sing sober.
+@2 // No canto sobrio.
+ego:No canto sobrio.
 other:Huh? (hick)
-ego:I think I saw someone breaking into your ship.
-other:Who? Wha? (hick up)
-ego:And I'm gone.
+ego:Creo que vi a alguien irrumpiendo en su nave.
+other:¿Quién? ¿Qué? (arremangandose)
+ego:Y yo me voy.
 stop

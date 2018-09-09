@@ -1,42 +1,42 @@
 //begin
-// [x] 1 - "What ship did they get?"
-// [x] 2 - "How did he make the creds?"
+// [x] 1 - "¿Qué nave consiguieron?"
+// [x] 2 - "¿Cómo hicistes los creditos?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hey, how's things?
-ego:Fine, you?
-other:Yeah. I have just been out in my friends ship.
+other:Hola, ¿cómo están las cosas?
+ego:Muy bien, ¿y tú?
+other:Excelente. Acabo de estar en la nave de unos amigos.
 ego:?
-other:He bought it yesterday.
+other:Se la compraron ayer.
 return
 
-@1 // What ship did they get?
-ego:What ship did they get?
-other:A Vison
-other:It gives a smooth ride.
-ego:Expensive though.
-other:He had the cockpit done up nice.
-other:He's made a Zero-G darts compartment in the hold. 
-ego:Ace, re-enforced wall panels?
-other:Oh yeah, and the rest.
-other:An automated scoreboard.
-other:Laser lights. It's well naughty.
-ego:Class.
-ego:I'm gonna get a drink.
-other:'kay.
+@1 // ¿Qué nave consiguieron?
+ego:¿Qué nave consiguieron?
+other:Una Vison
+other:Te da un viaje suave.
+ego:Aunque es cara.
+other:Tenía la cabina bien arreglada.
+other:Hizo un compartimento de dardos Zero-G en la bodega. 
+ego:Ace, ¿paneles de pared reforzados?
+other:Ah, sí, y el resto.
+other:Un marcador automático.
+other:Luces láser. Quedó muy travieso.
+ego:Clase.
+ego:Voy por un trago.
+other:Esta bien.
 stop
 
-@2 // How did he make the creds?
-ego:How did he make the creds?
-other:He got lucky doing salvage.
-other:Found a load of Jeffscredium.
-ego:Jammy git.
-other:Tell me about it.
-other:All I find are methane containers.
-ego:Ah well.
-other:Later.
-ego:Later.
+@2 // ¿Cómo hizo los creditos?
+ego:¿Cómo hizo los creditos?
+other:Tuvo suerte haciendo salvamento.
+other:Encontró un montón de Jeffscredium.
+ego:Mermelada idiota.
+other:Háblame de eso.
+other:Todo lo que encuentro son contenedores de metano.
+ego:Ah bien.
+other:Hasta luego.
+ego:Nos vemos.
 stop

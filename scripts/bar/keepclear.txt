@@ -1,38 +1,38 @@
 //begin
-// [x] 1 - "Try it."
-// [x] 2 - "Ok, here goes.."
+// [x] 1 - "Inténtalo."
+// [x] 2 - "Ok, aquí va.."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Yo, Nice hat.
-ego:Thanks, I like it.
-other:Hey, I was wondering.
-other:Why do you have to keep clear of the lift doors?
+other:Oye, lindo sombrero.
+ego:Gracias, me gusta.
+other:Oye, me preguntaba...
+other:¿Por qué tienes que mantenerte alejado de las puertas del ascensor?
 return
 
-@1 // Try it.
-ego:Try it.
-other:I think I will.
-other:Actually, I might get my leg ripped off by that door.
-ego:You got it.
-ego:They have taken the sensors off some of them.
-ego:'Cos cleaning droids kept getting stuck in there.
-other:Those crazy droids.
-other:Later.
-ego:Safe flying.
+@1 // Inténtalo.
+ego:Inténtalo.
+other:Creo que lo haré.
+other:En realidad, puede que me corte la pierna con esa puerta
+ego:Ya lo tienes.
+ego:Han quitado los sensores de algunos...
+ego:...porque los droides de la limpieza se quedaban atascados ahí.
+other:Esos droides locos.
+other:Después.
+ego:Buen vuelo.
 stop
 
-@2 // Ok, here goes..
-ego:Ok, here goes..
-ego:One; you are blocking a public thoroughfare.
-ego:Two; you let the heated air into the lift. 
-ego:Three; the cheap industrial pneumatic power-door, will literally rip your limbs off.
-other:Oh yeah.
-other:Like what happened to that droid.
+@2 // Ok, aquí va..
+ego:Ok, aquí va....
+ego:Uno; estás bloqueando una vía pública.
+ego:Dos; dejas que el aire caliente entre en el ascensor. 
+ego:Tres; la puerta de energía neumática industrial barata, literalmente te arrancará las extremidades.
+other:Oh si.
+other:Como lo que le pasó a ese droide.
 ego:Uh huh.
-other:Safe flying.
+other:Buen vuelo.
 stop
 
 

@@ -1,39 +1,39 @@
 //begin
-// [x] 1 - "Go on."
-// [x] 2 - "Not interested."
+// [x] 1 - "Continúa."
+// [x] 2 - "No estoy interesado."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi there.
-other:Hi friend.
-other:You heard about those wormholes?
-ego:I've heard some things.
-other:I heard it from a trader friend. He's a little bit mad though.
+ego:Hola, hola.
+other:Hola amigo.
+other:¿Has oído hablar de esos agujeros de gusano?
+ego:He oído algunas cosas.
+other:Escuché algo de un amigo comerciante. Pero está un poco loco.
 return
 
-@1 // Go on.
-ego:What was it?
-other:He said he saw a bright light.
-other:Even had to drop his sun visor.
-ego:Go on?
-other:He claims he flew into it and got spat out light years away.
-ego:Did he say where?
-other:No. He says it's his secret.
-ego:You believe him?
-other:He does disappear for weeks and make loads from trade runs.
-ego:Interesting.
-ego:Well If they're out there, I'll find em.
-ego:Later.
+@1 // Continúa.
+ego:¿Qué fue?
+other:Dijo que vio una luz brillante.
+other:Incluso tuvo que quitarse el parasol.
+ego:Continua...
+other:Dice que se estrelló contra él y que lo escupió a años luz de distancia.
+ego:¿Dijo a dónde?
+other:No. Dice que es su secreto.
+ego:¿Tú le crees?
+other:Desaparece durante semanas y hace cargas en las rutas comerciales.
+ego:Interesante.
+ego:Bueno, si están ahí fuera, los encontraré.
+ego:Hasta luego.
 stop
 
 
-@2 // Not interested.
-ego:Not interested. They are just old traders tales.
-other:Maybe.
-ego:Well If they're out there, I'll find em.
-ego:Later.
+@2 // No estoy interesado.
+ego:No estoy interesado. Son sólo cuentos de viejos comerciantes.
+other:Tal vez.
+ego:Bueno, si están ahí fuera, los encontraré.
+ego:Hasta luego..
 stop
 
 

@@ -1,45 +1,45 @@
 //begin
-// [x] 1 - "You're off you face aren't you."
-// [x] 2 - "Look behind you a three headed monkey!"
+// [x] 1 - "Estás fuera de tus cabales, ¿verdad?."
+// [x] 2 - "¡Mira detrás de ti, un mono de tres cabezas!"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Word up.
-other:Yo.
-other:How's space treatin' ya?
-ego:Alright.
-other:You look like you need a drink.
-ego:I *have* been working like a dog. 
-other:Huh? Whats a dog?
-ego:It's an organic quadruped from the old human world.
+ego:Que tal.
+other:eh!
+other:¿Cómo te trata el espacio??
+ego:Muy bien.
+other:Parece que necesitas un trago..
+ego:He estado trabajando como un perro.. 
+other:¿Eh? ¿Qué es un perro?
+ego:Es un cuadrúpedo orgánico del antiguo mundo humano.
 other:Huh? 
-ego:A beast the Humans grew up with.
+ego:Una bestia con la que los humanos crecieron.
 other:Huh? 
-ego:A loyal domesticated creature.
-other:What are you talking about? (hick) 
-ego:Never mind.
-other:Hey. I saw a dog once.
-ego:But you..
-other:Wha?
+ego:Una criatura leal domesticada.
+other:¿De qué estás hablando? (pueblerino) 
+ego:No importa.
+other:Oye. Una vez vi un perro.
+ego:Pero tú..
+other:Qué?
 return
 
-@1 // You're off you face aren't you.
-ego:You're off you face aren't you.
-other:Proobabley, (hick)
-other:I've been in a drink-(hick)-ing comp with a hairy trader.
-ego:Cool, you win?
-other:Not sure.
-other:(hick)
-other:I thi-(hick)-nk i'm gonna Vom
-ego:Not on my shoes!
-ego:I'm outta here.
+@1 // Estás fuera de tus cabales, ¿verdad?
+ego:Estás fuera de tus cabales, ¿verdad?
+other:Probablemente, (molesto)
+other:He estado en un concurso de borracheras con un comerciante velludo.
+ego:Genial, ¿ganaste?
+other:No estoy seguro.
+other:(molesto)
+other:Creo (molesto) que voy a vomitar.
+ego:¡No en mis zapatos!
+ego:Yo me voy de aquí.
 stop
 
-@2 // Look behind you a three headed monkey!
-ego:Look behind you a three headed monkey!
-other:Huh? (hick)
-other:A monzey, wiv three heads??
-ego:And I'm gone.
+@2 // ¡Mira detrás de ti, un mono de tres cabezas!
+ego:¡Mira detrás de ti, un mono de tres cabezas!
+other:¿Eh?
+other:¿Un monzey, con tres cabezas?
+ego:Y yo me voy.
 stop

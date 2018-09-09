@@ -1,5 +1,5 @@
 //begin
-// [x] 1 - "Thanks!"
+// [x] 1 - "Gracias!"
 //end
 
 @S 

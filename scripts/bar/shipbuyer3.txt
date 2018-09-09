@@ -1,50 +1,50 @@
 //begin
-// [x] 1 - "What ship did they get?"
-// [x] 2 - "How did they make the creds?"
+// [x] 1 - "¿Qué nave consiguieron?"
+// [x] 2 - "¿Cómo hicieron los creditos?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hey, how's things here?
-ego:Good, how you doing?
-other:Fine. My friend's just bought a freighter.
-ego:Cool.
+other:Hola, ¿cómo van las cosas por aquí?
+ego:Bien, ¿cómo estás?
+other:Bien. Mi amiga acaba de comprar un carguero.
+ego:Excelente.
 return
 
 @1 // What ship did they get?
-ego:What ship did they get?
-other:A  Churchill, it is massive.
-other:She's gonna move into commodity trading.
-ego:I guess that was the idea of getting that ship.
-other:Yeah right. 
-other:You should have seen it inside.
-other:We had to use bikes to get around.
-ego:I bet you could have played football in the cargo bay.
-other:Ha, you could have almost had orbital races!
-ego:Ha, I'm gonna check the consoles.
-other:Safe flying.
-ego:Yeah.
+ego:¿Qué nave consiguieron?
+other:Un Churchill, es enorme.
+other:Ella se va a dedicar al comercio de mercancías.
+ego:Supongo que esa era la idea para conseguir esa nave.
+other:Sí, claro. 
+other:Deberías haberlo visto por dentro.
+other:Tuvimos que usar bicicletas para movernos.
+ego:Apuesto a que podrías haber jugado al fútbol en el hangar de carga.
+other:¡Ah!, ¡Casi podrías haber corrido carreras orbitales!
+ego:Ah! Voy a revisar las consolas.
+other:Buen vuelo.
+ego:Si.
 stop
 
-@2 // How did they make the creds?
-ego:How did they make the creds?
-other:She's an expert at doing salvage.
-other:She's found loads of Silver and gold.
-other:I don't understand why the containers are just left there anyway.
-ego:Err, they are destroyed ships.
-ego:It's not like they had much time to evacuate.
-other:Yes, I know, but sometimes it's like they have been put there after.
-ego:Well a lot of them have been.
+@2 // ¿Cómo hicieron los creditos?
+ego:¿Cómo hicieron los creditos?
+other:Es experta en salvamento.
+other:Ha encontrado montones de plata y oro.
+other:No entiendo por qué los contenedores se quedan ahí.
+ego:Ehhh... Son naves destruidas.
+ego:No es como si tuvieran mucho tiempo para evacuar.
+other:Sí, lo sé, pero a veces es como si los hubieran puesto ahí después.
+ego:Bueno, muchos de ellos lo han sido.
 other:Oh?
-ego:Well a lot of them are pirate stashes. 
-other:Really. She didn't tell me that.
-other:Isn't that dangerous then? Taking crims stuff?
-ego:They know the risk of putting it there.
-other:And once they leave it, it's fair legal salvage.
-ego:You got it. I'm gonna check the consoles.
-other:Safe flying.
-ego:Safe flying.
+ego:Bueno, muchos de ellos son alijos de piratas. 
+other:De verdad. Ella no me dijo eso. 
+other:¿No es peligroso entonces? ¿Cargar cosas de criminales?
+ego:Saben el riesgo de ponerlo ahí.
+other:Y una vez que lo dejan, es un salvamento legal.
+ego:Lo tienes. Voy a revisar las consolas.
+other:Que tengas buen vuelo.
+ego:Igualmente.
 stop
 
 

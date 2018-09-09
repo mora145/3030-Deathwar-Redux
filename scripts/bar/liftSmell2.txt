@@ -1,36 +1,36 @@
 //begin
-// [x] 1 - "If you can't stand the smell.."
-// [x] 2 - "You tried asking the droids about it?"
+// [x] 1 - "Si no puedes soportar el olor.."
+// [x] 2 - "¿Intentaste preguntárselo a los droides?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi.
-other:Yo.
-other:You smell that lift?
-ego:Yeah, it's hard not to.
-other:The cleaning droids must not go in there.
-other:It gets on my nerves.
-other:It gets right up my nose! Ha
+ego:Hola.
+other:Hola.
+other:¿Hueles eso?
+ego:Sí, es difícil no hacerlo.
+other:Los droides de limpieza no deben entrar ahí.
+other:Me pone de nervios.
+other:¡Se me mete por la nariz! Ah...
 ego:Err, har har.
-ego:I'm sure they'll get round to it.
-other:Yeah, maybe.
+ego:Estoy seguro que lo harán.
+other:Sí, tal vez.
 return
 
-@1 // If you can't stand the smell..
-ego:If you can't stand the smell...
-ego:...you could wear your suit like some of the other traders.
-other:I used to, all the time.
-other:But I could still smell the lifts in some stations.
-ego:Oh well. 
-ego:Catch ya later.
+@1 // Si no puedes soportar el olor..
+ego:Si no puedes soportar el olor...
+ego:...podrías usar tu traje como algunos de los otros comerciantes.
+other:Solía hacerlo, todo el tiempo.
+other:Pero todavía podía oler los elevadores en algunas estaciones.
+ego:Oh bueno. 
+ego:Nos vemos luego.
 stop
 
-@2 // You tried asking the droids about it?
-ego:You tried asking the droids about it?
-ego:They may just not have been told it stinks.
-other:No, the cleaning droids hate me.
-ego:Those droids.
-ego:Later.
+@2 // ¿Intentaste preguntárselo a los droides?
+ego:¿Intentaste preguntárselo a los droides?
+ego:Puede que no les hayan dicho que apesta.
+other:No, los droides de la limpieza me odian.
+ego:Esos droides.
+ego:Nos vemos.
 stop

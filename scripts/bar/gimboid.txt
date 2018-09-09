@@ -1,46 +1,46 @@
 //begin
-// [x] 1 - "Heard about any derelicts?"
-// [x] 2 - "You smelt that lift?"
+// [x] 1 - "¿Has oído hablar de algún abandonado?""
+// [x] 2 - "¿Hueles ese elevador?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hello.
+ego:Hola.
 other:Whoa!
-ego:Whats up?
-other:What are you wearing?
-ego:My casuals.
-other:You look like a gimboid.
-ego:Watch it, I'm double hard.
-ego:Anyway I like my clothes.
-ego:Comfort first.
-other:Style first, my man.
-ego:*You* Talking to *me* about style.
-ego:I have more style than your spacesuit.
-other:Hey, I just got a new suit. 
-ego:Yeah, where is it?
-other:I keep it on my ship.
-other:Don't want to get it dirty.
-ego:Is it, super-white!
-other:Yes, yes it is.
-ego:You should have got the anti-static dirt-repellent one.
-other:They do them??
-ego:Yeah, at all good retailers. 
-other:I'll look into it.
+ego:¿Qué hay de nuevo??
+other:¿Qué llevas puesto?
+ego:Mis casuales.
+other:Pareces un tonto.
+ego:Cuidado, soy doblemente duro.
+ego:De todas formas me gusta mi ropa.
+ego:Comodidad primero.
+other:Primero el estilo, amigo.
+ego:*Tu* hablandome a *mi* de estilo?
+ego:Tengo más estilo que tu traje espacial.
+other:Oye, acabo de comprar un traje nuevo. 
+ego:Sí, ¿dónde está?
+other:Lo tengo en mi nave.
+other:No quiero ensuciarlo.
+ego:¡Lo es, súper blanco!
+other:Sí, sí lo es.
+ego:Deberías tener el antiestático repelente a la suciedad.
+other:¿Los hacen?
+ego:Sí, para todos los buenos minoristas. 
+other:Voy a investigarlo.
 return
 
-@1 // Heard about any derelicts?
-ego:Heard about any derelicts?
-other:No, I don't do salvage.
-ego:Ok, I'm gonna check the consoles.
+@1 // ¿Has oído hablar de algún abandonado?
+ego:¿Has oído hablar de algún abandonado?
+other:No, no hago salvamento.
+ego:Vale, voy a comprobar las consolas.
 stop
 
-@2 // You smelt that lift?
-ego:You smelt that lift?
-other:Yeah, worse than normal.
-other:I think the station managers are having a comp.
-ego:To have the most pungent lift?
+@2 // ¿Hueles ese levanton?
+ego:¿Hueles ese levanton?
+other:Sí, mucho peor de lo normal.
+other:Creo que los gerentes de la estación están teniendo una competencia.
+ego:¿Para tener un levanton de mayor intensidad?
 other:Uh huh.
-ego:Who knows, I'm gonna check the consoles.
+ego:Quién sabe, voy a revisar las consolas.
 stop

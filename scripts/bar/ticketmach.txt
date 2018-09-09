@@ -1,53 +1,53 @@
 //begin
-// [x] 1 - "They are the old games machines."
-// [x] 2 - "I don't know anything about those?"
+// [x] 1 - "Son las viejas máquinas de juegos."
+// [x] 2 - "No sé nada de eso."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hey hey.
-ego:How you doing?
-other:Funky. 
-other:Hey, you don't know what they are do you?
-ego:What now?
-other:Those machines by the job console.
+other:Hey hey hey.
+ego:¿Cómo lo llevas?
+other:Lleno de ritmo. 
+other:Oye, ¿no sabes lo que son, verdad?
+ego:¿Y ahora qué?
+other:Esas máquinas junto a la consola de trabajo.
 return
 
-@1 // They are the old games machines.
-ego:They are the old games machines.
-other:They have taken the place of the ticket machines.
-other:To go down to the planets?
-ego:Yeah. To buy shuttle tickets.
-other:Are they ever going to replace em?
-ego:I don't know. 
-other:I suppose they might.
-other:If they ever get around to re-terraforming.
-ego:No sign that they're going to yet.
-other:I hope they do.
-other:I would like to be allowed down to visit an ocean.
-other:Not to mention some consistent Grav.
-ego:Mmmm, that would be good.
-ego:I'm going to the bar.
-other:Safe flying.
-ego:Safe flying.
+@1 // Son las viejas máquinas de juegos.
+ego:Son las viejas máquinas de juegos.
+other:Han ocupado el lugar de las máquinas expendedoras de billetes.
+other:¿Para bajar a los planetas?
+ego:Si. Para comprar los billetes del transbordador.
+other:¿Van a reemplazarlos alguna vez?
+ego:No lo sé.
+other:Supongo que podrían.
+other:Si alguna vez se ponen a re-terraformar.
+ego:No hay señales de que lo vayan a hacer todavía.
+other:Espero que lo hagan.
+other:Me gustaría que me permitieran bajar a visitar un océano.
+other:Por no hablar de una Gravedad consistente.
+ego:Mmmm, eso estaría bien.
+ego:Me voy al bar.
+other:Que tengas un buen vuelo.
+ego:Buen vuelo.
 stop
 
-@2 // I don't know anything about those?
-ego:I don't know anything about those?
-other:They are always de-activated.
-other:These stations need scrapping.
-ego:This is what you get for being a trader.
-other:Yeah, maybe. 
-other:I did hear rumours that the Council are going to get us better facilities.
-ego:Yeah? Like what?
-other:Refitting the dance floors, and getting pool tables.
-other:Some traders have been refusing to supply the worst stations.
-other:It might slowly get us some improvements.
-ego:Don't hold you breath.
-other:Ha. No, I won't.
-other:Safe flying.
-ego:Safe flying.
+@2 // No sé nada de eso.
+ego:No sé nada de eso.
+other:Siempre están desactivadas.
+other:Estas estaciones necesitan ser desguazadas.
+ego:Esto es lo que obtienes por ser un comerciante.
+other:Sí, tal vez. 
+other:He oído rumores de que el Consejo va a conseguirnos mejores instalaciones.
+ego:Si? ¿Como cuáles?
+other:Reacondicionando las pistas de baile, y consiguiendo mesas de billar.
+other:Algunos comerciantes se han negado a abastecer las peores estaciones.
+other:Puede que poco a poco nos aporte algunas mejoras.
+ego:No contengas la respiración.
+other:Ha. No, no lo haré.
+other:Buen vuelo.
+ego:Buen vuelo.
 stop
 
 
