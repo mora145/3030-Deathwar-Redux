@@ -102,7 +102,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return "This system"
+	return "Este sistema"
 end
 
 function returnImageFile()
