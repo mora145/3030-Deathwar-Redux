@@ -24,7 +24,7 @@ function prototype()
 	dropOffSystem=getYourSystem()
 	local dockedAt = getYourDockedStation()
 	
-	timerName = advertPerson.." PASAJERO LOCAL"
+	timerName = advertPerson.." LOCAL PASSENGER"
 
 	local ok=false
 	while ok==false do
@@ -87,60 +87,60 @@ function prototype()
 	local t3={}
 	if people ~= 1 then		
 		-- more than one person
-		t3[1]="Se necesita transporte para "..people.." personas a la estación ".. dropOffStation.."."
-		t3[2]="A "..people.." les gustaría tener un pasaje a la estación " .. dropOffStation.."."
-		t3[3]="¿Puedes llevar a nuestro grupo de "..people.." personas a la estación ".. dropOffStation.. "?"
-		t3[4]=people.." personas están buscando un transporte a la estación "..dropOffStation.."."
-		t3[5]="Nuestro grupo de "..people.." personas necesitan una nave para llegar a la estación"..dropOffStation.."."
-		t3[6]="Se requiere pasaje: Grupo de "..people.." personas a la estación "..dropOffStation.."."
-		t3[7]="Por favor lleva a "..people.." de nosotros a la estación "..dropOffStation.."."
+		t3[1]="Need transport for "..people.." people to ".. dropOffStation.."."
+		t3[2]=people.." would like passage to the " .. dropOffStation.." station."
+		t3[3]="Can you take our group of "..people.." to the ".. dropOffStation.. " station?"
+		t3[4]="We "..people.." are looking for a transport to "..dropOffStation.."."
+		t3[5]="Our group of "..people.." are in need of a ship to the "..dropOffStation.." station."
+		t3[6]="Passage required: Group of "..people.." to the "..dropOffStation.." station."
+		t3[7]="Please take "..people.." of us to "..dropOffStation.."."
 	else
 		-- one person only
-		t3[1]="Necesito transporte a la estación ".. dropOffStation.."."
-		t3[2]="Me gustaría pasar a la estación " .. dropOffStation.."."
-		t3[3]="¿Puedes llevarme a la estación ".. dropOffStation.. "?"
-		t3[4]="Estoy buscando un transporte hacia la estación "..dropOffStation.."."
-		t3[5]="Estoy en necesidad de una nave que me lleve a la estación "..dropOffStation.."."
-		t3[6]="Pasaje requerido a la estación "..dropOffStation.."."
-		t3[7]="Por favor, llévame a la estación "..dropOffStation.."."
-		t3[8]="Necesito desesperadamente llegar a la estación "..dropOffStation.."."
-		t3[9]="Pagaré el transporte a la estación "..dropOffStation.."."		
+		t3[1]="Need transport to ".. dropOffStation.."."
+		t3[2]="I would like passage to " .. dropOffStation.."."
+		t3[3]="Can you take me to ".. dropOffStation.. "?"
+		t3[4]="I'm looking for a transport to "..dropOffStation.."."
+		t3[5]="I am in need of a ship to "..dropOffStation.."."
+		t3[6]="Passage required to "..dropOffStation.."."
+		t3[7]="Please take me to "..dropOffStation.."."
+		t3[8]="I desperately need to get to "..dropOffStation.."."
+		t3[9]="I will pay for transport to "..dropOffStation.."."		
 	end
 	smallDesc=t3[math.random(table.getn(t3))]
 	
 	local t={}
-	t[1]="Hola. "
-	t[2]="¿Cómo estas?"
-	t[3]="Hola compañero."
-	t[4]=""
+	t[1]="Hi. "
+	t[2]="How are you?"
+	t[3]="Howdy partner."
+	t[4]=""	
 	t[5]=""
-	t[6]="¿Que onda amigo?"
-	t[7]="Ey."
-	t[8]="¿Qué hay de nuevo?"
+	t[6]="Rock on dude."
+	t[7]="Hey."
+	t[8]="What up?"
 	bigDesc=t[math.random(table.getn(t))]	
 		
 	local t2={}
 	if people == 1 then	
-		t2[1]="Necesito transporte."
-		t2[2]="Me gustaría conseguir una nave."
-		t2[3]="Necesito una nave ahora mismo."
-		t2[4]="Llego tarde a una maldita boda."
-		t2[5]="¿Alguna vez has llegado tarde a tu propia boda? Yo lo hago."
-		t2[6]="Busco transporte."
-		t2[7]="Busco pasaje en una nave rápida."
-		t2[8]="Me gustaría alquilar una nave."
-		t2[9]="Necesito subir a una nave."
+		t2[1]="I'm in need of transport."
+		t2[2]="I'd like to get a ship."
+		t2[3]="I need a ship right now."
+		t2[4]="I'm late for a damn wedding."	
+		t2[5]="Have you ever been late for your own wedding? I am."
+		t2[6]="I seek transport."
+		t2[7]="I seek passage on a fast ship."
+		t2[8]="I'd like to hire a ship."
+		t2[9]="I need to get on a ship."
 		bigDesc=bigDesc.." "..t2[math.random(table.getn(t2))]
 	else
-		t2[1]="Necesitamos transporte. Hay "..people.." de nosotros."
-		t2[2]="nos gustaría alquilar una nave. Somos un grupo de "..people.." personas."
-		t2[3]="Necesitamos una nave ahora mismo. ¿Tiene espacio para "..people.." personas?"
-		t2[4]="Llegamos tarde a una boda. El grupo es "..people.." personas. ¿Tienes espacio?"	
-		t2[5]="Hay "..people.." personas de utilidad que necesitan llegar a un bautizo."
-		t2[6]="Buscamos transporte, somos "..people.."."
-		t2[7]=people.." personas buscamos paso en una nave rápida."
-		t2[8]="Nos gustaría alquilar una nave. Hay "..people.." personas en nuestro grupo."
-		t2[9]="Tenemos que conseguir una nave que se dirija hacia donde vamos. Hay "..people.." de nosotros."
+		t2[1]="We're in need of transport. There are "..people.." of us."
+		t2[2]="we'd like to hire a ship. We're a group of "..people.."."
+		t2[3]="We need a ship right now. Do you have room for "..people.." people?"
+		t2[4]="We're late for a wedding. The group is "..people.." people. Do you have room?"	
+		t2[5]="There are "..people.." of use who need to get to a christening."
+		t2[6]="We seek transport, "..people.." of us."
+		t2[7]=people.." seek passage on a fast ship."
+		t2[8]="We'd like to hire a ship. There are "..people.." in our party."
+		t2[9]="We need to get a ship heading our way. There are "..people.." of us."	
 		bigDesc=bigDesc.." "..t2[math.random(table.getn(t2))]
 	end
 	
@@ -148,22 +148,22 @@ function prototype()
 	if more==0 then
 		local tm={}
 		if people ~= 1 then
-			tm[1]="¿Crees que puedes llevarnos allí?"
-			tm[2]="¿Qué te parece?"
-			tm[3]="¿Nos ayudarías?"
-			tm[4]="Necesitamos ayuda, ya lo ves."
-			tm[5]="Tenemos una reunión muy importante."
-			tm[6]="No está muy lejos, ¿verdad?"
-			tm[7]="Sólo le llevará unos minutos."
+			tm[1]="Do you think you can get us there?"
+			tm[2]="What do you think?"
+			tm[3]="Would you help us?"
+			tm[4]="We need help, you see."			
+			tm[5]="We've a very important meeting."
+			tm[6]="It's not very far is it."
+			tm[7]="It'll only take you a few minutes."
 		else
 			-- one
-			tm[1]="¿Crees que puedes llevarme allí?"
-			tm[2]="¿Qué te parece??"
-			tm[3]="¿Me ayudarias?"
-			tm[4]="Necesito ayuda, ya lo ves."
-			tm[5]="Tengo una reunión muy importante."
-			tm[6]="No está muy lejos, ¿verdad?"
-			tm[7]="Sólo le llevará unos minutos."	
+			tm[1]="Do you think you can get me there?"
+			tm[2]="What do you think?"
+			tm[3]="Would you help me?"
+			tm[4]="I need help, you see."
+			tm[5]="I've a very important meeting."
+			tm[6]="It's not very far is it."
+			tm[7]="It'll only take you a few minutes."			
 		end
 		
 		bigDesc=bigDesc.." "..tm[math.random(table.getn(tm))]
@@ -171,34 +171,34 @@ function prototype()
 		
 	local t4={}
 	if people==1 then
-		t4[1]="Te puedo dar ".. prize.. "$ por tu ayuda."
-		t4[2]=.. prize.. "$ es todo lo que puedo ofrecer. ¿Quizás pague el combustible?"
-		t4[3]="Puedo ofrecerte una preciosa suma de ".. prize.. "$. ¿Está bien eso?"
-		t4[4]="Puedo pagar "..prize.."$."
-		t4[5]="Tu remuneración será de "..prize.."$."
-		t4[6]="No puedo ofrecer más de, tal vez "..prize.."$."
-		t4[7]="Tal vez unos miserables "..prize.."$ bastarán."
-		t4[8]="No tengo mucho dinero desde que murió mi esposa. "..prize.."$ es todo lo que tengo."
-		t4[9]="¿Mencioné el pago? Oh. "..prize.."$ es todo lo que puedo pagar."
+		t4[1]="I can give you $".. prize.. " for your help."
+		t4[2]="$" .. prize.. " is all I can offer. Perhaps it'll pay for the fuel?"
+		t4[3]="I can offer you a pricely sum of $".. prize.. ". That any good?"
+		t4[4]="I can pay $"..prize.."."		
+		t4[5]="Your remuneration will be $"..prize.."."
+		t4[6]="I can't offer any more than, maybe $"..prize.."."
+		t4[7]="Perhaps a measly $"..prize.." will suffice."
+		t4[8]="I don't have much money since my wife died. $"..prize.." is all I have."
+		t4[9]="Did I mention the payment? Oh. $"..prize.." is all I can pay."	
 	else
-		t4[1]="Entre todos podemos darte ".. prize.. "$."
-		t4[2]=.. prize.. "$ es todo lo que podemos ofrecer."
-		t4[3]="No estoy seguro de lo que es razonable, pero todo lo que podemos ofrecerte son ".. prize.. "$. ¿Eso está bien?"
-		t4[4]="podemos pagarte "..prize.."$."
-		t4[5]="Su remuneración será de "..prize.."$."
-		t4[6]="No podemos ofrecer más que "..prize.."$."
-		t4[7]="Tal vez unos miserables "..prize.."$ será suficiente."
-		t4[8]="No tenemos mucho dinero. ¿"..prize.."$ serán?"
+		t4[1]="together we can give you $".. prize.. "."
+		t4[2]="$" .. prize.. " is all we can offer."
+		t4[3]="I'm not sure what's fair, but all we can offer you is $".. prize.. ". That any good?"
+		t4[4]="we can pay $"..prize.."."		
+		t4[5]="Your remuneration will be $"..prize.."."
+		t4[6]="We can't offer any more than $"..prize.."."
+		t4[7]="Perhaps a measly $"..prize.." will suffice."
+		t4[8]="We don't have much money, so will $"..prize.." do?"
 	end
 	bigDesc=bigDesc.." "..t4[math.random(table.getn(t4))]
 	
 	local t5={}
 	if people~=1 then
-		t5[1]="Realmente necesitamos llegar allí dentro de "..timeLimit.."."
-		t5[2]="Esto es realmente urgente. Tendrás "..timeLimit.." para llegar allí."
+		t5[1]="We really need to get there within "..timeLimit.."."
+		t5[2]="This is really urgent. You'll have "..timeLimit.." to get there."
 	else
-		t5[1]="Realmente necesito llegar allí dentro de "..timeLimit.."."
-		t5[2]="Esto es realmente urgente. Tendrás "..timeLimit.." para llegar allí."
+		t5[1]="I really need to get there within "..timeLimit.."."
+		t5[2]="This is really urgent. You'll have "..timeLimit.." to get there."
 	end
 
 	bigDesc=bigDesc.." "..t5[math.random(table.getn(t5))]
@@ -209,10 +209,10 @@ end
 
 function canTakeMission() -- check to see if you can take this mission
 	if (( getSplitSpeed() == 0 ) and ( getDistanceToStation(dropOffStation) > 50000 )) then
-		return "No, gracias. Está bastante lejos y tu nave no tiene un motor divisor."
+		return "No thanks. It's pretty far and your ship doesn't have a split drive."
 	end
 	if (getFreeCabins() < people) then --or (getFreeCabins()==people) then
-		return "No tienes suficiente espacio en la cabina para llevar a cabo esta misión."
+		return "You do not have enough cabin space to take this mission."
 	end
 	return "" -- you can take a courier mission
 end
@@ -227,7 +227,7 @@ function takeMission() -- upon taking the mission set up things, like:
 		end
 	end
 
-	local desc = "llegar a "..dropOffStation
+	local desc = "get to "..dropOffStation
 	createTimer(timerName,desc,timeLimit)
 
 	for i=1,people do
@@ -239,7 +239,7 @@ end
 function update() -- update mission critical things here
 	local fin=timerFinished(timerName)
 
-   	local newDesc= "llegar a "..dropOffStation
+   	local newDesc= "get to "..dropOffStation
     updateTimerDescription(timerName,newDesc)
     
 	if (fin==1) then
@@ -283,7 +283,7 @@ end
 
 function canCancel() -- can only cancel when docked!
 	if youDockedAtAll()==0 then
-		return "Necesita atracar"
+		return "Need to dock"
 	else	
 		return ""
 	end
@@ -326,7 +326,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return dropOffStation.." en el sistema "..dropOffSystem.."."
+	return dropOffStation.." in "..dropOffSystem.." system."
 end
 
 function returnImageFile()
