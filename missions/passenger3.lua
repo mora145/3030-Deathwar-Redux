@@ -108,7 +108,7 @@ function prototype()
 		t2[6]="Buscamos transporte, "..people.." de nosotros."
 		t2[7]=people.." personas buscan pasaje en una nave rápida."
 		t2[8]="Nos gustaría alquilar una nave. Hay "..people.." personas en nuestro grupo."
-		t2[9]="Tenemos que conseguir
+		t2[9]="Tenemos que conseguir una nave que se dirija hacia donde vamos. Hay "..people.." de nosotros."
 		bigDesc=bigDesc.." "..t2[math.random(table.getn(t2))]
 	end
 
@@ -140,7 +140,7 @@ function prototype()
 	local t4={}
 	if people==1 then
 +		t4[1]="Te puedo dar ".. prize.. "$ por tu ayuda."
-		t4[2]=.. prize.. "$ es todo lo que puedo ofrecer. ¿Quizás pague el combustible?"
+		t4[2]=prize.. "$ es todo lo que puedo ofrecer. ¿Quizás pague el combustible?"
 		t4[3]="Puedo ofrecerte una preciosa suma de ".. prize.. "$. ¿Está bien eso?"
 		t4[4]="Puedo pagar "..prize.."$."
 		t4[5]="Tu remuneración será de "..prize.."$."
@@ -150,7 +150,7 @@ function prototype()
 		t4[9]="¿Mencioné el pago? Oh. "..prize.."$ es todo lo que puedo pagar."
 	else
 		t4[1]="juntos podemos darte ".. prize.. "$."
-		t4[2]=.. prize.. "$ es todo lo que podemos ofrecer."
+		t4[2]=prize.. "$ es todo lo que podemos ofrecer."
 		t4[3]="No estoy seguro de lo que es razonable, pero todo lo que podemos ofrecerte son ".. prize.. "$. ¿Eso está bien?"
 		t4[4]="podemos pagarte "..prize.."$."
 		t4[5]="Su remuneración será de "..prize.."$."

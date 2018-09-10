@@ -89,7 +89,7 @@ function prototype()
 	if moneyFirst==1 then
 		local t4={}
 		t4[1]="La remuneración por esta acción será de "..prize.."$."
-		t4[2]=..prize.."$ es todo lo que podemos ofrecer."
+		t4[2]=prize.."$ es todo lo que podemos ofrecer."
 		t4[3]="Me han ordenado que le pague "..prize.."$ por su esfuerzo."
 		t4[4]="Podemos pagarle "..prize.."$."		
 		t4[5]="Su remuneración será de "..prize.."$."
@@ -147,7 +147,7 @@ function prototype()
 	if moneyFirst~=1 then	
 		local t4={}
 		t4[1]="La remuneración por esta acción será de "..prize.."$."
-		t4[2]=..prize.."$ es todo lo que podemos ofrecer."
+		t4[2]=prize.."$ es todo lo que podemos ofrecer."
 		t4[3]="Me han ordenado que le pague ".. prize.. "$ por su esfuerzo."
 		t4[4]="podemos pagar "..prize.."%."		
 		t4[5]="Tu recompensa será de "..prize.."$."

@@ -27,12 +27,12 @@ function prototype()
 	smallDesc=t3[math.random(table.getn(t3))]
 		
 	local t4={}
-	t4[1]="Esto es sólo un recordatorio, revise el mapa de su sistema para ver si hay puntos grises. Son chatarra recuperable. Regresa para explorarla!"
+	t4[1]="Esto es sólo un recordatorio, revise el mapa de su sistema para ver si hay puntos grises. Son chatarra recuperable. Regresa a explorarla!"
 	bigDesc=bigDesc.." "..t4[1]
 		
 	local t5={}
 	t5[1]=" [br] [br] ¿Estás listo para la aventura?"
-	t5[2]=" [br] [br] Salga, comandante."
+	t5[2]=" [br] [br] Salga comandante."
 	bigDesc=bigDesc.." "..t5[math.random(table.getn(t5))]		
 
 	return 1
@@ -102,7 +102,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return "This system"
+	return "Este sistema"
 end
 
 function returnImageFile()
