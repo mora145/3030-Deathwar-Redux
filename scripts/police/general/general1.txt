@@ -1,35 +1,35 @@
 //begin
-// [x] 1 - "¿Cuándo va a terminar esta cuarentena?"
-// [x] 2 - "Dónde puedo conseguir algunas misiones con recompensa?"
+// [x] 1 - "Â¿CuÃ¡ndo va a terminar esta cuarentena?"
+// [x] 2 - "DÃ³nde puedo conseguir algunas misiones con recompensa?"
 // [x] 3 - "No, gracias."
-// [ ] 4 - "Dónde está la computadora misional??"
+// [ ] 4 - "DÃ³nde estÃ¡ la computadora misional??"
 // [ ] 5 - "Gracias por su ayuda, oficial..."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Buenas noches, ¿puedo hacer algo por ti??
-ego:Sí, en realidad puedes.
+other:Buenas noches, Â¿puedo hacer algo por ti??
+ego:SÃ­, en realidad puedes.
 return
 
 @1 // when's this quarantine going to end?
-ego:¿Cuándo va a terminar esta cuarentena??
-other:Señor, me han puesto en cuarentena como a usted.. 
-other:El consejo no ha dado un tiempo definido sobre cuándo será levantada.
+ego:Â¿CuÃ¡ndo va a terminar esta cuarentena??
+other:SeÃ±or, me han puesto en cuarentena como a usted.. 
+other:El consejo no ha dado un tiempo definido sobre cuÃ¡ndo serÃ¡ levantada.
 other:Hasta entonces tendremos que llevarnos bien. 
-other:Hay algo más que pueda hacer por ti?
+other:Hay algo mÃ¡s que pueda hacer por ti?
 option-off 1
 return
 
 @2 // Where can I get some bounty missions?
-ego:¿Dónde puedo conseguir algunas misiones con recompensa?
-other:Puedes conseguirlos del ordenador de misiónes.
+ego:Â¿DÃ³nde puedo conseguir algunas misiones con recompensa?
+other:Puedes conseguirlos del ordenador de misiÃ³nes.
 other:O salir a buscar piratas.
-other:Usa tu mapa, son los recuadros blancos con la línea roja.
+other:Usa tu mapa, son los recuadros blancos con la lÃ­nea roja.
 other:Normalmente tienen una recompensa por su cabeza.
-other:Pero es peligroso, así que te sugiero que te prepares.
-ego:De acuerdo, gracias. Lo tendré en cuenta.
+other:Pero es peligroso, asÃ­ que te sugiero que te prepares.
+ego:De acuerdo, gracias. Lo tendrÃ© en cuenta.
 option-off 2
 option-off 3
 option-on 4
@@ -38,12 +38,12 @@ return
 
 @3 // No, thanks.
 ego:No, gracias.
-other:No hay problema. Disfrute de su estancia aquí.
+other:No hay problema. Disfrute de su estancia aquÃ­.
 stop
 
 @4 // 
-ego:Dónde está la computadora de misión?
-other:Justo por allí. La segunda pantalla a la derecha.
+ego:DÃ³nde estÃ¡ la computadora de misiÃ³n?
+other:Justo por allÃ­. La segunda pantalla a la derecha.
 ego:Gracias.
 stop
 

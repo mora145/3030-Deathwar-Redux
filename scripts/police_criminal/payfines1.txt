@@ -3,18 +3,18 @@
 // 09 Nov 2005, 17:45:45
 // ---------------------------------
 
-//Instrucción sobre cómo integrarse con AGS:
-//Crear un nuevo tema, y añadir 7 opciones en blanco
-//Cambie las casillas de verificación de sus programas para que digan lo siguiente:
-// [x] 1 - "¿Cómo pago mis multas?"
-// [x] 2 - "¿Por qué debo pagar multas?"
+//InstrucciÃ³n sobre cÃ³mo integrarse con AGS:
+//Crear un nuevo tema, y aÃ±adir 7 opciones en blanco
+//Cambie las casillas de verificaciÃ³n de sus programas para que digan lo siguiente:
+// [x] 1 - "Â¿CÃ³mo pago mis multas?"
+// [x] 2 - "Â¿Por quÃ© debo pagar multas?"
 // [x] 3 - "Al diablo con eso."
-// [ ] 4 - "Más vale que lo haga."
-// [ ] 5 - "No, lo dejaré."
-// [ ] 6 - "Por qué?"
-// [ ] 7 - "¿No es así?"
-//Haga clic en 'Editar guión', copie todo el texto
-//y péguelo en la ventana del script. Viola.
+// [ ] 4 - "MÃ¡s vale que lo haga."
+// [ ] 5 - "No, lo dejarÃ©."
+// [ ] 6 - "Por quÃ©?"
+// [ ] 7 - "Â¿No es asÃ­?"
+//Haga clic en 'Editar guiÃ³n', copie todo el texto
+//y pÃ©guelo en la ventana del script. Viola.
 // <------------ CUT ------------>
 
 
@@ -25,10 +25,10 @@ ego:What?
 other:Unfortunately, I can't let you pass until you pay them.
 return
 
-@1 // ¿Cómo pago mis multas?
-ego:¿Cómo pago mis multas?
-other:Puedes pagarlas ahora, a través de la consola de comercio. 
-other:¿Quieres hacerlo?
+@1 // Â¿CÃ³mo pago mis multas?
+ego:Â¿CÃ³mo pago mis multas?
+other:Puedes pagarlas ahora, a travÃ©s de la consola de comercio. 
+other:Â¿Quieres hacerlo?
 option-on 4
 option-on 5
 option-off 1
@@ -39,14 +39,14 @@ option-off 7
 return
 
 
-@2 // ¿Por qué debo pagar multas?
-ego:¿Por qué debo pagar multas?
-other:Por qué?
-other:Por qué?
+@2 // Â¿Por quÃ© debo pagar multas?
+ego:Â¿Por quÃ© debo pagar multas?
+other:Por quÃ©?
+other:Por quÃ©?
 other:...
-other:Porque el consejo te dice que lo hagas, amigo mío.
-other:Serás clasificado como pirata si al menos no crees en el consejo.
-other:O peor aún, uno de esos piratas taoístas de pandillas.
+other:Porque el consejo te dice que lo hagas, amigo mÃ­o.
+other:SerÃ¡s clasificado como pirata si al menos no crees en el consejo.
+other:O peor aÃºn, uno de esos piratas taoÃ­stas de pandillas.
 other:Odio a esos tipos.
 option-off 1
 option-off 3
@@ -58,44 +58,44 @@ return
 
 @3 // Al diablo con eso.
 ego:Al diablo con eso.
-other:Por mí está bien, amigo mío.
-other:No podrás acceder a la estación hasta entonces.
-ego:Bien, iré a otro lado.
-other:Inténtalo.
+other:Por mÃ­ estÃ¡ bien, amigo mÃ­o.
+other:No podrÃ¡s acceder a la estaciÃ³n hasta entonces.
+ego:Bien, irÃ© a otro lado.
+other:IntÃ©ntalo.
 stop
 
-@4 // Más vale que lo haga.
-ego:Más vale que lo haga.
-other:Bien, bien, paga aquí.
+@4 // MÃ¡s vale que lo haga.
+ego:MÃ¡s vale que lo haga.
+other:Bien, bien, paga aquÃ­.
 goto-police
 stop
 
-@5 // No, lo dejaré.
-ego:No, lo dejaré.
-other:Bueno, no lo recomiendo, pero es tu elección.
+@5 // No, lo dejarÃ©.
+ego:No, lo dejarÃ©.
+other:Bueno, no lo recomiendo, pero es tu elecciÃ³n.
 ego:De acuerdo, gracias.
 stop
 
-@6 // Por qué?
-ego:Por qué??
-other:Bueno, ellos sólo me afilan los engranajes.
-ego:No he oído mucho sobre ellos.
-other:Están todos en la cúpula del consejo
-other:diciéndoles que inventaran formas de enviar sondas y esas cosas
+@6 // Por quÃ©?
+ego:Por quÃ©??
+other:Bueno, ellos sÃ³lo me afilan los engranajes.
+ego:No he oÃ­do mucho sobre ellos.
+other:EstÃ¡n todos en la cÃºpula del consejo
+other:diciÃ©ndoles que inventaran formas de enviar sondas y esas cosas
 other:Simplemente no me gustan.
 ego:Me parece justo. Gracias de todos modos.
 stop
 
-@7 // ¿No es así?
-ego:¿No es así?
-other:¿No es obvio que serán la muerte de todos nosotros?
+@7 // Â¿No es asÃ­?
+ego:Â¿No es asÃ­?
+other:Â¿No es obvio que serÃ¡n la muerte de todos nosotros?
 ego:No, no es obvio.
 other:Tal vez no para ti.
-other:Pero puedo verlos jugando un papel más importante de lo que crees.
+other:Pero puedo verlos jugando un papel mÃ¡s importante de lo que crees.
 other:Tal vez un papel que nos mate a todos.
-ego:De todos modos, no me dejas entrar, ¿no?
+ego:De todos modos, no me dejas entrar, Â¿no?
 other:No puedo hasta que hayas pagado las multas.
-other:¿Quieres pagarlas ahora?
+other:Â¿Quieres pagarlas ahora?
 option-off 6
 option-off 7
 option-off 1

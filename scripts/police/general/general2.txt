@@ -1,10 +1,10 @@
 //begin
-// [x] 1 - "Qué haces cuando encuentras un pirata?"
-// [x] 2 - "Por qué estás aquí ahora y no en otras ocasiones?"
+// [x] 1 - "QuÃ© haces cuando encuentras un pirata?"
+// [x] 2 - "Por quÃ© estÃ¡s aquÃ­ ahora y no en otras ocasiones?"
 // [x] 3 - "No, gracias."
 // [ ] 4 - "Vas a cagar!"
-// [ ] 5 - "Pasas la mayor parte del tiempo en el baño?"
-// [ ] 6 - "Qué pasa si accidentalmente golpeo o mato a un comerciante?"
+// [ ] 5 - "Pasas la mayor parte del tiempo en el baÃ±o?"
+// [ ] 6 - "QuÃ© pasa si accidentalmente golpeo o mato a un comerciante?"
 // [ ] 7 - "Y si quiero matarlos?"
 // [ ] 8 - "Tal vez."
 // [ ] 9 - "No gracias"
@@ -18,10 +18,10 @@ ego:De hecho, tengo algunas preguntas.
 return
 
 @1 // what do you do when you find a pirate?
-ego:Qué haces cuando encuentras un pirata?
+ego:QuÃ© haces cuando encuentras un pirata?
 other:Las normas del Consejo establecen que puedes destruir la nave de un pirata en cualquier momento. 
-other:Usa tu mapa y busca cuadros blancos con la línea roja.
-other:En los sistemas más seguros puede que no haya ninguno, o sólo uno.
+other:Usa tu mapa y busca cuadros blancos con la lÃ­nea roja.
+other:En los sistemas mÃ¡s seguros puede que no haya ninguno, o sÃ³lo uno.
 other:No ataques a los comerciantes normales o si no seremos duros contigo. 
 other:Bien?
 option-off 1
@@ -32,8 +32,8 @@ option-on 7
 return
 
 @2 // Why are you here now but not at other times?
-ego:Por qué estás aquí ahora y no en otras ocasiones?
-other:Dejaré eso a su imaginación, señor.
+ego:Por quÃ© estÃ¡s aquÃ­ ahora y no en otras ocasiones?
+other:DejarÃ© eso a su imaginaciÃ³n, seÃ±or.
 ego:Ok, gracias.
 ego:...
 ego:asi que....
@@ -47,14 +47,14 @@ return
 
 @3 // No, thanks.
 ego:No, gracias.
-other:No hay problema. Disfruta tu estancia aquí.
+other:No hay problema. Disfruta tu estancia aquÃ­.
 stop
 
 @4 // You go for a dump!
-ego:¡Vas a cagar!
-other:Maldita sea, eres rápido.
+ego:Â¡Vas a cagar!
+other:Maldita sea, eres rÃ¡pido.
 ego:Gracias.
-other:¿Alguna vez pensaste en unirte a la policía?
+other:Â¿Alguna vez pensaste en unirte a la policÃ­a?
 option-off 5
 option-off 2
 option-off 4
@@ -63,20 +63,20 @@ option-on 9
 return
 
 @5 // You spend most of your time in the crapper?
-ego:Pasas la mayor parte del tiempo en el baño?
+ego:Pasas la mayor parte del tiempo en el baÃ±o?
 other:Escucha chico, no tengo tiempo para hablar contigo de esto.
 other:Vuelve a tus asuntos.
 stop
 
 @6 // What if I accidentally hit or kill a trader?
-ego:¿Qué pasa si accidentalmente golpeo o mato a un comerciante?
-other:Tendrías que intentar matar accidentalmente a un comerciante, amigo mío.
-other:Probablemente te mataríamos. Me temo que es la ley.
-other:Si estás disparando chatarra y le das a uno por accidente....
-other:..los cañones de la estación podrían atacarte. Atraca rápido.
-other:Yo no te lo dije, ¿verdad?
+ego:Â¿QuÃ© pasa si accidentalmente golpeo o mato a un comerciante?
+other:TendrÃ­as que intentar matar accidentalmente a un comerciante, amigo mÃ­o.
+other:Probablemente te matarÃ­amos. Me temo que es la ley.
+other:Si estÃ¡s disparando chatarra y le das a uno por accidente....
+other:..los caÃ±ones de la estaciÃ³n podrÃ­an atacarte. Atraca rÃ¡pido.
+other:Yo no te lo dije, Â¿verdad?
 ego:De acuerdo.
-other:¿Hay alguna otra cosa?
+other:Â¿Hay alguna otra cosa?
 option-off 6
 option-off 7
 option-off 1
@@ -85,10 +85,10 @@ option-on 3
 return
 
 @7 // What if I want to kill them?
-ego:¿Y si quiero matarlos?
+ego:Â¿Y si quiero matarlos?
 other:Agregaremos un cargo a sus antecedentes penales.
 other:Entonces es posible que no pueda abordar algunas estaciones.
-other:O tendrás que pagar una multa.
+other:O tendrÃ¡s que pagar una multa.
 other:O puede que incluso intentemos matarte nosotros mismos.
 other:Depende de las circunstancias.
 ego:Ya veo.
@@ -100,7 +100,7 @@ other:No se lo aconsejo.
 ego:No? por que?
 other:La paga es horrible y la ropa... uch
 other:No me hagas empezar con la ropa.
-ego:Bien, me mantendré alejado entonces.
+ego:Bien, me mantendrÃ© alejado entonces.
 other:Bien por ti. Ahora, si no te importa, tengo que volver al trabajo.
 ego:No hay problema.
 stop
@@ -108,11 +108,11 @@ stop
 @9 // No thanks.
 ego:No gracias
 other:No puedo culparte..
-other:la paga es horrible y la cuarentena es una porquería.
+other:la paga es horrible y la cuarentena es una porquerÃ­a.
 other:No he visto a mi madre en 5 semanas.
 ego:no importa, eh.
-other:Sí. Cuanto antes salga del agujero del infierno, mejor.
-ego:¿cuándo se nos permitirá entrar en las otras partes de la estación?
-other:cuando se levante la cuarentena, que podrían ser meses.
+other:SÃ­. Cuanto antes salga del agujero del infierno, mejor.
+ego:Â¿cuÃ¡ndo se nos permitirÃ¡ entrar en las otras partes de la estaciÃ³n?
+other:cuando se levante la cuarentena, que podrÃ­an ser meses.
 ego:Ok, bien, gracias por su ayuda, oficial.
 stop
