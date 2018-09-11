@@ -1,5 +1,5 @@
-Nebula Pieces, the Mystery Solved
+Piezas de Nebulosa, el Misterio Resuelto
 
-Recently, council members have become worried about ships being entangled in the nebula without any way to protect themselves from preying pirates. This was solved recently with the addition of the nebula map pieces scheme. 
+Recientemente, los miembros del consejo se han preocupado por los barcos que se atrapan en la nebulosa sin ninguna forma de protegerse de los piratas depredadores. Esto se resolvió recientemente con la adición del esquema de piezas de mapa de nebulosa. 
 
-The principle is simple: as scouting crews scan the nebula they update a universal database with ultra precise nebula positions. This information is then fed directly into all ships' databases. The information can be seen by going to your map database and enabling nebula data. A readout will tell you how much has been updated to your ship computer. Obviously the process is on going but I think we can all agree this will help ships being ensnared in the nebulas and take hours off your journey time.
+El principio es simple: a medida que los equipos de exploración escanean la nebulosa actualizan una base de datos universal con posiciones de nebulosa ultra precisas. Esta información se introduce directamente en las bases de datos de todos los buques. La información se puede ver yendo a su base de datos de mapas y habilitando los datos de las nebulosas. Una lectura le dirá cuánto se ha actualizado a la computadora de su nave. Obviamente, el proceso está en marcha, pero creo que todos estamos de acuerdo en que esto ayudará a las naves atrapadas en las nebulosas y le quitará horas de tiempo de viaje.

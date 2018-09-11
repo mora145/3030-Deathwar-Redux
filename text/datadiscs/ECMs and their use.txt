@@ -1,5 +1,5 @@
-Does anyone even know what an ECM is? if you're a trader then chances are, no. If you're into space combat then it's a must. ECM stands for Electronic Countermeasures, which use an Electro Magnetic Pulse. In short, this pulse will cause a missile's guidance circuits to become fried within a certain range. 
+¿Alguien sabe lo que es un ECM? Si usted es un comerciante entonces las posibilidades son, no. Si te dedicas al combate espacial, es imprescindible. ECM significa Contramedidas Electrónicas, que utilizan un Pulso Electro Magnético. En resumen, este pulso causará que los circuitos de guía de un misil se fritan dentro de un cierto rango. 
 
-They are available in various classes and are a favourite of bounty hunters. When a missile gets within the assigned maximum range of the ECM you have loaded then press -shift- to activate. If you're lucky you'll just get blown out of the way of the missile as it explodes. If you're not lucky you'll probably get a hull breach. I know I'd prefer the former.
+Están disponibles en varias clases y son los favoritos de los cazadores de recompensas. Cuando un misil se encuentra dentro del alcance máximo asignado del ECM que ha cargado, pulse -shift- para activarlo. Si tienes suerte, te saldrás del camino del misil cuando explote. Si no tienes suerte, probablemente tendrás una brecha en el casco. Yo preferiría el primero.
 
-You can get them at your local station.
+Puede conseguirlos en su estación local.
