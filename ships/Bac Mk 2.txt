@@ -17,6 +17,7 @@ turretat(x,y)=0,0
 -7,61
 7,61
 [/thrusters]
+M5 Interceptor - El nuevo Bac tiene un gran bastidor de misiles y un excelente radio de división gracias a la tecnología líder desarrollada por los Visores. Nada que se parezca al Bac anterior, esta es una buena nave si es que puedes conseguirla.
 producedBy=Paxtons
 yearDeveloped=3016
 funTrivia=El primer bac fue tan popular que el presidente de Industrias Paxton se vio obligado a renunciar después de las acusaciones de que no iba a hacer otro.
