@@ -17,7 +17,7 @@ turretat(x,y)=0,0
 -13,74
 13,74
 [/thrusters]
-M9 Allrounder - Exactly how a ship like this gains its reputation is clearly evident in her stats. Check those bad boys out. What a cargo size. What a turn speed. Man, 20 missile racks, 8 passengers and a massive difference ratio - the fastest in her class. Buy her now; you won't look back.
+M9 Multifuncional - La forma exacta en la que una nave como esta gana su reputación es claramente evidente en sus estadísticas. Mira a estos chicos malos. Qué tamaño de carga. Qué velocidad de giro. Hombre, 20 bastidores de misiles, 8 pasajeros y una enorme proporción de diferencia - la más rápida de su clase. Cómprala ahora; no mirarás atrás.
 producedBy=ATC spaceflight
 yearDeveloped=3026
-funTrivia=A recent addition to the ATC catalogue, she comes in granite and glorious pink for the female pilots out there.
+funTrivia=Recientemente añadida al catálogo de ATC, viene en granito y rosa glorioso para las pilotos femeninas.

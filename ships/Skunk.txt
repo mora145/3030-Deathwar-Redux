@@ -21,7 +21,7 @@ turretat(x,y)=0,0
 17,91
 18,90
 [/thrusters]
-M9 Cruiser - Built for speed! Rare to find one for sale. A favourite for Travellers, Bounty Hunters and Racers. Small cargo size for a ship of this class means a Fuel Scoop is a must for long trips.
+M9 Crucero - Construido para la velocidad! Es raro encontrar uno a la venta. Un favorito para viajeros, cazadores de recompensas y corredores. El pequeño tamaño de carga de una nave de esta clase significa que una paleta de combustible es imprescindible para viajes largos.
 producedBy=Slug Jojo
 yearDeveloped=2707
-funTrivia=These are custom made vessels, only 5 known to exist.
+funTrivia=Se trata de embarcaciones hechas a medida, de las que sólo se sabe que existen 5.

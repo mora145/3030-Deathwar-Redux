@@ -17,7 +17,7 @@ turretat(x,y)=0,51
 5,73
 -5,73
 [/thrusters]
-M4 Allrounder - First in the line of Ultarian Revolution ships, the Lochu boasts and impressive cargo size but lacks in diff engine capability. Load her up with passengers and she's good to go. The added turret allows a defensive capability not seen in her smaller brother.
+M4 Multiuso - La primera en la línea de las naves de la Revolución Ultariana, la Lochu presume de un tamaño de carga impresionante, pero carece de una capacidad de motor diferencial. Cárguela de pasajeros y estará lista para partir. La torreta añadida permite una capacidad defensiva que no se ve en su hermano menor.
 producedBy=Freespace & Thompson / Wext
 yearDeveloped=2982
-funTrivia=One of the oldest ship designs known to still exist. The original designers, Wext was bought out by freespace & thompson.
+funTrivia=Uno de los diseños de naves más antiguos que se sabe que aún existen. Los diseños originales, Wext, fueron comprados por freespace & thompson.

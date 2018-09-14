@@ -17,7 +17,6 @@ turretat(x,y)=0,0
 -7,61
 7,61
 [/thrusters]
-M5 Interceptor - The newer Bac has a large missile rack and a superb diff ratio thanks to leading technology developed by the Visors. Nothing like the previous Bac, this is a good ship if you can get it.
 producedBy=Paxtons
 yearDeveloped=3016
-funTrivia=The first bac was so popular the president of paxtons industries was forced to quit after allegations he wasn't going to make another.
+funTrivia=El primer bac fue tan popular que el presidente de Industrias Paxton se vio obligado a renunciar después de las acusaciones de que no iba a hacer otro.

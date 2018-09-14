@@ -16,7 +16,7 @@ turretat(x,y)=0,62
 [thrusters]
 0,88
 [/thrusters]
-M5 Trader - Some say that all Montfords are cursed with the demons of past captains. Some say that's a pile of crap. You can't possibly believe that crud. Anyway, demons aside, this ship offers an impressive cargo size at the cost of a slow diff ratio. If you buy her just make sure you've had her exorcised first.
+M5 Comerciante - Algunos dicen que todos los Montfords están malditos con los demonios de los capitanes del pasado. Algunos dicen que es un montón de mierda. No puedes creer esa basura. De todos modos, demonios aparte, esta nave ofrece un tamaño de carga impresionante a costa de una lenta relación de división. Si la compras, asegúrate de haberla exorcizado primero.
 producedBy=Montford Jr
 yearDeveloped=3017
-funTrivia=A captain of a montford once caught fire and burned to death while another accidentally got vented out into space.
+funTrivia=Un capitán de un montford una vez se incendió y murió quemado, mientras que otro fue expulsado accidentalmente al espacio.

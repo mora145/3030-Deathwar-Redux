@@ -17,7 +17,7 @@ turretat(x,y)=0,0
 -6,79
 6,79
 [/thrusters]
-M2 Allrounder - The Jeff is a sizeable beast. The first models were plagued with system problems but the newer models are a pleasure to pilot. This ship could also work well as a freighter or passenger ship and is a decent price.
+M2 Multifuncional - La Jeff es una bestia considerable. Los primeros modelos estaban plagados de problemas de sistemas, pero los modelos más nuevos son un placer de pilotar. Esta nave también podría funcionar bien como un carguero o una nave de pasajeros y tiene un precio decente.
 producedBy=ATC Spaceflight
 yearDeveloped=3001
-funTrivia=Named X-8FF after a droid from of the head designer. Also inspired by ancient aircraft from before the great migration.
+funTrivia=Llamada X-8FF en honor a un droide del diseñador titular. También inspirada en los aviones antiguos de antes de la gran migración.

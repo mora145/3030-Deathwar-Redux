@@ -17,7 +17,7 @@ turretat(x,y)=0,0
 -11,77
 11,77
 [/thrusters]
-M6 Fighter - Looks chunky, but with 20 missile racks, high maneuverability and good speed, the C590 is a great fighter. Upon its release it boasted class 6 difference engines capable of reaching 180 u/pc. Today's speeds are far greater but this old ship was quick for its time.
+M6 de Combate - Parece robusto, pero con 20 bastidores de misiles, alta maniobrabilidad y buena velocidad, el C590 es un gran luchador. Al salir al mercado contaba con motores de diferenciación de clase 6 capaces de alcanzar los 180 u/pc. Las velocidades de hoy son mucho mayores, pero esta vieja nave era rápida para su tiempo.
 producedBy=Virol 5
 yearDeveloped=3005
-funTrivia=Visor tech initially wanted to call this ship the c580 but were laughed at.
+funTrivia=Inicialmente VisorTech quería llamar a esta nave 'c580', pero se rieron de ella.

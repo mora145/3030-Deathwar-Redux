@@ -17,7 +17,7 @@ turretat(x,y)=0,0
 4,70
 -4,70
 [/thrusters]
-M6 Interceptor - The Lochu's follow-up caters to the heavy defense requirements so needed in the system today. She's smaller but packs a hefty punch. If you can find one that is. Designed for long range recon missions by the military, the Lochu Detra is now a common enough sight at many starports.
+M6 Interceptor - La Lochu Detra satisface los requisitos de defensa tan necesarios en el sistema actual. Es más pequeña, pero con un fuerte golpe. Si puedes encontrar una que lo sea. Diseñada por los militares para misiones de reconocimiento de largo alcance, la Lochu Detra es ahora vista comunmente en muchos puertos estelares.
 producedBy=Freespace & Thompson / Wext
 yearDeveloped=3025
-funTrivia=A long time coming upgrade from the lochu, partly constructed from old cargo vessels.
+funTrivia=Un largo tiempo viniendo de la actualización del lochu, en parte construida a partir de viejos buques de carga.

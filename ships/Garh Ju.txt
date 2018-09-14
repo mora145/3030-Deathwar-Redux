@@ -17,7 +17,7 @@ turretat(x,y)=0,69
 -13,78
 13,78
 [/thrusters]
-M7 Allrounder - Boasting a decent engine power for its size, the Garh Ju is one of the fastest difference enabled ships available today. Its cargo size and 6 passenger cabins make it a viable purchase.
+M7 Multifuncional - Con una potencia de motor decente para su tamaño, la Garh Ju es una de las naves habilitadas con la división más rápida disponible en la actualidad. Su tamaño de carga y sus 6 cabinas de pasajeros la convierten en una compra viable.
 producedBy=Chin & Sons
 yearDeveloped=3022
-funTrivia=The Garh Ju was originally supposed to be a non-split capable cargo barge but was changed at the last minute to accommodate higher powers.
+funTrivia=La Garh Ju originalmente se suponía que era una nave de carga sin capacidad de división, pero fue cambiada en el último minuto para adaptarse a las altas potencias.

@@ -19,7 +19,7 @@ turretat(x,y)=-9,59
 -7,96
 7,96
 [/thrusters]
-M6 Trader - A true cargo ship to be proud of. The Churchill boasts a considerable cargo size and a decent turn speed for its size. The downsides, of which there aren't many, include the low diff ratio and a small amount of passengers for its size.
+M6 Comerciante - Un verdadero buque de carga del que estar orgulloso. El Churchill tiene un tamaño de carga considerable y una velocidad de giro decente para su tamaño. Las desventajas, de las cuales no hay muchas, incluyen el bajo radio de división y una pequeña cantidad de pasajeros por su tamaño.
 producedBy=ATC Spaceflight
 yearDeveloped=3015
-funTrivia=Named after a famous dog, apparently. Oh yes.
+funTrivia=Al parecer, lleva el nombre de un perro famoso. Oh, sí.

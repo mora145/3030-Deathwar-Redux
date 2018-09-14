@@ -17,7 +17,7 @@ turretat(x,y)=0,0
 -7,56
 7,56
 [/thrusters]
-M1 Allrounder - One of the first versions of the now famous Bac line. It shows its age too with a slow turn and engine speed. The only saving grace is the price and the difference ratio. If you're looking to get your foot on the ship owner's ladder I'd recommend this little beauty.
+M1 Multiusos - Una de las primeras versiones de la ya famosa línea Bac. También muestra su edad con un giro lento y el régimen del motor. La única gracia salvadora es el precio y el radio de división. Si estás buscando poner tu pie en la escalera del propietario de una nave, te recomiendo esta pequeña belleza.
 producedBy=Paxtons
 yearDeveloped=2980
-funTrivia=The first in the bac line was inspired by a visor beasts ankle.
+funTrivia=El primero en la línea bac fue inspirado por un visor beasts ankle.

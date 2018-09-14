@@ -1,5 +1,5 @@
 image=Alienship1_100x100_5.png
-name=Vison Class 6
+name=Vison Clase 6
 turnSpeed=0.41
 cargoSize=160
 warpSpeed=150
@@ -18,7 +18,7 @@ turretat(x,y)=0,47
 0,71
 12,72
 [/thrusters]
-M4 Trader - What can be said about the Vison Class 6 that hasn't already been said in all the Visor media. She's slick. She's slow. But she can carry your mother and her potato collection.
+M4 Comerciante - Qué se puede decir sobre el Vison Clase 6 que no se ha dicho ya en todos los medios de comunicación del Visor. Ella es hábil. Ella es lenta. Pero puede llevar a tu madre y su colección de patatas.
 producedBy=virol 5
 yearDeveloped=2997
-funTrivia=The passenger decks are easily some of the most beautiful sleeping quarters ever designed.
+funTrivia=Las cubiertas para pasajeros son sin duda unos de los dormitorios más bonitos jamás diseñados.

@@ -16,7 +16,7 @@ turretat(x,y)=0,0
 [thrusters]
 0,66
 [/thrusters]
-M3 Interceptor - Making up for the low passenger capacity with its impressive diff-ratio capabilities makes this a very specific kind of ship. Whether you'll want to explore the far corners of the galaxy or chase around pirates, either way you'll be getting a cheap ship that does what it says on the hull.
+M3 Interceptor - Compensar la baja capacidad de pasajeros con sus impresionantes capacidades de relación diferencial hace de ésta una clase de nave muy específica. Ya sea que quieras explorar los rincones más lejanos de la galaxia o perseguir a los piratas, de cualquier forma conseguirás una nave barata que haga lo que dice en el casco.
 producedBy=carlton construction
 yearDeveloped=3011
-funTrivia=The dash board is made from ground up sponge and the captain's seat is in fact a chair.
+funTrivia=El tablero de instrumentos está hecho de esponja molida y el asiento del capitán es de hecho una silla.

@@ -22,7 +22,7 @@ turretat(x,y)=21,31
 29,75
 40,69
 [/thrusters]
-M7 Trader - Named Bobo by the miner community, this ship is huge. Largest cargo capacity you can get. But you pay for this with a slow turn speed and even slower acceleration. For its protection it boasts 10 missile racks and a turret which is uncommon in large cargo ships.
+M7 Comerciante - Nombrado Bobo por la comunidad minera, esta nave es enorme. La mayor capacidad de carga que puedas conseguir. Pero usted paga por esto con una velocidad de giro lenta y una aceleración aún más lenta. Para su protección cuenta con 10 bastidores de misiles y una torreta poco común en los grandes buques de carga.
 producedBy=Frankfurt Aus
 yearDeveloped=3008
-funTrivia=The bobo was named after a famous miner, alec bobomington smashed his ship straight into one on a drunk night out.
+funTrivia=La bobo lleva el nombre de un famoso minero, Alec Bobomington, que estrelló su nave en una noche de borrachera.

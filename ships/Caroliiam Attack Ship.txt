@@ -1,5 +1,5 @@
 image=CAlienFship_100x100_5.png
-name=Caroliiam Attack Ship
+name=Nave de ataque Caroliiam
 turnSpeed=0.7
 cargoSize=18
 warpSpeed=104
@@ -19,7 +19,7 @@ turretat(x,y)=0,0
 4,72
 11,72
 [/thrusters]
-M2 Fighter - A cousin of the Vison Class 6, this old attack fighter is a considerable opponent. An excellent turn speed coupled with a decent engine speed, this ship is a good find if you can afford it.
+M2 de Combate - Un primo de la Clase Vison 6, este viejo caza de combate es un oponente considerable. Una excelente velocidad de giro junto con una velocidad de motor decente, esta nave es una buena adquicion si usted puede permitirse el lujo.
 producedBy=Virol 5
 yearDeveloped=2997
-funTrivia=The dash is actually made out of fur.
+funTrivia=El tablero está hecho de piel.

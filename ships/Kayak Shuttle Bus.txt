@@ -17,7 +17,7 @@ turretat(x,y)=0,0
 -7,73
 7,73
 [/thrusters]
-M3 Transporter - A cargo vessel configured for up to 30 passengers and inter-system travel. A great engine for the price, but little capacity for extra fuel. 
+M3 Transportador - Un buque de carga configurado para un máximo de 30 pasajeros y para viajes entre sistemas. Un gran motor al mejor precio, pero poca capacidad para combustible extra. 
 producedBy=Carlton Construction
 yearDeveloped=3003
-funTrivia=The marks on the roof indicate it's Inter-System class, not just a local shuttle bus.
+funTrivia=Las marcas en el techo indican que es clase Inter-Sistemas, no sólo un autobús de enlace local.

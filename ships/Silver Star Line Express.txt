@@ -17,7 +17,7 @@ turretat(x,y)=0,50
 -7,70
 7,70
 [/thrusters]
-M7 Interceptor - One of the fastest in its class the Proud Anselmo doesn't fall under any specific category easily. Her tiny cargo space combined with an amazing speed place her somewhat in the attack ship heading. If you can afford her, buy her. A true classic still with us.
+M7 Interceptor - Una de las más rápidas de su clase, la Proud Anselmo no entra fácilmente en ninguna categoría específica. Su pequeño espacio de carga combinado con una velocidad asombrosa la colocan un poco en el rumbo de la nave de ataque. Si puedes permitírtelo, cómprala. Un verdadero clásico aún con nosotros.
 producedBy=Ho Ma
 yearDeveloped=3000
-funTrivia=Released by the now bankrupt Ho Ma group as a celebration of the third millennium.
+funTrivia=Lanzada por el ahora en bancarrota grupo Ho Ma, como una celebración del tercer milenio.

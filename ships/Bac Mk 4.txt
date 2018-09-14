@@ -17,7 +17,6 @@ turretat(x,y)=0,0
 5,65
 -4,65
 [/thrusters]
-M5 Fighter - Practical oozing 'stay the hell away from me', this attack vessel packs a punch. 16 missile racks and a quick turn rate makes this a killer assault vessel.
-producedBy=Paxtons/Virol 5
+M5 de Combate - Práctico rezumador 'mantente alejado de mí', esta nave de ataque tiene una gran fuerza. 16 bastidores de misiles y una velocidad de giro rápida hacen de este una nave de asalto asesina. Producida por By=Paxtons/Virol 5
 yearDeveloped=3022
-funTrivia=Visor tech was used in this ship as paxtons was bought up by one of the visor beasts biggest firms.
+funTrivia=La tecnología de viseras fue usada en esta nave cuando Paxton fue comprada por una de las empresas más grandes de bestias de viseras.

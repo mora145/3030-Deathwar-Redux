@@ -17,7 +17,7 @@ turretat(x,y)=0,56
 -3,73
 3,73
 [/thrusters]
-M8 Fighter - An instant classic, The Caroliiam Fighter has more umph than a Venturian star destroyer. In the right hands, this ship can take down pretty much anything that is put up against it.
+M8 Fighter - Un clásico instantáneo, The Caroliiam Fighter tiene más umph que un destructor de estrellas Venturiano. En las manos adecuadas, esta nave puede derribar casi cualquier cosa que se le ponga en frente.
 producedBy=Virol 5
 yearDeveloped=3028
-funTrivia=If you turn too many light on in the engine room the entire ship will turn itself off.
+funTrivia=Si enciende demasiada iluminación en la sala de máquinas, toda la nave se apagará sola.

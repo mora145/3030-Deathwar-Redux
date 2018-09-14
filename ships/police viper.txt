@@ -1,5 +1,5 @@
 image=CPolice_100x100_5.png
-name=police viper
+name=víbora policial
 turnSpeed=0.6
 cargoSize=22
 warpSpeed=120
@@ -17,7 +17,7 @@ turretat(x,y)=0,0
 -8,77
 7,77
 [/thrusters]
-M2 Interceptor - The galactic police use these and you can tell why. Not for cargo space though, that much I can tell you. With 4 missile racks and a hefty punch to thruster and engine capabilities, it's a mean attack ship to be up against.
+M2 Interceptor - La policía galáctica usa estos y se puede saber por qué. Pero no por el espacio de carga, eso es todo lo que puedo decirles. Con 4 bastidores de misiles y un fuerte golpe a las capacidades del propulsor y del motor, es una nave de ataque malvada a la que enfrentarse.
 producedBy=ATC Spaceflight
 yearDeveloped=2990
-funTrivia=The name viper comes, quite blatantly, from the classic hit elite.
+funTrivia=El nombre víbora viene, de forma bastante descarada, de la élite de los éxitos clásicos.

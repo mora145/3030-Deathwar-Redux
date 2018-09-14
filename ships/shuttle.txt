@@ -1,5 +1,5 @@
 image=Bshuttle_100x100_5.png
-name=Shuttle
+name=Transbordador
 turnSpeed=0.8
 cargoSize=11
 warpSpeed=0
@@ -16,7 +16,7 @@ turretat(x,y)=0,0
 [thrusters]
 0,64
 [/thrusters]
-Local Shuttle - The shuttle is the fallback for captains needing to downsize for cashback. No Split-Drive but it's fast for station-to-station work. Well suited for Taxi service, Deliveries and Junk Destruction when kitted out with a Front gun. 
+Transbordador Local - El transbordador es la alternativa para los capitanes que necesitan reducir su capacidad para recibir dinero en efectivo. No hay Separador, pero es rápido para el trabajo entre estaciones. Muy adecuada para el servicio de taxi, entregas y destrucción de chatarra cuando está equipada con una pistola frontal.
 producedBy=Freespace & Thompson
 yearDeveloped=3011
-funTrivia=Designed to echo land vehicles by Debbie Thompson, company co-founder.
+funTrivia=Diseñada por Debbie Thompson, cofundadora de la empresa, para hacer eco de los vehículos terrestres.

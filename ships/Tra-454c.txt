@@ -18,7 +18,7 @@ turretat(x,y)=-9,44
 0,77
 5,76
 [/thrusters]
-M6 Allrounder - The Tra is known as one of the faster cargo runners available today. It's able to pack a heavy payload as well with a 11 available missile racks. A great cargo runner.
+M6 Allrounder - El Tra es conocido como uno de transportadores de carga más rápidos disponibles hoy en día. También es capaz de transportar una gran carga útil con 11 bastidores de misiles disponibles. Un gran transportador de carga.
 producedBy=Tao mining company
 yearDeveloped=3010
-funTrivia=Designed by Tao mining in 3010 this vessel is strangely, equipped with three coffee makers.
+funTrivia=Diseñado por Tao Mining en el año 3010, esta embarcación está extrañamente equipada con tres cafeteras.

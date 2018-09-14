@@ -21,7 +21,7 @@ turretat(x,y)=0,53
 16,77
 11,76
 [/thrusters]
-M3 Trader - Curved and slick, the Arcter is designed for cargo duty. Load her up and feel the power. Worth the money but could be faster. With a diff ratio that would leave your grandmother feeling comfortable, the Arcter shines as a hauler.
+M3 Comerciante - Curvada y estilizada, la Arcter está diseñada para el servicio de carga. Cárgala y siente el poder. Vale la pena invertir el dinero, pero podría ser más rápida. Con una relación de difracción que hará que tu abuela se sienta cómoda, el Arcter brilla como vehículo de transporte.
 producedBy=Fernando
 yearDeveloped=3012
-funTrivia=The fire button was originally made of plastic but the designers decided to make it a little bit special and turned the knob into pure diamond.
+funTrivia=El botón de disparo estaba hecho originalmente de plástico, pero los diseñadores decidieron hacerlo un poco especial y convirtieron el pomo en diamante puro.

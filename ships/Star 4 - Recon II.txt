@@ -17,7 +17,7 @@ turretat(x,y)=0,0
 -9,76
 9,76
 [/thrusters]
-M4 Fighter - Arguably the best thing the Filities ever brought to the galaxy. A smooth ride. If you want to start a bounty hunting endeavour then I suggest this little beauty. With a very decent diff-ratio and missile payload you'll be a mean match for any pirate.
+M4 de Combates - Podría decirse que es lo mejor que las Filadelfia han traído a la galaxia. Un viaje suave. Si quieres comenzar un negocio de caza de recompensas, te sugiero esta pequeña belleza. Con una muy buena relación de diferencial y carga útil de misiles, serás un buen candidato para cualquier pirata.
 producedBy=Fil-Wst
 yearDeveloped=3005
-funTrivia=The only vessel to come out of the filities design house, fil-wst. The engine purr like kittens eating really expensive food.
+funTrivia=La única nave que salió de la casa de diseño de Filities, Fil-wst. El motor ronronea como gatitos comiendo comida muy cara.

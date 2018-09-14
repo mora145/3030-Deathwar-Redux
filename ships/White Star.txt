@@ -21,7 +21,7 @@ turretat(x,y)=0,0
 22,77
 16,76
 [/thrusters]
-M9 SuperSplitter - A Passenger liner no longer in production. Handles and eats fuel like a pig, but Splits like a pig on fire. 
+M9 SuperSplitter - Un transatlántico de pasajeros que ya no está en producción. Maneja y come combustible como un cerdo, pero se divide como un puerco en llamas. 
 producedBy=Greedo Ships
 yearDeveloped=2550
-funTrivia=Rumour is the engines suffer an explosive failure fault, leading to the presumed death of Guitar Legend, ChikyTika.
+funTrivia=Se rumorea que los motores sufren una falla explosiva, lo que llevó a la presunta muerte de la guitarrista legendaria ChikyTika.

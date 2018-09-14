@@ -16,7 +16,7 @@ turretat(x,y)=0,0
 [thrusters]
 0,59
 [/thrusters]
-Jetsuit - Starting out at in-system package delivery or junk destruction? Stuck away from your ship after a weekend partying? An EVA JetSuit will get you Station-to-Station. With its basic Split-Drive active it's about as fast as a shuttle but has minimal cargo capacity.
+Jetsuit - ¿Empezando con la entrega de paquetes en el sistema o la destrucción de chatarra? ¿Atascado lejos de su nave después de una fiesta de fin de semana? Un EVA JetSuit le llevará de estación a estación. Con su activo básico Split-Drive es casi tan rápido como un transbordador, pero tiene una capacidad de carga mínima.
 producedBy=Carlton Construction
 yearDeveloped=2560
-funTrivia=Mandated to be always white as they are so small.
+funTrivia=Obligada a ser siempre blanco de ataques, por ser tan pequeña.

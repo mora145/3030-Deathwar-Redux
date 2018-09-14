@@ -18,7 +18,7 @@ turretat(x,y)=0,0
 4,62
 0,68
 [/thrusters]
-M3 Fighter - This heavy attack ship is a very good buy if you can find it. One of the fastest in its class, it boasts a considerable turn speed and engine speed.
+M3 de Combate - Esta nave de ataque pesado es una muy buena compra si puedes encontrarla. Es una de las más rápidas de su categoría, con una velocidad de giro y una velocidad de motor considerables.
 producedBy=Ze Group
 yearDeveloped=3016
-funTrivia=The Ze group designer was apparently inspired by a dream he'd had after eating some bumblejuice.
+funTrivia=El diseñador de Ze group se inspiró aparentemente en un sueño que había tenido después de tomar un poco de bumblejuice.
