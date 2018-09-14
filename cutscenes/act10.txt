@@ -21,7 +21,7 @@ ktafly:Estamos tratando de eliminar el lado malo del consejo.
 ktafly:La gente sigue pensando que los taoistas son malas personas despues de toda la propaganda.
 ktafly:Probablemente nos disolveremos.
 ktafly:Por cierto, hemos borrado tus antecedentes penales.
-falcon:Sonido.
+falcon:Suena bien.
 ktafly:Una vez que la nano-amenaza haya sido explicada, el consejo volvera a permitir el acceso a los planetas.
 ktafly:Se haran mas habitables de nuevo. Podemos empezar de cero.
 boss:Le debemos mucha gratitud. 

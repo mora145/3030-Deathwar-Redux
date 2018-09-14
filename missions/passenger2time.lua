@@ -24,7 +24,7 @@ function prototype()
 	dropOffSystem=getYourSystem()
 	local dockedAt = getYourDockedStation()
 	
-	timerName = advertPerson.." PASAJELO LOCAL"
+	timerName = advertPerson.." PASAJERO LOCAL"
 
 	local ok=false
 	while ok==false do

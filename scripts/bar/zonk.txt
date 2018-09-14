@@ -17,7 +17,7 @@ return
 @1 // Sí, a veces.
 ego:Sí, a veces.
 other:Siii! 
-ego:I don't have any shipments of Zonk though.
+ego:Pero no tengo ningún cargamento de Zonk.
 other:La mayor parte de las veces son los habitantes de la estación los que la beben.
 ego:Bien, gracias por el consejo.
 stop

@@ -18,26 +18,26 @@ falcon:Estoy de vuelta. Todo bien?:data/voice/newgame1/f1.wav
 vasquez:Ok? Esto se ve bien?:data/voice/newgame1/v2.wav
 falcon:Quien diablos es ese?:data/voice/newgame1/f3.wav
 vasquez:Lo encontre metido en un viejo casillero de carga.:data/voice/newgame1/v4.wav
-vasquez:Parece que lleva muerto semanas.:data/voice/newgame1/v5.wav
-vasquez:Si nos abordan ahora estaremos en un gran problema.:data/voice/newgame1/v6.wav
-falcon:Kent, registraste el cuerpo? :data/voice/newgame1/f5.wav
+vasquez:Parece que lleva semanas muerto.:data/voice/newgame1/v5.wav
+vasquez:Si nos abordan ahora estaremos en grandes problemas.:data/voice/newgame1/v6.wav
+falcon:Kent, registraste el cuerpo?:data/voice/newgame1/f5.wav
 kent:Sin identificacion... Sin dinero...:data/voice/newgame1/k2.wav
-kent:...y un agujero en la cabeza del tamano del lago Michigan. :data/voice/newgame1/k4.wav
-kent:Parece una bala de pequeno calibre. A corta distancia.:data/voice/newgame1/k5.wav
-falcon:Esta nueva esta literalmente llena de sorpresas. :data/voice/newgame1/f6.wav
-kent:Claro que lo esta. :data/voice/newgame1/k7.wav
-falcon:Mierda. Llevo cinco minutos recuperando... :data/voice/newgame1/f8.wav
-falcon:...y hay un cadaver asesinado en el medio de mi nave. :data/voice/newgame1/f9.wav
-vasquez:Debemos deshacernos de el. :data/voice/newgame1/v8.wav
-kent:De acuerdo. :data/voice/newgame1/k8.wav
-falcon:Correcto. :data/voice/newgame1/f11.wav
-falcon:Kent, dale otra busqueda de informacion. :data/voice/newgame1/f12.wav
-kent:Puedo abrir una investigacion? :data/voice/newgame1/k10.wav
-falcon:En tu tiempo libre. :data/voice/newgame1/f13.wav
-falcon:Vasquez, metelo en una caja sin marcar. :data/voice/newgame1/f14.wav
-vasquez:La caja de judias podridas? :data/voice/newgame1/v10.wav
-falcon:Buena idea. Lo tirare de camino a la estacion. :data/voice/newgame1/f17.wav
-falcon:Primero, saldremos de este campo de asteroides. :data/voice/newgame1/f20.wav
+kent:...y un agujero en la cabeza del tamano del lago Michigan.:data/voice/newgame1/k4.wav
+kent:Parece una bala de pequeno calibre a corta distancia.:data/voice/newgame1/k5.wav
+falcon:Esta nueva nave esta literalmente llena de sorpresas.:data/voice/newgame1/f6.wav
+kent:Claro que lo esta.:data/voice/newgame1/k7.wav
+falcon:Mierda. Salgo solo cinco minutos a recoger...:data/voice/newgame1/f8.wav
+falcon:...y ya hay un cadaver asesinado en el medio de mi nave.:data/voice/newgame1/f9.wav
+vasquez:Debemos deshacernos de el.:data/voice/newgame1/v8.wav
+kent:Estoy de acuerdo.:data/voice/newgame1/k8.wav
+falcon:Correcto.:data/voice/newgame1/f11.wav
+falcon:Kent, dale otra busqueda de informacion.:data/voice/newgame1/f12.wav
+kent:Puedo abrir una investigacion?:data/voice/newgame1/k10.wav
+falcon:En tu tiempo libre.:data/voice/newgame1/f13.wav
+falcon:Vasquez, metelo en una caja sin marcar.:data/voice/newgame1/f14.wav
+vasquez:En la caja de judias se puede?:data/voice/newgame1/v10.wav
+falcon:Buena idea. Lo tirare de camino a la estacion.:data/voice/newgame1/f17.wav
+falcon:Primero saldremos de este campo de asteroides.:data/voice/newgame1/f20.wav
 
 }
 
