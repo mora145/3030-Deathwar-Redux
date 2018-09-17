@@ -1,29 +1,29 @@
 //begin
-// [ ] 1 - "nothing"
-// [ ] 2 - "nothing"
+// [ ] 1 - "nada"
+// [ ] 2 - "nada"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Oh my God, I think I'm having a rap attack..
-other:Somebody get a doctor! She's having an attack!
-other:She said 'rap attack', man, not 'heart attack'
-other:Oh, you mean she's alright then?
-other:Of course, you never heard of a Mr. Magic Rap Attack?
-other:Oh, I heard of a heart attack or a big mac attack
-other:But what's a rap attack?
-other:Come here, man, I see I'ma have to explain it to you like this
-other:See, a rap attack means..
-other:Deejays jammin in the street
-other:MC's rappin to the beat
-other:The people downstairs sayin they can't sleep
-other:Cause the people upstairs are stompin their feet
-other:It's not like they're startin a riot
-other:'We'll call the cops, cause we want some quiet!'
-other:There's no need for them to get excited
-other:They're just mad because they're not invited
-other:(It's all in Mr. Magic's Wand)
-other:Now that you heard our rap and you caught a contact
-other:We want you all to know that we got to go
+other:Dios mío, creo que estoy teniendo un ataque de rap...
+other:¡Que alguien llame a un médico! ¡Está teniendo un ataque!
+other:Ella dijo 'ataque de rap', hombre, no 'ataque al corazón'.
+other:¿Quieres decir que está bien?
+other:Por supuesto, ¿nunca has oído hablar de un Ataque de Rap Mágico?
+other:Oh, he oído hablar de un ataque al corazón o de un ataque de Big Mac.
+other:¿Pero qué es un ataque de rap?
+other:Ven aquí, hombre, veo que tendré que explicartelo de esta manera.
+other:Mira, un ataque de rap significa...
+other:Deejays jammin en la calle
+other:El rap de MC al ritmo de la música
+other:La gente de abajo dice que no puede dormir.
+other:Porque la gente de arriba está zapateando
+other:No es como si estuvieran empezando un disturbio
+other:"Llamaremos a la policía, ¡porque queremos silencio!"
+other:No hay necesidad de que se exciten.
+other:Sólo están enojados porque no están invitados
+other:(Todo está en la varita del Sr. Magia)
+other:Ahora que escuchaste nuestro rap y atrapaste a un contacto.
+other:Queremos que todos sepan que tenemos que irnos.
 stop

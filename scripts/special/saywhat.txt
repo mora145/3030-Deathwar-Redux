@@ -1,35 +1,35 @@
 //begin
-// [x] 1 - "the truth"
-// [x] 2 - "lie"
-// [ ] 3 - "yes"
+// [x] 1 - "la verdad"
+// [x] 2 - "mentir"
+// [ ] 3 - "si"
 // [ ] 4 - "no"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:hi
-james:hi matt what's up?
+ego:Hola
+james:Hola Matt, ¿qué pasa?
 return
 
 @1 // the truth
-ego:Well you worked so hard i've decided to give you 10% of the take.
-jay:wow you mean it?
+ego:Bueno, has trabajado tan duro que he decidido darte el 10% de la ganancia.
+jay:Wow, ¿lo dices en serio?
 option-off 2
 option-off 1
 option-on 3
 option-on 4
 return
 
-@2 // lie
-ego:nothin
+@2 // mentir
+ego:nada
 jay:cya
 stop
 
 @3 // yes
-ego:yes i did. a verbal contract in the county of flintshire is binding
+ego:Sí, lo hice. Un contrato verbal en el condado de Flintshire es vinculante.
 stop
 
 @4 // no
-ego:no sorry, i meant 20%. a verbal contract in the county of flintshire is binding
+ego:No, lo siento, quise decir 20%. Un contrato verbal en el condado de Flintshire es vinculante.
 stop
