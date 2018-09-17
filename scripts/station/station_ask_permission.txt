@@ -1,11 +1,11 @@
 //begin
-// [x] 1 - "Request Docking Clearance"
-// [x] 2 - "What system is this?"
-// [x] 3 - "How much is the docking fee?"
-// [x] 4 - "Hold fire! I'll pay my fines."
-// [x] 5 - "Cancel"
-// [ ] 6 - "I'll pay."
-// [ ] 7 - "No way, forget it"
+// [x] 1 - "Solicitar autorización para atracar"
+// [x] 2 - "¿Qué sistema es este?"
+// [x] 3 - "¿Cuánto es la tasa de atraque?"
+// [x] 4 - "¡No disparen! Pagaré mis multas."
+// [x] 5 - "Cancelar"
+// [ ] 6 - "Pagaré."
+// [ ] 7 - "De ninguna manera, olvídalo."
 //end
 
 
@@ -19,27 +19,27 @@ option-on 4
 return
 
 
-@1 // Request Docking Clearance
-other:Please wait..
+@1 // Solicitar autorización para atracar
+other:Espere por favor...
 dock_granted
 stop
 
-@2 // what system is this?
-other:You're currently in the *playerSystem* system
+@2 // ¿Qué sistema es este?
+other:Actualmente se encuentra en el sistema *playerSystem*
 stop
 
-@3 // docking fee
-other:The docking fee has been set at $4 for the past 120 years, sir.
-ego:Is it ever likely to change?
-other:I'd go out on a limb and say no.
-ego:You sound very sure. Are you a friend of the council leaders?
-other:No, sir. I'm very busy. 
+@3 // tasa de atraque
+other:La tasa de atraque se ha fijado en 4$ en los últimos 120 años, señor.
+ego:¿Es probable que cambie alguna vez?
+other:Me arriesgaría y diría que no.
+ego:Suenas muy seguro. ¿Eres amigo de los líderes del consejo?
+other:No, señor. Estoy muy ocupado. 
 stop
 
-@4 // fines?
-ego:Hold fire! I'll pay my fines.
-other:You owe *crim_total* in total.
-other:do you want to pay it or not?
+@4 // multas?
+ego:¡No disparen! Pagaré mis multas.
+other:Usted debe *crim_total* en total.
+other:¿quieres pagarlo o no?
 option-on 6
 option-on 7
 option-off 1
@@ -49,16 +49,16 @@ option-off 4
 option-off 5
 return
 
-@5 // Cancel
-other:Roger, clearance denied.
+@5 // Cancelar
+other:Recibido, autorización denegada.
 dock_cancel
 stop
 
 @6
-ego:I'll pay.
-other:Good.. one second while I transfer the money.
-other:.. done.
-other:Now, is there anything else?
+ego:Pagaré.
+other:Bien... un segundo mientras transfiero el dinero.
+other:.. terminado.
+other:Ahora, ¿hay algo más?
 option-off 1
 option-off 2
 option-off 3
@@ -75,8 +75,8 @@ wipecrimrecordclean
 return
 
 @7
-ego:No way, forget it
-other:Alright. Anything else?
+ego:De ninguna manera, olvídalo.
+other:De acuerdo. ¿Algo más?
 option-off 1
 option-off 2
 option-off 3

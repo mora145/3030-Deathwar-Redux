@@ -1,8 +1,8 @@
 //begin
-// [x] 1 - "Request Docking Clearance"
-// [x] 2 - "What system is this?"
-// [x] 3 - "How much is the docking fee?"
-// [x] 4 - "Cancel"
+// [x] 1 - "Solicitar autorización para atracar"
+// [x] 2 - "¿Qué sistema es este?"
+// [x] 3 - "¿Cuánto es la tasa de atraque?"
+// [x] 4 - "Cancelar"
 //end
 
 
@@ -17,23 +17,23 @@ return
 
 
 @1 // Request Docking Clearance
-other:Please wait..
+other:Espere por favor...
 dock_granted
 stop
 
 @2 // what system is this?
-other:You're currently in the *playerSystem* system
+other:Actualmente se encuentra en el sistema *playerSystem* 
 stop
 
 @3 // docking fee
-other:The docking fee has been set at $4 for the past 120 years, sir.
-ego:Is it ever likely to change?
-other:I'd go out on a limb and say no.
-ego:You sound very sure. Are you a friend of the council leaders?
-other:No, sir. I'm very busy. 
+other:La tasa de atraque se ha fijado en 4 dólares en los últimos 120 años, señor.
+ego:¿Es probable que cambie alguna vez?
+other:Me arriesgaría y diría que no.
+ego:Suenas muy seguro. ¿Eres amigo de los líderes del consejo?
+other:No, señor. Estoy muy ocupado. 
 stop
 
 @4 // Cancel
-other:Roger, clearance denied.
+other:Recibido, autorización denegada.
 dock_cancel
 stop

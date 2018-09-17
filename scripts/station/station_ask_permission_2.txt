@@ -1,9 +1,9 @@
 //begin
-// [x] 1 - "Request Docking Clearance"
-// [x] 2 - "What system is this?"
-// [x] 3 - "How much is the docking fee?"
-// [x] 4 - "Hold fire! I'll pay my fines."
-// [x] 5 - "Cancel"
+// [x] 1 - "Solicitar autorización para atracar"
+// [x] 2 - "¿Qué sistema es este?"
+// [x] 3 - "¿Cuánto es la tasa de atraque?"
+// [x] 4 - "¡No disparen! Pagaré mis multas."
+// [x] 5 - "Cancelar"
 //end
 
 
@@ -17,34 +17,34 @@ option-on 4
 return
 
 
-@1 // Request Docking Clearance
-other:Please wait..
+@1 //  Solicitar autorización para atracar
+other:Espere por favor...
 dock_granted
 stop
 
-@2 // what system is this?
-other:You're currently in the *playerSystem* system
+@2 // ¿Qué sistema es este?
+other:Actualmente se encuentra en el sistema *playerSystem* 
 stop
 
 @3 // docking fee
-other:The docking fee has been set at $4 for the past 120 years, sir.
-ego:Is it ever likely to change?
-other:I'd go out on a limb and say no.
-ego:You sound very sure. Are you a friend of the council leaders?
-other:No, sir. I'm very busy. 
+other:La tasa de atraque se ha fijado en 4 dólares en los últimos 120 años, señor.
+ego:¿Es probable que cambie alguna vez?
+other:Me arriesgaría y diría que no.
+ego:Suenas muy seguro. ¿Eres amigo de los líderes del consejo?
+other:No, señor. Estoy muy ocupado. 
 stop
 
-@4 // fines?
-ego:Hold fire! I'll pay my fines.
-other:You owe *crim_total* in total.
-other:You got that kind of money?
-ego:No, what do I do now?
-other:Well, I recommend you get away from our turrets.
-other:There are no half options with the police.
-other:You should have thought of this before you started being a naughty boy.
+@4 // multas?
+ego:¡No disparen! Pagaré mis multas.
+other:Usted debe *crim_total* en total.
+other:¿Tienes esa cantidad de dinero?
+ego:No, ¿qué hago ahora?
+other:Bueno, te recomiendo que te alejes de nuestras torretas.
+other:No hay medias tintas con la policía.
+other:Deberías haber pensado en eso antes de empezar a ser un chico travieso.
 stop
 
 @5 // Cancel
-other:Roger, clearance denied.
+other:Recibido, autorización denegada.
 dock_cancel
 stop

@@ -1,22 +1,22 @@
 //begin
-// [x] 1 - "No. I wish to dock."
-// [x] 2 - "Yes, cancel my docking permission."
+// [x] 1 - "No. Deseo atracar."
+// [x] 2 - "Sí, cancele mi permiso de atraque."
 //end
 
 @S
-other:You're already in our docking queue.
-other:Do you wish to cancel your docking clearance?
+other:Ya estás en nuestra cola de espera.
+other:¿Desea cancelar su permiso de atraque?
 option-off 0
 option-on 1
 option-on 2
 return
 
 @1 
-other:Roger, please wait in the queue.
+other:Roger, por favor, espere en la cola.
 stop
 
 @2 
-other:Roger, clearance denied.
-other:Please back away from the station.
+other:Recibido, autorización denegada.
+other:Por favor, aléjese de la estación.
 dock_cancel
 stop

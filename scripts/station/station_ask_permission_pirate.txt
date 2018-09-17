@@ -1,8 +1,8 @@
 //begin
-// [x] 1 - "Request Docking Clearance"
-// [x] 2 - "Are you a pirate station?"
-// [x] 3 - "How much is the docking fee?"
-// [x] 4 - "Cancel"
+// [x] 1 - "Solicitar autorización para atracar"
+// [x] 2 - "¿Qué sistema es este?"
+// [x] 3 - "¿Cuánto es la tasa de atraque?"
+// [x] 4 - "Cancelar"
 //end
 
 
@@ -17,22 +17,22 @@ return
 
 
 @1 // Request Docking Clearance
-other:Please wait..
+other:Espere por favor...
 dock_granted
 stop
 
 @2 // pirate station?
-other:*playerSystem*'s finest. Do you wanna to dock or what?
+other:*playerSystem*, lo mejor. ¿Quieres atracar o qué?
 stop
 
 @3 // docking fee
-other:Independent pirate station. No docking fee.
-ego:That's what I like hearing.
-other:Coming on board?
-ego:I might just, thank you.
+other:Estación pirata independiente. No hay cuota de atraque.
+ego:Eso es lo que me gusta oír.
+other:¿Vas a subir a bordo?
+ego:Puede que sí, gracias.
 stop
 
 @4 // Cancel
-other:Alright, call back soon.
+other:Muy bien, vuelve a llamar pronto.
 dock_cancel
 stop
