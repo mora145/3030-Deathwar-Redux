@@ -8,24 +8,24 @@
 
 function prototype()
 	dropOffSystem="daphice"
-	dropOffStation="Ssinil Station 1"
+	dropOffStation="Estacion Ssinil 1"
 	
     local dockedAt = getYourDockedStation()
 
     timerName = "MORGAN YU COURIER"
     timerNameWarning = "MORGAN YU WARNING [hidden]"
 	prize = 20000
-	packageName="religious artefact"
-	smallDesc="I need my artefact taken to ssinil station in the "..dropOffSystem.." system."
+	packageName="artefacto religioso"
+	smallDesc="Necesito que mi artefacto sea llevado a la estación de Ssinil en el sistema "..dropOffSystem.."."
     timeLimit="9:16"
     timeLimitWarning="4:25"
     hasSentWarning=0
 
 	--bigDesc=smallDesc -- make the longer description
-	bigDesc=bigDesc.." ".."I can pay $"..prize.."."
-	bigDesc=bigDesc.." ".."It needs to get to ".. dropOffStation.. ", "..dropOffSystem.."."
-	bigDesc=bigDesc.." ".."Just board the station, it'll be automatically removed from your inventory."
-    bigDesc=bigDesc.." ".."This is really urgent. You'll have "..timeLimit.." to get there."
+	bigDesc=bigDesc.." ".."Puedo pagar "..prize.."$."
+	bigDesc=bigDesc.." ".."Necesita llegar a ".. dropOffStation.. ", en el sistema "..dropOffSystem.."."
+	bigDesc=bigDesc.." ".."Sólo tienes que abordar la estación, y se eliminará automáticamente de tu inventario.."
+    bigDesc=bigDesc.." ".."Esto es realmente urgente. Tendrás "..timeLimit.." para llegar allí."
 
 	return 1
 end
@@ -56,7 +56,7 @@ function update() -- update mission critical things here
     		resumed=0
     		paused=1
     	end
-    	newDesc= "please undock to begin this mission."
+    	newDesc= "por favor, desembarca para comenzar esta misión.."
     else
     	if (resumed==0) then 
 			resumeTimer(timerName)
@@ -66,7 +66,7 @@ function update() -- update mission critical things here
 		end
 		
 		if timerFinished(timerNameWarning)==1 and hasSentWarning==0 then
-			info2("Transmission from Morgan Yu (carrier signal confirmed): Shit, you still haven't delivered the package? Time is running out, get there fast! Now!")
+			info2("Transmisión de Morgan Yu (señal portadora confirmada): Mierda, ¿aún no has entregado el paquete? El tiempo se acaba, ¡llega rápido! ¡Ahora!")
 			hasSentWarning = 1
 		end
 		
@@ -93,14 +93,14 @@ end
 function finishSuccess() -- clear up stuff here
 	givePlayerMoney(prize)
 	cleanUp()
-	info2("Transmission from Morgan Yu (carrier signal confirmed): Your account has been credited $"..prize..". K'ta Fly sends his thanks. He'll contact you again soon.")
+	info2("Transmisión de Morgan Yu (señal portadora confirmada): Su cuenta ha sido acreditada "..prize.."$. K'ta Fly te da las gracias. Pronto se pondrá en contacto con usted.")
 	
 	-- Progress main story plot
 	setStoryVar(100,12)
 end
 
 function finishFailure() -- clear up stuff here
-	info2("The artefact you received from Morgan Yu begins to sizzle. [br] [br] It erupts into flame. [br] [br] A second later, everything goes bright.")
+	info2("El artefacto que recibiste de Morgan Yu empieza a chisporrotear. [br] [br] Estalla en llamas. [br] [br] Un segundo después, todo se ilumina.")
 	killPlayerBlownUpByBomb()
 	cleanUp()
 end
@@ -122,7 +122,7 @@ function canCancel()
 	if (youDockedAtAll()==0) then
 		return ""
 	else
-	    return "Can't Cancel"
+	    return "No se puede cancelar"
 	end
 end
 

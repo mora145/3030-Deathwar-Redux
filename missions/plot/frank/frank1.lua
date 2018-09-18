@@ -12,8 +12,7 @@ function prototype()
 	prize = 2600
 	packageName="holocube"
 	
-	smallDesc = "Take this to Jimmy Chou for me. He's on board one of these stations."
-	bigDesc = "Take this holo-cube to jimmy chou. He'll be waiting on one of the stations in this system. Find him and give him this holocube. He'll give you $2,600."
+	smallDesc = "Llévale este holocubo a Jimmy Chou. Estará esperando en una de las estaciones de este sistema. Encuéntralo y dale este holocubo. Te dará 2.600 dólares."
 	
 	contactPerson = "jimmy chou"
 	
@@ -96,7 +95,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return dropOffStation.." in "..dropOffSystem.." system."
+	return dropOffStation.." en el sistema "..dropOffSystem.."."
 end
 
 function returnImageFile()

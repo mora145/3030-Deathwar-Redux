@@ -20,8 +20,8 @@ function prototype()
 	contactPerson = "evan t'ny"
 	advertPerson = "evan t'ny"
 
-	bigDesc="I need you to photograph jek kek on board tia in the "..pickupSystem.." system. We'll issue you with a recon camera. Simply stand near him and take a photo. Report back to me here on qrima station 2."
-	smallDesc="Photograph jek kek on Tia."
+	bigDesc="Necesito que fotografíes a Jek Kek a bordo de Tia en el sistema "...pickupSystem...". Te daremos una cámara de reconocimiento. Simplemente párate cerca de él y toma una foto. Repórtese a mí aquí en la estación Qrima 2."
+	smallDesc="Fotografía a Jek Kek en Tia."
 
 	return 1
 end
@@ -35,9 +35,9 @@ end
 function takeMission() -- upon taking the mission set up things, like:
 	if hasUpgrade("recon camera")==0 then
 		giveUpgrade("recon camera")
-		info("You have been afforded a recon camera to accomplish this mission.")
+		info("Se le ha proporcionado una cámara de reconocimiento para cumplir esta misión.")
 	else
-		info("You already seem to have a recon camera. Use that to accomplish this mission.")
+		info("Parece que ya tienes una cámara de reconocimiento. Úsala para cumplir esta misión.")
 	end	
 
 	-- add the photo person
@@ -139,7 +139,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return pickupStation.." in the "..pickupSystem.." system."
+	return pickupStation.." en el sistema "..pickupSystem.."."
 end
 
 function returnImageFile()

@@ -14,9 +14,9 @@ function prototype()
 
 	prize = 0
 	
-	smallDesc="Pick up the scientist from KP-FQ1" 
+	smallDesc="Recoja al científico de KP-FQ1" 
 	
-	bigDesc="Pick up Dave Ramirez phd from Qucieda in KP-FQ1. He'll automatically board your ship when you dock there. Bring him back to walker base as quickly as possible."	
+	bigDesc="Recoger a Dave Ramírez, doctor en Filosofía y Letras de Qucieda en KP-FQ1. Automáticamente abordará su nave cuando atraque allí. Llévenlo de vuelta a la base de Walker tan pronto como sea posible."	
     	
 	return 1
 end
@@ -43,12 +43,12 @@ function update() -- update mission critical things here
 			if (pickedUpYet==0) then
 				pickedUpYet=1
 				addPassenger(people_on_board[1])
-				info2("I have boarded your ship. Please take me to walker base immediately.")
+				info2("He abordado su nave. Por favor, llévame a la base Walker inmediatamente.")
 			end			
 		else
 			if (remindTip==0) then
 				remindTip=1
-				info("You will need a free cabin to pick me up. Come back when you have cabin space.",true)
+				info("Necesitarás un camarote libre para recogerme. Vuelve cuando tengas espacio en la cabina.",true)
 			end
 		end
 	else
@@ -67,7 +67,7 @@ end
 
 function finishSuccess() -- clear up stuff here 
 	cleanUp()
-	info("Thanks for bringing me here. I'll get to work on the shield code. It shouldn't take long at all.")
+	info("Gracias por traerme aquí. Me pondré a trabajar en el código del escudo. No debería llevar mucho tiempo.")
 	clearAllCleanerShips()
 end
 
@@ -88,7 +88,7 @@ function cancel()
 end
 
 function canCancel() -- can only cancel when docked!
-	return "Can't cancel"
+	return "No se puede cancelar"
 end
 
 function returnSmallDesc()
@@ -120,7 +120,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return "Pick up at Qucieda in KP-FQ1, drop off at walker base"
+	return "Recogida en Qucieda en KP-FQ1, entrega en la base Walker."
 end
 
 function getPeople()

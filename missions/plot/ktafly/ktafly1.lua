@@ -12,8 +12,8 @@ function prototype()
 	
 	deviceName="container 454"
 	
-	smallDesc = "Cargo container in need of pickup"
-	bigDesc = "I need you to pick up cargo container 454 from near ckesera station 2 in the leesti system. then bring it back to me here on sha v station 1 in the sophiha system. You will need a tractor beam. the fee is $12,000. Just leave it outside the station and I'll get it later."
+	smallDesc = "Contenedor de carga que necesita ser recogido"
+	bigDesc = "Necesito que recojas el contenedor de carga 454 cerca de la estación 2 de Ckesera en el sistema Leesti y me lo traigas aquí en la estación 1 de Sha V en el sistema Sophiha. Necesitarás un rayo tractor. La tarifa es de 12.000 dólares. Déjalo fuera de la estación y lo recogeré más tarde."
 	contactPerson = "k'ta fly"
 	
 	return 1
@@ -47,7 +47,7 @@ function update() -- update mission critical things here
 end
 
 function finishSuccess() -- clear up stuff here
-	info2("Transmission from K'Ta Fly (carrier signal confirmed): Thanks for delivering my container. Please come and see me.")
+	info2("Transmisión desde K'Ta Fly (señal portadora confirmada): Gracias por entregar mi contenedor. Por favor, ven a verme.")
 	setPersonScriptFile("k'ta fly","data/scripts/plot/ktafly/ktafly3.txt")
 	givePlayerMoney(prize)
 	cleanUp()
@@ -105,11 +105,11 @@ function loseHaggle()
 end
 
 function getDropOff()
-	return dropOffStation.." in "..dropOffSystem.." system."
+	return dropOffStation.." en el sistema "..dropOffSystem.."."
 end
 
 function getDestination()
-	return pickupStation.." in "..pickupSystem.." system."
+	return pickupStation.." en el sistema "..pickupSystem.."."
 end
 
 contactPerson = ""

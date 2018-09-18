@@ -7,8 +7,8 @@ function prototype()
 	dropOffStation="walker base"
 	prize = 0
 	
-	smallDesc = "Find cargo container"
-	bigDesc = "Your search grid has you searching waessda and aresswa. Search through the asteroid fields in each system for a cargo container. Scan it by targeting it. We will analyse your scan and inform you whether it is the container we are looking for. Tractor beam it and bring it back here to walker base. Just leave it outside the station and board."
+	smallDesc = "Encontrar el contenedor de carga"
+	bigDesc = "Tu cuadrícula de búsqueda te tiene buscando waessda y aresswa. Busque en los campos de asteroides de cada sistema un contenedor de carga. Escanéalo apuntándolo. Analizaremos su escaneo y le informaremos si se trata del contenedor que estamos buscando. Hazlo con el tractor y tráelo de vuelta a la base Walker. Déjalo fuera de la estación y sube a bordo."
 	contactPerson = "4332c"
 	
 	return 1
