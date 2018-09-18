@@ -68,68 +68,68 @@ function prototype()
 
 	-- GET PIRATE DESCRIPTION
 	local t={}
-	t[1]="violent"
-	t[2]="nasty"
-	t[3]="badass"
-	t[4]="killer"	
-	t[5]="murderous"
-	t[6]="insane"
-	t[7]="mad"
-	t[8]="crazy"
-	t[9]="space crazy"
+	t[1]="violento"
+	t[2]="repugnante"
+	t[3]="agresivo"
+	t[4]="homicida"	
+	t[5]="mortífero"
+	t[6]="insensato"
+	t[7]="enloquecido"
+	t[8]="loco"
+	t[9]="loco espacial"
 	t[10]="coo-coo"
-	t[11]="foaming mad"
-	t[12]="quite quite mad"
+	t[11]="loco con espuma en la boca"
+	t[12]="bastante loco"
 	local about=t[math.random(table.getn(t))]	
 		
 	local t3={}
-	t3[1]="Bounty: "..about.." pirate wanted dead."
-	t3[2]=about.." pirate wanted dead."
-	t3[3]="Bounty: "..about.." pirate."
-	t3[4]="bounty offered."
-	t3[5]=about.." pirate wanted dead."
-	t3[6]="require assistance with "..about.." pirate."
-	t3[7]="Kill this scum."
-	t3[8]="I need your help."
-	t3[9]="do you have balls?"
-	t3[10]="bounty for "..about.." pirate offered."
+	t3[1]="Recompensa: pirata "..about.." buscado muerto."
+	t3[2]="pirata "..about.." buscado muerto."
+	t3[3]="Recompensa: pirata "..about.."."
+	t3[4]="recompensa ofrecida."
+	t3[5]=about.." pirata buscado muerto."
+	t3[6]="requieren ayuda con pirata "..about.."."
+	t3[7]="Mata a esta escoria."
+	t3[8]="Necesito tu ayuda."
+	t3[9]="¿tienes pelotas?"
+	t3[10]="recompensa por oferta pirata "..about.."."
 	smallDesc=t3[math.random(table.getn(t3))]
 
 	--bigDesc=smallDesc -- make the longer description
 		
 	local t4={}
-	t4[1]="We want "..pirate_name.." dead."
-	t4[2]="we can offer $"..prize.." for the death of "..pirate_name.."."
-	t4[3]="$"..prize.." for the death of "..pirate_name.."."
-	t4[4]="Some time ago a pirate, "..pirate_name.." attacked my ship. he killed my wife. now I want him dead."
-	t4[5]="For attacking public cruise ships, we offer a bounty for "..pirate_name..". $"..prize.." should do."
-	t4[6]="$"..prize.." offered for the death of "..pirate_name.."."
-	t4[7]="we need to rid this universe of a murderer. Kill "..pirate_name.." and I'll give you $"..prize.."."
-	t4[8]="have some time on your hands? If your answer is yes, then this job might be for you. Wanted dead."
-	t4[9]=about.." pirated wanted dead. $"..prize.." offered."
-	t4[10]="sometimes you just want revenge. I want revenge and I'm willing to pay for it. $"..prize.."."
-	t4[11]="Some call is murder, some call it assassination. I call it revenge. Kill "..pirate_name.." for me."
-	t4[12]="If you have the means then kill "..pirate_name.." and I'll give you $"..prize.."."
-	t4[13]=pirate_ship.." is the ship I want blown up. "..pirate_name.." flies it. I want him dead."
-	t4[14]="Please hunt down "..pirate_name.." flying "..pirate_ship.." and destroy it."
+	t4[1]="Queremos a "..pirate_name.." muerto."
+	t4[2]="podemos ofrecer "..prize.."$ por la muerte de "..pirate_name.."."
+	t4[3]=..prize.."$ por la muerte de "..pirate_name.."."
+	t4[4]="Hace algún tiempo un pirata, "..pirate_name.." atacó mi nave. Mató a mi esposa. Ahora lo quiero muerto."
+	t4[5]="Por atacar a los cruceros públicos, ofrecemos una recompensa por "..pirate_name..". "..prize.."$ deberían bastar."
+	t4[6]=..prize.."$ ofrecidos por la muerte de "..pirate_name.."."
+	t4[7]="tenemos que librar a este universo de un asesino. Mata a "..pirate_name.." y te daré "..prize.."$."
+	t4[8]="¿Tienes algo de tiempo libre? Si su respuesta es sí, entonces este trabajo podría ser para usted. Se busca muerto."
+	t4[9]="Pirata "..about.." buscado muerto. Se ofrecen "..prize.."$."
+	t4[10]="A veces sólo quieres venganza. Quiero venganza y estoy dispuesto a pagar por ella. "..prize.."$."
+	t4[11]="Algunos lo llaman asesinato, otros lo llaman homicidio. Yo lo llamo venganza. Mata a "..pirate_name.." por mi."
+	t4[12]="Si tienes los medios, entonces mata a "..pirate_name.." y te daré "..prize.."$."
+	t4[13]=pirate_ship.." es la nave que quiero que vuele por los aires. "..pirate_name.." la vuela. Lo quiero muerto."
+	t4[14]="Por favor, caza a "..pirate_name.." vuela en la nave "..pirate_ship..", destruyelo."
 	bigDesc=bigDesc.." "..t4[math.random(table.getn(t4))]
 	
 	if number > 0 then
 		local t5={}
-		t5[1]="He might have friends with him. Kill them too if you want."
-		t5[2]="He could be escorted by other pirates."
-		t5[3]="Be careful, he might not be alone."
-		t5[4]="He might have some friends."
-		t5[5]="He was last seen with a pack of pirates."
-		t5[6]="Take care with this one, he may not be alone."
-		t5[7]="you'll probably encounter more of his kind."
-		t5[8]="I have had reports he flies with others."
-		t5[9]="You might possibly run into "..number.." others too."
-		t5[10]="he tends to stick with his gang of "..number.." ships."
-		t5[11]="You'll have to take on "..number.." other ships."
-		t5[12]="There's a distinct possibility he'll be with others."
-		t5[13]="Please note, he will have an escort of "..number.." ships."
-		t5[14]="he will be joined by "..number.." ships."
+		t5[1]="Puede ser que tenga amistades con él. Mátalos a ellos también si quieres."
+		t5[2]="Podría estar escoltado por otros piratas."
+		t5[3]="Ten cuidado, puede que no esté solo."
+		t5[4]="Puede que tenga algunos amigos."
+		t5[5]="Fue visto por última vez con una manada de piratas."
+		t5[6]="Ten cuidado con este, puede que no esté solo."
+		t5[7]="Probablemente encontrarás más de su clase."
+		t5[8]="Me han informado de que vuela con otros."
+		t5[9]="Es posible que te encuentres con otros "..number.." también."
+		t5[10]="Tiende a quedarse con su pandilla de "..number.." naves."
+		t5[11]="Tendrás que enfrentarte a otras "..number.." naves."
+		t5[12]="Hay una gran posibilidad de que esté con otros."
+		t5[13]="Por favor, tenga en cuenta que tendrá una escolta de "..number.." naves."
+		t5[14]="Se le unirán "..number.." naves."
 		bigDesc=bigDesc.." "..t5[math.random(table.getn(t5))]			
 	end
 	
@@ -137,43 +137,43 @@ function prototype()
 	
 	if (more==0) then
 		local t5={}
-		t5[1]="Will you accept?"
-		t5[2]="So, what do you think?"
-		t5[3]="Are you man enough?"
-		t5[4]="It's not too difficult for you is it?"	
-		t5[5]="Yes, no?"
-		t5[6]="Do this for me."
-		t5[7]="What will you say?"
-		t5[8]="I have the money if you have the means."
-		t5[9]="Get this done and I will be pleased."
-		t5[10]="Yes?"
-		t5[11]="Will do you do this?"
+		t5[1]="¿Aceptarás?"
+		t5[2]="Entonces, ¿qué te parece?"
+		t5[3]="¿Eres lo suficientemente hombre?"
+		t5[4]="No es muy difícil para ti, ¿verdad?"	
+		t5[5]="Si, no?"
+		t5[6]="Haz esto por mí."
+		t5[7]="¿Qué vas a decir?"
+		t5[8]="Tengo el dinero si tú tienes los medios."
+		t5[9]="Termina con esto y estaré encantado."
+		t5[10]="Si?"
+		t5[11]="¿Harás esto?"
 		bigDesc=bigDesc.." "..t5[math.random(table.getn(t5))]		
 	end	
 	
-	bigDesc=bigDesc.." [br] [br] Target ship: "..pirate_ship.." flown by "..pirate_name..". [br] "
+	bigDesc=bigDesc.." [br] [br] Nave objetivo: "..pirate_ship.." pilotada por "..pirate_name..". [br] "
 	
 	if kills_required ~= 0 then
 		local t6={}
-		t6[1]="You'll need at least "..kills_required.." kills to take this job. You up to it?"
-		t6[2]="I won't accept any pilot with less than "..kills_required.." kills."
-		t6[3]="You need "..kills_required.." kills to take this mission."
-		t6[4]="to save my time I shan't offer unless you have already killed "..kills_required.."."
-		t6[5]="A kill rating of "..kills_required.." is required."
-		t6[6]="If you've killed "..kills_required.." ships, then you're the person I'm looking for."
-		t6[7]="I'll need to see proof of a kill rating of "..kills_required.." or higher."
-		t6[8]="kill rating requirement: >"..kills_required.."."
+		t6[1]="Necesitarás al menos "..kills_required.." muertes para asumir este trabajo. ¿Estás a la altura?"
+		t6[2]="No aceptaré a ningún piloto con menos de "..kills_required.." muertes."
+		t6[3]="Necesitas "..kills_required.." muertes para asumir esta misión."
+		t6[4]="Para ahorrar mi tiempo no te lo ofreceré a menos que ya hayas matado a "..kills_required.."."
+		t6[5]="Un índice de muerte de "..kills_required.." se requiere."
+		t6[6]="Si has matado a "..kills_required.." naves, entonces eres la persona que estoy buscando."
+		t6[7]="Necesitaré ver pruebas de una tasa de mortalidad de "..kills_required.." o superior."
+		t6[8]="requisito de clasificación de mortalidad: >"..kills_required.."."
 		bigDesc=bigDesc.." "..t6[math.random(table.getn(t6))]
 	else
 		local t6={}
-		t6[1]="It's not too difficult so you don't need any confirmed kills to take this job."
-		t6[2]="Kill rating requirement: 0"
-		t6[3]="This is a milk run. No kills are required to take it."
-		t6[4]="This is for a novice pilot. No kill required."
-		t6[5]="No kills required."
-		t6[6]="No kills needed."
-		t6[7]="I don't need a professional. Anyone will do."
-		t6[8]="zero kills required to take this job."
+		t6[1]="No es muy difícil, así que no necesitas ninguna muerte confirmada para aceptar este trabajo."
+		t6[2]="Requisito de clasificación de muerte: 0"
+		t6[3]="Esto es una corrida de leche. No se requieren muertes para tomarlo."
+		t6[4]="Esto es para un piloto novato. No es necesario matar a nadie."
+		t6[5]="No se requieren muertes."
+		t6[6]="No es necesario matar a nadie."
+		t6[7]="No necesito un profesional. Cualquiera lo hará."
+		t6[8]="Cero muertes requeridas para tomar este trabajo."
 		bigDesc=bigDesc.." "..t6[math.random(table.getn(t6))]
 	end
 
@@ -183,7 +183,7 @@ end
 
 function canTakeMission() -- check to see if you can take this mission
 	if getKills() < kills_required then 		
-		return "You don't look tough enough to take this job. Come back when you've got more combat experience." 
+		return "No pareces lo suficientemente duro para aceptar este trabajo. Vuelve cuando tengas más experiencia en combate." 
 	end
 	return ""
 end
@@ -208,14 +208,14 @@ function update() -- update mission critical things here
 	local hasntLeft=(getYourSystem()==system_name)
 	
 	if (hasntLeft==false) then
-		completeMission(0, prize, advertPerson, smallDesc, bigDesc, "You're leaving? Without killing him? Guess I'll have to find someone else to do the job.")
+		completeMission(0, prize, advertPerson, smallDesc, bigDesc, "¿Te vas a ir? ¿Sin matarlo? Supongo que tendré que encontrar a alguien más que haga el trabajo.")
 		cleanUp()
 		return 1
 	elseif (haveKilled==1) then
 		finishSuccess()
 		return 1
 	elseif (haveKilled==-1) then
-		completeMission(0, prize, advertPerson, smallDesc, bigDesc, "Well, someone else killed him so you don't get any money. Try harder next time.")
+		completeMission(0, prize, advertPerson, smallDesc, bigDesc, "Bueno, alguien más lo mató así que no conseguirás nada de dinero. Haz un mejor intento la próxima vez.")
 		cleanUp()
 		return 1
 	elseif (haveKilled==-2) then
@@ -227,13 +227,13 @@ end
 function finishSuccess() -- clear up stuff here
 	cleanUp()
 	local t6={}
-	t6[1]="He's finally dead. Traders can finally rest a little bit easier. thank you!"
-	t6[2]="Finally! thank you!"
-	t6[3]="That's the last of you, "..pirate_name.."."
-	t6[4]="No more "..pirate_name..". Thank you."
-	t6[5]="It's about time. He'd caused so much trouble."
-	t6[6]="Thank you."
-	t6[7]="Dead, finally. Thank you."
+	t6[1]="Finalmente está muerto. Los operadores finalmente pueden descansar un poco más fácilmente. ¡Gracias!"
+	t6[2]="¡Por fin! ¡Gracias!"
+	t6[3]="Ese es el último de ustedes, "..pirate_name.."."
+	t6[4]="No más "..pirate_name..". Gracias."
+	t6[5]="Ya era hora. Había causado tantos problemas."
+	t6[6]="Gracias."
+	t6[7]="Muerto, finalmente. Gracias."
 	completeMission(1, prize, advertPerson, smallDesc, bigDesc, getGenericThanksQuote(prize).." "..t6[math.random(table.getn(t6))])
 end
 
@@ -290,7 +290,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return ( pirate_ship..", in this system, "..system_name.."." )
+	return ( pirate_ship..", en este sistema, "..system_name.."." )
 end
 
 function returnImageFile()
