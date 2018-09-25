@@ -57,7 +57,7 @@ function prototype()
 		-- more than one person
 		t3[1]="Se necesita transporte para "..people.." personas a la estación ".. dropOffStation.."."
 		t3[2]="A "..people.." les gustaría tener un pasaje a la estación " .. dropOffStation.."."
-		t3[3]="¿Puedes llevar a nuestro grupo de "..people.." personas a la estación ".. dropOffStation.. "?"
+		t3[3]="¿Puedes llevar a nuestro grupo de "..people.." personas a la estación ".. dropOffStation.."?"
 		t3[4]=people.." personas están buscando un transporte a la estación "..dropOffStation.."."
 		t3[5]="Nuestro grupo de "..people.." personas necesitan una nave para llegar a la estación"..dropOffStation.."."
 		t3[6]="Se requiere pasaje: Grupo de "..people.." personas a la estación "..dropOffStation.."."

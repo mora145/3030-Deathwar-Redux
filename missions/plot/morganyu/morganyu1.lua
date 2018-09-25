@@ -8,7 +8,7 @@
 
 function prototype()
 	dropOffSystem="daphice"
-	dropOffStation="Estacion Ssinil 1"
+	dropOffStation="estacion Ssinil 1"
 	
     local dockedAt = getYourDockedStation()
 
@@ -23,7 +23,7 @@ function prototype()
 
 	--bigDesc=smallDesc -- make the longer description
 	bigDesc=bigDesc.." ".."Puedo pagar "..prize.."$."
-	bigDesc=bigDesc.." ".."Necesita llegar a ".. dropOffStation.. ", en el sistema "..dropOffSystem.."."
+	bigDesc=bigDesc.." ".."Necesita llegar a la".. dropOffStation.. ", en el sistema "..dropOffSystem.."."
 	bigDesc=bigDesc.." ".."Sólo tienes que abordar la estación, y se eliminará automáticamente de tu inventario.."
     bigDesc=bigDesc.." ".."Esto es realmente urgente. Tendrás "..timeLimit.." para llegar allí."
 
@@ -56,7 +56,7 @@ function update() -- update mission critical things here
     		resumed=0
     		paused=1
     	end
-    	newDesc= "por favor, desembarca para comenzar esta misión.."
+    	newDesc= "por favor, sal de la estación para comenzar esta misión.."
     else
     	if (resumed==0) then 
 			resumeTimer(timerName)
@@ -155,7 +155,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return dropOffStation.." in "..dropOffSystem.." system."
+	return dropOffStation.."  en el sistema "..dropOffSystem.."."
 end
 
 function returnImageFile()

@@ -618,9 +618,9 @@ end
 						addPersonToStation("kent largostory","rub ba station 3","data/stations/special characters/Kent_50x108_8.png")
 						setPersonScriptFile("kent largostory","data/scripts/plot/kentLargo/kentLargo1.txt")
 						addContact("Kent: Meet me at","rub ba station 3, andinti")
-						info2("Transmission from Kent (carrier signal confirmed): Got some big news. Meet me at Rub Ba Station 3. I've sent you my contact. (Open Personal Screen, then select Contacts)")
+						info2("Transmisión de Kent (señal portadora confirmada): Tengo grandes noticias. Encuéntrame en la estación Rub Ba 3. Te he enviado mi contacto. (Abre la pantalla personal y selecciona Contactos)")
 					else
-						info2("Transmission from Vasquez (carrier signal confirmed): I heard a rumor that the Largo is zooming around Andinti, and she's stuffed full of gold. Wanna bet who finds her first?")
+						info2("Transmisión de Vásquez (señal portadora confirmada): Escuché un rumor de que el Largo está dando vueltas alrededor de Andinti, y está llena de oro. ¿Quieres apostar quién lo encontrará primero?")
 						addContact("The Largo","????, andinti")
 					end
 				end
@@ -652,9 +652,9 @@ end
 				addPersonToStation("kent afterlargohit","rub ba station 3","data/stations/special characters/Kent_50x108_8.png")
 				setPersonScriptFile("kent afterlargohit","data/scripts/plot/kentLargo/kentLargoHit3.txt")
 				
-				info2("Transmission from Kent (carrier signal confirmed): Chief, come see me at Rub Ba Station 3 quick! It's about the Largo!")
+				info2("Transmisión de Kent (señal portadora confirmada): ¡Jefe, venga a verme a la estación Rub Ba 3, rápido! ¡Es sobre el Largo!")
 			else
-				info2("Transmission from Vasquez (carrier signal confirmed): John, you need to come to Rub Ba Station 3 quick! It's about the Largo!")
+				info2("Transmisión de Vásquez (señal portadora confirmada): ¡John, tienes que venir a la estación Rub Ba 3 rápido! ¡Es sobre el Largo!")
 			end
 			
 			removeContact("The Largo")
@@ -781,7 +781,7 @@ end
 	    if (youDockedAtAll()==0) then
 	    	if (math.random(1,6000)==1) then
                 giveDataDisc("captain's log 5.txt")
-				info2("Transmission from K'ta Fly (unsigned carrier signal): A friend of mine could use someone like you. I've added a contact to your contact list. See him, he can help you.")
+				info2("Transmisión de K'ta Fly (señal portadora no firmada): A un amigo mío le vendría bien alguien como tú. He añadido un contacto a tu lista de contactos. Conócelo, él puede ayudarte.")
 	        	addContact("morgan yu","Jelnu Station 1, Edsoda")
 	        	makeSystemVisible("edsoda")
 	        	setPersonScriptFile("morgan yu","data/scripts/plot/morganyu/morganyu1.txt")	        	
@@ -869,7 +869,7 @@ end
 	if (storyOfKent==1) then
 	    if (timerFinished("kent call [hidden]")==1) then
             destroyTimer("kent call [hidden]")
-			info2("Transmission from Kent (carrier signal confirmed): Hey Chief, I've gotten myself in some trouble. Swing by HBE station in the Ceayti System when you can.")
+			info2("Transmisión de Kent (señal portadora confirmada): Hey Jefe, me he metido en algunos problemas. Pasa por la estación HBE en el Sistema Ceayti cuando puedas.")
 			addContact("Kent in trouble","HBE, Ceayti")
 			makeSystemVisible("Ceayti")
 			
@@ -951,7 +951,7 @@ end
 			addContact("Source of Drones","ulic station 2, ceenlia")
 			makeSystemVisible("ceenlia")
 			
-			info2("Transmission from Officer Grah (carrier signal confirmed): Well done. We traced the source of the drones to ulic station 2 in the Ceenlia system. [br] [br] Head east through the gap in the nebula to get there quick. destroy the source!")
+			info2("Transmisión del oficial Grah (señal portadora confirmada): Bien hecho. Rastreamos la fuente de los drones hasta la estación ulic 2 en el sistema Ceenlia. Dirígete al este a través del hueco en la nebulosa para llegar allí rápido. ¡Destruye la fuente!")
 			
 			makeNebulaVisible(6,11)
 			makeNebulaVisible(6,12)
@@ -976,7 +976,7 @@ end
 	if (storyOfKent==7) then
 	    if (timerFinished("grah calls again [hidden]")==1) then
             destroyTimer("grah calls again [hidden]")
-			info2("Transmission from Officer Grah (carrier signal confirmed): Falcon, Grah here. I've just received notice that the drone threat is under control. [br] [br] Come see me at HBE station at once.")
+			info2("Transmisión del oficial Grah (señal portadora confirmada): Falcon, aquí Grah. Acabo de recibir la noticia de que la amenaza del dron está bajo control. Ven a verme a la estación HBE de inmediato.")
 			
 			removePersonFromStation("Grah KentStory","hbe")
 			addPersonToStation("grah 2 kentstory","hbe","data/stations/special characters/policeOfficerGrah_50x108_5.png")
@@ -1052,7 +1052,7 @@ end
         if (youDockedAtAll()==0) then
             if (math.random(1,6000)==1) then
                 giveDataDisc("captain's log 11.txt")
-				info2("Transmission from Cji S'ri (carrier signal confirmed): Please come and see me at Wma Station 1 in the P1257+12 system. I have important information for you.")
+				info2("TTransmisión de Cji S'ri (señal portadora confirmada): Por favor venga a verme a la Estación Wma 1 en el sistema P1257+12. Tengo información importante para ti.")
             	addContact("Cji S'ri","Wma Station 1, P1257+12")
             	setPersonScriptFile("cji s'ri","data/scripts/plot/cjisri/cjisri1.txt")
             	makeSystemVisible("P1257+12")
@@ -1204,7 +1204,7 @@ end
 				
 				setStoryVar(EvanTnyIndex,999)
 				
-				info2("Transmission from Evan T'ny (carrier signal confirmed): I received your transmission. Well done, this will be very useful to us. [br] [br] I've sent you the clue you were looking for.")
+				info2("Transmisión desde Evan T'ny (señal portadora confirmada): Recibí tu transmisión. Bien hecho, esto nos será muy útil. [br] [br] Te envié la pista que estabas buscando.")
 				
 				removeContact("follow the target")
 				removeContact("evan t'ny")
@@ -1338,7 +1338,7 @@ end
 			   if (getMissionAnswer()=="yes") then
 					if (playLineGame(30)=="win") then
 						givePlayerMoney(10000)
-						info2("Rh 445: Thanks, here's your reward. If you want to try and unscramble any more, come back and see me.")
+						info2("Rh 445: Gracias, aquí está tu recompensa. Si quieres intentar descifrar algo más, vuelve a verme.")
 					end
 				end
 			end
@@ -1380,9 +1380,9 @@ end
 			addCriminalRecord("wanted dead/alive - $250000000")
 			releaseNewsStory("data/text/news/plot/wanted.txt")
 
-			info2("Transmission from Cji S'ri (carrier signal confirmed): Please come and see me at Wma Station 1 in the P1257+12 system. I have important information for you.")
-			info2("Please be careful. There is now a $250 million bounty on your head. Police ships and station defences will shoot you on sight.")
-			info2("Stock up on fuel now because chances are you won't be able to get it from anywhere but a pirate station.")
+			info2("Transmisión de Cji S'ri (señal portadora confirmada): Por favor venga a verme a la Estación Wma 1 en el sistema P1257+12. Tengo información importante para ti.")
+			info2("Por favor, ten cuidado. Ahora hay una recompensa de 250 millones de dólares por tu cabeza. Las naves de la policía y las defensas de la estación te dispararán en cuanto te vean.")
+			info2("Abastecete de combustible ahora porque lo más probable es que no puedas conseguirlo en ningún otro lugar que no sea una estación pirata.")
 		    addContact("Cji S'ri","Wma Station 1, P1257+12")
             setPersonScriptFile("cji s'ri","data/scripts/plot/cjisri/cjisri3.txt")  -- you have clues, need password. j'mes learner.
 
@@ -1556,7 +1556,7 @@ end
 	end
 	
 	if (storyVar==31) then
-        info2("Transmission from 433-2c (carrier signal confirmed): Here they come! Get ready!")
+        info2("Transmisión de 433-2c (señal portadora confirmada): ¡Aquí vienen! ¡Prepárate!")
 		
 		-- start battle here...
 		isFinalBattleWon = false
@@ -1583,7 +1583,7 @@ end
 		else
 			if (timerFinished("battle timer 3 [hidden]")==1) then
 				clearCriminalRecord()
-				info2("Transmission from 433-2c (carrier signal confirmed): Good work! Excellent work! Come and see me aboard walker base and we'll celebrate!")
+				info2("Transmisión de 433-2c (señal portadora confirmada): ¡Buen trabajo! ¡Excelente trabajo! ¡Vengan a verme a bordo de la base Walker y lo celebraremos!")
 				giveDataDisc("captain's log 23.txt")
 				destroyTimer("battle timer 3 [hidden]")
 				
@@ -1638,9 +1638,9 @@ end
 		
 			destroyTimer("thank you msg [hidden]")
 		
-			info2("Congratulations! You've completed the 3030 Deathwar Redux main story and saved everyone from the Cleaners. [br] [br] You are now free to explore the rest of the galaxy at your leisure, take jobs, or visit those nebula aliens that Kent keeps talking about.")
+			info2("¡Felicitaciones! Has completado la historia principal de 3030 Deathwar Redux y has salvado a todos de los Limpiadores. [br] [br] Ahora eres libre de explorar el resto de la galaxia a tu antojo, tomar trabajos o visitar a esos alienígenas de las nebulosas de los que Kent sigue hablando.")
 			
-			info2("We hope you enjoyed the game. Thank you for supporting us and thanks for playing the game! [br] [br] Matt, Mike and Max [br] [br] Bird in Sky [br] Crunchy Leaf Games")
+			info2("Esperamos que hayan disfrutado del juego. ¡Gracias por apoyarnos y gracias por participar en el juego! [br] [br] Matt, Mike y Max [br][br] Bird in Sky [br] Crunchy Leaf Games")
 			
 			giveDataDisc("captain's log 25.txt")
 			removeContact("Cleaner Base")
@@ -1657,7 +1657,7 @@ end
 		
 			destroyTimer("walker base party [hidden]")
 			
-			info2("Transmission from 433-2c (carrier signal confirmed): You did it! You saved us all! I knew I could trust in you. Right from the start, there was no doubt in my circuit. [br] [br] We're kicking off an after party. Drop in at Walker Base if you have the chance.")
+			info2("Transmisión de 433-2c (señal portadora confirmada): ¡Lo lograste! ¡Nos salvaste a todos! Sabía que podía confiar en ti. Desde el principio, no había ninguna duda en mi circuito. Estamos haciendo una fiesta de despedida. Pásate por la base Walker si tienes la oportunidad.")
 			
 			addContact("After Party", "Walker Base")
 			

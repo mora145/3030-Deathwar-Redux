@@ -17,7 +17,7 @@ turretat(x,y)=0,0
 -7,56
 7,56
 [/thrusters]
-M1 Multiusos - Una de las primeras versiones de la ya famosa línea Bac. También muestra su edad con un giro lento y el régimen del motor. La única gracia salvadora es el precio y el radio de división. Si estás buscando poner tu pie en la escalera del propietario de una nave, te recomiendo esta pequeña belleza.
+M1 Multiusos - Una de las primeras versiones de la ya famosa línea Bac. También deja ver su edad  un giro lento y un bajo rendimiento del motor. La única gracia salvadora es el precio y el radio de división. Si estás buscando poner tu pie en la escalera del propietario de una nave, te recomiendo esta pequeña belleza.
 producedBy=Paxtons
 yearDeveloped=2980
 funTrivia=El primero en la línea bac fue inspirado por un visor beasts ankle.

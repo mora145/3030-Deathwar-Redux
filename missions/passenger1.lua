@@ -71,9 +71,9 @@ function prototype()
 	local t3={}
 	if people ~= 1 then		
 		-- more than one person
-		t3[1]="Need transport for "..people.." people to ".. dropOffSystem.."."
-		t3[2]=people.." would like passage to the " .. dropOffSystem.." system."
-		t3[3]="Can you take our group of "..people.." to the ".. dropOffSystem.. " system?"
+		t3[1]="Se necesita transporte para "..people.." personas al sistema ".. dropOffSystem.."."
+		t3[2]="A "..people.." les gustaría tener un pasaje al sistema " .. dropOffSystem.."."
+		t3[3]="¿Puedes llevar a nuestro grupo de "..people.." al sistema ".. dropOffSystem.. "?"
 		t3[4]="We "..people.." are looking for a transport to "..dropOffSystem.."."
 		t3[5]="Our group of "..people.." are in need of a ship to the "..dropOffSystem.." system."
 		t3[6]="Passage required: Group of "..people.." to the "..dropOffSystem.." system."

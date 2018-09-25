@@ -4,13 +4,13 @@
 
 function prototype()
 	dropOffSystem=getYourSystem()
-	pickupStation="Ckesera Station 2"
+	pickupStation="estacion Ckesera 2"
 	pickupSystem="leesti [-150, -62]"
 	
-	dropOffStation="sha v station 1"
+	dropOffStation="estacion sha v 1"
 	prize = 12000
 	
-	deviceName="container 454"
+	deviceName="contenedor 454"
 	
 	smallDesc = "Contenedor de carga que necesita ser recogido"
 	bigDesc = "Necesito que recojas el contenedor de carga 454 cerca de la estación 2 de Ckesera en el sistema Leesti y me lo traigas aquí en la estación 1 de Sha V en el sistema Sophiha. Necesitarás un rayo tractor. La tarifa es de 12.000 dólares. Déjalo fuera de la estación y lo recogeré más tarde."

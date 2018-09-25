@@ -290,7 +290,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return ( pirate_ship..", en este sistema, "..system_name.."." )
+	return ( pirate_ship..", en el sistema, "..system_name.."." )
 end
 
 function returnImageFile()

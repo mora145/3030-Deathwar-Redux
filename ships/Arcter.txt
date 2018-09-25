@@ -21,7 +21,7 @@ turretat(x,y)=0,53
 16,77
 11,76
 [/thrusters]
-M3 Comerciante - Curvada y estilizada, la Arcter está diseñada para el servicio de carga. Cárgala y siente el poder. Vale la pena invertir el dinero, pero podría ser más rápida. Con una relación de difracción que hará que tu abuela se sienta cómoda, el Arcter brilla como vehículo de transporte.
+M3 Comerciante - Curvada y con estilo, la Arcter está diseñada para el servicio de carga. Cárgala y siente el poder. Vale la pena invertir el dinero, pero podría ser más rápida. Con una relación de división que hará que tu abuela se sienta cómoda, el Arcter brilla como vehículo de transporte.
 producedBy=Fernando
 yearDeveloped=3012
 funTrivia=El botón de disparo estaba hecho originalmente de plástico, pero los diseñadores decidieron hacerlo un poco especial y convirtieron el pomo en diamante puro.

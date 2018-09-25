@@ -65,127 +65,127 @@ function prototype()
 		prize = prize * 2
 	end
 
-	deviceName="container "..math.random(44646)
+	deviceName="contenedor "..math.random(44646)
 
 	-- GET PACKAGE NAME/TYPE
 	local t={}
-	t[1]="important"
-	t[2]="high security"
-	t[3]="low security"
-	t[4]="very important"
-	t[5]="low importance"
-	t[6]="urgent"
-	t[7]="secured"
+	t[1]="importante"
+	t[2]="alta seguridad"
+	t[3]="baja seguridad"
+	t[4]="muy importante"
+	t[5]="poco importante"
+	t[6]="urgente"
+	t[7]="asegurado(a)"
 	packageName=t[math.random(table.getn(t))]	
 		
 	local t2={}
-	t2[1]="container"
-	t2[2]="contained engine"
-	t2[3]="engine"
-	t2[4]="thruster pack"	
-	t2[5]="packed wardrobe"
-	t2[6]="captain's chair"
-	t2[7]="difference engine"
-	t2[8]="engine component"
-	t2[9]="package"
-	t2[10]="present"
-	t2[11]="gift"
-	t2[12]="item"
-	t2[13]="wedding gift"
+	t2[1]="contenedor"
+	t2[2]="motor confinado"
+	t2[3]="motor"
+	t2[4]="paquete de propulsión"	
+	t2[5]="armario embalado"
+	t2[6]="silla de capitán"
+	t2[7]="motor de division"
+	t2[8]="componente de motor"
+	t2[9]="paquete"
+	t2[10]="presente"
+	t2[11]="regalo"
+	t2[12]="articulo"
+	t2[13]="regalo de boda"
 	t2[14]="ipod"
 	t2[15]="nintendo ds"
 	t2[16]="k610"
-	t2[17]="mk IV device"
+	t2[17]="dispositivo mk IV"
 	t2[18]="reactor"
 	t2[19]="wii"
-	t2[20]="wine"
-	t2[21]="beer"
+	t2[20]="vino"
+	t2[21]="cerveza"
 	t2[22]="sake" 	
 	packageName=packageName.." "..t2[math.random(table.getn(t2))]
 	
 	if math.random(0,1)==1 then
 		local tractor={}
-		tractor[1]="Do you have a tractor beam?"
-		tractor[2]="A tractor beam is required."
-		tractor[3]="You'll need to tractor beam this cargo."
-		tractor[4]="tractor beam required."
-		tractor[5]="do you own a tractor beam?"
-		tractor[6]="tractor beam ownership required."		
+		tractor[1]="¿Tienes un rayo tractor?"
+		tractor[2]="Se requiere un rayo tractor."
+		tractor[3]="Necesitará un rayo tractor para transportar la carga."
+		tractor[4]="rayo tractor necesario."
+		tractor[5]="¿tienes un rayo tractor?"
+		tractor[6]="se requiere que tengas un rayo tractor."		
 		bigDesc=bigDesc.." "..tractor[math.random(table.getn(tractor))]
 	end
 		
 	local t3={}
-	t3[1]="Transit of ".. packageName.." required."
-	t3[2]=packageName.." to be picked up from " .. pickupSystem.."."
-	t3[3]="Pick up a container in ".. pickupSystem.. " for me?"
-	t3[4]="I need my container picked up."
-	t3[5]="I need my cargo brought from the "..pickupSystem.." system for me."
-	t3[6]="Cargo pickup job: "..packageName.."."
-	t3[7]="get my cargo from "..pickupSystem.."." 
-	t3[8]="I need my "..packageName.."."
-	t3[9]=packageName.." pickup."
+	t3[1]="Transporte de ".. packageName.." requerido."
+	t3[2]=packageName.." para recoger en el sistema"..pickupSystem.."."
+	t3[3]="¿Recogerias un contenedor en el sistema "..pickupSystem.. " por mi?"
+	t3[4]="Necesito que recojan mi contenedor."
+	t3[5]="Necesito que mi carga sea traída desde el sistema "..pickupSystem.." por mí."
+	t3[6]="Trabajo de recogida de carga: "..packageName.."."
+	t3[7]="Trae mi carga desde el sistema "..pickupSystem.."." 
+	t3[8]="Necesito mi "..packageName.."."
+	t3[9]="recoger mi "..packageName.."."
 	smallDesc=t3[math.random(table.getn(t3))]
 	
 	if (dangerous==1) then
-		smallDesc=smallDesc.." (Warning: Dangerous)"
+		smallDesc=smallDesc.." (Advertencia: Peligroso)"
 	end
 		
 	--bigDesc=smallDesc -- make the longer description
 		
 	local t4={}
-	t4[1]="I can give you $".. prize.. " for it."
-	t4[2]="$" .. prize.. " is all I can offer."
-	t4[3]="I can offer you a pricely sum of $".. prize.. ". That any good?"
-	t4[4]="I can pay $"..prize.."."		
-	t4[5]="Your remuneration will be $"..prize.."."
-	t4[6]="I can't offer any more than, maybe $"..prize.."."
-	t4[7]="Perhaps a measly $"..prize.." will suffice."
-	t4[8]="I don't have much money since my brother died. $"..prize.." is all I have."
-	t4[9]="Did I mention the payment? Oh. $"..prize.." is all I can pay."	
+	t4[1]="Puedo darte ".. prize.. "$ por eso."
+	t4[2]=prize.. "$ es todo lo que puedo ofrecer."
+	t4[3]="Puedo ofrecerte una preciosa suma de ".. prize.. "$. ¿Te parece bien?"
+	t4[4]="Puedo pagar "..prize.."$."		
+	t4[5]="Tu remuneración será de "..prize.."$."
+	t4[6]="No puedo ofrecer más que, tal vez "..prize.."$."
+	t4[7]="Tal vez unos miserables "..prize.."$ bastarán."
+	t4[8]="No tengo mucho dinero desde que murió mi hermano. "..prize.."$ es todo lo que tengo."
+	t4[9]="¿Mencioné el pago? Oh, "..prize.."$ es todo lo que puedo pagar."	
 	bigDesc=bigDesc.." "..t4[math.random(table.getn(t4))]
 	
 	local t6={}
-	t6[1]="You need to pick it up from ".. pickupStation.. ", "..pickupSystem.."."
-	t6[2]="The package's final destination is here, but pickup is at "..pickupStation.." in "..pickupSystem.."."
-	t6[3]="Get my floating cargo container from "..pickupStation.." in the "..pickupSystem.." system."
-	t6[4]="you'll need to get it from "..pickupStation.." in "..pickupSystem.."."
-	t6[5]="Bring it from "..pickupStation..", "..pickupSystem.."."
+	t6[1]="Tienes que recogerlo de la estacion "..pickupStation.. ", en el sistema "..pickupSystem.."."
+	t6[2]="El destino final del paquete está aquí, pero la recogida es en la estacion "..pickupStation.." del sistema "..pickupSystem.."."
+	t6[3]="Consigue mi contenedor de carga flotante en la estacion "..pickupStation.." del sistema "..pickupSystem.."."
+	t6[4]="Necesitarás conseguirlo en la estacion"..pickupStation.." del sistema "..pickupSystem.."."
+	t6[5]="Tráelo desde la estacion "..pickupStation..", del sistema"..pickupSystem.."."
 	bigDesc=bigDesc.." "..t6[math.random(table.getn(t6))]	
 	
-	bigDesc=bigDesc.." Then bring it back here, "..dropOffStation.." in the "..dropOffSystem.." system."
+	bigDesc=bigDesc.." entonces tráelo de vuelta a la estacion "..dropOffStation.." en el sistema "..dropOffSystem.."."
 	
 	local con={}
-	con[1]="friend"
-	con[2]="brother"
-	con[3]="father"
-	con[4]="business partner"
-	con[5]="acquaintance"
-	con[6]="long time friend"
-	con[7]="buddy"
-	con[8]="contact"
-	con[9]="slave droid"
-	con[10]="droid"
+	con[1]="amigo"
+	con[2]="hermano"
+	con[3]="padre"
+	con[4]="aliado de negocios"
+	con[5]="conocido"
+	con[6]="viejo amigo"
+	con[7]="compinche"
+	con[8]="contacto"
+	con[9]="androide esclavo"
+	con[10]="androide"
 	local connection=con[math.random(table.getn(con))]
 	
 	local t7={}
-	t7[1]="my "..contactPerson.." will be waiting there for you."
-	t7[2]="I've told my "..connection..", "..contactPerson.." to be waiting for it."
-	t7[3]="I've informed my "..connection..". Oh, his name is "..contactPerson.."."
-	t7[4]="Tell my "..connection.." that the item is outside and he'll get it.."
-	t7[5]="drop the package off outside and tell "..contactPerson.." who will be waiting for you."
-	t7[6]="you can then get in contact with "..contactPerson..". he's my "..connection.."."
+	t7[1]="mi "..contactPerson.." estará esperándote allí."
+	t7[2]="Le he dicho a mi "..connection..", "..contactPerson.." que lo espere."
+	t7[3]="He informado a mi "..connection..". Oh, su nombre es "..contactPerson.."."
+	t7[4]="Dile a mi "..connection.." que el artículo está fuera y él lo recogerá."
+	t7[5]="deja el paquete fuera y dile a "..contactPerson..", te estará esperando."
+	t7[6]="puedes ponerte en contacto con  "..contactPerson..". él es mi "..connection.."."
 	bigDesc=bigDesc.." "..t7[math.random(table.getn(t7))]
 	
-	bigDesc=bigDesc.." leave it outside the station and meet "..contactPerson.." inside. he'll arrange to get it later."
+	bigDesc=bigDesc.." dejarlo fuera de la estación y encuentra a "..contactPerson.." adentro. Se las arreglará para recogerlo más tarde.."
 		
 	local more=math.random(1)
 	
 	if (more==0) then
 		local t5={}
-		t5[1]="Will you accept?"
-		t5[2]="So, what do you think?"
-		t5[3]="I'll recommend you if you can get this done."
-		t5[4]="It shouldn't be too hard. Hm?"	
+		t5[1]="¿Aceptarás?"
+		t5[2]="Entonces, ¿qué te parece?"
+		t5[3]="Te recomendaré, si puedes hacer esto."
+		t5[4]="No debería ser tan difícil. ¿Hm?"	
 		bigDesc=bigDesc.." "..t5[math.random(table.getn(t5))]		
 	end
 	
@@ -195,14 +195,14 @@ end
 
 function canTakeMission() -- check to see if you can take this mission
 	if (( getSplitSpeed() == 0 ) and ( getDistanceToStation(pickupStation) > 50000 )) then
-		return "No thanks. It's pretty far and your ship doesn't have a split drive."
+		return "No, gracias. Está bastante lejos y tu nave no tiene un motor divisor."
 	end
 	
-	local hasTractor1 = hasUpgrade("m1 yacon mk 1 tractor beam")
-	local hasTractor2 = hasUpgrade("m2 winchester tractor beam")
-	local hasTractor3 = hasUpgrade("m3 yokohama cruise tractor beam")
+	local hasTractor1 = hasUpgrade("m1 rayo tractor yacon mk 1")
+	local hasTractor2 = hasUpgrade("m2 rayo tractor winchester")
+	local hasTractor3 = hasUpgrade("m3 haz tractor de crucero yokohama")
 	if (( hasTractor1 + hasTractor2 + hasTractor3 ) == 0 ) then
-		return "You'll need a tractor beam. Come back when you have one."
+		return "Necesitarás un rayo tractor. Vuelve cuando tengas uno."
 	end
 	
 	return "" -- you can take a courier mission
@@ -305,11 +305,11 @@ function loseHaggle()
 end
 
 function getDropOff()
-	return dropOffStation.." in "..dropOffSystem.." system."
+	return dropOffStation.." en el sistema "..dropOffSystem.."."
 end
 
 function getDestination()
-	return pickupStation.." in "..pickupSystem.." system."
+	return pickupStation.." en el sistema "..pickupSystem.."."
 end
 
 function returnImageFile()

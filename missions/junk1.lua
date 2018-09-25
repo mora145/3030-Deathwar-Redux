@@ -41,43 +41,43 @@ function prototype()
 	-- GET DESCRIPTION
 
 	local t3={}
-	t3[1]="Junk clean-up required."
-	t3[2]="Surplus junk job."
-	t3[3]="Galactic clean-up job"
-	t3[4]="Help clean-up our space."
-	t3[5]="Keep ".. dropOffSystem .." clean."
-	t3[6]=dropOffSystem.." is getting dirty."
-	t3[7]="Council job: Junk clean-up."
+	t3[1]="Se requiere limpieza inmediata de la basura."
+	t3[2]="Importante trabajo de Excedente de basura."
+	t3[3]="Un trabajo de limpieza galáctica. Rápido."
+	t3[4]="Ayude a limpiar nuestro espacio hoy."
+	t3[5]="Conservar ".. dropOffSystem .." limpia."
+	t3[6]=dropOffSystem.." se está ensuciando."
+	t3[7]="Trabajo del Consejo: Limpieza inmediata de chatarra."
 	smallDesc=t3[math.random(table.getn(t3))]
 	
 	local t={}
-	t[1]="Afternoon. "
-	t[2]="There seems to be a large build up of junk in this system."
-	t[3]="I wonder if you can help."
+	t[1]="Tarde. "
+	t[2]="Parece que hay una gran acumulación de basura en este sistema."
+	t[3]="Me pregunto si puede ayudarme."
 	t[4]=""	
-	t[5]=dropOffSystem.." seems to be filling up with junk."
-	t[6]="We could use a pilot like yourself."
+	t[5]=dropOffSystem.." parece que se está llenando de basura."
+	t[6]="Nos vendría bien un piloto como tú."
 	bigDesc=t[math.random(table.getn(t))]	
 		
 	local t2={}
-	t2[1]="We just need you to destroy ".. amount.." pieces of junk."
-	t2[2]="Destroy "..amount.." pieces of that floating junk for us."
+	t2[1]="Sólo necesitamos que destruyas ".. amount.." piezas de basura."
+	t2[2]="Destruye por nosotros "..amount.." pedazos de esa basura flotante."
 	bigDesc=bigDesc.." "..t2[math.random(table.getn(t2))]
 	
 	local more=math.random(0,1)
 	if more==0 then
 		local tm={}
-		tm[1]="It's not too difficult. Just shoot them down."
-		tm[2]=" [br] What do you think?"
-		tm[3]="Would you help us out?"
-		tm[4]="The system would be better off. Although, come to think of it. Maybe it wouldn't. There seems to be more junk everyday."
-		tm[5]=dropOffSystem.." will be that little bit cleaner. Also you'll be $"..prize.." better off."
+		tm[1]="No es muy difícil. Sólo derribarlas."
+		tm[2]=" [br] ¿que te parece?"
+		tm[3]="¿Nos ayudarías?"
+		tm[4]="El sistema estaría mejor. Aunque, ahora que lo pienso. Tal vez no lo haría. Parece que cada día hay más basura."
+		tm[5]=dropOffSystem.." será un poco más limpio. También serás "..prize.."$ mas rico."
 		bigDesc=bigDesc.." "..tm[math.random(table.getn(tm))]
 	end	
 
 	local t6={}
-	t6[1]=" [br] Once you've destroyed them, we'll move the funds to your account."
-	t6[2]=" [br] $".. prize .." will be added to your account upon completion."
+	t6[1]=" [br] Una vez que los hayas destruido, moveremos los fondos a tu cuenta."
+	t6[2]=" [br] ".. prize .."$ se añadirá a tu cuenta cuando la completes."
 	bigDesc=bigDesc.." "..t6[math.random(table.getn(t6))]
 
 	return 1
@@ -86,13 +86,13 @@ end
 
 function canTakeMission() -- check to see if you can take this mission
 	if (hasWeapon()==0) then 
-		return "Can't take this mission without a gun. How else are you going to shoot the junk?"
+		return "No puedes tomar esta misión sin un arma. ¿De qué otra forma vas a disparar a la basura?"
 	end
 	if (haveJunkMission()==1) then 
-		return "You can only have one junk mission at a time. Council rules."
+		return "Sólo puedes tener una misión basura a la vez. Reglas del Consejo."
 	end
 	if (getCrimeCount()>0) then 
-		return "You can't be doing junk cleanup with a criminal record. You'll need to pay your fines first."
+		return "No puedes estar haciendo limpieza de chatarra con antecedentes penales. Tendrá que pagar sus multas primero."
 	end
 	return ""
 end
@@ -114,7 +114,7 @@ end
 
 function finishSuccess() -- clear up stuff here
 	cleanUp()
-	completeMission(1, prize, advertPerson, smallDesc, bigDesc, getGenericThanksQuote(prize).." "..dropOffSystem.." will be better off thanks to you.")
+	completeMission(1, prize, advertPerson, smallDesc, bigDesc, getGenericThanksQuote(prize).." El sistema "..dropOffSystem.." estará mejor gracias a ti.")
 end
 
 function finishFailure() -- clear up stuff here
@@ -170,7 +170,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return "This system"
+	return "Este sistema"
 end
 
 function returnImageFile()

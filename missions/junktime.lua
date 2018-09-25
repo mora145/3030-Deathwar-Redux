@@ -48,55 +48,55 @@ function prototype()
 	contactPerson = getRandomName()	
 	advertPerson = getRandomName()		-- who you're talking to now
 
-    timerName = contactPerson.." JUNK TIMER"
+    timerName = contactPerson.." CONOMETRO DE LIMPIEZA"
 
 	-- GET DESCRIPTION
 
 	local t3={}
-	t3[1]="Immediate Junk clean-up required."
-	t3[2]="Important Surplus junk job."
-	t3[3]="Galactic clean-up job. Quick."
-	t3[4]="Help clean-up our space today."
-	t3[5]="Keep ".. dropOffSystem .." clean."
-	t3[6]=dropOffSystem.." is getting dirty."
-	t3[7]="Council job: Immediate Junk clean-up."
+	t3[1]="Se requiere limpieza inmediata de la basura."
+	t3[2]="Importante trabajo de Excedente de basura."
+	t3[3]="Un trabajo de limpieza galáctica. Rápido."
+	t3[4]="Ayude a limpiar nuestro espacio hoy."
+	t3[5]="Conservar ".. dropOffSystem .." limpia."
+	t3[6]=dropOffSystem.." se está ensuciando."
+	t3[7]="Trabajo del Consejo: Limpieza inmediata de chatarra."
 	smallDesc=t3[math.random(table.getn(t3))]
 	
 	local t={}
-	t[1]="Afternoon. "
-	t[2]="There seems to be a large build up of junk in this system."
-	t[3]="I wonder if you can help."
+	t[1]="Tarde. "
+	t[2]="Parece que hay una gran acumulación de basura en este sistema."
+	t[3]="Me pregunto si puede ayudarme."
 	t[4]=""	
-	t[6]="We could use a pilot like yourself."
+	t[6]="Nos vendría bien un piloto como tú."
 	bigDesc=t[math.random(table.getn(t))]	
 
 	local t6={}
-	t6[1]="This is an important job. If my boss sees this mess he'll literally kill me. [br]"
-	t6[2]="This has to be done quickly. Very quickly."
-	t6[3]="I feel like giving you a challenge. You'll need to do this against the clock."
-	t6[4]="Feel lucky? And fast?"
-	t6[5]=dropOffSystem.." seems to be filling up with junk. It needs immediately clearing."
+	t6[1]="Este es un trabajo importante. Si mi jefe ve este desastre, literalmente me matará. [br]"
+	t6[2]="Esto tiene que hacerse rápidamente. Muy rápido."
+	t6[3]="Tengo ganas de retarte. Tendrás que hacerlo a contrarreloj."
+	t6[4]="¿Te sientes afortunado? ¿Y veloz?"
+	t6[5]=dropOffSystem.." parece que se está llenando de basura. Necesita ser despejado inmediatamente."
 	bigDesc=t6[math.random(table.getn(t6))]
 		
 	local t2={}
-	t2[1]="We just need you to destroy ".. amount.." pieces of junk in "..timeLimit.."."
-	t2[2]="Destroy "..amount.." pieces of that floating junk for us within the allotted "..timeLimit.."."
+	t2[1]="Sólo necesitamos que destruyas ".. amount.." pedazos de chatarra en "..timeLimit.."."
+	t2[2]="Destruye para nosotros "..amount.." pedazos de esa basura flotante que esta dentro de la zona asignada en "..timeLimit.."."
 	bigDesc=bigDesc.." "..t2[math.random(table.getn(t2))]
 	
 	local more=math.random(0,1)
 	if more==0 then
 		local tm={}
-		tm[1]="It's not too difficult. Just shoot them down. Quickly."
-		tm[2]=" [br] What do you think? You quick enough?"
-		tm[3]="Would you help us out?"
-		tm[4]="The system would be better off. Although, come to think of it. Maybe it wouldn't. There seems to be more junk everyday."
-		tm[5]=dropOffSystem.." will be that little bit cleaner. Also you'll be $"..prize.." better off."
+		tm[1]="No es muy difícil. Sólo dispararles. Rápidamente."
+		tm[2]=" [br] ¿Qué opinas tú? ¿Eres lo suficientemente rápido?"
+		tm[3]="¿Nos ayudarías?"
+		tm[4]="El sistema quedaría mejor. Aunque, ahora que lo pienso. Tal vez no lo haría. Parece que cada día hay más basura."
+		tm[5]=dropOffSystem.." estará un poco más limpio. También serás "..prize.."$ mas rico."
 		bigDesc=bigDesc.." "..tm[math.random(table.getn(tm))]
 	end	
 
 	local t6={}
-	t6[1]=" [br] Once you've destroyed them, we'll move the funds to your account."
-	t6[2]=" [br] $".. prize .." will be added to your account upon completion."
+	t6[1]=" [br] Una vez que las hayas destruido, transferiremos los fondos a tu cuenta.."
+	t6[2]=" [br] ".. prize .."$ se añadirá a su cuenta una vez completada."
 	bigDesc=bigDesc.." "..t6[math.random(table.getn(t6))]
 
 	return 1
@@ -105,20 +105,20 @@ end
 
 function canTakeMission() -- check to see if you can take this mission
 	if (hasWeapon()==0) then 
-		return "Can't take this mission without a gun. How else are you going to shoot the junk?"
+		return "No puedes tomar esta misión sin un arma. ¿De qué otra forma vas a disparar a la basura?"
 	end
     if (haveJunkMission()==1) then 
-		return "You can only have one junk mission at a time. Council rules."
+		return "Sólo puedes tener una misión basura a la vez. Reglas del Consejo."
 	end
 	if (getCrimeCount()>0) then 
-		return "You can't be doing junk cleanup with a criminal record. You'll need to pay your fines first."
+		return "No puedes estar haciendo limpieza de chatarra con antecedentes penales. Primero tendrás que pagar tus multas."
 	end
 	return ""
 end
 
 
 function takeMission() -- upon taking the mission set up things, like:
-	desc = "destroy "..amount.." pieces of junk"
+	desc = "destruye "..amount.." piezas de basura"
 	createTimer(timerName,desc,timeLimit)
 	resetJunkDestroyed(amount)
 end
@@ -131,9 +131,9 @@ function update() -- update mission critical things here
     newDesc=""
     
     if (amount-junk)==1 then
-    	newDesc= "destroy 1 piece of junk"
+    	newDesc= "destruye 1 pieza de basura"
     else
-    	newDesc= "destroy "..(amount-junk).." pieces of junk"   	
+    	newDesc= "destruye "..(amount-junk).." piezas de basura"   	
     end
     
     updateTimerDescription(timerName,newDesc)
@@ -152,7 +152,7 @@ end
 
 function finishSuccess() -- clear up stuff here
 	cleanUp()
-	completeMission(1, prize, advertPerson, smallDesc, bigDesc, getGenericThanksQuote(prize).." "..dropOffSystem.." will be better off thanks to you.")
+	completeMission(1, prize, advertPerson, smallDesc, bigDesc, getGenericThanksQuote(prize).." "..dropOffSystem.." estará mejor gracias a ti.")
 end
 
 function finishFailure() -- clear up stuff here
@@ -209,7 +209,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return "This system"
+	return "Este sistema"
 end
 
 function returnImageFile()

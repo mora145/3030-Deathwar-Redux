@@ -21,25 +21,25 @@ function prototype()
 		
 	if math.random(0,1)==1 then
 		local tractor={}
-		tractor[1]="Do you have time to spare?"
-		tractor[2]="Want to explore your own system?"
-		tractor[3]="Like shooting? Hate junk?"
-		tractor[4]="Want to help clean up your own system for good money?"
+		tractor[1]="¿Tienes tiempo libre?"
+		tractor[2]="¿Quieres explorar tu propio sistema?"
+		tractor[3]="¿Te gusta disparar? ¿Odias la basura?"
+		tractor[4]="¿Quieres ayudar a limpiar tu propio sistema por buen dinero?"
 		bigDesc=bigDesc.." "..tractor[math.random(table.getn(tractor))]
 	end
 		
 	local t3={}
-	t3[1]="If you want to make some quick money, then shoot any space junk you see."
-	t3[2]="Take the time to look for junk around the system for small rewards."
+	t3[1]="Si quieres ganar dinero rápido, entonces dispara a cualquier basura espacial que veas."
+	t3[2]="Tómese el tiempo para buscar chatarra alrededor del sistema y obtener pequeñas recompensas."
 	smallDesc=t3[math.random(table.getn(t3))]
 		
 	local t4={}
-	t4[1]="No Need to accept this mission, As long as you have a clear criminal record, every piece of junk you shoot you'll get $250!"
+	t4[1]="No hay necesidad de aceptar esta misión, siempre y cuando tengas un historial criminal limpio, con cada pedazo de chatarra que le dispares obtendrás 250$!"
 	bigDesc=bigDesc.." "..t4[1]
 		
 	local t5={}
-	t5[1]=" [br] [br] Are you ready for adventure?"
-	t5[2]=" [br] [br] Get out there commander."
+	t5[1]=" [br] [br] ¿Estás listo para la aventura?"
+	t5[2]=" [br] [br] Salga, comandante."
 	bigDesc=bigDesc.." "..t5[math.random(table.getn(t5))]		
 
 	return 1
@@ -113,7 +113,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return "This system"
+	return "Este sistema"
 end
 
 function returnImageFile()
@@ -124,8 +124,8 @@ end
 -- MAIN!
 -- ========================================================
 
-contactPerson = "System information"
-advertPerson = "Automated service droid"
+contactPerson = "Información del sistema"
+advertPerson = "Droide de servicio automatizado"
 packageName = ""
 prize = 0
 haggleExtra = 0
