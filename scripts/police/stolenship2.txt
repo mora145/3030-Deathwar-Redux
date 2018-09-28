@@ -1,64 +1,64 @@
 //begin
-// [x] 1 - "About my ship."
-// [x] 2 - "About my Droid."
-// [x] 3 - "This is bullshit, Officer."
-// [ ] 99 - "Goodbye Officer."
+// [x] 1 - "Acerca de mi nave."
+// [x] 2 - "Acerca de mi droide."
+// [x] 3 - "Esto es una mierda, oficial."
+// [ ] 99 - "Adiós oficial."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi Citizen.
-ego:Officer Grah.
-other:What's your boggle?
+other:Hola Ciudadano.
+ego:Oficial Grah.
+other:¿Cuál es tu problema?
 option-on 1
 option-on 2
 option-on 3
 return
 
 @1 // About my ship.
-ego:About my ship.
-other:Yes. It's registered as stolen from Zog Dongo.
-other:We have recorded that you bought it from a mechanic called Frank Zoed.
-other:But we'll still have to impound it.
-ego:Who would have stolen the ship in the first place?
-other:Reports are there is a booty filled derelict ship in the area.
-other:So probably a gang trying to minimise the salvage competition.
-other:By causing crews like yours to lose their ship.
-other:Don't go trying to get revenge now.
-ego:No, Sir.
+ego:Acerca de mi nave..
+other:Sí. Está registrada como robada a Zog Dongo.
+other:Hemos registrado que se la compraste a un mecánico llamado Frank Zoed.
+other:Pero aún así tendremos que confiscarla.
+ego:¿Quién habrá robado la nave en primer lugar?
+other:Los informes dicen que hay una nave abandonada en la zona.
+other:Así que probablemente una banda tratando de minimizar la competencia de salvamento.
+other:Haciendo que tripulantes como el suyo pierdan su nave.
+other:No intentes vengarte ahora.
+ego:No, señor.
 option-off 1
 option-on 99
 return
 
 @2 // About my Droid.
-ego:About my Droid.
-other:Yes, what about it. I am not here to serve you.
-ego:Yes you are. To protect and serve, right?
-other:Hmmm. I guess you're right.
-other:But I don't know what happened to your droid.
-other:So move along now, Citizen.
+ego:Sobre mi droide.
+other:Sí, ¿qué pasa con eso? No estoy aquí para servirte.
+ego:Sí, lo estás. Para proteger y servir, ¿verdad?
+other:Hmmm. Supongo que tienes razón.
+other:Pero no sé qué le pasó a tu droide.
+other:Así que muévase, ciudadano.
 option-off 2
 option-on 99
 return
 
 @3 // This is bullshit, Officer.
-ego:This is bullshit, Officer.
-other:Sir! I understand your frustration so I'll ignore that.
-other:We gave you $1500 credits and issued you a shuttle.
-other:If I were you I would downgrade to a jetsuit.
-other:Get a gun with the cashback, and you'll make quick money shooting junk.
+ego:Esto es una mierda, oficial.
+other:¡Señor! Entiendo tu frustración, así que voy a ignorar eso.
+other:Te otorgamos 1.500 dólares en créditos y te dimos un transbordador.
+other:Si yo fuera tú, me rebajaría a un traje de neopreno.
+other:Consigue un arma con el dinero, y ganarás dinero rápido disparando a la basura.
 ego:I'll go find Frank about this.
-ego:Selling me a stolen ship is... is bullshit.
-other:As you wish, Citizen.
+ego:Venderme una nave robada es... es una mierda.
+other:Como desee, Ciudadano.
 option-off 3
 option-on 99
 return
 
 @99 // Goodbye Officer.
-ego:Goodbye Officer.
-other:Sorry about this, Sir.
-other:If you have further enquiries you'll have to come to HBE station.
-other:That's the Police HQ on the old space-frigate ship.
-other:Ceayti System. Two systems south of here.
+ego:Adiós oficial.
+other:Lamento todo esto, señor.
+other:Si tiene más preguntas, tendrá que ir a la estación de HBE.
+other:Es el cuartel general de la policía en la vieja nave espacial.
+other:Sistema Ceayti. Dos sistemas al sur de aquí.
 stop
