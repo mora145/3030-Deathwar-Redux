@@ -1,24 +1,24 @@
 //begin
-// [x] 1 - "You got a problem?"
-// [x] 2 - "I have to go."
+// [x] 1 - "¿Tienes algún problema?"
+// [x] 2 - "Me tengo que ir."
 //end
 
 @S // dialog startup entry point
-ego:Here're your photographs.
+ego:Aquí están sus fotografías.
 other:Chottomate kudasai!
 option-on 1
 option-on 2
 return
 
-@1 // You got a problem?
-ego:You got a problem?
-other:(examines photograph)
+@1 // ¿Tienes algún problema?
+ego:¿Tienes algún problema?
+other:(examina la fotografía)
 other:iie, Domo arigatou
-ego:That's ok.
+ego:No hay problema.
 stop
 
-@2 // I have to go.
-ego:I have to go.
-ego:That was the photo I was told to get.
-other:Ok, Domo.
+@2 // Me tengo que ir.
+ego:Me tengo que ir.
+ego:Esa era la foto que me dijeron que consiguiera.
+other:Está bien. Domo (japones).
 stop

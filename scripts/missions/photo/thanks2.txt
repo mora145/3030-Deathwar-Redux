@@ -1,21 +1,21 @@
 //begin
-// [x] 1 - "I was fighting pirates, wouldn't you know it."
-// [x] 2 - "None of your damned business."
+// [x] 1 - "Estaba luchando contra piratas, ¿no lo sabías?"
+// [x] 2 - "No es asunto tuyo."
 //end
 
 @S // dialog startup entry point
-ego:Here's your package
-other:Hey, thanks for delivering this. What took you so long?
+ego:Aquí está tu paquete.
+other:Oye, gracias por entregarmelo. ¿Por qué tardaste tanto?
 option-off 0
 option-on 1
 option-on 2
 return
 
-@1 // I was fighting pirates, wouldn't you know it.
-other:really? I don't believe you.
-ego:fair enough.
+@1 // Estaba luchando contra piratas, ¿no lo sabías?
+other:¿En serio? No puedo creerlo.
+ego:Me parece justo.
 stop
 
-@2 // None of your damned business.
-other:Ok, mate, take it easy.
+@2 // No es asunto tuyo.
+other:Ok, amigo, tómalo con calma.
 stop

@@ -1,34 +1,34 @@
 //begin
 // [x] 1 - "Oh?"
-// [x] 2 - "Gotta go."
+// [x] 2 - "Me tengo que ir."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Here's your package
-other:The photos, sweet.
-other:You heard?
+ego:Aquí está tu paquete.
+other:Las fotos, precioso.
+other:¿Te has enterado?
 option-on 1
 option-on 2
 return
 
 @1 // Oh?
 ego:Oh?
-other:Someone sued the police.
-ego:Yeah, good for them.
-ego:What for?
-other:They produced a leaflet advocating, encouraging, bounty hunting.
-other:It said 'GO FOR IT!'
-other:..but without a warning that you may get shot at.
-ego:And they won?
+other:Alguien demandó a la policía.
+ego:Sí, bien por ellos.
+ego:Por que?
+other:Elaboraron un folleto que abogaba por la caza de recompensas, alentándola.
+other:Decía '¡VE POR ELLA!'
+other:...pero sin una advertencia de que te pueden disparar.
+ego:¿Y ellos ganaron?
 other:No.
-other:No, they were arrested for wasting Council time.
-other:And put on two weeks painting duty on Resseth.
-ego:Two weeks PD! Ha.
+other:No, fueron arrestados por malgastar el tiempo del Consejo.
+other:Y le puso dos semanas de trabajo pintando a Resseth.
+ego:¡Dos semanas PD! Ha.
 stop
 
-@2 // Gotta go.
-ego:Gotta go.
-ego:Later.
+@2 // Me tengo que ir.
+ego:Me tengo que ir.
+ego:Hasta luego.
 stop

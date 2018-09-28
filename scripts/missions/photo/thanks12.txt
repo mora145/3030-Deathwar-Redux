@@ -1,30 +1,30 @@
 //begin
-// [x] 1 - "Know any good trade route from here?"
-// [x] 2 - "I travelled a long way to get you those photos."
+// [x] 1 - "¿Conoces alguna buena ruta comercial desde aquí?"
+// [x] 2 - "He hecho un largo viaje para conseguirte esas fotos."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Here, your photos.
-other:Great.
-other:These will help a lot.
-other:Mmmm, excellent.
+ego:Toma, tus fotos.
+other:Genial.
+other:Esto ayudará mucho.
+other:Mmmm, excelente.
 
 option-on 1
 option-on 2
 return
 
-@1 // Know any good trade route from here?
-ego:Know any good trade route from here?
+@1 // ¿Conoces alguna buena ruta comercial desde aquí?
+ego:¿Conoces alguna buena ruta comercial desde aquí?
 other:Huh, nah.
-ego:Ok, later.
+ego:Ok, hasta luego.
 stop
 
-@2 // I travelled a long way to get you those photos.
-ego:I travelled a long way to get you those photos.
-other:Yeah, thanks. Good work.
-other:Can't give you any more creds, sorry.
-ego:I'm gonna check the consoles.
-other:Thanks again.
+@2 // He hecho un largo viaje para conseguirte esas fotos.
+ego:He hecho un largo viaje para conseguirte esas fotos.
+other:Si! gracias. Buen trabajo.
+other:No puedo darte más créditos, lo siento.
+ego:Iré a revisar las consolas.
+other:Gracias de nuevo.
 stop

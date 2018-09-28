@@ -1,19 +1,19 @@
 //begin
-// [x] 1 - "I'm off to refuel."
+// [x] 1 - "Me voy a repostar."
 //end
 
 @S
-ego:Photo package.
-other:Huh, the photos!
-other:At last. These better be good.
-ego:Hey, you get what you paid for.
-ego:I'm a trader, not a pro-photographer.
-other:Ha, good point.
-other:Speed was the most important thing.
+ego:Paquete de fotos.
+other:Huh, ¡las fotos!
+other:Por fin. Más vale que sean buenas.
+ego:Oye, obtienes lo que pagaste.
+ego:Soy un comerciante, no un fotógrafo profesional.
+other:Ja, buen punto.
+other:La velocidad era lo más importante.
 option-on 1
 return
 
 @1
-ego:I'm off to refuel.
-other:thanks again.
+ego:Me voy a repostar.
+other:Gracias de nuevo.
 stop

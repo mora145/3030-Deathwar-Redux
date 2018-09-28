@@ -3,11 +3,11 @@
 //end
 
 @S
-ego:Here's your photos.
-other:Domo arigatou gaziamasu
+ego:Aquí están tus fotos.
+other:Domo arigatou gaziamasu (japones)
 option-on 1
 return
 
 @1
-ego:Sayonara.
+ego:Sayonara (japones).
 stop

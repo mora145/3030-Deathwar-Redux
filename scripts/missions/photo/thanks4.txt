@@ -1,14 +1,14 @@
 //begin
 // [x] 1 - "Oh?"
-// [x] 2 - "I'm busy."
+// [x] 2 - "Estoy ocupado."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Here's your package
-other:The photos, thanks.
-other:You heard the news?
+ego:Aquí está tu paquete.
+other:Las fotos, gracias.
+other:¿Escuchaste las noticias?
 
 option-on 1
 option-on 2
@@ -16,19 +16,19 @@ return
 
 @1 // Oh?
 ego:Oh?
-other:Someone found a new short-cut through a nebula.
-ego:Yeah, good for them.
-ego:I stay clear of the nebula.
-other:Probably wise.
-other:I got stuck in one for 2hrs.
+other:Alguien encontró un nuevo atajo a través de una nebulosa.
+ego:Sí, bien por ellos.
+ego:Me mantengo alejado de la nebulosa.
+other:Seguramente es prudente.
+other:Me quedé atrapado en una durante 2 horas.
 ego:2hrs! 
-other:I nearly ran out of fuel.
-other:Anyway, thanks for the photo.
+other:Casi me quedo sin combustible.
+other:De todos modos, gracias por la foto.
 
 stop
 
-@2 // I'm busy.
-ego:I'm busy.
-ego:Later.
+@2 // Estoy ocupado.
+ego:Estoy ocupado.
+ego:Hasta luego.
 
 stop

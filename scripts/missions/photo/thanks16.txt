@@ -1,13 +1,13 @@
 //begin
-// [x] 1 - "No problem."
+// [x] 1 - "No hay problema."
 //end
 
 @S
-ego:Here's your photos.
-other:The photos! sweet.
+ego:Aquí están tus fotos.
+other:¡Las fotos! Genial.
 option-on 1
 return
 
 @1
-ego:No problem.
+ego:No hay problema.
 stop
