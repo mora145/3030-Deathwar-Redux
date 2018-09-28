@@ -1,20 +1,20 @@
 //begin
-// [x] 1 - "Hold fire! I'll pay my fines."
+// [x] 1 - "No disparen! Pagaré mis multas."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:What?
+other:Que?
 option-off 0
 option-on 1
 return
 
 // dialog script file
-@1 // fines?
-ego:Hold fire! I'll pay my fines.
-other:You owe *crim_total* in total.
-other:You got that kind of money?
-ego:No, I don't. What happens now?
-other:Now we hunt you down.
+@1 // multas?
+ego:¡No disparen! Pagaré mis multas.
+other:Usted debe *crim_total* en total.
+other:¿Tienes esa cantidad de dinero?
+ego:No, no la tengo. ¿Qué pasará ahora?
+other:Ahora te perseguiremos.
 stop

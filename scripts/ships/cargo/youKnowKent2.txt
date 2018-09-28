@@ -1,28 +1,28 @@
 //begin
-// [x] 1 - "What did Kent do for you?"
-// [x] 2 - "Heard any news?"
-// [ ] 22 - "Sounds like you have a good plan."
-// [x] 3 - "Bye."
-// [ ] 4 - "Great."
-// [ ] 5 - "I mind my own business."
+// [x] 1 - "¿Qué hizo Kent por ti?"
+// [x] 2 - "¿Has oído alguna noticia?"
+// [ ] 22 - "Parece que tienes un buen plan."
+// [x] 3 - "Adiós."
+// [ ] 4 - "Bien."
+// [ ] 5 - "Me ocupo de mis asuntos."
 //end
 
 @S 
-ego:Hi there.
-other:Hi.
-other:Aren't you the trader that works with Kent?
-ego:Yeah. Kent's my navigator sometimes.
-other:Kent did some work for me.
+ego:Hola, hola.
+other:Hola.
+other:¿No eres el comerciante que trabaja con Kent?
+ego:Si. Kent es mi copiloto a veces.
+other:Kent hizo un trabajo para mí.
 return
 
 @1 
-ego:What did Kent do for you?
-other:It tracked down my stolen computer for me.
-other:I got it back, and the criminals got stabbed in the legs.
-ego:People say it's best to let the law handle the punishment.
-other:I did. 
-other:I would have done worse.
-other:How's business?
+ego:¿Qué hizo Kent por ti?
+other:Rastreó mi computadora robada en mi lugar.
+other:La recuperé, y los criminales fueron apuñalados en las piernas.
+ego:La gente dice que es mejor dejar que la ley se encargue del castigo.
+other:Lo hice. 
+other:Habría hecho algo peor.
+other:¿Cómo va el negocio?
 option-off 1
 option-off 2
 option-on 4
@@ -30,37 +30,37 @@ option-on 5
 return
 
 @2 
-ego:Heard any news?
-other:Some traders in Andinti found the Largo once.
-other:They say they got 20 tons but their cargo got full.
-other:I'm not sure if it's still around.
-other:I plan to go complete my nebula map.
+ego:¿Has oído alguna noticia?
+other:Algunos comerciantes de Andinti encontraron el Largo hace poco.
+other:Dicen que tienen 20 toneladas pero su carga se llenó.
+other:No estoy seguro de que siga por aquí.
+other:Planeo ir a completar mi mapa de la nebulosa.
 option-off 2
 option-on 22
 return
 
 @22 
-ego:Sounds like you have a good plan.
-other:It's ok for now.
-other:I don't want to get into any trouble
+ego:Parece que tienes un buen plan.
+other:Está bien por ahora.
+other:No quiero meterme en problemas.
 option-off 22
 return
 
 
 @3 
-ego:Bye.
+ego:Adios.
 stop
 
 @4
-ego:Great.
-other:It's tough to make a living trading goods.
-other:I don't have any hints or tricks to offer.
-other:Safe flying.
+ego:Bien.
+other:Es difícil ganarse la vida intercambiando bienes.
+other:No tengo ninguna pista o truco que ofrecer.
+other:Buen vuelo.
 stop
 
 @5 
-ego:I mind my own business.
-other:Good idea.
-other:Anyway, Safe flying. 
-other:Say hi to Kent for me.
+ego:Me ocupo de mis asuntos.
+other:Buena idea.
+other:De todos modos, buen vuelo. 
+other:Saluda a Kent de mi parte.
 stop

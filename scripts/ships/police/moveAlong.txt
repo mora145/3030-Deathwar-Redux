@@ -1,23 +1,23 @@
 //begin
-// [x] 1 - "Heard any news?"
-// [x] 2 - "What's this place like?"
-// [x] 3 - "Bye."
-// [ ] 4 - "My business is bounty hunting."
-// [ ] 5 - "Have you heard about a new deathwar?"
-// [ ] 6 - "Any info on the stolen ships in andinti?"
+// [x] 1 - "¿Has oído alguna noticia?
+// [x] 2 - "Que te parece este lugar??"
+// [x] 3 - "Adios."
+// [ ] 4 - "Mi negocio es la caza de recompensas."
+// [ ] 5 - "¿Has oído hablar de una nueva guerra catastrofica?"
+// [ ] 6 - "¿Alguna información sobre las naves robadas en Andinti?"
 //end
 
 @S 
-ego:Hi there, Officer.
-other:Hello there, Citizen.
-other:What appears to be your boggle?
+ego:Hola, oficial.
+other:Hola, Ciudadano.
+other:¿Cuál es el problema?
 return
 
 @1 
-ego:Heard any news?
-other:I'm not a reporter, Citizen.
-other:Just move along.
-other:Be about your business.
+ego:¿Has oído alguna noticia?
+other:No soy periodista, ciudadano.
+other:Sólo muévete.
+other:Ocúpate de tus asuntos.
 option-off 1
 option-off 2
 option-on 4
@@ -26,10 +26,10 @@ option-on 6
 return
 
 @2 
-ego:What's this place like?
-other:It's like everywhere else, Citizen.
-other:Just move along.
-other:Be about your business.
+ego:Que te parece este lugar?
+other:Es como en todas partes, ciudadano.
+other:Sólo muévete.
+other:Ocúpate de tus asuntos.
 option-off 1
 option-off 2
 option-on 4
@@ -38,37 +38,37 @@ option-on 6
 return
 
 @3 
-ego:Bye.
+ego:Adios.
 stop
 
 @4
-ego:My business is bounty hunting.
-other:Good for you, a Lot of pirates around recently.
-other:Bounties have increased.
-other:Happy hunting, Citizen.
+ego:Mi negocio es la caza de recompensas.
+other:Bien por ti, hay muchos piratas por aquí últimamente.
+other:Las recompensas han aumentado.
+other:Feliz cacería, ciudadano.
 option-off 4
 option-off 5
 option-off 6
 return
 
 @5 
-ego:Have you heard about a new deathwar?
-other:All rumours, Citizen.
-other:I've not had reports of new nanobots or rebels.
-other:I'm not authorised to talk about it.
-other:Keep calm and go about your business, Citizen.
+ego:¿Has oído hablar de una nueva guerra catastrofica?
+other:Todos son rumores, ciudadano.
+other:No he tenido informes de nuevos nanobots o rebeldes.
+other:No estoy autorizado a hablar de ello.
+other:Mantenga la calma y ocúpese de sus asuntos, ciudadano.
 option-off 4
 option-off 5
 option-off 6
 return
 
 @6 
-ego:Any info on the stolen ships in andinti?
-other:Gang related. Due to that Largo incident.
-other:No new info on that case, Citizen.
-other:I'm not a detective. 
-other:I'm traffic control.
-other:Keep calm and go about your business, Citizen.
+ego:¿Alguna información sobre las naves robadas en Andinti?
+other:Relacionado con pandillas. Debido al incidente de Largo.
+other:No hay nueva información sobre ese caso, ciudadano.
+other:No soy detective. 
+other:Yo me ocupo del control de tráfico.
+other:Mantenga la calma y ocúpese de sus asuntos, ciudadano.
 option-off 4
 option-off 5
 option-off 6

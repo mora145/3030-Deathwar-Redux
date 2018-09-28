@@ -1,40 +1,40 @@
 //begin
-// [x] 1 - "Hold fire! I'll pay my fines."
-// [ ] 2 - "I'll pay."
-// [ ] 3 - "No way, forget it."
+// [x] 1 - "¡No disparen! Pagaré mis multas."
+// [ ] 2 - "Voy a pagar."
+// [ ] 3 - "De ninguna manera, olvídalo."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:What?
+other:Que?
 option-off 0
 option-on 1
 return
 
 // dialog script file
 @1 // fines?
-ego:Hold fire! I'll pay my fines.
-other:You owe *crim_total* in total.
-other:do you want to pay it or not?
+ego:¡No disparen! Pagaré mis multas.
+other:Usted debe *crim_total* en total.
+other:¿quieres pagarlo o no?
 option-on 2
 option-on 3
 option-off 1
 return
 
-@2 // I'll pay.
-ego:I'll pay.
-other:Good, transferring. ...and done.
-other:Now move along.
+@2 // Pagaré
+ego:Pagaré
+other:Bien, transfiriendo. ...y listo.
+other:Ahora vete de aquí.
 option-off 2
 option-off 3
 takeMoney,-1,Paying off fines
 wipecrimrecordclean
 stop
 
-@3 // No way, forget it.
-ego:No way, forget it.
-other:Alright. Then we're coming for you.
+@3 // De ninguna manera, olvídalo.
+ego:De ninguna manera, olvídalo.
+other:De acuerdo. Entonces vamos por ti.
 option-off 2
 option-off 3
 stop

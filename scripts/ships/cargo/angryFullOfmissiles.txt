@@ -1,26 +1,26 @@
 //begin
-// [x] 1 - "Take it easy."
-// [x] 2 - "Is this a dangerous place?"
-// [x] 3 - "Bye."
-// [ ] 4 - "I can see you are busy."
-// [ ] 5 - "No problem."
+// [x] 1 - "Tómatelo con calma."
+// [x] 2 - "¿Es un lugar peligroso?"
+// [x] 3 - "Adiós."
+// [ ] 4 - "Veo que estás ocupado."
+// [ ] 5 - "No hay problema."
 //end
 
 @S 
-ego:Hi there.
-other:Don't try it, buddy!
-other:I got lasers and all sorts of missiles!
-other:I'm full of missiles!
-other:You don't know how many!
+ego:Hola, hola.
+other:No lo intentes, amigo.!
+other:¡Tengo láseres y todo tipo de misiles!
+other:¡Estoy lleno de misiles!
+other:¡No sabes cuántos!
 return
 
 @1 
-ego:Take it easy.
-other:I'm full of missiles!
-other:Back off!
-other:full of missiles! missiles! 
-other:100 missiles!
-other:You hear me, buddy!
+ego:Tómatelo con calma.
+other:¡Estoy lleno de misiles!
+other:¡Atrás!
+other:¡lleno de misiles! ¡Misiles! 
+other:100 misiles!
+other:Me oyes, amigo!
 option-off 1
 option-off 2
 option-on 4
@@ -28,12 +28,12 @@ option-on 5
 return
 
 @2 
-ego:Is this a dangerous place?
-other:It sure is, buddy.
-other:Get fully stocked with missiles.
-other:Just like me.
-other:The most expensive you can.
-other:As many as you can.
+ego:¿Éste es un lugar peligroso?
+other:Claro que sí, amigo.
+other:Manténganse llenos de misiles. 
+other:Igual que yo.
+other:Lo más caro que puedas.
+other:Tantos como puedas.
 option-off 1
 option-off 2
 option-on 4
@@ -41,21 +41,21 @@ option-on 5
 return
 
 @3 
-ego:Bye.
+ego:Adiós.
 stop
 
 @4
-ego:I can see you are busy.
-ego:Stay safe.
-other:Just back off!
-other:I'm ready to defence myself.
-ego:defence yourself?
-other:yeah. I'd defence you into bits.
-other:With my missiles. 100 times.
-ego:Good for you.
+ego:Veo que estás ocupado.
+ego:Mantente a salvo.
+other:¡Sólo retrocede!
+other:Estoy listo para defenderme.
+ego:para defenderte?
+other:Si. Yo te defendería en pedazos.
+other:Con mis mis misiles. 100 veces.
+ego:Bien por ti.
 stop
 
 @5 
-ego:No problem.
-ego:Bye.
+ego:No hay problema.
+ego:Adiós.
 stop

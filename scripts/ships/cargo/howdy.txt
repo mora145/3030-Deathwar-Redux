@@ -1,21 +1,21 @@
 //begin
-// [x] 1 - "Heard any news?"
-// [x] 2 - "What's this place like?"
-// [x] 3 - "Bye."
-// [ ] 4 - "I'll buy you a beer at the bar."
-// [ ] 5 - "Sorry, not interested."
+// [x] 1 - "¿Has oído alguna noticia?"
+// [x] 2 - "¿Qué tal es este lugar?"
+// [x] 3 - "Adios."
+// [ ] 4 - "Te compraré una cerveza en el bar"
+// [ ] 5 - "Lo siento, no me interesa."
 //end
 
 @S 
-ego:Hi there.
-other:Yo!
+ego:Hola a todos!
+other:Hola!
 return
 
 @1 
-ego:Heard any news?
-other:I may have....
+ego:¿Has oído alguna noticia??
+other:Puede que si....
 ego:Oh?
-other:Buy me a drink and I'll tell you.
+other:Cómprame un trago y te la diré.
 option-off 1
 option-off 2
 option-off 3
@@ -24,26 +24,26 @@ option-on 5
 return
 
 @2 
-ego:What's this place like?
-other:It's alright. I've been to better places.
+ego:Que tal es este lugar?
+other:Está bien. He estado en mejores lugares.
 option-off 2
 return
 
 @3 
-ego:Bye.
+ego:Adios.
 stop
 
 @4
-ego:I'll buy you a beer at the bar.
-other:Ok deal.
-ego:So go on what's the scoop?
-other:Lot of pirates in the area recently....
-other:...and the price of bounties has gone up.
-ego:That's it?
-other:No, of course not.
-ego:Oh, good. So what else?
-other:It's my birthday.
-ego:Great.
+ego:Te compraré una cerveza en el bar.
+other:De acuerdo, trato hecho.
+ego:Entonces, ¿cuál es la primicia?
+other:Muchos piratas en el área recientemente...
+other:...y el precio de las recompensas ha subido.
+ego:¿Eso es todo?
+other:No, por supuesto que no.
+ego:Oh, bien. Entonces, ¿qué más?
+other:Es mi cumpleaños.
+ego:Genial.
 takeMoney,50,DRINK AT THE BAR
 option-off 4
 option-off 5
@@ -52,8 +52,8 @@ option-on 3
 return
 
 @5 
-ego:Sorry, not interested.
-other:Your loss.
+ego:Lo siento, no me interesa.
+other:Tú te lo pierdes.
 option-off 4
 option-off 5
 option-on 2

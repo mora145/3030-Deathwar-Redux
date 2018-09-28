@@ -1,24 +1,24 @@
 //begin
-// [x] 1 - "Charming."
-// [x] 2 - "Oh Nice!"
-// [x] 3 - "Bye."
-// [ ] 4 - "ok, lets do this!"
-// [ ] 5 - "No problem."
+// [x] 1 - "Encantador."
+// [x] 2 - "Oh bien!"
+// [x] 3 - "Adios."
+// [ ] 4 - "Ok, vamos a hacer esto!"
+// [ ] 5 - "No hay problema."
 //end
 
 @S 
-ego:Hi there.
-other:Who the hell are you?
-other:Get the smack off my comms link.
-other:Shit face.
+ego:Hola, hola.
+other:¿Quién diablos eres tú?
+other:Quita el bigote de mi comunicador.
+other:Cara de mierda.
 return
 
 @1 
-ego:Charming.
-other:Shit face.
-ego:You've got anger issues.
-other:Whatever!
-other:Get the smack off my comms.
+ego:Encantador.
+other:Cara de mierda.
+ego:Tienes problemas de ira.
+other:Lo que sea!
+other:Quita el bigote de mi comunicador.
 option-off 1
 option-off 2
 option-on 4
@@ -26,10 +26,10 @@ option-on 5
 return
 
 @2 
-ego:Oh Nice!
-other:Whatever!
-other:Get the smack off my comms.
-other:Idiot pilots should be shot.
+ego:Oh bien!
+other:Lo que sea!
+other:Quita el bigote de mi comunicador.
+other:Los pilotos idiotas deberían ser fusilados.
 option-off 1
 option-off 2
 option-on 4
@@ -41,12 +41,12 @@ ego:Bye.
 stop
 
 @4
-ego:ok, lets do this!
-other:Smack off my comms right now.
-other:I'll blast you right up.
-ego:I don't think so.
+ego:Ok, vamos a hacer esto!
+other:Quita el bigote de mi comunicador.
+other:Te voy a volar en pedazos.
+ego:No lo creo
 stop
 
 @5 
-ego:No problem.
+ego:No hay problema.
 stop

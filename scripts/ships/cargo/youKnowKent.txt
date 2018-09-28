@@ -1,26 +1,26 @@
 //begin
-// [x] 1 - "You know Kent?"
-// [x] 2 - "Heard any news?"
-// [ ] 22 - "Sounds like you have a good plan."
-// [x] 3 - "Bye."
-// [ ] 4 - "Great."
-// [ ] 5 - "I mind my own business."
+// [x] 1 - "¿Qué hizo Kent por ti?"
+// [x] 2 - "¿Has oído alguna noticia?"
+// [ ] 22 - "Parece que tienes un buen plan."
+// [x] 3 - "Adiós."
+// [ ] 4 - "Bien."
+// [ ] 5 - "Me ocupo de mis asuntos."
 //end
 
 @S 
-ego:Hi there.
-other:Hi.
-other:Aren't you the pilot of Kent the robot?
-ego:Yeah. Kent's my navigator.
-ego:Except when it's off investigating crime.
+ego:Hola, hola.
+other:Hola.
+other:¿No eres el piloto del robot Kent?
+ego:Si. Kent es mi copiloto.
+ego:Excepto cuando está investigando un crimen.
 return
 
 @1 
-ego:You know Kent?
-other:Sure. It tracked down some criminals for me.
-other:Kent is a top private investigator.
-ego:It does love investigating things.
-other:How's it going with you?
+ego:¿Conoces a Kent?
+other:Claro. Encontró algunos criminales en mi lugar.
+other:Kent es un gran investigador privado.
+ego:Le encanta investigar cosas.
+other:¿Cómo te va a ti?
 option-off 1
 option-off 2
 option-on 4
@@ -28,41 +28,41 @@ option-on 5
 return
 
 @2 
-ego:Heard any news?
-other:Some traders found a derelict full of gold.
-other:Probably just a rumour.
-other:I'm doing photography work right now.
-other:Long trips, but good reward.
-other:I asteroid mine when I get into the destination system.
-other:To make some extra, too.
+ego:¿Has oído alguna noticia?
+other:Algunos comerciantes encontraron un abandonado lleno de oro.
+other:Probablemente sólo sea un rumor.
+other:Estoy haciendo trabajo fotográfico ahora mismo.
+other:Viajes largos, pero buena recompensa.
+other:Los asteroides son míos cuando entro en el sistema de destino.
+other:Para hacer algo extra, también.
 option-off 2
 option-on 22
 return
 
 @22 
-ego:Sounds like you have a good plan.
-other:It's ok for me.
-other:I read the news, or listen to music on the journey.
-other:Soon I can retire. If I want.
-other:But I'll keep on rolling.
+ego:Parece que tienes un buen plan.
+other:Está bien para mí.
+other:Leo las noticias o escucho música durante el viaje.
+other:Pronto podré retirarme. Si yo quiero.
+other:Pero seguiré rodando.
 option-off 22
 return
 
 
 @3 
-ego:Bye.
+ego:Adios.
 stop
 
 @4
-ego:Great.
-other:It's tough to make a living trading goods.
-other:I don't have any deals for you.
-other:Safe flying.
+ego:Bien.
+other:Es difícil ganarse la vida intercambiando bienes.
+other:No tengo ningún negocio que hacer contigo.
+other:Buen vuelo.
 stop
 
 @5 
-ego:I mind my own business.
-other:Me too.
-other:Safe flying. 
-other:Say hi to Kent for me.
+ego:Me ocupo de mis asuntos.
+other:Yo tambien.
+other:Buen vuelo.
+other:Saluda a Kent de mi parte.
 stop
