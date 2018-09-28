@@ -58,75 +58,75 @@ function prototype()
 	
 
 	local t3={}
-	t3[1]="I'm looking for "..person_name.."."
-	t3[2]="Desperately seeking "..person_name.."."
-	t3[3]="Can you help find "..person_name.."?"
-	t3[4]="Seeking "..person_name..". Will pay for location."
-	t3[5]=person_name.." is missing."
+	t3[1]="Estoy buscando a "..person_name.."."
+	t3[2]="Estoy buscando desesperadamente "..person_name.."."
+	t3[3]="¿Puedes ayudarme a encontrar a "..person_name.."?"
+	t3[4]="Estoy buscando a "..person_name..". Pagaré por su ubicación."
+	t3[5]=person_name.." está perdido."
 	smallDesc=t3[math.random(table.getn(t3))]
 	
 	local t={}
-	t[1]="Hi. "
-	t[2]="How are you?"
-	t[3]="Howdy partner."
+	t[1]="Hola. "
+	t[2]="¿Quien eres?"
+	t[3]="Hola compañero."
 	t[4]=""	
 	t[5]="Hey."
-	t[6]="What up?"
+	t[6]="¿Qué pasa?"
 	bigDesc=t[math.random(table.getn(t))]	
 		
 	local t2={}
-	t2[1]="I'm looking for a person by the name of "..person_name.."."
-	t2[2]=person_name.." is missing and I'd like someone to find them."
-	t2[3]="I'm looking for someone to help me find my friend, "..person_name.."."
+	t2[1]="Estoy buscando a una persona llamada "..person_name.."."
+	t2[2]=person_name.."  ha desaparecido y me gustaría que alguien lo(a) encontrara."
+	t2[3]="Estoy buscando a alguien que me ayude a encontrar a mi amigo(a), "..person_name.."."
 	bigDesc=bigDesc.." "..t2[math.random(table.getn(t2))]
 
     for i=1,numberOfClues do
         if (i==1) then 
-			bigDesc=bigDesc.." Last I heard, he was near a"..getSunClassOfSystem(person_system).."."
+			bigDesc=bigDesc.." Lo último que supe es que estaba cerca de un"..getSunClassOfSystem(person_system).."."
 		end
         if (i==2) then 
         	local planets=getNumberOfPlanetsInSystem(person_system)
         	if (planets==1) then
-				bigDesc=bigDesc.." I think I remember him saying his system had just the single planet."
+				bigDesc=bigDesc.." Creo que lo(a) recuerdo diciendo que su sistema tenía un solo planeta."
 			else
-			    bigDesc=bigDesc.." I think I remember him saying his system had "..planets.." planets & moons."
+			    bigDesc=bigDesc.." Creo que lo(a) recuerdo diciendo que su sistema tenía "..planets.." planetas y lunas."
 			end
 		end
         if (i==3) then 
         	local stats=getNumberOfStationsInSystem(person_system)
         	if (stats==1) then
-        		bigDesc=bigDesc.." and there was "..stats.." in his system."
+        		bigDesc=bigDesc.." y había "..stats.." en su sistema."
         	else
-				bigDesc=bigDesc.." and there were "..stats.." in his system."
+				bigDesc=bigDesc.." y había "..stats.." en su sistema."
 			end
 		end
         if (i==4) then 
-			bigDesc=bigDesc.." When we talked last, his communication was garbled. All I heard "..getFirstLetterOfSystem(person_system).."."
+			bigDesc=bigDesc.." La última vez que hablamos, su comunicación era confusa. Todo lo que oí fue "..getFirstLetterOfSystem(person_system).."."
 		end		
 	end
 
-    bigDesc=bigDesc.." If you find him, talk to him to confirm his identity."
+    bigDesc=bigDesc.." Si lo encuentras, habla con él para confirmar su identidad."
 
 	local t4={}
-	t4[1]="I can give you $".. prize.. " for your help."
-	t4[2]="$" .. prize.. " is all I can offer."
-	t4[3]="I can offer you a pricely sum of $".. prize.. ". That any good?"
-	t4[4]="I can pay $"..prize.."."
-	t4[5]="Your remuneration will be $"..prize.."."
-	t4[6]="I can't offer any more than, maybe $"..prize.."."
-	t4[7]="Perhaps a measly $"..prize.." will suffice."
-	t4[8]="Did I mention the payment? Oh. $"..prize.." is all I can pay."
+	t4[1]="Te puedo dar ".. prize.. "$ por tu ayuda."
+	t4[2]=prize.. "$ es todo lo que puedo ofrecer."
+	t4[3]="Puedo ofrecerte una preciosa suma de ".. prize.. "$. ¿Está bien?"
+	t4[4]="Puedo pagarte "..prize.."$."
+	t4[5]="Tu retribución será de "..prize.."$."
+	t4[6]="No puedo ofrecer más que, tal vez "..prize.."$."
+	t4[7]="Tal vez unos miserables "..prize.."$ bastarán."
+	t4[8]="¿Mencioné el pago? Oh, "..prize.."$ es todo lo que puedo pagar."
 	bigDesc=bigDesc.." "..t4[math.random(table.getn(t4))]
 	
 	local t6={}
 	-- when you find them come back and see me. generateThanksForMissingConvo....
 	
-	t6[1]="When you have found him come back and see me."
-	t6[2]="Come back here and talk to me. I'll pay you and I can finally meet him again."
+	t6[1]="Cuando lo hayas encontrado, vuelve a verme."
+	t6[2]="Vuelve aquí y háblame. Te pagaré y finalmente podré volver a verle."
 	bigDesc=bigDesc.." "..t6[math.random(table.getn(t6))]
 	
-	bigDesc=bigDesc.." You'll be able to find me here, "..home_station.." in the "..home_system.." system."
-	bigDesc=bigDesc.." Oh, by the way, my name's "..advertPerson.."."
+	bigDesc=bigDesc.." Podrás encontrarme aquí, "..home_station.." en el sistema "..home_system.."."
+	bigDesc=bigDesc.." Oh, por cierto, mi nombre es "..advertPerson.."."
 
 	return 1
 end
@@ -134,7 +134,7 @@ end
 
 function canTakeMission() -- check to see if you can take this mission
 	if (( getSplitSpeed() == 0 ) and ( getDistanceToStation(person_station) > 50000 )) then
-		return "No thanks. It's pretty far and your ship doesn't have a split drive."
+		return "No, gracias. Está bastante lejos y tu nave no tiene un motor dividido."
 	end
 	return "" -- you can take a find mission
 end
@@ -153,7 +153,7 @@ function update() -- update mission critical things here
 	if (youTalkedTo(person_name)==1) then -- OR (youDocked(person_station)==1) then -- you talked to the missing person
 
 		if (found==0) then
-			info("Seems you found "..person_name..". Better head back to "..home_station.." in the "..home_system.." system.")
+			info("Parece que encontraste a "..person_name..". Mejor regresa a "..home_station.." en el sistema "..home_system..".")
             setPersonScriptFile(advertPerson,getRandomFileFrom("data/scripts/ohyoufoundme/finder"))
             setPersonScriptFile(person_name,"freeform")
 			found=1
@@ -232,7 +232,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return "UNKNOWN"-- [ "..person_station.." - "..person_system.." ]"
+	return "DESCONOCIDA"-- [ "..person_station.." - "..person_system.." ]"
 end
 
 function returnImageFile()

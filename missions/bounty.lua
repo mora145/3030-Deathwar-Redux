@@ -99,11 +99,11 @@ function prototype()
 		
 	local t4={}
 	t4[1]="Queremos a "..pirate_name.." muerto."
-	t4[2]="podemos ofrecer "..prize.."$ por la muerte de "..pirate_name.."."
-	t4[3]=..prize.."$ por la muerte de "..pirate_name.."."
+	t4[2]="Podemos ofrecer "..prize.."$ por la muerte de "..pirate_name.."."
+	t4[3]=prize.."$ por la muerte de "..pirate_name.."."
 	t4[4]="Hace algún tiempo un pirata, "..pirate_name.." atacó mi nave. Mató a mi esposa. Ahora lo quiero muerto."
 	t4[5]="Por atacar a los cruceros públicos, ofrecemos una recompensa por "..pirate_name..". "..prize.."$ deberían bastar."
-	t4[6]=..prize.."$ ofrecidos por la muerte de "..pirate_name.."."
+	t4[6]=prize.."$ ofrecidos por la muerte de "..pirate_name.."."
 	t4[7]="tenemos que librar a este universo de un asesino. Mata a "..pirate_name.." y te daré "..prize.."$."
 	t4[8]="¿Tienes algo de tiempo libre? Si su respuesta es sí, entonces este trabajo podría ser para usted. Se busca muerto."
 	t4[9]="Pirata "..about.." buscado muerto. Se ofrecen "..prize.."$."

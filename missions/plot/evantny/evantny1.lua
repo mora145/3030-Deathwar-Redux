@@ -20,7 +20,7 @@ function prototype()
 	contactPerson = "evan t'ny"
 	advertPerson = "evan t'ny"
 
-	bigDesc="Necesito que fotografíes a Jek Kek a bordo de Tia en el sistema "...pickupSystem...". Te daremos una cámara de reconocimiento. Simplemente párate cerca de él y toma una foto. Repórtese a mí aquí en la estación Qrima 2."
+	bigDesc="Necesito que fotografíes a Jek Kek a bordo de Tia en el sistema "..pickupSystem..". Te daremos una cámara de reconocimiento. Simplemente párate cerca de él y toma una foto. Repórtese a mí aquí en la estación Qrima 2."
 	smallDesc="Fotografía a Jek Kek en Tia."
 
 	return 1

@@ -92,7 +92,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return "waessda and aresswa asteroid fields"
+	return "campos de asteroides waessda y aresswa"
 end
 
 contactPerson = ""

@@ -139,7 +139,7 @@ function prototype()
 
 	local t4={}
 	if people==1 then
-+		t4[1]="Te puedo dar ".. prize.. "$ por tu ayuda."
+		t4[1]="Te puedo dar ".. prize.. "$ por tu ayuda."
 		t4[2]=prize.. "$ es todo lo que puedo ofrecer. ¿Quizás pague el combustible?"
 		t4[3]="Puedo ofrecerte una preciosa suma de ".. prize.. "$. ¿Está bien eso?"
 		t4[4]="Puedo pagar "..prize.."$."
