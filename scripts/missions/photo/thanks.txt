@@ -1,13 +1,13 @@
 //begin
-// [x] 1 - "No problem."
+// [x] 1 - "No hay problema."
 //end
 
 @S
-ego:Here's your package
-other:Hey, thanks for delivering this.
+ego:Aquí está tu paquete.
+other:Oye, gracias por entregarmelo.
 option-on 1
 return
 
 @1
-ego:No problem.
+ego:No hay problema.
 stop
