@@ -1,34 +1,34 @@
 //begin
-// [x] 1 - "I'm just making conversation."
-// [x] 2 - "I'm not selling."
-// [x] 3 - "Bye."
+// [x] 1 - "Sólo estoy conversando."
+// [x] 2 - "No soy un vendedor."
+// [x] 3 - "Adios."
 //end
 
 @S 
-ego:Hi there.
+ego:Hola, hola.
 other:No. 
-other:I don't want any.
-other:No insurance.
-other:No sex discs.
-other:Nothing.
+other:No quiero nada.
+other:Nada de seguro.
+other:Nada de discos de sexo.
+other:Nada...
 return
 
 @1 
-ego:I'm just making conversation.
-other:I don't want whatever it is.
-ego:I'm investigating this system.
-other:Sure.
-other:Bye.
+ego:Sólo estoy conversando.
+other:No quiero lo que sea que sea.
+ego:Estoy investigando este sistema.
+other:Seguro.
+other:Adios.
 stop
 
 @2 
-ego:I'm not selling.
-ego:Just asking traders for info.
-other:Good luck with that.
+ego:No soy un vendedor.
+ego:Sólo pido información a los comerciantes.
+other:Buena suerte con eso.
 option-off 2
 stop
 
 @3 
-ego:Bye.
+ego:Adios.
 stop
 

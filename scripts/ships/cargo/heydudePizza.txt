@@ -1,22 +1,22 @@
 //begin
-// [x] 1 - "No, sorry."
-// [x] 2 - "I Sure am."
-// [x] 3 - "Bye."
-// [ ] 4 - "Where can I get some?"
-// [ ] 5 - "Enjoy."
+// [x] 1 - "No, lo siento."
+// [x] 2 - "Claro que lo estoy."
+// [x] 3 - "Adios."
+// [ ] 4 - "¿Dónde puedo conseguir un poco?"
+// [ ] 5 - "Disfrutalo."
 //end
 
 @S 
-other:Hey dude!
-other:Are you the one who ordered the pizza?
-other:I got a great pizza here for someone.
+other:¡Hey amigo!
+other:¿Eres tú el que pidió la pizza?
+other:Tengo una gran pizza aquí para alguien.
 
 return
 
 @1 
-ego:No, sorry.
-other:Oh great. What a waste.
-other:I'll guess I'll eat it myself.
+ego:No, lo siento.
+other:Oh, genial. Qué desperdicio.
+other:Supongo que me lo comeré yo solo.
 option-off 1
 option-off 2
 option-on 4
@@ -24,34 +24,34 @@ option-on 5
 return
 
 @2 
-ego:I Sure am.
-other:Don't blag me, pal.
-other:Your ship reg is not correct.
-other:What a waste.
-other:It smells great but it's getting real cold.
+ego:Claro que lo estoy.
+other:No me fastidies, amigo.
+other:El registro de su nave no es correcto.
+other:Qué desperdicio.
+other:Huele muy bien, pero se está enfriando muchísimo.
 option-off 2
 return
 
 @3 
-ego:Bye.
+ego:Adios.
 stop
 
 @4
-ego:Where can I get some?
+ego:¿Dónde puedo conseguir un poco?
 other:Pizza?
-other:I don't know where this was made. 
-other:A guy at HBE police station just paid me to deliver it.
-other:A guy with a mustache.
-other:Officer Grah.
-ego:I guess it's for a police officer then.
-other:I guess.
-other:He paid half up front, half on delivery.
-other:But I can't find the ship with the correct reg number.
+other:No sé dónde se hizo esto. 
+other:Un tipo en la estación de policía de HBE me pagó para que la entregara.
+other:Un tipo con bigote.
+other:Oficial Grah.
+ego:Supongo que es para un oficial de policía entonces.
+other:Supongo que sí.
+other:Pagó la mitad por adelantado, la otra mitad al momento de la entrega.
+other:Pero no puedo encontrar la nave con el número de registro correcto.
 option-off 4
 return
 
 @5 
-ego:Enjoy.
-other:Yeah, a quick reheat and it should be nice.
-other:Bye.
+ego:Disfrutala.
+other:Sí, un recalentamiento rápido y estará bien.
+other:Adios.
 stop

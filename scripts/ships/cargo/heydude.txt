@@ -1,22 +1,22 @@
 //begin
-// [x] 1 - "Thanks."
-// [x] 2 - "Heard any news?"
-// [x] 3 - "Bye."
-// [ ] 4 - "Sure thing."
-// [ ] 5 - "I mind my own business."
+// [x] 1 - "Gracias."
+// [x] 2 - "¿Has oído alguna noticia?"
+// [x] 3 - "Adios."
+// [ ] 4 - "Claro que sí."
+// [ ] 5 - "Me ocupo de mis asuntos."
 //end
 
 @S 
-ego:Hi there.
-other:Hey dude!
-other:Nice day today.
-other:I hope you're having a good one.
+ego:Hola a todos.
+other:Hey amigo!
+other:Bonito día el de hoy.
+other:Espero que lo estés pasando bien.
 return
 
 @1 
-ego:Thanks.
-other:Traders have to be more friendly.
-other:Don't you think?
+ego:Gracias.
+other:Los comerciantes tienen que ser más amigables.
+other:¿No te parece?
 option-off 1
 option-off 2
 option-on 4
@@ -24,26 +24,26 @@ option-on 5
 return
 
 @2 
-ego:Heard any news?
-other:Some traders found some diamond rich asteroids near here.
-other:But I'm not sure it's true.
+ego:¿Has oído alguna noticia?
+other:Algunos comerciantes encontraron algunos asteroides ricos en diamantes cerca de aquí.
+other:Pero no estoy seguro de que sea verdad.
 option-off 2
 return
 
 @3 
-ego:Bye.
+ego:Adios.
 stop
 
 @4
-ego:Sure thing.
-other:It's tough to make a living, dude.
-other:I'm doing ok at the moment.
-other:But who knows what will come next.
-other:Have a good one, Dude.
+ego:Claro que sí.
+other:Es difícil ganarse la vida, amigo.
+other:Estoy bien por el momento.
+other:Pero quién sabe lo que vendrá después.
+other:Que lo pases bien, amigo.
 stop
 
 @5 
-ego:I mind my own business.
-other:But it's good to talk, Dude.
-other:Have a good one.
+ego:Me ocupo de mis asuntos.
+other:Pero es bueno hablar, amigo.
+other:Que tengas un buen día.
 stop

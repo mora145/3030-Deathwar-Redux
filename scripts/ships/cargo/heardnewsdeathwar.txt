@@ -1,23 +1,23 @@
 //begin
-// [x] 1 - "Heard any news?"
-// [x] 2 - "Nice ship!"
-// [x] 3 - "Bye."
-// [ ] 4 - "What things?"
-// [ ] 5 - "Sorry, no time for that."
+// [x] 1 - "¿Has oído alguna noticia?"
+// [x] 2 - "¡Bonita nave!"
+// [x] 3 - "Adios."
+// [ ] 4 - "¿Qué cosas?"
+// [ ] 5 - "Lo siento, no tengo tiempo para eso."
 //end
 
 @S 
-ego:Hi there.
-other:Hi.
+ego:Hola a todos.
+other:Hola.
 return
 
 @1 
-ego:Heard any news?
-other:About the Deathwar?
-other:It's coming.
+ego:¿Has oído alguna noticia?
+other:¿Sobre la Guerra de la Muerte?
+other:Viene hacia aquí..
 ego:Oh?
-other:Yeah. I know a station security chief.
-other:They hear things.
+other:Sí. Conozco a un jefe de seguridad de la estación.
+other:Escuchan cosas.
 option-off 1
 option-off 2
 option-on 4
@@ -25,35 +25,35 @@ option-on 5
 return
 
 @2 
-ego:Nice ship!
-other:It's alright. I've owned better.
-other:It needs repainting.
-other:What do you want?
-other:I don't trade ship to ship.
+ego:¡Bonita nave!
+other:No hay problema. He tenido mejores.
+other:Necesita ser repintada.
+other:¿Qué es lo que quieres?
+other:No cambio una nave por otra.
 option-off 2
 return
 
 @3 
-ego:Bye.
+ego:Adios.
 stop
 
 @4
-ego:What things?
-ego:You can tell me.
-other:Ok. Let me encrypt this channel.
-ego:So go on what's the scoop?
-other:Some stations have found nanobot making equipment.
-other:And plans for new nanobots.
-ego:That's not good.
-other:No. You didn't hear anything from me.
+ego:¿Qué cosas?
+ego:Puedes decírmelo.
+other:Ok. Déjame encriptar este canal.
+ego:Entonces, ¿cuál es la primicia?
+other:Algunas estaciones han encontrado equipos de fabricación de nanobots.
+other:Y planes para nuevos nanobots.
+ego:Eso no es bueno.
+other:No. No has oído nada de mí.
 option-off 4
 option-off 5
 option-on 3
 return
 
 @5 
-ego:Sorry, no time for that.
-other:No problem.
+ego:Lo siento, no tengo tiempo para eso.
+other:No hay problema.
 option-off 4
 option-off 5
 return

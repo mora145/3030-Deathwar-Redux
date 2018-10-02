@@ -8,7 +8,7 @@
 
 @S 
 ego:Hola, hola.
-other:No lo intentes, amigo.!
+other:No lo intentes amigo!
 other:¡Tengo láseres y todo tipo de misiles!
 other:¡Estoy lleno de misiles!
 other:¡No sabes cuántos!
@@ -18,9 +18,9 @@ return
 ego:Tómatelo con calma.
 other:¡Estoy lleno de misiles!
 other:¡Atrás!
-other:¡lleno de misiles! ¡Misiles! 
+other:¡Lleno de misiles!¡Misiles! 
 other:100 misiles!
-other:Me oyes, amigo!
+other:Me oyes amigo!
 option-off 1
 option-off 2
 option-on 4
@@ -30,9 +30,9 @@ return
 @2 
 ego:¿Éste es un lugar peligroso?
 other:Claro que sí, amigo.
-other:Manténganse llenos de misiles. 
+other:Manténte lleno de misiles. 
 other:Igual que yo.
-other:Lo más caro que puedas.
+other:Los más caro que puedas.
 other:Tantos como puedas.
 option-off 1
 option-off 2
@@ -46,12 +46,12 @@ stop
 
 @4
 ego:Veo que estás ocupado.
-ego:Mantente a salvo.
+ego:'Mantente a salvo'.
 other:¡Sólo retrocede!
 other:Estoy listo para defenderme.
-ego:para defenderte?
+ego:¿Para defenderte?
 other:Si. Yo te defendería en pedazos.
-other:Con mis mis misiles. 100 veces.
+other:Con mis misiles. 100 veces.
 ego:Bien por ti.
 stop
 

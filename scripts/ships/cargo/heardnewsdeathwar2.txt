@@ -1,22 +1,22 @@
 //begin
-// [x] 1 - "Heard any news?"
-// [x] 2 - "Nice ship!"
-// [x] 3 - "Bye."
-// [ ] 4 - "What things?"
-// [ ] 5 - "Sorry, no time for that."
+// [x] 1 - "¿Has oído alguna noticia?"
+// [x] 2 - "¡Bonita nave!"
+// [x] 3 - "Adios."
+// [ ] 4 - "¿Qué cosas?"
+// [ ] 5 - "Lo siento, no tengo tiempo para eso."
 //end
 
 @S 
-ego:Hi there.
-other:Hi.
+ego:Hola a todos.
+other:Hola.
 return
 
 @1 
-ego:Heard any news?
-other:About the Deathwar?
-ego:Why not, you know something.
-other:Yeah. I know an ex-council guy.
-other:They had Inside knowledge of some things.
+ego:¿Has oído alguna noticia?
+other:¿Sobre la Guerra de la Muerte?
+ego:Por qué no, ¿sabes algo?
+other:Sí. Conozco a un ex concejal.
+other:Tenían conocimiento interno de algunas cosas.
 option-off 1
 option-off 2
 option-on 4
@@ -24,13 +24,13 @@ option-on 5
 return
 
 @2 
-ego:Nice ship!
-other:It's alright. I've owned better.
-other:It needs a new captains chair.
-other:Previous owner did something in this one.
+ego:¡Bonita nave!
+other:No importa, está bien. He tenido mejores.
+other:Necesita una nueva silla de capitán.
+other:El dueño anterior hizo algo en esta.
 ego:Oh?
-other:You don't want to know the details. It's gross.
-other:I can't get rid of it, so a new chair is the only option.
+other:No quieres saber los detalles. Es asqueroso.
+other:No puedo deshacerme de ella, así que una silla nueva es la única opción.
 option-off 2
 return
 
@@ -39,26 +39,26 @@ ego:Bye.
 stop
 
 @4
-ego:What things?
-ego:You can tell me.
-other:Ok. Let me encrypt this channel.
-ego:So go on what's the scoop?
-other:He said he saw secret reports that the nanobot threat on planets was long gone.
-ego:Interesting.
-other:Landings are still prevented by the council, but there is really no need.
-ego:I guess that's politics.
-other:No, it's deeper. 
-other:There are forces who want to push some species to extinction.
-other:Don't repeat this in stations. It's not safe to talk about.
-ego:No problem.
+ego:¿Qué cosas?
+ego:Puedes decírmelo.
+other:Ok. Déjame encriptar este canal.
+ego:Entonces, ¿cuál es la primicia?
+other:Dijo que vio informes secretos de que la amenaza de los nanobots en los planetas había desaparecido.
+ego:Interesante.
+other:El Consejo sigue impidiendo los desembarcos, pero en realidad no es necesario.
+ego:Supongo que así es la política.
+other:No, es más profunda. 
+other:Hay fuerzas que quieren empujar a algunas especies a la extinción.
+other:No repitas esto en las estaciones. No es seguro hablar de ello.
+ego:No hay problema.
 option-off 4
 option-off 5
 option-on 3
 return
 
 @5 
-ego:Sorry, no time for that.
-other:No problem.
+ego:Lo siento, no hay tiempo para eso.
+other:No hay problema.
 option-off 4
 option-off 5
 return
