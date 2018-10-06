@@ -1,42 +1,42 @@
 //begin
-// [x] 1 - "Any news from the council?"
-// [x] 2 - "Any new trader jokes?"
-// [x] 3 - "What's going down here?"
+// [x] 1 - "¿Alguna noticia del Consejo?"
+// [x] 2 - "¿Algún chiste nuevo de comerciantes?"
+// [x] 3 - "¿Qué está pasando aquí abajo?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Your cargo container is outside.
-other:Fantastic, thanks. 
-ego:Just doing my job, dude.
+ego:Su contenedor de carga está afuera.
+other:Fantástico, gracias.
+ego:Sólo hago mi trabajo, amigo.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // Any news from the council?
-ego:Any news from the council?
-other:There was a micro-meteorites shower earlier.
-other:The station was in lockdown.
-ego:Unlucky.
-other:Yeah. Well, I had to wait for you anyway.
-ego:The shower has passed has it.
-other:Yeah.
-ego:Cool, I'm gonna go check the consoles.
+@1 // ¿Alguna noticia del Consejo?
+ego:¿Alguna noticia del Consejo?
+other:Hubo una lluvia de micrometeoritos hace un rato.
+other:La estación estuvo cerrada.
+ego:Desafortunado.
+other:Si. Bueno, tenía que esperarte de todos modos.
+ego:La lluvia ha pasado.
+other:Si!
+ego:Genial, voy a revisar las consolas.
 stop
 
-@2 // Any new trader jokes?
-ego:Any new trader jokes?
-other:No. Buzz off.
+@2 // ¿Algún chiste nuevo de comerciantes?
+ego:¿Algún chiste nuevo de comerciantes?
+other:No. Lárgate.
 stop
 
-@3 // What's going down here?
-ego:What's going down here?
-other:Going down? Not much.
-other:What's happening out in space.
-ego:The usual.
-other:Thanks again for the container.
+@3 // ¿Qué está pasando aquí abajo?
+ego:¿Qué está pasando aquí abajo?
+other:¿Bajando? No mucho.
+other:Lo que está pasando en el espacio.
+ego:Lo de siempre.
+other:Gracias de nuevo por el contenedor.
 stop
 
 

@@ -1,15 +1,15 @@
 //begin
-// [x] 1 - "Thanks!"
+// [x] 1 - "Gracias!"
 //end
 
 @S 
-ego:I've left your cargo container outside.
-other:Thanks, I'll get my secretary to pick it up now.
-ego:Cool. You paid me?
-other:Totally. The money's in your account now.
+ego:Dejé su contenedor de carga afuera.
+other:Gracias, le diré a mi secretaria que lo recoja ahora.
+ego:Genial. ¿Me pagó?
+other:Totalmente. El dinero está en tu cuenta ahora.
 option-on 1
 return
 
 @1
-ego:Thanks!
+ego:Gracias!
 stop

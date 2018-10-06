@@ -1,29 +1,29 @@
 //begin
-// [x] 1 - "Yeah. nothing interesting."
-// [x] 2 - "No, took me ages to get here."
+// [x] 1 - "Sí, nada interesante."
+// [x] 2 - "No, me llevó años llegar aquí."
 //end
 
 @S
-ego:Your cargo has been delivered. 
-ego:If you check the station cameras you'll see it outside.
-other:Yeah, I checked already. 
-other:Thanks. Your money has been credited to you.
-other:Was it straight forward?
+ego:Su carga ha sido entregada.
+ego:Si revisas las cámaras de la estación, lo verás afuera.
+other:Sí, ya lo he comprobado.
+other:Gracias. Su dinero le ha sido acreditado.
+other:¿Fue algo sencillo?
 option-on 1
 option-on 2
 return
 
 @1 
-ego:Yeah. nothing interesting.
-ego:It was a normal trip but...
-other:...Uh-uh. Great. I'm not really interested. 
-other:I was just being pleasant.
-ego:fair enough.
+ego:Sí, nada interesante.
+ego:Era un viaje normal, pero...
+other:...Uh-uh. Genial. No estoy realmente interesado.
+other:Sólo estaba siendo amable.
+ego:Me parece bien.
 stop
 
 @2
-other:No, took me ages to get here.
-other:Really? 
-other:Bloody hell, sorry. 
-other:You should think of changing jobs, my friend.
+other:No, me llevó años llegar aquí.
+other:De verdad? 
+other:Maldita sea, lo siento. 
+other:Deberías pensar en cambiar de trabajo, amigo mío.
 stop

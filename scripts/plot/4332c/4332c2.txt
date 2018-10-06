@@ -1,36 +1,36 @@
 //begin
-// [x] 1 - "Yeah, I'll do it."
-// [x] 2 - "Not right now."
+// [x] 1 - "Sí, yo lo haré."
+// [x] 2 - "No en este momento."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:So you are back. 
-ego:I told you, I'll be back.
-other:No, no you didn't.
-other:Will you accept the mission?
+other:Así que has vuelto.
+ego:Te lo dije, volveré.
+other:No, no lo hiciste.
+other:¿Aceptarás la misión?
 option-on 1
 option-on 2
 return
 
-@1 // Yeah, I'll do it.
-ego:Yeah, I'll do it.
-ego:Just tell me what you need doing.
-other:Go to waessda and aresswa and search the asteroid fields for devices.
-other:If you find any, tractor-beam them back here.
-other:We will get our head scientist to analyse them when he arrives here.
-other:He is currently en route but travel is difficult at the moment...
-other:...with F'Zuh's obsession with that prophecy.
-other:He will kill you at all costs.
-ego:He's gone as far as to destroy a system.
-ego:I understand how much he wants me dead.
-other:Be very careful. Those systems are swarming with pirates.
+@1 // Sí, yo lo haré.
+ego:Sí, yo lo haré.
+ego:Sólo dime lo que necesitas hacer.
+other:Ve a waessda y aresswa y busca dispositivos en los campos de asteroides.
+other:Si encuentras alguno, tráelo de vuelta aquí con tu rayo tractor.
+other:Haremos que nuestro científico en jefe lo analice cuando llegue.
+other:Actualmente está en camino, pero el viaje es difícil en este momento...
+other:...con la obsesión de F'Zuh por esa profecía.
+other:Te matará a toda costa.
+ego:Ha ido tan lejos como para destruir un sistema.
+ego:Entiendo lo mucho que me quiere muerto.
+other:Ten mucho cuidado. Esos sistemas están llenos de piratas.
 setMissionAnswer 1
 stop
 
-@2 // Not right now.
-ego:Not right now.
-other:Oh... OK then.
+@2 // No en este momento.
+ego:No en este momento.
+other:Oh... Está bien, entonces.
 setMissionAnswer 0
 stop

@@ -1,88 +1,88 @@
 //begin
-// [x] 1 - "Ok, I'll help."
-// [x] 2 - "I can't right now, maybe later."
+// [x] 1 - "De acuerdo, te ayudaré."
+// [x] 2 - "Ahora mismo no puedo, quizá más tarde."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Well, well, we finally meet.
-ego:Indeed. You're not quite what I expected.
-other:Yes, some find it strange a droid is leading the resistance.
-other:Though droids have as many rights as organics.
-ego:I'm not here to talk semantics, I'm here to help you out.
-other:I understand. Firstly, well done for getting here.
-ego:It took some time to get the damn clues and the password.
-ego:What's up with that password?
-ego:A little cliche isn't it?
-other:It has more than one meaning, Mr. Falcon.
-other:Anyway, enough of that. We need your help again.
-ego:Go on.
-other:I'm sending your ship's computer a datadisc.
-other:It has info retrieved from a damaged datadisc found floating in space.
-other:I'll let you read it later, but for now I will paraphrase.
-other:Every cleaner scout and capital ship has a backup shield code.
-other:It will deactivate the shields in an emergency.
-other:If only we had that code...
-other:...we could succeed in finally fighting them mano-a-mano.
-ego:Classic.
-other:Indeed.
-ego:So, where do I get it, and how do you use it?
-other:Good questions. Firstly we don't know where the code is.
-other:Secondly, we aren't sure how to use it.
-ego:Great, so you have no idea.
-other:As of yet, no.
-other:All we know is it exists. 
-other:When we have it we will find its function and how to use it.
-ego:How?
-other:Top Droids.
-other:With 133MHz CPUs. 
-ego:Any ideas as to where you might find this code?
-other:Yes we do. We could salvage one.
-other:A recent report arrived of a derelict near an asteroid field.
-other:The reason for its destruction is unknown....
-other:...and the freighter who forwarded the info was destroyed...
-other:...before it could divulge the location. 
-other:All we know is it's in an asteroid belt, floating there.
-ego:Which belts?
-other:We have search parties out now, scouring each one for this floating package.
-ego:So how can I help?
-other:Would you consider helping us search?
-ego:Where do you need me to go?
-other:Should you choose to accept it...
-other:...your search grid takes you to the systems, waessda and aresswa.
-other:What do you say Captain?
+other:Bien, bien, finalmente nos conocemos.
+ego:Ciertamente. No eres exactamente lo que esperaba.
+other:Sí, algunos encuentran extraño que un droide esté liderando la resistencia.
+other:Aunque los droides tienen tantos derechos como los orgánicos.
+ego:No estoy aquí para hablar de semántica, estoy aquí para ayudarte.
+other:Entiendo. En primer lugar, bien hecho por haber llegado hasta aquí.
+ego:Tomó algún tiempo conseguir las malditas pistas y la contraseña.
+ego:¿Qué pasa con esa contraseña?
+ego:Un pequeño cliché, ¿no?
+other:Tiene más de un significado, Sr. Falcon.
+other:De todos modos, basta de eso. Necesitamos tu ayuda de nuevo.
+ego:Continúa.
+other:Le estoy enviando un disco de datos al ordenador de su nave.
+other:Tiene información recuperada de un disco de datos dañado encontrado flotando en el espacio.
+other:Te dejaré leerlo más tarde, pero por ahora voy a parafrasear.
+other:Cada limpiador explorador y nave capital tiene un código de escudo de respaldo.
+other:Desactivará los escudos en caso de emergencia.
+other:Si tan sólo tuviéramos ese código...
+other:...podríamos tener éxito en la pelea contra ellos, mano-a-mano.
+ego:Clásico.
+other:Ciertamente.
+ego:Entonces, ¿dónde lo consigo y cómo lo usas?
+other:Buenas preguntas. En primer lugar, no sabemos dónde está el código.
+other:En segundo lugar, no estamos seguros de cómo utilizarlo.
+ego:Genial, así que no tienes ni idea.
+other:Hasta ahora, no.
+other:Todo lo que sabemos es que existe. 
+other:Cuando lo tengamos encontraremos su función y cómo utilizarlo.
+ego:Cómo?
+other:Top Droides.
+other:Con 133MHz CPUs. 
+ego:¿Alguna idea de dónde podría encontrar este código?
+other:Sí, la tenemos. Podríamos intentar salvar a uno.
+other:Recién llegó un informe de un abandonado cerca de un campo de asteroides.
+other:Se desconoce la razón de su destrucción...
+other:...y el carguero que envió la información fue destruido....
+other:...antes de que pudiera divulgar el lugar. 
+other:Todo lo que sabemos es que está en un cinturón de asteroides, flotando allí.
+ego:¿Qué cinturón?
+other:Tenemos grupos de búsqueda, buscando en cada uno de ellos este paquete flotante.
+ego:Entonces, ¿cómo puedo ayudar?
+other:¿Consideraría ayudarnos a buscar?
+ego:¿Adónde quieres que vaya?
+other:Si decide aceptarlo...
+other:...tu cuadrícula de búsqueda te lleva a los sistemas, waessda y aresswa.
+other:¿Qué dice, Capitán?
 option-on 1
 option-on 2
 return
 
 
-@1 // Ok, I'll help.
-ego:Ok, I'll help.
-ego:I don't have plans this weekend anyway.
-ego:Just tell me what you need doing.
-other:Great. 
-other:Go to waessda and aresswa and search the asteroid fields for devices.
-other:If you find any, tractor-beam them back here.
-other:We will get our head scientist to analyse them when he arrives here.
-other:He is currently en route but travel is difficult at the moment...
-other:...with F'Zuh's obsession with that prophecy.
-other:He will kill you at all costs.
-ego:He's gone as far as to destroy a system.
-ego:I understand how much he wants me dead.
-other:Be very careful. Those systems are swarming with pirates.
+@1 // De acuerdo, te ayudaré.
+ego:De acuerdo, te ayudaré.
+ego:No tengo planes para este fin de semana.
+ego:Sólo dime lo que necesitas hacer.
+other:Grandioso. 
+other:Ve a waessda y aresswa y busca dispositivos en los campos de asteroides.
+other:Si encuentras alguno usa el rayo tractor para traerlo.
+other:Haremos que nuestro científico en jefe los analice cuando llegue.
+other:Actualmente está en camino, pero el viaje es difícil en este momento...
+other:...con la obsesión de los F'Zuh's por esa profecía.
+other:Te matará a toda costa.
+ego:Ha ido tan lejos como para destruir un sistema.
+ego:Entiendo lo mucho que me quiere muerto.
+other:Ten mucho cuidado. Esos sistemas están llenos de piratas.
 setMissionAnswer 1
 stop
 
-@2 // I can't right now, maybe later.
-ego:I can't right now, maybe later.
-other:I see. I can't say I understand.
-other:You are currently wanted by the galactic police.
-other:And by the council for crimes you did not commit.
-other:You will have a hard time leading a normal life.
-other:When you have seen sense and changed your mind..
-other:Come back and let me know.
-ego:Don't try guilt trippin' me.
-ego:I'll do it when, and if, I feel like it.
+@2 // Ahora mismo no puedo, quizá más tarde.
+ego:Ahora mismo no puedo, quizá más tarde.
+other:Ya veo. No puedo decir que lo entiendo.
+other:La policía galáctica los busca en este momento.
+other:Y el Consejo por los crímenes que no cometiste.
+other:Usted tendrá dificultades para llevar una vida normal.
+other:Cuando hayas entrado en razón y cambiado de opinión...
+other:Vuelve y házmelo saber.
+ego:No intentes hacerme sentir culpable.
+ego:Lo haré cuando quiera y si me apetece.
 setMissionAnswer 0
 stop

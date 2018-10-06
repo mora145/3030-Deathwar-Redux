@@ -1,82 +1,82 @@
 //begin
-// [x] 1 - "I bet I'm involved somehow."
-// [x] 2 - "A problem, huh? You guys ever heard of just quitting?"
-// [ ] 3 - "And where is this scientist?"
-// [ ] 4 - "Don't tell me.."
-// [ ] 5 - "Yeah, I'll do it."
-// [ ] 6 - "Not right now."
+// [x] 1 - "Apuesto a que estoy involucrado de alguna manera."
+// [x] 2 - "Un problema, ¿eh? ¿Alguna vez oyeron hablar de renunciar?"
+// [ ] 3 - "¿Y dónde está ese científico?"
+// [ ] 4 - "No me digas..."
+// [ ] 5 - "Sí, yo lo haré."
+// [ ] 6 - "No en este momento."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Fantastic, we now have the information we require.
-other:There's just one problem.
+other:Fantástico, ahora tenemos la información que necesitamos.
+other:Sólo hay un problema.
 option-on 1
 option-on 2
 return
 
-@1 // I bet I'm involved somehow.
-ego:I bet I'm involved somehow.
-other:Yes, sort of.
-other:Even though we have the data storage device...
-other:...on which the shield code is kept...
-other:...we don't have the means to decrypt it. 
-other:It will self destruct if tampered with.
-ego:So that's the bad news?
-other:The bad news is we need a scientist to decrypt the data.
-ego:Can't you just vid-phone one?
-other:No, we can't trust any comms network.
+@1 // Apuesto a que estoy involucrado de alguna manera.
+ego:Apuesto a que estoy involucrado de alguna manera.
+other:Sí, más o menos.
+other:Aunque tenemos el dispositivo de almacenamiento de datos...
+other:...en el que se guarda el código del escudo....
+other:...no tenemos los medios para descifrarlo. 
+other:Se autodestruirá si se manipula.
+ego:¿Así que esas son las malas noticias?
+other:La mala noticia es que necesitamos un científico  para descifrar los datos.
+ego:¿No puedes hacer una videollamada?
+other:No, no podemos confiar en ninguna red de comunicacion.
 option-off 1
 option-off 2
 option-on 3
 option-on 4
 return
 
-@2 // A problem, huh? You guys ever heard of just quitting?
-ego:A problem, huh? You guys ever heard of just quitting?
-other:Amusing. but even you can understand the importance of this.
-other:If we do not save your life and destroy their ships we are all doomed. 
-other:Even us, who were part of the council.
-other:As soon as you are dead and the prophecy fulfilled...
-other:...the council will begin the cleaner attacks again.
-other:There are hardly any people left. What, a good five thousand perhaps.
-other:We need them all to re-populate, to bring us back to where we were a thousand years ago.
-ego:Alright, alright. I was joking. 
-ego:I understand the gravity of the situation.
-other:*sigh*
-other:Even though we have the data storage device...
-other:...on which the shield code is kept...
-other:...we don't have the means to decrypt it. 
-other:It will self destruct if tampered with.
-ego:So that's the bad news?
-other:The bad news is we need a scientist to decrypt the data.
+@2 // Un problema, ¿eh? ¿Habéis oído hablar de renunciar?
+ego:Un problema, ¿eh? ¿Habéis oído hablar de renunciar?
+other:Divertido. Pero incluso tú puedes entender la importancia de esto.
+other:Si no salvamos tu vida y destruimos sus naves, estamos todos condenados. 
+other:Incluso nosotros, que éramos parte del Consejo.
+other:Tan pronto como estés muerto y la profecía se cumpla....
+other:...el Consejo comenzará los ataques de limpieza de nuevo.
+other:Apenas queda gente. Qué, ¿unos buenos cinco mil tal vez.
+other:Necesitamos que todos ellos se repoblen, que nos devuelvan a donde estábamos hace mil años.
+ego:Está bien, está bien. Estaba bromeando.
+ego:Entiendo la gravedad de la situación.
+other:*suspiro*
+other:Aunque tenemos el dispositivo de almacenamiento de datos...
+other:...en el que se guarda el código del escudo....
+other:...no tenemos los medios para descifrarlo.
+other:Se autodestruirá si se manipula.
+ego:¿Así que esas son las malas noticias?
+other:La mala noticia es que necesitamos un científico para descifrar los datos.
 option-off 1
 option-off 2
 option-on 3
 option-on 4
 return
 
-@3 // And where is this scientist?
-ego:And where is this scientist?
-ego:...That I'm going to agree to pick up for you...
-ego:...Without you even asking...
-ego:...Because I know you're going to ask me.
-ego:It seems like you guys don't have anyone but me working for you.
-other:Well, we do have more than one person working for us...
-other:...it's just they're... well.. busy.
-ego:Riiiight. Busy.
-other:Our head scientist is stuck on Qucieda in KP-FQ1.
-ego:Great, that's a long way away!
-other:There is good news.
-ego:What?
-other:No wait, there isn't any good news. 
-other:I was thinking of something else.
-other:You'll need to pick him up and bring him back here.
-other:Make sure you have enough free cabin space on your ship.
-other:Will you do it?
-ego:I suppose I'm not going to get anything for this, right?
-other:Right. That was the good news, for me at least.
+@3 // ¿Y dónde está ese científico?
+ego:¿Y dónde está ese científico?
+ego:...que yo aceptaré recoger por ti...
+ego:...sin ni siquiera preguntar...
+ego:...Porque sé que me lo vas a pedir.
+ego:Parece que no tienen a nadie más que a mí trabajando para ustedes.
+other:Bueno, tenemos más de una persona trabajando para nosotros....
+other:...es que están... bueno... ocupados.
+ego:Biiiieeen. Ocupado.
+other:Nuestro científico en jefe está atrapado en Qucieda en KP-FQ1.
+ego:Genial, ¡está muy lejos!
+other:Hay buenas noticias.
+ego:Cuales?
+other:No, espera, no hay buenas noticias. 
+other:Estaba pensando en otra cosa.
+other:Tendrás que recogerlo y traerlo de vuelta aquí.
+other:Asegúrate de tener suficiente espacio libre en la cabina de tu nave.
+other:¿Lo harás?
+ego:Supongo que no voy a conseguir nada por esto, ¿verdad?
+other:Cierto. Esas fueron las buenas noticias, al menos para mí.
 option-off 3
 option-off 4
 option-on 5
@@ -84,26 +84,26 @@ option-on 6
 return
 
 
-@4 // Don't tell me..
-ego:Don't tell me..
-ego:they need picking up. by me. with my ship.
-ego:and there won't be any reward.
-other:The reward is the work itself!
-other:If you don't help us you're as good as dead.
-other:That, I think, is payment itself.
-other:wouldn't you think?
-ego:yeah, I suppose. So what do you need?
-other:Our head scientist is stuck on Qucieda in KP-FQ1.
-ego:my god, so far away!
-other:There is good news.
-ego:What?
-other:No wait, there isn't any good news.
-other:I was thinking of something else.
-other:You'll need to pick him up and bring him back here.
-other:Make sure you have enough cabin space on your ship.
-other:Will you do it?
-ego:I suppose I'm not going to get anything for this, right?
-other:Right. That was the good news, for me at least.
+@4 // No me digas...
+ego:No me digas...
+ego:Necesitan ser recogidos, por mí, con mi nave.
+ego:y no habrá ninguna recompensa.
+other:La recompensa es el trabajo en sí mismo!
+other:Si no nos ayudas, es como si estuvieras muerto.
+other:Eso, creo, es el pago en sí mismo.
+other:¿no te parece?
+ego:Sí, supongo que sí. Entonces, ¿qué necesitas?
+other:Nuestro científico en jefe está atrapado en Qucieda en KP-FQ1.
+ego:Dios mío, ¡tan lejos!
+other:Hay buenas noticias.
+ego:Cuales?
+other:No, espera, no hay buenas noticias.
+other:Estaba pensando en otra cosa.
+other:Tendrás que recogerlo y traerlo de vuelta aquí.
+other:Asegúrese de tener suficiente espacio en la cabina de su nave.
+other:¿Lo harás?
+ego:Supongo que no voy a conseguir nada por esto, ¿verdad?
+other:Cierto. Esas fueron las buenas noticias, al menos para mí.
 option-off 3
 option-off 4
 option-on 5
@@ -112,21 +112,21 @@ return
 
 
 
-@5 // Yeah, I'll do it.
-ego:Yeah, I'll do it.
-other:Great. Bring him back here as quick as possible.
-other:Watch out for cleaner scouts. if you see any, just run.
-other:You can't win. Not yet anyway.
-ego:Right.
+@5 // Sí, yo lo haré.
+ego:Sí, yo lo haré.
+other:Genial. Tráiganlo aquí lo más rápido posible.
+other:Cuidado con los exploradores limpiadores. Si ves alguno, corre.
+other:No puedes ganar. Todavía no, de todos modos.
+ego:Correcto.
 setMissionAnswer 1
 stop
 
-@6 // Not right now.
-ego:Not right now.
-other:Very well, if you really do have something more pressing...
-other:...than saving the galaxy and yourself...
-other:...good luck in accomplishing whatever it is...
-other:...and come back and see me when you're done.
-ego:Hey, I got other stuff to do you know.
+@6 // No en este momento.
+ego:No en este momento.
+other:Muy bien, si realmente tienes algo más urgente....
+other:...que salvar la galaxia y a ti mismo....
+other:...buena suerte en lograr lo que sea que hagas....
+other:...y vuelve a verme cuando termines.
+ego:Tengo otras cosas que hacer.
 setMissionAnswer 0
 stop

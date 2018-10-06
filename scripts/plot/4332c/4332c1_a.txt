@@ -1,18 +1,18 @@
 //begin
-// [x] 1 - "Alright, I'll hurry."
+// [x] 1 - "De acuerdo, me apuraré."
 //end
 
 
 @S 
-other:Your search grid asteroid belts are in waessda and aresswa.
-other:Search there. 
-other:When you have found a device, tractor-beam it back here.
-other:Leave it outside the station and board.
-other:We'll have our head scientist study it.
-other:Be as quick as you can.
+other:Su cuadrícula de búsqueda de cinturones de asteroides están en waessda y aresswa.
+other:Busca allí. 
+other:Cuando haya encontrado un dispositivo, muévalo con el rayo tractor hasta aquí.
+other:Déjelo fuera de la estación y aborde.
+other:Haremos que nuestro científico en jefe lo estudie.
+other:Sea lo más rápido que pueda.
 option-on 1
 return
 
 @1
-ego:Alright, I'll hurry.
+ego:De acuerdo, me apuraré.
 stop

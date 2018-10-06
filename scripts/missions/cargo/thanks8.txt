@@ -1,24 +1,24 @@
 //begin
-// [x] 1 - "Yeah. Easy.."
-// [x] 2 - "No. I did some other stuff on the way."
+// [x] 1 - "Si! Sencillo."
+// [x] 2 - "No. Hice otras cosas en el camino."
 //end
 
 @S
-ego:Your cargo has been delivered.
-other:Thanks. Your money has been credited to you.
-other:Was it straight forward?
+ego:Su carga ha sido entregada.
+other:Gracias. Su dinero le ha sido acreditado.
+other:¿Fue sencillo?
 option-on 1
 option-on 2
 return
 
 @1 
-ego:Yeah. Easy.
-other:Cool. I'll tell my friends you did a good job.
-ego:Thanks, must go.
+ego:Si! Sencillo.
+other:Genial. Les diré a mis amigos que hiciste un buen trabajo.
+ego:Gracias, debo irme.
 stop
 
 @2
-ego:No. I did some other stuff on the way. 
+ego:No. Hice otras cosas en el camino. 
 other:Really? Not bounty hunting!?
 ego:With your cargo, of course not.
 other:I should hope not!
