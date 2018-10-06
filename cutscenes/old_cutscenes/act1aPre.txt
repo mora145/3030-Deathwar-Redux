@@ -20,8 +20,8 @@ dialogue
 {
 
 helper:Eso es lo que escuche.
-goon:De verdad?
-goon:Capitan Liu?
+goon:¿De verdad?
+goon:¿Capitan Liu?
 helper:Si.
 helper:Ella tenia su nueva nave confiscada.
 goon:El jefe estara contento.
@@ -30,11 +30,11 @@ helper:Si.
 helper:Asi que no nos molestaremos en advertirle.
 helper:Entonces no tendremos que tratar con su ingeniero jefe.
 goon:Si, lo recuerdo. Puede volverse loco.
-helper:Seguro que reconoceras a este otro tipo?
+helper:¿Seguro que reconoceras a este otro tipo?
 goon:Si. Es un humano con sombrero.
 goon:Escuche esta historia....
 goon:Miembros lideres del consejo involucrados en un circulo de pervertidos sexuales.
-goon:Con ninos.
+goon:Con niños.
 helper:Malditos bastardos enfermos.
 goon:Malditos bastardos enfermos.
 goon:Comparativamente, nuestra criminalidad es honorable.
@@ -42,7 +42,7 @@ helper:Si.
 helper:Escuche que el jefe estaba buscando a uno de mi especie.
 helper:Durante su estancia en una prision de maxima seguridad.... 
 helper:...habia uno en su bloque.
-helper:Ha estado tratando de rastrearlo durante anos.
+helper:Ha estado tratando de rastrearlo durante años.
 goon:Termina de contarme eso mas tarde.
 goon:Aqui viene...
 

@@ -1,20 +1,20 @@
 //begin
-// [x] 1 - "Erm... password, MEGABALL?"
+// [x] 1 - "Erm... ¿contraseña, MEGABOLA?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Good day to you sir, how can I help you?
+other:Buenos días, señor, ¿en qué puedo ayudarle?
 return
 
 
-@1 // Erm... password, MEGABALL?
-ego:Erm... password, MEGABALL?.
-other:Password accepted. Geri told me the clue is Aolol.
-ego:Aolol. I got it, great.
-other:I hope that means something to you, Sir.
-other:The clue has been added to your contact list.
-other:Goodbye sir.
+@1 // Erm... ¿contraseña, MEGABOLA?
+ego:Erm... ¿contraseña, MEGABOLA?
+other:Contraseña aceptada. Geri me dijo que la pista es Aolol.
+ego:Aolol. Lo tengo, genial.
+other:Espero que eso signifique algo para usted, señor.
+other:La pista ha sido añadida a tu lista de contactos.
+other:Adiós señor.
 setMissionAnswer 1
 stop

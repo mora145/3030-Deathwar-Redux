@@ -1,20 +1,20 @@
 //begin
-// [x] 1 - "No problem."
-// [x] 2 - "Have a good day."
+// [x] 1 - "No hay problema."
+// [x] 2 - "Que tengas un buen día."
 //end
 
 @S
-ego:Here you go.
-other:Hey, thanks!
+ego:Aquí tienes.
+other:Hey, ¡gracias!
 option-on 1
 return 
 
 @1
-ego:No problem.
+ego:No hay problema.
 stop
 
 @2
-ego:Have a good day.
-other:Hey, what's a day?
-ego:Never mind.
+ego:Que tengas un buen día.
+other:Oye, ¿qué es un día?
+ego:No importa.
 stop

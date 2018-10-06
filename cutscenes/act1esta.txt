@@ -28,7 +28,7 @@ boss:¡El Largo, por supuesto!:data/voice/act1esta/d.wav
 
 text
 {
-ACTO I: El carguero de Largo
+ACTO I: El 'Largo'
 }
 
 animation

@@ -32,12 +32,12 @@ falcon:Me llamo Falcon...
 falcon:John Falcon.
 helper:Falcon eh?
 falcon:Es el nombre que uso hoy dia.
-helper:Ok senor Falcon. Prestame atencion.
+helper:Ok senor Falcon, prestame atencion.
 helper:Aqui en Andinti el trabajo de rescate esta prohibido.
-falcon:Oh, en serio?
-falcon:Por quien?
+falcon:¿Oh, en serio?
+falcon:¿Por quien?
 goon:Por nosotros. Trabajamos para un senor pirata.
-falcon:Asi que asi son las cosas por aqui?
+falcon:¿Asi que asi son las cosas por aqui?
 helper:Si. ¡Has sido advertido!
 goon:Es lo que es.
 falcon:Gracias por la advertencia, pero hare lo que me plazca.

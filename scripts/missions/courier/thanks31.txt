@@ -1,11 +1,11 @@
 //begin
-// [x] 1 - "No problem."
-// [x] 2 - "Have fun with it."
+// [x] 1 - "No hay problema."
+// [x] 2 - "Diviértete con eso."
 //end
 
 @S
-ego:Here you go. Don't drop it.
-other:A package. Great.
+ego:Aquí tienes. No lo dejes caer.
+other:Un paquete. Genial.
 option-on 1
 return 
 
@@ -14,9 +14,9 @@ return
 ego:No problem.
 stop
 
-@2 // Have fun with it.
-ego:Have fun with it.
-other:That's made my day.
-other:Have a good one.
+@2 // Diviértete con eso.
+ego:Diviértete con eso.
+other:Esto me alegró el día.
+other:Que tengas un buen día.
 
 stop

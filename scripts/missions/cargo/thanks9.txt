@@ -1,26 +1,26 @@
 //begin
-// [x] 1 - "Yeah, but my ship can outrun anything."
-// [x] 2 - "No. I hardly dropped out of split mode."
+// [x] 1 - "Sí, pero mi nave puede huir de cualquier cosa."
+// [x] 2 - "No. Apenas salí del modo división."
 //end
 
 @S
-ego:Your cargo has been delivered.
-other:Thanks. Your money has been credited to you.
-other:Did you get attacked on the way?
+ego:Su carga ha sido entregada.
+other:Gracias. Su dinero le ha sido acreditado.
+other:¿Te atacaron en el camino?
 option-on 1
 option-on 2
 return
 
 @1 
-ego:Yeah, but my ship can outrun anything.
-other:They always chase me. pisses me off.
-ego:Get some upgrades and give em some back.
-other:Yeah, I should. Thanks again.
+ego:Sí, pero mi nave puede huir de cualquier cosa.
+other:Siempre me persiguen. Me cabrea.
+ego:Consigue algunas mejoras y regresateNo hay problema..
+other:Sí, debería. Gracias de nuevo.
 ego:No problem.
 stop
 
 @2
-ego:No. I hardly dropped out of split mode. 
-other:I see. That's wise these days.
-ego:I'm going to get some fuel in.
+ego:No. Apenas salí del modo división.
+other:Ya veo. Eso es sabio en estos días.
+ego:Voy a poner algo de combustible.
 stop

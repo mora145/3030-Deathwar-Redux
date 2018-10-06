@@ -1,29 +1,29 @@
 //begin
-// [x] 1 - "Gimme a drink."
-// [ ] 2 - "Gimme a Vodka."
-// [ ] 3 - "Hit me with a Macalacharraca."
-// [ ] 4 - "You got any coffee?"
-// [ ] 5 - "Tastes good."
-// [ ] 6 - "This tastes like Froog!"
-// [x] 7 - "See you later."
-// [x] 8 - "Heard any news?"
-// [x] 9 - "You got any jobs here?"
-// [ ] 10 - "Actually, I changed my mind."
+// [x] 1 - "Dame un trago."
+// [ ] 2 - "Dame un vodka."
+// [ ] 3 - "Dame un Macalacharraca."
+// [ ] 4 - "¿Tienes algo de café?"
+// [ ] 5 - "Sabe bien."
+// [ ] 6 - "¡Esto sabe a rana!"
+// [x] 7 - "Nos vemos luego."
+// [x] 8 - "¿Has oído alguna noticia?"
+// [x] 9 - "¿Tienes algún trabajo aquí?"
+// [ ] 10 - "En realidad, cambié de opinión."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Mmmmm good day to you, Sir.
-ego:Hi there.
-other:How may I be of service?
-ego:Let's see.....
+other:Mmmmmm buen día para usted, señor.
+ego:Hola, hola.
+other:¿En qué puedo servirle?
+ego:Veamos.......
 return
 
 
-@1 // Gimme a drink.
-ego:Gimme a drink.
-other:Yes Sir, here's the menu.
+@1 // Dame un trago.
+ego:Dame un trago.
+other:Sí, señor, aquí está el menú.
 option-on 2
 option-on 3
 option-on 4
@@ -33,12 +33,12 @@ option-off 8
 option-off 9
 return
 
-@2 // Gimme an Vodka
-ego:Hit me with a Vodka.
-other:Coming right up Sir.
+@2 // Dame un vodka.
+ego:Dame un vodka.
+other:Enseguida, señor.
 ego:*Gulp*
 ego:*aahhh*
-takeMoney,100,DRINK AT THE BAR
+takeMoney,100,BEBIDA EN EL BAR
 option-off 2
 option-off 3
 option-off 4
@@ -47,14 +47,14 @@ option-on 5
 option-on 6
 return
 
-@3 // Hit me with a Macalacharraca
-ego:Hit me with a Macalacharraca.
-other:Yes sir, one Macalacharraca coming up.
-other:Here you are - enjoy!
-ego:Thanks.
+@3 // Dame un Macalacharraca
+ego:Dame un Macalacharraca
+other:Sí señor, un Macalacharraca en camino.
+other:Aquí tiene - ¡disfrútelo!
+ego:Gracias.
 ego:*sip sip*
-other:How is it, Sir?
-takeMoney,250,BOUGHT A MACALACHARRACA
+other:¿Cómo está, señor?
+takeMoney,250,COMPRA UN MACALACHARRACA
 offerDrinkAchievement
 option-off 2
 option-off 3
@@ -64,22 +64,22 @@ option-on 5
 option-on 6
 return
 
-@4 // You got any coffee?
-ego:You got any coffee?
-other:No no, no coffee.
-ego:Why's that?
-other:I never heard of it.
-ego:Coffee?
-other:No, you want anything else, Sir?
+@4 // ¿Tienes algo de café?
+ego:¿Tienes algo de café?
+other:No, no, no hay café.
+ego:¿Por qué?
+other:Nunca he oído hablar de él.
+ego:Café?
+other:No, ¿quiere algo más, señor?
 option-off 4
 option-on 2
 option-on 3
 option-on 10
 return
 
-@5 // Tastes good.
-ego:Tastes good.
-other:Thank you for your custom.
+@5 // Sabe bien.
+ego:Sabe bien.
+other:Gracias por tu amabilidad.
 option-on 8
 option-on 9
 option-on 7
@@ -88,12 +88,12 @@ option-off 6
 return
 
 
-@6 // This tastes like Froog!
-ego:This tastes like Froog!
-other:I'm sorry Sir, no refunds.
-ego:But I didn't order this!
-other:I'm sorry Sir.
-ego:Sorry enough to replace it with what I ordered?
+@6 // ¡Esto sabe a rana!
+ego:¡Esto sabe a rana!
+other:Lo siento, señor, no hay devoluciones.
+ego:¡Pero yo no pedí esto!
+other:Lo siento señor.
+ego:¿Lo suficiente como para reemplazarlo con lo que pedí?
 other:No.
 option-on 8
 option-on 9
@@ -102,31 +102,31 @@ option-off 5
 option-off 6
 return
 
-@7 // See you later
-ego:See you later. 
-other:Good day, Sir.
-ego:Yeah.
+@7 // Nos vemos luego
+ego:Nos vemos luego
+other:Que tenga un buen día, señor.
+ego:Si!
 stop
 
-@8 // Heard any news?
-ego:Heard any news?
-other:No Sir, no one talks to me.
+@8 // ¿Has oído alguna noticia?
+ego:¿Has oído alguna noticia?
+other:No señor, nadie habla conmigo.
 option-off 8 
 return
 
 
-@9 // You got any jobs here?
-ego:You got any jobs here?
-other:Check the consoles for that Sir.
+@9 // ¿Tienes algún trabajo aquí?
+ego:¿Tienes algún trabajo aquí?
+other:Revise las consolas para ver si hay algo de eso, señor.
 option-off 9
 option-on 7
 return
 
-@10 // Actually, I changed my mind.
-ego:Actually, I changed my mind.
-other:Very well, sir.
-other:Is there something wrong with the one you have?
-ego:Never mind.
+@10 // En realidad, cambié de opinión.
+ego:En realidad, cambié de opinión.
+other:Muy bien, señor.
+other:¿Hay algo malo con el que tienes?
+ego:No importa.
 option-off 10
 option-off 4
 option-off 3

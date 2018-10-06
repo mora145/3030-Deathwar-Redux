@@ -1,20 +1,20 @@
 //begin
-// [x] 1 - "Uhh... Entschuldigung?"
-// [x] 2 - "You have a nice day now."
+// [x] 1 - "Uhh.... ¿Entschuldigung?"
+// [x] 2 - "Que tengas un buen día."
 //end
 
 @S
-ego:I have a package for you.
-other:Endlich ist es da! Was hat so lang gedauert?
+ego:Tengo un paquete para ti.
+other:Por fin ha llegado! ¿Por qué tardaste tanto?
 option-on 1
 option-on 2
 return 
 
-@1 // Uhh... Entschuldigung?
-ego:Uhh... Entschuldigung?
-other:Ach, schon gut. Danke mein Lieber!
+@1 // Uhh.... ¿Perdón?
+ego:Uhh.... ¿Perdón?
+other:Oh, no pasa nada. ¡Gracias, querido!
 stop
 
-@2 // Have fun with it.
-ego:You have a nice day now.
+@2 // Diviértete con eso.
+ego:Que tengas un buen día.
 stop

@@ -19,8 +19,8 @@ stop
 
 @2
 ego:No. Hice otras cosas en el camino. 
-other:Really? Not bounty hunting!?
-ego:With your cargo, of course not.
-other:I should hope not!
-ego:Must split.
+other:¿En serio? ¿¡No se fue de cazarrecompensas!?
+ego:Con su carga, por supuesto que no.
+other:¡Espero que no!
+ego:Tengo que irme.
 stop

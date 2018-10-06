@@ -1,20 +1,20 @@
 //begin
-// [x] 1 - "No problem."
-// [x] 2 - "Have fun with it."
+// [x] 1 - "No hay problema."
+// [x] 2 - "Diviértete con eso."
 //end
 
 @S
-ego:Here! I think there's something alive in this!
-other:For me! great!
+ego:¡Aquí! ¡Creo que hay algo vivo en esto!
+other:¡Para mí! ¡Genial!
 option-on 1
 return 
 
 
 @1 
-ego:No problem.
+ego:No hay problema.
 stop
 
-@2 // Have fun with it.
-ego:Have fun with it.
-other:Thanks.
+@2 // Diviértete con eso.
+ego:Diviértete con eso.
+other:Gracias.
 stop

@@ -1,24 +1,24 @@
 //begin
-// [x] 1 - "No problem."
-// [x] 2 - "Be well."
+// [x] 1 - "No hay problema."
+// [x] 2 - "Que estés bien."
 //end
 
 
 @S
-ego:Here's your package.
+ego:Aquí está tu paquete.
 other:Hey, didn't you deliver a package to me last week?
-ego:Maybe. I do a lot some weeks.
-other:Anyway thanks for this.
+ego:Tal vez. Hace muchas semanas.
+other:De todos modos, gracias por esto.
 option-on 1
 return 
 
 @1 
-ego:No problem.
+ego:No hay problema.
 stop
 
 
 @2 
-ego:Be well.
-other:Live long.
+ego:Que estés bien.
+other:Larga vida.
 stop
 

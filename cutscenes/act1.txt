@@ -24,10 +24,10 @@ dialogue
 bosschair:Hasta que encontremos al Largo....:data/voice/act1/act1-a.wav
 bosschair:...Avisa a todos los recuperadores.:data/voice/act1/act1-c.wav
 bosschair:Mata a los que no entiendan el mensaje.
-helper:Si, señor.:data/voice/act1/act1-d.wav
+helper:Si señor!:data/voice/act1/act1-d.wav
 goon:¡Bien, esa nave es nuestra!:data/voice/act1/act1-e.wav
-helper:Es una nave grande. La encontraremos pronto, senor.:data/voice/act1/act1-f.wav
-bosschair:¡Cuando desaparecio estaba llena de oro, chicos!:data/voice/act1/act1-g.wav
+helper:Es una nave grande. La encontraremos pronto señor.:data/voice/act1/act1-f.wav
+bosschair:¡Cuando desaparecio estaba llena de oro chicos!:data/voice/act1/act1-g.wav
 bosschair:Nueve...
 bosschair:Mil...
 bosschair:Toneladas.:data/voice/act1/act1-i.wav

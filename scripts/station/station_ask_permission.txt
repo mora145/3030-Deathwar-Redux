@@ -32,8 +32,8 @@ stop
 other:La tasa de atraque se ha fijado en 4$ en los últimos 120 años, señor.
 ego:¿Es probable que cambie alguna vez?
 other:Me arriesgaría y diría que no.
-ego:Suenas muy seguro. ¿Eres amigo de los líderes del consejo?
-other:No, señor. Estoy muy ocupado. 
+ego:Suenas muy seguro. ¿Eres amigo de los líderes del Consejo?
+other:No señor. Estoy muy ocupado. 
 stop
 
 @4 // multas?

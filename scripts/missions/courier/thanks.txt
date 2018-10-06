@@ -1,41 +1,41 @@
 //begin
-// [x] 1 - "No problem."
-// [x] 2 - "Have fun with it."
-// [x] 3 - "I'm going to be a mighty pirate."
+// [x] 1 - "No hay problema."
+// [x] 2 - "Diviértete con eso."
+// [x] 3 - "Voy a ser un poderoso pirata."
 //end
 
 @S
-ego:Here's your package
-other:Thank you!
+ego:Aquí está tu paquete.
+other:Gracias!
 option-on 1
 return 
 
 
 @1 
-ego:No problem.
+ego:No hay problema.
 stop
 
-@2 // Have fun with it.
-ego:Have fun with it.
-other:Yeah, I will.
-other:Can't wait to open it.
-ego:Let me know if you need a delivery.
-other:Thank you Sir.
+@2 // Diviértete con eso.
+ego:Diviértete con eso.
+other:Sí, lo haré.
+other:No puedo esperar a abrirlo.
+ego:Avísame si necesitas una entrega.
+other:Gracias señor.
 stop
 
-@3 // I am going to be a mighty pirate.
-ego:I am going to be a mighty pirate.
-other:Well hope that works out for you.
-other:Last pirate I knew was shot.
-other:In the face.
-other:...and the crotch.
-other:...and the buttocks.
-other:It was all one incident.
-ego:And then?
-other:He was in the news.
-other:It's a tough vocation.
-ego:Well, I'm gonna get well far.
-other:Good to know, don't come after me though.
-other:Thanks for the package.
+@3 // Voy a ser un poderoso pirata.
+ego:Voy a ser un poderoso pirata.
+other:Bueno, espero que eso funcione para ti.
+other:El último pirata que conocí fue baleado.
+other:En la cara.
+other:...y la entrepierna.
+other:...y las nalgas.
+other:Todo fue un solo incidente.
+ego:Y entonces?
+other:Salió en las noticias.
+other:Es una vocación difícil.
+ego:Bueno, me voy a recuperar (trabajar recuperando).
+other:Es bueno saberlo, pero no vengas a por mí.
+other:Gracias por el paquete.
 
 stop

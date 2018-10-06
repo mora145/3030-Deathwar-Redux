@@ -1,25 +1,25 @@
 //begin
-// [x] 1 - "No problem."
-// [x] 2 - "Have fun with it."
+// [x] 1 - "No hay problema."
+// [x] 2 - "Diviértete con eso."
 //end
 
 @S
-ego:Here's your package.
-other:What package?
-other:Oh, do I have to pay you?
-ego:No, It's pre-paid in escrow.
-ego:I'll be paid once you accept it.
-other:Ok. Thanks.
+ego:Aquí está tu paquete.
+other:¿Qué paquete?
+other:Oh, ¿tengo que pagarte?
+ego:No, se paga por adelantado en el depósito.
+ego:Me pagarán una vez que lo aceptes.
+other:Ok. Gracias.
 option-on 1
 return 
 
 
 @1 
-ego:No problem.
+ego:No hay problema.
 stop
 
-@2 // Have fun with it.
-ego:Have fun with it.
-other:I'll keep it until I get to my ship.
-other:Thank you.
+@2 // Diviértete con eso.
+ego:Diviértete con eso.
+other:Lo guardaré hasta que llegue a mi nave.
+other:Gracias.
 stop

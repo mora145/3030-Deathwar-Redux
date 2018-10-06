@@ -15,9 +15,9 @@ dialogue
 goon:Este periodico es una mierda.
 boss:Por que lo compraste entonces?
 boss:Estoy rodeado de idiotas.
-helper:Disculpe, senor.
+helper:Disculpe senor.
 boss:Pasa el tiempo con algo no tan malo.
-goon:Nah. Me mantiene informado.
+goon:Nah, me mantiene informado.
 boss:Mal informado.
 goon:Es lo que es.
 helper:Capitan...
@@ -39,8 +39,8 @@ goon:¡Metete en su cagadero!
 helper:Si tenemos suerte, Falcon no estara armado.
 boss:Informame cuando este hecho.
 goon:De acuerdo.
-helper:Si, senor.
-helper:En 5 minutos, John Falcon morira.
+helper:Si señor.
+helper:En 5 minutos John Falcon morira.
 
 }
 

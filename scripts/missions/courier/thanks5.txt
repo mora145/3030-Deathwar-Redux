@@ -1,20 +1,20 @@
 //begin
-// [x] 1 - "Mhhh.... De rien?"
-// [x] 2 - "I have stuff to do."
+// [x] 1 - "Mhhh... De nada?"
+// [x] 2 - "Tengo cosas que hacer."
 //end
 
 @S
-ego:I have a package for you.
+ego:Tengo un paquete para ti.
 other:Je l'attendais. Merci.
 option-on 1
 option-on 2
 return 
 
 @1 
-ego:Mhhh.... De rien?
+ego:Mhhh... De nada?
 other:Au revoir mon ami.
 stop
 
-@2 // I have stuff to do.
-ego:I have stuff to do.
+@2 // Tengo cosas que hacer.
+ego:Tengo cosas que hacer.
 stop

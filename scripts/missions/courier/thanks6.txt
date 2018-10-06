@@ -1,21 +1,21 @@
 //begin
-// [x] 1 - "No problem."
-// [x] 2 - "Yes it's a great service!"
+// [x] 1 - "No hay problema."
+// [x] 2 - "Sí, es un buen servicio!"
 //end
 
 @S
-ego:I've got something for you.
-other:Wow, that's great service! Thanks!
+ego:Tengo algo para ti.
+other:Wow, eso es un buen servicio! Gracias!
 option-on 1
 return 
 
 @1 
-ego:No problem.
+ego:No hay problema.
 stop
 
-@2 // Yes it's a great service!
-ego:Yes it's a great service!
-other:It is!
-ego:Let me know if you need a delivery!
-other:I will!
+@2 // Sí, es un buen servicio!
+ego:Sí, es un buen servicio!
+other:Lo es!
+ego:Hazme saber si necesitas una entrega!
+other:¡Lo haré!
 stop

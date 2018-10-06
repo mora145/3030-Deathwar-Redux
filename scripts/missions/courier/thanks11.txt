@@ -1,22 +1,22 @@
 //begin
-// [x] 1 - "No problem."
-// [x] 2 - "Have fun with it."
+// [x] 1 - "No hay problema."
+// [x] 2 - "Diviértete con eso."
 //end
 
 @S
-ego:Be careful, it's heavy!
-other:Been waiting a while for this. Thanks!
+ego:¡Cuidado, que pesa!
+other:He estado esperando esto por un buen rato. ¡Gracias!
 option-on 1
 return 
 
 @1 
-ego:No problem.
+ego:No hay problema.
 stop
 
-@2 // Have fun with it.
-ego:Have fun with it.
-other:Fun? It's not that sort of package.
-ego:Ok, well here it is.
-other:Thank you for the delivery Sir.
+@2 // Diviértete con eso.
+ego:Diviértete con eso.
+other:¿Divertido? No es ese tipo de paquete.
+ego:Ok, bueno, aquí está.
+other:Gracias por la entrega señor.
 
 stop
