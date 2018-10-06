@@ -1,31 +1,31 @@
 //begin
-// [x] 1 - "Seems someone is looking for you."
-// [x] 2 - "No, just accidentally started talking to you."
-// [ ] 3 - "Yeah, sounds good to me."
-// [ ] 4 - "No, I'll complete my mission like I ought to."
-// [ ] 5 - "I really don't want anything."
-// [ ] 6 - "It's none of your damned business what I want."
-// [ ] 7 - "I've been sent to find you."
+// [x] 1 - "Parece que alguien te está buscando."
+// [x] 2 - "No, sólo que accidentalmente empecé a hablar contigo."
+// [ ] 3 - "Sí, suena bien para mí."
+// [ ] 4 - "No, completaré mi misión como debería."
+// [ ] 5 - "Realmente no quiero nada."
+// [ ] 6 - "No es asunto tuyo lo que yo quiero."
+// [ ] 7 - "Me han enviado a buscarte."
 //end
 
 
 @S
-other:Can I help you?
+other:¿Puedo ayudarte?
 option-on 1
 option-on 2
 return
 
 @1
-ego:Seems someone is looking for you.
-other:Oh yeah? Who?
-ego:Can't really say. Confidentiality and all that.
-other:Well, maybe I don't want to be found.
-ego:Say what?
-other:How much is this mystery person offering you?
-ego:I can't say. Why?
-other:Well, maybe I'll pay you $5,000 right now to cancel your job and go away.
-ego:So you want to pay me off?
-other:What do you say?
+ego:Parece que alguien te está buscando.
+other:Oh si? ¿Quién?
+ego:No puedo decirlo. La confidencialidad y todo eso.
+other:Bueno, tal vez no quiero que me encuentren.
+ego:¿Que les diga qué?
+other:¿Cuánto te ofrece esta persona misteriosa?
+ego:No puedo decirlo.¿Por qué?
+other:Quizá te pague 5.000$ ahora mismo para que canceles tu trabajo y te vayas.
+ego:¿Así que quieres pagarme?
+other:¿Qué dices tú?
 option-off 1
 option-off 2
 option-on 3
@@ -33,9 +33,9 @@ option-on 4
 return
 
 @2
-ego:No, just accidentally started talking to you.
-other:right. That always happens.
-other:What do you really want?
+ego:No, sólo que accidentalmente empecé a hablar contigo.
+other:Correcto. Eso siempre pasa.
+other:¿Qué es lo que realmente quieres?
 option-off 1
 option-off 2
 option-on 5
@@ -44,59 +44,59 @@ option-on 7
 return
 
 @3
-ego:Yeah, sounds good to me.
-other:Yeah, sounds damn good to me, too.
-other:Ok, here's your money.
-other:Now you walk out of here.
-ego:Ok, nice doing business with you.
+ego:Sí, suena bien para mí.
+other:Sí, a mi también me suena condenadamente bien.
+other:Ok, aquí está tu dinero.
+other:Ahora vete de aquí.
+ego:Vale, un placer hacer negocios contigo.
 cancelMissionInvolvingMe
-giveMoney,5000,BRIBE FOR NOT TURNING IN SUSPECT
+giveMoney,5000,SOBORNO POR NO ENTREGAR AL SOSPECHOSO
 setMyselfFreeform
 stop
 
 @4
-ego:No, I'll complete my mission like I ought to.
-other:What? You want to turn me in?
-other:I should kill you right here.
-ego:But you won't.
-ego:We both know that.
-ego:You'd make a scene and get yourself arrested.
-other:So what you going to do?
-ego:Go back and turn you in. I'll get my money and will have done the right thing.
-other:Fuck you.
-ego:No, fuck you.
+ego:No, completaré mi misión como debería.
+other:¿Qué? ¿Quieres entregarme?
+other:Debería matarte aquí mismo.
+ego:Pero no lo harás.
+ego:Ambos lo sabemos.
+ego:Harías una escena y harías que te arrestaran.
+other:Entonces, ¿qué vas a hacer?
+ego:Vuelve y entrégate. Conseguiré mi dinero y habré hecho lo correcto.
+other:Vete a la mierda.
+ego:No, vete a la mierda tu.
 setMyselfFreeform
 stop
 
 @5
-ego:I really don't want anything.
-other:Alright. Then quit bumping into me like you meant to.
-ego:See you around.
+ego:Realmente no quiero nada.
+other:De acuerdo. Entonces deja de toparte conmigo como si quisieras hacerlo.
+ego:Nos vemos por ahí.
 setMyselfFreeform
 stop
 
 @6
-ego:It's none of your damned business what I want.
-other:Seems to me like it might be.
-other:Why you so confrontational?
-other:Got something to hide?
-ego:Got nothing, my friend. nothing.
-ego:See you around.
+ego:No es asunto tuyo lo que yo quiero.
+other:Me parece que podría serlo.
+other:¿Por qué eres tan conflictivo?
+other:¿Tienes algo que ocultar?
+ego:No tengo nada, amigo mío. Nada.
+ego:Nos vemos por ahí.
 setMyselfFreeform
 stop
 
 @7
-ego:I've been sent to find you.
-other:Say what?
-other:Who?
-ego:Can't really say. Confidentiality and all that.
-other:Well, maybe I don't want to be found.
-ego:Say what?
-other:How much is this mystery person offering you?
-ego:I can't say. Why?
-other:Well, maybe I'll pay you $5,000 right now to cancel your job and go away.
-ego:So you want to pay me off?
-other:What do you say?
+ego:Me han enviado a buscarte.
+other:¿Que qué?
+other:¿Quién?
+ego:No puedo decirlo. La confidencialidad y todo eso.
+other:Bueno, tal vez no quiero que me encuentren.
+ego:¿Que les diga qué?
+other:¿Cuánto te ofrece esta persona misteriosa?
+ego:No puedo decírtelo. ¿Por qué?
+other:Quizá te pague 5.000$ ahora mismo para que canceles tu trabajo y te vayas.
+ego:¿Así que quieres pagarme?
+other:¿Qué dices tu?
 option-off 5
 option-off 6
 option-off 7

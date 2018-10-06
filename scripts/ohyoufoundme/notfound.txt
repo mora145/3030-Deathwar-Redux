@@ -1,25 +1,25 @@
 //begin
-// [x] 1 - "Yeah, don't worry. I'll find him."
-// [x] 2 - "Nevermind."
-// [ ] 3 - "What happens when I find him?"
-// [ ] 4 - "Alright. I'll see you later."
+// [x] 1 - "Sí, no te preocupes. Lo encontraré."
+// [x] 2 - "No importa."
+// [ ] 3 - "¿Qué pasará cuando lo encuentre?"
+// [ ] 4 - "De acuerdo. Nos vemos más tarde."
 //end
 
 
 @S
-other:Hey, aren't you supposed to be doing a job for me?
-ego:Yeah, finding someone, right?
-other:That's right. What do you want?
-other:And why aren't you out there doing what I'm paying for?
+other:¿No se supone que deberías estar haciendo un trabajo para mí?
+ego:Sí, encontrar a alguien, ¿verdad?
+other:Eso es correcto. ¿Qué es lo que quieres?
+other:¿Y por qué no estás haciendo para lo que estoy pagando?
 option-on 1
 option-on 2
 return
 
 @1
-ego:Yeah, don't worry. I'll find him.
-other:Good. It's a lot of money. And I haven't seen him in years.
-other:Get on your way.
-other:Come back and see me when you've found him.
+ego:Sí, no te preocupes. Lo encontraré.
+other:Bien. Es mucho dinero. Y no lo he visto en años.
+other:Sigue tu camino.
+other:Vuelve a verme cuando lo encuentres.
 option-off 1
 option-off 2
 option-on 3
@@ -27,21 +27,21 @@ option-on 4
 return
 
 @2
-ego:Nevermind.
-other:Ok, just get going.
+ego:No importa.
+other:Ok, solo vete.
 stop
 
 @3
-ego:What happens when I find him?
-other:Well, you should talk to him to confirm his identity.
-other:Then come back and talk to me. 
-other:When we've talked, I'll pay you your money.
-other:That sound fair?
-ego:Fair enough.
-other:Ok, get going.
+ego:¿Qué pasará cuando lo encuentre?
+other:Bueno, deberías hablar con él para confirmar su identidad.
+other:Entonces vuelve y habla conmigo. 
+other:Cuando hayamos hablado, te pagaré tu dinero.
+other:¿Te parece justo?
+ego:Me parece justo.
+other:De acuerdo, muévete.
 stop
 
 @4
-ego:Alright. I'll see you later.
-other:Good.
+ego:De acuerdo. Nos vemos más tarde.
+other:Bien.
 stop

@@ -1,25 +1,25 @@
 //begin
-// [x] 1 - "No problem, glad I could help."
-// [x] 2 - "See you around."
+// [x] 1 - "No hay problema, me alegro de poder ayudar."
+// [x] 2 - "Nos vemos por ahí."
 //end
 
 
 @S
-other:Thanks for your hard work, I can finally go and see him.
-other:I just hope he doesn't go anywhere before I can get there.
-other:I've paid your money into your account.
-ego:I've put his location into your data cube.
-other:Thanks for helping me out.
+other:Gracias por tu duro trabajo, finalmente puedo ir a verlo.
+other:Sólo espero que no se vaya a ningún lado antes de que yo pueda llegar.
+other:He depositado el dinero en tu cuenta.
+ego:He puesto su ubicación en su contenedor de datos.
+other:Gracias por ayudarme.
 option-on 1
 option-on 2
 return
 
 @1
-ego:No problem, glad I could help.
-other:Good luck, my friend.
+ego:No hay problema, me alegro de poder ayudar.
+other:Buena suerte, amigo mío.
 stop
 
 @2
-ego:See you around.
-other:You too, I hope. Goodbye.
+ego:Nos vemos por ahí.
+other:Ojalá. Adiós.
 stop

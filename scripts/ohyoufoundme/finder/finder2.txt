@@ -1,25 +1,25 @@
 //begin
 // [x] 1 - "Hm, doesn't really matter to me, it's all gravy."
-// [x] 2 - "Hope you catch the bastard."
+// [x] 2 - "Espero que atrapen al bastardo."
 //end
 
 
 @S
-other:Oh you found him. Excellent.
-other:That sonufabitch stole my life savings. I've been looking for him for months.
-ego:But you said he was your friend...
-other:I'm sorry, I had to say that to secure someone's help.
-other:I've put the money into your account.
+other:Oh, lo encontraste. Excelente.
+other:Ese hijo de puta me robó mis ahorros de toda la vida. Lo he estado buscando durante meses.
+ego:Pero dijiste que era tu amigo...
+other:Lo siento, tuve que decir eso para asegurar la ayuda de alguien.
+other:He puesto el dinero en tu cuenta.
 option-on 1
 option-on 2
 return
 
 @1
-ego:Hm, doesn't really matter to me, it's all gravy.
-other:Thank you and good luck, my friend.
+ego:Hm, no me importa, todo es por dinero.
+other:Gracias y buena suerte, amigo mío.
 stop
 
 @2
-ego:Hope you catch the bastard.
-other:I do too. Goodbye.
+ego:Espero que atrapen al bastardo.
+other:Yo también. Adiós.
 stop
