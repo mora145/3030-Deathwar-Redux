@@ -1,74 +1,74 @@
 //begin
-// [ ] 1 - "Tell me more about the mining outpost."
-// [ ] 12 - "Do you need any help?"
-// [ ] 2 - "Is mining profitable?"
-// [ ] 3 - "How do I get into asteroid mining?"
-// [ ] 31 - "How do I find a place to mine?"
-// [x] 4 - "Bye."
+// [ ] 1 - "Cuéntame más sobre el puesto minero."
+// [ ] 12 - "¿Necesitas ayuda?"
+// [ ] 2 - "¿Es rentable la minería?"
+// [ ] 3 - "¿Cómo puedo entrar en la minería de asteroides?"
+// [ ] 31 - "¿Cómo puedo encontrar un lugar para mi?"
+// [x] 4 - "Adiós."
 
 //end
 
 // dialog script file
 @S // dialog startup entry point
-ego:It's me again.
-other:Yes?
+ego:Soy yo otra vez.
+other:¿Si?
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // Tell me more about the mining outpost.
-ego:Tell me more about the mining outpost.
-other:What's to say.
-other:We have a nice community here.
-other:We drink, and talk about how to..
-other:..Boom! Win our independence!
+@1 // Cuéntame más sobre el puesto minero.
+ego:Cuéntame más sobre el puesto minero.
+other:Qué hay para decirte.
+other:Tenemos una bonita comunidad aquí.
+other:Bebemos, y hablamos de cómo...
+other:...Boom! ¡Ganar nuestra independencia!
 option-off 1
 option-on 12
 return
 
-@12 // Do you need any help?
-ego:Do you need any help?
-other:Yes.
-other:Council is paying Pirates to give us trouble.
-other:See any in this system.
-other:Boom! You know what to do Dawg!
+@12 // ¿Necesitas ayuda?
+ego:¿Necesitas ayuda?
+other:Si.
+other:El Consejo está pagando a los Piratas para que nos den problemas.
+other:Si ves a cualquiera en este sistema.
+other:¡Boom! ¡Ya sabes qué hacer, viejo!
 option-off 12
 return
 
 @2 // 2?
-ego:Is mining profitable?
-other:Can be.
-other:But you need a large cargo hold.
-other:Otherwise, bam! You'll be full.
-other:Bigger ship the better.
-ego:I see, I'll think about it.
+ego:¿Es rentable la minería?
+other:Puede serlo.
+other:Pero necesitas una gran bodega de carga.
+other:Si no, ¡bam! Estarás lleno.
+other:Cuanto más grande sea la nave, mejor.
+ego:Ya veo, lo pensaré.
 option-off 2
 return
 
-@3 // How do I get into asteroid mining??
-ego:How do I get into asteroid mining?
-other:You forgot already?
-other:Dawg, it's easy as.
+@3 // ¿Cómo puedo entrar en la minería de asteroides?
+ego:¿Cómo puedo entrar en la minería de asteroides?
+other:¿Ya te olvidaste?
+other:Viejo, es muy fácil.
 other:Bam! 
-other:Get yourself a Tractor Beam.
-other:Get yourself an Asteroid Survey Scanner.
-other:And Bam Boom!
+other:Consíguete un rayo tractor.
+other:Consíguete un escáner de asteroides.
+other:Y Bam Boom!
 option-off 3
 option-on 31
 return
 
-@31 // How do I find a place to mine?
-ego:How do I find a place to mine?
-other:I told you.
-other:Use your map, the big brown dots..
-other:Asteroid clusters.
-other:Go select one, try your luck.
+@31 // ¿Cómo puedo encontrar un lugar para mi?
+ego:¿Cómo puedo encontrar un lugar para mi?
+other:Ya te lo he dicho.
+other:Usa tu mapa, los grandes puntos marrones...
+other:Cúmulos de asteroides.
+other:Elige uno, prueba tu suerte.
 option-off 31
 return
 
-@4 // Bye
-ego:Bye.
-other:Bye.
+@4 // Adiós
+ego:Adiós.
+other:Adiós.
 Stop
 

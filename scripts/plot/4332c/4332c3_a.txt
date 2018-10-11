@@ -1,30 +1,30 @@
 //begin
-// [x] 1 - "ok, I'm on my way."
-// [x] 2 - "I'm on it, calm down."
-// [x] 3 - "Jus' chillax, homes."
-// [x] 4 - "Dude. I'm on it. K?"
+// [x] 1 - "Ok, estoy en camino."
+// [x] 2 - "Estoy en ello, cálmate."
+// [x] 3 - "El relajamiento de Jus, amigo."
+// [x] 4 - "Amigo. Estoy en ello. OK?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:I see you're still here. Pick up the scientist to help us analyse the data.
-other:Check your mission log for further information.
+other:Veo que todavía estás aquí. Recoja al científico para que nos ayude a analizar los datos.
+other:Revise el registro de su misión para más información.
 return
 
-@1 // ok, I'm on my way.
-ego:ok, I'm on my way.
+@1 // Ok, estoy en camino.
+ego:Ok, estoy en camino.
 stop
 
 
-@2 // ok
-ego:I'm on it, calm down.
+@2 // Estoy en ello, cálmate.
+ego:Estoy en ello, cálmate.
 stop
 
 @3
-ego:Jus' chillax, homes.
+ego:El relajamiento de Jus, amigo.
 stop
 
 @4
-ego:Dude. I'm on it. K?
+ego:Amigo. Estoy en ello. OK?
 stop

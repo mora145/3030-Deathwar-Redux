@@ -1,15 +1,15 @@
 //begin
-// [x] 1 - "I'm on my way."
+// [x] 1 - "Estoy en camino."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:The cleaners are still not aware we have their code.
-other:This is the perfect moment to strike.
-other:Time to get out there and fight.
+other:Los limpiadores aún no saben que tenemos su código.
+other:Este es el momento perfecto para atacar.
+other:Es hora de salir y pelear.
 return
 
-@1 // ok, I'm on my way.
-ego:I'm on my way.
+@1 // Ok, estoy en camino.
+ego:Ok, estoy en camino.
 stop

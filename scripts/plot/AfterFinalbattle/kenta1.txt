@@ -1,9 +1,9 @@
 //begin
-// [x] 1 - "Kent!"
-// [x] 2 - "Where have you been?"
-// [x] 3 - "There you are little buddy!"
+// [x] 1 - "¡Kent!"
+// [x] 2 - "¿Dónde has estado?"
+// [x] 3 - "¡Ahí estás, amiguito!"
 
-// [x] 99 - "See you later."
+// [x] 99 - "Nos vemos luego."
 //end
 
 // dialog script file
@@ -13,48 +13,48 @@ return
 
 @1 // Kent!
 ego:Kent!
-other:Hi there!
-other:What a day!
-other:I heard you did some good work out there!
-other:You ready for a co-pilot?
-ego:Sure thing.
-other:Looks like you could use a drink.
-other:Let's party.
+other:¡Hola! ¡Hola!
+other:¡Qué día!
+other:¡Escuché que hiciste un buen trabajo ahí fuera!
+other:¿Estás listo para tener un copiloto?
+ego:Claro que sí.
+other:Parece que te vendría bien un trago.
+other:Vamos a divertirnos.
 option-off 1
 option-off 2
 option-off 3
 return
 
-@2 // Where have you been?
-ego:Where have you been?
-other:I was doing some engineering work on the ships here.
-other:I couldn't let you have all the credit.
-other:You ready for a co-pilot?
-ego:Sure thing.
-other:Looks like you could use a drink.
-other:Let's party.
+@2 // ¿Dónde has estado?
+ego:¿Dónde has estado?
+other:Estaba haciendo algunos trabajos de ingeniería en las naves.
+other:No podía dejar que te llevaras todo el mérito.
+other:¿Estás listo para tener un copiloto?
+ego:Claro que sí.
+other:Parece que te vendría bien un trago.
+other:Vamos a divertirnos.
 option-off 1
 option-off 2
 option-off 3
 return
 
-@3 // There you are little buddy!
-ego:There you are little buddy!
-ego:Victory
-other:Correct-a-mundo!
-other:You ready for a co-pilot?
-ego:Sure thing.
-other:Looks like you could use a drink.
-other:Let's party.
+@3 // ¡Ahí estás, amiguito!
+ego:¡Ahí estás, amiguito!
+ego:¡Victoria!
+other:¡Correcto, un monton!
+other:¿Estás listo para tener un copiloto?
+ego:Claro que sí.
+other:Parece que te vendría bien un trago.
+other:Vamos a divertirnos.
 option-off 1
 option-off 2
 option-off 3
 return
 
-@99 // See you later.
-ego:See you later.
-other:No problem.
-other:Be safe!
+@99 // Nos vemos luego.
+ego:Nos vemos luego.
+other:No hay problema.
+other:¡Cuídate!
 option-off 99
 stop
 

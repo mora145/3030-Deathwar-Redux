@@ -1,10 +1,10 @@
 //begin
-// [x] 1 - "Looks like he's had enough."
-// [x] 2 - "Looks like he needs more."
-// [x] 3 - "Looks like he needs one more."
-// [x] 4 - "Looks like he enjoys it."
-// [x] 5 - "Looks like you should take on someone your own size."
-// [x] 99 - "I gotta go."
+// [x] 1 - "Parece que ya ha tenido suficiente."
+// [x] 2 - "Parece que necesita más."
+// [x] 3 - "Parece que necesita uno más."
+// [x] 4 - "Parece que lo disfruta."
+// [x] 5 - "Parece que deberías enfrentarte a alguien de tu tamaño."
+// [x] 99 - "Me tengo que ir."
 
 //end
 
@@ -13,60 +13,60 @@
 @S // dialog startup entry point
 return
 
-@1 // Looks like he's had enough.
-ego:Looks like he's had enough.
-other:You know this guy?
-ego:Compassion for all creatures.
-ego:I heard it was best.
-other:That's cool.
-other:Krull here agrees too.
+@1 // Parece que ya ha tenido suficiente.
+ego:Parece que ya ha tenido suficiente.
+other:¿Conoces a este tipo?
+ego:Compasión por todas las criaturas.
+ego:Escuché que era lo mejor.
+other:Eso es genial.
+other:Krull también está de acuerdo.
 option-off 1
 option-off 2
 option-off 3
 option-off 4
 return
 
-@2 // Looks like he needs more.
-ego:Looks like he needs more.
-other:Yes, let's...
-other:Give..
-other:...him...some..
-other:...more.
+@2 // Parece que necesita más.
+ego:Parece que necesita más.
+other:Sí, vamos a...
+other:Darle...a...
+other:...él....algo...
+other:...mas.
 return
 
-@3 // Looks like he needs one more.
-ego:Looks like he needs one more.
-ego:Only one more.
-other:No more?
-ego:One more..
-ego:Then no more after that.
+@3 // Parece que necesita uno más.
+ego:Parece que necesita uno más.
+ego:Sólo uno más.
+other:¿No más?
+ego:Uno mas...
+ego:Entonces ya no más después de eso.
 option-off 2
 option-off 3
 return
 
-@4 // Looks like he enjoys it.
-ego:Looks like he enjoys it.
-other:He enjoys to start fights he can't finish.
-other:I helped him out this time.
-other:My name's Yong by the way.
-ego:I go by Falcon. 
+@4 // Parece que lo disfruta.
+ego:Parece que lo disfruta.
+other:Le gusta empezar peleas que no puede terminar.
+other:Yo le ayudé esta vez.
+other:Por cierto, me llamo Yong.
+ego:Yo me llamo Falcon. 
 ego:John Falcon. 
 option-off 4
 return
 
-@5 // Looks like you should take on someone your own size.
-ego:Looks like you should take on someone your own size.
-other:You his mate or what?
-other:I'd knock you right out.
-ego:I doubt it.
-other:Well we'll never know...
-other:..I'm busy with this gimp.
+@5 // Parece que deberías enfrentarte a alguien de tu tamaño.
+ego:Parece que deberías enfrentarte a alguien de tu tamaño.
+other:¿Eres su compañero o qué?
+other:Te dejaría inconsciente.
+ego:Lo dudo mucho.
+other:Bueno, nunca lo sabremos...
+other:...estoy ocupado con este imbécil.
 option-off 5
 stop
 
-@99 // I gotta go.
-ego:I gotta go.
-other:No problem.
+@99 // Me tengo que ir.
+ego:Me tengo que ir.
+other:No hay problema.
 option-off 99
 stop
 

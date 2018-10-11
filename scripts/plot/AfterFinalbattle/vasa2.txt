@@ -1,17 +1,17 @@
 //begin
-// [x] 99 - "See you later."
+// [x] 99 - "Nos vemos luego."
 //end
 
 // dialog script file
 @S // dialog startup entry point
-ego:I'll see you soon, ok?
-other:Yeah. let me know what you decide to do after this.
-ego:Will do.
+ego:Te veré pronto, ¿de acuerdo?
+other:Sí. Hazme saber lo que decidas hacer después de esto.
+ego:Lo haré.
 return
 
-@99 // See you later.
-ego:See you later.
-other:See ya.
+@99 // Nos vemos luego.
+ego:Nos vemos luego.
+other:Nos vemos.
 option-off 99
 stop
 

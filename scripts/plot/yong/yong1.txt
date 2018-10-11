@@ -1,13 +1,13 @@
 //begin
-// [x] 1 - "What's up?"
-// [x] 2 - "Who's that?"
-// [x] 3 - "Are you in a fight?"
-// [x] 31 - "Bar Fight!"
+// [x] 1 - "¿Qué pasa?"
+// [x] 2 - "¿Quién es ese?"
+// [x] 3 - "¿Estás en una pelea?"
+// [x] 31 - "¡Pelea de bar!"
 
-// [ ] 40 - "I always miss the bar fights."
-// [ ] 41 - "What did he do to you?"
-// [ ] 42 - "Is he a pirate?"
-// [x] 99 - "I gotta go."
+// [ ] 40 - "Siempre me pierdo las peleas de bar."
+// [ ] 41 - "¿Qué te ha hecho?"
+// [ ] 42 - "¿Es un pirata?"
+// [x] 99 - "Me tengo que ir."
 
 //end
 
@@ -17,23 +17,23 @@
 
 return
 
-@1 // What's up?
-ego:What's up?
-other:Just holding this creep.
-ego:What for?
-other:So I can punch him like this.
-other:Like this.
+@1 // ¿Qué pasa?
+ego:¿Qué pasa?
+other:Sólo sujeto a este cretino.
+ego:¿Para qué?
+other:Para así poder darle un puñetazo.
+other:Así.
 option-off 1
 return
 
-@2 // Who's that?
-ego:Who's that?
-other:This is Krull.
-other:He needs..
-other:...a good..
-other:....hard....
-other:...punching.
-other:Right in the face.
+@2 //  ¿Quién es ese?
+ego: ¿Quién es ese?
+other:Este es Krull.
+other:Necesita..
+other:...un buen...
+other:...duro...
+other:... puñetazo.
+other:Justo en la cara.
 option-off 1
 option-off 2
 option-off 3
@@ -44,61 +44,61 @@ option-on 41
 option-on 42
 return
 
-@3 // Are you in a fight?
-ego:Are you in a fight?
-other:The fight is over.
-other:I won.
+@3 // ¿Estás en una pelea?
+ego:¿Estás en una pelea?
+other:La pelea terminó.
+other:Gané.
 
 option-off 3
 return
 
-@31 // Bar Fight!
-ego:Bar Fight!
-ego:Is this a bar fight starting?
-ego:Or did I miss it?
-ego:I missed it didn't I.
-other:Yes.
-other:I'm just restraining this creep.
+@31 // Pelea de bar!
+ego:Pelea de bar!
+ego:¿Esta es una pelea de bar?
+ego:¿O me la perdí?
+ego:Me la perdí, ¿verdad?
+other:Si.
+other:Sólo estoy sujetando a este cretino.
 option-off 31
 return
 
 
-@40 // I always miss the bar fights.
-ego:I always miss the bar fights.
-ego:I hear they're common around here..
-ego:...but I've never seen one yet.
-other:Who told you that?
-other:Hardly get any since they armed the bardroids.
+@40 // Siempre me pierdo las peleas de bar.
+ego:Siempre me pierdo las peleas de bar.
+ego:He oído que son comunes por aquí...
+ego:...pero nunca he visto una.
+other:¿Quién te ha dicho eso?
+other:Apenas se consigue desde que armaron a los bardroides.
 option-off 40
 return
 
-@41 // What did he do to you?
-ego:What did he do to you?
-other:He's been talking shit about me.
-other:And he spat at my sister.
-other:So now, he gets beats.
-other:He gets the beats until I feel satisfied.
-ego:I guess that's natural justice.
-other:I guess. 
-other:It sure feels good.
+@41 // ¿Qué te ha hecho?
+ego:¿Qué te ha hecho?
+other:Ha estado hablando mierda de mí.
+other:Y escupió a mi hermana.
+other:Así que ahora, él esta recibiendo una paliza.
+other:Él recibe golpes hasta que me sienta satisfecho.
+ego:Supongo que eso es justicia natural.
+other:Supongo que sí. 
+other:Se siente muy bien
 option-off 40
 option-off 41
 option-off 42
 option-on 99
 return
 
-@42 // Is he a pirate?
-ego:Is he a pirate?
-other:Pirate, haha.
-other:No, he's been talking shit and spitting.
-other:Haven't you Krull.
-other:So now, he gets beats.
+@42 // ¿Es un pirata?
+ego:¿Es un pirata?
+other:Pirata, haha.
+other:No, ha estado hablando mierda y escupiendo.
+other:¿No es así, Krull?
+other:Así que ahora, él recibe una paliza.
 option-off 42
 return
 
-@99 // I gotta go.
-ego:I gotta go.
-other:No problem.
+@99 // Me tengo que ir.
+ego:Me tengo que ir.
+other:No hay problema.
 option-off 99
 stop
 

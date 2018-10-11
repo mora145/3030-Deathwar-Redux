@@ -1,5 +1,5 @@
 //begin
-// [x] 1 - "Hm, doesn't really matter to me, it's all gravy."
+// [x] 1 - "Hm, no me importa, todo es por dinero."
 // [x] 2 - "Espero que atrapen al bastardo."
 //end
 

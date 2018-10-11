@@ -1,72 +1,72 @@
 //begin
-// [x] 1 - "Yes of course."
-// [x] 2 - "Never heard of you I'm afraid."
-// [ ] 3 - "So what's this all about?"
-// [ ] 4 - "Where is K'ta Fly?"
-// [ ] 5 - "What?!"
-// [ ] 6 - "Yes, I know now, but I knew nothing then."
-// [ ] 7 - "What prophecy is this?"
-// [ ] 8 - "I'm part of a prophecy?"
-// [ ] 9 - "So how do I find it?"
-// [ ] 10 - "If you don't know where it is how am I supposed to find it?"
-// [ ] 11 - "What are these clues then?"
-// [ ] 12 - "Thank you for your help."
-// [ ] 13 - "I feel like I've stumbled into someone else's party."
+// [x] 1 - "Sí, por supuesto."
+// [x] 2 - "Me temo que nunca he oído hablar de ti."
+// [ ] 3 - "Entonces, ¿de qué se trata todo esto?"
+// [ ] 4 - "¿Dónde está K'ta Fly?"
+// [ ] 5 - "¡¿Qué?!"
+// [ ] 6 - "Sí, lo sé ahora, pero no sabía nada entonces."
+// [ ] 7 - "¿Qué profecía es ésta?"
+// [ ] 8 - "¿Soy parte de una profecía?"
+// [ ] 9 - "Entonces, ¿cómo lo encuentro?"
+// [ ] 10 - "Si no sabes dónde está, ¿cómo se supone que lo encuentre?"
+// [ ] 11 - "¿Cuáles son estas pistas entonces?"
+// [ ] 12 - "Gracias por su ayuda."
+// [ ] 13 - "Siento que me he tropezado con la fiesta de otra persona."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:You messaged me?
-other:Yes, thanks for coming. I'm Cji S'ri, you might have heard of me.
+ego:¿Me enviaste un mensaje?
+other:Sí, gracias por venir. Soy Cji S'ri, puede que hayas oído hablar de mí.
 option-on 1
 option-on 2
 return
 
-@1 // Yes of course.
-ego:Yes of course.
-other:Excellent. Well, it matters not at this juncture.
+@1 // Sí, por supuesto.
+ego:Sí, por supuesto.
+other:Excelente. Bueno, no importa en este momento.
 option-off 1
 option-off 2
 option-on 3
 option-on 4
 return
 
-@2 // Never heard of you I'm afraid.
-ego:Never heard of you I'm afraid.
-other:Oh, nevermind. I suppose that's a testament to my secrecy.
+@2 // Me temo que nunca he oído hablar de ti.
+ego:Me temo que nunca he oído hablar de ti.
+other:Oh, no importa. Supongo que eso es un testimonio de mi discreción.
 option-off 1
 option-off 2
 option-on 3
 option-on 4
 return
 
-@3 // So what's this all about?
+@3 // Entonces, ¿de qué se trata todo esto?
 ego:So what's all this about?
-other:You are in great danger. 
-other:Do you realise the supernova in daphice...
-other:...it was directly because of your package?
+other:Estás en gran peligro. 
+other:¿Te das cuenta de que la supernova en Daphice....
+other:...fue directamente causado por tu paquete?
 option-off 3
 option-off 4
 option-on 5
 option-on 6
 return
 
-@4 // Where is K'ta Fly?
-ego:Where is K'ta Fly?
-other:He is safe on walker base at this time.
+@4 // ¿Dónde está K'ta Fly?
+ego:¿Dónde está K'ta Fly?
+other:Está a salvo en la base Walker en este momento.
 option-off 4
 return
 
-@5 // What?!
-ego:What?!
-other:Yes, the person you know as Morgan Yu is not a friend of ours at all.
-other:He is an agent of F'Zuh, the leader of the cleaners as you know them.
-other:He is the centre of a dastardly plot to have you killed.
-ego:Me? Why?
-other:Why indeed. We think it has something to do with a bullshit prophecy.
-other:Many council types love a good prophecy.
-ego:For fucks sake.
+@5 // ¡¿Qué?!
+ego:¡¿Qué?!
+other:Sí, la persona que conoces como Morgan Yu no es nuestro amigo en absoluto.
+other:Es un agente de F'Zuh, el líder de los limpiadores como los conoces.
+other:Es el centro de un plan ruin para matarte.
+ego:¿A mi? ¿Por qué?
+other:Por supuesto que sí. Creemos que tiene algo que ver con una profecía de mierda.
+other:Muchos tipos de consejos aman una buena profecía.
+ego:Por todos los cielos.
 option-off 5
 option-off 6
 option-on 7
@@ -74,15 +74,15 @@ option-on 8
 return
 
 
-@6 // Yes, I know now, but I knew nothing then.
-ego:Yes, I know now, but I knew nothing then.
-other:Yes, the person you know as morgan Yu is not a friend of ours at all.
-other:he is an agent of F'Zuh, the leader of the cleaners as you know them.
-other:He is the centre of a dastardly plot to have you killed.
-ego:Me? Why?
-other:Why indeed. We think it has something to do with a bullshit prophecy.
-other:Many council types love a good prophecy.
-ego:For fucks sake.
+@6 // Sí, lo sé ahora, pero no sabía nada entonces.
+ego:Sí, lo sé ahora, pero no sabía nada entonces.
+other:Sí, la persona que conoces como Morgan Yu no es nuestro amigo en absoluto.
+other:Es un agente de F'Zuh, el líder de los limpiadores como los conoces.
+other:Es el centro de un plan ruin para matarte.
+ego:¿A mi? ¿Por qué?
+other:Por supuesto que sí. Creemos que tiene algo que ver con una profecía de mierda.
+other:Muchos tipos de consejos aman una buena profecía.
+ego:Por todos los cielos.
 option-off 5
 option-off 6
 option-on 7
@@ -90,78 +90,78 @@ option-on 8
 option-on 4
 return
 
-@7 // What prophecy is this?
-ego:What prophecy is this?
-other:It is written that the person with the name of a bird will save us.
-ego:Ahhh, and because of my surname you think it's me.
-other:Not me, but someone does, and it must have stalled F'Zuh.
-other:F'Zuh must think killing you would put the old plan back into action.
-ego:What old plan?
-other:300 years ago we split off from the council...
-other:...when we had realised the destruction of the galaxy was wrong.
-ego:You only realised that 300 years ago?
-other:There were mitigating circumstances I won't go into now...
-other:...but we firmly believe we need the life in this galaxy...
-other:...to continue and fulfill our ultimate destiny; to become one being.
-other:Well, you can take it or leave it. I personally don't believe any of it.
-ego:That makes no sense, but keep going.
-other:So, after thousands of years of destroying life...
-other:...we split and started a group you know as the taoists.
-ego:Yes, I know them.
-other:The only reason the council do not continue the attacks...
-other:...is because council members firmly believe in this prophecy. 
-other:So much so that your possible demise...
-other:...is enough for them to contemplate continuing their plan for galactic control.
-ego:So you're saying it's important for me to stay alive.
-ego:For more reasons than the obvious.
-other:Exactly.
-ego:I agree.
-other:To that end, we have made some plans for you.
-other:We'll change your ship, your reg code and give you some money.
-other:It's important for you to be safe...
-other:...so we'll divulge the location of an important station.
-other:Walker base is the taoist stronghold. 
-other:Unfortunately even I don't know where it is currently.
-other:The fewer people know, the safer it is.
+@7 // ¿Qué profecía es esa?
+ego:¿Qué profecía es esa?
+other:Está escrito que la persona con el nombre de un pájaro nos salvará.
+ego:Ahhhh, y por mi apellido crees que soy yo.
+other:Yo no, pero alguien sí, y debe haber retrasado a F'Zuh.
+other:F'Zuh debe pensar que matarte volvería a poner en acción el viejo plan.
+ego:¿Qué viejo plan?
+other:Hace 300 años nos separamos del consejo...
+other:...cuando nos dimos cuenta de que era incorrecto destruir la galaxia.
+ego:¿Te diste cuenta de eso hace 300 años?
+other:Hubieron circunstancias mitigativas en las que no voy a entrar ahora....
+other:...pero creemos firmemente que necesitamos la vida en esta galaxia....
+other:...para continuar y cumplir nuestro destino final; para convertirnos en un solo ser.
+other:Bueno, puedes tomarlo o dejarlo. Personalmente no creo nada de eso.
+ego:Eso no tiene sentido, pero continúa.
+other:Así que, después de miles de años de destruir la vida....
+other:...nos separamos y formamos un grupo que ustedes conocen como los taoístas.
+ego:Sí, los conozco.
+other:La única razón por la que el consejo no continúa los ataques....
+other:...es porque los miembros del consejo creen firmemente en esta profecía. 
+other:Tanto que su posible desaparición....
+other:...es suficiente para que contemplen continuar su plan de control galáctico.
+ego:Así que estás diciendo que es importante para mí seguir vivo.
+ego:Por más razones que las obvias.
+other:Exactamente.
+ego:Estoy de acuerdo.
+other:Con ese fin, hemos hecho algunos planes para usted.
+other:Cambiaremos tu nave, tu código de registro y te daremos algo de dinero.
+other:Es importante que usted esté a salvo...
+other:...así que divulgaremos la ubicación de una estación importante.
+other:La base Walker es la fortaleza taoísta. 
+other:Desafortunadamente, ni siquiera yo sé dónde está actualmente.
+other:Cuanta menos gente lo sepa, más segura será.
 option-off 7
 option-off 8
 option-on 9
 option-on 10
 return
 
-@8 // I'm part of a prophecy?
-ego:I'm part of a prophecy?
-other:It is written that the person with the name of a bird will save us.
-ego:Ahhh, and because of my surname you think it's me.
-other:Not me, but someone does, and it must have stalled F'Zuh.
-other:F'Zuh must think killing you would put the old plan back into action.
-ego:What old plan?
-other:300 years ago we split off from the council...
-other:...when we had realised the destruction of the galaxy was wrong.
-ego:You only realised that 300 years ago?
-other:There were mitigating circumstances I won't go into now...
-other:...but we firmly believe we need the life in this galaxy...
-other:...to continue and fulfill our ultimate destiny; to become one being.
-other:Well, you can take it or leave it. I personally don't believe any of it.
-ego:That makes no sense, but keep going.
-other:So, after thousands of years of destroying life...
-other:...we split and started a group you know as the taoists.
-ego:Yes, I know them.
-other:The only reason the council do not continue the attacks...
-other:...is because council members firmly believe in this prophecy. 
-other:So much so that your possible demise...
-other:...is enough for them to contemplate continuing their plan for galactic control.
-ego:So you're saying it's important for me to stay alive.
-ego:For more reasons than the obvious.
-other:Exactly.
-ego:I agree.
-other:To that end, we have made some plans for you.
-other:We'll change your ship, your reg code and give you some money.
-other:It's important for you to be safe...
-other:...so we'll divulge the location of an important station.
-other:Walker base is the taoist stronghold. 
-other:Unfortunately even I don't know where it is currently.
-other:The fewer people know, the safer it is.
+@8 // ¿Soy parte de una profecía?
+ego:¿Soy parte de una profecía?
+other:Está escrito que la persona con el nombre de un pájaro nos salvará.
+ego:Ahhhh, y por mi apellido crees que soy yo.
+other:Yo no, pero alguien sí, y debe haber retrasado a F'Zuh.
+other:F'Zuh debe pensar que matarte volvería a poner en acción el viejo plan.
+ego:¿Qué viejo plan?
+other:Hace 300 años nos separamos del consejo...
+other:...cuando nos dimos cuenta de que era incorrecto destruir la galaxia.
+ego:¿Te diste cuenta de eso hace 300 años?
+other:Hubieron circunstancias mitigativas en las que no voy a entrar ahora....
+other:...pero creemos firmemente que necesitamos la vida en esta galaxia....
+other:...para continuar y cumplir nuestro destino final; para convertirnos en un solo ser.
+other:Bueno, puedes tomarlo o dejarlo. Personalmente no creo nada de eso.
+ego:Eso no tiene sentido, pero continúa.
+other:Así que, después de miles de años de destruir la vida....
+other:...nos separamos y formamos un grupo que ustedes conocen como los taoístas.
+ego:Sí, los conozco.
+other:La única razón por la que el consejo no continúa los ataques....
+other:...es porque los miembros del consejo creen firmemente en esta profecía. 
+other:Tanto que su posible desaparición....
+other:...es suficiente para que contemplen continuar su plan de control galáctico.
+ego:Así que estás diciendo que es importante para mí seguir vivo.
+ego:Por más razones que las obvias.
+other:Exactamente.
+ego:Estoy de acuerdo.
+other:Con ese fin, hemos hecho algunos planes para usted.
+other:Cambiaremos tu nave, tu código de registro y te daremos algo de dinero.
+other:Es importante que usted esté a salvo...
+other:...así que divulgaremos la ubicación de una estación importante.
+other:La base Walker es la fortaleza taoísta. 
+other:Desafortunadamente, ni siquiera yo sé dónde está actualmente.
+other:Cuanta menos gente lo sepa, más segura será.
 option-off 7
 option-off 8
 option-on 9
@@ -169,65 +169,65 @@ option-on 10
 return
 
 
-@9 // So how do I find it?
-ego:So how do I find it?
-other:There are four clues each initiate gets. 
-other:If he is worthy he will find walker base.
-other:If not.. well, it was not meant to be.
-ego:Four clues? That's stupid.
-other:i know, but it keeps the base safe.
+@9 // Entonces, ¿cómo la encuentro?
+ego:Entonces, ¿cómo la encuentro?
+other:Hay cuatro pistas que cada iniciado recibe. 
+other:Si es digno, encontrará la base de Walker.
+other:Si no... bueno, no estaba destinado a serlo.
+ego:¿Cuatro pistas? Eso es una estupidez.
+other:Lo sé, pero mantiene la base a salvo.
 option-off 9
 option-off 10
 option-on 11
 return
 
 
-@10 // If you don't know where it is how am I supposed to find it?
-ego:If you don't know where it is how am I supposed to find it?
-other:There are four clues each initiate gets. 
-other:If he is worthy he will find walker base.
-other:If not.. well, it was not meant to be.
+@10 // Si no sabes dónde está, ¿cómo se supone que la encuentre?
+ego:Si no sabes dónde está, ¿cómo se supone que la encuentre?
+other:Hay cuatro pistas que cada iniciado recibe. 
+other:Si es digno, encontrará la base Walker.
+other:Si no... bueno, no estaba destinado a serlo.
 option-off 9
 option-off 10
 option-on 11
 return
 
-@11 // What are these clues then?
-ego:What are these clues then?
-other:They are obtained by visiting four people and asking them.
-other:Some might ask you to complete a task.
-other:When you have fulfilled their request they will give you the clue.
-other:When you have all four clues you will be able to find walker base.
-other:That is all I can say at this time.
-other:Because of compartmentalisation...
-other:...I do not have either the money or contacts for you.
-other:You must travel to beexen. there you'll meet a friend of ours called raal.
-other:Seek her out. To aid you, I have the location of a wormhole.
-other:It will greatly speed up your travel time.
-other:Go to the second moon of the planet in the aenso system. 
-other:There you'll find a wormhole.
-other:Rumour is another one opened up recently too!
-ego:That's what I'm talkin about!
-ego:Useful information. I'll note it in my log.
-other:If you find the right one will bring you to beexen within seconds.
-ego:Second moon of the planet in aenso, got it. 
-other:Right. If you find it. Get a buoy and mark its location.
-other:When you get to the other side, remember that location too.
-other:They can be tough to locate, and don't appear on the charts.
-other:Good luck, my friend. Be safe.
+@11 // ¿Cuáles son estas pistas entonces?
+ego:¿Cuáles son estas pistas entonces?
+other:Se obtienen visitando a cuatro personas y preguntándoles.
+other:Algunos pueden pedirte que complete una tarea.
+other:Cuando hayas cumplido su petición te darán la pista.
+other:Cuando tengas las cuatro pistas podrás encontrar la base Walker.
+other:Eso es todo lo que puedo decir en este momento.
+other:Debido a la compartimentación...
+other:...no tengo ni el dinero ni los contactos para ti.
+other:Debes viajar a Beexen. Allí conocerás a un amigo nuestro llamado Raal.
+other:Búscala. Para ayudarte, tengo la ubicación de un agujero de gusano.
+other:Esto acelerará enormemente tu tiempo de viaje.
+other:Ve a la segunda luna del planeta en el sistema Aenso. 
+other:Allí encontrarás un agujero de gusano.
+other:El rumor es uno más que se ha abierto recientemente también!
+ego:¡De eso es de lo que estoy hablando!
+ego:Información de interés. Lo anotaré en mi diario.
+other:Si encuentras el correcto te llevará a Beexen en cuestión de segundos.
+ego:La segunda luna del planeta en Aenso, lo tengo. 
+other:Correcto. Si lo encuentras. Agarra una boya y marca su ubicación.
+other:Cuando llegues al otro lado, recuerda ese lugar también.
+other:Pueden ser difíciles de localizar y no aparecen en los mapas.
+other:Buena suerte, amigo mío. Ten cuidado.
 option-off 11
 option-on 12
 option-on 13
 return
 
 
-@12 // Thank you for your help.
-ego:Thank you for your help.
-other:Again, goodbye.
+@12 // Gracias por tu ayuda.
+ego:Gracias por tu ayuda.
+other:De nuevo, adiós.
 stop
 
-@13 // I feel like I've stumbled into someone else's party.
-ego:I feel like I've stumbled into someone else's party.
-ego:But thank you for helping me.
-other:Again, goodbye.
+@13 // Siento que me he tropezado con la fiesta de otra persona.
+ego:Siento que me he tropezado con la fiesta de otra persona.
+ego:Pero gracias por ayudarme.
+other:De nuevo, adiós.
 stop

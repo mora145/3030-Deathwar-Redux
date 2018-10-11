@@ -1,14 +1,14 @@
 //begin
-// [x] 1 - "I'm on my way."
+// [x] 1 - "Estoy en camino."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:F'zuh is about to release the nanos.
-other:You should get going.
+other:F'zuh está a punto de liberar los nanos.
+other:Deberías irte.
 return
 
-@1 // I'm on my way.
-ego:I'm on my way.
+@1 // Estoy en camino.
+ego:Estoy en camino.
 stop

@@ -1,30 +1,30 @@
 //begin
-// [x] 1 - "Yeah, I'll help out."
-// [x] 2 - "Not right now."
+// [x] 1 - "Sí, te ayudaré."
+// [x] 2 - "No en este momento."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:So, you're back. Do you want to help us now?
+other:Así que, has vuelto. ¿Quieres ayudarnos ahora?
 option-on 1
 option-on 2
 return
 
-@1 // Yeah, I'll help out.
-ego:Yeah, I'll help out.
-other:Good.
-ego:And where is this scientist?
-other:Our head scientist is stuck on Qucieda in KP-FQ1.
-ego:So far away!
-other:Yeah, no money for this mission. It just has to get done.
-ego:Ok, fine.
+@1 // Sí, te ayudaré.
+ego:Sí, te ayudaré.
+other:Bueno.
+ego:¿Y dónde está ese científico?
+other:Nuestro científico en jefe está atrapado en Qucieda en KP-FQ1.
+ego:Tan lejos!
+other:Sí, no hay dinero para esta misión. Sólo hay que hacerlo.
+ego:Ok, bien.
 setMissionAnswer 1
 stop
 
-@2 // Not right now.
-ego:Not right now.
-other:Not right now?
-other:Come back and see me when you're ready.
+@2 // No en este momento.
+ego:No en este momento.
+other:¿Ahora mismo no?
+other:Vuelve a verme cuando estés listo.
 setMissionAnswer 0
 stop

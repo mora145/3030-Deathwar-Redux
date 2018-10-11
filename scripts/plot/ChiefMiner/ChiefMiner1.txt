@@ -1,90 +1,90 @@
 //begin
-// [ ] 1 - "I hear this is a mining outpost."
-// [ ] 2 - "Why all the red suits?"
-// [ ] 3 - "How do I get into asteroid mining?"
-// [ ] 31 - "How do I find a place to mine?"
-// [ ] 311 - "Is this a special bar?"
-// [ ] 32 - "Do I need a permit?
-// [x] 4 - "Bye."
+// [ ] 1 - "Escuché que esto es un puesto minero."
+// [ ] 2 - "¿Por qué todos los trajes rojos?"
+// [ ] 3 - "¿Cómo puedo entrar en la minería de asteroides?"
+// [ ] 31 - "¿Cómo puedo encontrar un lugar para mi?"
+// [ ] 311 - "¿Es un bar especial?"
+// [ ] 32 - "¿Necesito un permiso?
+// [x] 4 - "Adiós."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Excuse me.
-other:Yes?
+ego:Discúlpeme.
+other:Si?
 option-on 1
 option-on 2
 option-on 3
 option-on 311
 return
 
-@1 // I hear this is a mining outpost.?
-ego:I hear this is a mining outpost.
-other:No shit.
-other:Boom. The best mining outpost.
-ego:Nice.
-other:It's the place to be.
+@1 // Escuché que esto es un puesto minero.
+ego:Escuché que esto es un puesto minero.
+other:No me digas.
+other:Boom. El mejor puesto minero.
+ego:Bien.
+other:Es el mejor lugar para estar.
 option-off 1
 return
 
 @2 // 2?
-ego:Why all the red suits?
-other:Standard mining suit. 
-other:Red cover means it's got class 3 anti-rad layer.
-other:Since we spend so much time out there.
-other:They look good don't they. Bam.
-ego:Sure do.
+ego:¿Por qué todos los trajes rojos?
+other:Un traje minero estándar. 
+other:La cubierta roja significa que tiene una capa antirradiación de clase 3.
+other:Ya que pasamos tanto tiempo ahí fuera.
+other:Se ven bien, ¿verdad? Bam.
+ego:Claro que sí.
 option-off 2
 return
 
-@3 // How do I get into asteroid mining??
-ego:How do I get into asteroid mining?
+@3 // ¿Cómo puedo entrar en la minería de asteroides?
+ego:¿Cómo puedo entrar en la minería de asteroides?
 other:Oh Boom!
-other:You came to the right place Dawg!
-other:Bam! Here's the place to be.
-other:Get yourself a Tractor Beam.
-other:Get yourself an Asteroid Survey Scanner.
-other:And Bam Boom!
+other:¡Viniste al lugar correcto, viejo!
+other:Bam! Este es el lugar para serlo.
+other:Consíguete un rayo tractor.
+other:Consíguete un escáner de asteroides.
+other:Y Bam Boom! 
 option-off 3
 option-on 31
 option-on 32
 return
 
 
-@31 // How do I find a place to mine?
+@31 // ¿Cómo puedo encontrar un lugar para mi?
 ego:How do I find a place to mine?
-other:Use your map, the big brown dots..
-other:Asteroid clusters.
-other:You could even follow a ship...
-other:..in this system, it's mostly miners.
+other:Usa tu mapa, los grandes puntos marrones...
+other:Cúmulos de asteroides.
+other:Podrías incluso seguir una nave...
+other:...en este sistema, la mayoría son mineros.
 option-off 31
 return
 
-@311 // Is this a special bar?
-ego:Is this a special bar?
-other:The bar?
-other:Talk to Kelly over there.
-other:She owns most of it.
-other:They still mine asteroids though.
-ego:They?
-other:Her and her partner Del.
+@311 // ¿Éste es un bar especial?
+ego:¿Éste es un bar especial?
+other:¿El bar?
+other:Habla con Kelly sobre eso.
+other:Ella es la dueña de la mayor parte.
+other:Sin embargo, todavía minan los asteroides.
+ego:¿Ellos?
+other:Ella y su compañero Del.
 option-off 311
 return
 
-@32 // Do I need a permit?
-ego:Do I need a permit?
-other:Err, yes.
-other:But we here don't believe in that tax.
-other:We are trying to win independence.
-other:Boom! Freedom for the mining guild!
+@32 // ¿Necesito un permiso?
+ego:¿Necesito un permiso?
+other:Err, si.
+other:Pero aquí no creemos en ese impuesto.
+other:Estamos tratando de ganar la independencia.
+other:¡Boom! ¡Libertad para el gremio minero!
 option-off 32
 return
 
 
-@4 // Bye
-ego:Bye.
-other:Drop by again.
-other:Chase off any Pirates for us.
+@4 // Adiós
+ego:Adiós.
+other:Vuelve a pasarte por aquí.
+other:Echa a los Piratas por nosotros.
 Stop
 
