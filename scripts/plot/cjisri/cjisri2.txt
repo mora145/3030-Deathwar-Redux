@@ -1,15 +1,15 @@
 //begin
-// [x] 1 - "Ok, thanks."
+// [x] 1 - "Ok, gracias."
 //end
 
 @S
-other:Go and see Raal. Don't forget to use the wormhole.
-other:Go to the second moon of the first planet in aenso. 
-other:There you'll find a wormhole to beexen.
-other:It'll save you a lot of time.
+other:Ve a ver a Raal. No olvides usar el agujero de gusano.
+other:Ve a la segunda luna del primer planeta en Aenso. 
+other:Allí encontrarás un agujero de gusano a Beexen.
+other:Te ahorrará mucho tiempo.
 option-on 1
 return
 
-@1 // thanks
-ego:Ok, thanks.
+@1 // Gracias
+ego:Ok, gracias.
 stop

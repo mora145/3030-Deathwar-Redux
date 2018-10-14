@@ -1,37 +1,37 @@
 //begin
-// [ ] 1 - "Give me the full list."
-// [ ] 2 - "What will give me the best return?"
-// [ ] 3 - "How do I profit?"
+// [ ] 1 - "Dame la lista completa."
+// [ ] 2 - "¿Qué me dará el mejor beneficio?"
+// [ ] 3 - "¿Cómo puedo obtener beneficios?"
 
-// [ ] 51 - "Delavian Chocolate."
-// [ ] 52 - "Mercury Silk."
-// [x] 6 - "Nevermind."
+// [ ] 51 - "Chocolate Delaviano."
+// [ ] 52 - "Seda de Mercurio."
+// [x] 6 - "No importa."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Are you a seller?
-other:Sure am!
-other:If you buy from me right now...
-other:...you can get a good deal!
-other:But I'll be sold out any second...
-other:..and you'll need some free cargo space.
-other:You only get one chance with us station sellers!
-other:So it's now or never.
+ego:¿Eres un vendedor?
+other:¡Claro que sí!
+other:Si me compras ahora mismo....
+other:...¡puedes conseguir un buen precio!
+other:Pero en cualquier momento se agotarán las existencias...
+other:...Y necesitarás un poco de espacio de carga libre.
+other:Sólo tienes una oportunidad con nosotros, los vendedores de estaciones!
+other:Así que es ahora o nunca.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // Give me the full list.
-ego:Give me the full list.
-other:Not much today..
-other:Delavian Chocolate...
-other:...and Mercury Silk.
+@1 // Dame la lista completa.
+ego:Dame la lista completa.
+other:No mucho hoy..
+other:Chocolate Delaviano....
+other:...y Seda de Mercurio.
 ego:Ok.
-other:Interested?
-ego:I'll take...
+other:¿Interesado?
+ego:Voy a tomar...
 option-off 1
 option-off 2
 option-off 3
@@ -41,13 +41,13 @@ option-on 52
 
 return
 
-@2 // What will give me the best return?
-ego:What will give me the best return?
-other:That's easy.. Mercury Silk
-other:I got some genuine uncut.
-other:Always tradeable on the console..
-other:..for a tidy profit.
-other:Fancy anything?
+@2 // ¿Qué me dará el mejor beneficio?
+ego:¿Qué me dará el mejor beneficio?
+other:Eso es fácil... Seda de Mercurio
+other:Tengo algunos auténticos sin cortar.
+other:Siempre intercambiable en la consola...
+other:...para un beneficio considerable.
+other:¿Te apetece algo?
 option-off 1
 option-off 2
 option-off 3
@@ -56,12 +56,12 @@ option-on 51
 option-on 52
 return
 
-@3 // How do I profit?
-ego:How do I profit?
-other:You resell it over there...
-other:...at the trade console. For a tidy profit.
-ego:I see.
-ego:Maybe I'll buy...
+@3 // ¿Cómo puedo obtener beneficios?
+ego:¿Cómo puedo obtener beneficios?
+other:Usted lo revende allí....
+other:...en la consola de comercio. Para obtener una ganancia razonable.
+ego:Ya veo.
+ego:Tal vez compre...
 option-off 1
 option-off 2
 option-off 3
@@ -70,39 +70,39 @@ option-on 51
 option-on 52
 return
 
-@51 // Delavian Chocolate.
-ego:Delavian Chocolate.
-other:Sure, I sell them by the 6 pack
-other:That's only 60.
-other:Transfer creds, I'll send it to your hold.
-other:Sell on the Trade Console, 'Goods' screen. 
-other:Scroll down for Delavian Chocolate, and sell.
-other:Then come back..
-other:...I have a big deal to tell you about.
-takemoney,60,Gave money for Delavian Chocolate
+@51 // Chocolate Delaviano.
+ego:Chocolate Delaviano.
+other:Claro, los vendo por paquetes de 6.
+other:Son sólo 60.
+other:Transfiere loos creditos, se los enviaré a su bodega.
+other:'Vender' en la consola de operaciones, pantalla 'Mercancías'. 
+other:Desplácese hacia abajo para encontrar Chocolate Delawareano y véndalo.
+other:Entonces regresa..
+other:...tengo algo importante que contarte.
+takemoney,60,Dió dinero por Chocolate Delaviano
 givecargo 24 6
 option-off 5
 option-off 51
 stop
 
-@52 // Mercury Silk.
-ego:Mercury Silk.
-other:Sure, I sell them by the 5 pack
-other:That's 100.
-other:Transfer creds, I'll send it to your hold.
-other:Sell on the Trade Console, 'Goods' screen. 
-other:Then come back..
-other:...I have a big deal to tell you about.
-takemoney,100,Gave money for Mercury Silk
+@52 // Seda de Mercurio.
+ego:Seda de Mercurio.
+other:Claro, los vendo por paquetes de 5.
+other:Eso son 100.
+other:Transfiere los créditos, te los enviaré a tu bodega.
+other:'Vender' en la consola de operaciones, pantalla 'Mercancías'. 
+other:Entonces regresa..
+other:...tengo algo importante que contarte.
+takemoney,100,Dió dinero por Seda de Mercurio
 givecargo 11 5
 option-off 52
 stop
 
-@6 // Nevermind.
-ego:Nevermind.
+@6 // No importa.
+ego:No importa.
 other:Ok. 
-other:I'll be sold out soon...
-other:..but come back and talk to me.
-other:I have a big deal coming up at Elesw.
+other:Pronto se agotarán las existencias...
+other:...pero vuelve y habla conmigo.
+other:Tengo un gran problema en Elesw.
 Stop
 

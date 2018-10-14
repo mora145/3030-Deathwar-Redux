@@ -1,87 +1,87 @@
 //begin
-// [x] 1 - "Well, what's the password?"
-// [x] 2 - "I bet you don't know it, right?"
+// [x] 1 - "Bueno, ¿cuál es la contraseña?"
+// [x] 2 - "Apuesto a que no lo sabes, ¿verdad?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:You wanted to see me?
-other:Yeah, I heard you have all the clues. 
-other:I don't know how you use them.
-other:But i guess they fit together somehow.
-other:It's so that no individual can have the location beaten out of them.
-ego:I get it. 
-other:I do know that if you find the base, you will need a password when you dock.
-ego:Why is that?
-other:In case a trader accidentally finds walker base, or worse, an enemy agent.
-other:We couldn't have them just docking and walking around.
+ego:¿Querías verme?
+other:Sí, he oído que tienes todas las pistas. 
+other:No sé cómo se usan.
+other:Pero supongo que encajan de alguna manera.
+other:Es para que a ningún individuo se le pueda quitar el lugar a golpes.
+ego:Lo entiendo.
+other:Sé que si encuentras la base, necesitarás una contraseña cuando atraques.
+ego:¿Por qué es eso?
+other:En caso de que un comerciante accidentalmente encuentre la base Walker, o peor aún, un agente enemigo.
+other:No podíamos tenerlos atracando y caminando por ahí.
 option-on 1
 option-on 2
 return
 
-@1 // Well, what's the password?
-ego:Well, what's the password?
-other:I don't know it. 
-ego:Who does?
-other:Well, there was a fellow in daphice who knew, waylen dor.
-other:But you know what happened there. There is another but I'm not sure of his location.
-other:All I know is the system he resides in.
-other:Kp-FQ1. It's a pirate system with two pirates stations and two council stations.
-ego:So you don't know which station he's at?
+@1 // Bueno, ¿cuál es la contraseña?
+ego:Bueno, ¿cuál es la contraseña?
+other:No lo sé. 
+ego:¿Quién la sabe?
+other:Bueno, había un tipo en Daphice que sabía, Waylen Dor.
+other:Pero ya sabes lo que pasó allí. Hay otro, pero no estoy seguro de su ubicación.
+other:Todo lo que sé es que el sistema en el que reside.
+other:Kp-FQ1. Es un sistema pirata con dos estaciones piratas y dos estaciones del consejo.
+ego:¿Así que no sabes en qué estación está?
 other:No
-ego:How many stations are there in kp-fq1?
-other:Four, but you'll be able to dock at two of them.
-other:If you hadn't noticed you have one hell of a criminal record.
-ego:Great. What's his name?
+ego:¿Cuántas estaciones hay en kp-fq1?
+other:Cuatro, pero podrás atracar en dos de ellas.
+other:Si no te has dado cuenta tienes unos antecedentes penales increíbles.
+ego:Genial. ¿Cuál es su nombre?
 other:J'mes Learner.
-ego:Names are never simple around here are they.
-other:I quite agree. 
-other:One other thing, he won't talk to you unless you're experienced enough.
-other:He's very strange like that. He's one of the elders. 
-other:I think having 10 kills should be enough to make him take you seriously.
-ego:How do I get 10 kills?
-other:If you haven't got them already then you must kill 10 or more pirates.
-other:According to the council record keeping system a pirate it counts as +1 kill.
-other:Killing a police officer or cargo ship counts as -2 kills.
-other:You can handle it.
-other:When you find walker base, dock and talk to 433-2c.
-other:A good friend of mine. He will fill you in.
-other:Be careful and stock up on fuel here.
-other:Better still, buy a fuel scoop. 
-other:You won't be able to dock at council stations at all.
-ego:Yeah, it was hard enough getting here.
-other:I bet. Stay safe.
+ego:Los nombres nunca son simples por aquí, ¿verdad?
+other:Estoy de acuerdo.
+other:Otra cosa, no hablará contigo a menos que tengas suficiente experiencia. 
+other:Es un hombre muy extraño. Es uno de los ancianos.
+other:Creo que tener 10 muertes debería ser suficiente para que te tome en serio.
+ego:¿Cómo consigo 10 muertes?
+other:Si no las tienes ya, debes matar a 10 o más piratas.
+other:Según el sistema de mantenimiento de registros del consejo, un pirata cuenta como +1 muerte.
+other:Matar a un oficial de policía o a un buque de carga cuenta como -2 muertes.
+other:Puedes manejarlo.
+other:Cuando encuentre la base Walker, atraque y hable con el 433-2c.
+other:Un buen amigo mío. Él te pondrá al corriente.
+other:Ten cuidado y abastecete de combustible aquí.
+other:Mejor aún, compra un lote de combustible.
+other:No podrás atracar en las estaciones del Consejo en absoluto.
+ego:Sí, ya fue bastante difícil llegar aquí.
+other:Apuesto a que sí. Mantente a salvo.
 stop
 
-@2 // I bet you don't know it, right?
-ego:I bet you don't know it, right?
-other:Well, there was a fellow in daphice who knew, waylen dor
-other:But you know what happened there. There is another but I'm not sure of his location.
-other:All I know is the system he resides in.
-other:Kp-FQ1. It's a pirate system with two pirates stations and two council stations.
-ego:So you don't know which station he's at?
+@2 // Apuesto a que no lo sabes, ¿verdad?
+ego:Apuesto a que no lo sabes, ¿verdad?
+other:Bueno, había un tipo en Daphice que sabía, Waylen Dor.
+other:Pero ya sabes lo que pasó allí. Hay otro, pero no estoy seguro de su ubicación.
+other:Todo lo que sé es que el sistema en el que reside.
+other:Kp-FQ1. Es un sistema pirata con dos estaciones piratas y dos estaciones del Consejo.
+ego:¿Así que no sabes en qué estación está?
 other:No
-ego:How many stations are there in kp-fq1?
-other:Four, but you'll be able to dock at two of them. 
-other:If you hadn't noticed you have one hell of a criminal record.
-ego:Great. What's his name?
+ego:¿Cuántas estaciones hay en kp-fq1?
+other:Cuatro, pero podrás atracar en dos de ellas.
+other:Si no te has dado cuenta tienes unos antecedentes penales increíbles.
+ego:Genial. ¿Cuál es su nombre?
 other:J'mes Learner.
-ego:Names are never simple around here are they.
-other:I quite agree. 
-other:One other thing, he won't talk to you unless you're experienced enough.
-other:He's very strange like that. He's one of the elders. 
-other:I think having 10 kills should be enough to make him take you seriously.
-ego:How do I get 10 kills?
-other:If you haven't got them already then you must kill 10 or more pirates.
-other:According to the council record keeping system if you kill a pirate it counts as one kill.
-other:Killing a police officer or cargo ship counts as -2 kills.
-other:You can handle it.
-other:When you find walker base, dock and talk to 433-2c. 
-other:A good friend of mine. He will fill you in.
-other:Be careful and stock up on fuel here.
-other:Better still, buy a fuel scoop. 
-other:You won't be able to dock at council stations at all.
-ego:Yeah, it was hard enough getting here.
-other:I bet. Stay safe.
+ego:Los nombres nunca son simples por aquí, ¿verdad?
+other:Estoy de acuerdo.
+other:Otra cosa, no hablará contigo a menos que tengas suficiente experiencia. 
+other:Es un hombre muy extraño. Es uno de los ancianos.
+other:Creo que tener 10 muertes debería ser suficiente para que te tome en serio.
+ego:¿Cómo consigo 10 muertes?
+other:Si no las tienes ya, debes matar a 10 o más piratas.
+other:Según el sistema de mantenimiento de registros del consejo, un pirata cuenta como +1 muerte.
+other:Matar a un oficial de policía o a un buque de carga cuenta como -2 muertes.
+other:Puedes manejarlo.
+other:Cuando encuentre la base Walker, atraque y hable con el 433-2c.
+other:Un buen amigo mío. Él te pondrá al corriente.
+other:Ten cuidado y abastecete de combustible aquí.
+other:Mejor aún, compra un lote de combustible.
+other:No podrás atracar en las estaciones del Consejo en absoluto.
+ego:Sí, ya fue bastante difícil llegar aquí.
+other:Apuesto a que sí. Mantente a salvo.
 stop

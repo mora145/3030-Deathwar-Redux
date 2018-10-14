@@ -1,85 +1,85 @@
 //begin
-// [ ] 1 - "Selling stuff from your jacket?"
-// [ ] 2 - "What's the catch with this?"
-// [ ] 3 - "I'd like to buy something."
-// [ ] 31 - "I didn't have enough cargo space!"
-// [ ] 32 - "Do you have any bigger deals?"
-// [x] 4 - "Bye."
+// [ ] 1 - "¿Vendiendo cosas de tu chaqueta?"
+// [ ] 2 - "¿Cuál es el truco con esto?"
+// [ ] 3 - "Me gustaría comprar algo."
+// [ ] 31 - "No disponía de suficiente espacio de carga!"
+// [ ] 32 - "¿Tienes algún negocio más grande?"
+// [x] 4 - "Adios."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hello again.
-ego:Hi.
+other:Hola de nuevo.
+ego:Hola.
 option-on 1
 option-on 2
 option-on 3
 option-on 31
 return
 
-@1 // Selling stuff from your jacket?
-ego:Selling stuff from your jacket?
-other:Aye, an entrepreneur I am.
-other:Anyone should be able to sell stuff...
-other:...without 20% sales tax.
-other:It's outrageous!
-ego:That does seem high.
+@1 // ¿Vendiendo cosas de tu chaqueta?
+ego:¿Vendiendo cosas de tu chaqueta?
+other:Sí, soy un empresario.
+other:Cualquiera debería poder vender cosas....
+other:...sin el 20% de impuestos.
+other:¡Es indignante!
+ego:Eso parece mucho.
 option-off 1
 option-on 32
 return
 
-@2 // What's the catch? 
-ego:What's the catch?
-other:Ya know...
-other:Re-sell at your own risk.
-ego:I might get a record?
-other:Nah dude. 
-other:Probably not.
+@2 // ¿Cuál es la trampa? 
+ego:¿Cuál es la trampa? 
+other:Ya sabes...
+other:Venda de nuevo bajo su propio riesgo.
+ego:¿Podría conseguir un registro?
+other:No, amigo. 
+other:Probablemente no.
 option-off 2
 option-on 32
 return
 
-@3 // I'd like to buy something.
-ego:I'd like to buy something.
-other:Can't. Stocks all gone.
-other:Listen. When you can...
-other:...Travel down to Elesw and meet me there.
-other:I'll have some high value stock to shift.
-ego:Elesw. OK, maybe see you there.
-other:Make sure you have at least 20 free cargo space.
+@3 // Me gustaría comprar algo.
+ego:Me gustaría comprar algo.
+other:No puedes. Las existencias se han agotado.
+other:Escucha. Cuando puedas...
+other:...Viaja hasta Elesw y reúnete conmigo allí.
+other:Tendré que mudar algunas acciones de alto valor.
+ego:Elesw. Bien, tal vez nos veamos allí.
+other:Asegúrese de tener al menos 20 espacios de carga libres.
 stop
 
-@31 // I didn't have enough cargo space!
-ego:I didn't have enough cargo space!
-other:Sorry pal, not my problem.
-other:If you buy from a seller like me...
-other:..you better have enough space.
-other:And it's first come first serve.
-other:So before you talk about deals..
-other:...make sure you have some cargo space!
-ego:Hmmm. I see.
-ego:I wonder who got the excess?
-other:Cargo bay droids take it away I guess.
+@31 // No tenía suficiente espacio de carga!
+ego:No tenía suficiente espacio de carga!
+other:Lo siento amigo, no es mi problema.
+other:Si le compras a un vendedor como yo....
+other:...será mejor que tengas suficiente espacio.
+other:Y el primero que llega es el primero que se atiende.
+other:Así que antes de que hables de tratos..
+other:...¡asegúrate de tener un poco de espacio de carga!
+ego:Hmmm. Ya veo.
+ego:Me pregunto a quién le tocó el exceso.
+other:Los droides de la bahía de carga se lo llevan, supongo.
 option-off 31
 return
 
-@32 // Do you have any bigger deals?
-ego:Do you have any bigger deals?
-other:Ah yes! 
-other:Bigger is better.
-other:I got some on the horizon.
-other:Come meet me at Elesw Station.
-other:You'll need 20 free cargo space.
-other:Good profit assured.
+@32 // ¿Tienes algún negocio más grande?
+ego:¿Tienes algún negocio más grande?
+other:¡Ah si! 
+other:Cuanto más grande, mejor.
+other:Tengo algunos en el horizonte.
+other:Ven a buscarme a la estación Elesw.
+other:Necesitarás 20 espacios de carga libres.
+other:Un buen beneficio asegurado.
 option-off 32
 return
 
 
-@4 // Bye
-ego:Bye.
-other:Maybe see you at Elesw.
-other:It'll be worth it.
+@4 // Adios
+ego:Adios.
+other:Quizá nos veamos en Elesw.
+other:Valdrá la pena.
 Stop
 

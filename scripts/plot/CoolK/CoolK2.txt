@@ -1,90 +1,90 @@
 //begin
-// [ ] 1 - "They eat crabs and shellfish."
-// [ ] 2 - "They eat seaweed."
-// [ ] 11 - "Know anything about Pirate attacks?"
-// [ ] 12 - "Maybe I will. Who does he know?"
-// [ ] 13 - "Maybe you informed on traders?"
+// [ ] 1 - "Comen cangrejos y mariscos."
+// [ ] 2 - "Comen algas marinas."
+// [ ] 11 - "¿Sabes algo sobre ataques de piratas?"
+// [ ] 12 - "Tal vez lo haga. ¿A quién conoce?"
+// [ ] 13 - "¿Quizás usted informó sobre los comerciantes?"
 
 
-// [x] 3 - "Bye."
+// [x] 3 - "Adios."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Came back to talk to CoolK.
-other:Good choice, my man!
-other:Do you happen to know...
-other:..what octopus eat anyway?
-other:I need to keep this baby alive.
+other:Volví para hablar con CoolK.
+other:¡Buena elección, amigo!
+other:¿Sabe usted por casualidad....
+other:...¿qué comen los pulpos?
+other:Necesito mantener vivo a este bebé.
 option-on 1
 option-on 2
 option-on 11
 return
 
-@1 // They eat crabs and shellfish.
-ego:They eat crabs and shellfish.
-other:Really?
-other:I thought they ate seaweed.
-ego:No. Pretty sure they don't.
-other:I've been giving it fruit.
-other:I'll try it with the seaweed.
+@1 // Comen cangrejos y mariscos.
+ego:Comen cangrejos y mariscos.
+other:¿De verdad?
+other:Creí que comían algas.
+ego:No. Estoy bastante seguro de que no.
+other:Le he estado dando fruta.
+other:Lo intentaré con las algas.
 option-off 1
 option-off 2
 return
 
-@11 // Know anything about Pirate attacks?
-ego:Know anything about Pirate attacks?
-other:Shhhh. Not so loud!
-other:Did you get into trouble?
-other:There are gangs in the area...
-other:...targeting traders and salvagers.
-ego:I know.
-other:CoolK keeps out of these things.
-other:Jimmy Chou is the local gossip. Try him.
-other:But until you know someone he knows...
-other:..he'll just talk random banter at you.
+@11 // ¿Sabes algo sobre ataques de piratas?
+ego:¿Sabes algo sobre ataques de piratas?
+other:Shhhhhh. ¡No tan alto!
+other:¿Te has metido en problemas?
+other:Hay bandas en la zona...
+other:... atacando a comerciantes y recuperadores.
+ego:Ya veo.
+other:CoolK se mantiene alejado de estas cosas.
+other:Jimmy Chou es el chismoso local. Intenta con él.
+other:Pero hasta que no conozcas a alguien que sepa....
+other:...sólo te hablarán al azar.
 option-off 11
 option-on 12
 option-on 13
 return
 
-@12 // Maybe I will. Who does he know?
-ego:Maybe I will. Who does he know?
+@12 // Tal vez lo haga. ¿A quién conoce?
+ego:Tal vez lo haga. ¿A quién conoce?
 other:Jimmy?
-other:Hmmm. I see him talking to Frank
-ego:Yeah? 
-ego:Not Frank Zoed?
-other:Yeah, that mechanic guy.
+other:Hmmm. Lo he visto hablando con Frank
+ego:Si? 
+ego:¿No es Frank Zoed?
+other:Sí, ese mecánico.
 option-off 12
 option-off 13
 return
 
-@13 // Maybe you inform on traders?
-ego:Maybe you informed on traders?
-other:Me? What? No way Pal.
+@13 // ¿Quizás informas sobre los comerciantes?
+ego:¿Quizás informas sobre los comerciantes?
+other:¿Yo? ¿Qué? De ninguna manera, Pal.
 other:what's this about? You get attacked recently?
-other:I'm no informant.
-other:I'm CoolK!
-other:Listening devices can be anywhere.
+other:No soy un informante.
+other:Soy CoolK!
+other:Los dispositivos de escucha pueden estar en cualquier lugar.
 option-off 13
 option-off 12
 return
 
-@2 // They eat seaweed.
-ego:They eat seaweed.
-other:Exactly!
-other:I thought they ate seaweed.
-ego:Yeah, throw a load in.
-ego:It'll love it.
+@2 // Comen algas marinas.
+ego:Comen algas marinas.
+other:Exacto!
+other:Creí que comían algas.
+ego:Sí, tirale un poco.
+ego:Le encantará.
 option-off 1
 option-off 2
 return
 
 
-@3 // Bye
-ego:Bye.
-other:Bye.
+@3 // Adios
+ego:Adios.
+other:Adios.
 Stop
 

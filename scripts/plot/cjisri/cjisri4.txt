@@ -1,34 +1,34 @@
 //begin
-// [x] 1 - "I'm having trouble killing pirates."
-// [x] 2 - "Can't you help me with the password?"
+// [x] 1 - "Tengo problemas matando piratas."
+// [x] 2 - "¿No puedes ayudarme con la contraseña?"
 //end
 
 
 @S
-ego:Hello again.
-other:Hello, how can I help you?
+ego:Hola de nuevo.
+other:Hola, ¿en qué puedo ayudarle?
 option-on 1
 option-on 2
 return
 
 @1
-ego:I'm having trouble killing pirates.
-other:You shouldn't be. They're all looking for you.
-ego:Tell me about it.
-other:Make sure you get all the necessary upgrades from here before you start off.
-ego:like what?
-other:Well, there's the 'whos targeting me' upgrade.
-other:you definitely need a combat scanner.
-other:Perhaps an ECM and an afterburner.
-ego:Ok, thanks for your help.
-other:No problem. Good luck.
-other:Don't forget to see j'mes learner when you have more than 10 kills.
+ego:Tengo problemas matando piratas.
+other:No deberías tenerlos. Todos te están buscando.
+ego:Háblame de eso.
+other:Asegúrese de obtener todas las actualizaciones necesarias de aquí antes de empezar.
+ego:¿Como cuáles?
+other:Bueno, está la actualización de 'quién me apunta'.
+other:Definitivamente necesitas un escáner de combate.
+other:Tal vez un ECM y un postcombustión.
+ego:Ok, gracias por tu ayuda.
+other:No hay problema. Buena suerte.
+other:No olvides ver a J'mes Learner cuando tengas más de 10 muertes.
 stop
 
 @2
-ego:Can't you help me with the password?
-other:No, I'm afraid I can't. I don't know it.
-other:But j'mes learner does. See him - after you've killed 50 pirates.
-other:And he'll help you out.
-ego:ok, thanks.
+ego:¿No puedes ayudarme con la contraseña?
+other:No, me temo que no puedo. No la conozco.
+other:Pero J'mes Learner sí. Ve a verlo, después de que hayas matado a 10 piratas.
+other:Y él te ayudará.
+ego:Ok, gracias.
 stop

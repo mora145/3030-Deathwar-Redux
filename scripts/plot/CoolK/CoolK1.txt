@@ -1,88 +1,88 @@
 //begin
-// [ ] 1 - "What's that you've got there?"
-// [ ] 11 - "Why did you get it?"
-// [ ] 2 - "My name's Falcon."
-// [ ] 3 - "You heard anything about stolen ships?"
-// [ ] 31 - "What about the Largo?"
-// [x] 4 - "Bye."
+// [ ] 1 - "¿Qué es lo que tienes ahí?"
+// [ ] 11 - "¿Por qué lo conseguiste?"
+// [ ] 2 - "Mi nombre es Falcon.."
+// [ ] 3 - "¿Has oído algo sobre naves robadas?"
+// [ ] 31 - "¿Qué me dices del Largo?"
+// [x] 4 - "Adios."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Excuse me.
-other:Yes, my man.
+ego:Discúlpeme.
+other:Sí, amigo
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // What's that you've got there?
-ego:What's that you've got there?
-other:This?
-other:This is my new acquisition.
-ego:An octopus?
-other:Yeah.
-other:Freakin' sweet huh?
-ego:Yes.
-other:It's meant to be rare.
-other:I'm not sure...
-other:..but he's still cool.
+@1 // ¿Qué es lo que tienes ahí?
+ego:¿Qué es lo que tienes ahí?
+other:¿Esto?
+other:Esta es mi nueva adquisición.
+ego:¿Un pulpo?
+other:Si.
+other:Malditamente adorable, ¿eh?
+ego:Si.
+other:Se supone que es raro.
+other:No estoy seguro...
+other:...pero sigue siendo genial.
 option-off 1
 option-on 11
 return
 
-@11 // Why did you get it?
-ego:Why did you get it?
-other:An octopus?
-other:It's meant to be rare.
-other:I know a Police Boss who's got a large aquarium.
-other:Several actually.
-other:If it is rare. He might buy it.
-other:It's meant to be a mimic octopus.
-ego:Good luck with that.
+@11 // ¿Por qué lo conseguiste?
+ego:¿Por qué lo conseguiste?
+other:¿Un pulpo?
+other:Se supone que es raro.
+other:Conozco a un jefe de policía que tiene un gran acuario.
+other:Varios en realidad.
+other:Si es raro. Puede que lo compre.
+other:Se supone que es un pulpo imitador.
+ego:Buena suerte con eso.
 option-off 11
 return
 
-@2 // My name's Falcon.
-ego:My name's Falcon.
+@2 // Mi nombre es Falcon.
+ego:Mi nombre es Falcon.
 other:I'm CoolK.
-ego:That a nickname?
-other:Yeah. My name starts with K.
-other:At engineering school...
-other:...the ladies called me Cool K.
-other:And it stuck.
+ego:¿Es un apodo?
+other:Si. Mi nombre empieza con K.
+other:En la escuela de ingeniería...
+other:...las chicas me llamaban Cool K.
+other:Y se me pegó.
 option-off 2
 return
 
-@3 // You heard anything about stolen ships?
-ego:You heard anything about stolen ships?
-other:Yeah. Lot's of traders got hit.
-other:What a scam. The word is..
-other:...it's to stall others finding the Largo.
+@3 // ¿Has oído algo sobre naves robadas?
+ego:¿Has oído algo sobre naves robadas?
+other:Si. Muchos comerciantes fueron atacados.
+other:Qué estafa. La cosa es...
+other:...es para impedir que otros encuentren el Largo.
 option-off 3
 option-on 31
 return
 
-@31 // What about the Largo?
-ego:What about the Largo?
-other:The Largo?
-other:That ship packed with the rich stuff?
-other:Only that it's out there.
-other:Just waiting to be a salvager's dream.
-other:But shhh, even talking about it can get you...
-other:Disappeared. Know what I mean?
-other:These days, make sure you got a front gun mounted.
-ego:Traders are being targeted?
-other:Sure. One was attacked today near here.
-ego:Thanks for the warning.
+@31 // ¿Qué hay del Largo?
+ego:¿Qué hay del Largo?
+other:¿El Largo?
+other:¿Esa nave llena de cosas lujosas?
+other:Sólo que está ahí fuera.
+other:Esperando ser el sueño de un recuperador.
+other:Pero shhhh, incluso hablar de ello puede hacerte....
+other:...desaparecer... ¿Entiendes lo que quiero decir?
+other:Hoy en día, asegúrate de tener un arma delantera montada.
+ego:¿Los comerciantes están en la mira?
+other:Claro. Uno fue atacado hoy cerca de aquí.
+ego:Gracias por la advertencia.
 attackyououtside,1,The Bad Sloop
 option-off 31
 return
 
-@4 // Bye
-ego:Bye.
-other:See you next time.
+@4 // Adios
+ego:Adios.
+other:Te veo luego.
 Stop
 

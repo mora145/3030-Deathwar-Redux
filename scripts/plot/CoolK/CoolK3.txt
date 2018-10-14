@@ -1,29 +1,29 @@
 //begin
-// [ ] 1 - "What crash?"
-// [ ] 2 - "What happened?"
-// [ ] 21 - "Have you seen the crash site?"
-// [ ] 22 - "Everyone seems very calm."
-// [ ] 23 - "I see you still have the Octopus."
-// [x] 3 - "Bye."
+// [ ] 1 - "¿Qué accidente?"
+// [ ] 2 - "¿Qué pasó?"
+// [ ] 21 - "¿Has visto el lugar del accidente?"
+// [ ] 22 - "Todo el mundo parece muy tranquilo."
+// [ ] 23 - "Veo que aún tienes el Pulpo."
+// [x] 3 - "Adios."
 
 //end
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi there.
-other:Boom! What a crash?
-other:Oh man. CoolK feels lucky to be alive.
+other:Hola amigo
+other:¡Boom! Qué choque?
+other:Oh hombre. CoolK se siente afortunado de estar vivo.
 option-on 1
 option-on 2
 return
 
-@1 // What crash?
-ego:What crash?
-other:The Largo. It hit the freakin' station.
-other:The crash site is locked down.
-other:It was meant to be full of gold.
-other:Remaining cargo will go to pay the insurance company or something.
-other:CoolK is just glad nobody got hurt.
+@1 // ¿Qué accidente?
+ego:¿Qué accidente?
+other:El Largo. Golpeó la maldita estación.
+other:El lugar del accidente está bloqueado.
+other:Estaba destinado a estar lleno de oro.
+other:El resto de la carga irá a pagar a la compañía de seguros o algo así.
+other:CoolK se alegra de que nadie saliera herido.
 option-off 1
 option-off 2
 option-on 21
@@ -32,15 +32,15 @@ option-on 23
 return
 
 
-@2 // What happened?
-ego:What happened?
-other:Don't you know?
-other:That missing ship... the Largo.
-other:Its split drive was warping it around the system.
-other:And bam! It hit this station.
-ego:No more info than that?
-other:You need more? Just go and take a look outside.
-other:It's a mess.
+@2 // ¿Qué pasó?
+ego:¿Qué pasó?
+other:¿No lo sabes?
+other:Esa nave perdida.... el Largo.
+other:Su impulso dividido lo estaba deformando alrededor del sistema.
+other:Y ¡bam! Golpeó esta estación.
+ego:¿No hay más información que eso?
+other:¿Necesitas más? Sólo ve y echa un vistazo afuera.
+other:Es un desastre.
 option-off 1
 option-off 2
 option-on 21
@@ -48,46 +48,46 @@ option-on 22
 option-on 23
 return
 
-@21 // Have you seen the crash site?
-ego:Have you seen the crash site?
-other:Sure. I watched it happen on my mobile.
-other:We were warned by the station announcer.
-other:they managed to slow the ship down with some..
-other:...you know. Tug-ships. With industrial tractor beams.
-ego:That must have saved the station.
-other:I guess. It did a lot of damage even slowed down.
+@21 // ¿Has visto el lugar del accidente?
+ego:¿Has visto el lugar del accidente?
+other:Claro. Lo vi en mi móvil.
+other:Fuimos advertidos por el locutor de la estación.
+other:Se las arreglaron para ralentizar la nave con un poco de...
+other:...ya sabes. Remolcadores. Con rayos tractores industriales.
+ego:Eso debe haber salvado la estación.
+other:Supongo que sí. Hizo mucho daño, incluso se desacelerandose.
 option-off 21
 option-off 22
 return
 
-@22 // Everyone seems very calm.
-ego:Everyone seems very calm.
-ego:Considering what happened.
-other:Well. I suspect a lot of people are on drugs.
-other:Caffeine. It rots your brain.
-other:Did you see that study where they gave a variety of drugs to spiders?
-other:webs on caffeine were pretty bad.
-ego:Spiders? ones from earth?
-other:I guess so. I just looked at the pictures.
-ego:Thanks for the info.
+@22 // Todo el mundo parece muy tranquilo.
+ego:Todo el mundo parece muy tranquilo.
+ego:Considerando lo que pasó.
+other:Bueno. Sospecho que mucha gente está drogada.
+other:Cafeína. Te pudre el cerebro.
+other:¿Viste el estudio en el que le dieron una variedad de drogas a las arañas?
+other:las telarañas de cafeína eran bastante malas.
+ego:¿Arañas? ¿Las de la tierra?
+other:Supongo que sí. Sólo miré las fotos.
+ego:Gracias por la información.
 option-off 22
 option-off 21
 return
 
-@23 // I see you still have the Octopus.
-ego:I see you still have the Octopus.
-other:Don't remind me.
-other:It's not a mimic Octopus. So I can't sell it anywhere.
-ego:so you got a pet.
-other:I am getting fond of it.
-other:And it's a good ice breaker with the ladies.
-ego:I find that hard to believe.
-other:stay optimistic, that's the coolk way.
+@23 // Veo que aún tienes el Pulpo.
+ego:Veo que aún tienes el Pulpo.
+other:No me lo recuerdes.
+other:No es un pulpo imitador. Así que no puedo venderlo en ningún lado.
+ego:Así que tienes una mascota.
+other:Me estoy encariñando con él.
+other:Y es un buen rompehielos con las chicas.
+ego:Me cuesta creerlo.
+other:Mantente optimista, esa es la mejor manera.
 option-off 23
 return
 
-@3 // Bye.
-ego:Bye.
-other:Bye, and stay lucky.
+@3 // Adios.
+ego:Adios.
+other:Adiós, y que tengas suerte.
 Stop
 

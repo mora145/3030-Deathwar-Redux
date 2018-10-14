@@ -1,60 +1,60 @@
 //begin
-// [ ] 1 - "Know anything about the pirate gangs?"
-// [ ] 11 - "Jeremiah Johnson?"
-// [ ] 2 - "Ever been out of this system?"
-// [x] 3 - "Bye."
+// [ ] 1 - "¿Sabes algo de las bandas de piratas?"
+// [ ] 11 - "¿Jeremiah Johnson?"
+// [ ] 2 - "¿Alguna vez has estado fuera de este sistema?"
+// [x] 3 - "Adios."
 
 //end
 
 // dialog script file
 @S // dialog startup entry point
-other:What's up?
-ego:One more thing...
+other:¿Qué pasa?
+ego:Una cosa más....
 option-on 1
 option-on 2
 return
 
-@1 // Know anything about the pirate gangs?
-ego:Know anything about the pirate gangs?
-other:I know they wanted the Largo cargo.
-other:Guess they are still out to get salvagers.
-other:They are not the most logical of people.
-other:You've had trouble?
-ego:Some.
-other:Sorry to hear that.
-other:I'm afraid that once you get on their hit list...
-other:...they don't give up.
-other:You'll have to be a Jeremiah Johnson for a while.
-ego:I used to be a bounty hunter.
-ego:Let 'em come.
+@1 // ¿Sabes algo de las bandas de piratas?
+ego:¿Sabes algo de las bandas de piratas?
+other:Sé que querían el cargamento de Largo.
+other:Supongo que siguen buscando rescatadores.
+other:No son las personas más lógicas.
+other:¿Has tenido problemas?
+ego:Algunos.
+other:Lamento oír eso.
+other:Me temo que una vez que estas en su lista negra...
+other:...no se rinden.
+other:Tendrás que ser un Jeremiah Johnson por un tiempo.
+ego:Solía ser un cazarrecompensas.
+ego:Deja que vengan.
 option-off 1
 option-on 11
 return
 
-@11 // Jeremiah Johnson?
-ego:Jeremiah Johnson?
-other:Sure. That old earth movie.
-other:where the guy keeps getting attacked.
-other:By the robot crows.
-ego:Really? 
-other:The robot crows just won't quit.
-other:It's a remake of a Milius classic.
-ego:Not sure I know that one.
+@11 // ¿Jeremiah Johnson?
+ego:¿Jeremiah Johnson?
+other:Claro. Esa vieja película de la Tierra.
+other:donde el tipo sigue siendo atacado.
+other:Por los cuervos robot.
+ego:¿De verdad? 
+other:Los cuervos robot no se rinden.
+other:Es un remake de un clásico de Milius.
+ego:No estoy seguro de conocerlo.
 option-off 11
 return
 
-@2 // Ever been out of this system?
-ego:Ever been out of this system?
-other:Sure thing. Coolk has been around.
-other:I used to live in Leesti.
-other:Junk salvage to the max.
-ego:Why so much junk there?
-other:They have a scrap yard. Old ships and stations get sent there.
+@2 // ¿Alguna vez has estado fuera de este sistema?
+ego:¿Alguna vez has estado fuera de este sistema?
+other:Claro que sí. Coolk ha estado por todas partes.
+other:Yo vivía en Leesti.
+other:Recuperación de chatarra al máximo.
+ego:¿Por qué tanta basura?
+other:Tienen un depósito de chatarra. Las naves y estaciones viejas son enviadas allí.
 option-off 2
 return
 
-@3 // Bye
-ego:Bye.
-other:Bye, be lucky.
+@3 // Adios
+ego:Adios.
+other:Adios, que tengas suerte.
 Stop
 
