@@ -1,26 +1,26 @@
 //begin
-// [x] 1 - "I'll do it."
-// [x] 2 - "Not right now, thanks."
+// [x] 1 - "Yo lo haré."
+// [x] 2 - "Ahora no, gracias."
 //end
 
 
 // dialog script file
 @S // intro
-other:So you think you're good. Do you want some more money?
-other:If you do, you could win $100,000.
-other:You want in?
+other:Así que crees que eres bueno. ¿Quieres más dinero?
+other:Si lo haces, podrías ganar 100,000$.
+other:¿Quieres entrar?
 option-on 1
 option-on 2
 return
 
-@1 //I'm in.
-ego:I'll do it.
-other:Great, it'll be a difficult round. Try your best.
+@1 //Estoy dentro.
+ego:Estoy dentro.
+other:Genial, será una ronda difícil. Hazlo lo mejor que puedas.
 setMissionAnswer 1
 stop
 
-@2 // Not right now, thanks.
-ego:Not right now, thanks.
-other:Come back when you want the some big money.
+@2 // Ahora no, gracias.
+ego:Ahora no, gracias.
+other:Vuelve cuando quieras mucho dinero.
 setMissionAnswer 0
 stop

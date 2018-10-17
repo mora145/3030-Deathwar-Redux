@@ -1,18 +1,18 @@
 //begin
-// [x] 1 - "Thanks."
+// [x] 1 - "Gracias."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:hi again.
-other:What are you still doing here?
-other:You need to follow jek kek to Waiool and figure out what he's doing.
-other:The lander is attached to your ship, you just need to get close to the planet.
-other:Good luck.
+ego:Hola de nuevo.
+other:¿Qué haces aquí todavía?
+other:Tienes que seguir a Jek Kek hasta Waiool y averiguar qué está haciendo.
+other:El módulo de aterrizaje está conectado a su nave, sólo necesitará acercarse al planeta.
+other:Buena suerte.
 option-on 1
 return
 
 @1 // New
-ego:Thanks.
+ego:Gracias.
 stop

@@ -1,59 +1,59 @@
 //begin
-// [ ] 1 - "Have you ever heard of Zog Dongo?"
-// [ ] 2 - "Do you happen to know a Frank Zoed?"
-// [ ] 3 - "Do you know the droid Kent?"
-// [x] 4 - "Bye."
+// [ ] 1 - "¿Has oído hablar de Zog Dongo?"
+// [ ] 2 - "¿Conoce a un tal Frank Zoed?"
+// [ ] 3 - "¿Conoces al droide Kent?"
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Excuse me.
-other:Yes?
-ego:You're a local around here?
-other:What of it?
-ego:I need some info.
+ego:Disculpe.
+other:¿Si?
+ego:¿Eres de por aquí?
+other:¿Qué pasa con él?
+ego:Necesito algo de información.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // Have you ever heard of Zog Dongo?
-ego:Have you ever heard of Zog Dongo?
-other:The Zogger? Sure.
-other:He's not been around for a while.
-ego:I see.
-ego:Was he in any trouble?
-other:Hmmm. Don't think so.
+@1 // ¿Has oído hablar de Zog Dongo?
+ego:¿Has oído hablar de Zog Dongo?
+other:¿El Zogger? Claro.
+other:No ha estado por aquí en mucho tiempo.
+ego:Ya veo.
+ego:¿Tuvo algún problema?
+other:Hmmm. No, no lo creo.
 option-off 1
 return
 
-@2 // Do you happen to know a Frank Zoed?
-ego:Do you happen to know a Frank Zoed?
-other:The mechanic? Yeah.
-other:He's around Andinti somewhere.
-other:You need repairs?
-ego:I need reparations.
-other:Oh. Good luck.
+@2 // D¿Conoce a un tal Frank Zoed?
+ego:¿Conoce a un tal Frank Zoed?
+other:¿El mecánico? Si.
+other:Está cerca de Andinti en alguna parte.
+other:¿Necesitas reparaciones?
+ego:Necesito reparaciones.
+other:Oh. Buena suerte.
 option-off 2
 return
 
-@3 // Do you know the droid Kent?
-ego:Do you know the droid Kent?
-other:Kent?
-other:Oh yeah, you're the captain that hangs around with Kent!
-ego:Err, no. Kent hangs around with me.
-other:You're the one who flew into that EVA dude!
-ego:The dude was already dead. Technically it was space junk.
-other:Kent was telling me that story.
-other:He was here a minute ago.
-ego:Ok. Thanks.
+@3 // ¿Conoces al droide Kent?
+ego:¿Conoces al droide Kent?
+other:¿Kent?
+other:Oh sí, usted es el capitán que anda con Kent!
+ego:Err, no. Kent anda conmigo.
+other:¡Tú eres el que voló al tío del Eva!
+ego:El tipo ya estaba muerto. Técnicamente era basura espacial.
+other:Kent me estaba contando esa historia.
+other:Estaba aquí hace un minuto.
+ego:Ok. Gracias.
 option-off 3
 return
 
-@4 // Bye
-ego:Bye.
-other:Bye.
+@4 // Adios
+ego:Adios.
+other:Adios.
 Stop
 

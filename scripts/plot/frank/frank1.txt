@@ -1,16 +1,16 @@
 //begin
-// [x] 1 - "Hey Frank, you asshole."
-// [x] 2 - "You sold me a hot ship, Frank."
-// [ ] 3 - "Doesn't matter."
-// [ ] 4 - "Yeah, it was stolen."
-// [ ] 5 - "Police are after you my friend."
-// [ ] 7 - "Don't make me punch you, Frank."
-// [ ] 8 - "I'm askin' you nice, frank."
-// [ ] 81 - "Frank, didn't you have insurance?"
-// [ ] 9 - "What am I supposed to do now?"
-// [ ] 91 - "I'm due some compensation here."
-// [ ] 10 - "Yeah, well I sure need the money."
-// [ ] 11 - "Not right now, I'm too angry."
+// [x] 1 - "Oye, Frank, imbécil"
+// [x] 2 - "Me vendiste una nave caliente, Frank."
+// [ ] 3 - "No importa."
+// [ ] 4 - "Sí, fue robada."
+// [ ] 5 - "La policía te persigue, amigo mío."
+// [ ] 7 - "No me hagas golpearte, Frank."
+// [ ] 8 - "Te lo estoy pidiendo amablemente, Frank."
+// [ ] 81 - "Frank, ¿no tenías seguro?"
+// [ ] 9 - "¿Qué se supone que debo hacer ahora?"
+// [ ] 91 - "Me deben una compensación aquí."
+// [ ] 10 - "Sí, bueno, necesito el dinero."
+// [ ] 11 - "Ahora no, estoy muy enojado."
 //end
 
 
@@ -18,44 +18,44 @@
 @S // dialog startup entry point
 return
 
-@1 // Hey Frank, you asshole.
-ego:Hey Frank, you asshole.
-other:Well, nice to see you too. 
-other:What's up?
-ego:Remember that ship you sold me?
-other:Yeah, the Lochu Detra. Great ship.
+@1 // Oye, Frank, imbécil
+ego:Oye, Frank, imbécil
+other:Bueno, yo también me alegro de verte.
+other:¿Qué pasa?
+ego:¿Recuerdas la nave que me vendiste?
+other:Sí, el Lochu Detra. Gran nave.
 option-on 4
 option-on 5
 option-off 1
 option-off 2
 return
 
-@2 // You sold me a hot ship, Frank.
-ego:You sold me a hot ship, frank.
-other:What ship? I don't recall a ship.
-ego:Frank... come on.
-other:Oh yeah, the Lochu Detra. Great ship.
+@2 // Me vendiste una nave caliente, Frank.
+ego:Me vendiste una nave caliente, Frank.
+other:¿Qué nave? No recuerdo una nave.
+ego:Frank.... vamos.
+other:Oh sí, el Lochu Detra. Gran nave.
 option-on 4
 option-on 5
 option-off 1
 option-off 2
 return
 
-@3 // Doesn't matter.
-ego:Doesn't matter.
-other:Ok
+@3 // No importa.
+ego:No importa.
+other:Bien.
 stop
 
-@4 // Yeah, it was stolen.
-ego:Yeah, it was stolen.
-other:What, another one?
-other:Oh man. I got sold some bad ships.
-other:I bought them from a guy down near farpoint. 
-other:I got the green slips for them too.
-other:There's no way I could have known they were stolen.
-ego:That's besides the point. 
-ego:I'm nearly 2 million out of pocket.
-other:Yeah, sorry about this.
+@4 // Sí, fue robada.
+ego:Sí, fue robada.
+other:¿Qué, otra?
+other:Oh hombre. Me vendieron unas naves malas.
+other:Se las compré a un tipo cerca de Farpoint.
+other:Tengo las boletas verdes para ellas también.
+other:No hay forma de que pudiera haber sabido que fueron robadas.
+ego:Eso no tiene nada que ver. 
+ego:Me ha costado casi dos millones de mis bolsillos.
+other:Sí, lo siento por eso.
 option-on 7
 option-on 8
 option-off 5
@@ -63,15 +63,15 @@ option-off 6
 option-off 4
 return
 
-@5 // Police are after you my friend.
-ego:Police are after you my friend.
-ego:That ship was quite, quite stolen.
-ego:It's been impounded.
-ego:Police said they'd be calling on you.
-other:Ok, I'll sort this out.
-ego:Just give me the money back and we'll put this behind us.
-other:I'd like to do that... but I can't.
-other:I don't have it anymore.
+@5 // La policía te busca, amigo mío.
+ego:La policía te busca, amigo mío.
+ego:Esa nave era muy, muy robada.
+ego:Ha sido confiscada.
+ego:La policía dijo que te visitarían.
+other:Ok, voy a resolver esto.
+ego:Devuélveme el dinero y dejaremos esto atrás.
+other:Me gustaría hacer eso.... pero no puedo.
+other:Ya no lo tengo.
 option-on 7
 option-on 8
 option-off 5
@@ -79,17 +79,17 @@ option-off 6
 option-off 4
 return
 
-@7 // Don't make me punch you, Frank.
-ego:Don't make me punch you, Frank.
-other:Hey, I got conned too.
-other:Ain't nothing I can do for repayments. 
-other:I spent the money.
-ego:You spent all my money? 
-ego:What did you spend 2 mil on?
-other:Debts mostly.
-other:Look, I messed up big time.
-other:I got a bad delivery of ships recently.
-ego:Man, I don't believe this.
+@7 // No me hagas golpearte, Frank.
+ego:No me hagas golpearte, Frank.
+other:Oye, a mí también me estafaron.
+other:No hay nada que pueda hacer para pagar. 
+other:Me gasté el dinero.
+ego:¿Gastaste todo mi dinero? 
+ego:¿En qué gastaste 2 millones?
+other:Deudas en su mayoría.
+other:Mira, la he cagado a lo grande.
+other:He recibido una mala entrega de naves recientemente.
+ego:Hombre, no puedo creerlo.
 option-on 9
 option-on 91
 option-off 3
@@ -98,12 +98,12 @@ option-off 8
 option-off 81
 return
 
-@8 // I'm askin' you nice, Frank.
-ego:I'm askin' you nice, Frank.
-other:And I'd like to fix this.
-other:Trouble is, I don't have the money.
-ego:What? You spent 2 million credits?
-other:Yeah, sorry.
+@8 // Te lo pido amablemente, Frank.
+ego:Te lo estoy pidiendo amablemente, Frank.
+other:Y me gustaría arreglar esto.
+other:El problema es que no tengo el dinero.
+ego:¿Qué? ¿Gastaste 2 millones de créditos?
+other:Sí, lo siento.
 option-on 9
 option-on 91
 option-off 3
@@ -112,13 +112,13 @@ option-off 8
 option-off 81
 return
 
-@81 // Frank, didn't you have insurance?
-ego:Frank, didn't you have insurance?
-other:No. I couldn't with my credit rating.
-ego:You'll just have to pay me.
-other:Sorry, I don't have the money.
-ego:What? You spent 2 million credits?
-other:Yeah, sorry.
+@81 // Frank, ¿no tenías seguro?
+ego:Frank, ¿no tenías seguro?
+other:No. No pude con mi calificación crediticia.
+ego:Tendrás que pagarme.
+other:Lo siento, no tengo el dinero.
+ego:¿Qué? ¿Gastaste 2 millones de créditos?
+other:Sí, lo siento.
 option-on 9
 option-on 91
 option-off 3
@@ -127,60 +127,60 @@ option-off 8
 option-off 81
 return
 
-@9 // What am I supposed to do now?
-ego:What am I supposed to do now?
-other:I am working on how I can repay people.
-other:You probably want to spit in my face, right?
-ego:I'm more of a puncher than a spitter, Frank.
-other:Cool your jets. I'll work on repaying you.
-other:For now, I got some work you may like. 
-other:It will pay above normal rates.
-ego:With what money?
-other:The money's not mine
-other:I'm the middle man in a couple of deals.
-other:You game?
+@9 // ¿Qué se supone que debo hacer ahora?
+ego:¿Qué se supone que debo hacer ahora?
+other:Estoy trabajando en cómo puedo recompensar a la gente.
+other:Probablemente quieras escupirme en la cara, ¿verdad?
+ego:Soy más puñetazo que escupidor, Frank.
+other:Refresca tus jets. Trabajaré para pagarte.
+other:Por ahora, tengo un trabajo que te puede gustar.
+other:Se pagará por encima de las tarifas normales.
+ego:¿Con qué dinero?
+other:El dinero no es mío.
+other:Soy el intermediario en un par de negocios.
+other:¿Juegas?
 option-on 10
 option-on 11
 option-off 9
 option-off 91
 return
 
-@91 // I'm due some compensation here.
-ego:I'm due some compensation here.
-other:I am working on how I can repay people.
-other:You probably want to spit in my face, right?
-ego:I'm more of a puncher than a spitter, Frank.
-other:Cool your jets. I'll work on compensation.
-other:For now, I got some work you may like. 
-other:It will pay above normal rates.
-ego:With what money?
-other:The money's not mine.
-other:I'm the middle man in a couple of deals.
-other:You game?
+@91 // Me deben una compensación.
+ego:Me deben una compensación.
+other:Estoy trabajando en cómo puedo recompensar a la gente.
+other:Probablemente quieras escupirme en la cara, ¿verdad?
+ego:Soy más puñetazo que escupidor, Frank.
+other:Refresca tus jets. Trabajaré en la compensación.
+other:Por ahora, tengo un trabajo que te gustará. 
+other:Se pagará por encima de las tarifas normales.
+ego:¿Con qué dinero?
+other:El dinero no es mío.
+other:Soy el intermediario en un par de negocios.
+other:¿Juegas?
 option-on 10
 option-on 11
 option-off 9
 option-off 91
 return
 
-@10 // Yeah, well I sure need the money.
-ego:Yeah, well I sure need the money don't I.
-other:Ok, you gotta find Jimmy Chou.
-other:He's in this system.
-other:Visit nearby stations. If he's there, talk to him.
-ego:I'm just interested in how much you're going to pay me.
-other:Chou will offer you some premium rates.
-ego:You better feel lucky, Frank.
-other:Why?
-ego:Lucky I don't punch you in the face.
-other:Sorry dude.
+@10 // Sí, bueno, necesito el dinero.
+ego:Sí, bueno, necesito el dinero, ¿no?
+other:Ok, tienes que encontrar a Jimmy Chou.
+other:Está en este sistema.
+other::Visite las estaciones cercanas. Si está ahí, habla con él.
+ego:Sólo estoy interesado en cuánto me vas a pagar.
+other:Chou le ofrecerá algunas tarifas especiales.
+ego:Más vale que te sientas con suerte, Frank.
+other:¿Por qué?
+ego:Suerte que no te pego en la cara.
+other:Lo siento amigo.
 setMissionAnswer 1
 stop
 
-@11 // Not right now, I'm too angry.
-ego:Not right now, I'm too angry.
-other:I understand. 
-other:When you've cooled down come back and we can arrange something.
-ego:Ok, you stay right here.
+@11 // Ahora no, estoy muy enfadado.
+ego:Ahora no, estoy muy enfadado.
+other:Entiendo. 
+other:Cuando te hayas calmado, vuelve y podemos arreglar algo.
+ego:Bien, quédate aquí.
 setMissionAnswer 0
 stop

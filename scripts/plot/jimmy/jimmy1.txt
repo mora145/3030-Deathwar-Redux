@@ -1,53 +1,53 @@
 //begin
-// [x] 1 - "Excuse me, Sir."
-// [x] 2 - "You have premium rate jobs?"
-// [x] 21 - "Hey, Frank recommended you."
-// [x] 22 - "Hi, Jimmy Chou?"
-// [x] 23 - "Frank Zoed. You know him?"
-// [ ] 24 - "Nice communicator unit."
-// [ ] 3 - "So what can you do for me?"
-// [ ] 31 - "Can it make up for losing my ship?"
-// [ ] 4 - "Tell me more about the Taoists then."
-// [ ] 5 - "Do you have any jobs for me or what?"
-// [ ] 6 - "Are you saying you don't personally have any jobs?"
-// [ ] 7 - "Look, people are trying to have me killed..."
+// [x] 1 - "Disculpe, señor"
+// [x] 2 - "¿Tienen trabajos de alta remuneración?"
+// [x] 21 - "Frank te recomendó"
+// [x] 22 - "Hola, ¿Jimmy Chou?"
+// [x] 23 - "Frank Zoed. "¿Lo conoces?"
+// [ ] 24 - "Bonita unidad de comunicación"
+// [ ] 3 - "¿Qué puedes hacer por mí?"
+// [ ] 31 - "¿Puedes compensar la pérdida de mi nave?"
+// [ ] 4 - "Cuéntame más sobre los taoístas entonces"
+// [ ] 5 - "¿Tienes algún trabajo para mí o qué?"
+// [ ] 6 - "¿Estás diciendo que no tienes ningún trabajo personal?"
+// [ ] 7 - "Mira, hay gente tratando de matarme..."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hello. Do I know you?
+other:Hola. ¿Te conozco?
 return
 
-@1 // Excuse me, Sir.
-ego:Excuse me, Sir. 
-other:I don't know you.
-ego:You have premium rate jobs?
-other:Who told you that?
-other:Buzz off.
+@1 // Disculpe, señor.
+ego:Disculpe, señor.
+other:No te conozco.
+ego:¿Tienes trabajos de alta remuneración?
+other:¿Quién te dijo eso?
+other:Lárgate.
 option-off 1
 return
 
-@2 // You have premium rate jobs?
-ego:You have premium rate jobs?
-other:I don't know you.
-other:Buzz off.
+@2 // ¿Tienes trabajos de alta remuneración?
+ego:¿Tienes trabajos de alta remuneración?
+other:No te conozco a ti.
+other:Lárgate.
 option-off 2
 return
 
-@21 // Hey, Frank recommended you
-ego:Hey, Frank recommended you
-other:Ol' Zoedy? Man, I haven't seen him in a while.
-other:How do you know him?
-ego:He sold me a hot ship.
-other:You mean he sold you a stolen ship?
-other:What's he got mixed up in now.
-ego:He said you had jobs with premium rates.
-ego:Which could help me get back on track.
-other:My friend, Frank might have been the best thing to ever happen to you.
-ego:How so?
-other:He recommended me, didn't he?!
+@21 // Oye, Frank te recomendó
+ego:Oye, Frank te recomendó.
+other:¿Ol' Zoedy? Hace tiempo que no lo veo.
+other:¿Cómo lo conoces?
+ego:Me vendió una nave caliente.
+other:¿Quieres decir que te vendió una nave robada?
+other:¿En qué se ha metido ahora?
+ego:Dijo que tenías trabajos con tarifas especiales.
+ego:Lo que podría ayudarme a volver al buen camino.
+other:Mi amigo, Frank pudo haber sido la mejor cosa que te haya pasado.
+ego:¿Cómo es eso?
+other:Me recomendó, ¿no es así?
 option-on 3
 option-on 31
 option-off 1
@@ -57,60 +57,60 @@ option-off 22
 option-off 23
 return
 
-@22 // Hi, Jimmy Chou?
-ego:Hi, Jimmy Chou?
-other:Yes. Who are you?
-ego:I'm John.
+@22 // Hola, ¿Jimmy Chou?
+ego:Hola, ¿Jimmy Chou?
+other:Sí. ¿Quién es usted?
+ego:Soy John.
 ego:John Falcon.
-other:And what can I help you with?
-other:I'm just typing a message on my communicator unit.
-other:One second, then I'll be right with you.
+other:¿Y en qué puedo ayudarle?
+other:Estoy escribiendo un mensaje en mi unidad de comunicación.
+other:Un segundo, luego estaré contigo.
 option-off 22
 option-on 24
 return
 
-@23 // Frank Zoed. You know him?
-ego:Frank Zoed. You know him?
-other:I do, but I don't know you.
-ego:You have premium rate jobs?
-other:Who told you that?
+@23 // Frank Zoed. ¿Lo conoces?
+ego:Frank Zoed. ¿Lo conoces?
+other:Sí, pero no te conozco.
+ego:¿Tienes trabajos de alta remuneración?
+other:¿Quién te dijo eso?
 other:Frank.
-other:I'm just typing a message on my communicator unit.
-other:One second, then I'll be right with you.
+other:Estoy escribiendo un mensaje en mi unidad de comunicación.
+other:Un segundo, luego estaré contigo.
 option-off 23
 return
 
-@24 // Nice communicator unit.
-ego:Nice communicator unit.
-other:Yeah, my new phone.
-ego:Is it good?
-other:I'm just getting used to it.
-other:Transferring all my old contacts to it.
-ego:It looks good.
-ego:Nice screen for web browsing.
-other:Yeah, but the font is too small.
-other:They had a few complaints about that.
-ego:I guess they can fix that in the next version.
-other:Yeah, it's just a software issue,
-other:One second, then I'll be right with you.
+@24 // Bonita unidad de comunicación.
+ego:Bonita unidad de comunicación.
+other:Sí, mi nuevo teléfono.
+ego:¿Es bueno?
+other:Me estoy acostumbrando a él.
+other:Transfiriéndole todos mis antiguos contactos.
+ego:Se ve bien.
+ego:Buena pantalla para navegar por la web.
+other:Sí, pero la fuente es demasiado pequeña.
+other:Tuvieron algunas quejas al respecto.
+ego:Supongo que pueden arreglar eso en la próxima versión.
+other:Sí, es sólo un problema de software.
+other:Un segundo, luego estaré contigo.
 option-off 24
 return
 
-@3 // So what can you do for me?
-ego:So what can you do for me?
-other:You ever heard of the Taoists?
-ego:What? 
-ego:Aren't they a just a pirate gang?
-other:Is that what you think?
-ego:That's what I've heard.
-other:You're so wrong.
-ego:How so?
-other:You'll have to find out more on your own.
-other:The group does a lot of good work.
-ego:By being pirates?
-other:Never mind.
-ego:Listen, I'm more interested in the jobs.
-ego:Premium rate jobs.
+@3 // Entonces, ¿qué puedes hacer por mí?
+ego:Entonces, ¿qué puedes hacer por mí?
+other:¿Has oído hablar de los taoístas?
+ego:¿Qué?
+ego:¿No son sólo una banda de piratas?
+other: ¿Es eso lo que piensas?
+ego:Eso es lo que he oído.
+other:Estás tan equivocado.
+ego:¿Cómo es eso?
+other:Tendrás que averiguar más por ti mismo.
+other:El grupo hace un buen trabajo.
+ego:¿Siendo piratas?
+other:No importa.
+ego:Escucha, estoy más interesado en los trabajos.
+ego:Trabajos con tarifas especiales.
 other:Hmmm.
 option-off 3
 option-off 31
@@ -119,23 +119,23 @@ option-on 5
 option-on 6
 return
 
-@31 // Can it make up for losing my ship?
-ego:Can it make up for losing my ship?
-other:Maybe.
-other:If you like adventure.
-other:You ever heard of the Taoists?
-ego:Err, aren't they a just a pirate gang?
-other:Is that what you think?
-ego:That's what I've heard.
-other:You're so wrong.
-ego:How so?
-other:I suppose they are, legally speaking, pirates.
-other:You'll have to find out more on your own.
-other:The Taoists do a lot of good work.
-ego:By being pirates?
-other:Never mind.
-ego:Listen, I'm more interested in the jobs.
-ego:Premium rate jobs.
+@31 // ¿Puede compensar la pérdida de mi nave?
+ego:¿Puede compensar la pérdida de mi nave?
+other:Tal vez.
+other:Si te gusta la aventura.
+other:¿Has oído hablar de los taoístas?
+ego:¿No son sólo una banda de piratas?
+other:¿Es eso lo que piensas?
+ego:Eso es lo que he oído.
+other:Estás tan equivocado.
+ego:¿Cómo es eso?
+other:Supongo que son, legalmente hablando, piratas.
+other:Tendrás que averiguar más por ti mismo.
+other: Los taoístas hacen un buen trabajo.
+ego:¿Siendo piratas?
+other:No importa.
+ego:Escucha, estoy más interesado en los trabajos.
+ego:Trabajos con tarifas especiales.
 other:Hmmm.
 option-off 3
 option-off 31
@@ -144,95 +144,63 @@ option-on 5
 option-on 6
 return
 
-@4 // Tell me more about the Taoists then.
-ego:Tell me more about the Taoists then?
-other:I can tell you little.
-other:But you'll have to get into their good books.
-other:By doing some stuff for em.
-ego:Stuff?
-other:Nothing dodgey, just jobs. 
-other:They pay better than the job console.
-other:You interested?
-ego:Why not.
-other:In that case I have a contact for you.
-other:His name is K'ta fly. He's in Sophiha.
-ego:Sophiha! 
-ego:That's the next System south on the map?
-other:Yeah, you'll need a split drive.
-other:K'ta fly is quite high in the group, I think.
-other:You can trust him.
-ego:Thanks for the info.
-other:Least I can do.
-other:Oh, you'll need fuel. Here. Have some... on me. 
-other:To get there, target and engage your split drive. 
-other:Don't worry, you'll speed up when you leave the system.
-other:If you need more help now, talk to me, I know this system well.
-other:I'll help all I can.
-other:But if you have to go, Safe flying. 
+@4 // Cuéntame más sobre los taoístas entonces.
+ego:Cuéntame más sobre los taoístas entonces.
+other:Poco te puedo decir.
+other:Pero tendrás que meterte en sus libros buenos.
+other:Haciendo algunas cosas para ellos.
+ego:¿Cosas?
+other:Nada esquivo, sólo trabajos. 
+other:Pagan mejor que la consola de trabajo.
+other:¿Te interesa?
+ego:¿Por qué no?
+other:En ese caso tengo un contacto para usted
+other:Su nombre es K'ta fly. Está en Sophiha.
+ego:¡Sophiha!
+ego:¿Ese es el próximo Sistema sur en el mapa?
+other:Sí, necesitarás una unidad de división.
+other:K'ta fly es bastante alto en el grupo, creo.
+other:Puedes confiar en él.
+ego:Gracias por la información.
+other:Es lo menos que puedo hacer.
+other:Oh, necesitarás combustible. Aquí. Toma un poco.... de mí. 
+other:Para llegar allí, apunte y active su unidad de división. 
+other:No te preocupes, acelerarás cuando salgas del sistema.
+other::Si necesitas más ayuda ahora, háblame, conozco bien este sistema.
+other:Ayudaré en todo lo que pueda.
+other:Pero si tienes que irte, que vueles seguro. 
 givefuel
 option-off 4
 option-off 5
 option-off 6
 stop
 
-@5 // Do you have any jobs for me or what?
-ego:Do you have any jobs for me or what?
-other:Sure, since Frank recommended you.
-other:The Taoist group pay really well.
-other:But you'll have to get into their good books.
-other:By doing some stuff for em.
-ego:Stuff?
-other:Nothing dodgey, just jobs. 
-other:They pay better than the job console.
-other:You interested?
-ego:Why not.
-other:In that case I have a contact for you.
-other:His name is K'ta fly. He's in Sophiha.
-ego:Sophiha!
-ego:That's the next System south on the map?
-other:Yeah, you'll need a split drive.
-other:K'ta fly is quite high in the group, I think.
-other:You can trust him.
-ego:Thanks for the info.
-other:Least I can do.
-other:Oh, you'll need fuel. Here. Have some... on me. 
-other:To get there, target and engage your split drive. 
-other:Don't worry, you'll speed up when you leave the system.
-other:Let's keep talking, I know this system well.
-other:I'll help all I can.
-other:But if you have to go, Safe flying. 
-givefuel
-option-off 4
-option-off 5
-option-off 6
-option-off 7
-stop
-
-@6 // Are you saying you don't personally have any jobs?
-ego:Are you saying you don't personally have any jobs?
-other:Me?
-other:No, but since Frank recommended you...
-other:I'm hooking you up with this group.
-other:The Taoist group pay really well.
-other:That must be what Frank intended.
-other:They pay better than the job console.
-other:You interested?
-ego:Why not.
-other:In that case I have a contact for you.
-other:His name is K'ta fly. He's in Sophiha.
-ego:Sophiha!
-ego:That's the next System south on the map?
-other:Yeah, you'll need a split drive.
-other:K'ta fly is quite high in the group, I think.
-other:You can trust him.
-ego:Thanks for the info.
-other:Least I can do.
-other:Oh, you'll need fuel. Here. Have some... on me. 
-other:To get there, target and engage your split drive. 
-other:Don't worry, you'll speed up when you leave the system.
-other:Let's keep talking, I know this system well.
-other:I'll help all I can.
-other:But if you have to go, Safe flying. 
+@5 // ¿Tienes algún trabajo para mí o qué?
+ego:¿Tienes algún trabajo para mí o qué?
+other:Claro, ya que Frank te recomendó.
+other:El grupo taoísta paga muy bien.
+other:Pero tendrás que entrar en sus buenos libros.
+other:Haciendo algunas cosas para ellos.
+ego:¿Cosas?
+other:Nada esquivo, sólo trabajos.
+other::Pagan mejor que la consola de trabajo.
+other:¿Te interesa?
+ego:¿Por qué no?
+other:En ese caso tengo un contacto para usted.
+other:Su nombre es K'ta fly. Está en Sophiha.
+ego:¡Sophiha! 
+ego:¿Ese es el próximo Sistema sur en el mapa?
+other:Sí, necesitarás una unidad de división.
+other:K'ta fly es bastante alto en el grupo, creo.
+other:Puedes confiar en él.
+ego:Gracias por la información.
+other:Es lo menos que puedo hacer.
+other:Oh, necesitarás combustible. Aquí. Toma un poco.... del mio. 
+other:Para llegar allí, apunte y active su unidad de división. 
+other:No te preocupes, acelerarás cuando salgas del sistema.
+other::Si necesitas más ayuda ahora, háblame, conozco bien este sistema.
+other:Ayudaré en todo lo que pueda.
+other:Pero si tienes que irte, que vueles seguro. 
 givefuel
 option-off 4
 option-off 5
@@ -240,34 +208,66 @@ option-off 6
 option-off 7
 stop
 
-@6 // Look, people are trying to have me killed...
-ego:Look, people are trying to have me killed...
-ego:...can we speed this up a bit?
-ego:I lost my new ship due to Frank...
-ego:...and I need to earn money fast...
-ego:...as I'm pretty sure some gang wants me dead.
-other:You do have it bad. Ok, sure.
-other:I'm hooking you up with this group.
-other:The Taoist group pay really well.
-other:That must be what Frank intended.
-other:They pay better than the job console.
-other:You interested?
-ego:Why not.
-other:In that case I have a contact for you.
-other:His name is K'ta fly. He's in Sophiha.
-ego:Sophiha!
-ego:That's the next System south on the map?
-other:Yeah, you'll need a split drive.
-other:K'ta fly is quite high in the group, I think.
-other:You can trust him.
-ego:Thanks for the info.
-other:Least I can do.
-other:Oh, you'll need fuel. Here. Have some... on me. 
-other:To get there, target and engage your split drive. 
-other:Don't worry, you'll speed up when you leave the system.
-other:Let's keep talking, I know this system well.
-other:I'll help all I can.
-other:But if you have to go, Safe flying. 
+@6 // ¿Estás diciendo que personalmente no tienes ningún trabajo?
+ego:¿Estás diciendo que personalmente no tienes ningún trabajo?
+other:¿Yo?
+other:No, pero como Frank te recomendó....
+other:Te estoy conectando con este grupo.
+other:El grupo taoísta paga muy bien.
+other:Eso debe ser lo que Frank pretendía.
+Pagan mejor que la consola de trabajo.
+other:¿Te interesa?
+ego:¿Por qué no?
+other:En ese caso tengo un contacto para usted.
+other:Su nombre es K'ta fly. Está en Sophiha.
+ego:¡Sophiha! 
+ego:¿Ese es el próximo Sistema sur en el mapa?
+other:Sí, necesitarás una unidad de división.
+other:K'ta fly es bastante alto en el grupo, creo.
+other:Puedes confiar en él.
+ego:Gracias por la información.
+other:Es lo menos que puedo hacer.
+other:Oh, necesitarás combustible. Aquí. Toma un poco.... del mio. 
+other:Para llegar allí, apunte y active su unidad de división. 
+other:No te preocupes, acelerarás cuando salgas del sistema.
+other::Si necesitas más ayuda ahora, háblame, conozco bien este sistema.
+other:Ayudaré en todo lo que pueda.
+other:Pero si tienes que irte, que vueles seguro.
+givefuel
+option-off 4
+option-off 5
+option-off 6
+option-off 7
+stop
+
+@6 // Mira, hay gente que trata de matarme...
+ego:Mira, hay gente que trata de matarme...
+ego:...¿Podemos acelerar esto un poco?
+ego:Perdí mi nave por culpa de Frank...
+ego:...y necesito ganar dinero rápido...
+ego:...como estoy bastante seguro de que alguna banda me quiere muerto.
+other:Lo tienes muy mal. Ok, seguro.
+other:Te estoy conectando con este grupo.
+other:El grupo taoísta paga muy bien.
+other:Eso debe ser lo que Frank pretendía.
+other:Pagan mejor que la consola de trabajo.
+other:¿Estás interesado?
+ego:¿Por qué no?
+other:En ese caso, tengo un contacto para ti.
+other:Su nombre es K'ta fly. Está en Sophiha.
+ego:¡Sophiha! 
+ego:¿Ese es el próximo Sistema sur en el mapa?
+other:Sí, necesitarás una unidad de división.
+other:K'ta fly es bastante alto en el grupo, creo.
+other:Puedes confiar en él.
+ego:Gracias por la información.
+other:Es lo menos que puedo hacer.
+other:Oh, necesitarás combustible. Aquí. Toma un poco.... del mio. 
+other:Para llegar allí, apunte y active su unidad de división. 
+other:No te preocupes, acelerarás cuando salgas del sistema.
+other::Si necesitas más ayuda ahora, háblame, conozco bien este sistema.
+other:Ayudaré en todo lo que pueda.
+other:Pero si tienes que irte, que vueles seguro.
 givefuel
 option-off 4
 option-off 5

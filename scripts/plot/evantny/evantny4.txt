@@ -1,24 +1,24 @@
 //begin
 // [x] 1 - "No."
-// [x] 2 - "Absolutely not."
-// [x] 3 - "Err.. maybe?"
-// [ ] 4 - "Hey, you're pushing it pal."
-// [ ] 5 - "Ok, where is he heading?"
+// [x] 2 - "Absolutamente no"
+// [x] 3 - "Err... ¿tal vez?"
+// [ ] 4 - "Oye, te estás pasando, amigo."
+// [ ] 5 - "Bien, ¿hacia dónde se dirige?"
 //end
 
 
 @S 
-other:well done, we will study the photograph.
-ego:Thanks, now about that clue.
-other:Yeah, it's quite simple, the clue is...
-other:Wha.. shit!
-ego:That's an odd clue.
-other:No, that's not the clue.
-other:It's the target, Jek Kek, the guy you photographed.
-ego:He's the clue?
-other:No. But he is moving. Quickly.
-other:It seems he might be suspecting something.
-other:You didn't do anything to tip him off, did you?
+other:Bien hecho, estudiaremos la fotografía.
+ego:Gracias, ahora sobre esa pista.
+other::Sí, es muy simple, la pista es...
+other:¡Qué... mierda!
+ego:Esa es una pista extraña.
+other:No, esa no es la pista.
+other:Es el objetivo, Jek Kek, el tipo que fotografiaste.
+ego:¿Él es la pista?
+other:No. Pero se está moviendo. Rápidamente.
+other:Parece que sospecha algo.
+other:No hiciste nada para avisarle, ¿verdad?
 option-on 1
 option-on 2
 option-on 3
@@ -26,9 +26,9 @@ return
 
 @1 
 ego:No.
-other:Well, he is moving nonetheless.
-other:We're tracking him right now, but he's quick.
-other:You're going to have to follow him, and find out what he's doing.
+other:Bueno, sin embargo, se está moviendo.
+other:Lo estamos rastreando ahora mismo, pero es rápido.
+other:Vas a tener que seguirlo, y descubrir lo que está haciendo.
 option-off 1
 option-off 2
 option-off 3
@@ -37,11 +37,11 @@ option-on 5
 return
 
 @2 
-ego:Absolutely not.
-other:Hm.. almost makes you sound guilty, the way you say that.
-other:Well, he's moving nonetheless.
-other:We're tracking him right now, but he's quick.
-other:You're going to have to follow him, and find out what he's doing.
+ego:Absolutamente no.
+other:Hm... casi te hace parecer culpable, por la forma en que dices eso.
+other:Bueno, sin embargo, se está moviendo.
+other:Lo estamos rastreando ahora mismo, pero es rápido.
+other:Vas a tener que seguirlo, y descubrir lo que está haciendo.
 option-off 1
 option-off 2
 option-off 3
@@ -50,12 +50,12 @@ option-on 5
 return
 
 @3 
-ego:Err.. maybe?
-other:You idiot!
-other:Why would you do that?
-other:Well, he's definitely on the run now.
-other:We're tracking him right now, but he's quick.
-other:You're going to have to follow him, and find out what he's doing.
+ego:Err... ¿tal vez?
+other:¡Idiota!
+other:¿Por qué harías eso?
+other:Bueno, definitivamente está huyendo ahora.
+other:Lo estamos rastreando ahora mismo, pero es rápido.
+other:Vas a tener que seguirlo, y descubrir lo que está haciendo.
 option-off 1
 option-off 2
 option-off 3
@@ -64,57 +64,57 @@ option-on 5
 return
 
 @4
-ego:Hey, you're pushing it pal.
-ego:The deal was one photograph, and you give me the clue.
-other:Yeah, it was.
-other:And now I'm altering the terms of the deal.
-other:You better hope I don't alter them any further.
-ego:You trying to be a tough guy?
-ego:What's holding me from smacking this clue out of you right here?
-other:I have a neuro-implant. It can erase memories.
-other:The Taoists inserted it, in case I was caught.
-other:That way, even under torture, the secret location of Walker base is never revealed.
-other:It's programmed to erase the clue if anyone harms me.
-ego:Bullocks.
-other:Believe it or not, can you take the risk?
-other:You need to find Walker Base don't you?
-ego:Fine. You win.
-other:Great. Then you'll follow the target?
-ego:Where is he heading?
-other:We tracked him to a planet in the Waiool system.
-other:I've marked it in your contacts list.
-other:He seems to have landed there.
-other:You'll have to go down to the surface.
-other:Our hangar crew is attaching a landing pod to your ship as we speak.
-other:It's equipped with a scrambling device.
-other:If it works, the defence systems shouldn't shoot you.
-ego:"If it works"?
-other:Well, we haven't ever tested it before.
-other:But our scientists are fairly certain it will work.
-other:They tell me it's up to 98 percent reliable.
-ego:"up to"?
-other:Trust me, it'll work.
-other:Just get close to the planet, and launch the pod.
-ego:Fine.
-other:Good luck.
+ego:Oye, te estás pasando, amigo.
+ego:El trato era una fotografía, y tú me das la pista.
+other:Sí, lo fue.
+other:Y ahora estoy alterando los términos del trato.
+other: Más vale que no los altere más.
+ego:¿Intentas ser un tipo duro?
+ego:¿Qué me impide sacarte esa pista a golpes?
+other:Tengo un neuroimplante. Puede borrar los recuerdos.
+other:Los taoístas lo insertaron, en caso de que me atraparan.
+other:De esa manera, incluso bajo tortura, la ubicación secreta de la base Walker nunca se revela.
+other:Está programado para borrar la pista si alguien me hace daño.
+ego:Maldicion.
+other:Lo creas o no, ¿puedes arriesgarte?
+other:Necesitas encontrar la base Walker, ¿no?
+ego:Bien. Tú ganas.
+other:Grandioso. ¿Entonces seguirás al objetivo?
+ego:¿Hacia dónde se dirige?
+other:Lo rastreamos hasta un planeta en el sistema Waiool.
+other: Lo he marcado en tu lista de contactos.
+other:Parece que ha aterrizado allí.
+other:Tendrás que bajar a la superficie.
+other:La tripulación de nuestro hangar está acoplando una cápsula de aterrizaje a su nave mientras hablamos.
+other:Está equipada con un dispositivo de codificación.
+other:Si funciona, los sistemas de defensa no deberían dispararte.
+ego:¿"Si funciona"?
+other: Bueno, nunca la hemos probado antes.
+other:Pero nuestros científicos están bastante seguros de que funcionará.
+other:Me dicen que es hasta un 98% confiable.
+ego:¿"hasta"?
+other:Confía en mí, funcionará.
+other:Sólo acércate al planeta y lanza la cápsula.
+ego:Bien.
+other:Buena suerte.
 stop
 
 @5
-ego:Ok, where is he heading?
-other:We tracked him to a planet in the Waiool system.
-other:I've marked it in your contacts list.
-other:He seems to have landed there.
-other:You'll have to go down to the surface.
-other:Our hangar crew is attaching a landing pod to your ship as we speak.
-other:It's equipped with a scrambling device.
-other:If it works, the defence systems shouldn't shoot you.
-ego:"If it works"?
-other:Well, we haven't ever tested it before.
-other:But our scientists are fairly certain it will work.
-other:They tell me it's up to 98 percent reliable.
-ego:"up to"?
-other:Trust me, it'll work.
-other:Just get close to the planet, and launch the pod.
-ego:Fine.
-other:Good luck.
+ego:Bien, ¿hacia dónde se dirige?
+other:Lo rastreamos hasta un planeta en el sistema Waiool.
+other:Lo he marcado en tu lista de contactos.
+other:Parece que ha aterrizado allí.
+other:Tendrás que bajar a la superficie.
+other:La tripulación de nuestro hangar está acoplando una cápsula de aterrizaje a su nave mientras hablamos.
+other:Está equipada con un dispositivo de codificación.
+other:Si funciona, los sistemas de defensa no deberían dispararte.
+ego:¿"Si funciona"?
+other: Bueno, nunca la hemos probado antes.
+other:Pero nuestros científicos están bastante seguros de que funcionará.
+other:Me dicen que es hasta un 98% confiable.
+ego:¿"hasta"?
+other:Confía en mí, funcionará.
+other:Sólo acércate al planeta y lanza la cápsula.
+ego:Bien.
+other:Buena suerte.
 stop

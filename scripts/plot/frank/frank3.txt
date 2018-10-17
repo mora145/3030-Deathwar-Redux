@@ -1,47 +1,47 @@
 //begin
-// [ ] 1 - "I'm still kinda angry with you frank."
-// [ ] 2 - "Yeah, I'll do it."
-// [ ] 3 - "No, not right now."
+// [ ] 1 - "Todavía estoy un poco enfadado contigo, Frank."
+// [ ] 2 - "Sí, lo haré."
+// [ ] 3 - "No, ahora no."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:So, you thought about it?
-other:Jimmy Chou will probably have some jobs for you.
-other:He can pay you above average prices. Ain't so bad.
-ego:Ain't so bad? I lost 2 mil....
-ego:Oh, you know what, I'm over it now.
-ego:It's gonna give me stress. I don't need stress today.
-other:So, what you say?
+other:Entonces, ¿lo pensaste?
+other:Jimmy Chou probablemente tendrá algunos trabajos para ti.
+other:Puede pagarle por encima de los precios promedio. No está tan mal.
+ego:¿No es tan malo? Perdí 2 millones.....
+ego:Oh, sabes qué, ya lo superé.
+ego:Me va a dar estrés. No necesito estresarme hoy.
+other:Entonces, ¿qué dices?
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // I'm still kinda angry with you frank.
-other:I'm trying to get some money for you here, John.
+@1 // Todavía estoy un poco enfadado contigo, Frank. 
+other:Estoy tratando de conseguir algo de dinero para ti, John. 
 option-off 1
 return
 
-@2 // Yeah, I'll do it.
-ego:Ok, I'll do it. When and where?
-other:Ok, you gotta find Jimmy Chou.
-other:The only problem is I'm not sure where he is. He's in this system,
-other:I'm sure of that. I'm just not sure which station.
-other:Board whichever station you think he's on, if he's there, talk to him.
-other:Hell he could even be on this station. I don't know.
-ego:I'm just interested in how much you're going to pay me.
-other:Luckily for you, kid, Chou will offer you some jobs.
-ego:You better feel lucky, frank.
-other:Why?
-ego:Lucky I don't punch you in the face.
-other:Oh boy.
+@2 // Sí, yo lo haré.
+ego:Ok, lo haré. ¿Cuándo y dónde?
+other:Ok, tienes que encontrar a Jimmy Chou.
+other:El único problema es que no estoy seguro de dónde está. Está en este sistema
+other:Estoy seguro de eso. No estoy seguro de qué estación.
+other:Aborde cualquier estación en la que piense que está, si está allí, hable con él.
+other:Demonios, incluso podría estar en esta estación. No lo sé.
+ego:Sólo estoy interesado en cuánto me vas a pagar.
+other:Por suerte para ti, chico, Chou te ofrecerá algunos trabajos.
+ego:Más vale que te sientas con suerte, Frank.
+other:¿Por qué?
+ego:Suerte que no te pego en la cara.
+other:Oh chico.
 setMissionAnswer 1
 stop
 
-@3 // No, not right now.
-ego:Not right now, Frank.
-other:Ok, come back and see me when you change your mind.
+@3 // No, ahora no.
+ego:No, ahora Frank.
+other:Bien, vuelve a verme cuando cambies de opinión.
 SetMissionAnswer 0
 stop

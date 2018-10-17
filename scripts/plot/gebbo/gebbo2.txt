@@ -1,47 +1,47 @@
 //begin
-// [ ] 1 - "How can I make quick money in this system?"
-// [ ] 2 - "Now you listen.."
-// [x] 3 - "Bye."
+// [ ] 1 - "¿Cómo puedo ganar dinero rápido en este sistema?"
+// [ ] 2 - "Ahora escucha..."
+// [x] 3 - "Adios."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:You again.
-ego:Just one more thing...
+other:Tú otra vez.
+ego:Sólo una cosa más....
 option-on 1
 return
 
-@1 // How can I make quick money in this system?
-ego:How can I make quick money in this system?
-other:The absolutely fastest way? 
-ego:Yeah.
-other:The totally, absolutely fastest way? 
-ego:Yeah.
-other:Sell your organs.
-ego:I was hoping for more from this conversation.
-other:Well tough shit pal.
-other:Now fuck off, I'm busy.
+@1 // ¿Cómo puedo ganar dinero rápido en este sistema?
+ego:¿Cómo puedo ganar dinero rápido en este sistema?
+other:El camino más rápido? 
+ego:¡Si!
+other:¿El camino totalmente, absolutamente más rápido? 
+ego:¡Si!
+other:Vende tus órganos.
+ego: Esperaba más de esta conversación.
+other:Bueno, amigo de mierda.
+other:Ahora vete a la mierda, estoy ocupado.
 option-off 1
 option-on 2
 return
 
-@2 // Now you listen...
-ego:Now you listen...
-other:Huh?
-ego:I may look like just another spacer...
-ego:But I'm a genre savvy bastard.
-other:OK... and?
-ego:And sometimes you have to talk to people twice.
-other:Well, I have nothing more to tell.
-ego:Ok, that's cool.
-ego:No need to get aggressive.
+@2 // Ahora escucha tú....
+ego:Ahora escucha tú....
+other:¿Eh?
+ego:Puede que parezca un espacial más...
+ego:Pero soy un bastardo conocedor del género.
+other:OK... ¿y?
+ego:Y a veces tienes que hablar con la gente dos veces.
+other:Bueno, no tengo nada más que contar.
+ego:Ok, eso es genial.
+ego:No hay necesidad de ponerse agresivo.
 option-off 1
 option-on 2
 stop
 
 
-@3 // Bye
-ego:Bye.
-other:Whatever.
+@3 // Adios
+ego:Adios.
+other:Lo que sea.
 Stop

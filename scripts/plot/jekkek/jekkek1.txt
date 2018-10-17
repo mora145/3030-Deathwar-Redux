@@ -1,49 +1,49 @@
 //begin
-// [ ] 1 - "I'm here for your boss."
-// [ ] 2 - "You're under arrest."
-// [ ] 21 - "Drop the gun."
-// [ ] 22 - "Try it."
-// [ ] 28 - "Dead or Alive, you're coming with me."
-// [ ] 23 - "Don't try it."
-// [ ] 3 - "You know you'll have company soon?"
-// [ ] 31 - "Tell me the plan."
-// [ ] 4 - "Stay right there."
-// [ ] 41 - "I'll be back."
-// [ ] 5 - "I promise I'll kill you last."
+// [ ] 1 - "Estoy aquí por tu jefe."
+// [ ] 2 - "Estás bajo arresto."
+// [ ] 21 - "Suelta el arma."
+// [ ] 22 - "Inténtalo."
+// [ ] 28 - "Vivo o muerto, te vienes conmigo."
+// [ ] 23 - "No lo intentes."
+// [ ] 3 - "¿Sabes que pronto tendrás compañía?"
+// [ ] 31 - "Cuéntame el plan."
+// [ ] 4 - "Quédate justo ahí."
+// [ ] 41 - "Volveré."
+// [ ] 5 - "Prometo que te mataré al último."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:You!
-other:Inconcievable!
-other:How you've lived so long is a mystery to me.
-ego:Yet here I am.
+other:¡Tú!
+other:¡Inconcibible!
+other:Cómo has vivido tanto tiempo es un misterio para mí.
+ego:Sin embargo, aquí estoy.
 option-on 1
 option-on 2
 option-on 21
 option-on 3
 return
 
-@1 // I'm here for your boss.
-ego:I'm here for your boss.
-ego:Where are they?
-other:Sad about Daphice going Boom. 
-other:haha. You got played bro! 
-other:But that's in the past. The battle is over.
-ego:Not for me.
-other:Don't you follow the Quaayga Warrior code?
-other:Land combat is not classy!
-ego:You're the one with the rifle.
-other:You wanna be dead, smart ass? Get lost.
-ego:I want compensation for my impounded ship!
-other:What the frack? 
-ego:Your boss caused me to end up with a stolen ship.
-other:Oh yeah, Boss told me about that.
-other:Flooding the market with stolen ships, classic.
-other:But that was ages ago when he wanted the Largo cargo.
-other:Hardly important compared to what's just happened!
-other:You'll get nothing here but bullets.
+@1 // Estoy aquí por tu jefe.
+ego:Estoy aquí por tu jefe.
+ego:¿Dónde estan?
+other:Triste por el Boom de Daphice. 
+other:Jaja. ¡Te engañaron, hermano! 
+other:Pero eso está en el pasado. La batalla ha terminado.
+ego:No para mí.
+other:¿No sigues el código del Guerrero Quaayga?
+other:¡El combate terrestre no tiene clase!
+ego:Tú eres el que tiene el rifle.
+other:¿Quieres morir, sabelotodo? Piérdete.
+ego:¡Quiero una compensación por mi nave incautada!
+other:¿Qué demonios? 
+ego:Tu jefe hizo que terminara con una nave robada.
+other:Oh, sí, el jefe me habló de eso.
+other:Inundar el mercado con naves robadas, clásico.
+other:Pero eso fue hace mucho tiempo cuando él quería el cargamento del Largo.
+other:¡Poco importante comparado con lo que acaba de pasar!
+other: Aquí no conseguirás nada más que balas.
 option-off 1
 option-off 2
 option-off 21
@@ -51,25 +51,25 @@ option-on 22
 option-on 23
 return
 
-@2 // You're under arrest.
-ego:You're under arrest.
-other:Arrest? By you. hahaha.
-other:Sad about Daphice going Boom. 
-other:haha. You got played bro! 
-other:Anyway, the battle is over.
-ego:Not for me.
-other:Don't you follow the Quaayga Warrior code?
-other:Land combat is not classy!
-ego:You're the one with the rifle.
-other:You wanna be dead, smart ass? Get lost.
-ego:I want compensation for my impounded ship!
-other:What the frack? 
-ego:Your boss caused me to end up with a stolen ship.
-other:Oh yeah, Boss told me about that.
-other:Flooding the market with stolen ships, classic.
-other:But that was ages ago when he wanted the Largo cargo.
-other:Hardly important compared to what's just happened!
-other:You'll get nothing here but bullets.
+@2 // Estás bajo arresto.
+ego:Estás bajo arresto.
+other:¿Arresto? Por ti. Ja, ja, ja.
+other:Triste por el Boom de Daphice.
+other:Jaja. ¡Te engañaron, hermano! 
+other:Pero eso está en el pasado. La batalla ha terminado.
+ego:No para mí.
+other:¿No sigues el código del Guerrero Quaayga?
+other:¡El combate terrestre no tiene clase!
+ego:Tú eres el que tiene el rifle.
+other:¿Quieres morir, sabelotodo? Piérdete.
+ego:¡Quiero una compensación por mi nave incautada!
+other:¿Qué demonios? 
+ego:Tu jefe hizo que terminara con una nave robada.
+other:Oh, sí, el jefe me habló de eso.
+other:Inundar el mercado con naves robadas, clásico.
+other:Pero eso fue hace mucho tiempo cuando él quería el cargamento del Largo.
+other:¡Poco importante comparado con lo que acaba de pasar!
+other: Aquí no conseguirás nada más que balas.
 option-off 1
 option-off 2
 option-off 3
@@ -79,28 +79,28 @@ option-on 23
 option-on 28
 return
 
-@28 // Dead or Alive, you're coming with me.
-ego:Dead or Alive, you're coming with me.
-other:You try, you die.
-other:Soon your flesh will be eaten to the bone.
+@28 // Vivo o muerto, vendrás conmigo.
+ego:Vivo o muerto, vendrás conmigo.
+other:Si lo intentas, mueres.
+other:Pronto tu carne será devorada hasta los huesos.
 option-off 28
 return
 
-@21 // Drop the gun.
-ego:Drop the gun.
-other:Or what?, human.
-other:Don't you follow the Quaayga Warrior code?
-other:Land combat is not classy!
-ego:You're the one with the rifle.
-other:You wanna be dead, smart ass? Get lost.
-ego:I want compensation for my impounded ship!
-other:What the frack? 
-ego:Your boss caused me to end up with a stolen ship.
-other:Oh yeah, Boss told me about that.
-other:Flooding the market with stolen ships, classic.
-other:But that was ages ago when he wanted the Largo cargo.
-other:Hardly important compared to what's just happened!
-other:You'll get nothing here but bullets.
+@21 // Suelta el arma.
+ego:Suelta el arma.
+other:¿O qué?, humano.
+other:¿No sigues el código del Guerrero Quaayga?
+other:El combate terrestre no tiene clase!
+ego:Tú eres el que tiene el rifle.
+other:¿Quieres morir, sabelotodo? Piérdete.
+ego:¡Quiero una compensación por mi nave incautada!
+other:¿Qué demonios? 
+ego:Tu jefe hizo que terminara con una nave robada.
+other:Oh, sí, el jefe me habló de eso.
+other:Inundar el mercado con naves robadas, clásico.
+other:Pero eso fue hace mucho tiempo cuando él quería el cargamento del Largo.
+other:¡Poco importante comparado con lo que acaba de pasar!
+other: Aquí no conseguirás nada más que balas.
 option-off 1
 option-off 2
 option-off 21
@@ -108,71 +108,71 @@ option-on 22
 option-on 23
 return
 
-@22 // Try it
-ego:Try it.
-other:Get lost. 
-other:You humans are no challenge for a warrior like myself.
-other:Go eat a rat. That's what you humans eat, right?
+@22 // Inténtalo
+ego:Inténtalo
+other:Piérdete.
+other:Ustedes los humanos no son un desafío para un guerrero como yo.
+other:Ve a comerte una rata. Eso es lo que comen los humanos, ¿verdad?
 option-off 22
 option-off 23
 option-on 4
 option-on 5
 return
 
-@23 // Don't try it
-ego:Don't try it.
-ego:I got a blaster and I'm a quick draw.
-other:There's nothing for you here human.
-other:Only death.
-other:I'll blow your face off if it weren't so shit.
-ego:That's not a good comeback.
-other:Go eat a rat. That's what you humans eat, right?
+@23 // No lo intentes
+ego:No lo intentes
+ego:Tengo un blaster y soy un rápido tirador.
+other:No hay nada para ti aquí, humano.
+other:Sólo la muerte.
+other:Te volaré la cara si no fuera tan mierda.
+ego:Esa no es una buena respuesta.
+other:Ve a comerte una rata. Eso es lo que comen los humanos, ¿verdad?
 option-off 22
 option-off 23
 option-on 4
 option-on 5
 return
 
-@3 // You know you'll have company soon?
-ego:You know you'll have company soon?
-ego:Others are coming to clean out this moon-base.
-other:Hahaha. Get lost.
-other:In a few minutes time... you'll never find us again.
-other:All will feel our wrath. Including you!
+@3 // ¿Sabes que pronto tendrás compañía?
+ego:¿Sabes que pronto tendrás compañía?
+ego: Otros vienen a limpiar esta base lunar.
+other:Jajaja. Piérdete.
+other:En pocos minutos... nunca nos volverás a encontrar.
+other:Todos sentirán nuestra ira. ¡Incluyéndote a ti!
 option-off 3
 option-on 4
 option-on 5
 return
 
-@31 // Tell me the plan.
-ego:Tell me the plan.
-other:Hahaha. Straight to the point. 
-other:Like it. 
-other:You've got gonads Mr Falcon.
-other:And at least you are a survivor.
-other:If you were not a weak and feeble human.
-other:You could be my sex robot.
-other:In a few minutes, you'll find out our plan B.
+@31 // Cuéntame el plan.
+ego:Cuéntame el plan.
+other:Jajaja. Directo al grano. 
+other:Me gusta.  
+other:Tiene gónadas, Sr. Falcon.
+other:Y por lo menos eres un sobreviviente.
+other:Si no fueras un humano débil y delicado.
+other:Podrías ser mi robot sexual.
+other:En unos minutos, descubrirá nuestro plan B.
 other:hahahaha
 option-off 31
 return
 
-@4 // Stay right there.
-ego:Stay right there.
-ego:Don't leave town.
-other:Get lost.
+@4 // Quédate justo ahí.
+ego:Quédate justo ahí.
+ego:No te vayas de la ciudad.
+other:Piérdete.
 option-off 4
 option-on 41
 return
 
-@41 // I'll be back.
-ego:I'll be back.
-other:I'll be ready, John.
+@41 // Volveré en seguida.
+ego:Volveré en seguida.
+other:Estaré listo, John.
 stop
 
-@5 // I promise I'll kill you last. 
-ego:I promise I'll kill you last.
-other:Try it. I'm faster than the freakin' wind!
+@5 // Prometo que te mataré al último. 
+ego:Prometo que te mataré al último. 
+other:Inténtalo. ¡Soy más rápido que el maldito viento!
 option-off 5
 option-on 41
 return

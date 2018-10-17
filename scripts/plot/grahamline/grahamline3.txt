@@ -1,60 +1,60 @@
 //begin
-// [x] 1 - "I'm Falcon."
-// [ ] 2 - "I'm a trader. Here to help out."
-// [ ] 3 - "The password is..."
+// [x] 1 - "Soy Falcon."
+// [ ] 2 - "Soy un comerciante. Estoy aquí para ayudar"
+// [ ] 3 - "La contraseña es..."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi.
-other:Hi. 
-other:Hang on a minute.
-ego:Why?
-other:I don't recognise you.
+ego:Hola.
+other:Hola.
+other:Espera un minuto.
+ego:¿Por qué?
+other:No te reconozco.
 option-on 1
 option-on 2
 return
 
 
-@1 // I'm Falcon.
-ego:I'm Falcon.
+@1 // Soy Falcon.
+ego:Soy Falcon.
 ego:John Falcon.
-other:I don't know that name.
-ego:I've been doing work for your friends.
-other:Maybe you have, maybe you haven't.
-ego:Then how do I know about the base. 
-other:What is the password?
+other:No conozco ese nombre.
+ego:He estado trabajando para tus amigos.
+other:Tal vez sí, tal vez no.
+ego:Entonces, ¿cómo sé sobre la base? 
+other:¿Cuál es la contraseña?
 
 option-on 3
 option-off 1
 option-off 2
 return
 
-@2 // I'm a trader. Here to help out.
-ego:I'm a trader. Here to help out.
-other:Great. 
-other:We need all the help we can get.
-ego:I've been doing work for your friends.
-other:Maybe you have, maybe you haven't.
-ego:I found the base didn't I. 
-other:Do you have the password though?
+@2 // Soy un comerciante. Estoy aquí para ayudar.
+ego:Soy un comerciante. Estoy aquí para ayudar.
+other:Grandioso
+other:Necesitamos toda la ayuda que podamos conseguir.
+ego:He estado trabajando para tus amigos.
+other:Tal vez sí, tal vez no.
+ego:Encontré la base, ¿no es así? 
+other: ¿Tienes la contraseña?
 
 option-on 3
 option-off 1
 option-off 2
 return
 
-@3 // The password is...
-ego:The password is 'in freedom, truth'.
-other:Yeah. That's right.
-other:Sorry, It's the rules. 
-other:I got to check everyone.
-ego:No problem.
-other:Welcome to our little outpost.
-other:Please go through and talk to our boss.
-ego:Your boss?
-other:We call him that. 
-other:He's over there.
-ego:Ok. I'll find him.
+@3 // La contraseña es...
+ego:La contraseña es 'en libertad, verdad'.
+other:Si. Eso es correcto.
+other:Lo siento, son las reglas. 
+other:Tengo que revisar a todos.
+ego:No hay problema.
+other:Bienvenido a nuestro pequeño puesto de avanzada.
+other:Por favor, pase y hable con nuestro jefe.
+ego:¿Su jefe?
+other:Lo llamamos así. 
+other: Está por allí.
+ego:Ok. Lo encontraré.
 stop

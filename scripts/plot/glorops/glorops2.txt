@@ -1,37 +1,37 @@
 //begin
-// [x] 1 - "25 grand?"
-// [x] 2 - "Say what?"
-// [x] 3 - "No. Goodbye."
-// [ ] 4 - "Do I even need this clue?"
-// [ ] 5 - "I don't have your money right now."
-// [ ] 6 - "No, I'm not going to pay. Later."
+// [x] 1 - "¿25 grandes? ¿Estás loco?"
+// [x] 2 - "¿Decir qué?"
+// [x] 3 - "No. Adiós."
+// [ ] 4 - "¿Necesito esta pista?"
+// [ ] 5 - "Sí, bien, toma el dinero."
+// [ ] 6 - "No, no voy a pagar."
 //end
 
 @S
-ego:Hi
-other:Hey. You here about the suction bot repair?
+ego:Hola
+other:Oye, ¿estás aquí por la reparación del robot de succión?
 ego:No.
-ego:I'm here for the clue to the whereabouts of walker base.
-ego:You able to help me?
-other:Yeah. Totally. You got the money?
-ego:What money?
-other:Oh yeah, I forgot to mention. $25,000.
-other:That's how much I'll need.
+ego:Estoy aquí por la pista del paradero de la base Walker.
+ego: ¿Puedes ayudarme?
+other:Si. Totalmente. ¿Tienes el dinero?
+ego:¿Qué dinero?
+other:Oh sí, olvidé mencionarlo. 25.000$.
+other:Eso es lo que necesitaré.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 //25 grand?
-ego:25 grand? 
-ego:That's a bit much!
-other:No, that's not much by today's standard. 
-other:What, you don't got it?
-ego:No, I don't. That's a lot of money for me right now.
-other:You just bought a new ship or something?
-other:So, what? Do some jobs, sell some cargo. 
-other:Maybe you do got it. maybe you're just being an ass.
-other:You gonna pay it?
+@1 //¿25 grandes?
+ego:¿25 grandes?
+ego:¡Eso es un poco exagerado!
+other:No, eso no es mucho para el estándar de hoy.
+other:¿Qué, no lo tienes?
+ego:No, no lo sé. Eso es mucho dinero para mí en este momento
+other:¿Acabas de comprar una nueva nave o algo así?
+other: ¿Entonces que? Hacer algunos trabajos, vender algo de carga.
+other:Tal vez lo tienes. Tal vez sólo estás siendo un imbécil.
+other:¿Vas a pagarlo?
 option-off 1
 option-off 2
 option-off 3
@@ -40,17 +40,17 @@ option-on 5
 option-on 6
 return
 
-@2 //Say what?
-ego:Say what?
-other:It isn't really that much.
-ego:Why so much? What's it for?
-other:It goes to pay my informants, taxes.. 
-other:I might get a new pair of shoes.
-other:you know.. important stuff.
-other:I might even buy one of those really nice bottles of firewine.
-other:They are really hard to come by these days.
-ego:Right.
-other:So, you gonna pay?
+@2 //¿Decir qué?
+ego:¿Decir qué?
+other:Realmente no es mucho.
+ego:¿Por qué tanto? ¿Para qué sirve?
+other:Va a pagar a mis informantes, impuestos.. 
+other:Podría conseguir un nuevo par de zapatos.
+other:Ya sabes... cosas importantes.
+other:Podría incluso comprar una de esas bonitas botellas de vino de fuego.
+other:Son muy difíciles de conseguir en estos días.
+ego:Cierto.
+other:Entonces, ¿vas a pagar?
 option-off 1
 option-off 2
 option-off 3
@@ -59,35 +59,35 @@ option-on 5
 option-on 6
 return
 
-@3 //No, goodbye.
-ego:No, goodbye.
-other:Alright, you know where I am when you change your mind.
+@3 //No, adiós.
+ego:No, adiós.
+other:De acuerdo, ya sabes dónde estoy cuando cambies de opinión.
 stop
 
-@4 //Do I even need this clue?
-ego:Do I even need this clue?
-other:I think you do, else how you gonna find this walker base?
-ego:I could just rummage the universe from top to bottom.
-ego:It'd probably be cheaper in fuel costs than to pay you.
-other:You and I both know you're going to pay me the money
-other:So why don't we just get this over with.
+@4 //¿Necesito esta pista?
+ego:¿Necesito esta pista?
+other:Creo que sí, si no, ¿cómo vas a encontrar esa base de Walker?
+ego: Podría hurgar en el universo de arriba a abajo.
+ego:Probablemente sería más barato en costos de combustible que pagarte a ti.
+other:Tú y yo sabemos que vas a pagarme el dinero.
+other:Así que, ¿por qué no acabamos con esto?
 option-off 4
 return 
 
-@5 //I don't have your money right now.
-ego:I don't have your money right now.
-other:Well alright. Get it.
-ego:Right, how am I gonna get $25,000?
-other:The same way everyone round here does.
-other:Steal it or earn it.
-other:You tried megaball? It's where the money is, baby.
-other:Anyway, see you later when you have the money.
+@5 //No tengo tu dinero ahora mismo.
+ego:No tengo tu dinero ahora mismo.
+other:Bueno, está bien. Consíguelo.
+ego:Claro, ¿cómo voy a conseguir 25.000 dólares?
+other:De la misma manera que todos aquí lo hacen.
+other:Róbalo o gánatelo.
+other:¿Probaste el megaball? Es donde está el dinero, bebé.
+other:De todos modos, nos vemos más tarde cuando tengas el dinero.
 setMissionAnswer 0
 stop
 
-@6 //No, I'm not going to pay. Later.
-ego:No, I'm not going to pay. Later.
-other:Fine with me. You'll be back. you know it and I know it.
+@6 //No, no voy a pagar. Hasta luego.
+ego:No, no voy a pagar. Hasta luego.
+other:Por mí está bien. Volverás. Lo sabes y yo lo sé.
 setMissionAnswer 0
 stop
 

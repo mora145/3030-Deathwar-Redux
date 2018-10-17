@@ -1,67 +1,67 @@
 //begin
-// [ ] 1 - "I'm here for my money."
-// [ ] 11 - "Transfer Two million credits to me." 
-// [ ] 2 - "You ordered to have me killed, prepare to die."
-// [ ] 22 - "Zog Dongo would like me to give you this."
-// [ ] 3 - "I'm here to put an end to your murderous plans."
+// [ ] 1 - "Estoy aquí por mi dinero."
+// [ ] 11 - "Transfiereme dos millones de créditos" 
+// [ ] 2 - "Tú ordenaste que me mataran, prepárate para morir."
+// [ ] 22 - "A Zog Dongo le gustaría que le diera esto."
+// [ ] 3 - "Estoy aquí para poner fin a tus planes asesinos."
 //end
 
 // dialog script file
 @S // dialog startup entry point
-other:Welcome to the party, Mr Falcon!
-other:Here to watch me destroy all the scum?
+other:¡Bienvenido a la fiesta, Sr. Falcon!
+other:¿Vienes a ver cómo destruyo a toda la escoria? 
 option-on 1
 option-on 3
 return
 
-@1 // I'm here for my money.
-ego:I'm here for my money.
-ego:How do you want to pay?
-other:Your money?
-other:Since that happened I ordered you killed.
-other:I framed you for wiping out a star system.
-other:And I sent a fleet of ships to have you and those Taoist scum killed!
-other:Yet you just want your money back?
-ego:So it was you who ordered that hit on me.
-other:Didn't you know?
-ego:I suspected. 
-other:Haha. I've used you as a pawn for ages.
-ego:You tried.
+@1 // Estoy aquí por mi dinero.
+ego:Estoy aquí por mi dinero.
+ego:¿Cómo quieres pagar?
+other:¿Tu dinero?
+other:Desde que eso sucedió, ordené que te mataran.
+other: Te incriminé por destruir un sistema estelar.
+other:¡Y envié una flota de naves para que los mataran a ti y a esa escoria taoísta!
+other:¿Simplemente quieres que te devuelva tu dinero?
+ego:Así que fuiste tú quien ordenó que se me echaran encima.
+other:¿No lo sabías?
+ego:Lo sospechaba. 
+other:Jaja. Te he usado como un peón durante años.
+ego:Lo intentaste.
 option-off 1
 option-on 11
 option-on 2
 return
 
-@11 // Transfer Two million credits to me. 
-ego:Transfer Two million credits to me. 
-other:Two million?
-other:You must have bought Zog Dongo's old Detra.
-other:Great Ship. He didn't want to leave it.
-other:So we let him stay in it, permanently.
-other:Haha. 
-other:Suck my face, human!
+@11 // Transfiéreme dos millones de créditos.
+ego:Transfiéreme dos millones de créditos. 
+other:¿Dos millones?
+other:Debes haber comprado el viejo Detra de Zog Dongo.
+other:Gran Nave. No quería abandonarla.
+other:Así que le dejaremos quedarse en él, permanentemente.
+other:Jaja.
+other:¡Chúpame la cara, humano!
 option-off 11
 option-on 22
 return
 
-@2 // You ordered to have me killed, prepare to die.
-ego:You ordered to have me killed, prepare to die.
-other:I'm always prepared.
-other:I didn't get where I am today by not being prepared.
-other:When I give the word, a new wave of nanobots will launch!
-other:There's nothing you can do!
+@2 // Tú ordenaste que me mataran, prepárate para morir.
+ego:Tú ordenaste que me mataran, prepárate para morir.
+other:Siempre estoy preparado.
+other:No llegué a donde estoy hoy por no estar preparado.
+other:Cuando dé la orden, ¡se lanzará una nueva ola de nanobots!
+other:¡No hay nada que puedas hacer!
 option-off 2
 stop
 
-@22 // Zog Dongo would like me to give you this.
-ego:Zog Dongo would like me to give you this.
-other:What?
+@22 // Zog Dongo quiere que te dé esto.
+ego:Zog Dongo quiere que te dé esto.
+other:¿Que?
 option-off 22
 stop
 
-@3 // I'm here to put an end to your murderous plans.
-ego:I'm here to put an end to your murderous plans.
-other:You can't do shit!
+@3 // Estoy aquí para poner fin a tus planes asesinos.
+ego:Estoy aquí para poner fin a tus planes asesinos.
+other:¡No puedes hacer una mierda!
 option-off 3
 return
 

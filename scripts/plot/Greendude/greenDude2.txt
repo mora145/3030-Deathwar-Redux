@@ -1,61 +1,61 @@
 //begin
-// [ ] 1 - "The Largo..."
-// [ ] 2 - "The Junk business..."
-// [ ] 3 - "What's with the green...?"
-// [x] 4 - "Bye."
+// [ ] 1 - "El Largo..."
+// [ ] 2 - "El negocio de la basura..."
+// [ ] 3 - "¿Qué pasa con el verde...?"
+// [x] 4 - "Adios."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi again.
-ego:One more thing...
+other:Hola de nuevo.
+ego:Una cosa más...
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // The Largo...
-ego:The Largo...
-other:Yeah.
-ego:You had heard about it.
-other:Yeah, but I don't know where it is.
-other:Isn't it already found?
-other:By some pirate group?
-ego:So I hear. Thanks.
+@1 // El Largo...
+ego:El Largo...
+other:Si.
+ego:Tú habías oído hablar de ello.
+other: Sí, pero no sé dónde está.
+other:¿No habia sido encontrado ya?
+other:¿Por algún grupo de piratas?
+ego:Eso escuché. Gracias.
 option-off 1
 return
 
-@2 // The Junk business...
-ego:The Junk business...
-other:It's great.
-other:I pay all these drones to collect it up..
-other:..and I break it down for traces of heavy metals.
-other:Shit like that.
-ego:What about Junk shooting?
-other:Junk shooting! What a waste.
-other:Vaporising all that traces of silver...
-other:...of gold...
-other:...of copper.
-other:Teeny tiny traces of black goo.
-ego:Ok, I get it.
-other:Do you. Do you really?
-ego:Yes.
+@2 // El negocio de la basura...
+ego:El negocio de la basura...
+other:Es genial.
+other:Pago a todos estos drones para que la recojan...
+other:...y la desgloso por rastros de metales pesados.
+other:Mierda 
+ego: ¿Qué hay de disparar a la basura?
+other:¡Disparar a la basura! Qué desperdicio.
+other:Vaporizando todo lo que queda de plata....
+other:...de oro....
+other:...de cobre.
+other:Pequeños rastros de mugre negra.
+ego:Ok, lo entiendo.
+other:Lo haces. ¿Verdad?
+ego:Si.
 option-off 2
 return
 
-@3 // What's with the green...
-ego:What's with the green...
-other:This again!
-other:It's a good look.
-other:What's wrong with it? 
-other:Green, it's nice.
+@3 // ¿Qué pasa con el verde?
+ego:¿Qué pasa con el verde?
+other:¡De nuevo eso!
+other:Es bonito.
+other:¿Qué tiene de malo?
+other:Verde, es bonito.
 option-off 3
 return
 
-@4 // Bye
-ego:Bye.
-other:Bye.
+@4 // Adios
+ego:Adios.
+other:Adios.
 Stop
 

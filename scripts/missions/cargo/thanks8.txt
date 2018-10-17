@@ -1,5 +1,5 @@
 //begin
-// [x] 1 - "Si! Sencillo."
+// [x] 1 - "¡Si! Sencillo."
 // [x] 2 - "No. Hice otras cosas en el camino."
 //end
 

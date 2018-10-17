@@ -1,79 +1,79 @@
 //begin
-// [ ] 1 - "Have you seen Kent around?"
-// [ ] 2 - "How are things in Andinti?"
-// [ ] 22 - "a favour?"
-// [ ] 23 - "Sure, ok."
-// [ ] 24 - "no thanks."
-// [x] 4 - "Bye."
+// [ ] 1 - "¿Has visto a Kent por aquí?"
+// [ ] 2 - "¿Cómo van las cosas en Andinti?"
+// [ ] 22 - "¿Un favor?"
+// [ ] 23 - "Claro, está bien."
+// [ ] 24 - "No, gracias"
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi Mr. Falcon.
-ego:Hi.
+other:Hola Sr. Falcon.
+ego:Hola.
 option-on 1
 option-on 2
 return
 
-@1 // Have you seen Kent around?
-ego:Have you seen Kent around?
-other:You just missed him.
-other:He seemed well. 
-ego:He's off doing his own thing these days.
-ego:If you see him, tell him I could do with a co-pilot again.
-other:Oh, you get a big ship already?
-ego:Big enough.
+@1 // ¿Has visto a Kent por aquí?
+ego:¿Has visto a Kent por aquí?
+other:Acabas de perderlo.
+other:Parecía estar bien. 
+ego:Hoy en día está haciendo sus propias cosas.
+ego:Si lo ves, dile que me vendría bien un copiloto de nuevo.
+other:Oh, ¿ya tienes una gran nave?
+ego:Bastante grande.
 option-off 1
 return
 
-@2 // How are things in Andinti?
-ego:How are things in Andinti?
-other:Good.
-other:Not much going on.
-other:A few more gang related attacks.
-other:Could you do me a favour?
+@2 // ¿Cómo van las cosas en Andinti?
+ego:¿Cómo van las cosas en Andinti?
+other:Bien.
+other:No hay mucho que hacer.
+other:: Unos cuantos ataques más relacionados con pandillas.
+other:¿Podrías hacerme un favor?
 option-off 2
 option-on 22
 return
 
-@22 // a favour?
-ego:a favour?
-other:i got some Jeffscredium here.
-other:But I'm banned from trading.
-other:Since I punched officer Grah in the balls.
-other:I'll sell you 10 units for 3000.
-other:You'll lose some if you don't have 10 free space.
-ego:For 3000? That's a good price even for 3 units.
-other:I know, you can sell them full price.
+@22 // un favor?
+ego:¿Un favor?
+other:Tengo algo de Jeffscredium aquí.
+other:Pero tengo prohibido el comercio.
+other:Desde que le pegué al oficial Grah en las pelotas.
+other:Te vendo 10 unidades por 3000.
+other:Perderás algo si no tienes 10 espacios libres.
+ego:¿Por 3000? Es un buen precio incluso para 3 unidades.
+other: Lo sé, puedes venderlos a precio completo.
 option-off 22
 option-on 23
 option-on 24
 return
 
-@23 // Sure, ok.
-ego:Sure, ok.
-other:great. Transfer 3000 creds...
-other:...and I'll transfer the Jeffscredium. 
-other:It's 10 units, so you'll make a nice profit.
-other:If your cargo has space for it all.
-takemoney,3000,Paid Gruff for Jeffscredium
+@23 // Claro, de acuerdo.
+ego:Claro, de acuerdo.
+other:Grandioso. Transfiere 3000 credenciales....
+other:...y transferiré el Jeffscredium. 
+other:Son 10 unidades, así que tendrás una buena ganancia.
+other:Si su carga tiene espacio para todo.
+takemoney,3000,Pagó a Gruff por Jeffscredium
 givecargo 13 10
 option-off 23
 option-off 24
 return
 
-@24 // no thanks.
-ego:No thanks.
-other:I understand.
-other:The walls have ears in these stations.
+@24 // No, gracias.
+ego:No, gracias.
+other:Entiendo.
+other:Las paredes tienen oídos en estas estaciones.
 option-off 23
 option-off 24
 return
 
-@4 // Bye
-ego:Bye.
-other:Bye.
+@4 // Adiós
+ego:Adiós.
+other:Adiós.
 Stop
 

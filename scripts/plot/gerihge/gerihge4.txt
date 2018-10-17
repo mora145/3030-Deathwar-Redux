@@ -1,21 +1,21 @@
 //begin
-// [x] 1 - "Ok."
+// [x] 1 - "Bien."
 //end
 
 @S
-ego:I won.
-other:yeah, I can see that.
-other:I won too. A lot of money.
-other:The clue I promised is Aolol.
-other:Hope that means something to you.
-other:If you want to play some more races, just talk to the bar droid on dwelwa in the miareth system. 
-other:That's the only place that still does public matches.
-other:we do private matches here and they're not open to just anyone.
-other:You can bet yourself there, too.
-other:If you want to race for me, come and chat to me later.
-ego:Will do, thanks.
-other:I've put the clue in your contact list.
-other:See you around, speedy.
+ego:Gané.
+other:Sí, puedo ver eso.
+other:Yo también gané. Mucho dinero.
+other:La pista que prometí es Aolol.
+other:La pista que prometí es Aolol.
+other:Si quieres correr más carreras, habla con el droide del bar en dwelwa en el sistema miareth. 
+other:Ese es el único lugar que todavía hace partidos públicos.
+other:Aquí hacemos partidos privados y no están abiertos a todo el mundo.
+other: Puedes apostar tu mismo allí, también.
+other:Si quieres correr para mí, ven a charlar conmigo más tarde.
+ego:Lo haré, gracias.
+other:He puesto la pista en tu lista de contactos.
+other:Nos vemos por ahí, 'Rapidito'.
 option-on 1
 return
 

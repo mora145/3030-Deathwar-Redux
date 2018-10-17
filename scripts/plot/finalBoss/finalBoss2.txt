@@ -1,24 +1,24 @@
 //begin
-// [ ] 1 - "Not going to happen."
-// [ ] 2 - "You don't look like you're doing anything."
+// [ ] 1 - "Eso no va a pasar."
+// [ ] 2 - "No parece que estés haciendo nada."
 //end
 
 // dialog script file
 @S // dialog startup entry point
-other:There's nothing you can do.
-other:Now watch me kill all this useless filth.
+other:No hay nada que puedas hacer.
+other:Ahora mírame matar toda esta basura inútil.
 option-on 1
 option-on 2
 return
 
-@1 // Not going to happen.
-ego:Not going to happen.
+@1 // Eso no va a pasar.
+ego:Eso no va a pasar.
 option-off 1
 stop
 
-@2 // You don't look like you're doing anything.
-ego:You don't look like you're doing anything.
-other:Ever heard of a remote voice control.
-other:I only have to say the word. 
+@2 // No parece que estés haciendo nada.
+ego:No parece que estés haciendo nada.
+other:Nunca has oído hablar de un control remoto de voz.
+other:Sólo tengo que decir la palabra.
 option-off 2
 stop

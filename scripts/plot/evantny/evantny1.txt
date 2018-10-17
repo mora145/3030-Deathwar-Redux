@@ -1,36 +1,36 @@
 //begin
-// [x] 1 - "You're supposed to give me a clue."
-// [x] 2 - "You should know."
-// [x] 3 - "It doesn't matter. Later."
-// [ ] 4 - "Come on, let's dispense with this."
-// [ ] 5 - "I haven't got time for this."
-// [ ] 6 - "This is taking way too much of my time."
-// [ ] 7 - "Raal sent me."
-// [ ] 8 - "The name's Falcon, John Falcon."
-// [ ] 9 - "She's fine?"
-// [ ] 10 - "She, like I, doesn't like time wasters."
-// [ ] 11 - "Yeah, I'll do it."
-// [ ] 12 - "No, not now. Maybe later."
-// [ ] 13 - "Oh man. Are you? Just tell me."
-// [ ] 14 - "I'll assume you are. What's the clue?"
-// [ ] 15 - "Not right now, no."
-// [ ] 16 - "Yeah, I have it, just not for you."
+// [x] 1 - "Se supone que me des una pista"
+// [x] 2 - "Deberías saberlo."
+// [x] 3 - "No importa. Hasta luego."
+// [ ] 4 - "Vamos, prescindamos de esto."
+// [ ] 5 - "No tengo tiempo para esto."
+// [ ] 6 - "Esto me está costando demasiado tiempo."
+// [ ] 7 - "Raal me envió."
+// [ ] 8 - "El nombre es Falcon, John Falcon."
+// [ ] 9 - "¿Ella está bien?"
+// [ ] 10 - "A ella, como a mí, no le gustan los que desperdician el tiempo."
+// [ ] 11 - "Sí, lo haré."
+// [ ] 12 - "No, ahora no. Tal vez más tarde."
+// [ ] 13 - "Oh, hombre. ¿Lo estás? Sólo dímelo"
+// [ ] 14 - "Asumiré que lo eres. ¿Cuál es la pista?"
+// [ ] 15 - "Ahora mismo no, no."
+// [ ] 16 - "Sí, lo tengo, pero no para ti."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi, I'm Falcon. Raal told me about you.
-other:Yeah, what's this concerning?
+ego:Hola, soy Falcon. Raal me habló de ti.
+other:Sí, ¿de qué se trata?
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // You're supposed to give me a clue.
-ego:You're supposed to give me a clue.
-other:Oh really?
-other:What makes you think I know anything about any clue?
+@1 // Se supone que tienes que darme una pista.
+ego:Se supone que tienes que darme una pista.
+other:Oh, ¿en serio?
+other:¿Qué te hace pensar que sé algo sobre cualquier pista?
 option-off 1
 option-off 2
 option-off 3
@@ -39,17 +39,17 @@ option-on 5
 option-on 6
 return
 
-@2 // You should know.
-ego:You should know.
-other:You're right, I do.
-other:Let's get straight to the point, shall we?
-other:We suspect a police boss named jek kek is working for the council.
-other:On the wrong side, if you know what I mean.
-other:We need you to photograph them on board tia. 
-other:We need to know who he is meeting with to start piecing things together.
-ego:Right.
-other:You'll get a camera but we can't reward you at all.
-other:You in?
+@2 // Deberías saberlo.
+ego:Deberías saberlo.
+other:Tienes razón, lo sé.
+other:Vayamos directo al grano, ¿de acuerdo?
+other:Sospechamos que un jefe de policía llamado Jek Kek está trabajando para el Consejo.
+other:En el lado equivocado, si sabes a lo que me refiero.
+other:Necesitamos que los fotografíes a bordo de Tia. 
+other:Necesitamos saber con quién se está reuniendo para empezar a armar las piezas.
+ego:Correcto.
+other:Conseguirás una cámara, pero no podemos recompensar
+other:¿Estás dentro?
 option-off 1
 option-off 2
 option-off 3
@@ -58,14 +58,14 @@ option-on 12
 return
 
 
-@3 // It doesn't matter. Later.
-ego:It doesn't matter. Later.
-other:Ok, come back when you have something to talk about.
+@3 // No tiene importancia. Hasta luego.
+ego:No tiene importancia. Hasta luego.
+other:Vale, vuelve cuando tengas algo de lo que hablar.
 stop
 
-@4 // Come on, let's dispense with this.
-ego:Come on, let's dispense with this.
-other:Dispense with what? Who are you?
+@4 // Vamos, prescindamos de esto.
+ego:Vamos, prescindamos de esto.
+other:¿Prescindir de qué? ¿Quién es usted?
 option-off 4
 option-off 5
 option-off 6
@@ -74,10 +74,10 @@ option-on 8
 return
 
 
-@5 // I haven't got time for this.
-ego:I haven't got time for this.
-ego:Are you even the right person?
-other:I may or may not be the right person.
+@5 // No tengo tiempo para esto.
+ego:No tengo tiempo para esto.
+ego:¿Eres siquiera la persona correcta?
+other:Puedo o no ser la persona adecuada.
 option-off 6
 option-off 4
 option-off 5
@@ -86,50 +86,50 @@ option-on 14
 return
 
 
-@6 // This is taking way too much of my time.
-ego:This is taking way too much of my time.
-other:Really?
-ego:Yes, goodbye.
+@6 // Esto me está costando demasiado tiempo.
+ego:Esto me está costando demasiado tiempo.
+other:¿En serio?
+ego:Sí, adiós.
 stop
 
-@7 // Raal sent me.
-ego:Raal sent me.
-other:Oh, raal. I see. How is she?
+@7 // Raal me envió.
+ego:Raal me envió.
+other:Oh, Raal. Ya veo. ¿Cómo está ella?
 option-off 7
 option-off 8
 option-on 9
 option-on 10
 return
 
-@8 // The name's Falcon, John Falcon.
-ego:The name's Falcon, John Falcon.
-other:Falcon. I don't recognise the name.
-ego:Nevermind, just tell me the information you obviously have and quit being a dick.
-other:Right, not a problem, my friend. Since you're being so calm about all this.
-other:I don't know what anyone else knows but I have a clue for you.
-other:I also need something. Take this camera and photograph a person called jek kek.
-other:He'll be on board tia not far from here. He's a police boss so be careful.
-other:You'll just have to photograph him and bring the camera back here to me.
-ego:Seems easy enough.
-other:it is pretty easy. Therefore you won't get any money for doing it.
-other:We just need to keep him under surveillance.
-other:You want in?
+@8 // Mi nombre es Falcon, John Falcon.
+ego:Mi nombre es Falcon, John Falcon.
+other:Falcon. No reconozco el nombre.
+ego:No importa, sólo dame la información que obviamente tienes y deja de ser un imbécil.
+other:Bien, no hay problema, amigo mío. Ya que estás tan tranquilo con todo esto.
+other:No sé qué sabe nadie más, pero tengo una pista para ti.
+other:Yo también necesito algo. Toma esta cámara y fotografía a una persona llamada Jek Kek.
+other:Estará a bordo de Tia no muy lejos de aquí. Es un jefe de policía, así que ten cuidado.
+other:Tendrás que fotografiarlo y traerme la cámara de vuelta aquí.
+ego:Parece bastante fácil.
+other:Es bastante fácil. Por lo tanto, no recibirá ningún dinero por hacerlo.
+other:Sólo necesitamos mantenerlo bajo vigilancia.
+other:¿Quieres entrarle?
 option-off 7
 option-off 8
 option-on 11
 option-on 12
 return
 
-@9 // She's fine?
-ego:She's fine?
-other:Yeah, I suppose you're ok. 
-other:I don't know what anyone else knows but I have a clue for you.
-other:I also need something. Take this camera and photograph a person called jek kek.
-other:He'll be on board tia not far from here. Just be careful. He doesn't like people spying on him.
-other:You'll just have to photograph him and bring the camera back here to me.
-ego:Seems easy enough.
-other:it is pretty easy. Therefore you won't get any money for doing it.
-other:You want in?
+@9 // ¿Ella está bien?
+ego:¿Ella está bien?
+other:Sí, supongo que estás bien. 
+other:No sé qué sabe nadie más, pero tengo una pista para ti.
+other:Yo también necesito algo. Toma esta cámara y fotografía a una persona llamada Jek Kek.
+other:Estará a bordo de Tia no muy lejos de aquí. Sólo ten cuidado. No le gusta que la gente lo espíe.
+other:Tendrás que fotografiarlo y traerme la cámara de vuelta aquí.
+ego:Parece bastante fácil.
+other:Es bastante fácil. Por lo tanto, no recibirá ningún dinero por hacerlo.
+other:¿Quieres entrarle?
 option-off 9
 option-off 10
 option-on 11
@@ -137,75 +137,75 @@ option-on 12
 return
 
 
-@10 // She, like I, doesn't like time wasters.
-ego:She, like I, doesn't like time wasters.
-other:man oh man. I'm no time waster.
-other:I need something. Take this camera and photograph a person called jek kek.
-other:He's no time waster. He's a police boss, so be careful.
-other:He'll be on board tia not far from here. He doesn't like people spying on him.
-other:We'd like to keep him under surveillance.
-other:You'll just have to photograph him and bring the camera back here to me.
-ego:Seems easy enough.
-other:it is pretty easy. Therefore you won't get any money for doing it.
-other:You want in?
+@10 // A ella, como a mí, no les gusta perder el tiempo.
+ego:A ella, como a mí, no les gusta perder el tiempo.
+other:Hombre oh hombre. No soy un desperdiciador de tiempo.
+other:Necesito algo. Toma esta cámara y fotografía a una persona llamada Jek Kek.
+other:No es un desperdiciador de tiempo. Es un jefe de policía, así que ten cuidado.
+other:Estará a bordo de Tia no muy lejos de aquí. No le gusta que la gente lo espíe.
+other:Nos gustaría mantenerlo bajo vigilancia.
+other:Tendrás que fotografiarlo y traerme la cámara de vuelta aquí.
+ego:Parece bastante fácil.
+other:Es bastante fácil. Por lo tanto, no recibirá ningún dinero por hacerlo.
+other:¿Quieres entrarle?
 option-off 9
 option-off 10
 option-on 11
 option-on 12
 return
 
-@11 // Yeah, I'll do it.
-ego:Yeah, I'll do it.
-other:Good, here's the camera. Get on with it.
-other:When you've taken the photo come back here and I'll tell you my information.
+@11 // Sí, lo haré
+ego:Sí, lo haré
+other:Bien, aquí está la cámara. Continúa con eso.
+other:Cuando hayas tomado la foto, regresa aquí y te daré mi información.
 setMissionAnswer 1
 stop
 
-@12 // No, not now. Maybe later.
-ego:No, not now. Maybe later.
-other:Fair enough. I'll be here if you change your mind.
+@12 // No, ahora no. Tal vez más tarde.
+ego:No, ahora no. Tal vez más tarde.
+other:Me parece justo. Estaré aquí si cambias de opinión.
 setMissionAnswer 0
 stop
 
-@13 // Oh man. Are you? Just tell me.
-ego:Oh man. Are you? Just tell me.
-other:Yeah, I just happen to be the right guy.
-other:You don't have very much patience do you?
+@13 // Oh hombre. ¿Lo eres? Sólo dímelo.
+ego:Oh hombre. ¿Lo eres? Sólo dímelo.
+other:Sí, resulta que soy el tipo correcto.
+other:No tienes mucha paciencia, ¿verdad?
 option-off 13
 option-off 14
 option-on 15
 option-on 16
 return
 
-@14 // I'll assume you are. What's the clue?
-ego:I'll assume you are. What's the clue?
-other:I can't just give you the clue. Well, I could, but I won't.
-other:We suspect a police chief named jek kek is courupt.
-other:Working for our competitors, if you know what I mean.
-other:We need you to photograph him on board tia.
-other:We need to know who he's talking to.
-ego:Right.
-other:You'll get a camera but we can't reward you at all.
-other:You in?
+@14 // Asumiré que lo eres. ¿Cuál es la pista?
+ego:Asumiré que lo eres. ¿Cuál es la pista?
+other:No puedo simplemente darte la pista. Bueno, podría, pero no lo haré.
+other:Sospechamos que un jefe de policía llamado Jek Kek es un corrupto.
+other:Trabajando para nuestros rivales, si sabes a lo que me refiero.
+other:Necesitamos que lo fotografíes a bordo de Tia.
+other:Necesitamos saber con quién está hablando.
+ego:Correcto.
+other:Conseguirás una cámara, pero no podemos recompensarte en absoluto.
+other:¿Estás dentro?
 option-off 13
 option-off 14
 option-on 11
 option-on 12
 return
 
-@15 // Not right now, no.
-ego:Not right now, no.
-other:Ok, I need something from you. 
-ego:What?
-other:A small, unpaid job.
-ego:What is it?
-other:Take this camera and photograph a person called jek kek.
-other:He'll be on board tia not far from here. Just be careful, he's a police chief.
-other:We'd like to keep him under surveillance.
-other:You'll just have to photograph him and bring the camera back here to me.
-ego:Seems easy enough.
-other:it is pretty easy. Therefore you won't get any money for doing it.
-other:You want in?
+@15 // No, ahora mismo no.
+ego:No, ahora mismo no.
+other:Ok, necesito algo de ti.  
+ego:¿Qué?
+other:Un trabajo pequeño, no remunerado.
+ego:¿Qué es?
+other:Tome esta cámara y fotografíe a una persona llamada Jek Kek.
+other:Estará a bordo de Tia no muy lejos de aquí. Ten cuidado, es un jefe de policía.
+other:Nos gustaría mantenerlo bajo vigilancia.
+other:Tendrás que fotografiarlo y traerme la cámara de vuelta aquí.
+ego:Parece bastante fácil.
+other:Es bastante fácil. Por lo tanto, no recibirá ningún dinero por hacerlo.
+other:¿Quieres entrarle?
 option-on 11
 option-on 12
 option-off 15
@@ -214,19 +214,19 @@ return
 
 
 
-@16 // Yeah, I have it, just not for you.
-ego:Yeah, I have it, just not for you.
-other:Ok, I need something from you. 
-ego:What?
-other:A small, unpaid job.
-ego:What is it?
-other:Take this camera and photograph a person called jek kek.
-other:He'll be on board tia not far from here. Just be careful, he's a police chief.
-other:We'd like to keep him under surveillance.
-other:You'll just have to photograph him and bring the camera back here to me.
-ego:Seems easy enough.
-other:it is pretty easy. Therefore you won't get any money for doing it.
-other:You want in?
+@16 // Sí, la tengo, pero no para ti.
+ego:Sí, la tengo, pero no para ti.
+other:Ok, necesito algo de ti. 
+ego:¿Qué?
+other:Un pequeño trabajo no remunerado.
+ego:¿Qué es?
+other:Tome esta cámara y fotografíe a una persona llamada Jek Kek.
+other:Estará a bordo de Tia no muy lejos de aquí. Ten cuidado, es un jefe de policía.
+other:Nos gustaría mantenerlo bajo vigilancia.
+other:Tendrás que fotografiarlo y traerme la cámara de vuelta aquí.
+ego:Parece bastante fácil.
+other:Es bastante fácil. Por lo tanto, no recibirá ningún dinero por hacerlo.
+other:¿Quieres entrarle?
 option-on 11
 option-on 12
 option-off 15

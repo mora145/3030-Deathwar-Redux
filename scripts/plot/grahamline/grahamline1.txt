@@ -1,34 +1,34 @@
 //begin
-// [x] 1 - "I'm Falcon."
-// [x] 2 - "It's my first time here."
-// [x] 3 - "I was here last week."
-// [ ] 4 - "Is it..."
-// [ ] 5 - "I haven't been told a password."
+// [x] 1 - "Soy Falcon."
+// [x] 2 - "Es mi primera vez aquí."
+// [x] 3 - "Estuve aquí la semana pasada"
+// [ ] 4 - "Es...."
+// [ ] 5 - "No me han dado una contraseña."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi.
-other:Hi. 
-other:Hang on a minute.
-ego:Why?
-other:I don't recognise you.
+ego:Hola.
+other:Hola. 
+other:Espera un minuto.
+ego:¿Por qué?
+other:No te reconozco.
 option-on 1
 option-on 2
 option-on 3
 return
 
 
-@1 // I'm Falcon.
-ego:I'm Falcon.
+@1 // Soy Falcon.
+ego:Soy Falcon.
 ego:John Falcon.
-other:I don't know that name.
-ego:I've been doing work for your friends.
-other:Maybe you have, maybe you haven't.
-ego:Then how did I find the base. 
-other:Well then.
-other:You will know the password.
+other:No conozco ese nombre.
+ego:He estado trabajando para tus amigos.
+other:Tal vez sí, tal vez no.
+ego:Entonces, ¿cómo encontré la base?
+other:Bien entonces.
+other:Usted sabrá la contraseña.
 
 option-on 4
 option-on 5
@@ -38,10 +38,10 @@ option-off 3
 return
 
 
-@2 // It's my first time here.
-ego:It's my first time here.
-other:Welcome.
-other:Have you been told the password?
+@2 // Es mi primera vez aquí.
+ego:Es mi primera vez aquí.
+other:Bienvenido.
+other:¿Le han comunicado la contraseña?
 
 option-on 4
 option-on 5
@@ -50,10 +50,10 @@ option-off 2
 option-off 3
 return
 
-@3 // I was here last week.
-ego:I was here last week.
+@3 // Estuve aquí la semana pasada.
+ego:Estuve aquí la semana pasada.
 other:Hmmm. 
-other:Password?
+other:¿Contraseña?
 
 option-on 4
 option-on 5
@@ -62,16 +62,16 @@ option-off 2
 option-off 3
 return
 
-@4 // Is it...
-ego:Is it....
+@4 // Es que...
+ego:Es que...
 ego:Momo 287
-other:(grins)
-ego:No wait, Fishmaster3 ?
-other:I think you'd better leave.
-ego:No wait, now I remember.
+other:(sonríe)
+ego:No espera, Fishmaster3?
+other:Creo que es mejor que te vayas.
+ego:No, espera, ahora lo recuerdo.
 other:Oh?
 ego:Momo 288?
-other:No. I don't know what you're on about.
+other::No. No sé de qué estás hablando.
 ego:Ok, ok. 
 
 option-on 5
@@ -81,14 +81,14 @@ option-off 3
 option-off 4
 return
 
-@5 // I haven't been told a password.
-ego:I haven't been told a password.
-other:In that case you can't enter.
-other:Sorry, It's the rules.
-ego:But it took me ages to get here.
-other:That's what they all say.
-ego:Who.
-other:Traders who find us but haven't got the password.
-other:You'll have to go and find someone willing to tell you the password.
-ego:Ok then. 
+@5 // No me han dicho una contraseña.
+ego:No me han dicho una contraseña.
+other:En este caso no puedes entrar.
+other:Lo siento, son las reglas.
+ego:Pero me llevó años llegar aquí.
+other:Eso es lo que todos dicen.
+ego:Quiénes.
+other:Comerciantes que nos encuentran pero no tienen la contraseña.
+other:Tendrás que ir y encontrar a alguien dispuesto a decirte la contraseña.
+ego:Muy bien entonces. 
 stop

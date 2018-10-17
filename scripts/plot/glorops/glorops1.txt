@@ -1,34 +1,34 @@
 //begin
-// [x] 1 - "25 grand? Are you crazy?"
-// [x] 2 - "Say what?"
-// [x] 3 - "No. Goodbye."
-// [ ] 4 - "Do I even need this clue?"
-// [ ] 5 - "Yeah, fine, take the money."
-// [ ] 6 - "No, I'm not going to pay.
+// [x] 1 - "¿25 grandes? ¿Estás loco?"
+// [x] 2 - "¿Decir qué?"
+// [x] 3 - "No. Adiós."
+// [ ] 4 - "¿Necesito esta pista?"
+// [ ] 5 - "Sí, bien, toma el dinero."
+// [ ] 6 - "No, no voy a pagar."
 //end
 
 @S
-ego:Hi
-other:Hey. You here about the suction bot repair?
+ego:Hola
+other:Oye, ¿estás aquí por la reparación del robot de succión?
 ego:No.
-ego:I'm here for the clue to the whereabouts of walker base.
-ego:You able to help me?
-other:Yeah. Totally. You got the money?
-ego:What money?
-other:Oh yeah, I forgot to mention. $25,000.
-other:That's how much I'll need.
+ego:Estoy aquí por la pista del paradero de la base Walker.
+ego: ¿Puedes ayudarme?
+other:Si. Totalmente. ¿Tienes el dinero?
+ego:¿Qué dinero?
+other:Oh sí, olvidé mencionarlo. 25.000$.
+other:Eso es lo que necesitaré.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 //25 grand?
-ego:25 grand? Are you crazy?
-other:No, that's not much by today's standard. 
-other:What you don't got it?
-ego:I got it, but it seems a bit steep to me.
-ego:Ney, effing vertical more like.
-other:So, what. You not gonna pay or what?
+@1 //¿25 grandes?
+ego:¿25 grandes? ¿Estás loco?
+other:No, eso no es mucho para el estándar de hoy.
+other:¿Qué, no lo tienes?
+ego:Lo tengo, pero me parece un poco exagerado.
+ego:Ney, más bien vertical.
+other: Entonces, ¿qué? ¿No vas a pagar o qué?
 option-off 1
 option-off 2
 option-off 3
@@ -37,16 +37,16 @@ option-on 5
 option-on 6
 return
 
-@2 //Say what?
-ego:Say what?
-other:It isn't really that much.
-ego:Why so much? What's it for?
-other:It goes to pay my informants, taxes.. I might get a new pair of shoes
-other:you know.. important stuff.
-other:I might even buy one of those really nice bottles of special froog.
-other:They are really hard to come by these days.
-ego:Right.
-other:So, you gonna pay?
+@2 //¿Decir qué?
+ego:¿Decir qué?
+other:Realmente no es mucho.
+ego:¿Por qué tanto? ¿Para qué sirve?
+other:Va a pagar a mis informantes, impuestos.. Podría comprarme un par de zapatos nuevos.
+other:Ya sabes... cosas importantes.
+other:Podría incluso comprar una de esas botellas de froog especial.
+other:Son muy difíciles de conseguir en estos días.
+ego:Cierto.
+other:Entonces, ¿vas a pagar?
 option-off 1
 option-off 2
 option-off 3
@@ -55,44 +55,44 @@ option-on 5
 option-on 6
 return
 
-@3 //No, goodbye.
-ego:No, goodbye.
-other:Alright, you know where I am when you change your mind.
+@3 //No, adiós.
+ego:No, adiós.
+other:Muy bien, ya sabes dónde estoy cuando cambias de opinión.
 stop
 
-@4 //Do I even need this clue?
-ego:Do I even need this clue?
-other:I think you do, else how you gonna find this walker base?
-ego:I could just rummage the universe from top to bottom.
-ego:It'd probably be cheaper in fuel than to pay you.
-other:You and I both know you're going to pay me the money.
-other:And I am not going to let slip some detail if you try to keep me talkin'.
-other:So why don't we just get on it and get this over with.
+@4 //¿Necesito esta pista?
+ego:¿Necesito esta pista?
+other: Creo que sí, si no, ¿cómo vas a encontrar esta base de Walker?
+ego:Podría hurgar en el universo de arriba a abajo.
+ego:Probablemente sería más barato en combustible que pagarte.
+other:Los dos sabemos que me vas a pagar el dinero.
+other:Y no voy a dejar escapar algunos detalles si tratas de mantenerme hablando.
+other: Así que, ¿por qué no nos ponemos manos a la obra y terminamos con esto?
 option-off 4
 return 
 
-@5 //Yeah, fine, take the money.
-ego:Yeah, fine, take the money.
-other:Alright. Just press here.
+@5 //Sí, bien, toma el dinero.
+ego:Sí, bien, toma el dinero.
+other: Muy bien. Sólo presiona aquí.
 ego:...
-other:Thanks. Here's your receipt.
-other:Oh, that's right, there is no receipt.
-other:The clue is Faedda. 
-other:I've added it to your contact list so you don't forget.
-ego:Wow, that was not worth it.
-other:Well tough.
-other:See you around.
+other:Gracias. Aquí está tu recibo.
+other:Oh, es cierto, no hay recibo.
+other: La pista es Faedda.
+other:Lo he añadido a tu lista de contactos para que no lo olvides.
+ego:Guau, eso no valió la pena.
+other:Bastante duro.
+other:Nos vemos por ahí.
 setMissionAnswer 1
 stop
 
-@6 //No, I'm not going to pay.
-ego:No, I'm not going to pay.
-other:Fine with me. 
-other:You'll be back. You know it and I know it.
-ego:You have to try.
-other:What. To get free stuff?
-ego:Right.
-other:This time, it was a waste of time.
+@6 //No, no voy a pagar.
+ego:No, no voy a pagar.
+other:Por mí está bien.
+other:Volverás. Tú lo sabes y yo lo sé.
+ego:Hay que intentarlo.
+other:Qué. ¿Para conseguir cosas gratis?
+ego:Correcto.
+other:Esta vez, fue una pérdida de tiempo.
 setMissionAnswer 0
 stop
 

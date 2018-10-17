@@ -1,16 +1,16 @@
 //begin
 
-// [x] 4 - "Bye."
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi.
-other:Sorry, can't talk.
-other:I'm planning to leave this place.
-other:As soon as the bar droid gets my beer.
+other:Hola.
+other:Lo siento, no puedo hablar.
+other:Estoy planeando dejar este lugar.
+other:Tan pronto como el droide del bar tenga mi cerveza.
 return
 
 

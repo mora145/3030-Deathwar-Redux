@@ -1,19 +1,19 @@
 //begin
-// [x] 1 - "I'm here to help. Let me in."
+// [x] 1 - "Estoy aquí para ayudar. Déjame entrar."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi.
-other:What now?
+ego:Hola.
+other:¿Y ahora qué?
 option-on 1
 return
 
 
-@1 // I'm here to help. Let me in.
-ego:I'm here to help. Let me in.
-other:I told you before, that isn't possible.
-other:You'll have to go and find someone willing to tell you the password.
-ego:Fine, I'll do that.
+@1 // Estoy aquí para ayudar. Déjame entrar.
+ego:Estoy aquí para ayudar. Déjame entrar.
+other:Te lo dije antes, eso no es posible.
+other:Tendrás que ir y encontrar a alguien dispuesto a decirte la contraseña.
+ego:Bien, lo haré.
 stop

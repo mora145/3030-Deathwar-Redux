@@ -1,29 +1,29 @@
 //begin
-// [x] 1 - "Say, you want a drink?"
-// [x] 2 - "See you around, I guess."
+// [x] 1 - "Oye, ¿quieres un trago?"
+// [x] 2 - "Nos vemos, supongo."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:How you doin'?
-other:I'm fine. What... er... what can I do for you?
-ego:Nothing much, just wanted to talk to you.
-other:Well, you've done that. 
-ego:Yeah. seems I have.
+ego:¿Cómo estás?
+other:Estoy bien. ¿Qué....er...qué puedo hacer por ti?
+ego:No mucho, sólo quería hablar contigo.
+other:Bueno, ya lo has hecho. 
+ego:Sí, parece que sí.
 setStoryVar 10 1
 option-on 1
 option-on 2
 return
 
-@1 // Say, you want a drink?
-ego:Say, you want a drink?
-other:Yeah, sure.
-other:thanks. See you around.
-takeMoney,50,DRINK AT THE BAR
+@1 // Oye, ¿quieres un trago?
+ego:Oye, ¿quieres un trago?
+other:Sí, claro.
+other:Gracias. Nos vemos por ahí.
+takeMoney,50,BEBIDA EN EL BAR
 stop
 
-@2 // See you around, I guess.
-ego:See you around, I guess.
-other:Yeah, sure.
+@2 // Nos vemos por ahí, supongo.
+ego:Nos vemos por ahí, supongo.
+other:Sí, claro.
 stop

@@ -1,51 +1,51 @@
 //begin
-// [x] 1 - "So what you spent that $25,000 on?"
-// [x] 2 - "What was the clue again?"
-// [x] 3 - "Doesn't matter, goodbye."
+// [x] 1 - "¿En qué gastaste esos 25.000 dólares?"
+// [x] 2 - "¿Cuál era la pista?"
+// [x] 3 - "No importa, adiós"
 //end
 
 @S
-ego:Hey, can I ask you some questions?
-other:Sure.
+ego:Hey, ¿puedo hacerte unas preguntas?
+other:Claro.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 //So what you spent that $25,000 on?
-ego:So what you spent that $25,000 on?
-other:This and that, you know.
-ego:No, I don't know.
-other:Oh, I did buy that special froog. it is awesome.
-other:I only had a 1/2 a shot and I was out for 4 hours.
-other:it's potent stuff.
-other:You heard that froog is made out of?
-ego:No, what?
-other:Visor beast extract.
-ego:Extract? That does not sound good.
-other:Well, the normal stuff you can get from any shmo is synthesised.
-other:The real special stuff is all natural.
-ego:All natural what?
-other:Visor beast man juice.
-ego:Say what?
-other:Yeah, it's a rare commodity, rarely sold.
-other:It's mostly used in business affairs and exchanged.
-other:That's why it's so expensive.
-ego:So you don't mind drinking visor beast sperm?
-other:Hey, if it does the job, it does the job.
+@1 //¿En qué gastaste esos 25.000 dólares?
+ego:¿En qué gastaste esos 25.000 dólares?
+other:Esto y aquello, ya sabes.
+ego:No, no lo sé.
+other:Oh, compré ese froog especial. Es increíble.
+other:Sólo tomé media copita y estuve inconsciente por 4 horas.
+other:Es un producto potente.
+other:¿Oíste que el froog está hecho de...?
+ego:No, ¿qué?
+other:Extracto de bestia cachonda.
+ego:¿Extracto? Eso no suena bien.
+other:Bueno, las cosas normales que se pueden obtener de cualquier shmo son sintetizadas.
+other:TLo realmente especial es todo natural.
+ego:¿Todo natural qué?
+other:Jugo de bestia macho cachonda.
+ego:¿Qué dices?
+other:Sí, es una materia prima rara, raramente vendida.
+other:Se usa principalmente en asuntos de negocios y se intercambia.
+other:Por eso es tan cara.
+ego:¿Así que no te importa beber esperma de bestia cachonda?
+other:Hey, si hace el trabajo, hace el trabajo.
 option-off 1
 return
 
-@2 //What was the clue again?
-ego:What was the clue again?
-other:I added it to your contact list. It's Faedda.
-ego:Any idea what it means?
-other:Nope. You?
-ego:Maybe.
+@2 //¿Cuál era la pista?
+ego:¿Cuál era la pista?
+other:Lo he añadido a tu lista de contactos. Es Faedda.
+ego: ¿Alguna idea de lo que significa?
+other:No. ¿Tú?
+ego:Tal vez..
 option-off 2
 return
 
-@3 //Doesn't matter, goodbye.
-ego:Doesn't matter, goodbye.
-other:Alright, see you around.
+@3 //No importa, adiós.
+ego:No importa, adiós.
+other:Muy bien, nos vemos.
 stop

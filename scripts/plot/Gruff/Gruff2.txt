@@ -1,40 +1,40 @@
 //begin
-// [ ] 1 - "Tell me about Frank Zoed."
-// [ ] 2 - "Tell me about Zog Dongo."
-// [x] 4 - "Bye."
+// [ ] 1 - "Háblame de Frank Zoed."
+// [ ] 2 - "Háblame de Zog Dongo."
+// [x] 4 - "Adiós"
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi again.
-ego:One more thing..
+other:Hola de nuevo.
+ego:Una cosa más...
 option-on 1
 option-on 2
 return
 
-@1 // Tell me about Frank Zoed.
-ego:Tell me about Frank Zoed.
-other:You're asking a lot of questions.
-other:I don't know him well.
+@1 // Háblame de Frank Zoed.
+ego:Háblame de Frank Zoed.
+other:Estás haciendo muchas preguntas.
+other:No lo conozco bien.
 option-off 1
 return
 
-@2 // Tell me about Zog Dongo.
-ego:Tell me about Zog Dongo.
-other:Good guy. 
-other:Not seen him for a few weeks.
-ego:Did you hear he sold his ship?
-other:No way. You heard wrong.
-other:He'd never sell that orange Detra.
-ego:I guess i heard wrong.
+@2 // Háblame de Zog Dongo.
+ego:Háblame de Zog Dongo.
+other:Buen chico. 
+other:No lo he visto en varias semanas.
+ego:¿Has oído que vendió su nave?
+other:De ninguna manera. Escuchaste mal.
+other:Nunca vendería ese Detra naranja.
+ego:Supongo que escuché mal.
 option-off 2
 return
 
 
-@4 // Bye
-ego:Bye.
-other:Bye.
+@4 // Adiós
+ego:Adiós.
+other:Adiós.
 Stop
 

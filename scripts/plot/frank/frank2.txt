@@ -1,16 +1,16 @@
 //begin
-// [x] 1 - "I'll get on it."
+// [x] 1 - "Me pondré en ello."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hey bud. You seen jimmy yet? Try checking out the other stations and looking for him.
-other:Hell he could even be on this station. I don't know.
+other:Hola, amigo. ¿Ya has visto a Jimmy? Intenta revisar las otras estaciones y buscarlo.
+other:Diablos, podría estar en esta estación. No lo sé.
 option-on 1
 return
 
-@1 // I'll get on it.
-ego:I'll get on it.
-other:Ok.
+@1 // Me pondré en ello.
+ego:Me pondré en ello.
+other:Bien.
 stop
