@@ -15,46 +15,46 @@ dialogue
 {
 
 falcon:Pero tenia que encontrar el pasaje de vuelta.
-Osiris:Adonde?
+Osiris:¿Adonde?
 falcon:Al lugar donde estaba antes.
 Osiris:No deberias estar preocupado...
-Osiris:...sobre tu juicio final?
+Osiris:¿...sobre tu juicio final?
 falcon:Relajate.
 falcon:Soy un tipo bastante equilibrado.
 falcon:Estoy de acuerdo con Maat. Bueno, soy ordenado.
 falcon:Tiene un caracter clasico.
 Osiris:En ese caso que...
 falcon:Espera...
-falcon:Como llegue aqui?
-falcon:Ademas, eres un personaje ficticio
+falcon:¿Como llegue aqui?
+falcon:Ademas, eres un personaje ficticio.
 Osiris:¡No, no lo soy!
 falcon:Si lo eres, Osiris.
 falcon:Por eso estas verde.
 Osiris:Quiero que sepas que eso es simbolico.
 Osiris:Significa algo... 
-Osiris:...pero no puedo recordarlo como lo has olvidado.
+Osiris:...pero no puedo recordar como lo has olvidado.
 falcon:Exactamente, debido al hecho de que es mi sueno.
 falcon:Cualquiera que sea Gran 'O'.
-falcon:Es hora de cambiar este paisaje de ensueno.
-Osiris:Dulce.
+falcon:Es hora de cambiar este paisaje de ensueño.
+Osiris:Genial .
 Osiris:¡Empecemos la fiesta!
 falcon:Muy bien.
 goon:No se por que estoy aqui.
-goon:Estas seguro de que estas sonando?
+goon:¿Estas seguro de que estas soñando?
 falcon:Probablemente solo que te conoci hace poco.
-falcon:Hmmm, si realmente estoy sonando..
+falcon:Hmmm, si, realmente estoy soñando..
 falcon:Vamos a animar a esa criatura.
 Osiris:Senor, usted es el rey aqui.
 Osiris:Hey criatura..
-SE:Yo? ¡Traga! ¡Traga! ¡Traga!
-SE:Chomp! Tengo la cabeza de un cocodrilo.
+SE:¿Yo? ¡Traga! ¡Traga! ¡Traga!
+SE:¡Traga! Tengo la cabeza de un cocodrilo.
 SE:En realidad es bastante tierno. ¡Traga! ¡Traga!
 goon:Silencio de caracter periferico.
-SE:Periferico!!?
-SE:Me trago los corazones del companero indigno.
+SE:¿¡¡Periferico!!?
+SE:Me trago los corazones del compañero indigno.
 falcon:Si, lo recuerdo.
 goon:Me gustaria preguntar...
-goon:Puedo unirme a la fiesta?
+goon:¿Puedo unirme a la fiesta?
 falcon:Todos somos yo aqui, seguro.
 goon:¡Si!
 goon:Bien hecho, yo.

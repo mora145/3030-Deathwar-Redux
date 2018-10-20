@@ -13,18 +13,18 @@ badcop,data/stations/special characters/bigCopAlien1_80x130_4.png,123,149,facing
 
 dialogue
 {
-bosscape:Por que no podemos encontrarlo?
-helper2:Senor, hemos estado buscando pero parece que ha desaparecido.
+bosscape:¿Por qué no podemos encontrarlo?
+helper2:Señor, hemos estado buscando pero parece que ha desaparecido.
 bosscape:No puede haber desaparecido.
 badcop:No me dieron su descripcion.
 helper2:No es dificil de reconocer. Siempre con chaqueta y sombrero marron.
 badcop:¡Oye! ¡Creo que vi a un tipo asi en la estacion Tia!
-bosscape:Genial. ¡Probablemente te estaba encontrando! 
+bosscape:Genial. ¡Probablemente estuvimos cerca! 
 bosscape:Subamos la presion.
 bosscape:Anade mas incentivos para que los cazarrecompensas y la policia lo encuentren.
-badcop:No hay problema. Me asegurare de que haya una gran recompensa por su cabeza.
-bosscape:Dale un registro criminal que haga que "Ghh el destructor" parezca un ladronzuelo.
-badcop:Se cumplira.
+badcop:No hay problema. Me aseguraré de que haya una gran recompensa por su cabeza.
+bosscape:Ponle un registro criminal que haga que "Ghh el destructor" parezca un ladronzuelo.
+badcop:Se cumplirá.
 
 }
 

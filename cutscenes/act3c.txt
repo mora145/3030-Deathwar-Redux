@@ -16,25 +16,25 @@ stationary stars
 
 dialogue
 {
-cjisri:En que pensaban los ancianos con un plan tan peligroso?
-cjisri:Los nano son una cosa, pero forzar una supernova? ¡Mil personas han muerto!
+cjisri:¿En que pensaban los ancianos con un plan tan peligroso?
+cjisri:¿Los nano son una cosa, pero forzar una supernova? ¡Miles de personas han muerto!
 ktafly:Dudo que los ancianos hicieran esto...
 ktafly:...esto huele como un trabajo de F'Zuh.
-ktafly:Tiene alguna informacion sobre el dispositivo?
+ktafly:¿Tiene alguna informacion sobre el dispositivo?
 cjisri:Desafortunadamente, si. 
 cjisri:John Falcon entrego un paquete unos minutos antes de la explosion.
-ktafly:Se cumple la profecia? Sospecho de todo esto.
+ktafly:¿Se cumple la profecia? Sospecho de todo esto.
 ktafly:Parece que F'zuh no se detendra ante nada. 
-ktafly:No fue culpa de Falcon. el no lo sabia. 
-ktafly:Estoy informado de que es un peon en todo esto.
+ktafly:No fue culpa de Falcon. Él no lo sabia. 
+ktafly:Estoy informado de que lo usaron como marioneta en todo esto.
 ktafly:No puede saberlo, lo devastaria.
-cjisri:Lo entiendo. Pero que haremos ahora?
-cjisri:Deberiamos contactar con Falcon?
+cjisri:Lo entiendo. ¿Pero que haremos ahora?
+cjisri:¿Deberiamos contactar con Falcon?
 ktafly:Todavia no. Hablare con algunas personas y vere que podemos hacer.
-ktafly:Ponte en contacto con el cuando te de la senal.
+ktafly:Ponte en contacto con él cuando te de la señal.
 ktafly:Por ahora espero que pueda sobrevivir por su cuenta.
 cjisri:Si, cuando este listo y tenga mas experiencia en combate...
-cjisri:...podemos contactarlo de nuevo.
+cjisri:...Podemos contactarlo de nuevo.
 }
 
 sounds

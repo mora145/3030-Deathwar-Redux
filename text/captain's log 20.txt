@@ -1,4 +1,4 @@
 
-J'mes Learner me dijo la contraseña, que, en mi humilde opinión, es un cliché. Pero no importa, ahora puedo encontrar la base Walker y subirme a bordo. Entonces podré hablar con el 433-2c o con quien sea, y arreglar todo esto. Parece el jefe-jefe.
+J'mes Learner me dijo la contraseña, que, en mi humilde opinión, es un cliché. Pero no importa, ahora puedo encontrar la base Walker y entrar a bordo. Entonces podré hablar con el 433-2c o con quien sea, y arreglar todo esto. Parece el jefe de los jefes.
 
 Si pongo las pistas juntas, la base Walker debe estar alrededor de las coordenadas 10,1. Mi hud mostrará un marcador verde cuando me acerque. Será mejor que vaya allí antes de que exploten más soles.

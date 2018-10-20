@@ -15,22 +15,22 @@ badcop,data/stations/special characters/bigCopAlien1_80x130_4.png,320,150,facing
 
 dialogue
 {
-helper:Senor, renuncio. 
-bosscape:Renuncias?
+helper:Señor, renuncio. 
+bosscape:¿Renuncias?
 helper:He estado pensando. Creo que nosotros somos los malos.
 helper:Usando la nanotecnologia para eliminar las formas de vida...
-helper:...parece excesivo.
+helper:...Parece excesivo.
 bosscape:Boo hoo.
 bosscape:Fuera de mi vista.
-bosscape:Alguna novedad sobre Falcon?
+bosscape:¿Alguna novedad sobre Falcon?
 helper2:Nos ha eludido hasta ahora.
 badcop:Creemos que lo estan dirigiendo a su base secreta.
-bosscape:Sigue buscando, y prepara al resto de la flota.
+bosscape:Sigue buscando y prepara al resto de la flota.
 }
 
 text
 {
-Acto VI: La contrasena
+Acto VI: La contraseña
 }
 
 animation

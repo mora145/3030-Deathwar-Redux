@@ -23,17 +23,17 @@ out
 
 dialogue
 {
-Falconsmall:Los escaneres muestran un pequeno campamento en el planeta.
-Falconsmall:Buen trabajo montando el mecanismo de lanzamiento, Kent.
-Kentsmall:Gracias, Jefe. Pero aun no me gustan las capsulas.
+Falconsmall:Los escaneres muestran un pequeño campamento en el planeta.
+Falconsmall:Buen trabajo montando el mecanismo de lanzamiento Kent.
+Kentsmall:Gracias jefe. Pero aun no me gustan las capsulas.
 Kentsmall:¡El paracaidas falla y se desploma! Es muy peligroso.
 Falconsmall:Lo se, pero tiene un equipo especial de interferencia.
 Falconsmall:Puedes aterrizar la nave sin ser detectado despues de que yo baje.
-Kentsmall:Asi que solo estas investigando lo que esta tramando ese policia?
+Kentsmall:¿Asi que solo estas investigando lo que esta tramando ese policia?
 Falconsmall:Cierto. Acabo de averiguar que esta pasando ahi abajo.
-Kentsmall:¡Mision de espionaje! Dentro y fuera, limpio. Como en los viejos tiempos.
+Kentsmall:¡Mision de espionaje! Salir y entrar. Como en los viejos tiempos.
 Kentsmall:Ponte el cinturon, la reentrada es un recorrido salvaje.
-Kentsmall:¡El escudo termico falla y arde! Es muy peligroso.
+Kentsmall:¡El escudo termico falla y te quemas! Es muy peligroso.
 Kentsmall:A menos que seas un robot con un gran sistema de refrigeracion, como yo.
 Falconsmall:Callate, Kent.
 }

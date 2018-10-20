@@ -17,10 +17,10 @@ in
 
 dialogue
 {
-boss:...Kent, estoy vestido y con botas. :data/voice/newgame1/fa1.wav
-boss:Abran la escotilla exterior. :data/voice/newgame1/fa2.wav
-boss:Ire a cortar. :data/voice/newgame1/fa3.wav
-boss:Cambio. :data/voice/newgame1/fa4.wav
+boss:...Kent, estoy vestido y con botas.:data/voice/newgame1/fa1.wav
+boss:Abran la escotilla exterior.:data/voice/newgame1/fa2.wav
+boss:Ire a cortar.:data/voice/newgame1/fa3.wav
+boss:Cambio.:data/voice/newgame1/fa4.wav
 }
 
 text

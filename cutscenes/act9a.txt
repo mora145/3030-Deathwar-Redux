@@ -25,13 +25,13 @@ Fore,data/stations\drinkdroids/drinkDroidJug_36x50_2.png,200,160,facing right,vi
 dialogue
 {
 vas:Hola, John. Hola, Kent.
-falcon:Hola Vasquez!
+falcon:¡Hola Vasquez!
 Kent:Hola Vas. 
-Kent:Pense que podrias estar involucrado con estos tipos.
+Kent:Pensé que podrias estar involucrada con estos tipos.
 boss:¡No hay tiempo para reuniones!
 boss:Lo hemos hecho. Hemos transmitido el codigo de desbloqueo de sus escudos.
 boss:¡Son tan indefensos como nosotros!
-falcon:Eso es algo bueno?
+falcon:¿Eso es algo bueno?
 boss:Hemos detectado que su armada viene hacia nosotros.
 boss:Probablemente para destruirnos antes de que liberemos el codigo. Pero es demasiado tarde.
 vas:Un ataque rapido ahora les cogera desprevenidos. 
@@ -40,13 +40,13 @@ helper:Destruye la nave nodriza a toda costa.
 helper:Todas las ordenes vienen de esa nave.
 ktafly:Nuestro informante borracho tiene razon, Sr. Falcon.
 ktafly:Si destruimos la nave nodriza...
-ktafly:...No mas consejos, no mas mundos destruyendose con nanotecnologia.
-falcon:Cuales son nuestras posibilidades entonces, Sr. Robot?
-boss:Calculo que tenemos un 70% de probabilidad... de fracaso.
+ktafly:...No mas Consejo, no mas mundos destruyendose con nanotecnologia.
+falcon:¿Cuales son nuestras posibilidades entonces, Sr. Robot?
+boss:Calculo que tenemos un 70% de probabilidad... De fracaso.
 Kent:Error..
-boss:Lanzamos inmediatamente. Estoy abordando mi nave ahora mismo.
-boss:Se separaran en cualquier momento.
-boss:Todavia estas listo para eso?
+boss:Lanzaremos inmediatamente. Estoy abordando mi nave ahora mismo.
+boss:Activaran sus divisores en cualquier momento.
+boss:¿Todavia estas listo para eso?
 vas:Si necesitas un ingeniero, puedo saltar contigo.
 Kent:¡Genial! Como en los viejos tiempos.
 falcon:Claro, hagamoslo.

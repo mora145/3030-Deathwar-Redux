@@ -13,23 +13,23 @@ goon,data/stations/special characters/suitPaper2_50x108_4.png,140,151,facing rig
 dialogue
 {
 goon:Este periodico es una mierda.
-boss:Por que lo compraste entonces?
+boss:¿Por qué lo compraste entonces?
 boss:Estoy rodeado de idiotas.
-helper:Disculpe senor.
+helper:Disculpe señor.
 boss:Pasa el tiempo con algo no tan malo.
 goon:Nah, me mantiene informado.
 boss:Mal informado.
 goon:Es lo que es.
 helper:Capitan...
 helper:Un rescatador todavia esta por aqui.
-boss:Aaaar Malditos espaciales. Saqueando mis abandonados.
+boss:Aaaar malditos recuperadores. Saqueando mis abandonados.
 boss:Estos tipos me estan rompiendo las pelotas.
 helper:Su nombre es Falcon... John Falcon.
 goon:Le advertimos, pero no estamos seguros de que este cazando al Largo.
 boss:No nos arriesguemos. Llevatelo a pasear.
 boss:No todo se trata del Largo, se trata de mi reputacion.
 boss:Hazlo, no estas ocupado.
-goon:Yo? Por que yo?
+goon:¿Yo? ¿Por qué yo?
 boss:Dijiste: "Es lo que es".
 boss:Odio esa frase.
 boss:No tiene sentido.

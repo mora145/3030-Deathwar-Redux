@@ -25,21 +25,21 @@ stationary stars
 
 dialogue
 {
-Rich:Ok, chicos... todo despejado.
+Rich:Ok, chicos... Todo despejado.
 ktafly:Gracias, Rich. 
-ktafly:Falcon es un gran problema. El consejo no esperara mucho mas. 
+ktafly:Falcon es un gran problema. El Consejo no esperara mucho más. 
 ktafly:Tenemos que ponerlo a salvo.
 cjisri:Bien hecho. Mis planes estan completos. 
 cjisri:La base Walker esta activa y estamos movilizando nuestras naves.
 ktafly:Buen trabajo.
-cjisri:Contactare a Falcon y hare todo lo posible para mantenerlo a salvo.
-ktafly:Alguna novedad sobre el codigo del escudo?
+cjisri:Contactare a Falcon y haré todo lo posible para mantenerlo a salvo.
+ktafly:¿Alguna novedad sobre el codigo del escudo?
 cjisri:Todavia se nos escapa, pero lo encontraremos pronto.
-ktafly:Espero que el consejo haya sido negligente con la seguridad de su red.
+ktafly:Espero que el Consejo haya sido negligente con la seguridad de su red.
 cjisri:Apuesto a que si. Son burocratas.
 ktafly:Yo no apuesto.
-cjisri:Cielos... relajate, hombre volador... 
-cjisri:...Es todo salsa.
+cjisri:Cielos... Relajate, hombre volador... 
+cjisri:...Es todo por dinero.
 }
 
 

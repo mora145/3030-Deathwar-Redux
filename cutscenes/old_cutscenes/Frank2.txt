@@ -19,25 +19,25 @@ dialogue
 {
 
 frank:Oh... Mierda. 
-frank:Hola chicos!
+frank:¡Hola chicos!
 LingLiu:Frank, estas metido en esto.
 LingLiu:Mi tripulacion insistio en que vinieran.
 LingLiu:Vendimos nuestra nave..
-LingLiu:.. Ahora la que te compramos acaba de ser confiscada por la policia.
+LingLiu:...Ahora la que te compramos acaba de ser confiscada por la policia.
 guy2:Si, hombre. Sera mejor que empieces a hablar.
 LingLiu:Ellos amaban esa nave.
 frank:Yo...
-LingLiu:Tarde semanas en convencerlos de que la vendieran.
+LingLiu:Tardé semanas en convencerlos de que la vendieran.
 guy2:Vender articulos robados es algo serio.
 guy2:Y vendernoslas es extra serio.
 guy3:Larry esta furioso.
 frank:Ok pero....
 guy3:Larry y yo trabajamos durante meses en ese viaje.
-guy4:..... ...... .. ......
+guy4:..... ...... ... ...
 guy2:Calmate, Larry.
-frank:Ling, puedo llamarte Ling?
+frank:Ling, ¿puedo llamarte Ling?
 LingLiu:Puedes llamarme Capitan Liu.
-zig:Mas Te, Capitan?
+zig:¿Mas té, Capitan?
 frank:Capitan Liu, no puedo disculparme lo suficiente por esta situacion.
 frank:Tuve una mala entrega de naves.
 guy2:No es nuestro problema.
@@ -46,9 +46,9 @@ guy4: ... ...... ..
 guy4: ...... ...
 guy3:Larry se esta cabreando, Frank.
 frank:Creanme chicos, voy a resolver esto.
-LingLiu:Como Frank?
-frank:Bueno, primero, tengo que hacer un trabajo para un Slug....
-frank:...o literalmente va a matarme.
+LingLiu:¿Como Frank?
+frank:Bueno, primero, tengo que hacer un trabajo para un Slug...
+frank:... o literalmente va a matarme.
 frank:Entonces se me ocurrira algo para ustedes.
 LingLiu:Bien Frank, tienes una orbita para arreglar las cosas.
 frank:Gracias Ling.

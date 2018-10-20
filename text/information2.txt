@@ -1,8 +1,8 @@
-Information gathered on cleaner scout ships:
+Información recopilada de naves exploradoras Limpiadoras:
 
-* shield are impenetrable.
-* They have an incredible split speed.
-* They do not show up on the hud.
-* As they do not appear on the hud, missiles cannot be locked.
-* run!
-* Don't look back.
+* El escudo es impenetrable.
+* Tienen una velocidad de división increíble.
+* No aparecen en el Hud.
+* Como no aparecen en el Hud, los misiles no pueden ser bloqueados.
+* ¡Corre!
+* No mires atrás.

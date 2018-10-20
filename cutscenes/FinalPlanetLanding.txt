@@ -25,12 +25,12 @@ dialogue
 {
 Falconsmall:Los escaneres muestran que la ultima nave enemiga esta en el planeta.
 Kentsmall:Cierto. Es hora de un ataque sorpresa.
-Falconsmall:Volvere a entrar en la atmosfera y bajare en paracaidas.
-vassmall:Aterrizare nuestra nave frente a la de ellos despues de que aterrice la capsula.
-Kentsmall:Yo cerrare el ascensor y vigilare la nave.
+Falconsmall:Volveré a entrar en la atmosfera y bajaré en paracaidas.
+vassmall:Aterrizaré nuestra nave frente a la de ellos despues de que aterrice la capsula.
+Kentsmall:Yo cerraré el ascensor y vigilare la nave.
 Falconsmall:Bien. Nos vemos en el planeta, chicos.
 vassmall:Buena Suerte.
-Kentsmall:Buena suerte, jefe.
+Kentsmall:Buena suerte jefe.
 }
 
 text

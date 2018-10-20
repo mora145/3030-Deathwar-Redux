@@ -26,13 +26,13 @@ goon:Hola comerciante.
 falcon:Disculpe, me esta bloqueando el paso.
 helper:Estamos aqui para darte una advertencia.
 helper:No te metas en el negocio de los rescates amigo...
-helper:Cual es su nombre?
+helper:¿Cual era su nombre?
 goon:Uhh... Lo olvide.
 falcon:Me llamo Falcon...
 falcon:John Falcon.
-helper:Falcon eh?
+helper:Falcon, ¿eh?
 falcon:Es el nombre que uso hoy dia.
-helper:Ok senor Falcon, prestame atencion.
+helper:Ok señor Falcon, prestame atencion.
 helper:Aqui en Andinti el trabajo de rescate esta prohibido.
 falcon:¿Oh, en serio?
 falcon:¿Por quien?
@@ -40,7 +40,7 @@ goon:Por nosotros. Trabajamos para un senor pirata.
 falcon:¿Asi que asi son las cosas por aqui?
 helper:Si. ¡Has sido advertido!
 goon:Es lo que es.
-falcon:Gracias por la advertencia, pero hare lo que me plazca.
+falcon:Gracias por la advertencia, pero haré lo que me plazca.
 falcon:De todos modos, ya no hago trabajo de salvamento.
 falcon:Es muy peligroso.
 goon:¡Eso es cierto!

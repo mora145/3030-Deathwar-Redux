@@ -13,20 +13,20 @@ falcon,data/stations/player/falcon4TalkWithPackage_50x115_7.png,270,140,facing l
 dialogue
 {
 
-helper:Falcon!
+helper:¡Falcon!
 helper:¡TU TWAT!
-falcon:Eh? Cual es tu problema ahora?
-helper:Ya sabes que, 
-helper:Donde esta mi amigo de traje espacial J-Bo?
+falcon:¿Eh? ¿Cual es tu problema ahora?
+helper:Ya sabes que...
+helper:¿Donde esta mi amigo de traje espacial, J-Bo?
 falcon:No tengo ni idea.
-falcon:Donde lo perdiste?
+falcon:¿Donde lo perdiste?
 helper:Callate.
 helper:Ok Sr. Falcon. Atiende mi cara.
 helper:Te queremos fuera de Andinti.
 falcon:Es un sistema libre.
 helper:Ya veras.
 falcon:No, ya lo veras.
-helper:Que?  
+helper:¿Que?  
 helper:Tienes tanta suerte de que no pueda llevar armas dentro.
 helper:Nos vemos.
 falcon:Cuando quieras, amigo.

@@ -17,15 +17,15 @@ Shuttleforefloat,data/stations\drinkdroids/floater3_36x50_2.png,336,128,facing l
 dialogue
 {
 helper2:Deberiamos acabar con estas ultimas especies y empezar a terraformar.
-helper2:Los nanobots han funcionado perfectamente hasta ahora. Por que el retraso? 
-bosscape:Te dire por que.
-bosscape:Porque ahora algunos de nosotros estamos ayudando a esta escoria.
-helper:Nadie cree seriamente las historias, verdad?
+helper2:Los nanobots han funcionado perfectamente hasta ahora. ¿Por qué el retraso? 
+bosscape:Te dire porque.
+bosscape:Porque ahora algunos de nosotros estan ayudando a esta escoria.
+helper:¿Nadie cree seriamente las historias, verdad?
 bosscape:Si algo coincide con un detalle de sus ambiguas leyendas...
 bosscape:...quieren detener el plan.
-helper2:Y que detalle es esta vez?
+helper2:¿Y que detalle es esta vez?
 bosscape:"¡Entonces aparecio el pajaro y causo muchos aullidos!"
-helper2:Esa otra vez no. Quien fue la ultima vez?
+helper2:Esa otra vez no. ¿Quien fue la ultima vez?
 helper:¡Ah, si, me acuerdo de eso! Jeff Eagle no lo era.
 bosscape:Es bastante absurdo.
 helper:Me gusta.
@@ -34,12 +34,12 @@ bosscape:Ustedes dos, y algunos de los ancianos, tienen el cerebro afectado.
 bosscape:Esto es lo unico que nos impide limpiar el espacio.
 bosscape:Estos seres son asquerosos.  
 bosscape:Estan haciendo mi vida como un orinal lleno de esperma.
-helper:Ewwww. Senor, por favor.
-helper2:Asi que tenemos que esperar?
-bosscape:Quiero lanzar una nueva ola de nanos ahora mismo!
+helper:Ewwww. Señor, por favor.
+helper2:¿Asi que tenemos que esperar?
+bosscape:¡Quiero lanzar una nueva ola de nanos ahora mismo!
 bosscape:Pero el consejo esta reteniendo el acceso.
 bosscape:Tenemos que eliminar su miedo a esta leyenda.
-helper2:Entonces que debemos hacer?
+helper2:¿Entonces que debemos hacer?
 bosscape:Busca a otro tonto con nombre de pajaro.
 }
 

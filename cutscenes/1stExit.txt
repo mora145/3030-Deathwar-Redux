@@ -35,7 +35,7 @@ out
 dialogue
 {
 Falconsmall:Miralo. ¡Que pedazo de chatarra!
-Kentsmall:Esta bien... pero hare lo mio por un tiempo.
+Kentsmall:Esta bien... pero haré lo mio por un tiempo.
 Kentsmall:Quiero ir a interrogar al oficial Grah sobre este asunto.
 Falconsmall:Ok seguro. Nos vemos Kent.
 Kentsmall:Buena suerte jefe.

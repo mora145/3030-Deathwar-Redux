@@ -15,37 +15,37 @@ dialogue
 
 frank:Matti, te he estado buscando por todas partes.
 frank:Tengo serios problemas.
-matti:El negocio mecanico no te trata bien, eh?
-frank:Me independice el ano pasado...
+matti:El negocio mecanico no te trata bien, ¿eh?
+frank:Me independice el año pasado...
 frank:...empece a vender naves.
 matti:No recuerdo eso.
-matti:Estas seguro de eso?
+matti:¿Estas seguro de eso?
 frank:No hay tiempo para eso..
-matti:Estas seguro?
+matti:¿Estas seguro?
 frank:Deja de fastidiar, tengo serios problemas.
 matti:Cielos, hablas en serio.
-bip:Puedo ofrecerle un trago, Sr. Zoed?
+bip:¿Puedo ofrecerle un trago, Sr. Zoed?
 frank:No, gracias.
 bip:No hay problema.
-matti:Que es esto?
+matti:¿Que es esto?
 frank:Le compre unas diez naves a un tipo que..
-matti:Resulto ser un criminal?
+matti:¿Resulto ser un criminal?
 frank:Sip.
 frank:Ahora tengo las pelotas hasta el fondo.
 frank:Vendi cinco antes de descubrirlo.
 frank:Use el dinero para pagar mis deudas.
 frank:Asi que no puedo reembolsarle a nadie.
 bip:Hehehehe.
-matti:Oh hombre!
+matti:¡Oh hombre!
 frank:Se pone peor.
-frank:Uno de ellos se lo vendi a Gebbo.
-matti:¡Mierda hermano! No es Gebbo, la babosa?
-matti:¡A-Quan va a aplastar tus huesos, hermano!
+frank:Una de ellas se la vendi a Gebbo.
+matti:¡Mierda hermano! ¿No es Gebbo, la babosa?
+matti:¡A-Quan va a aplastar tus huesos hermano!
 bip:Hehehehe.
 bip:Hehehe.
 bip:Lo siento.
 matti:Oh espera..
-matti:Quiere que vuelvas a la jaula para el, verdad?
+matti:Quiere que vuelvas a la jaula por él, ¿verdad?
 frank:Y no estoy en forma para eso.
 matti:No estas en forma para eso.
 frank:Necesito uno de tus planes Matti, hermano.

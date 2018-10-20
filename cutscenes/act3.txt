@@ -17,32 +17,32 @@ split right
 
 dialogue
 {
-helper2:Senor, tengo un informe de una de mis fuentes....
-helper2:...que la mosca k'ta ha estado recibiendo ayuda de un comerciante.
-bossOnbike:Su nombre?
-helper2:john falcon.
-bossOnbike:Que?
+helper2:Señor, tengo un informe de una de mis fuentes....
+helper2:...que la mosca K'ta ha estado recibiendo ayuda de un comerciante.
+bossOnbike:¿Su nombre?
+helper2:John Falcon.
+bossOnbike:¿Que?
 helper2:Yo mismo no lo creia.
-helper:Un Falcon es un pajaro, verdad?
+helper:Un Falcon (Halcón) es un pajaro, ¿verdad?
 bossOnbike:No veremos el final de esta profecia. 
 bossOnbike:Deben haber oido hablar de este tipo.
-helper:Porque un Falcon es un pajaro, verdad?
+helper:Porque un Falcon es un pajaro, ¿verdad?
 helper2:Los ancianos del consejo aun aman las leyendas.
 bossOnbike:Si, lo hacen.
-helper2:es la unica razon por la que no continuan con los planes de ataque de los limpiadores.
+helper2:Es la unica razon por la que no continuan con los planes de ataque de los limpiadores.
 helper:Voy a asumir que un Falcon es un pajaro.
-bossOnbike:entonces quizas esto nos ofrezca una oportunidad.
-helper2:como es eso?
-bossOnbike:si el consejo cree que este John Falcon es un legendario... 
-bossOnbike:...entonces estaran encantados de saber de su muerte.
+bossOnbike:Entonces quizas esto nos ofrezca una oportunidad.
+helper2:¿Como es eso?
+bossOnbike:Si el consejo cree que este John Falcon es un legendario... 
+bossOnbike:...Entonces estaran encantados de saber de su muerte.
 helper:Como el pobre Jeff Eagle.
 bossOnbike:Si, funciono la ultima vez.
-helper2:pero es solo un humano, por que crees que es el que se cuenta en la leyenda?
-bossOnbike:Basta de preguntas incesantes y sangrientas.
+helper2:Pero es solo un humano, ¿por qué crees que es el que se cuenta en la leyenda?
+bossOnbike:Basta de preguntas incesantes y estupidas.
 bossOnbike:¡Siempre preguntas!
-helper2:Tienes un plan?
+helper2:¿Tienes un plan?
 bossOnbike:Por supuesto que si. Prepara mi nave.
-helper:Si, senor.
+helper:Si señor.
 }
 
 text

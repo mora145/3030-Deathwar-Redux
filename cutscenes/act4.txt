@@ -22,19 +22,19 @@ stationary stars
 
 dialogue
 {
-ktafly:Has visto las noticias?
-cjisri:si. Como la ultima persona en dejar Daphice...
-cjisri:...la cara de Falcon esta en todas las TVs de los bares.
-ktafly:el esta siendo erigido como la profecia.
+ktafly:¿Has visto las noticias?
+cjisri:Si. Como fue la ultima persona en dejar Daphice...
+cjisri:...La cara de Falcon esta en todas las TVs de los bares.
+ktafly:Él esta siendo erigido como la profecia.
 cjisri:¡Tiene un gran sombrero!
 ktafly:Me has perdido.
 cjisri:No importa.
 vas:No me uni a ti para estar en el lado perdedor.
 vas:Vamos a actuar.
-vas:Una nueva ola de nanos mortales podria aparecer en cualquier momento y se acabo el juego.
+vas:Una nueva ola de mortales nanos podria aparecer en cualquier momento y se acabo el juego.
 ktafly:Si. Tendremos que intervenir pronto.
 ktafly:Contacta con Falcon tan pronto como puedas.
-cjisri:Me pondre en contacto con el cuando sea el momento adecuado.
+cjisri:Me pondre en contacto con él cuando sea el momento adecuado.
 }
 
 text

@@ -38,7 +38,7 @@ goon:Yo?
 goon:Naaah.
 helper:Oh chico.
 boss:Sosten mi casco por un segundo.
-helper:Si, senor.
+helper:Si senor.
 
 }
 

@@ -24,10 +24,10 @@ pboss:Lo se. No es una coincidencia.:data/voice/act1PolBOSS/p3.wav
 pboss:Hacer que incautemos la mitad de las naves de salvamento independientes...:data/voice/act1PolBOSS/p4.wav
 pboss:...justo cuando el mayor premio esta en juego.:data/voice/act1PolBOSS/p5.wav
 pboss:Es un movimiento inteligente.:data/voice/act1PolBOSS/p6.wav
-pofficer:Alguna idea de quien lo planeo?:data/voice/act1PolBOSS/c6.wav
+pofficer:¿Alguna idea de quien lo planeo?:data/voice/act1PolBOSS/c6.wav
 pboss:Seguro que si.:data/voice/act1PolBOSS/p7.wav
-pboss:Corre la voz. Tendremos que atrapar estas naves robadas.:data/voice/act1PolBOSS/p8.wav
-pboss:Pero preparate para algunas tripulaciones enojadas.:data/voice/act1PolBOSS/p9.wav
+pboss:Corre la voz. Tendremos que detener estas naves robadas.:data/voice/act1PolBOSS/p8.wav
+pboss:Pero preparate para hacer frente a algunas tripulaciones enojadas.:data/voice/act1PolBOSS/p9.wav
 pboss:Espere incidentes y "accidentes" hasta que esa maldita nave sea encontrada.:data/voice/act1PolBOSS/p10.wav
 
 }

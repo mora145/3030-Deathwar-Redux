@@ -22,7 +22,7 @@ dialogue
 {
 guy3:Es realmente triste.
 cop:Vamos Frank...
-frank:No!
+frank:¡No!
 guy3:¡Disparale!
 cop:Que todo el mundo se calme.
 cop:Frank, vuelve a subir.
@@ -37,10 +37,10 @@ frank:Estoy justo aqui.
 cop:Solo necesitamos interrogarte.
 frank:Estoy esperando consejo legal.
 cop:Ok, lo que sea. Nos vamos a ir por ahora.
-cop:Ok Frank?
+cop:¿Ok Frank?
 cop2:Mira, has echado a patadas el cable de esa consola.
 cop2:Vuelve a conectar la consola.
-cop2:O anadiremos un cargo de dano criminal.
+cop2:O añadiremos un cargo de daño criminal.
 frank:Ese no fui yo.
 frank:Es un fallo del sistema.
 frank:No es un problema de conexion de datos.

@@ -1,5 +1,5 @@
-¿Alguien sabe lo que es un ECM? Si usted es un comerciante entonces las posibilidades son, no. Si te dedicas al combate espacial, es imprescindible. ECM significa Contramedidas Electrónicas, que utilizan un Pulso Electro Magnético. En resumen, este pulso causará que los circuitos de guía de un misil se fritan dentro de un cierto rango. 
+¿Alguien sabe lo que es un ECM? Si usted es un comerciante entonces la respuesta posiblemente es, no. Si te dedicas al combate espacial, es imprescindible. ECM significa Contra Medidas Electrónicas (Por sus siglas en ingles), que utilizan un pulso electro magnético. En resumen, este pulso causará que los circuitos de guía de un misil se friten dentro de un cierto rango. 
 
-Están disponibles en varias clases y son los favoritos de los cazadores de recompensas. Cuando un misil se encuentra dentro del alcance máximo asignado del ECM que ha cargado, pulse -shift- para activarlo. Si tienes suerte, te saldrás del camino del misil cuando explote. Si no tienes suerte, probablemente tendrás una brecha en el casco. Yo preferiría el primero.
+Están disponibles en varias clases y son los favoritos de los cazadores de recompensas. Cuando un misil se encuentra dentro del alcance máximo asignado del ECM que ha cargado, pulse -shift- (Mayusculas) para activarlo. Si tienes suerte, te saldrás del camino del misil cuando explote. Si no tienes suerte, probablemente tendrás una fisura en el casco. Yo preferiría el primero.
 
 Puede conseguirlos en su estación local.

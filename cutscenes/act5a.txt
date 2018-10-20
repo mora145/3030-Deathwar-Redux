@@ -21,19 +21,19 @@ dialogue
 ktafly:Parece que el halcon esta progresando bien.
 ktafly:Puede que haya empezado a creer esta salvaje leyenda.
 cjisri:Es ese sombrero. Es uno bueno.
-cjisri:Por que no podemos simplemente decirle la ubicacion de la base?
+cjisri:¿Por qué no podemos simplemente decirle la ubicacion de la base?
 ktafly:Esa regla sobre la lentitud en la divulgacion nos ha salvado muchas veces.
 Rich:Como cuando enviaron a esos droides falsos.
-cjisri:Oh si. con esos pestilentes endoesqueletos organicos.
+cjisri:Oh si. Con esos pestilentes endoesqueletos organicos.
 ktafly:No me lo recuerdes.
 ktafly:Ese episodio me costo mi mejor alfombra.
-cjisri:Lo siento por eso... el lanzallamas no tenia control de energia.
+cjisri:Lo siento por eso... El lanzallamas no tenia control de potencia.
 ktafly:Hmmm.
 cjisri:De todos modos...
 cjisri:Si encuentra la base, entonces eso prueba que es un buen activo.
-cjisri:Un activo que llevara a la destruccion del consejo.
+cjisri:Un activo que llevará a la destruccion del Consejo.
 ktafly:Tal vez si, tal vez no. 
-cjisri:Tal vez si, hombre volador
+cjisri:Tal vez si, hombre volador.
 }
 
 animation

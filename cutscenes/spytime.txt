@@ -17,20 +17,20 @@ dialogue
 {
 helper:Un trato es un trato, Gebbo.
 badcop:Si, danos tus nanobots.
-seller:Por esto te dare Mambas Azules. Las mejores!
-badcop:Noice! Las Mambas Azules se comen las estaciones en segundos.
-badcop:El jefe estara encantado.
+seller:Por eso te dare Mambas Azules. ¡Las mejores!
+badcop:¡Noice! Las Mambas Azules se comen las estaciones en segundos.
+badcop:El jefe estará encantado.
 seller:¡No puedo creer que las hayas encontrado para mi!
 badcop:Toda nuestra flota fue enviada a buscarlo.
 helper:No escatimamos en gastos por usted, Sr. Gebbo.
-seller:Los restos momificados de la ultima reina de Bop!
+seller:¡Los restos momificados de la ultima reina de Bop!
 helper:Su sospecha era correcta, Sr. Gebbo.
 seller:¡Escondida en la nebulosa Badlands despues de la batalla de Jowe!
 seller:¡Lo sabia!
 seller:Ven conmigo y te dare un nanobot.
 seller:Puede replicarse a si mismo tantas veces como planee usar.
 seller:Comera proteinas y polimeros especificos y se propagara como el viento.
-helper:Las especies inferiores estan a punto de sufrir una rapida disminucion de su poblacion
+helper:Las especies inferiores estan a punto de sufrir una rapida disminucion de su poblacion.
 helper:¡Muhaha!
 badcop:Vamonos de una vez.
 badcop:Huele a sucio humano en estas cuevas.

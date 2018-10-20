@@ -21,8 +21,8 @@ in
 
 dialogue
 {
-helper:Queria verme, senor?:data/voice/act1esta/a.wav
-goon:Que hay en la agenda, Jefe?:data/voice/act1esta/c.wav
+helper:¿Queria verme señor?:data/voice/act1esta/a.wav
+goon:¿Que hay en la agenda Jefe?:data/voice/act1esta/c.wav
 boss:¡El Largo, por supuesto!:data/voice/act1esta/d.wav
 }
 

@@ -11,17 +11,17 @@ helper2,data/stations/standing_at_bar/squidman1_50x130_4.png,104,131,facing righ
 
 dialogue
 {
-helper2:Senor, los informes muestran que nuestro enemigo ha estado buscando campos de asteroides.
-bosscape:Y?
-helper2:Es probable que para los componentes de nuestra nave.
-bosscape:Como por ejemplo?
-helper2:Si recuperan uno de nuestros modulos de codigo de escudo..
-bosscape:Decodifiquen nuestros codigos de escudos y los interrumpan.
-bosscape:Inconcebible!
-bosscape:Si tienen los codigos, tendrian una oportunidad..
+helper2:Señor, los informes muestran que nuestro enemigo ha estado buscando campos de asteroides.
+bosscape:¿Y?
+helper2:Es probable que en busca de los componentes de nuestra nave.
+bosscape:¿Por ejemplo?
+helper2:Si recuperan uno de nuestros modulos de codigo de escudo...
+bosscape:...Decodificarán nuestros codigos de escudos y los interrumpiran.
+bosscape:¡Inconcebible!
+bosscape:Si tienen los codigos, tendrian una oportunidad...
 helper2:Estan en camino hacia nuestra flota ahora mismo.
 bosscape:¡Ja, incluso sin nuestro escudo, los aplastaremos!
-bosscape:¡Preparados para la carrera!
+bosscape:¡Preparense para la guerra!
 }
 
 animation

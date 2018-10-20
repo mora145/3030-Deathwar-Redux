@@ -21,7 +21,7 @@ out
 
 dialogue
 {
-bosschair:Hasta que encontremos al Largo....:data/voice/act1/act1-a.wav
+bosschair:Hasta que encontremos el Largo....:data/voice/act1/act1-a.wav
 bosschair:...Avisa a todos los recuperadores.:data/voice/act1/act1-c.wav
 bosschair:Mata a los que no entiendan el mensaje.
 helper:Si señor!:data/voice/act1/act1-d.wav
