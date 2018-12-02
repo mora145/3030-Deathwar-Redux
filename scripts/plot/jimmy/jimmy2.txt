@@ -156,7 +156,7 @@ option-off 9
 return
 
 @10 // ¿Frank está en problemas ahora?
-ego:¿Frank está en problemas ahora?
+ego:¿Ahora Frank está en problemas?
 other:Lo está, pero es astuto.
 other:Le estaba enviando mensajes de texto sobre esas naves robadas.
 other: Dice que Gebbo 'la bala' está en su contra.
@@ -171,38 +171,38 @@ option-on 30
 option-on 40
 return
 
-@11 // Tell me more about Gebbo.
-ego:Tell me more about Gebbo.
-other:Gebbo?
-other:He's into all sorts of businesses.
-other:Gambling, Trading Antiques, Selling ships...
-other:He has a reputation for not taking any shit.
-ego:I see.
-other:And he is always with A-Quan.
-other:He's a bad ass. Long range.
-ego:Long range?
-other:Yeah, on account of his long legs.
-other:He can kick your face off.
+@11 // Cuéntame más sobre Gebbo.
+ego:Cuéntame más sobre Gebbo.
+other:¿Gebbo?
+other:Está en todo tipo de negocios.
+other:Juegos de azar, Comercio de antigüedades, Venta de naves...
+other:Tiene la reputación de no aguantar ninguna mierda.
+ego:Ya veo.
+other:Y siempre está con A-Quan.
+other:Es un tipo malo. De gran alcance.
+ego:¿Gran alcance?
+other:Sí, a causa de sus largas piernas.
+other:Puede patearte la cara.
 option-off 11
 return
 
 
-@30 // I might have to investigate these Gangs.
-ego:I might have to investigate these Gangs.
-other:Oh?
-ego:I think I had a hit on me.
-ego:And so there may be another.
-other:Sounds very serious.
-other:What's your plan?
-ego:Kill 'em all.
-other:Well, that's one way.
-other:I guess if you think you've had an attempt on your life...
-other:It's not an injudicious thing to consider.
-other:You're an ambitious individual Mr. Falcon.
-other:You surprise me.
-other:The two main gangs which operate around here are...
-other:The Jeet Gang and the Andinti Crew.
-other:i don't know much about either I'm afraid.
+@30 // Tendré que investigar a esas pandillas.
+ego:Tendré que investigar a esas pandillas.
+other:¿Oh?
+ego:Creo que tenía una pista conmigo.
+ego:Y así puede haber otra.
+other:Suena muy serio.
+other:¿Cuál es tu plan?
+ego:Matarlos a todos.
+other:Bueno, esa es una forma.
+other:Supongo que si usted piensa que ha sufrido un atentado contra su vida....
+other:No es una cosa imprudente a considerar.
+other:Usted es un individuo ambicioso, Sr. Falcon.
+other:Me sorprendes.
+other:Las dos pandillas principales que operan por aquí son...
+other: La banda Jeet Gang y la banda Andinti.
+other:No sé mucho sobre ninguna de las dos me temo.
 
 option-off 30
 option-on 31
@@ -212,85 +212,85 @@ return
 
 @31 // Jeet Gang?
 ego:Jeet Gang?
-other:They have a base on a ship.
-other:They focus on hit and runs on traders.
-other:I hear the boss is called Morko.
-other:But I don't know who or what it is.
+other:Tienen una base en una nave.
+other:Se centran en los ataques y ejecuciones de comerciantes.
+other:He oído que el jefe se llama Morko.
+other:Pero no sé quién o qué es.
 option-off 31
 return
 
-@32 // Andinti Crew?
-ego:Andinti Crew?
-other:They are more like a small federation.
-other:They are more into fraud and crime on stations.
-other:They pool some of their takings and can use it to pay for a hit.
-other:Jeet Gang would do their own.
+@32 // banda Andinti?
+ego:¿Banda Andinti?
+other:Son más bien una pequeña federación.
+other:Se dedican más al fraude y al crimen en las estaciones.
+other:Agrupan algunos de sus ingresos y pueden utilizarlos para pagar por un golpe.
+other:Jeet Gang haría lo suyo.
 option-off 32
 return
 
-@40 // Frank was a cage fighter?
-ego:Frank was a cage fighter?
-other:Oh yeah. He was famous for a while.
-ego:I guess I shouldn't have threatened to punch him.
-other:He's a bit out of shape now...
-other:..but yeah, he could still do some damage.
-other:Clearly, otherwise Gebbo wouldn't want him to fight.
-ego:Do you think we will see him in the ring?
-other:Probably not.
-other:Frank is crafty, he will work a way out of it.
-ego:I hope so.
-ego:Unless he can make my money back doing it.
-other:I think Gebbo would take any profits from that venture.
+@40 // ¿Frank era un luchador de jaulas?
+ego:¿Frank era un luchador de jaulas?
+other:Oh sí. Fue famoso por un tiempo.
+ego:Supongo que no debería haber amenazado con pegarle.
+other:Está un poco fuera de forma ahora....
+other:...pero sí, todavía podría hacer algo de daño.
+other:Claramente, de lo contrario Gebbo no querría que peleara.
+ego:¿Crees que lo veremos en el ring?
+other:Probablemente no.
+other:Frank es astuto, trabajará para salir de ello.
+ego:Eso espero.
+ego:A menos que el pueda recuperar mi dinero haciéndolo.
+other:Creo que Gebbo se beneficiaría de esa oportunidad.
 ego:Hmmm
 option-off 40
 option-on 41
 return
 
-@41 // Why don't we bet on Frank?
-ego:Why don't we bet on Frank?
-other:And get him to go down at a set round?
-ego:Yeah. Then he can get all his money back.
-other:I guess he has considered betting on himself.
-other:It's not a new trope.
-other:But Gebbo would have him killed for sure.
+@41 // ¿Por qué no apostamos por Frank?
+ego:¿Por qué no apostamos por Frank?
+other: ¿Y hacer que baje al plató?
+ego:Si. Entonces podrá recuperar todo su dinero.
+other:Supongo que ha considerado apostar por sí mismo.
+other:No es una nueva historia.
+other:Pero Gebbo seguramente lo mataría.
 option-off 41
 return
 
-@50 // How do I find Pirates for bounty?
-ego:How do I find Pirates for bounty?
-other:Bounty hunting eh?
-other:I used to do it a lot.
-other:Used to love using missiles as a finisher.
-other:It's easy, fly out into space...
-other:..use the HUD to find ships.
-other:The white boxes represent ships...
-other:...the ones with red lines over them are pirates.
-other:Pirates means bounty.
-ego:I like the sound of bounty.
-other:Who doesn't, if you are new to it...
-other:...select their icon and check how dangerous they are first.
-other:And don't be foolish, if your shields fail and hull starts getting damaged...
-other:...just split to the nearest station, dock and repair.
+@50 // ¿Cómo encuentro a los Piratas para la recompensa?
+ego:¿Cómo encuentro a los Piratas para la recompensa?
+other:Caza de recompensas, ¿eh?
+other:Solía hacerlo mucho.
+other:Me encantaba usar misiles para terminar.
+other:Es fácil, vuela al espacio...
+other:...usa el HUD para encontrar naves.
+other:Las cajas blancas representan a las naves...
+other:...las que tienen líneas rojas sobre ellas son piratas.
+other:Piratas significa recompensa.
+ego:Me gusta como suena lo de recompensa.
+other:A quién no, si eres nuevo en esto....
+other:...selecciona primero su icono y comprueba lo peligrosos que son.
+other:Y no seas tonto, si tus escudos fallan y el casco empieza a dañarse....
+other:...sólo salta a la estación más cercana, atraca y repara.
 option-off 50
 return
 
 
-@80 // I think I might sell my organs,
-ego:I think I might sell my organs,
+@80 // Creo que podría vender mis órganos,
+ego:Creo que podría vender mis órganos,
 other:Err, ok. 
-other:And what, become a cyborg?
-ego:Sure, transhuman.
-ego:I might need to be super strong.
-other:Oh, I see. 
-other:I would like a robo-eye.
-other:Too many credits for me.
+other:¿Y qué, convertirse en un cyborg?
+ego:Claro, transhumano.
+ego:Puede que necesite ser súper fuerte.
+other:Oh, ya veo.
+other:Me gustaría un ojo robótico.
+other:Demasiados créditos para mí.
 option-off 80
 return
 
 
-@99 // Bye and thanks again.
-ego:Bye and thanks again.
-other:That's ok.
+@99 // Adiós y gracias de nuevo.
+ego:Adiós y gracias de nuevo.
+other:Está bien.
 stop
 
 

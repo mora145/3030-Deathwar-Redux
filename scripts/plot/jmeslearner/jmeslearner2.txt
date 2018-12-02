@@ -1,36 +1,36 @@
 //begin
-// [x] 1 - "Drink yourself to death why don't you."
-// [x] 2 - "Have one on me."
+// [x] 1 - "Bebe hasta morir, ¿por qué no lo haces?"
+// [x] 2 - "Toma uno conmigo."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hello.
+other:Hola.
 ego:J'mes learner?
-other:The very only.
-other:Are you john falcon?
-ego:Yes, yes I am.
-other:Good because you need to know this:
-other:'in freedom, truth'
-ego:What?
-other:See that contact I added to your list?
-other:It's our leader, 433-2c, he's on board walker base.
-other:Now all you have to do is find it.
-other:Now leave me alone, I'm drinking.
+other:El único.
+other:¿Eres John Falcon?
+ego:Sí, sí lo soy.
+other:Bien porque necesitas saber esto:
+other:'en libertad, la verdad'
+ego:¿Qué?
+other:¿Ves ese contacto que agregué a tu lista?
+other:Es nuestro líder, 433-2c, está a bordo de la base Walker.
+other:Ahora todo lo que tienes que hacer es encontrarlo.
+other:Ahora déjame en paz, estoy bebiendo.
 option-on 1
 option-on 2
 return
 
-@1 // nothing
-ego:Drink yourself to death why don't you.
-other:I heard that.
+@1 // nada
+ego:Bebe hasta morir, ¿por qué no lo haces?
+other:Ya lo he oído.
 stop
 
-@2 // nothing
-ego:Have one on me.
-other:Gee, thanks kid.
-takeMoney,50,DRINK AT THE BAR
+@2 // nada
+ego:Toma uno conmigo.
+other:Vaya, gracias, chico.
+takeMoney,50,BEBER EN EL BAR
 stop
 
 

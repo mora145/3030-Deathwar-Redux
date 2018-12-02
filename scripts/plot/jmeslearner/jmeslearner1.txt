@@ -1,42 +1,42 @@
 //begin
-// [x] 1 - "Apparently I'm the prophecy."
-// [x] 2 - "John Falcon, pleased to meet you. Finally."
-// [ ] 3 - "Cji S'ri says you know the password to walker base."
-// [ ] 4 - "Do you have the password?"
+// [x] 1 - "Aparentemente yo soy la profecía."
+// [x] 2 - "John Falcon, encantado de conocerte. Finalmente."
+// [ ] 3 - "Cji S'ri dice que sabes la contraseña de la base Walker."
+// [ ] 4 - "¿Tienes la contraseña?"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hello, are you j'mes learner?
-other:I am indeed young fellow. Who might you be?
+ego:Hola, ¿eres J'mes learner?
+other:Yo soy en verdad un joven. ¿Quién podría ser usted?
 option-on 1
 option-on 2
 return
 
-@1 // Apparently I'm the prophecy.
-ego:Apparently I'm the prophecy.
-other:Really? Not very modest are you?
-ego:Modesty's my middle name.
-other:Really?
-ego:No, it's J.
-other:J? Does it not stand for something?
-other:Like Jeremiah or something?
-ego:No, it's just J. John J Falcon.
-other:So how can I help you?
+@1 // Aparentemente yo soy la profecía.
+ego:Aparentemente yo soy la profecía.
+other:¿En serio? No eres muy modesto, ¿verdad?
+ego:Modestia es mi segundo nombre.
+other:¿En serio?
+ego:No, es J.
+other:¿? ¿No significa algo?
+other:¿Como Jeremiah o algo así?
+ego: No, es sólo J. John J. Falcon.
+other:¿En qué puedo ayudarte?
 option-off 1
 option-off 2
 option-on 3
 option-on 4
 return
 
-@2 // John Falcon, pleased to meet you. Finally.
-ego:John Falcon, pleased to meet you. Finally.
-other:You've been waiting to see me?
-ego:Did nobody tell you I was coming?
+@2 // John Falcon, encantado de conocerte. Finalmente.
+ego:John Falcon, encantado de conocerte. Finalmente.
+other:¿Has estado esperando para verme?
+ego:¿Nadie te dijo que vendría?
 other:No.
-ego:I've been searching these stations for you.
-other:And now you found me, how can I help?
+ego:He estado buscándote en todas estas estaciones.
+other:Y ahora que me encontraste, ¿cómo puedo ayudarte?
 option-off 1
 option-off 2
 option-on 3
@@ -44,18 +44,18 @@ option-on 4
 return
 
 
-@3 // Cji S'ri says you know the password to walker base.
-ego:Cji S'ri says you know the password to walker base.
-other:That I would, but it seems according to your record you have less than 10 kills.
-other:I can't take anyone seriously who hasn't had at least a little experience.
-other:C'mon, what are you, a baby?
-ego:So that's what you need? 10 kills?
-other:Well, at least. If you don't get out of my face I'll make it 100.
+@3 // Cji S'ri dice que sabes la contraseña de la base Walker.
+ego:Cji S'ri dice que sabes la contraseña de la base Walker.
+other:Eso quisiera, pero parece que según su registro usted tiene menos de 10 muertes.
+other:No puedo tomar en serio a nadie que no haya tenido al menos un poco de experiencia.
+other:Vamos, ¿qué eres, un bebé?
+ego:¿Así que eso es lo que necesitas? ¿10 muertes?
+other:Bueno, al menos. Si no te alejas de mi vista, te daré 100.
 stop
 
-@4 // Do you have the password?
-ego:Do you have the password?
-other:Seems you have less than 10 kills!
-other:My god, you expect me to tell you the password to walker base when you have no flight experience?
-other:Come back when you're out of nappies.
+@4 // ¿Tienes la contraseña?
+ego:¿Tienes la contraseña?
+other:¡Parece que tienes menos de 10 muertes!
+other:Dios mío, ¿esperas que te diga la contraseña de la base Walker cuando no tienes experiencia de vuelo?
+other:Vuelva cuando ya no tengas pañales.
 stop
