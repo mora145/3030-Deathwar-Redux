@@ -1,27 +1,27 @@
 //begin
-// [x] 1 - "But where is walker base?"
-// [x] 2 - "I can't find the bloody thing."
-// [x] 3 - "Alright, let's get this thing done."
-// [ ] 4 - "Ok, thanks."
+// [x] 1 - "¿Pero dónde está la base Walker?"
+// [x] 2 - "No puedo encontrar la maldita cosa."
+// [x] 3 - "Muy bien, hagámoslo"
+// [ ] 4 - "Ok, gracias."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:What does 'in freedom, truth' mean?
-other:You have proven yourself worthy of the password.
-other:Now board walker base and go and talk to 4332c.
+ego:¿Qué significa 'en libertad, verdad'?
+other:Has demostrado que eres digno de la contraseña.
+other:Ahora aborda la base Walker y ve a hablar con el 4332c.
 option-on 1
 option-on 2
 option-on 3
 return
 
 @1
-ego:But where is walker base?
-other:You've got all the clues, haven't you?
-ego:Yes, but what do they mean?
-other:It's not what they mean, it's where they mean.
-other:Think about it.
+ego:¿Pero dónde está la base Walker?
+other:Tienes todas las pistas, ¿no?
+ego:Sí, pero ¿qué significan?
+other:No es lo que significan, es lo que quieren decir.
+other:Piénsalo.
 option-off 1
 option-off 2
 option-off 3
@@ -29,9 +29,9 @@ option-on 4
 return
 
 @2
-ego:I can't find the bloody thing.
-other:Seems to me you're trying to hard to find a riddle in the clues.
-other:Just look at where they are not what they are.
+ego:No puedo encontrar la maldita cosa.
+other:Me parece que estás tratando de encontrar un acertijo en las pistas.
+other:Sólo mira lo que son, no lo que parecen.
 option-off 1
 option-off 2
 option-off 3
@@ -39,11 +39,11 @@ option-on 4
 return
 
 @3 
-ego:Alright, let's get this thing done.
-other:Good. Now leave me to my drink.
-other:Oh god, I love froog.
+ego:De acuerdo, hagámoslo.
+other:Bien. Ahora déjame beber.
+other:Oh dios, me encanta el froog.
 stop
 
 @4 
-ego:Ok, thanks.
+ego:Ok, gracias.
 stop
