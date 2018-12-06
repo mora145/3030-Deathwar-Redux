@@ -1,52 +1,52 @@
 //begin
-// [x] 1 - "What do you think of that beast?"
-// [x] 2 - "Where's Vasquez?"
-// [x] 3 - "Are the engines ready?."
+// [x] 1 - "¿Qué piensas de esa bestia?"
+// [x] 2 - "¿Dónde está Vásquez?"
+// [x] 3 - "¿Están listos los motores?"
 
-// [ ] 99 - "Bye, Kent."
+// [ ] 99 - "Adiós, Kent."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hey again, Kent.
-other:Hey no time to hang around.
-other:I don't feel like being disassembled by tiny robots today.
-other:Blast your way in and end this thing.
+ego:Hola de nuevo, Kent.
+other:No hay tiempo para esperar.
+other:No tengo ganas de ser desarmado por pequeños robots hoy.
+other:Ábrete camino y termina con esto.
 option-on 99
 return
 
-@1 // What do you think of that beast?
-ego:What do you think of that beast?
-other:It seems healthy. It doesn't seem to be native to this planet.
-other:Is that what you mean?
-other:I'm not a beast encyclopedia. 
-other:If it's no threat, ignore it.
-other:Finish up and Let's get outta here.
-other:They could be about to release some nano robot things any second!
+@1 // ¿Qué piensas de esa bestia?
+ego:¿Qué piensas de esa bestia?
+other:Parece saludable. No parece ser nativo de este planeta.
+other:¿Es eso lo que quieres decir?
+other:No soy una enciclopedia de bestias.
+other:Si no es una amenaza, ignóralo.
+other:Termina y salgamos de aquí.
+other:¡Pueden estar a punto de lanzar algunas cosas de nano robot en cualquier momento!
 option-off 1
 return
 
-@2 // Where's Vasquez?
-ego:Where's Vasquez?
-other:She's in the engine room.
-other:There was a small gas leak. 
-other:Nothing unusual.
+@2 // ¿Dónde está Vásquez?
+ego:¿Dónde está Vásquez?
+other:Está en la sala de máquinas.
+other:Hubo una pequeña fuga de gas.
+other:Nada inusual.
 option-off 2
 option-on 99
 return
 
-@3 // Are the engines ready?
-ego:Are the engines ready?
-other:Vasquez says we're good to go.
+@3 // ¿Están listos los motores?
+ego:¿Están listos los motores?
+other:Vasquez dice que estamos listos para irnos.
 option-off 3
 option-on 99
 return
 
-@99 // Bye, Kent.
-ego:Bye, Kent.
-ego:Good luck. I'll stay guarding the ship.
+@99 // Adiós, Kent.
+ego:Adiós, Kent.
+ego:Buena suerte. Yo me quedaré vigilando la nave.
 option-off 99
 stop
 

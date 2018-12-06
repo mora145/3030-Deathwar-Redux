@@ -17,8 +17,8 @@
 
 return
 
-@1 // Kent!
-ego:Kent!
+@1 // ¡Kent!
+ego:¡Kent!
 other:Ahora no.
 ego:Huh?
 option-off 1
@@ -36,8 +36,8 @@ option-on 41
 option-on 42
 return
 
-@3 // ¿Has abierto alguna puerta recientemente?
-ego:¿Has abierto alguna puerta recientemente?
+@3 // ¿Abriste alguna puerta recientemente?
+ego:¿Abriste alguna puerta recientemente?
 other:Ahora no.
 option-off 3
 return

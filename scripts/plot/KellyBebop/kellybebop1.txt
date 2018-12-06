@@ -1,62 +1,62 @@
 //begin
 
-// [ ] 1 - "I can be. What's the problem?"
-// [ ] 11 - "I'll do what I can. No charge."
-// [ ] 12 - "I'll kill em all, for a price."
-// [ ] 2 - "Sorry, Not my line of work these days."
-// [ ] 3 - "What is this place?"
-// [ ] 31 - "I like your suits.
-// [ ] 32 - "Is this a special bar?"
-// [ ] 33 - "Any good jobs in Daphice?"
-// [ ] 34 - "Know anything else about this pirate gang?"
-// [ ] 35 - "Who's the boss?"
-// [ ] 36 - "What do they want exactly?"
-// [x] 5 - "Bye. I best get going."
+// [ ] 1 - "Puedo serlo. ¿Cuál es el problema?"
+// [ ] 11 - "Haré lo que pueda. Sin cargo."
+// [ ] 12 - "Los mataré a todos, por un precio"
+// [ ] 2 - "Lo siento, no es mi línea de trabajo estos días."
+// [ ] 3 - "¿Qué es este lugar?"
+// [ ] 31 - "Me gustan sus trajes."
+// [ ] 32 - "¿Es este un bar especial?"
+// [ ] 33 - "¿Algún buen trabajo en Daphice?"
+// [ ] 34 - "¿Sabes algo más de esta banda de piratas?"
+// [ ] 35 - "¿Quién es el jefe?"
+// [ ] 36 - "¿Qué es lo que quieren exactamente?"
+// [x] 5 - "Adiós. Mejor me voy"
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Excuse me.
-other:Oh hi!
-other:Are you the bounty hunter?
+ego:Disculpe.
+other:¡Oh, hola!
+other:¿Eres el cazarrecompensas?
 option-on 1
 option-on 2
 return
 
 
-@1 // I can be. What's the problem?
-ego:I can be. What's the problem?
-other:We're being harassed by a pirate gang.
-other:Trying to take over the system.
-ego:I see. How many?
-other:Normally they are in a gang of five.
-other:But sometimes two, sometime ten!
-other:We put up a good fight if they come near the station.
-other:But they tend to attack when we are isolated...
-other:..and force us to drop our cargo.
-ego:I get it.
-other:Well?
+@1 // Puedo serlo. ¿Cuál es el problema?
+ego:Puedo serlo. ¿Cuál es el problema?
+other:Estamos siendo acosados por una banda de piratas.
+other:Intentan apoderarse del sistema.
+ego:Ya veo. ¿Cuántos?
+other:Normalmente están en una pandilla de cinco.
+other:¡Pero en ocasiones son dos, en otras diez!
+other:Les damos una buena pelea si se acercan a la estación.
+other:Pero tienden a atacar cuando estamos solos....
+other:...y nos obligan a soltar la carga.
+ego:Lo entiendo.
+other:¿Y bien?
 option-off 1
 option-on 11
 option-on 12
 return
 
-@11 // I'll do what I can. No charge.
-ego:I'll do what I can. No charge.
-ego:Standard council bounties are enough.
-other:Wow, Thanks.
-other:I'll call them over.
-ego:You can call them?
-other:Sure. They keep calling us all.
-other:Threatening us to abandon the system.
-ego:Ok. Call them and say you'll pay them some cargo...
-other:I'll say someone is coming to give tribute.
-other:100 tonnes of silver should attract some.
-other:They'll be outside waiting for sure.
-other:Hope you are as good at combat as you are calm about this.
-attackyououtside,2,Miners Blight
+@11 // Haré lo que pueda. No hay costo.
+ego:Haré lo que pueda. No hay costo.
+ego:Las recompensas estándar del consejo son suficientes.
+other:Wow, Gracias.
+other:Los llamaré.
+ego:¿Puedes llamarlos?
+other:Claro. Nos han estado llamando a todos.
+other:Amenazándonos para que abandonemos el sistema.
+ego:Ok. Llámalos y diles que les pagaremos con algo de carga....
+other:Diré que alguien viene a rendir tributo.
+other:100 toneladas de plata deberían atraer a algunos.
+other:Con toda seguridad estarán afuera esperando.
+other:Espero que seas tan bueno en el combate así como estás tranquilo sobre esto.
+attackyououtside,2,La plaga de los mineros
 option-off 11
 option-off 12
 option-off 2
@@ -67,20 +67,20 @@ option-on 33
 option-on 34
 return
 
-@12 // I'll kill em all, for a price.
-ego:I'll kill em all, for a price.
-other:I can pay 45k. Plus you get the normal bounties the council pays.
-other:I'll call them over if that's ok.
-ego:You can call them?
-other:Sure. They keep calling us all.
-other:Threatening us to abandon the system.
-ego:Ok. Call them and say one of you is coming out with a tribute.
-ego:Say, 200 ton of diamond?
-other:They'll be outside waiting for sure. In numbers.
-other:Hope you are as good at combat as you are calm about this.
-attackyououtside,3,Miners Bane
-other:I have transfered the 45k. That's all we have spare.
-givemoney,45000,Miner Payment for Pirate Cleanup
+@12 // Los mataré a todos, por un precio.
+ego:Los mataré a todos, por un precio.
+other:Puedo pagar 45 mil. Además, obtienes las recompensas normales que paga el consejo.
+other:Los llamaré si no hay problema.
+ego:¿Puedes llamarlos?
+other:Claro. Nos siguen llamando a todos.
+other:Amenazándonos para que abandonemos el sistema.
+ego:Ok. Llámalos y diles que uno de ustedes va a salir con un tributo.
+ego:Digamos, ¿200 toneladas de diamantes?
+other:Seguro que estarán afuera esperando. En números.
+other:Espero que seas tan bueno en el combate como que te sientas tranquilo con esto.
+attackyououtside,3,La perdición de los mineros
+other:He transferido los 45 mil. Es todo lo que nos queda.
+givemoney,45000,Pago de mineros por limpieza de piratas
 option-off 11
 option-off 12
 option-off 2
@@ -91,14 +91,14 @@ option-on 33
 option-on 34
 return
 
-@2 // Sorry, Not my line of work these days.
-ego:Sorry, Not my line of work these days.
-other:Oh, no problem.
-other:We just have some pirate issues.
-ego:I'm just passing through.
-other:Well, the gangs here don't differentiate.
-other:So be ready to split out.
-attackyououtside,1,Miners Burden
+@2 // Lo siento, no es mi línea de trabajo estos días.
+ego:Lo siento, no es mi línea de trabajo estos días.
+other:Oh, no hay problema.
+other:Sólo tenemos algunos problemas con los piratas.
+ego:Sólo estoy de paso.
+other:Bueno, las pandillas de aquí no hacen diferencias.
+other:Así que prepárese para dividirse.
+attackyououtside,1,La carga de los mineros
 option-off 1
 option-off 11
 option-off 12
@@ -110,95 +110,94 @@ option-on 33
 return
 
 
-@3 // What is this place?
-ego:What is this place?
-other:It's great.
-other:We are working together here.
-ego:Like a syndicate?
-other:I guess. 
-other:We all have shares in it.
-other:I personally bought most of the bar.
-other:It's a franchise now.
-other:The Miners Rest.
+@3 // ¿Qué es este lugar?
+ego:¿Qué es este lugar?
+other:Es genial.
+other:Estamos trabajando juntos aquí.
+ego:¿Como un sindicato?
+other:Supongo.
+other:Todos tenemos participación en ella.
+other:Yo personalmente compré la mayor parte del bar.
+other:Ahora es una franquicia.
+other:El Descanso de los Mineros.
 option-off 3
 return
 
-@31 // I like your suits.
-ego:I like your suits.
-other:Yeah, but they get hot.
-other:Nice outfit.
-ego:It's all I got. All my others got compacted.
-ego:It's a long story.
-other:Another time maybe.
+@31 // Me gustan tus trajes.
+ego:Me gustan tus trajes.
+other:Sí, pero son calurosos.
+other:Lindo atuendo.
+ego:Todos los demás fueron compactados.
+ego:Es una larga historia.
+other:En otro momento, tal vez.
 option-off 31
 return
 
-@32 // Is this a special bar?
-ego:Is this a special bar?
-ego:Like, do you only serve Miners?
-ego:Or have special drinks.
-other:Nah, just the usual.
-other:It's just we own the franchise.
-other:And profit share.
-ego:Sounds good.
+@32 // ¿Éste es un bar especial?
+ego:¿Éste es un bar especial?
+ego:¿Sólo sirves a los Mineros?
+ego:O tienen bebidas especiales.
+other:Nah, sólo lo de siempre.
+other:Es sólo que somos dueños de la franquicia.
+other:Y participación en los beneficios.
+ego:Suena bien
 option-off 32
 return
 
-@33 // Any good jobs in Daphice?
-ego:Any good jobs in Daphice?
-ego:Anything interesting?
-other:Well, obviously there's the mining.
-other:Only one station, so... 
-other:...there's a big demand for inter-system taxis.
-other:People pay a premium here.
-other:Normal bounty for Pirates.
-other:Even though we have a big pirate gang problem.
-ego:Ok, thanks for the info.
-ego:I best get to work.
+@33 // ¿Algún buen trabajo en Daphice?
+ego:¿Algún buen trabajo en Daphice?
+ego:¿Algo interesante?
+other:Bueno, obviamente está la minería.
+other:Sólo hay una estación, así que... 
+other:...hay una gran demanda de taxis entre sistemas.
+other:La gente paga mucho dinero aquí.
+other:Recompensa habitual por Piratas.
+other:A pesar de que tenemos un gran problema de pandillas piratas.
+ego:Ok, gracias por la información.
+ego:Mejor me pongo a trabajar.
 option-off 33
 return
 
-@34 // Know anything else about this pirate gang?
-ego:Know anything else about this pirate gang?
-other:They often attack in numbers, and ambush.
-other:A technique I use is to spilt away a while.
-ego:To break up the group?
-other:Yes, then focus on a couple at a time.
-other:some miners panic and sit in the crossfire.
-other:then it's game over.
+@34 // ¿Sabes algo más de esta banda de piratas?
+ego:¿Sabes algo más de esta banda de piratas?
+other:A menudo atacan en grupo y emboscan.
+other:Una técnica que utilizo es la de desparramar un poco.
+ego:¿Dividir el grupo?
+other:Sí, luego enfócate en una pareja a la vez.
+other:Algunos mineros entran en pánico y se quedan atrapados en el fuego cruzado.
+other:Entonces se acaba el juego.
 option-off 34
 option-on 35
 option-on 36
 return
 
-@35 // Who's the boss?
-ego:Who's the boss?
-other:She goes by several names...
-other:...but her ship is called Miners Bane.
-ego:Nice.
-other:If you don't get all of them.
-other:At least take that one down.
+@35 // ¿Quién es el jefe?
+ego:¿Quién es el jefe?
+other:Ella tiene varios nombres....
+other:..pero su nave se llama Miners Bane (Mineros de la Perdición).
+ego:Genial.
+other:Si no los atrapas a todos.
+other:Por lo menos derriba a esa.
 option-off 35
 return
 
-@36 // What do they want exactly?
-ego:What do they want exactly?
-other:The boss hates miners.
-other:She blame us for a collision with space junk...
-other:...that killed her wife.
-ego:Why does she blame you guys?
-other:Some miners leave a lot of debris after mining.
-other:It's new, so uncharted. Collisions happen.
-other:The miner responsible was prosecuted...
-other:...But it wasn't enough for her.
-other:Her and her gang have killed eight innocent people so far.
-other:She has to be put out of her misery.
-other:Police have little presence in this system.
+@36 // ¿Qué es lo que quieren exactamente?
+ego:¿Qué es lo que quieren exactamente?
+other:El jefe odia a los mineros.
+other:Ella nos culpa por una colisión con basura espacial... que mató a su esposa.
+ego:¿Por qué los culpa a ustedes?
+other:Algunos mineros dejan muchos escombros después de la minería.
+other:Es algo nuevo, inédito. Las colisiones ocurren.
+other:El minero responsable fue procesado....
+...pero no fue suficiente para ella.
+other:Ella y su banda han matado a ocho personas inocentes hasta ahora.
+other:Ella tiene que ser liberada de su miseria.
+other:La policía tiene poca presencia en este sistema.
 option-off 36
 return
 
-@5 // Bye
-ego:Bye. I best get going.
-other:Good luck out there.
+@5 // Adiós
+ego:Adiós. Será mejor que me vaya.
+other:Buena suerte ahí fuera.
 Stop
 

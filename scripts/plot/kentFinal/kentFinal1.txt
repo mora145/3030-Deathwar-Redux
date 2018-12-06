@@ -1,12 +1,12 @@
 //begin
-// [x] 1 - "Any other life on this rock?"
-// [x] 2 - "Your Landing went ok?"
-// [x] 3 - "Get the engines ready."
+// [x] 1 - "¿Alguna otra vida en esta roca?"
+// [x] 2 - "¿Tu aterrizaje fue bueno?"
+// [x] 3 - "Preparen los motores"
 
-// [ ] 40 - "I need your help."
-// [ ] 42 - "what's over this way?"
+// [ ] 40 - "Necesito tu ayuda."
+// [ ] 42 - "¿Qué hay por aquí?"
 
-// [ ] 99 - "Bye, Kent."
+// [ ] 99 - "Adiós, Kent."
 
 //end
 
@@ -14,84 +14,84 @@
 // dialog script file
 @S // dialog startup entry point
 ego:Hey Kent.
-other:Hey there, Barrel rider!
-ego:Don't mock the pod, it's functional.
+other:¡Hola, piloto del barril!
+ego:No te burles de la cápsula, funciona.
 return
 
-@1 // Any other life on this rock?
-ego:Any other life on this rock?
-ego:I encounter some huge creature guarding their ship.
-other:What did you do. Blow it's brains out?
-ego:I fed it some meat and it seemed to go to sleep.
-other:Could be more life around, but I've not seen any.
-other:I always suspected the planets where safe again.
-other:No nanobots detected on the surface.
-other:But Finish up quick and let's get outta here.
+@1 // ¿Alguna otra vida en esta roca?
+ego:¿Alguna otra vida en esta roca?
+ego:Me encuentro con una criatura enorme cuidando su nave.
+other:Qué hiciste. ¿Volar sus sesos?
+ego:Le di de comer algo de carne y parecía que se iba a dormir.
+other:Podría haber más vida alrededor, pero no he visto ninguna.
+other:Siempre sospeché que los planetas era nuevamente seguros.
+other:No se detectaron nanobots en la superficie.
+other:Pero termina rápido y vámonos de aquí.
 option-off 1
 return
 
-@2 // Your Landing went ok?
-ego:Your Landing went ok?
-other:Yeah, This ship's not bad.
-other:How was your pod landing?
-other:Did it work as a covert approach?
-ego:Seems so. There was no one around outside.
-ego:Guess they were focused on other things. 
-other:Probably Releasing a big wave of nanobots.
-other:Just like the last deathwar.
-other:Time for us to save the day!
-other:With teamwork, but without character arcs!
-ego:And get compensation for that ship!
-other:That was ages ago. Let it go, Chief. 
-ego:It's the principle.
+@2 //¿Tu aterrizaje estuvo bien?
+ego:¿Tu aterrizaje estuvo bien?
+other:Sí, esta nave no está mal.
+other:¿Cómo fue el aterrizaje de tu cápsula?
+other:¿Funcionó como aproximación encubierta?
+ego:Eso parece. No había nadie afuera.
+ego:Supongo que estaban enfocados en otras cosas.
+other:Probablemente liberando una gran ola de nanobots.
+other:Igual que la última vez que se produjo la gran guerra.
+other:¡Es hora de que salvemos el día!
+other:¡Con trabajo en equipo, pero sin dramas cinematograficos!
+ego:¡Y obtener una compensación por esa nave!
+other:Eso fue hace mucho tiempo. Déjelo ir, Jefe.
+ego:Es el principio.
 option-off 2
 option-on 99
 return
 
-@3 // Get the engines ready.
-ego:Get the engines ready.
-ego:Let's get out of here as soon as possible.
-other:I'm always ready.
-other:The ship suffered no damage in landing.
-other:Ready to take off when these guys are dealt with.
+@3 // Prepara los motores.
+ego:Prepara los motores.
+ego:Vámonos de aquí lo antes posible.
+other:Siempre estoy listo.
+other:La nave no sufrió daños en el aterrizaje.
+other:Listo para despegar cuando estos tipos se ocupen de ellos.
 option-off 3
 option-on 40
 option-on 99
 return
 
-@40 // I need your help.
-ego:I need your help.
-other:Tell me about it.
-other:(sniff sniff)
-other:I'll boot up the washing machine and we'll get those clothes stink-free in no time!
-ego:I'm busy preventing a deathwar at the moment.
-other:Good call. Finish up here, and then the clothes washing.
-other:Can you get inside their ship?
-other:Need me to open a door for you?
-ego:I find blasting the lock is faster.
-other:Correct-a-mundo, Chief.
+@40 // Necesito tu ayuda.
+ego:Necesito tu ayuda.
+other:Háblame de eso.
+other:(olfatear olfatear)
+other:Voy a arrancar la lavadora y conseguiremos que esa ropa no apeste en un abrir y cerrar de ojos!
+ego:Estoy ocupado previniendo una guerra sangrienta en este momento.
+other:Buena decisión. Termina aquí, y luego la colada.
+other:¿Puede entrar en su nave?
+other:¿Necesita que le abra una puerta?
+ego:Yo creo que volar la cerradura es más rápido.
+other:Correcto, jefe.
 option-off 40
 option-on 42
 option-on 99
 return
 
-@42 // what's over this way?
-ego:what's over this way?
-other:Other than our ship?
-other:Just desert all the way to the horizon, Chief.
-other:I got this side covered.
+@42 // ¿Qué hay por aquí?
+ego:¿Qué hay por aquí?
+other:¿Además de nuestra nave?
+other:Sólo desierto hasta el horizonte, jefe.
+other:Tengo este lado cubierto.Tengo este lado cubierto.
 option-off 42
 return
 
-@99 // Bye, Kent.
-ego:Bye, Kent.
-ego:Stay guarding the ship.
-other:Sure thing. 
-other:we don't want any aliens leaping on.
-other:They love to do that!
-other:You're taking off... and bam, they jump on.
-other:Not on my watch, Chief.
-other:Not on my watch!
+@99 // Adios, Kent.
+ego:Adios, Kent.
+ego:Quédate vigilando la nave.
+other:Claro que sí.
+other:No queremos que ningún alienígena salte sobre nosotros.
+other:¡Les encanta hacer eso!
+other:Te vas a ir.... y bam, ellos se suben.
+other:No en mi guardia, jefe.
+other:¡No en mi guardia!
 option-off 99
 stop
 

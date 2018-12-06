@@ -1,8 +1,8 @@
 //begin
-// [ ] 1 - "Did you hear about Frank?"
-// [ ] 2 - "Do you want to rejoin my crew?"
-// [ ] 3 - "Are you investigating the.. guy?"
-// [x] 4 - "Bye."
+// [ ] 1 - "¿Has oído hablar de Frank?"
+// [ ] 2 - "¿Quieres volver a unirte a mi tripulación?"
+// [ ] 3 - "¿Estás investigando al... tipo?"
+// [x] 4 - "Adios."
 
 //end
 
@@ -10,41 +10,41 @@
 // dialog script file
 @S // dialog startup entry point
 other:Shhh..
-ego:I need to ask you something.
+ego:Necesito preguntarte algo.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // Did you hear about Frank?
-ego:Did you hear about Frank?
-other:Frank? 
-other:The guy who sold us the ship?
-ego:Yeah.
-other:He seems to be a genuine victim in this.
+@1 // ¿Te enteraste de lo de Frank?
+ego:¿Te enteraste de lo de Frank?
+other:¿Frank? 
+other:¿El tipo que nos vendió el barco?
+ego:Siii.
+other:Parece ser una genuina víctima en esto.
 option-off 1
 return
 
-@2 // Do you want to rejoin my crew?
-ego:Do you want to rejoin my crew?
-other:Of course, Captain!
-other:But not right now.
-other:I'm on the case of..
-other:...our uninvited guest.
+@2 // ¿Quieres volver a unirte a mi tripulación?
+ego:¿Quieres volver a unirte a mi tripulación?
+other:¡Claro, Capitán!
+other:Pero no en este momento.
+other:Estoy en el caso de...
+other:...nuestro invitado inesperado.
 option-off 2
 return
 
-@3 // Are you investigating the.. guy?
-ego:Are you investigating the.. guy?
-other:Exactly.
+@3 // ¿Estás investigando al... tipo?
+ego:¿Estás investigando al... tipo?
+other:Exactamente.
 other:Zog Dongo.
-other:Someone has to.
-other:Like last time.
+other:Alguien tiene que hacerlo.
+other:Como la última vez.
 option-off 3
 return
 
-@4 // Bye
-ego:Bye.
-other:Bye for now, Captain.
+@4 // Adios
+ego:Adios.
+other:Adiós por ahora, Capitán.
 Stop
 

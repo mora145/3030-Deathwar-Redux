@@ -1,13 +1,13 @@
 //begin
-// [x] 1 - "Kent!"
-// [x] 2 - "Where have you been?"
-// [x] 3 - "Opened any doors recently?"
-// [x] 31 - "There you are little buddy!"
+// [x] 1 - "¡Kent!!"
+// [x] 2 - "¿Dónde has estado?"
+// [x] 3 - "¿Abriste alguna puerta recientemente?"
+// [x] 31 - "¡Ahí estás, amiguito!"
 
-// [ ] 40 - "What's happening here?"
-// [ ] 41 - "Are you undercover again?"
-// [ ] 42 - "It's me, John."
-// [ ] 99 - "Sorry, I thought you were some other droid."
+// [ ] 40 - "¿Qué está pasando aquí?"
+// [ ] 41 - "¿Estás de incógnito otra vez?"
+// [ ] 42 - "Soy yo, John."
+// [ ] 99 - "Lo siento, pensé que eras otro droide."
 
 //end
 
@@ -17,16 +17,16 @@
 
 return
 
-@1 // Kent!
-ego:Kent!
-other:Not now.
-ego:Huh?
+@1 // ¡Kent!
+ego:¡Kent!
+other:Ahora no.
+ego:¿Huh?
 option-off 1
 return
 
-@2 // Where have you been?
-ego:Where have you been?
-other:Not now.
+@2 //  ¿Dónde has estado?
+ego:¿Dónde has estado?
+other:Ahora no
 option-off 1
 option-off 2
 option-off 3
@@ -36,52 +36,52 @@ option-on 41
 option-on 42
 return
 
-@3 // Opened any doors recently?
-ego:Opened any doors recently?
-other:Not now.
+@3 // ¿Abriste alguna puerta recientemente?
+ego:¿Abriste alguna puerta recientemente?
+other:Ahora no.
 option-off 3
 return
 
-@31 // There you are little buddy!
-ego:There you are little buddy!
-ego:Did you h...
-other:Not now.
+@31 // ¡Ahí estás, amiguito!
+ego:¡Ahí estás, amiguito!
+ego:¿Has hecho....
+other:Ahora no.
 option-off 31
 return
 
 
-@40 // What's happening here?
-ego:What's happening here?
-ego:It's me.
-ego:Has someone wiped your memory.
-other:I'm not the droid you're looking for.
+@40 // ¿Qué está pasando aquí?
+ego:¿Qué está pasando aquí?
+ego:Soy yo.
+ego:¿Alguien te ha borrado la memoria?
+other:No soy el droide que estás buscando.
 option-off 40
 return
 
-@41 // Are you undercover again?
-ego:Are you undercover again?
-other:Correct-a-mundo, Chief.
-other:Investigating.
-other:Can't talk.
-other:Explain later.
+@41 // ¿Estás de incógnito otra vez?
+ego:¿Estás de incógnito otra vez?
+other:Correcto-a-mundo, Jefe.
+other:Investigando.
+other:No puedo hablar.
+other:Le explico luego.
 option-off 40
 option-off 41
 option-off 42
 option-on 99
 return
 
-@42 // It's me, John.
-ego:It's me, John.
+@42 // Soy yo, John.
+ego:Soy yo, John.
 other:Shhhhh...
-other:Investigating.
+other:Investigando.
 option-off 42
 return
 
 
-@99 // Sorry, I thought you were some other droid.
-ego:Sorry, I thought you were some other droid.
-other:No problem.
-other:Bye.
+@99 // Lo siento, pensé que eras otro droide.
+ego:Lo siento, pensé que eras otro droide.
+other:No hay problema.
+other:Adiós.
 option-off 99
 stop
 

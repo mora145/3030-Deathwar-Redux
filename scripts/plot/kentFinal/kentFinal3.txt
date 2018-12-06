@@ -1,61 +1,61 @@
 //begin
-// [x] 1 - "The boss had an accident."
-// [x] 2 - "When someone is about to release killer nanobots, Shoot first."
-// [x] 3 - "Yeah, but I didn't get my damn money."
+// [x] 1 - "El jefe tuvo un accidente."
+// [x] 2 - "Cuando alguien esté a punto de liberar nanobots asesinos, dispara primero."
+// [x] 3 - "Sí, pero no recibí mi maldito dinero"
 
-// [ ] 99 - "Check on the landing gear then jump in."
+// [ ] 99 - "Revisa el tren de aterrizaje y luego salta."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:I heard an explosion.
-other:What happened?
+other:Oí una explosión.
+other:¿Qué pasó?
 return
 
-@1 // The boss had an accident.
-ego:The boss had an accident.
-ego:A bullet hit a grenade belt he was wearing.
-other:Nice one.
-other:Still No nanobots detected around here.
-other:Finish up quick and let's go already.
+@1 // El jefe tuvo un accidente.
+ego:El jefe tuvo un accidente.
+ego:Una bala golpeó una granada en el cinturón que llevaba puesto.
+other:Bonito.
+other:Aún no se han detectado nanobots por aquí.
+other:Termina rápido y vámonos ya.
 option-off 1
 option-off 2
 option-off 3
 option-on 99
 return
 
-@2 // When someone is about to release killer nanobots, Shoot first.
-ego:When someone is about to release killer nanobots, Shoot first.
-other:Good advice.
-other:Still No nanobots detected around here.
-other:Finish up quick and let's go already.
+@2 // Cuando alguien esté a punto de liberar nanobots asesinos, dispara primero.
+ego:Cuando alguien esté a punto de liberar nanobots asesinos, dispara primero.
+other:Buen consejo.
+other:Aún no se han detectado nanobots por aquí.
+other:Termina rápido y vámonos ya.
 option-off 1
 option-off 2
 option-off 3
 option-on 99
 return
 
-@3 // Yeah, but I didn't get my damn money.
-ego:Yeah, but I didn't get my damn money.
-ego:I shot a grenade belt he was wearing.
-ego:And the rest is history.
-other:Nice one.
-other:Still No nanobots detected around here.
-other:Finish up quick and let's go already.
+@3 // Sí, pero no recibí mi maldito dinero.
+ego:Sí, pero no recibí mi maldito dinero.
+ego:Le disparé a un cinturón de granadas que llevaba puesto.
+ego:Y el resto es historia.
+other:Buena.
+other:Aún no se han detectado nanobots por aquí.
+other:Termina rápido y vámonos ya.
 option-off 1
 option-off 2
 option-off 3
 option-on 99
 return
 
-@99 // Check on the landing gear then jump in.
-ego:Check on the landing gear then jump in.
-ego:We'll take off soon.
-other:Sure thing. 
-other:See you up top, Chief.
-other:I can wash those clothes now?
+@99 // Revisa el tren de aterrizaje y luego salta.
+ego:Revisa el tren de aterrizaje y luego salta.
+ego:Nos iremos pronto.
+other:Claro que sí. 
+other:Nos vemos arriba, jefe.
+other:¿Puedo lavar la ropa ahora?
 option-off 99
 stop
 

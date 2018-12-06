@@ -1,40 +1,40 @@
 //begin
-// [ ] 1 - "Is this the only station here?"
-// [ ] 2 - "What's with the Chief Miner?"
-// [x] 3 - "Bye."
+// [ ] 1 - "¿Esta es la única estación de aquí?"
+// [ ] 2 - "¿Qué pasa con el Jefe Minero?"
+// [x] 3 - "Adios."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi again.
-other:Hi.
+ego:Hola de nuevo.
+other:Hola.
 option-on 1
 option-on 2
 return
 
-@1 // Is this the only station here?
-ego:Is this the only station here?
-other:Only one in this system.
-other:That's part of what motivated us.
-other:They had a monopoly on supplies.
-other:So we saved up, teamed up..
-other:..and bought the station.
-ego:Nice going.
+@1 // ¿Esta es la única estación de aquí?
+ego:¿Esta es la única estación de aquí?
+other:Sólo hay una en este sistema.
+other:Eso es parte de lo que nos motivó.
+other:Tenían el monopolio de los suministros.
+other:Así que ahorramos, nos unimos...
+other:...y compramos la estación.
+ego:Bien hecho.
 option-off 1
 return
 
-@2 // What's with the Chief Miner?
-ego:What's with the Chief Miner?
-other:Oh. You spoke to him?
-other:He's a character.
-other:He's popular, so we elected him as our rep.
-other:Don't take him too seriously.
+@2 // ¿Qué pasa con el Jefe Minero?
+ego:¿Qué pasa con el Jefe Minero?
+other:Oh. ¿Hablaste con él?
+other:Es un personaje.
+other:Es popular, así que lo elegimos como nuestro representante.
+other:No lo tomes demasiado en serio.
 option-off 2
 return
 
-@3 // Bye
-ego:Bye.
-other:See you later.
+@3 // Adios
+ego:Adios.
+other:Hasta luego.
 Stop
