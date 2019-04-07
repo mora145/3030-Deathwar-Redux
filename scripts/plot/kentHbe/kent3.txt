@@ -1,104 +1,104 @@
 //begin
-// [ ] 1 - "Where do you want to go next?"
-// [ ] 2 - "Any other ideas?"
-// [ ] 22 - "What do you suggest?"
-// [ ] 3 - "Heard anything from Vasquez?"
-// [x] 4 - "Ok. See you on the ship!"
+// [ ] 1 - "¿Adónde quieres ir ahora?"
+// [ ] 2 - "¿Alguna otra idea?"
+// [ ] 22 - "¿Qué sugieres?"
+// [ ] 3 - "¿Has oído algo de Vasquez?"
+// [x] 4 - "Ok. ¡Nos vemos en la nave!"
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:hi Kent. I did it.
-other:I heard!
-other:I just need to get my clearance form done.
-other:He gave me this Congrats Balloon!
-ego:That's weird.
-other:I know, right.
-other:I'm just playing along until I get out of here.
-ego:Grah said you're free to go after that. 
-ego:See you on the ship!
-other:I can't wait!
+ego:Hola Kent. Ya lo hice.
+other:¡Lo escuché!
+other:Sólo necesito terminar mi formulario de autorización.
+other:Me dio este Globo de Felicitaciones!
+ego:Eso es raro.
+other:Lo sé, cierto.
+other:Sólo le sigo el juego hasta que salga de aquí.
+ego:Grah dijo que eres libre de irte después de eso.
+ego:¡Nos vemos en la nave!
+other:¡No puedo esperar!
 option-on 1
 option-on 3
 return
 
-@1 // Where do you want to go next?
-ego:Where do you want to go next?
+@1 // ¿Adónde quieres ir ahora?
+ego:¿Adónde quieres ir ahora?
 other:Hmmm.
-other:We could check if any jobs go up to andinti.
-other:That would be a safe option.
-other:Or If you want some flying time...
-other:I hear there are moneyball races going on down at Tibefa.
-ego:Tibefa? That's due south past the nebula.
-other:Yeah. It's a fair distance.
-other:And we'd need a good afterburner to compete.
-other:It's easy, and the prizes get quite high!
-ego:It's easy because people only watch for the fights.
-other:That's true, but I do like a bit of moneyball.
+other:Podríamos comprobar si hay algún trabajo en Andinti.
+other:Esa sería una opción segura.
+other:O si quieres un poco de tiempo de vuelo....
+other:He oído que hay carreras moneyball en Tibefa.
+ego:¿Tibefa? Eso es hacia el sur, pasando la nebulosa.
+other:Sí. Es una buena distancia.
+other:Y necesitaríamos un buen postcombustión para competir.
+other:¡Es fácil, y los premios son bastante altos!
+ego:Es fácil porque la gente sólo ve las peleas.
+other:Es cierto, pero me gusta un poco el moneyball.
 option-off 1
 option-on 2
 option-on 22
 return
 
-@2 // Any other ideas?
-ego:Any other ideas?
-other:Any other ideas?
+@2 // ¿Alguna otra idea?
+ego:¿Alguna otra idea?
+other:¿Alguna otra idea?
 other:Hmmm.
-other:Grah said this system has a lot of salvageable ships.
-ego:that makes sense, as no gangs operate here.
-other:Correct-a-mundo.
-other:If our ship has an ok cargo capacity...
-other:..we could go hit those grey dots on the map.
-other:Maybe we'll get lucky!
+other:Grah dijo que este sistema tiene un montón de naves recuperables.
+ego:Eso tiene sentido, ya que aquí no operan bandas.
+other:¡Correcto!
+other:Si, nuestra nave tiene una capacidad de carga aceptable....
+other:...podríamos ir a golpear esos puntos grises en el mapa.
+other:¡Quizá tengamos suerte!
 option-off 2
 return
 
 
-@22 // What do you suggest?
-ego:What do you suggest?
-other:What I'd really like?
-other:Chief, you know want I want.
-other:I want to go show you the Nebula Aliens.
-ego:Not this again.
-other:It's true-a-mundo.
-other:Just hang out in the nebula for a couple of minutes.
-ego:yeah, Taking damage to our shields.
-other:It's worth it. They are funky.
-other:If you leave the nebula map overlay up...
-other:...I can map the nebula edges to improve our travel map.
-ego:Not sure about that one. Anything else?
-other:I always wanted to see the Giant carved-head asteroid station.
-ego:GHA Station? That's light years away, and a Pirate station!
-other:Yeah, it's north-east from here across Lowell's Divide.
-other:System KP-FQI.
-other:I know it's far, but we could do jobs on the way.
-other:You asked what I wanted. I've never seen it.
-other:It would be an achievement for me. 
+@22 // ¿Qué es lo que sugieres?
+ego:¿Qué es lo que sugieres?
+other:¿Qué es lo que realmente me gustaría?
+other:Jefe, usted sabe lo que quiero.
+other:Quiero ir a mostrarte los Extraterrestres de Nebulosa.
+ego:No otra vez.
+other:¡¡¡Es verdad!!!
+other:Sólo pasa un par de minutos por la nebulosa.
+ego:Sí, lo que causará daño a nuestros escudos.
+other:Vale la pena. Son divertidos.
+other:Si dejas la sobreposición del mapa de la nebulosa....
+other:...puedo trazar los bordes de la nebulosa para mejorar nuestro mapa de viaje.
+ego:No estoy seguro de eso. ¿Algo más?
+other:Siempre quise ver la estación de asteroides de los Gigantes Cabeza Tallada.
+ego:¿La estación GHA? Eso está a años luz de distancia, y es una estación Pirata!
+other:Sí, está al noreste de aquí, cruzando la división de Lowell.
+other:Sistema KP-FQI.
+other:Sé que está lejos, pero podríamos hacer trabajos en el camino.
+other:Me preguntaste qué quería. Nunca la he visto.
+other:Sería un logro para mí.
 option-off 22
 return
 
-@3 // Heard anything from Vasquez?
-ego:Heard anything from Vasquez?
-other:Not since I got caged here.
-other:Last I heard she got a new ship.
-other:But that's all.
-ego:We should try to get her back as lead engineer.
-other:Right. I'll try to find out what she's doing.
-other:What ship do you have now anyway?
-ego:You'll see soon enough.
-other:Right on, Chief!
-other:I'll bring my balloon.
+@3 // ¿Has oído algo de Vasquez?
+ego:¿Has oído algo de Vasquez?
+other:No desde que me encerraron aquí.
+other:Lo último que oí es que consiguió una nueva nave.
+other:Pero eso es todo.
+ego:Deberíamos intentar hacerla regresar, como ingeniera principal.
+other:Correcto. Intentaré averiguar qué está haciendo.
+other:¿Qué nave tienes ahora de todos modos?
+ego:Ya lo verás muy pronto.
+other:¡Muy bien, Jefe!
+other:Traeré mi globo.
 option-off 3
 return
 
 
-@4 // Ok. See you on the ship!
-ego:Ok. See you on the ship!
-other:Right, I'll be there!
-other:Maybe ask Grah if he has any more info.
-ego:About the kill-bots?
-other:Yeah. He's not as stupid as he looks.
+@4 // Ok. ¡Nos vemos en la nave!
+ego:Ok. ¡Nos vemos en la nave!
+other:¡Bien, allí estaré!
+other:Tal vez pregunte a Grah si tiene más información.
+ego:¿Sobre los robots asesinos?
+other:Sí. No es tan estúpido como parece.
 Stop
 

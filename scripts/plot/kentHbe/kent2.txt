@@ -1,56 +1,56 @@
 //begin
-// [ ] 1 - "He wants me to clear some stations of stab-drones."
-// [ ] 2 - "He gave me a gun."
-// [ ] 3 - "He implied that he'd let you out if I do a job for him."
-// [x] 4 - "Bye."
+// [ ] 1 - "Quiere que limpie algunas estaciones de drones acuchilladores."
+// [ ] 2 - "Me dio un arma."
+// [ ] 3 - "Insinuó que te dejaría salir si hago un trabajo para él."
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Did you talk to Grah?
-ego:Yeah. 
-other:What did he say?
+other:¿Hablaste con Grah?
+ego:¡Si! 
+other:¿Qué te dijo?
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // He wants me to clear some stations of stab-drones.
-ego:He wants me to clear some stations of stab-drones.
-other:Well, that'll be easy for you!
-other:Get it done.
-ego:I'll see what I can do.
-other:Then he'll let me out I hope.
+@1 // Quiere que limpie algunas estaciones de drones-cuchilla que las merodean.
+ego:Quiere que limpie algunas estaciones de drones-cuchilla que las merodean.
+other:Bueno, ¡eso será fácil para ti!
+other:Hazlo, hazlo.
+ego:Veré qué puedo hacer.
+other:Entonces me dejaría salir, eso espero.
 option-off 1
 return
 
-@2 // He gave me a gun.
-ego:He gave me a gun.
-other:Nice.
-other:You remember how to do the business?
-other:Draw, Fire, Fire, Duck, Fire!
-ego:It's a police issue blaster pistol.
-other:You know the rules. 
-other:Don't pull your gun out on stations unless you can justify it.
+@2 // Me dio un arma.
+ego:Me dio un arma.
+other:Genial.
+other:¿Recuerdas cómo hacer el trabajo?
+other:¡Desenfunda, fuego, fuego, agacharse, fuego!
+ego:Es una pistola blaster de la policía.
+other:Conoces las reglas. 
+other:No saques tu arma en las estaciones a menos que puedas justificarlo.
 option-off 2
 return
 
-@3 // He implied that he'd let you out if I do a job for him.
-ego:He implied that he'd let you out if I do a job for him.
-other:That's what I thought.
-other:Sorry, Chief.
-other:Sorry, I got you caught up in this.
-ego:It's cool. It could actually be good for me.
-ego:I know some gang wants me dead, this gets me a gun and licence.
-other:Oh Yeah! Thank me after you get me out of here.
+@3 // Insinuó que te dejaría salir si hago un trabajo para él.
+ego:Insinuó que te dejaría salir si hago un trabajo para él.
+other:Es lo que yo pensé.
+other:Lo siento jefe...
+other:...te tengo atrapado en esto.
+ego:Está bien. Podría ser bueno para mí.
+ego:Sé que una pandilla me quiere muerto, esto me da un arma y una licencia.
+other:¡Oh si! Dame las gracias después de que me saques de aquí.
 option-off 3
 return
 
-@4 // Bye
-ego:Bye.
-other:Bye for now, Captain.
-other:Good luck.
+@4 // Adios
+ego:Adios.
+other:Adiós por ahora, Capitán.
+other:Buena suerte.
 Stop
 

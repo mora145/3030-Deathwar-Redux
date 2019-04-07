@@ -1,12 +1,12 @@
 //begin
-// [x] 1 - "Kent!"
-// [x] 2 - "Where have you been?"
-// [x] 3 - "Opened any doors recently?"
+// [x] 1 - "¡Kent!"
+// [x] 2 - "¿Dónde has estado?"
+// [x] 3 - "¿Abriste alguna puerta recientemente?"
 
-// [ ] 40 - "How can I help?"
-// [ ] 41 - "Why did he increase your sentence?"
+// [ ] 40 - "¿Como puedo ayudarte?"
+// [ ] 41 - "¿Por qué aumentó tu sentencia?"
 
-// [ ] 99 - "Bye, Kent."
+// [ ] 99 - "Adios, Kent."
 
 //end
 
@@ -16,22 +16,22 @@
 
 return
 
-@1 // Kent!
-ego:Kent!
-other:Hi Chief.
-other:In case you can't tell. I have sad face on.
+@1 // ¡Kent!
+ego:¡Kent!
+other:Hola Jefe.
+other:En caso de que no lo sepas. Tengo cara triste.
 option-off 1
 return
 
-@2 // Where have you been?
-ego:Where have you been?
-other:Didn't I tell you already?
-other:I had to serve some time here for assaulting Officer Grah.
-other:After our ship got impounded...
-other:...I pounded his shins.
-ego:I would like to have witnessed that.
-other:He was mocking me, big style.
-other:Anyway... he just increased my sentence.
+@2 // ¿Dónde has estado?
+ego:¿Dónde has estado?
+other:¿No te lo he dicho ya?
+other:Me condenaron a pasar un tiempo aquí por agredir al oficial Grah.
+other:Después de que nuestra nave fuera incautada....
+other:...le golpeé las espinillas.
+ego:Me hubiera gustado haber visto eso.
+other:Se estaba burlando de mí, a lo grande.
+other:De todos modos... aumentó mi sentencia.
 option-off 1
 option-off 2
 option-off 3
@@ -40,46 +40,46 @@ option-on 41
 option-on 42
 return
 
-@3 // Opened any doors recently?
-ego:Opened any doors recently?
-ego:I guess you found one you couldn't open.
-other:I am not in the mood for joking around, John.
-other:You need to get me out of here.
+@3 // ¿Abriste alguna puerta recientemente?
+ego:¿Abriste alguna puerta recientemente?
+ego:Supongo que encontraste una que no pudiste abrir.
+other:No estoy de humor para bromas, John.
+other:Tienes que sacarme de aquí.
 option-off 3
 return
 
-@40 // How can I help?
-ego:How can I help?
-other:Other than bringing me industrial acid...
-other:...and making a distraction over there?
-ego:Yeah, preferably other than that.
-other:Some major pirate gang action went down recently.
-other:Grah knows you used to be a bounty hunter.
-ego:What, so he's holding you hostage?
-ego:Don't worry, I'll go talk to Grah.
+@40 // ¿Cómo puedo ayudarte?
+ego:¿Cómo puedo ayudarte?
+other:Aparte de traerme ácido industrial....
+other:...y distraer a los que están por allí?
+ego:Sí, preferiblemente otra cosa.
+other:Una gran operación de pandillas piratas ocurrió recientemente.
+other:Grah sabe que solías ser un cazarrecompensas.
+ego:¿Qué, entonces te tiene como rehén?
+ego:No te preocupes, iré a hablar con Grah.
 option-off 40
 option-off 41
 option-on 99
 return
 
-@41 // Why did he increase your sentence?
-ego:Why did he increase your sentence?
-other:A pirate gang released some attack drones or something.
-other:Grah knows you used to be a bounty hunter.
-ego:What, so he's holding you hostage?
-other:Correct-a-mundo, Chief.
-other:Unless I can get you to help out...
-other:...I'm in this crate in for one year.
-ego:Don't worry, I'll go talk to Grah.
+@41 // ¿Por qué aumentó tu sentencia?
+ego:¿Por qué aumentó tu sentencia?
+other:Una banda de piratas liberó algunos drones de ataque o algo así.
+other:Grah sabe que solías ser un cazarrecompensas.
+ego:¿Qué, entonces te tiene como rehén?
+other:Correcto, jefe.
+other:A menos que pueda hacer que me ayudes...
+other:...estaré en esta jaula por un año.
+ego:No te preocupes, iré a hablar con Grah.
 option-off 40
 option-off 41
 option-on 99
 return
 
 
-@99 // Bye, Kent.
-ego:Bye, Kent.
-other:Get me outta here, Chief.
+@99 // Adios, Kent.
+ego:Adios, Kent.
+other:Sácame de aquí, jefe.
 option-off 99
 stop
 
