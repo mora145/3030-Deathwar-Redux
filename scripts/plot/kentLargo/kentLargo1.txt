@@ -1,17 +1,17 @@
 //begin
-// [ ] 1 - "Hi Kent! How's it going down there."
-// [ ] 2 - "Find out anything about that corpse in the cargo locker?"
-// [ ] 3 - "Did you investigate the Largo?"
-// [ ] 4 - "Heard anything from Vasquez?"
-// [ ] 31 - "Tell me more about the map."
-// [ ] 32 - "A locket? What's that?"
-// [ ] 33 - "I think I have a hit on me."
-// [ ] 40 - "Do the sightings help locate the Largo?"
-// [ ] 41 - "how do we find it then?"
-// [ ] 42 - "Do you want to be my co-pilot again?"
-// [ ] 43 - "Are you sure the Largo will appear on the local charts?"
-// [ ] 99 - "Ok Kent, thanks. I best get moving."
-// [ ] 98 - "Bye for now. Great investigating!"
+// [ ] 1 - "¡Hola Kent! ¿Cómo va todo por ahí abajo?"
+// [ ] 2 - "¿Encontraste algo sobre ese cadáver en el armario de carga?"
+// [ ] 3 - "¿Investigaste al Largo?"
+// [ ] 4 - "¿Has sabido algo de Vasquez?"
+// [ ] 31 - "Cuéntame más sobre el mapa."
+// [ ] 32 - "¿Un relicario? ¿Qué es eso?"
+// [ ] 33 - "Creo que tengo una pista conmigo."
+// [ ] 40 - "¿Los avistamientos ayudan a localizar al Largo?"
+// [ ] 41 - "¿Cómo lo encontramos entonces?"
+// [ ] 42 - "¿Quieres ser mi copiloto otra vez?"
+// [ ] 43 - "¿Estás seguro de que el Largo aparecerá en las cartas locales?"
+// [ ] 99 - "Ok Kent, gracias. Será mejor que me ponga en marcha"
+// [ ] 98 - "Adiós por el momento. Grandiosa investigación!"
 
 //end
 
@@ -24,72 +24,42 @@ option-on 3
 option-on 4
 return
 
-@1 // Hi Kent! How's it going down there.
-ego:Hi Kent! How's it going down there.
-other:Hi Chief.
-other:I didn't ask to be made this small.
-ego:But you could get some longer legs fitted.
-ego:I nearly didn't see you.
-other:This is my style. 
-other:Plus, people don't notice me.
-ego:Which is good for...
-other:Investigating! bingo-bango.
-other:speaking of which.. I've been busy.
-ego:I'm all ears.
+@1 // ¡Hola Kent! ¿Cómo va todo por ahí abajo?
+ego:¡Hola Kent! ¿Cómo va todo por ahí abajo?
+other:Hola jefe.
+other:No pedí que me hicieran así de pequeño.
+ego:Pero podrías conseguir unas piernas más largas.
+ego:Casi no te veo.
+other:Este es mi estilo. 
+other:Además, la gente no se fija en mí.
+ego:Lo cual es bueno para....
+other:¡Investigar! bingo-bango.
+other:Hablando de eso... he estado ocupado.
+ego:Soy todo oídos.
 option-off 1
 return
 
-@2 // Find out anything about that corpse in the cargo locker?
-ego:Find out anything about that corpse in the cargo locker?
-other:Yeah. the guy checks out as the previous owner, Zog Dongo.
-other:Looks like it was an accident.
-other:By which I mean... the murder wasn't planned.
-other:He probably confronted the Gang members trying to steal his ship.
-ego:why do you think that?
-other:No other ship thefts involved murders.
-ego:I see.
-other:but his body did have something... 
-ego:Go on.
-other:A locket around his neck. 
-other:Inside was a map, with plots of sightings of the Largo.
-other:Despite what others may have told you. 
-other:...no one has yet found the Largo.
-ego:And its gold shipment.
-other:correct-a-mundo.
-ego:Good old Zog, if we use his map...
-ego:...at least we can get the bounty before his killers.
-other:that's good post-hoc rationalisation chief.
-ego:thanks.
-option-off 1
-option-off 2
-option-off 3
-option-on 31
-option-on 32
-option-on 33
-option-on 40
-option-on 42
-return
-
-@3 // Did you investigate the Largo?
-ego:Did you investigate the Largo?
-other:Not at first.
-other:I investigated that corpse in the cargo locker.
-other:The guy checks out as the previous owner, Zog Dongo.
-other:Looks like it was an accident.
-other:By which I mean... the murder wasn't planned.
-other:He probably confronted the Gang members trying to steal his ship.
-ego:why do you think that?
-other:No other ship thefts involved murders.
-ego:I see. How does this relate to the Largo?
-other:His body did have something on it... 
-ego:Hear it comes...
-other:A locket around his neck. 
-other:Inside was a map, with plots of sightings of the Largo.
-ego:Amber nectar!
-other:Despite what others may have told you. 
-other:...no one has yet found the Largo.
-ego:And its gold shipment.
-other:correct-a-mundo. 
+@2 // ¿Averiguaste algo sobre ese cadáver en el armario de carga?
+ego:¿Averiguaste algo sobre ese cadáver en el armario de carga?
+other:Sí. El tipo es el dueño anterior, Zog Dongo.
+other:Parece que fue un accidente.
+other:Con lo que quiero decir... el asesinato no fue planeado.
+other:Probablemente se enfrentó a los miembros de la pandilla que intentaban robar su nave.
+ego:¿por qué piensas eso?
+other:Ningún otro robo de naves involucró asesinatos.
+ego:Ya veo.
+other:Pero su cuerpo tenía algo... 
+ego:Continua.
+other:Un relicario alrededor de su cuello.
+other:Dentro había un mapa, con puntos de avistamientos del Largo.
+other:A pesar de lo que otros puedan haberte dicho. 
+other:...nadie ha encontrado al Largo...
+ego:...y su cargamento de oro.
+other:Correcto.
+ego:El buen Zog, si usamos su mapa....
+ego:..al menos podemos conseguir la recompensa antes que sus asesinos.
+other:Usted es un buen jefe de racionalizaciones postoperatorias.
+ego:Gracias.
 option-off 1
 option-off 2
 option-off 3
@@ -100,77 +70,107 @@ option-on 40
 option-on 42
 return
 
-@4 // Heard anything from Vasquez?
-ego:Heard anything from Vasquez?
-other:I can't contact her.
-other:She might be searching the nebula for the Largo.
-other:No signal.
+@3 // ¿Investigaste el Largo?
+ego:¿Investigaste el Largo?
+other:Al principio no.
+other:Investigué ese cadáver en el armario de carga.
+other:El tipo es el dueño anterior (De la nave), Zog Dongo.
+other:Parece que fue un accidente.
+other:Con lo que quiero decir... el asesinato no fue planeado.
+other:Probablemente se enfrentó a los miembros de la pandilla que intentaban robar su nave.
+ego:¿Por qué piensas eso?
+other:Ningún otro robo de naves involucró asesinatos.
+ego:Ya veo. ¿Cómo se relaciona esto con el Largo?
+other:Su cuerpo tenía algo en él...
+ego:Oigo lo que viene....
+other:Un relicario alrededor de su cuello. 
+other:Dentro había un mapa, con puntos de avistamientos del Largo.
+ego:¡Néctar de ámbar!
+other:A pesar de lo que otros puedan haberle dicho. 
+other:...nadie ha encontrado al Largo.
+ego:Y su cargamento de oro.
+other:Correctisimo... 
+option-off 1
+option-off 2
+option-off 3
+option-on 31
+option-on 32
+option-on 33
+option-on 40
+option-on 42
+return
+
+@4 // ¿Escuchaste algo sobre Vásquez?
+ego:¿Escuchaste algo sobre Vásquez?
+other:No puedo contactar con ella.
+other:Ella podría estar buscando el Largo en la nebulosa.
+other:No hay señal.
 option-off 4
 return
 
-@31 // Tell me more about the map.
-ego:Tell me more about the map.
-ego:Hang on...
-ego:...it's not got ripped into four pieces has it?
-ego:Then I have to trek around to different places...
-ego:...and visit different characters...
-ego:...doing mundane tasks, to get all the pieces?
-other:Yes.
-ego:Oh crap.
-other:But I did all that for you...
-other:...and stuck it together with space-tape.
-ego:Phew. Thanks.
-other:It was never ripped up, you idiot.
-other:It was safe in his locket.
+@31 // Cuéntame más sobre el mapa.
+ego:Cuéntame más sobre el mapa.
+ego:Espera....
+ego:...no se ha roto en cuatro partes, ¿verdad?
+ego:Entonces tendré que caminar por diferentes lugares....
+ego:...y visitar a diferentes personajes...
+ego:...haciendo tareas mundanas, para conseguir todas las piezas?
+other:Si.
+ego:Oh mierda.
+other:Pero yo hice todo eso por ti....
+other:...y lo pegué con cinta adhesiva.
+ego:Uf. Gracias.
+other:Nunca se rompió, idiota.
+other:Estaba a salvo en su relicario.
 option-off 31
 return
 
-@32 // A locket? What's that?
-ego:A locket? What's that?
-other:You know what a pendant with a little storage space is?
-other:Same thing.
-ego:I've never seen a pendant with a little storage space, but i know what you mean.
-other:You can reach down and flip it open.
-ego:Yeah, and access your storage space.
-ego:I get it. 
+@32 // ¿Un relicario? ¿Qué es eso?
+ego:¿Un relicario? ¿Qué es eso?
+other:¿Sabes lo que es un colgante con un poco de espacio de almacenamiento?
+other:Es lo mismo.
+ego:Nunca he visto un colgante con poco espacio de almacenamiento, pero sé a lo que te refieres.
+other:Puedes cogerlo y abrirlo.
+ego:Sí, y acceder a tu espacio de almacenamiento.
+ego:Lo entiendo.
 option-off 32
 return
 
-@33 // I think I have a hit on me.
-ego:I think I have a hit on me.
-ego:Probably same gang who killed Zog.
-other:It wouldn't surprise me.
-other:Several traders have been taken out recently.
-other:I find knowledge is the best protection.
-ego:I quite agree.
+@33 // Creo que tengo una corazonada.
+ego:Creo que tengo una corazonada.
+ego:Probablemente la misma banda que mató a Zog.
+other:No me sorprendería.
+other:Varios comerciantes han sido eliminados 
+other:Creo que el conocimiento es la mejor protección.
+ego:Estoy de acuerdo.
 option-off 33
 return
 
-@40 // Do the sightings help locate the Largo?
-ego:Do the sightings help locate the Largo?
-ego:I guess it's not x marks the spot?
-other:not quite.
-other:It looks like the Largo's split drive is going on and off.
-other:It changes location at random.
-ego:what system?
-other:It was in the nebula for a while.
-other:Now it's back here, in Andinti somewhere. 
+@40 // ¿Los avistamientos ayudarán a localizar el Largo?
+ego:¿Los avistamientos ayudarán a localizar el Largo?
+ego:Supongo que no es la x la que marca el punto?
+other:No exactamente.
+other:Parece que la unidad de división del Largo va y viene.
+other:Cambia de lugar al azar.
+ego:¿Qué sistema?
+other:Estuvo en la nebulosa por un tiempo.
+other:Ahora está aquí atrás, en algún lugar de Andinti.
 option-off 40
 option-on 41
 return
 
-@41 // how do we find it then?
-ego:how do we find it then?
-other:Chief, it's easy.
-other:Your Local chart updates every time you dock and launch.
-other:Check out the Grey dots on the local chart, they are derelict ships.
-other:So every time you launch in Andinti...
-other:One dot will move. Get it?
-ego:Right, Check derelicts on the local map...
-ego:...after I dock and launch again, it will show a derelict at a new location!
-other:Correct-a-mundo Chief!
-other:But as It's so simple, others will notice soon.
-ego:yes. No time to lose!
+@41 // ¿Cómo lo encontramos entonces?
+ego:¿Cómo lo encontramos entonces?
+other:Jefe, es fácil.
+other:Su mapa local se actualiza cada vez que atraca y arranca.
+other:Compruebe los puntos grises en el mapa locar, son naves abandonadas.
+other:Así que cada vez que se hace un lanzamiento en Andinti...
+other:Un punto se moverá. ¿Lo entiende?
+ego:Correcto, revisa los abandonados en el mapa local....
+ego:...después de que atraque y arranque de nuevo, se mostrará un abandonado en una nueva ubicación!
+other:¡Correctisimo jefe!
+other:Pero como es tan simple, otros lo notarán pronto.
+ego:Sí. No hay tiempo que perder!
 option-off 31
 option-off 41
 option-on 98
@@ -178,42 +178,42 @@ option-on 99
 option-on 43
 return
 
-@42 // Do you want to be my co-pilot again?
-ego:Do you want to be my co-pilot again?
-other:Sure!
-other:I guess I finished my investigation.
-other:I'll join up with you in a few months.
-other:I have to deal with a court case.
-ego:a court case? 
-other:I punched officer grah in the shins.
+@42 // ¿Quieres ser mi copiloto otra vez?
+ego:¿Quieres ser mi copiloto otra vez?
+other:¡Claro!
+other:Supongo que terminé mi investigación.
+other:Me uniré a ustedes en unos meses.
+other:Tengo que lidiar con un caso en la corte.
+ego:¿Un caso judicial?  
+other:Le di un puñetazo al oficial Grah en las espinillas.
 option-off 42
 return
 
-@43 // Are you sure the Largo will appear on the local charts?
-ego:Are you sure the Largo will appear on the local charts?
-other:When they update it does yeah. I've been checking the database.
-other:Each station tracks large objects and transfers the data to a public database.
-other:It helps avoids collisions, and encourages salvagers who often save crews.
-other:Every time a ship leaves a station, it gets its local map updated.
-other:One grey dot keeps jumping to a new location. It must be the Largo.
-other:I didn't investigate just for fun.
-other:Get moving will ya. I want a share of that gold shipment!
+@43 // ¿Estás seguro de que el Largo aparecerá en los mapas locales?
+ego:¿Estás seguro de que el Largo aparecerá en los mapas locales?
+other:Cuando ellos actualizen, sí. He estado revisando la base de datos.
+other:Cada estación rastrea objetos grandes y transfiere los datos a una base de datos pública.
+other:Ayuda a evitar colisiones y anima a los salvadores, que a menudo salvan a las tripulaciones.
+other:Cada vez que una nave sale de una estación, se actualiza su mapa local.
+other:Un punto gris sigue saltando a una nueva ubicación. Debe ser el Largo.
+other:No investigué sólo por diversión.
+other:Muévete, ¿quieres? ¡Quiero una parte de ese cargamento de oro!
 option-off 43
 return
 
 
-@99 // Ok Kent, thanks. I best get moving.
-ego:Ok Kent, thanks. I best get moving.
-other:No problem. 
-other:Get going. and give me a share!
-ego:Sure thing, Kent.
+@99 // Ok Kent, gracias. Será mejor que me ponga en marcha.
+ego:Ok Kent, gracias. Será mejor que me ponga en marcha.
+other:No hay problema.
+other:¡En marcha! ¡Y dame una parte!
+ego:Claro, Kent.
 option-off 99
 stop
 
-@98 // Bye for now. Great investigating!
-ego:Bye for now. Great investigating!
-other:No problem. It's what I do.
-other:Get going. and give me a share!
-ego:Sure thing, Kent.
+@98 // Adiós por ahora. Gran investigación!
+ego:Adiós por ahora. Gran investigación!
+other:No hay problema. Es lo que hago.
+other:¡En marcha! ¡Y dame una parte!
+ego:Claro, Kent.
 option-off 98
 stop

@@ -1,19 +1,19 @@
 //begin
-// [ ] 1 - "remind me how I find the Largo."
-// [ ] 2 - "Just a warning."
-// [ ] 3 - "You don't have to call me chief you know."
-// [ ] 31 - "What would you say if I told you I've found the Largo?"
-// [ ] 4 - "Do you want to be my co-pilot again?"
-// [x] 5 - "see you later, Kent."
+// [ ] 1 - "Recuérdame cómo encuentro al Largo."
+// [ ] 2 - "Sólo una advertencia."
+// [ ] 3 - "No tienes que llamarme jefe, ¿sabes?"
+// [ ] 31 - "¿Qué dirías si te dijera que he encontrado el Largo?"
+// [ ] 4 - "¿Quieres ser mi copiloto otra vez?"
+// [x] 5 - "Hasta luego, Kent"
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi Chief. 
-other:How's it going.
-ego:One more thing.
+other:Hola Jefe.
+other:¿Cómo va todo?
+ego:Una cosa más.
 option-on 1
 option-on 2
 option-on 3
@@ -23,62 +23,63 @@ option-on 5
 
 return
 
-@1 // remind me how I find the Largo.
-ego:remind me how I find the Largo.
-other:What.. explicitly?
-ego:I don't want to have to come back and ask if I can't find it.
-other:First, go out into andinti space...
-other:Pull up a local system map and check out the pattern of derelicts.
-ego:I know, the grey dots.
-other:Right.
-other:Then dock and launch, and view the new local system map.
-other:One of the grey dots should have moved.
-other:That will be the Largo.
-other:Its broken split drive shifting it around andinti.
-ego:All too easy.
-other:Exactly.
-other:Also. I guess you'll be able to visit it a few times.
-other:It was meant to have a large shipment.
-other:And the larger cargo capacity of your ship the better.
+@1 // Recuérdame cómo encuentro al Largo.
+ego:Recuérdame cómo encuentro al Largo.
+other:¿Qué... explícitamente?
+ego:No quiero tener que volver y preguntar si no puedo encontrarlo.
+other:Primero, salir del espacio de Andinti...
+other:Saca un mapa del sistema local y comprueba el patrón de abandono.
+ego:Lo sé, los puntos grises.
+other:Correcto.
+other:Luego atracar y despegar, y ver el nuevo mapa del sistema local.
+other:Uno de los puntos grises debería haberse movido.
+other:Ese será el Largo.
+other:Su motor dividido roto lo hace moverse alrededor de Andinti.
+ego:Demasiado fácil.
+other:Exactamente.
+other:Ademas. Supongo que podrás visitarlo unas cuantas veces.
+other:Se supone que tendría un gran cargamento.
+other:Y cuanto mayor sea la capacidad de carga de su nave, mejor.
 option-off 1
 return
 
-@2 // Just a warning.
-ego:Just a warning.
-ego:Pirates are still targeting traders and salvagers in general.
-ego:So watch your back little buddy.
-other:Will do Chief.
+@2 // Sólo una advertencia.
+ego:Sólo una advertencia.
+ego:Los piratas siguen atacando a los comerciantes y a los recolectores en general.
+ego:Así que cuida tu espalda, amiguito.
+other:Lo haré, jefe.
 option-off 2
 return
 
-@3 // You don't have to call me chief you know.
-ego:You don't have to call me chief you know.
-other:I know.
+@3 // No tienes que llamarme jefe, ¿sabes?
+ego:No tienes que llamarme jefe, ¿sabes?
+other:Lo sé.
 option-off 3
 return
 
-@31 // What would you say if I told you I've found the Largo?
-ego:What would you say if I told you I've found the Largo?
-other:I'd say..
-other:great! I'll expect some cash coming my way real soon.
-other:but Chief...
-other:...watch out for pirate attacks if you keep going back for more!
-ego:Will do.
+@31 // ¿Qué dirías si te dijera que he encontrado al Largo?
+ego:¿Qué dirías si te dijera que he encontrado al Largo?
+other:Yo diría...
+other:¡Genial! Espero algo de dinero en efectivo muy pronto.
+other:pero Jefe....
+other:....¡cuidado con los ataques de piratas si vuelves a por más!
+ego:Lo haré.
+
 option-off 31
 return
 
-@4 // Do you want to be my co-pilot again?
-ego:Do you want to be my co-pilot again?
-other:Sure, but I have to deal with a court case.
-other:I punched officer grah in the shins.
-ego:Sounds like a minor offence. 
-other:Yeah. I should be free to join up with you in a few months.
+@4 // ¿Quieres ser mi copiloto otra vez?
+ego:¿Quieres ser mi copiloto otra vez?
+other:Claro, pero tengo que lidiar con un caso en la corte.
+other:Le di un puñetazo al oficial Grah en las espinillas.
+ego:Suena como una ofensa menor. 
+other:Sí. Debería ser libre de unirme a ti en unos meses.
 option-off 4
 return
 
 
-@5 // see you later, Kent.
-ego:see you later, Kent.
-other:Bye for now.
+@5 // Te veo luego, Kent.
+ego:Te veo luego, Kent.
+other:Hasta luego.
 Stop
 
