@@ -1,46 +1,46 @@
 //begin
-// [ ] 1 - "Ready to be my co-pilot?"
-// [ ] 2 - "I'm on track earning my way to a good ship."
-// [x] 4 - "see you later, Kent."
+// [ ] 1 - "¿Listo para ser mi copiloto?"
+// [ ] 2 - "Estoy en camino de ganar mi futuro en una buena nave."
+// [x] 4 - "Hasta luego, Kent".
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi Chief. 
-other:Shame the Largo crashed, huh?
-ego:Sure was.
+other:Hola Jefe.
+other:Lástima que el Largo se estrelló, ¿eh?
+ego:Ciertamente.
 option-on 1
 option-on 2
 return
 
-@1 // Ready to be my co-pilot?
-ego:Ready to be my co-pilot?
-other:I thought I told you..
-other:Got this court case to get past.  
-other:For punching officer grah in the shins.
-other:Several times.
-ego:You do have good hand speed.
-other:Exactly.
+@1 // ¿Listo para ser mi copiloto?
+ego:¿Listo para ser mi copiloto?
+other:Pensé que te lo había dicho...
+other:Tengo que superar este caso en la corte.
+other:Para golpear al oficial Grah en las espinillas.
+other:Varias veces...
+ego:Tienes una gran rapidez con las manos.
+other:Exactamente.
 option-off 1
 return
 
-@2 // I'm on track earning my way to a good ship.
-ego:I'm on track earning my way to a good ship.
-other:Great. You should start getting defensive upgrades.
-other:I'm hearing weird things on the grapevine.
-ego:Anything specific.
-other:Just rumours about police movements.
-other:My spidey-sense smells trouble.
-other:Get yourself some afterburners, they always got us out of a bad spot.
+@2 // Estoy en camino de ganar mi futuro en una buena nave.
+ego:Estoy en camino de ganar mi futuro en una buena nave.
+other:Deberías empezar a obtener mejoras defensivas.
+other:He oído cosas raras en los rumores.
+ego:Se específico.
+other:Sólo rumores sobre desplazamientos policiales.
+other:Mi sentido arácnido huele problemas.
+other:Consigue algunos postcombustión, ellos siempre nos sacan de un mal lugar.
 ego:True.
 option-off 2
 return
 
 
-@4 // see you later, Kent.
-ego:see you later, Kent.
-other:Stay frosty out there.
+@4 // Te veo luego, Kent.
+ego:Te veo luego, Kent.
+other:Mantente fresco ahí fuera.
 Stop
 

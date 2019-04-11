@@ -1,75 +1,75 @@
 //begin
-// [ ] 1 - "What was it?"
-// [ ] 2 - "Anyone hurt?"
-// [ ] 3 - "So no more gold salvage."
-// [ ] 31 - "You seem very calm about it all."
-// [ ] 4 - "see you later, Kent."
+// [ ] 1 - "¿Qué fue eso?"
+// [ ] 2 - "¿Algún herido?"
+// [ ] 3 - "Así que no hay más salvamento de oro"
+// [ ] 31 - "Pareces muy tranquilo con todo esto."
+// [ ] 4 - "Hasta luego, Kent"
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi Chief. 
-other:Did you hear that bang!
-ego:The whole station shook...
-ego:..nearly knocked me off my feet.
+other:Hola Jefe.
+other:¿Has oído ese ruido?
+ego:Toda la estación se estremeció....
+ego:...casi me hace perder los estribos.
 option-on 1
 return
 
-@1 // What was it?
-ego:What was it?
-other:It was the Largo ship.
-ego:It rammed the station?
-other:Yes. 
-other:It had been warping around Andinti.
-other:Was bound to hit something eventually.
-other:Slammed into the front right quadrant.
-other:Embedded itself right in.
+@1 // ¿Qué fue eso?
+ego:¿Qué fue eso?
+other:Fue la nave Largo.
+ego:¿Se estrelló contra la estación?
+other:Si. 
+other:Había estado moviéndose alrededor de Andinti.
+other:Estaba destinada a golpear algo eventualmente.
+other:Se estrelló contra el cuadrante delantero derecho.
+other:Se incrustó en sí misma.
 option-off 1
 option-on 2
 option-on 3
 option-on 31
 return
 
-@2 // Anyone hurt?
-ego:Anyone hurt?
-other:Here on the station we had a warning it was about to happen.
-other:The station controller saw it on his scanner.
-other:So they had evacuated the zone of impact...
-other:...but a droid lost a leg.
-ego:That's a relief. 
-ego:I'll get out there and take a look.
+@2 // ¿Algún herido?
+ego:¿Algún herido?
+other:Aquí en la estación tuvimos una advertencia de que estaba a punto de ocurrir.
+other:El controlador de la estación la ha visto en su escáner.
+other:Así que habían evacuado la zona de impacto...
+other:...pero un droide perdió una pierna.
+ego:Eso es un alivio. 
+ego:Voy a salir y echarle un vistazo.
 option-off 2
 option-on 4
 return
 
-@3 // So no more gold salvage.
-ego:So no more gold salvage.
-other:I know.
-other:I hope you found it in time to get some for us.
-other:No chance to get any more now.
-other:The missing Largo was a big story around here...
-other:...I guess the crash will be a hot topic for a few minutes...
-other:...then another story will come along.
-ego:Kent, you sound jaded. Lighten up.
-ego:At least no one was hurt in the crash.
-other:A droid lost a leg!
+@3 // Así que no más salvamento de oro.
+ego:Así que no más salvamento de oro.
+other:Lo sé.
+other:Espero que lo hayas encontrado a tiempo para conseguirnos un poco.
+other:Ya no hay manera de conseguir más.
+other:El Largo era una gran historia por aquí....
+other:...supongo que el choque será tema de moda por unos minutos....
+other:....entonces otra historia llegará.
+ego:Kent, suenas cansado. Alégrate.
+ego:Al menos nadie resultó herido en el accidente.
+other:¡Un droide perdió una pierna!
 option-off 3
 option-on 4
 return
 
-@31 // You seem very calm about it all.
-ego:You seem very calm about it all.
-other:Really? 
-other:great!
-other:I've been working on my imperturbability.
-ego:Fair enough.
+@31 // Pareces muy tranquilo al respecto.
+ego:Pareces muy tranquilo al respecto.
+other:¿En serio?
+other:¡Genial!
+other:He estado trabajando en mi imperturbabilidad.
+ego:Me parece justo.
 option-off 31
 return
 
-@4 // see you later, Kent.
-ego:see you later, Kent.
-other:Bye for now.
+@4 // Te veo luego, Kent.
+ego:Te veo luego, Kent.
+other:Hasta luego.
 Stop
 
