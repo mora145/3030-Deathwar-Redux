@@ -1,13 +1,13 @@
 //begin
-// [x] 1 - "Ok, see you soon."
+// [x] 1 - "Ok, nos vemos pronto."
 //end
 
 @S // dialog startup entry point
-other:John, I'll send you a message soon.
-other:Just keep a watch for it.
+other:John, te enviaré un mensaje pronto.
+other:Sólo ten cuidado con esto.
 option-on 1
 return
 
-@1 // Ok, see you soon.
-ego:Ok, see you soon.
+@1 // Ok, nos vemos pronto.
+ego:Ok, nos vemos pronto.
 stop

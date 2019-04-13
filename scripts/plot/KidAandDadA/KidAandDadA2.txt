@@ -8,7 +8,7 @@
 @S // dialog startup entry point
 other:Hola de nuevo, Sr.
 other:¡Gracias por ayudarme!
-ego:No hay problema, chico.
+ego:No hay problema, niña.
 return
 
 @4 // Adios

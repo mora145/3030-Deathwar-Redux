@@ -9,7 +9,7 @@
 @S // dialog startup entry point
 other:Hola de nuevo, Sr.
 other:Gracias por ayudarme a encontrar a mi papá.
-ego:No hay problema, chico.
+ego:No hay problema, niña.
 other:Si pudiéramos pagarle, lo haríamos...
 other:...pero no somos ricos.
 other:Hay información que mi padre conoce.
@@ -26,7 +26,7 @@ other:Oyó al grupo taoísta...
 other:...ya encontramos el... ¿Largo?
 other:No sé lo que es un Largo.
 other:Supongo que es algo bueno.
-ego:Fortuna y gloria, chico.
+ego:Fortuna y gloria, niña.
 ego:Fortuna y gloria.
 Stop
 

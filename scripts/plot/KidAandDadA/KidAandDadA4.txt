@@ -21,7 +21,7 @@ Stop
 ego:Me vendría bien la fortuna....
 ego:...la gloria es un poco abstracta.
 other:No sé qué significa eso, señor.
-ego:No importa, chico.
+ego:No importa, niña.
 other:Adiós, Sr.
 Stop
 

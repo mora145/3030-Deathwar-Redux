@@ -1,36 +1,36 @@
 //begin
-// [ ] 1 - "What is this taoist business all about?"
-// [ ] 2 - "You seem a strange person"
+// [ ] 1 - "¿Qué es todo este asunto taoísta?"
+// [ ] 2 - "Pareces una persona extraña"
 // [ ] 3 - "See you later"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:One more thing, K'ta.
-other:Go on, my friend. Speak up.
+ego:Una cosa más, K'ta.
+other:Vamos, amigo mío. Habla más fuerte.
 option-on 1
 option-on 2
 return
 
 
-@1 // What is this taoist business all about?
-ego:What is this taoist business all about?
-other:Perhaps another time.
-other:Complete my job and perhaps we will talk.
+@1 // ¿De qué se trata este asunto taoísta?
+ego:¿De qué se trata este asunto taoísta?
+other:Tal vez en otro momento.
+other:Termina mi trabajo y tal vez hablemos.
 option-on 3
 option-off 1
 return
 
-@2 // You seem a strange person
-ego:You seem a strange person
-other:Well thank you. I think.
+@2 // Pareces una persona extraña.
+ego:Pareces una persona extraña.
+other:Bueno, gracias. Creo...
 option-off 2
 option-on 3
 return
 
-@3 // see you later.
-ego:See you later
-other:Sure.
-other:Just drop the cargo container outside this station.
+@3 // Nos vemos más tarde.
+ego:Nos vemos más tarde.
+other:Claro.
+other:Sólo deja el contenedor de carga fuera de esta estación.
 stop

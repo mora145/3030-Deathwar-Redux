@@ -1,5 +1,5 @@
 //begin
-// [ ] 1 - "Why don't we give him a call?"
+// [ ] 1 - "¿Por qué no lo llamamos?"
 // [ ] 2 - "¿Cuántos años tienes?"
 // [ ] 3 - "¿Esto es algún tipo de estafa?"
 // [ ] 31 - "Sigo pensando que esto es una trampa."
@@ -17,7 +17,7 @@
 other:Hola, Sr.
 other: ¿Podría ayudarme?
 ego:¿Cuál es el problema?
-other:Se supone que mi padre se encontrará conmigo aquí.
+other:Se supone que mi padre se encontraria conmigo aquí.
 other:Pero no ha llegado.
 option-on 1
 option-on 2
