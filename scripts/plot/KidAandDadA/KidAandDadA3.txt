@@ -1,48 +1,48 @@
 //begin
-// [x] 1 - "What's the info?"
-// [x] 2 - "I need to get going."
-// [x] 3 - "I knew this was a con!"
+// [x] 1 - "¿Cuál es la información?"
+// [x] 2 - "Tengo que irme."
+// [x] 3 - "¡Sabía que esto era una estafa!"
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi again, Mr.
-other:Thanks for helping find my Dad.
-ego:No problem, Kid.
-other:If we could repay you we would...
-other:..but we are not rich.
-other:There is some info my dad knows.
+other:Hola de nuevo, Sr.
+other:Gracias por ayudarme a encontrar a mi papá.
+ego:No hay problema, chico.
+other:Si pudiéramos pagarle, lo haríamos...
+other:...pero no somos ricos.
+other:Hay información que mi padre conoce.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // What's the info?
-ego:What's the info?
-other:He said he heard a thing...
-other:That you might like to know.
-other:He heard the Taoist group..
-other:..already found the... Largo?
-other:I don't know what a Largo is.
-other:I guess it's a good thing.
-ego:Fortune and glory, Kid.
-ego:Fortune and glory.
+@1 // ¿Cuál es la información?
+ego:¿Cuál es la información?
+other:Dijo que oyó algo...
+other:...Que te gustaría saber.
+other:Oyó al grupo taoísta...
+other:...ya encontramos el... ¿Largo?
+other:No sé lo que es un Largo.
+other:Supongo que es algo bueno.
+ego:Fortuna y gloria, chico.
+ego:Fortuna y gloria.
 Stop
 
-@2 // I need to get going.
-ego:I need to get going.
-ego:Have a good time in Andinti.
-other:Bye, Mr.
+@2 // Tengo que irme de aquí.
+ego:Tengo que irme de aquí.
+ego:Diviértete en Andinti.
+other:Adiós, Sr.
 Stop
 
-@3 // I knew this was a con!
-ego:I knew this was a con!
-ego:You're gonna hit me with a sob story?
-ego:Then ask for a loan?
-other:Why are you being mean?
-ego:Sorry, it pays to be suspicious sometimes.
-ego:And I'm having a bad week.
-other:Ok, Mr.
+@3 // ¡Sabía que esto era una estafa!
+ego:¡Sabía que esto era una estafa!
+ego:¿Vas a golpearme con una historia triste?
+ego:¿Entonces pides un préstamo?
+other:¿Por qué eres tan malo?
+ego:Lo siento, a veces vale la pena sospechar.
+ego:Y estoy teniendo una mala semana.
+other:Ok, Sr.
 Stop
 

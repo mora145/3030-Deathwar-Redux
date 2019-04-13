@@ -1,35 +1,35 @@
 //begin
 // [ ] 1 - "Why don't we give him a call?"
-// [ ] 2 - "How old are you?"
-// [ ] 3 - "Is this some sort of con?"
-// [ ] 31 - "I still think this feels like a setup."
-// [ ] 4 - "Where might he be?"
-// [ ] 41 - "And what is your name?"
-// [ ] 5 - "I'll keep an eye out for him."
-// [ ] 6 - "I'll go find him.."
-// [x] 7 - "Bye."
+// [ ] 2 - "¿Cuántos años tienes?"
+// [ ] 3 - "¿Esto es algún tipo de estafa?"
+// [ ] 31 - "Sigo pensando que esto es una trampa."
+// [ ] 4 - "¿Dónde podría estar?"
+// [ ] 41 - "¿Y cuál es tu nombre?"
+// [ ] 5 - "Le echaré un ojo".
+// [ ] 6 - "Iré a buscarlo..."
+// [x] 7 - "Adiós".
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hello, Mr.
-other:Could you help me?
-ego:What's the problem?
-other:My Dad is meant to meet me here.
-other:But he's not arrived.
+other:Hola, Sr.
+other: ¿Podría ayudarme?
+ego:¿Cuál es el problema?
+other:Se supone que mi padre se encontrará conmigo aquí.
+other:Pero no ha llegado.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // Why don't we give him a call?
-ego:Why don't we give him a call?
-ego:What's his ID?
-other:I don't remember.
-other:Now I am worried about him.
-other:Can you help me find him?
+@1 // ¿Por qué no lo llamamos?
+ego:¿Por qué no lo llamamos?
+ego:¿Cuál es su identificación?
+other:No me acuerdo.
+other:Ahora estoy preocupado por él.
+other:¿Puedes ayudarme a encontrarlo?
 option-off 1
 option-off 2
 option-off 3
@@ -38,10 +38,10 @@ option-on 5
 return
 
 @2 // 2?
-ego:How old are you?
-other:I am about 6 cycles and a half.
-ego:Well that's too young to be left at this place.
-other:So you will help me find my Dad?
+ego:¿Cuántos años tienes?
+other:Tengo unos 6 ciclos y medio.
+ego:Bueno, eso es demasiado joven para quedarte en este lugar.
+other:Entonces, ¿me ayudarás a encontrar a mi padre?
 option-off 1
 option-off 2
 option-off 3
@@ -50,12 +50,12 @@ option-on 5
 return
 
 @3 // 3?
-ego:Is this some sort of con?
-other:What's a.. con?
-other:I've lost my Dad.
-other:It's true.
-other:I think he's gone to the wrong place.
-other:Can you help me find him?
+ego:¿Esto es algún tipo de estafa?
+other:¿Qué es una... estafa?
+other:He perdido a mi padre.
+other:Es verdad.
+other:Creo que se ha ido al lugar equivocado.
+other:¿Puedes ayudarme a encontrarlo?
 option-off 1
 option-off 2
 option-off 3
@@ -64,72 +64,72 @@ option-on 4
 option-on 5
 return
 
-@31 // I still think this feels like a setup.
-ego:I still think this feels like a setup.
-ego:You're probably a robot of some kind.
-other:No Sir.
-other:I've lost my Dad.
-other:It's true.
-ego:Ok sure. 
-ego:But if you turn out to be a robot...
-ego:...or just a short woman in her 50's.
-ego:You've picked on the wrong mark.
-other:It's true, Mr.
+@31 // Sigo pensando que esto parece una trampa.
+ego:Sigo pensando que esto parece una trampa.
+ego:Probablemente eres un robot de algún tipo.
+other:No Señor.
+other:He perdido a mi padre.
+other:Es verdad.
+ego:Ok seguro. 
+ego:Pero si resultas ser un robot...
+ego:...o sólo una mujer bajita de unos 50 años.
+ego:Te has metido con el objetivo equivocado.
+other:Es verdad, Sr.
 option-off 31
 return
 
-@4 // Where might he be?
-ego:Where might he be?
-other:I think he went to one of the other Stations.
-other:We are from Daphice.
-other:We thought there was only one...
-other:.and were to meet at the Andinti Station.
-ego:I see, you both came by different taxi shuttles?
-other:Yes, taxi. He had to come later.
-other:He should have met me by now.
-other:He must have been put on another station.
-ego:Ok. Don't worry.
-ego:He won't be far.
+@4 // ¿Dónde podría estar?
+ego:¿Dónde podría estar?
+other:Creo que fue a una de las otras estaciones.
+other:Somos de Daphice.
+other:Pensábamos que sólo había una...
+other:...y nos encontraríamos en la estación Andinti.
+ego:Ya veo, ¿ambos vinieron en diferentes lanzaderas de taxi?
+other:Sí, taxi. Tenía que venir más tarde.
+other:Ya debería haberme encontrado.
+other:Debe haber sido enviado a otra estación.
+ego:Ok. No te preocupes.
+ego:No debe estar lejos.
 option-off 4
 option-on 41
 option-on 5
 option-on 6
 return
 
-@41 // And what is your name?
-ego:And what is your name?
-other:My name is Ugan.
-ego:Ok then, Ugan.
-ego:You stay here and don't go anywhere.
+@41 // ¿Y cuál es tu nombre?
+ego:¿Y cuál es tu nombre?
+other:Mi nombre es Ugan.
+ego:Entonces, está bien, Ugan.
+ego:Tú quédate aquí y no vayas a ninguna parte.
 option-off 41
 return
 
-@5 // I'll keep an eye out for him.
-ego:I'll keep an eye out for him.
-other:Ok, Mr.
-other:He should be in his blue top.
-other:It would be great if you found him.
-ego:I bet he'll be at Rub Ba 2 or YSA station.
-other:Thanks, Mr. I feel better already.
+@5 // Le echaré un ojo.
+ego:Le echaré un ojo.
+other:Ok, Sr.
+other:Lleva puesto una blusa azul.
+other:Sería genial que lo encontraras.
+ego:Apuesto a que estará en Rub Ba 2 o en la estación de YSA.
+other:Gracias, señor, ya me siento mejor.
 option-off 5
 Stop
 
-@6 // I'll go find him.
-ego:I'll go find him.
-ego:I'll tell him where you are.
-other:Wow, thanks Mr.
-other:He's called... 
-other:...err... I just call him Daddy.
-other:He will be wearing his blue top.
-ego:OK, I'll find him.
-ego:I bet he'll be at Rub Ba 2 or YSA station.
-other:Thanks, Mr. I feel better already.
+@6 // Iré a buscarlo.
+ego:Iré a buscarlo.
+ego:Yo le diré dónde estás.
+other:Wow, gracias Sr.
+other:Se llama... 
+other:...err.... Sólo lo llamo papi.
+other:Lleva puesto una blusa azul.
+ego:Bien, lo encontraré.
+ego:Apuesto a que estará en Rub Ba 2 o en la estación de YSA.
+other:Gracias, señor, ya me siento mejor.
 option-off 6
 Stop
 
-@7 // Bye
-ego:Bye.
-other:Bye, Mr.
-other:Hope you look for him.
+@7 // Adiós
+ego:Adiós.
+other:Adiós, Sr.
+other:Espero que lo encuentres.
 Stop
 

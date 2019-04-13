@@ -1,27 +1,27 @@
 //begin
-// [x] 1 - "I'm just doing my thing."
-// [x] 2 - "I could do with the fortune..."
+// [x] 1 - "Sólo estoy haciendo lo mío"
+// [x] 2 - "Me vendría bien la fortuna..."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi again Mr.
-other:Hope you find your fortune and glory.
+other:Hola de nuevo Sr.
+other:Espero que encuentres tu fortuna y tu gloria.
 return
 
-@1 // I'm just doing my thing.
-ego:I'm just doing my thing.
-ego:Travelling, investigating.
-other:Sounds exciting, Mr.
-ego:I guess so.
+@1 // Sólo estoy haciendo lo mío.
+ego:Sólo estoy haciendo lo mío.
+ego:Viajando, investigando.
+other:Suena emocionante, Sr.
+ego:Supongo que sí.
 Stop
 
-@2 // I could do with the fortune...
-ego:I could do with the fortune...
-ego:..glory is a bit abstract.
-other:I don't know what that means, Mr.
-ego:Nevermind, Kid.
-other:Bye, Mr.
+@2 // Me vendría bien la fortuna....
+ego:Me vendría bien la fortuna....
+ego:...la gloria es un poco abstracta.
+other:No sé qué significa eso, señor.
+ego:No importa, chico.
+other:Adiós, Sr.
 Stop
 

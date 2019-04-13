@@ -41,6 +41,6 @@ return
 
 @4 // Te veo luego, Kent.
 ego:Te veo luego, Kent.
-other:Mantente fresco ahí fuera.
+other:Mantente en calma ahí fuera.
 Stop
 
