@@ -1,7 +1,7 @@
 //begin
 // [ ] 1 - "¿Qué sabes de los taoístas?"
 // [ ] 2 - "¿Qué hay de ese Drone Asesino?"
-// [ ] 22 - "¿Crees que seré el objetivo?"
+// [ ] 22 - "¿Crees que seré atacado?"
 // [ ] 23 - "¿Qué hay de la lanzadera?"
 // [ ] 3 - "Háblame de la estación HBE"
 // [x] 4 - "Adiós."
@@ -32,74 +32,74 @@ other:Así que claramente tienen enemigos.
 option-off 1
 return
 
-@2 // What about that Drone Assassin?
-ego:What about that Drone Assassin?
-other:The hoverboarder? 
-other:We confirmed she released all the kill-bots.
-other:She had a backpack full of them.
-other:You blasted her head off! haha.
-other:Don't worry about it. She was a wanted murderer.
-ego:What about those who hired her?
-other:She came on a shuttle from the badlands system.
-other:We will do what we can to find out more.
-other:But be sure to Keep the gun handy.
-other:I fixed you up with a permanent licence.
+@2 //  ¿Qué hay de ese Drone Asesino?
+ego: ¿Qué hay de ese Drone Asesino?
+other:¿El aerodeslizador?
+other:Confirmamos que liberó a todos los robots asesinos.
+other:Ella tenía una mochila llena de ellos.
+other:¡Le volaste la cabeza! ¡Ja, ja, ja!
+other:: No te preocupes por eso. Era una asesina buscada.
+ego:¿Qué hay de los que la contrataron?
+other:Ella vino en un transbordador desde el sistema Badlands.
+other:Haremos lo que podamos para averiguar más.
+other:Pero asegúrate de tener el arma a mano.
+other:Te conseguí una licencia permanente.
 option-off 2
 option-on 22
 option-on 23
 return
 
-@22 // Do You think I will be targeted?
-ego:Do You think I will be targeted?
-ego:In revenge?
-other:Not from this. Just between us...
-other:We monitored communications.
-ego:And?
-other:They don't know you did the job.
-ego:Finally, some good news.
-other:I can't tell you any more detail.
-other:But something weird is going on.
-other:Lots more gang activity in general.
+@22 // ¿Crees que seré atacado?
+ego:¿Crees que seré atacado?
+ego:¿En venganza?
+other:No por esto. Entre nosotros...
+other:...Monitoreamos las comunicaciones.
+ego:¿Y?
+other:No saben que hiciste el trabajo.
+ego:Por fin, algunas buenas noticias.
+other:No puedo contarte más detalles.
+other:Pero algo raro está pasando.
+other:Mucha más actividad de pandillas en general.
 option-off 22
 return
 
-@23 // What about the shuttle?
-ego:What about the shuttle?
-other:The taxi driver checks out clean.
-other:The assassin was just a hired killer working alone.
-other:Last time she did a hit was in Andinti.
-other:She killed a bardroid on Rub Ba 2.
-other:We couldn't catch her that time.
-ego:I was lucky I guess, she didn't have a gun.
-other:Yeah, It's hard to get guns into stations.
-other:So killers often specialise in Robotics. 
+@23 // ¿Qué hay de la lanzadera?
+ego:¿Qué hay de la lanzadera?
+other:El taxista se va limpio.
+other:El asesino era sólo un asesino a sueldo que trabajaba solo.
+other:La última vez que lo hizo fue en Andinti.
+other:Mató a un bardroide en Rub Ba 2.
+other:No pudimos atraparla esa vez.
+ego:Tuve suerte, supongo que no tenía un arma.
+other:Sí, es difícil llevar armas a las estaciones.
+other:Así que los asesinos a menudo se especializan en robótica.
 option-off 23
 return
 
-@3 // Tell me about HBE station.
-ego:Tell me about HBE station.
-other:It's an old converted Frigate from the last Deathwar.
-ego:Does it still fly?
-other:Oh yeah, it can.
-other:But it's not done so for 200 years.
-other:It just stays here as the police Head Quarters.
-other:Still, might need to fix her up. Suns can explode!
-other:Did you hear about Daphice?
-other:It was the main topic of conversation here.
-other:Until the stab-drone kill-bots outbreak.
-ego:Yeah. I heard about it.
-other:Strange days, Mr Falcon.
-ego:Isn't it always?
-other:Hmmm... I guess you're right. 
-other:All I know is, I look freakin cool in these shades.
-ego:What a professional attitude.
-other:Thanks. 
+@3 // Háblame de la estación HBE.
+ego:Háblame de la estación HBE.
+other:Es una vieja fragata de la guerra global, transformada.
+ego:¿Todavía vuela?
+other:Oh, sí, puede.
+other:Pero no lo ha hecho en 200 años.
+other:Se queda aquí como el cuartel general de la policía.
+other:Aún así, puede ser necesario arreglarla. Los soles pueden explotar!
+other:¿Has oído hablar de Daphice?
+other:Fue el tema principal de conversación aquí.
+other:Hasta el brote de robots asesinos.
+ego:Sí. Me enteré de ello.
+other:Días extraños, Sr. Falcon.
+ego:¿No es siempre así?
+other:Hmmm.... Supongo que tienes razón.
+other:Todo lo que sé es que me veo muy bien con estas gafas de sol.
+ego:Qué actitud tan profesional.
+other:otros:Gracias.
 option-off 3
 return
 
-@4 // Bye
-ego:Bye.
-other:Thanks again. 
-other:Keep out of trouble.
+@4 // Adiós
+ego:Adiós.
+other:Gracias de nuevo.
+other:No te metas en problemas.
 Stop
 

@@ -33,33 +33,33 @@ falcon:Por eso estas verde.
 Osiris:Quiero que sepas que eso es simbolico.
 Osiris:Significa algo... 
 Osiris:...pero no puedo recordar como lo has olvidado.
-falcon:Exactamente, debido al hecho de que es mi sueno.
+falcon:Exactamente, debido al hecho de que es mi sueño.
 falcon:Cualquiera que sea Gran 'O'.
 falcon:Es hora de cambiar este paisaje de ensueño.
-Osiris:Genial .
+Osiris:Genial.
 Osiris:¡Empecemos la fiesta!
 falcon:Muy bien.
 goon:No se por que estoy aqui.
 goon:¿Estas seguro de que estas soñando?
-falcon:Probablemente solo que te conoci hace poco.
+falcon:Probablemente, solo que te conoci hace poco.
 falcon:Hmmm, si, realmente estoy soñando..
 falcon:Vamos a animar a esa criatura.
-Osiris:Senor, usted es el rey aqui.
+Osiris:Señor, usted es el rey aqui.
 Osiris:Hey criatura..
-SE:¿Yo? ¡Traga! ¡Traga! ¡Traga!
-SE:¡Traga! Tengo la cabeza de un cocodrilo.
-SE:En realidad es bastante tierno. ¡Traga! ¡Traga!
+SE:¿Yo? '''Mastica, mastica, mastica'''
+SE: '''Mastica''' Tengo la cabeza de un cocodrilo.
+SE:En realidad es bastante tierno. '''Mastica, mastica, mastica'''
 goon:Silencio de caracter periferico.
 SE:¿¡¡Periferico!!?
 SE:Me trago los corazones del compañero indigno.
 falcon:Si, lo recuerdo.
 goon:Me gustaria preguntar...
 goon:¿Puedo unirme a la fiesta?
-falcon:Todos somos yo aqui, seguro.
+falcon:Aqui todos somos yo, seguro.
 goon:¡Si!
 goon:Bien hecho, yo.
 Osiris:¡Yo autorizo un buen rato!
-SE:¡Estoy dentro! ¡Traga! ¡Traga!
+SE:¡Estoy dentro! '''Mastica, mastica'''
 falcon:Incluso para mi, este es un sueno bastante raro.
 falcon:Lo siento chicos...
 falcon:...tendremos que posponer la fiesta.

@@ -34,7 +34,7 @@ helper:Las especies inferiores estan a punto de sufrir una rapida disminucion de
 helper:¡Muhaha!
 badcop:Vamonos de una vez.
 badcop:Huele a sucio humano en estas cuevas.
-helper:Adelante, Sr. Gebbo. 
+helper:Adelante, Sr. Gebbo.
 
 }
 
