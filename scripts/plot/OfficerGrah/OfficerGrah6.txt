@@ -1,7 +1,7 @@
 //begin
-// [ ] 1 - "Are you going to free Kent now or what?"
-// [ ] 2 - "I did the job. Release my robot."
-// [ ] 4 - "Bye."
+// [ ] 1 - "¿Vas a liberar a Kent ahora o qué?"
+// [ ] 2 - "Hice el trabajo. Suelta mi robot"
+// [ ] 4 - "Adiós."
 
 //end
 
@@ -9,45 +9,45 @@
 // dialog script file
 @S // dialog startup entry point
 ego:Hey Grah.
-other:You did a good job, Sir.
-ego:I know.
+other:Hizo un buen trabajo, señor.
+ego:Lo sé.
 option-on 1
 option-on 2
 return
 
-@1 // Are you going to free Kent now or what?
-ego:Are you going to free Kent now or what?
-other:Well, it is a...
-ego:You know I have a gun now.
-other:Sure, sure!
-other:He's free to go after one form.
-other:I'll send him down to your ship pronto.
-other:I think there was a reward for what you did.
-other:I'll check. Maybe you'll get some money sent soon.
-other:Kent is free, keep the gun.
+@1 // ¿Vas a liberar a Kent ahora o qué?
+ego:¿Vas a liberar a Kent ahora o qué?
+other:Bueno, es un....
+ego:Sabes que ahora tengo un arma.
+other:¡Claro, claro!
+other:Es libre después de unos formularios.
+other:Lo enviaré a tu nave pronto.
+other:Creo que había una recompensa por lo que hiciste.
+other:Lo comprobaré. Tal vez te envíen dinero pronto.
+other:Kent es libre, quédate con el arma.
 option-off 1
 option-off 2
 option-on 4
 return
 
-@2 // I did the job. Release my robot.
-ego:I did the job. Release my robot.
-other:Hey, Grah keeps his deals.
-other:My word is like my Mustache, Buddy.
-other:Strong and reliable.
-ego:And what about the gun?
-other:Kent is free, keep the gun.
-other:You can even have the reward that was offered.
-ego:Ok, nice. How much?
-other:I think it was twenty. It will be Transfered now.
-givemoney,20000,Reward from Officer Grah
+@2 // Hice el trabajo. Suelta mi robot.
+ego:Hice el trabajo. Suelta mi robot.
+other:Oye, Grah cumple con sus promesas.
+other:Mi palabra es como mi bigote, amigo.
+other:Fuerte y fiable.
+ego:¿Y qué hay del arma?
+other:Kent es libre, quédese con el arma.
+other:Incluso puedes recibir la recompensa que se te ha ofrecido.
+ego:Ok, bien. ¿Cuánto?
+other:Creo que fueron veinte. Se transferirá ahora.
+givemoney,20000,Recompensa del oficial Grah.
 option-off 1
 option-off 2
 option-on 4
 return
 
-@4 // Bye
-ego:Bye.
-other:Thanks again. Keep out of trouble.
+@4 // Adiós
+ego:Adiós.
+other:Gracias de nuevo. No te metas en líos.
 Stop
 

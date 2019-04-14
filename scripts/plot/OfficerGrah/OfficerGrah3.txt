@@ -1,10 +1,10 @@
 //begin
-// [ ] 1 - "What's up?"
-// [ ] 2 - "I just want an easy life."
-// [ ] 3 - "Still relaxing at the bar?"
-// [ ] 51 - "Did you get anywhere with the case of my stolen ship?"
-// [ ] 52 - "What about my stolen ship you lazy git!"
-// [x] 4 - "Bye."
+// [ ] 1 - "¿Qué pasa?"
+// [ ] 2 - "Sólo quiero una vida tranquila."
+// [ ] 3 - "¿Todavía relajándose en el bar?"
+// [ ] 51 - "¿Llegaste a algo con el caso de mi nave robada?"
+// [ ] 52 - "¿Qué hay de mi nave robada, holgazán?"
+// [x] 4 - "Adiós."
 
 //end
 
@@ -12,16 +12,16 @@
 // dialog script file
 @S // dialog startup entry point
 ego:Hey Grah.
-other:Hi, Falcon! I thought you might turn up.
+other:¡Hola, Falcon! Pensé que podrías llegar.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // What's up?
-ego:What's up?
-other:Go talk to Kent.
-other:He's your Buddy, right?
+@1 // ¿Qué pasa?
+ego:¿Qué pasa?
+other:Ve a hablar con Kent.
+other:Es tu amigo, ¿verdad?
 option-off 1
 option-off 2
 option-off 3
@@ -29,11 +29,11 @@ option-on 51
 option-on 52
 return
 
-@2 // I just want an easy life.
-ego:I just want an easy life.
-other:Don't we all?
-other:Go talk to Kent. He's not having it easy.
-other:He's your Buddy, right?
+@2 // Sólo quiero una vida tranquila.
+ego:Sólo quiero una vida tranquila.
+other:¿No lo queremos todos?
+other:Ve a hablar con Kent. No lo está teniendo fácil.
+other:Es tu amigo, ¿verdad?
 option-off 1
 option-off 2
 option-off 3
@@ -41,12 +41,12 @@ option-on 51
 option-on 52
 return
 
-@3 // Still relaxing at the bar?
-ego:Still relaxing at the bar?
-ego:Shouldn't you be out fighting crime?
-other:Watch it, Pal. 
-other:I lost some good cops this week.
-other:There is an active incident going on.
+@3 // ¿Todavía relajándose en el bar?
+ego:¿Todavía relajándose en el bar?
+ego:¿No deberías estar luchando contra el crimen?
+other:Ten cuidado, amigo.
+other:Perdí algunos buenos policías esta semana.
+other:Hay un incidente activo en curso.
 option-off 1
 option-off 2
 option-off 3
@@ -54,33 +54,33 @@ option-on 51
 option-on 52
 return
 
-@51 // Did you get anywhere with the case of my stolen ship?
-ego:Did you get anywhere with the case of my stolen ship?
-other:Let it go, Man. It's just a ship.
-ego:I take it from that you did not investigate further. 
-ego:I also had some gang member attempt to kill me.
-other:Let it go, Man. It was just an attempt.
-other:If they are successful, then report it.
-other:We don't have the resources to follow up on attempted murder.
-other:I got bigger problems right now.
+@51 // ¿Llegaste a algo con el caso de mi nave robada?
+ego:¿Llegaste a algo con el caso de mi nave robada?
+other:Déjalo ir, hombre. Es sólo una nave.
+ego:De ahí que no hayas investigado más. 
+ego:También hubo un pandillero que intentó matarme.
+other:Déjalo ir, hombre. Sólo fue un pequeño intento.
+other:Si tienen éxito, entonces repórtelo.
+other:No tenemos los recursos para investigar un intento de asesinato.
+other:Tengo problemas más serios ahora.
 option-off 51
 option-off 52
 return
 
-@52 // What about my stolen ship you lazy git!
-ego:What about my stolen ship you lazy git!
-other:Falcon, you just keep pushing it.
-other:You just earned yourself a 200 fine.
-other:Insulting an pig.. I mean Officer.
-takemoney,200,Fined for insulting Officer Grah
+@52 // ¡¿Qué hay de mi nave robada, holgazán?!
+ego:¡¿Qué hay de mi nave robada, holgazán?!
+other:Falcon, tu solo sigues insistiendo.
+other:Acabas de ganarte una multa de 200 dólares.
+other:Insultar a un cerdo... Quiero decir, oficial.
+takemoney,200,Multado por insultar al oficial Grah.
 option-off 51
 option-off 52
 return
 
-@4 // Bye
-ego:Bye.
-other:Oh, one more thing...
-other:Your friend over there is in a bunch of trouble. 
-other:You should talk to him.
+@4 // Adiós
+ego:Adiós.
+other:Oh, una cosa más....
+other:Tu amigo tiene un montón de problemas. 
+other:Deberías hablar con él.
 Stop
 

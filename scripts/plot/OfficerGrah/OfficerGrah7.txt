@@ -1,10 +1,10 @@
 //begin
-// [ ] 1 - "What do you know about the Taoists?"
-// [ ] 2 - "What about that Drone Assassin?"
-// [ ] 22 - "You think I will be targeted?"
-// [ ] 23 - "What about the shuttle?"
-// [ ] 3 - "Tell me about HBE station."
-// [x] 4 - "Bye."
+// [ ] 1 - "¿Qué sabes de los taoístas?"
+// [ ] 2 - "¿Qué hay de ese Drone Asesino?"
+// [ ] 22 - "¿Crees que seré el objetivo?"
+// [ ] 23 - "¿Qué hay de la lanzadera?"
+// [ ] 3 - "Háblame de la estación HBE"
+// [x] 4 - "Adiós."
 
 //end
 
@@ -12,23 +12,23 @@
 // dialog script file
 @S // dialog startup entry point
 ego:Hey Grah..
-ego:...one more thing.
+ego:...una cosa más.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // What do you know about the Taoists?
-ego:What do you know about the Taoists?
-other:The Taoist Group?
-other:They are a non-criminal trader syndicate.
-other:They pool some funds and help out traders.
-ego:In what way?
-other:Members who are in Financial trouble.
-other:The guy in the cage there is a member.
-other:I've not heard any reports of involvement in piracy.
-other:But then, the target of the kill-bots was a Taoist Pilot.
-other:So they clearly do have enemies.
+@1 // ¿Qué sabes de los taoístas?
+ego:¿Qué sabes de los taoístas?
+other:¿El Grupo Taoísta?
+other:Son un sindicato de comerciantes sin fines de lucro.
+other:Reúnen algunos fondos y ayudan a los comerciantes.
+ego:¿En qué sentido?
+other:Miembros que están en problemas financieros.
+other:El tipo en la celda es un miembro.
+other:No he escuchado ningún reporte de participación en piratería.
+other:Pero entonces, el objetivo de los robots asesinos era un piloto taoísta.
+other:Así que claramente tienen enemigos.
 option-off 1
 return
 
