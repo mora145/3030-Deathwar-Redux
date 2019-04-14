@@ -35,7 +35,7 @@ boss:Odio esa frase.
 boss:No tiene sentido.
 goon:Ok seguro. Le esperare fuera de una estacion...
 goon:...y BAM!!! 
-goon:¡Metete en su cagadero!
+goon:¡Metete en su carga!
 helper:Si tenemos suerte, Falcon no estara armado.
 boss:Informame cuando este hecho.
 goon:De acuerdo.

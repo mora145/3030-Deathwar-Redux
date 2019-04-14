@@ -18,9 +18,9 @@ dialogue
 {
 boss:Ah...
 boss:...es tan bueno volver a mi nave.
-helper:Si, senor.
+helper:Si, señor.
 boss:Quien es este?
-helper:Un cazarrecompensas, senor. 
+helper:Un cazarrecompensas, señor. 
 helper:Necesitamos mas pilotos.
 helper:Este John Falcon podria ser un blanco dificil.
 boss:Bien.
@@ -38,7 +38,7 @@ goon:Yo?
 goon:Naaah.
 helper:Oh chico.
 boss:Sosten mi casco por un segundo.
-helper:Si senor.
+helper:Si señor.
 
 }
 

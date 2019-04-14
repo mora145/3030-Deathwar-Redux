@@ -19,13 +19,13 @@ out
 dialogue
 {
 
-helper:Eso es lo que escuche.
+helper:Eso es lo que escuché.
 goon:¿De verdad?
 goon:¿Capitan Liu?
 helper:Si.
 helper:Ella tenia su nueva nave confiscada.
 goon:El jefe estara contento.
-goon:La entretendra en la caza del Largo.
+goon:La entretendra de la caza del Largo.
 helper:Si.
 helper:Asi que no nos molestaremos en advertirle.
 helper:Entonces no tendremos que tratar con su ingeniero jefe.

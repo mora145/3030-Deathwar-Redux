@@ -31,7 +31,7 @@ bosschair:¡Cuando desaparecio estaba llena de oro chicos!:data/voice/act1/act1-
 bosschair:Nueve...
 bosschair:Mil...
 bosschair:Toneladas.:data/voice/act1/act1-i.wav
-bosschair:¡Ahora ve a cazar a esos recuperadores!
+bosschair:¡Ahora vayan a cazar a esos recuperadores!
 }
 
 text
