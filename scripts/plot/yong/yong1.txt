@@ -68,7 +68,7 @@ ego:Siempre me pierdo las peleas de bar.
 ego:He oído que son comunes por aquí...
 ego:...pero nunca he visto una.
 other:¿Quién te ha dicho eso?
-other:Apenas se consigue desde que armaron a los bardroides.
+other:Apenas se ven desde que armaron a los bardroides.
 option-off 40
 return
 

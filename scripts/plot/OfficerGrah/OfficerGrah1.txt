@@ -1,56 +1,56 @@
 //begin
-// [ ] 1 - "Any news about my ship?"
-// [ ] 2 - "What's up Grah?"
-// [ ] 3 - "I'm here for my compensation!"
-// [x] 4 - "Bye."
+// [ ] 1 - "¿Alguna noticia de mi nave?"
+// [ ] 2 - "¿Qué pasa, Grah?"
+// [ ] 3 - "¡Estoy aquí por mi compensación!"
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hey Officer Grah!
-other:Yes?
-other:Oh, Hi there...
-other:..Falcon, right?
-other:An Officer of the Law never forgets a face.
+ego:¡Oficial Grah!
+other:¿Si?
+other:Oh, Hola....
+other:...Falcon, ¿verdad?
+other:Un Oficial de la Ley nunca olvida un rostro.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // Any news about my ship?
-ego:Any news about my ship?
-other:I heard it happened to several traders.
-other:Some kind of scam.
-other:Word is it had to do with that Largo ship.
-other:But you were one of the last to get stung.
-ego:Great. 
-other:Sorry, Buddy.
+@1 // ¿Alguna noticia de mi nave?
+ego:¿Alguna noticia de mi nave?
+other:He oído que le pasó a varios comerciantes.
+other:Algún tipo de estafa.
+other:Se dice que tuvo que ver con la nave Largo.
+other:Pero tú fuiste uno de los últimos en ser mordido.
+ego:Genial.
+other:Lo siento, Buddy.
 option-off 1
 return
 
-@2 // What's up Grah?
-ego:What's up Grah?
+@2 // ¿Qué pasa, Grah?
+ego:¿Qué pasa, Grah?
 other:Oh, you know.
-other:I'm off duty so having drink.
-other:Getting the combat drugs out of my system.
+other:Estoy de descanso, así que tomo un trago.
+other:Sacando las drogas fuera de mi sistema.
 option-off 2
 return
 
-@3 // I'm here for my compensation!
-ego:I'm here for my compensation!
-other:What? Hahaha.
-other:For the stolen ship you bought?
-other:You will not get any from the police.
-other:...or the Council.
-ego:Well I've nearly earned it back now anyway.
-other:Yeah, Freelancers get the big money.
+@3 // ¡Estoy aquí por mi compensación!
+ego:¡Estoy aquí por mi compensación!
+other:¿Qué? Jajaja.
+other:¿Por la nave robada que compraste?
+other:No obtendrás nada de la policía.
+other:...o el Consejo.
+ego:Bueno, de todos modos casi me la he ganado de nuevo.
+other:Sí, los freelancers consiguen mucho dinero.
 option-off 3
 return
 
-@4 // Bye
-ego:Bye.
-other:Later.
+@4 // Adiós
+ego:Adiós.
+other:Hasta luego.
 Stop
 

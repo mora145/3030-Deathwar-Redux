@@ -1,38 +1,38 @@
 //begin
-// [x] 1 - "Of course."
-// [x] 2 - "Not yet but I'll find it."
-// [x] 3 - "I haven't a clue where it is."
-// [ ] 4 - "Ok, I'll get it done."
-// [ ] 5 - "No, not yet. I might come back later."
+// [x] 1 - "Por supuesto"
+// [x] 2 - "Aún no, pero lo encontraré."
+// [x] 3 - "No tengo ni idea de dónde está."
+// [ ] 4 - "Ok, lo haré."
+// [ ] 5 - "No, todavía no. Podría volver más tarde."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi, I got k'ta fly's message to meet you here.
-ego:he said you'd be able to help me.
-other:Yes, my name is morgan yu and I'm an old friend of k'ta.
-other:he has told me about you and asked me to entrust you...
-other:...with a delicate mission.
-ego:delicate you say?
-other:yes, quite. you are to take this religious artefact to daphice. 
-other:do you know where that is?
+ego:Hola, tengo un mensaje de K'ta fly de que nos encontremos aquí.
+ego:Dijo que podrías ayudarme.
+other:Sí, mi nombre es Morgan Yu y soy un viejo amigo de K'ta.
+other:Me ha hablado de ti y me ha pedido que te confiara....
+other:...una misión delicada.
+ego:¿Delicada dices?
+other:Sí, claro. Tienes que llevar este artefacto religioso a Daphice. 
+other:¿Sabes dónde está?
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // of course
-ego:Of course.
-ego:which station?
-other:Clearly you can't know it very well...
-other:...there is only one station; Ssinil Station 1.
-ego:Yes, that was a joke. It's a mining outpost.
-other:So will you do it?
-ego:How much is the pay?
-other:It's a mission of import. I'm afraid i can't give you much, $20,000?
-ego:That's a pathetic rate of pay for a faulty droid.
-other:Too much money changing hands would draw unwanted attention.
+@1 // por supuesto
+ego:Por supuesto
+ego:¿Qué estación?
+other:Claramente no lo sabes muy bien....
+other:...Sólo hay una estación; Estación Ssinil 1.
+ego:Sí, era una broma. Es un puesto minero.
+other:¿Entonces lo harás?
+ego:¿Cuánto es la paga?
+other:Es una misión importante. Me temo que no puedo darte mucho, ¿20.000 dólares?
+ego:Es un salario patético para un androide defectuoso.
+other:Demasiado dinero cambiando de manos llamaría la atención.
 option-off 1
 option-off 2
 option-off 3
@@ -40,13 +40,13 @@ option-on 4
 option-on 5
 return
 
-@2 // not yet
-ego:Not yet but I'll find it.
-other:Very good. I've made it visible on your map for you.
-other:You'd have to take it to Ssinil Station 1 there.
-other:I can pay only $20,000 because of the nature of the delivery.
-other:Too much money changing hands would draw unwanted attention.
-other:Will you do it?
+@2 // todavía no
+ego:Todavía no, pero lo encontraré.
+other:Muy bien. Te lo he hecho visible en tu mapa.
+other:Tendrás que llevarlo a la Estación Ssinil 1.
+other:Sólo puedo pagar $20,000 debido a la naturaleza de la entrega.
+other:Demasiado dinero cambiando de manos llamaría la atención.
+other:¿Lo harás?
 option-off 1
 option-off 2
 option-off 3
@@ -54,15 +54,15 @@ option-on 4
 option-on 5
 return
 
-@3 // no clue
-ego:I haven't a clue where it is.
-other:Well, nevermind. I've added the information to your map. 
-other:Next time you access it you'll be able to see daphice there.
-ego:Thanks.
-other:The actual destination is the Ssinil Station.
-other:So, do you want this mission? It's very simple.
-ego:How much does it pay?
-other:Only $20,000 I'm afraid. We don't want to draw attention to ourselves.
+@3 // ni idea
+ego:No tengo ni idea de dónde está.
+other:Bueno, no importa. He añadido la información a tu mapa.
+other:La próxima vez que accedas a él podrás ver Daphice allí.
+ego:Gracias.
+other:El destino real es la Estación Ssinil.
+other:Entonces, ¿quieres esta misión? Es muy sencilla.
+ego:¿Cuánto se paga?
+other:Sólo 20.000 dólares, me temo. No queremos llamar la atención.
 option-off 1
 option-off 2
 option-off 3
@@ -70,20 +70,20 @@ option-on 4
 option-on 5
 return
 
-@4 // yes
-ego:Ok, I'll get it done.
-other:Excellent. I've given the artefact to my associate.
-other:He will place the package in your hold shortly.
-other:One more thing, it's urgent you get it there as quickly as possible.
-other:it's a long journey. You can use a shortcut through the nebula.
-other:I've added the nebula gap in your map. 
-other:Just view the nebula read-out to see it.
+@4 // sí
+ego:De acuerdo, lo haré.
+other:Excelente. Le he dado el artefacto a mi socio.
+other:El pondrá en breve el paquete en su bodega.
+other:Una cosa más, es urgente que lo lleves allí, lo más rápido posible.
+other:Es un largo viaje. Puedes usar un atajo a través de la nebulosa.
+other:He añadido la brecha de la nebulosa en su mapa.
+other:Sólo tienes que ver el registro de la nebulosa para verlo.
 setMissionAnswer 1
 stop
 
-@5 // No, not yet. I might come back later.
-ego:No, not yet. I might come back later.
-other:Very well, I'll be here if you change your mind.
-other:K'ta Fly won't allow me to give this to anyone else.
+@5 // No, todavía no. Puede que vuelva más tarde.
+ego:No, todavía no. Puede que vuelva más tarde.
+other:Muy bien, estaré aquí si cambias de opinión.
+other:K'ta Fly no me permite darle esto a nadie más.
 setMissionAnswer 0
 stop

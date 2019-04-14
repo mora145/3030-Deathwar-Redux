@@ -1,6 +1,6 @@
 //begin
-// [ ] 1 - "Ok, I'm on my way."
-// [ ] 2 - "What is this artefact?"
+// [ ] 1 - "Ok, estoy en camino."
+// [ ] 2 - "¿Qué es este artefacto?"
 //end
 
 @S // dialog startup entry point
@@ -17,11 +17,11 @@ ego:Ok, I'm on my way.
 other:Good. Make haste!
 stop
 
-@2 //What is this artefact
-ego:What is this artefact?
-other:Listen. We have no time to talk about this. 
-other:Please take it to daphice.
-other:I will talk to you about this afterwards.
-other:If you still want to know more.
-ego:Ok, I'm on my way.
+@2 //¿Qué es este artefacto?
+ego:¿Qué es este artefacto?
+other:Escucha. No tenemos tiempo para hablar de esto. 
+other:Por favor, llévalo a Daphice.
+other:Te hablaré de eso más tarde.
+other:Si todavía quieres saber más.
+ego:De acuerdo, voy para allá.
 stop

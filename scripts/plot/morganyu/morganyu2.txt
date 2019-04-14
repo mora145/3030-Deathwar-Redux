@@ -1,37 +1,37 @@
 //begin
-// [ ] 1 - "Ok, I'll get it done."
-// [ ] 2 - "No, not yet. I might come back later."
+// [ ] 1 - "Ok, lo haré."
+// [ ] 2 - "No, todavía no. Podría volver más tarde."
 //end
 
 @S // dialog startup entry point
-ego:Hi, I'm back.
-ego:Can you help me?
-other:yes. you are to take this ancient artefact to daphice.
-other:It is very important it gets there as quick as possible.
-ego:Speed is not a problem.
-other:So you'll deliver it?
+ego:Hola, ya regresé.
+ego:¿Puedes ayudarme?
+other:Sí. Debes llevar este artefacto antiguo a Daphice.
+other:Es muy importante que llegue lo más rápido posible.
+ego:La velocidad no es un problema.
+other:¿Entonces lo entregarás?
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // yes
-ego:Ok, I'll get it done.
-other:Excellent. I've given the artefact to my associate.
-other:He will place the package in your hold shortly.
-other:One more thing, it's urgent you get it there as quickly as possible.
-other:it's a long journey. You can use a shortcut through the nebula.
-other:I've added the nebula gap in your map. 
-other:Just view the nebula read-out to see it.
-other:If you head straight up past andinti, Watch out for nebula. 
-other:They'll slow you down.
-ego:Ok, thanks.
+@1 // Si
+ego:Ok, lo haré.
+other:Excelente. Le he dado el artefacto a mi socio.
+other:En breve el colocará el paquete en su bodega.
+other:Una cosa más, es urgente que lo lleves allí, lo más rápido posible.
+other:Es un largo viaje. Puedes usar un atajo a través de la nebulosa.
+other:He añadido la brecha de la nebulosa en su mapa.
+other:Sólo tienes que ver el registro de la nebulosa para verlo.
+other:Si te diriges directamente hacia Andinti, ten cuidado con la nebulosa.
+other:Te retrasará.
+ego:De acuerdo, gracias.
 setMissionAnswer 1
 stop
 
 @2 // no
-ego:No, not yet. I might come back later.
-other:Very well, I'll be here if you change your mind.
-other:K'ta Fly won't allow me to give this to anyone else.
+ego:No, todavía no. Podría volver más tarde.
+other:Muy bien, estaré aquí si cambias de opinión.
+other:K'ta Fly no me permite darle esto a nadie más.
 setMissionAnswer 0
 stop

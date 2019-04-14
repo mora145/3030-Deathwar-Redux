@@ -1,10 +1,10 @@
 //begin
-// [ ] 1 - "Nice 'tash!"
-// [ ] 2 - "Hate your 'tash!"
-// [ ] 22 - "Sorry, it's nice."
-// [ ] 23 - "Really? How Much?"
-// [ ] 3 - "You know anything about a Kent?"
-// [x] 4 - "Bye."
+// [ ] 1 - "Lindo bigote"
+// [ ] 2 - "Odio tu bigote"
+// [ ] 22 - "Disculpa, es bonito"
+// [ ] 23 - "¿De verdad? ¿Cuánto?"
+// [ ] 3 - "¿Sabes algo de un Kent?"
+// [x] 4 - "Adios."
 
 //end
 
@@ -12,69 +12,69 @@
 // dialog script file
 @S // dialog startup entry point
 ego:Hey Grah..
-ego:...one more thing.
+ego:...una cosa más.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // Nice 'tash!
-ego:Nice 'tash!
-other:My Mustache is my life, Buddy.
-other:Are you being sarcastic?
-ego:No way.
-other:Ok. Thanks.
+@1 // Lindo bigote
+ego:Lindo bigote
+other:Mi bigote es mi vida, compadre.
+other:¿Estás siendo sarcástico?
+ego:De ninguna manera.
+other:Ok. Gracias.
 option-off 1
 return
 
-@2 // Hate your 'tash!
-ego:Hate your 'tash!
-other:Hey now!
-other:My Mustache is my life, Buddy.
-other:You earned yourself a fine.
-other:Insulting an officer.
-takemoney,200,Fined for insulting Officer Grah
+@2 // Odio tu bigote
+ego:Odio tu bigote
+other:¡Oiga!
+other:Mi bigote es mi vida, compadre.
+other:Te ganaste una multa.
+other:Insultar a un oficial.
+takemoney,200,Multado por insultar al oficial Grah.
 option-off 1
 option-off 2
 option-on 22
 option-on 23
 return
 
-@22 // Sorry, it's nice.
-ego:Sorry, it's Nice.
-other:Too late, Buddy.
-other:The fine has been issued.
-ego:No way.
-other:Yes way.
+@22 // Lo siento, es bonito.
+ego:Lo siento, es bonito.
+other:Demasiado tarde, compadre.
+other:La multa ha sido emitida.
+ego:De ninguna manera.
+other:Sí, así es.
 option-off 22
 return
 
-@23 // Really? How Much?
-ego:Really? How Much?
-other:I fined your ass Two Hundred.
-ego:Guess I deserved that.
+@23 // ¿En serio? ¿Cuánto?
+ego:¿En serio? ¿Cuánto?
+other:Te he multado con doscientos dólares.
+ego:Supongo que me lo merecía.
 option-off 23
 return
 
 
-@3 // You know anything about a Kent?
-ego:You know anything about a Kent?
+@3 // ¿Sabes algo de un Kent?
+ego:¿Sabes algo de un Kent?
 other:Hmmm..
-other:Nah. Never heard of her, or him.
-ego:It's a droid.
-other:Oh yeah, Kent Droid.
-other:He was asking about the previous owner of your ship.
-other:The one who is missing. 
-other:Actually, it was quite aggressive about it all.
-ego:Yeah, Kent takes investigations seriously.
-ego:Thanks for the info.
+other:Nah. Nunca he oído hablar de ella, o él.
+ego:Es un droide.
+other:Oh, sí, el Droide Kent.
+other:El estaba preguntando sobre el dueño anterior de su nave.
+other:El que está desaparecido.
+other:En realidad, fue bastante agresivo sobre todo esto.
+ego:Sí, Kent se toma en serio las investigaciones.
+ego:Gracias por la información.
 option-off 3
 return
 
 
-@4 // Bye
-ego:Bye.
-other:Later. 
-other:Keep out of trouble.
+@4 // Adios
+ego:Adios.
+other:Adios. 
+other:No te metas en líos.
 Stop
 
