@@ -1,23 +1,23 @@
 //begin
-// [x] 4 - "Later."
+// [x] 4 - "Luego."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi again.
-other:Hope you gave my bro that message.
+other:Hola de nuevo.
+other:Espero que le hayas dado a mi hermano ese mensaje.
 other:Haha.
 other:Hahahahaha.
-other:He'll be so pissed.
-other:Oh man.
-other:Classic.
-ego:Err, I better get going.
+other:Estará tan cabreado.
+other:Oh hombre.
+other:Clásico.
+ego:Err, será mejor que me vaya.
 return
 
-@4 // Bye
-ego:Later.
-other:Bye.
+@4 // Adiós
+ego:Adiós.
+other:Adiós.
 Stop
 

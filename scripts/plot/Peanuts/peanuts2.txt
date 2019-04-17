@@ -1,19 +1,19 @@
 //begin
-// [x] 4 - "Bye."
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi there, again.
-ego:Hi.
-other:Maybe see you at HBE.
-other:I'm heading south soon.
+other:Hola, otra vez.
+ego:Hola.
+other:Tal vez nos veamos en HBE.
+other:Pronto me iré al sur.
 return
 
-@4 // Bye
-ego:Bye.
-other:Later dude.
+@4 // Adiós
+ego:Adiós.
+other:Hasta luego, amigo.
 Stop
 

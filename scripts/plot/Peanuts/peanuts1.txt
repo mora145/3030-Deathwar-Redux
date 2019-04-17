@@ -1,113 +1,113 @@
 //begin
-// [ ] 1 - "You know this system well?"
-// [ ] 2 - "Elesw, what's with that name?"
-// [ ] 21 -"This place is quiet."
+// [ ] 1 - "¿Conoces bien este sistema?"
+// [ ] 2 - "Elesw, ¿qué pasa con ese nombre?"
+// [ ] 21 -"Este lugar es tranquilo."
 // [ ] 3 - "Who was the professor?"
 // [ ] 11 -"Badlands..."
-// [ ] 11 -"Where is the Badlands?"
-// [ ] 31 - "What's at HBE?"
-// [ ] 32 - "You have Police problems?"
-// [x] 4 - "Bye."
+// [ ] 11 -"¿Dónde están las Badlands?"
+// [ ] 31 - "¿Qué hay en HBE?"
+// [ ] 32 - "¿Tienes problemas con la policía?"
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi there.
-other:Hi, I'm Peanuts.
-other:Don't ask why I'm called that.
-other:It's a long story.
+ego:Hola
+other:Hola, soy Peanuts (Manies).
+other:No preguntes por qué me llaman así.
+other:Es una larga historia.
 option-on 1
 option-on 2
 option-on 21
 return
 
-@1 // You know this system well?
-ego:You know this system well?
-other:Andinti? Not so much.
-other:I'm from the Badlands.
+@1 // ¿Conoces bien este sistema?
+ego:¿Conoces bien este sistema?
+other:¿Andinti? No tanto.
+other:Soy de las Badlands (Tierras Baldías).
 option-off 1
 option-on 11
 return
 
 
-@2 // Elesw, what's with that name?
-ego:Elsew, what's with that name?
-other:This station name...
-other:I heard it pronounced El-es-Wuh.
-other:Named after a professor or summin.
+@2 // Elesw, ¿qué pasa con ese nombre?
+ego:Elesw, ¿qué pasa con ese nombre?
+other:Este es el nombre de la estación....
+other:Oí que se pronuncia El-es-Wuh.
+other:Nombrado así en honor a un profesor o algo así.
 option-off 2
 option-on 3
 return
 
-@21 // This place is quiet.
-ego:This place is quiet.
-other:Yeah. It's mostly just a refuelling depot.
-other:Before people head off north or south.
-other:You heading down to Sophiha?
-other:Or up to YSA and the Rub Ba stations?
-ego:Not decided.
-other:Cool. Flying casual.
+@21 // Este lugar es tranquilo.
+ego:Este lugar es tranquilo.
+other:Sí. Es más que nada un almacén de reabastecimiento de combustible.
+other:Antes de que la gente se dirija al norte o al sur.
+other:Vas a ir a Sophiha?
+other:¿O a YSA y a las estaciones de Rub Ba?
+ego:No lo he decidido.
+other:Genial. Vuela casual.
 option-off 21
 return
 
 @11 // Badlands...
-ego:Badlands, dangerous system.
-other:Not as safe as here. That's for sure.
-other:Jowe Station is the only one down there.
-other:And it attracts all sorts of scum.
-other:It's good fun.
+ego:Badlands,  sistema peligroso.
+other:No tan seguro como aquí. Eso es seguro.
+other:La estación Jowe es la única allí abajo.
+other:Y atrae a toda clase de escoria.
+other:Es muy divertido.
 option-off 11
 option-on 12
 return
 
-@12 // Where is the Badlands?
-ego:Where is the Badlands?
-other:Not got your map updated?
-ego:No, it got wiped.
-other:It's the most right and bottom system on the map.
-other:A long way from here.
+@12 // ¿Dónde están las Badlands?
+ego:¿Dónde están las Badlands?
+other:¿No tienes tu mapa actualizado?
+ego:No, lo han borrado.
+other:Es el sistema más correcto e íntegro del mapa (sarcarmo)
+other:Muy lejos de aquí.
 option-off 12
 return
 
 
-@3 // Who was the professor?
-ego:Who was the professor?
-other:Well.. I guess it was Professor Elesw.
-other:That's all I know about it.
-other:I have to get off this station.
-ego:Oh?
-other:I'm trying to get to HBE.
+@3 // ¿Quién era el profesor?
+ego:¿Quién era el profesor?
+other:Bueno... Supongo que fue el profesor Elesw.
+other:Eso es todo lo que sé.
+other:Tengo que salir de esta estación.
+ego:¿Oh?
+other:Estoy tratando de llegar a HBE.
 option-off 3
 option-on 31
 option-on 32
 return
 
-@31 // What's at HBE?
-ego:What's at HBE?
-other:A friend of mine.
-ego:Business or pleasure?
-other:Well both of course.
-other:Always mix business with pleasure.
-other:That's my Fo-lo.
+@31 // ¿Qué hay en HBE?
+ego:¿Qué hay en HBE?
+other:Un amigo mío.
+ego:¿Negocios o placer?
+other:Bueno, los dos, por supuesto.
+other:"Siempre combina los negocios con el placer".
+other:Ese es mi lema.
 option-off 31
 option-off 32
 return
 
-@32 // You have Police problems?
-ego:You have Police problems?
-other:At HBE? Nah. Just meeting a friend.
-other:And you?
-ego:Just passing through.
-other:Ain't we all. See you around.
+@32 //¿Tienes problemas con la policía?
+ego:¿Tienes problemas con la policía?
+other:¿En HBE? Nah. Sólo me encuentro con un amigo.
+other:¿Y tú?
+ego:Sólo de paso.
+other:Todos lo estamos. Nos vemos por ahí.
 option-off 31
 option-off 32
 return
 
 
-@4 // Bye
-ego:Bye. 
-other:Later dude.
+@4 // Adiós
+ego:Adiós. 
+other:Hasta luego, amigo.
 Stop
 
