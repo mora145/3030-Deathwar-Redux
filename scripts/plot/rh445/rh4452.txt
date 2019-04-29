@@ -1,20 +1,20 @@
 //begin
-// [x] 1 - "Thanks, see you around."
+// [x] 1 - "Gracias, hasta luego."
 //end
 
 @S // start
-ego:I unscrambled the circuit for you.
-other:Damn right you did. I've been trying to get that sorted for weeks now.
-other:I suppose you deserve the clue, right?
-other:It's BD-946. I've added it to your ship's contact list.
-ego:Thanks.
-other:No, thank you. 
-other:If you want to try and unscramble any more...
-other:...come back and see me, you hear?
+ego:He desenmarañado el circuito por ti.
+other:Maldita sea, lo hiciste. Llevo semanas intentando arreglarlo.
+other:Supongo que te mereces la pista, ¿verdad?
+other:Es BD-946. Lo he añadido a la lista de contactos de su nave.
+ego:Gracias.
+other:No, gracias a ti.
+other:Si quieres intentar desenmarañar algo más...
+other:...vuelve a verme, ¿me oyes?
 option-on 1
 return
 
-@1 // aaa
-ego:Thanks, see you around.
-other:No problem.
+@1 // Gracias, hasta luego.
+ego:Gracias, hasta luego.
+other:No hay problema.
 stop

@@ -1,47 +1,47 @@
 //begin
-// [ ] 1 - "You look familiar."
-// [ ] 2 - "What are you in for?"
-// [x] 4 - "Bye."
+// [ ] 1 - "Me pareces familiar."
+// [ ] 2 - "¿Por qué estás aquí?"
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Excuse me.
-other:Yes?
-other:What?
+ego:Disculpa
+other:¿Si?
+other:¿Qué?
 option-on 1
 option-on 2
 option-on 4
 return
 
-@1 // You look familiar.
-ego:You look familiar.
-other:How interesting that must be for you.
-other:Just leave me be will you.
-other:I had nothing to do with the Stab Drones!
-other:Hey, you're that Falcon guy. 
-other:People are saying you cleaned up the outbreak.
-ego:Yeah. I got blackmailed into it.
-other:Well, at least you're not in a rusty cage.
+@1 // Me pareces familiar.
+ego:Me pareces familiar.
+other:Qué interesante debe ser para ti.
+other:Sólo déjame en paz, ¿quieres?
+other:¡No tuve nada que ver con los drones cuchilla!
+other:Oye, tú eres ese tipo Falcon.
+other:La gente dice que usted se encargó de limpiar el brote.
+ego:Sí. Me chantajearon.
+other:Bueno, al menos no estás en una jaula oxidada.
 option-off 1
 return
 
-@2 // What are you in for?
-ego:What are you in for?
-other:I bought some fuel from a trader in an asteroid field.
-other:I was all out due to a fuel leak.
-ego:What was wrong with that?
-other:It turned out the trader had looted the fuel from a local cargo tow.
-other:When I docked here, I got caged up until they check out my story.
-other:Don't worry about it. I'll be out in ten minutes.
-ego:If you say so. 
+@2 // ¿Por qué estás aquí?
+ego:¿Por qué estás aquí?
+other:Compré combustible a un comerciante en un campo de asteroides.
+other:Me quedé sin combustible debido a una fuga
+ego:¿Qué estaba mal con eso?
+other:Resultó que el comerciante había saqueado el combustible de un remolque de carga local.
+other:Cuando llegué aquí, me encerraron hasta que comprobaron mi historia.
+other:No te preocupes por eso. Saldré en diez minutos.
+ego:Si tú lo dices. 
 option-off 2
 return
 
-@4 // Bye
-ego:Bye.
-other:Bye.
+@4 // Adiós
+ego:Adiós.
+other:Adiós.
 Stop
 

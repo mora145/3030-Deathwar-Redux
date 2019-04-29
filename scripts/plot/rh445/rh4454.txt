@@ -1,32 +1,32 @@
 //begin
-// [x] 1 - "Yeah, gimme a try."
-// [x] 2 - "No, I'm busy, thanks though."
+// [x] 1 - "Sí, intentemos."
+// [x] 2 - "No, estoy ocupado, gracias de todos modos."
 //end
 
 @S // start
-ego:Hi again.
-other:Mr Falcon, welcome back.
-other:You looking to unscramble something else for me?
-ego:I might be, is it complicated?
-other:Damn straight.
-other:What you say? You wan to give it a try?
+ego:Hola de nuevo.
+other:Sr. Falcon, bienvenido de nuevo.
+other:¿Quieres desenredarme algo más?
+ego:Podría ser, ¿es complicado?
+other:Maldita sea, claro.
+other:¿Qué dices? ¿Quieres intentarlo?
 option-on 1
 option-on 2
 return
 
-@1 // Yeah, gimme a try.
-ego:Yeah, gimme a try.
-other:alright, it's more tricky that the first one.
-other:If you do get it I'll give you $10,000.
-other:That sound enough?
-ego:I'll give it a shot.
+@1 // Sí, intentemos.
+ego:Sí, intentemos.
+other:De acuerdo, es más difícil que el primero.
+other:Si lo consigues, te daré 10.000 dólares.
+other:¿Suena bien?
+ego:Lo intentaré.
 setMissionAnswer 1
 stop
 
-@2 // No, I'm busy, thanks though.
-ego:No, I'm busy, thanks though.
-other:Ok, come back and see me later then.
-other:I can always do with someone who has hands like yours.
-other:Bye.
+@2 // No, estoy ocupado, gracias de todos modos.
+ego:No, estoy ocupado, gracias de todos modos.
+other:Bien, vuelve a verme más tarde.
+other:Siempre se puede hacer con alguien que tenga las manos como las tuyas.
+other:Adiós.
 setMissionAnswer 0
 stop

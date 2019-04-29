@@ -1,35 +1,35 @@
 //begin
-// [x] 1 - "Hi, do you have a clue for me?"
-// [x] 2 - "I'm here for a clue. Any help?"
-// [x] 3 - "It doesn't matter. Later."
-// [ ] 4 - "I'll give it a try."
-// [ ] 5 - "Not right now."
+// [x] 1 - "Hola, ¿tienes alguna pista para mí?"
+// [x] 2 - "Estoy aquí por una pista. ¿Alguna ayuda?"
+// [x] 3 - "No importa. Hasta luego."
+// [ ] 4 - "Lo intentaré"
+// [ ] 5 - "Ahora no."
 //end
 
 @S // start
 ego:Hey.
-other:Hi, can I help you?
+other:Hola, ¿puedo ayudarte?
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 //Hi, do you have a clue for me?
-ego:Hi, do you have a clue for me?
-other:I might. Who are you?
+@1 //Hola, ¿tienes alguna pista para mí?
+ego:Hola, ¿tienes alguna pista para mí?
+other:Puede que la tenga. ¿Quién es usted?
 ego:John Falcon.
-other:ah, yeah. I heard of you.
-other:I need you to do me a favour.
-ego:I thought there might be something.
-other:Yeah, there always is, isn't there.
-ego:Yeah. What is it?
-other:I just bought myself a power converter but the circuits are scrambled.
-other:You any good at unscrambling circuits?
-ego:I might be, why?
-other:If you could just unscramble this one for me I'd be much obliged.
-ego:Does that mean you'll give me the clue?
-other:Yeah, why not.
-other:So, you want to try?
+other:Ah, sí. He oído hablar de ti.
+other:Necesito que me hagas un favor.
+ego:Me pareció que podría haber algo.
+other:Sí, siempre hay algo, ¿no es así?
+ego:Si. ¿Qué es?
+other: Acabo de comprarme un convertidor de energía, pero los circuitos están revueltos.
+other:¿Eres bueno para desenmarañar circuitos?
+ego:Podría ser, ¿por qué?
+other:Si pudieras desenredarlos por mí, te lo agradecería mucho.
+ego:¿Eso significa que me darás la pista?
+other:Sí, ¿por qué no?
+other:Entonces, ¿quieres intentarlo?
 option-off 1
 option-off 2
 option-off 3
@@ -37,22 +37,22 @@ option-on 4
 option-on 5
 return
 
-@2 //I'm here for a clue. Any help?
-ego:I'm here for a clue. Any help?
-other:Who are you?
+@2 //Estoy aquí por una pista. ¿Alguna ayuda?
+ego:Estoy aquí por una pista. ¿Alguna ayuda?
+other:¿Quién es usted?
 ego:John Falcon.
-other:ah, yeah. I heard of you.
-other:I need you to do me a favour.
-ego:I thought there might be something.
-other:Yeah, there always is, isn't there.
-ego:Yeah. What is it?
-other:I just bought myself a power converter but the circuits are scrambled.
-other:You any good at unscrambling circuits?
-ego:I might be, why?
-other:If you could just unscramble this one for me I'd be much obliged.
-ego:Does that mean you'll give me the clue?
-other:Yeah, why not.
-other:So, you want to try?
+other:Ah, sí. He oído hablar de ti.
+other:Necesito que me hagas un favor.
+ego:Me pareció que podría haber algo.
+other:Sí, siempre hay algo, ¿no es así?
+ego:Si. ¿Qué es?
+other: Acabo de comprarme un convertidor de energía, pero los circuitos están revueltos.
+other:¿Eres bueno para desenmarañar circuitos?
+ego:Podría ser, ¿por qué?
+other:Si pudieras desenredarlos por mí, te lo agradecería mucho.
+ego:¿Eso significa que me darás la pista?
+other:Sí, ¿por qué no?
+other:Entonces, ¿quieres intentarlo?
 option-off 1
 option-off 2
 option-off 3
@@ -60,24 +60,24 @@ option-on 4
 option-on 5
 return
 
-@3 //It doesn't matter. Later.
-ego:It doesn't matter. Later.
-other:Ok, see you around I guess.
+@3 //No importa. Hasta luego.
+ego:No importa. Hasta luego.
+other:Ok, nos vemos por ahí, supongo.
 stop
 
-@4 // I'll give it a try.
-ego:I'll give it a try.
-other:Great. If you get stuck or you don't know how to unscramble it completely.
-other:just press escape.
-ego:So, how do I unscramble them again?
-other:Just click on a node to move. when all the circuits aren't crossing you.
-other:have successfully unscrambled it.
-other:Ok, have a go.
+@4 // Lo intentaré
+ego:Lo intentaré
+other:Genial. Si te quedas atascado o no sabes cómo descifrarlo completamente.
+other:Sólo presiona "escape".
+ego:Entonces, ¿cómo puedo desenredarlos de nuevo?
+other:Sólo tienes que hacer clic en un nodo para moverlo, cuando todos los circuitos no lo estén cruzando.
+other:Ten exito desenredandolo.
+other:¿Ok?, adelante.
 setMissionAnswer 1
 stop
 
-@5 //Not right now.
-ego:Not right now.
-other:Ok, come back when you want to give it a shot.
+@5 //Ahora no.
+ego:Ahora no.
+other:Bien, vuelve cuando quieras intentarlo.
 setMissionAnswer 0
 stop

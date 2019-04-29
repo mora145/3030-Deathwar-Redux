@@ -19,8 +19,8 @@ ego:Estoy aquí por mi dinero.
 ego:¿Cómo quieres pagar?
 other:¿Tu dinero?
 other:Desde que eso sucedió, ordené que te mataran.
-other: Te incriminé por destruir un sistema estelar.
-other:¡Y envié una flota de naves para que los mataran a ti y a esa escoria taoísta!
+other:Te incriminé de destruir un sistema estelar.
+other:¡Y envié una flota de naves para que los mataran, a ti y a esa escoria taoísta!
 other:¿Simplemente quieres que te devuelva tu dinero?
 ego:Así que fuiste tú quien ordenó que se me echaran encima.
 other:¿No lo sabías?
@@ -48,7 +48,7 @@ return
 ego:Tú ordenaste que me mataran, prepárate para morir.
 other:Siempre estoy preparado.
 other:No llegué a donde estoy hoy por no estar preparado.
-other:Cuando dé la orden, ¡se lanzará una nueva ola de nanobots!
+other:Cuando dé la orden, ¡Se lanzará una nueva ola de nanobots!
 other:¡No hay nada que puedas hacer!
 option-off 2
 stop

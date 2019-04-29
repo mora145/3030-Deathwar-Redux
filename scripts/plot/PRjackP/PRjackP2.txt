@@ -1,19 +1,19 @@
 //begin
-// [x] 4 - "Bye."
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi again.
-ego:One more thing..
-other:Ok columbo, what now?
-ego:Nothing, never mind.
+other:Hola de nuevo.
+ego:Una cosa más...
+other:Ok colombo, ¿y ahora qué?
+ego:Nada, no importa.
 return
 
 
-@4 // Bye
-ego:Bye.
-other:have a good one.
+@4 // Adiós
+ego:Adiós.
+other:Que tengas un buen día.
 Stop

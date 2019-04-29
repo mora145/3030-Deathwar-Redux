@@ -1,34 +1,34 @@
 //begin
-// [x] 1 - "I am here for the meeting."
-// [ ] 11 - "I'm a bit late, who's arrived so far?"
-// [ ] 12 - "A trade?"
-// [x] 2 - "What are you doing out here?"
-// [x] 3 - "Who do you work for?"
-// [ ] 99 - "I'm off."
-// [x] 98 - "Bye."
+// [x] 1 - "Estoy aquí para la reunión."
+// [ ] 11 - "Llego un poco tarde, ¿quién ha llagado hasta ahora?"
+// [ ] 12 - "¿Un intercambio?"
+// [x] 2 - "¿Qué haces aquí afuera?"
+// [x] 3 - ""¿Para quién trabajas?"
+// [ ] 99 - "Me voy."
+// [x] 98 - "Adiós."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hello. Are you here for the secret meeting?
+other:Hola. ¿Estás aquí por la reunión secreta?
 other:Err...
-other:Forget I mentioned that.
+other:Olvida que lo mencioné.
 other:(beep beep) 
-other:Unless you're here for it.
+other:A menos que estés aquí para eso.
 option-on 98
 return
 
-@1 // I am here for the meeting.
-ego:I am here for the meeting.
-other:You better get down there then. 
-other:The others arrived already.
-ego:Can I use that lift?
-other:If it knows your biometric data.
-other:But if you're not meant to be here it won't work for you.
-other:Unless you shoot the lock off.
+@1 // Estoy aquí para la reunión.
+ego:Estoy aquí para la reunión.
+other:YSerá mejor que bajes entonces.
+other: Los otros ya llegaron.
+ego:¿Puedo usar ese ascensor?
+other:Si conoce tus datos biométricos.
+other:Pero si no estás destinado a estar aquí, no funcionará para ti.
+other:A menos que le dispares a la cerradura.
 other:(beep beep) 
-other:Forget I mentioned that.
+other:Olvida que lo mencioné.
 option-off 1
 option-on 99
 option-on 11
@@ -36,104 +36,104 @@ option-off 98
 return
 
 
-@11 // I'm a bit late, who's arrived so far?
-ego:I'm a bit late, who's arrived so far?
+@11 // Llego un poco tarde, ¿quién ha llagado hasta ahora?
+ego:Llego un poco tarde, ¿quién ha llagado hasta ahora?
 other:Hmmm.
-other:Who was it.
-other:There was one smug yellow squid.
-other:Very rude.
+other:Quién fue.
+other:Había un calamar amarillo engreído.
+other:Muy grosero.
 other:(beep beep) 
-other:And a large Police Officer.
-other:They arrived together in that ship by the camp.
-ego:I see. Anyone else?
-other:Just my boss.
-other:I think they are doing a trade.
+other:Y un gran oficial de policía.
+other:Llegaron juntos en esa nave al lado del campamento.
+ego:Ya veo. ¿Alguien más?
+other:Sólo mi jefe.
+other:Creo que están haciendo un intercambio.
 option-off 11
 option-on 12
 return
 
-@12 // A trade?
-ego:A trade?
-other:Boss likes history. He wants a lost artifact.
-ego:Sounds valuable. What is he offering for it?
-other:You didn't hear it from me...
-other:...but I think those two are part of a conspiracy.
-other:To do with the last Deathwar.
-other:Boss is offering top class nanobot technology.
+@12 // ¿Un intercambio?
+ego:¿Un intercambio?
+other:Al jefe le gusta la historia. Quiere un artefacto perdido.
+ego:Suena valioso. ¿Qué ofrece por eso?
+other:No lo escuchaste de mí...
+other:...pero creo que esos dos son parte de una conspiración.
+other:Tiene que ver con el último Deathwar.
+other:El jefe está ofreciendo tecnología nanobot de primera clase.
 other:(beep beep) 
-other:Forget I mentioned that.
-other:I talk to much.
-other:But aren't you to attend the meeting?
-other:Please don't report me.
-ego:No problem.
+other:Olvida que lo mencioné.
+other:Hablo mucho.
+other:¿Pero no vas a asistir a la reunión?
+other:Por favor, no me denuncies.
+ego:No hay problema.
 option-off 12
 return
 
 
-@2 // What are you doing out here?
-ego:What are you doing out here?
-other:I keep the fire going.
-other:Tidy up.
-other:Stack rocks.
-other:Scan for intruders.
-other:Stack more rocks.
+@2 // ¿Qué haces aquí afuera?
+ego:¿Qué haces aquí afuera?
+other:Mantengo el fuego encendido.
+other:Arreglar.
+other:Apilar rocas.
+other:Buscar intrusos.
+other:Apilar más rocas.
 other:(beep beep)  
-other:I Forgot to check.
-other:Are you an intruder?
-ego:No. I am here for the meeting.
-other:Oh yes. The meeting.
-other:Very good.
+other:Olvidé comprobarlo.
+other:¿Eres un intruso?
+ego:No. Estoy aquí para la reunión.
+other:Oh sí. La reunión.
+other:Muy bien.
 option-off 2
 option-on 99
 option-off 98
 return
 
-@3 // Who do you work for?
-ego:Who do you work for?
-other:I work for a rich business person.
-other:They have a base here.
-ego:I can see that.
-other:This part is just extracting water from the air.
-ego:There is more underground?
-other:Just a large natural cave network.
-other:That's where the meeting is.
-other:But the main base is a long way from here through the caves.
-other:This is just an outpost really.
-other:For secretive meetings and smuggling.
-other:That sort of thing. 
-ego:Of course.
-other:Do you fancy a game of chess?
-other:I'll use a low difficulty setting for you.
-other:Or a game of speed Rock Stacking?
-ego:Maybe later.
-other:Great! (beep beep) 
+@3 // ¿Para quién trabajas?
+ego:¿Para quién trabajas?
+other:Trabajo para un rico hombre de negocios.
+other:Tienen una base aquí.
+ego:Puedo verlo.
+other:Esta parte es sólo para extraer agua del aire.
+ego:¿Hay más bajo tierra?
+other:Sólo una gran red de cuevas naturales.
+other:Ahí es donde se realiza la reunión.
+other:Pero la base principal está muy lejos de aquí, a través de las cuevas.
+other:Esto es sólo un puesto de avanzada en realidad.
+other:Para reuniones secretas y contrabando.
+other:Ese tipo de cosas.
+ego:Por supuesto.
+other:¿Le apetece una partida de ajedrez?
+other:Usaré una configuración de baja dificultad para ti.
+other:¿O un juego de speed Rock Stacking?
+ego:Tal vez más tarde.
+other:¡Genial! (beep beep) 
 option-off 3
 option-on 99
 option-off 98
 return
 
-@99 // I'm off.
-ego:I'm off.
-ego:I need to get going now.
-other:Ok, just one thing...
-other:Do you happen to know who landed that ship over there?
-other:A droid called Kent messaged me saying it was here for the meeting too.
-other:I never heard of this Kent droid.
-other:Are they attending the meeting?
-ego:No, Kent is here to pick me up, after the meeting.
-other:All visitors accounted for then.
+@99 // Ya me voy.
+ego:Ya me voy.
+ego:Tengo que irme ahora.
+other:Ok, sólo una cosa...
+other:¿Sabe quién aterrizó esa nave de allí?
+other:Un droide llamado Kent me envió un mensaje diciendo que también estaba aquí para la reunión.
+other:Nunca oí hablar de este droide Kent.
+other:¿Están asistiendo a la reunión?
+ego:No, Kent está aquí para recogerme, después de la reunión.
+other:Todos los visitantes están contados entonces.
 other:(beep beep) 
-other:Have a good day.
+other:Que tengas un buen día.
 option-off 99
 option-off 98
 stop
 
-@98 // Bye.
-ego:Bye.
-other:Has the meeting finished already?
-other:The others must have left via the caves.
-other:I'll get back to ordering these rocks.
+@98 // Adiós.
+ego:Adiós.
+other:¿Ya ha terminado la reunión?
+other:Los otros deben haber salido por las cuevas.
+other:Volveré a ordenar estas rocas.
 other:(beep beep) 
-other:Have a good day.
+other:Que tengas un buen día.
 option-off 99
 stop

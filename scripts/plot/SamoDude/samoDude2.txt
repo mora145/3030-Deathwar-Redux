@@ -1,40 +1,40 @@
 //begin
-// [ ] 1 - "You heard anything about the Largo?"
-// [ ] 2 - "Know how I can make fast money?"
-// [x] 4 - "Bye."
+// [ ] 1 - "¿Has oído algo sobre el Largo?"
+// [ ] 2 - "¿Sabes cómo puedo hacer dinero rápido?"
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi again.
-ego:One more thing..
+other:Hola de nuevo.
+ego:Una cosa más...
 option-on 1
 option-on 2
 return
 
-@1 // You heard anything about the Largo?
-ego:You heard anything about the Largo?
-other:No. I don't know what that is.
-ego:Ok, nevermind.
+@1 // ¿Has oído algo sobre el Largo?
+ego:¿Has oído algo sobre el Largo?
+other:No. No sé qué es eso.
+ego:De acuerdo, no importa.
 option-off 1
 option-off 2
 return
 
-@2 // Know how I can make fast money?
-ego:Know how I can make fast money?
-other:In this area.
-other:Can't beat junk shooting.
-other:Get a Jetsuit and a gun.
-other:Get out there and blast that junk.
-ego:I know about that but thanks anyway.
+@2 // ¿Sabes cómo puedo ganar dinero rápido?
+ego:¿Sabes cómo puedo ganar dinero rápido?
+other:En esta área.
+other:No hay nada mejor que disparar a la chatarra.
+other:Consigue un traje de neopreno y un arma.
+other:Sal y destruye esa chatarra.
+ego:Sé de eso, pero gracias de todos modos.
 option-off 1
 option-off 2
 return
 
-@4 // Bye
-ego:Bye.
-other:Bye.
+@4 // Adiós
+ego:Adiós.
+other:Adiós.
 Stop
 

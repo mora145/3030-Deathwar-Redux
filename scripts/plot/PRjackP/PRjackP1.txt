@@ -1,78 +1,79 @@
 //begin
-// [ ] 1 - "you're busy?"
-// [ ] 2 - "You know that guy over there?"
-// [ ] 3 - "you hate dialogue, right?"
-// [ ] 31 - "About Pirate Attacks..."
-// [x] 4 - "Bye."
+// [ ] 1 - "¿Estás ocupado?"
+// [ ] 2 - "¿Conoces a ese tipo de ahí?"
+// [ ] 3 - "Odias dialogar, ¿verdad?"
+// [ ] 31 - "Acerca de los Ataques Piratas..."
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi.
-other:Hi, I'm busy right now.
+ego:Hola.
+other:Hola, estoy ocupado ahora mismo.
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // you're busy?
-ego:you're busy?
-other:Always busy.
-other:I got work to do...
-other:Kids to feed...
-other:..and a backlog effects work as long as my arms.
-other:I'm heading back to my trackball any minute.
-ego:You do have long arms.
-other:Hey! Watch it, buddy.
+@1 // ¿Estás ocupado?
+ego:¿Estás ocupado?
+other:Siempre ocupado.
+other:Tengo trabajo que hacer...
+other:Niños que alimentar...
+other:...y los retrasos afectan tanto a mi trabajo como a mis brazos.
+other:Voy a volver a mi esfera en cualquier momento.
+ego:Tienes brazos largos.
+other:¡Oye! Cuidado, amigo.
 option-off 1
 return
 
-@2 // You know that guy over there?
-ego:You know that guy over there?
-other:Who Rich?
-other:Yes.
-other:And before you ask, yes.
-other:He is the one who did that thing with the toy droid.
+@2 // ¿Conoces a ese tipo de ahí?
+ego:¿Conoces a ese tipo de ahí?
+other:¿Quién, Rich?
+other:Si.
+other:Y antes que preguntes, sí.
+other: Él es el que hizo eso con el droide de juguete.
 ego:Huh? 
-ego:I was just wondering what's in his crate.
-ego:He looks pretty pleased with it.
-other:Probably just his mouse and keyboard.
-other:he won't move with the times.
-ego:Well, mouse and keyboard are the more superior form of control.
-other:Not better than cerebral implants.
-other:Embrace the future my friend.
+ego:Me preguntaba qué hay en su maletín.
+ego:Parece muy contento con él.
+other:Probablemente sólo su ratón y teclado.
+other:No se adapta a los tiempos.
+ego: Bueno, el ratón y el teclado son la forma más superior de control.
+other:No mejor que los implantes cerebrales.
+other:Acepta el futuro, amigo mío.
 option-off 2
 return
 
-@3 // you hate dialogue, right?
-ego:you hate dialogue, right?
-other:Not as much as I hate cut-scenes.
-other:hate dialogue? you mean in games?
-other:Did rich tell you that?
-other:that idiot!
-other:I don't like dialogue that doesn't affect things.
+@3 // Odias dialogar, ¿verdad?
+ego:Odias dialogar, ¿verdad?
+other:No tanto como odio los cortometrajes.
+other:Odio al diálogo. ¿Te refieres a los juegos?
+other:¿Te lo dijo Rich?
+other:¡Ese idiota!
+other:No me gusta el diálogo que no afecta a las cosas.
 option-off 3
 option-on 31
 return
 
-@31 // About Pirate Attacks
-ego:About Pirate Attacks...
-other:What about 'em?
-ego:I think I might be on a gang hit list.
-other:Sorry to hear that.
-other:More Criminals were attracted to the area by that Largo business.
-other:In fact, there were a pair of shifty looking characters around here just a few minutes ago.
-other:Watch yourself when you leave.
-other:It's got more dangerous around these parts.
-ego:Thanks for the tip off.
-attackyououtside,1,The mighty PreRec
+@31 // Acerca de los Ataques Piratas
+ego:Acerca de los Ataques Piratas...
+other:¿Qué pasa con ellos?
+ego:Creo que podría estar en una lista negra de pandillas.
+other:Lamento escuchar eso.
+Otros: Más criminales fueron 
+other:Más criminales han sido atraídos a la zona por ese asunto del Largo.
+other:De hecho, había un par de personajes sospechosos por aquí hace unos minutos.
+other:Ten cuidado cuando te vayas.
+other:Es más peligroso por estos lugares.
+ego:Gracias por el consejo.
+attackyououtside,1,El poderoso PreRec
 option-off 31
 return
 
-@4 // Bye
-ego:Bye.
-other:Bye.
+@4 // Adiós
+ego:Adiós.
+other:Adiós.
 Stop
 

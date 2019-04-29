@@ -1,123 +1,123 @@
 //begin
-// [ ] 1 - "Are you?"
-// [ ] 2 - "What's happening around here?"
-// [ ] 21 - "What are the right games?"
-// [ ] 22 - "Only game I know around here is moneyball."
-// [ ] 23 - "strange days indeed."
-// [ ] 3 - "So, you're not..."
-// [ ] 31 - "I liked, 'Terror from the deep'."
-// [ ] 33 - "You should have hunkered down more."
-// [x] 4 - "Bye."
+// [ ] 1 - "¿Eres tú?"
+// [ ] 2 - "¿Qué está pasando aquí?"
+// [ ] 21 - "¿Cuáles son los juegos correctos?"
+// [ ] 22 - "El único juego que conozco por aquí es el moneyball"
+// [ ] 23 - "Días muy extraños"
+// [ ] 3 - "Entonces, tú no eres..."
+// [ ] 31 - "Me gustó,'Terror desde lo profundo'"
+// [ ] 33 - "Deberías haberte agachado más"
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Excuse me.
-other:Yes?
+ego:Disculpa...
+other:¿Si?
 option-on 1
 option-on 2
 return
 
-@1 // Are you?
-ego:Are you?
-other:You won't know me.
-other:I'm a nobody.
+@1 // ¿Eres tú?
+ego:¿Eres tú?
+other:No me reconocerás.
+other:Soy un don nadie.
 option-off 1
 option-on 3
 return
 
-@2 // What's happening around here?
-ego:What's happening around here?
-other:You tell me.
-other:I mostly play video games.
-ego:Sounds nice. I don't play any these days.
-other:You must not be trying the right games.
+@2 // ¿Qué está pasando aquí?
+ego:¿Qué está pasando aquí?
+other:Dímelo tú.
+other:Yo juego principalmente a videojuegos.
+ego:Suena bien. Yo no juego nada estos días.
+other:Es posible que no estés probando los juegos correctos.
 option-off 2
 option-on 21
 option-on 22
 return
 
-@21 // What are the right games?
-ego:What are the right games?
-other:Right now...
-other:I play a lot of 'The BloodBorne Ultimatum'.
-other:And I'm close to 3000 hrs on X-Com 12, The Quickening.
-other:I was doing well but I just got my sniper killed.
-ego:Ever heard of chess?
-ego:It's a bit better than X-Com.
-other:Fuck off.
+@21 // ¿Cuáles son los juegos correctos?
+ego:¿Cuáles son los juegos correctos?
+other:Ahora mismo...
+other:Juego mucho a 'The BloodBorne Ultimatum'.
+other:Y estoy cerca de las 3000 horas en X-Com 12, The Quickening.
+other:Lo estaba haciendo bien pero acabo de hacer que maten a mi francotirador.
+ego:¿Has oído hablar del ajedrez?
+ego:Es un poco mejor que X-Com.
+other:Vete a la mierda.
 option-off 21
 option-on 33
 return
 
-@22 // Only game I know around here is moneyball.
-ego:Only game I know around here is moneyball.
-other:That's a space race thing?
-other:It's not much of a game.
-ego:Yeah, it's just a tool to incite space combat.
-ego:Then moneyball corporation televises the carnage.
-ego:It's no mariokart.
-other:I wouldn't know.
-other:Go talk to jack about racing games.
-other:Only, he doesn't enjoy dialogue.
-ego:That's a strange phrase to use.
-other:Strange days my friend, strange days.
+@22 // El único juego que conozco por aquí es el moneyball
+ego:El único juego que conozco por aquí es el moneyball
+other:¿Eso es una carrera espacial?
+other:No es un gran juego.
+ego:Sí, es sólo una herramienta para incitar al combate espacial.
+ego:Entonces la corporación Moneyball televisará la carnicería.
+ego:No es un mariokart.
+other:No sabría decirte.
+other:Habla con Jack sobre los juegos de carreras.
+other:Sólo que no le gusta dialogar.
+ego:Esa una expresión extraña.
+other:Días extraños, amigo mío, días extraños.
 option-off 22
 option-on 23
 return
 
 
-@23 // strange days indeed.
-ego:strange days indeed.
-ego:like that track by john lemon.
-other:Life imitates art, art imitates life...
-other:...then one morning...
-other:Bam! You get hit by a space truck.
-ego:And this all could be a computer simulation anyway.
-other:Who knows, who cares.
+@23 // Días muy extraños
+ego:Días muy extraños
+ego:como esa canción de John Lemon.
+other:La vida imita al arte, el arte imita a la vida....
+other:...entonces una mañana...
+other:Bam! Te atropella un camión espacial.
+ego:Y todo esto podría ser una simulación por ordenador de todos modos.
+other:Quién sabe, a quién le importa.
 option-off 23
 return
 
-@3 // So, you're not...
-ego:So, you're not...
-ego:...the famous Space Adventurer...
+@3 // Entonces, tú no eres...
+ego:Entonces, tú no eres...
+ego:...el famoso Aventurero Espacial...
 ego:...Rich Evans?
-other:What? Is this a meta joke thing?
-ego:Errr... yes?
-other:Because, I'm not into that.
-ego:Just making conversation.
-other:Meh, it's fine.. everything's fine.
-other:but, I got shit to do.
-other:I'm close to 3000 hrs on X-com 12, The Quickening.
+other:¿Qué? ¿Esto es una broma?
+ego:Errr... ¿sí?
+other:Porque, yo no me dedico a eso.
+ego:Sólo saci conversación.
+other:Meh, está bien... todo está bien.
+other:Pero, tengo cosas que hacer.
+other:Estoy cerca de las 3000 horas en X-com 12, The Quickening.
 option-off 3
 option-off 1
 option-on 31
 return
 
-@31 // I liked, 'Terror from the deep'. 
-ego:I liked, 'Terror from the deep'. 
-ego:Good times.
-other:Fascinating.
-ego:With the Lobstermen...
-other:Bye.
-ego:That game had good character design.
+@31 // Me gustó,'Terror desde lo profundo'. 
+ego:Me gustó,'Terror desde lo profundo'. 
+ego:Buenos tiempos.
+other:Fascinante.
+ego:Con los Lobstermen...
+other:Adiós.
+ego:Ese juego tenía un buen diseño de personajes.
 option-off 31
 return
 
 
-@33 // You should have hunkered down more.
-ego:You should have hunkered down more.
-other:I was doing the optimum hunkering.
-other:Sometimes...
-other:...snipers just die.
+@33 // Deberías haberte agachado más
+ego:Deberías haberte agachado más
+other:Estaba haciendo el "hunkering" óptimo.
+other:A veces...
+other:...los francotiradores simplemente mueren.
 option-off 33
 return
 
 
-@4 // Bye
-ego:Bye.
-other:Bye.
+@4 // Adiós
+ego:Adiós.
+other:Adiós.
 Stop
 

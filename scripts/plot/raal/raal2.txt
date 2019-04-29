@@ -1,52 +1,52 @@
 //begin
-// [x] 1 - "Where are these contacts?"
-// [x] 2 - "Do you have any more information?"
-// [x] 3 - "Know of any more wormholes?"
-// [x] 4 - "Never mind"
+// [x] 1 - "¿Dónde están esos contactos?"
+// [x] 2 - "¿Tienes más información?"
+// [x] 3 - "¿Conoces más agujeros de gusano?"
+// [x] 4 - "No importa"
 //end
 
 @S // dialog startup entry point
-other:You should be on your way. 
-other:Find the contacts and find walker base.
+other:Deberías estar en camino.
+other:Encuentra los contactos y encuentra la Walker Base (Base caminate).
 option-on 1
 option-on 2
 option-on 3
 option-on 4
 return
 
-@1 // Where are these contacts?
-ego:Where are these contacts?
-other:I've added their whereabouts to your contact list.
-other:Simply find them on the stations I've outlined and talk to them.
-other:I don't know what they want or what they'll give you.
+@1 // ¿Dónde están esos contactos?
+ego:¿Dónde están esos contactos?
+other:He añadido su paradero a su lista de contactos.
+other:Simplemente encuéntrelos en las estaciones que he descrito y hable con ellos.
+other:No sé lo que quieren o lo que te darán.
 option-off 1
 return
 
-@2 // Do you have any more information?
-ego:Do you have any more information?
-other:I don't know anything else. Just keep away from the police.
-other:They're neither helpful or useful.
+@2 // ¿Tienes más información?
+ego:¿Tienes más información?
+other:No sé nada más. Sólo mantente alejado de la policía.
+other:No son ni útiles, ni útiles.
 option-off 2
 return
 
-@3 // Know of any more wormholes?
-ego:Know of any more wormholes?
-other:I heard that aenso is a hotspot for them. 
-other:It must be a strange universal focal point.
-other:Try searching around there if you want.
-other:You hear some horror stories about those.
-ego:Oh?
-other:I heard of a crew who lost their minds travelling in a wormhole...
-other:...and they half melted into the metal walls of their ship...
-other:...and just kept screaming for the rest of their days.
-other:Which was 3 days.. in the story.
-other:I'm not sure of the validity of this though.
-other:You should try it.
-ego:Cool story. Thanks.
+@3 // ¿Conoces más agujeros de gusano?
+ego:¿Conoces más agujeros de gusano?
+other:He oído que Aenso es un punto de acceso público para ellos. 
+other:Debe ser un extraño punto focal universal.
+other:Intenta buscar por ahí si quieres.
+other:Se oyen algunas historias de horror sobre ellos.
+ego:¿Oh?
+other:He oído de una tripulación que perdió la cabeza viajando en un agujero de gusano....
+other:...y se fundieron con las paredes de metal de su nave....
+other:...y siguieron gritando el resto de sus días.
+other:Que fueron 3 días... en la historia.
+other:Sin embargo, no estoy seguro de la validez de esto.
+other:Deberías intentarlo.
+ego:Una historia genial. Gracias.
 option-off 3
 return
 
-@4 // Never mind
-ego:Never mind.
-other:Good luck.
+@4 // No importa
+ego:No importa.
+other:Buena suerte.
 stop

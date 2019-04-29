@@ -1,33 +1,33 @@
 //begin
-// [ ] 1 - "Are you a trader in this system?"
-// [ ] 2 - "I'll tell you what's up."
-// [ ] 3 - "What do you have time for?"
-// [ ] 31 - "I paint too!"
-// [ ] 32 - "The greatest technique..."
-// [ ] 33 - "What landscapes?"
-// [x] 4 - "Bye."
+// [ ] 1 - "¿Eres un comerciante de este sistema?"
+// [ ] 2 - "Te diré lo que pasa."
+// [ ] 3 - "¿Para qué tienes tiempo?"
+// [ ] 31 - "¡Yo también pinto!"
+// [ ] 32 - "La mejor técnica..."
+// [ ] 33 - "¿Qué paisajes?"
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hi there.
-other:Yes. 
-other:What's up?
+ego:Hola
+other:Sí.
+other:¿Qué pasa?
 option-on 1
 option-on 2
 return
 
-@1 // Are you a trader in this system?
-ego:Are you a trader in this system?
-other:I'm a freelance nav officer.
-other:My captain's ship just got impounded.
-ego:Another ship impounded?
-other:Yeah, probably gang related.
-other:I'm glad to be freelance in these situations.
-other:Stolen ships... Police bureaucracy...
-other:...I ain't got time for that.
+@1 // ¿Eres un comerciante de este sistema?
+ego:¿Eres un comerciante de este sistema?
+other:Soy un oficial de navegación independiente.
+other:La nave de mi capitán acaba de ser confiscada.
+ego:¿Otra nave confiscada?
+other:Sí, probablemente esté relacionado con pandillas.
+other:Me alegro de ser freelance en estas situaciones.
+other:Naves robadas... La burocracia policial...
+other:...no tengo tiempo para eso.
 option-off 1
 option-off 2
 option-on 11
@@ -35,31 +35,31 @@ option-on 3
 return
 
 
-@2 // I'll tell you what's up.
-ego:I'll tell you what's up.
-ego:My thirst for payback is up.
-other:Not another angry character...
-other:...people are so angry these days.
-other:I ain't got time for that.
+@2 // Te diré lo que pasa.
+ego:Te diré lo que pasa.
+ego:Mi sed de venganza ha aumentado.
+other:No es otro tipo enfadado....
+other:...la gente está tan enfadada estos días.
+other:No tengo tiempo para eso.
 option-off 1
 option-off 2
 option-on 3
 return
 
-@11 // Ain't nobody got time for that.
-ego:Ain't nobody got time for that.
-other:True dat.
+@11 // Nadie tiene tiempo para eso.
+ego:Nadie tiene tiempo para eso.
+other:Ese es un dato verdadero.
 option-off 11
 return
 
 
-@3 // What do you have time for?
-ego:What do you have time for?
-other:Me?
-other:I like to paint.
-other:Stereoscopic landscapes.
-ego:Nice, sounds difficult.
-other:There are techniques to it.
+@3 // ¿Para qué tienes tiempo?
+ego:¿Para qué tienes tiempo?
+other:¿Yo?
+other:Me gusta pintar.
+other:Paisajes estereoscópicos.
+ego:Bien, suena difícil.
+other:Hay técnicas para eso.
 option-off 3
 option-off 11
 option-on 31
@@ -67,44 +67,44 @@ option-on 32
 option-on 33
 return
 
-@31 // I paint too!
-ego:I paint too!
-other:Really?
-ego:Sure. Now and then.
-other:Well tell me about it sometime.
-other:Right now, I'm trying to get laid.
+@31 // ¡Yo también pinto!
+ego:¡Yo también pinto!
+other:¿En serio?
+ego:Claro. De vez en cuando.
+other:Bueno, cuéntamelo en algún momento.
+other:Ahora mismo, estoy tratando de acostarme con alguien.
 option-off 31
 option-off 32
 option-off 33
 stop
 
-@32 // The greatest technique...
-ego:The greatest technique...
-other:...is to have no technique.
-other:Yeah yeah. I heard that one.
-other:I get the effect I want.
+@32 // La mejor técnica...
+ego:La mejor técnica...
+other:...es no tener técnica.
+other:Sí, sí, sí. Ya he oído eso.
+other:Obtengo el efecto que quiero.
 option-off 31
 option-off 32
 return
 
-@33 // What landscapes?
-ego:What landscapes?
-other:Old earth locations.
-other:Imagined scenes...
-other:...trying to combine fractal math..
-other:.with naive aesthetics.
-ego:Fractals eh?
-other:Yeah, based on those used to randomise evasive manoeuvres.
-other:From combat navigation.
-other:Chat later if you like...
-other:..now, I'm waiting for someone.
+@33 //  ¿Qué paisajes?
+ego: ¿Qué paisajes?
+other:Antiguos lugares de la tierra.
+other:Escenas imaginadas...
+other:...tratando de combinar matemáticas fractales...
+other:...con estética ingenua.
+ego:¿Fractales eh?
+other:Sí, basado en los usados para aleatorizar maniobras evasivas.
+other:De la navegación en combate.
+other:Chateamos más tarde si quieres....
+other:...ahora, estoy esperando a alguien.
 option-off 31
 option-off 32
 option-off 33
 return
 
-@4 // Bye
-ego:Bye.
-other:Bye.
+@4 // Adiós
+ego:Adiós.
+other:Adiós.
 Stop
 

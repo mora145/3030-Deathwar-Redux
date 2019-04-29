@@ -1,70 +1,70 @@
 //begin
-// [ ] 1 - "were you in space cop?"
-// [ ] 2 - "I'm sure I saw you..."
-// [ ] 3 - "You look like you could use some money."
-// [ ] 31 - "The crate..."
-// [ ] 32 - "about That crate..."
+// [ ] 1 - "¿Estuviste en la policía espacial?"
+// [ ] 2 - "Estoy seguro de haberte visto..."
+// [ ] 3 - "Parece que te vendría bien algo de dinero."
+// [ ] 31 - "La caja..."
+// [ ] 32 - "Acerca de esa caja..."
 
-// [x] 4 - "Bye."
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi again.
-ego:One more thing..
+other:Hola de nuevo
+ego:Una cosa más...
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // were you in space cop?
-ego:were you in space cop?
-other:Never heard of it, buzz off. 
+@1 // ¿Estuviste en la policía espacial?
+ego:¿Estuviste en la policía espacial?
+other:Nunca he oído hablar de eso, lárgate.
 option-off 1
 return
 
-@2 // I'm sure I saw you...
-ego:I'm sure I saw you...
-other:In an old video...
-other:..doing something with a toy droid...
-other:It wasn't me.
-other:Fuck off.
+@2 // Estoy seguro de haberte visto...
+ego:Estoy seguro de haberte visto...
+other:En un viejo video...
+other:...haciendo algo con un droide de juguete...
+other:No fui yo.
+other:Vete a la mierda.
 option-off 2
 return
 
-@3 // You look like you could use some money.
-ego:You look like you could use some money.
-ego:Sitting there on your crate.
-other:If I had a wealthy subscribers...
-other:...and I was more talented...
-other:...I'd be doing fine.
-other:Anyway, you don't know what I've got in my crate.
-other:It's fucking awesome.
+@3 // Parece que te vendría bien algo de dinero.
+ego:Parece que te vendría bien algo de dinero.
+ego:Sentado ahí en tu cajón.
+other:Si tuviera un suscriptor rico...
+other:....y fue más talentoso....
+other:...me estaría llendo bien.
+other:De todos modos, no sabes lo que tengo en mi caja.
+other:Es jodidamente asombroso.
 option-off 3
 option-on 31
 return
 
-@31 // The crate...
-ego:The crate...
-other:It's only the best mcguffin ever.
-other:Can you see it?
+@31 // La caja...
+ego:La caja...
+other:Es sólo el mejor McGuffin de todos los tiempos.
+other:¿Puedes verlo?
 other:No.
 option-off 31
 option-on 32
 return
 
-@32 // about That crate...
-ego:about That crate...
-other:The best mcguffin ever...
-other:...it's not for you.
-other:Move along.
+@32 // acerca de esa caja....
+ego:Acerca de esa caja....
+other:El mejor McGuffin de todos los tiempos....
+other:...no es para ti.
+other:Muévete.
 option-off 32
 return
 
-@4 // Bye
-ego:Bye.
-other:bye.
+@4 // Adiós
+ego:Adiós.
+other:Adiós.
 Stop
 

@@ -1,30 +1,29 @@
 //begin
-// [x] 1 - "Yeah, gimme a try."
-// [x] 2 - "Not right now."
+// [x] 1 - "Sí, intentemos."
+// [x] 2 - "Ahora no."
 //end
 
 @S // start
-other:Hi, can I help you?
-other:Oh, it's you again.
-other:You want to try that circuit board again?
+other:Hola, ¿puedo ayudarte?
+other:Oh, eres tú otra vez.
+other:¿Quieres intentarlo de nuevo?
 option-on 1
 option-on 2
 return
 
-@1 // I'll give it a try.
-ego:I'll give it a try.
-other:Great. If you get stuck or you don't know how to unscramble it completely
-other:just press escape.
-ego:So, how do I unscramble them again?
-other:Just click on a node to move. 
-other:When all the circuits aren't crossing...
-other:...you have successfully unscrambled it.
-other:Ok? Have a go.
+@1 // Voy a intentarlo.
+ego:Voy a intentarlo.
+other:Genial. Si te quedas atascado o no sabes cómo descifrarlo completamente...
+other:...sólo presiona "escape".
+ego:Entonces, ¿cómo puedo desenredarlos de nuevo?
+other:Sólo tienes que hacer clic en un nodo para moverlo, cuando todos los circuitos no lo estén cruzando.
+other:Ten exito desenredandolo.
+other:¿Ok?, adelante.
 setMissionAnswer 1
 stop
 
-@2 //Not right now.
-ego:Not right now.
-other:Ok, come back when you want to give it a shot.
+@2 // Ahora no.
+ego:Ahora no.
+other:Bien, vuelve cuando quieras intentarlo.
 setMissionAnswer 0
 stop
