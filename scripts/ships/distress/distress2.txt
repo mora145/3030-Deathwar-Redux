@@ -1,0 +1,54 @@
+//begin
+// [x] 1 - "All ready?"
+// [x] 2 - "Tractor beam ready."
+// [x] 3 - "In position."
+// [ ] 4 - "I'll drop you back at the bar in no time."
+// [ ] 5 - "Are you ejecting early?"
+//end
+
+@S 
+ego:Ready to assist.
+other:Roger. Mind the blast.
+other:Getting suited for evac.
+return
+
+@1 
+ego:All ready?
+other:...where's my boots!
+other:...Hey, give me that...
+other:......
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+@2 
+ego:Tractor beam ready.
+other:Great. Preparing to Eject!
+option-off 2
+return
+
+@3 
+ego:In position.
+stop
+
+@4
+ego:I'll drop you back at the bar in no time.
+other:We hope so.
+option-off 4
+option-off 5
+option-on 2
+option-on 3
+return
+
+@5 
+ego:Are you ejecting early?
+other:All are suited and ready.
+other:We'll try to fix the hull one last time...
+option-off 4
+option-off 5
+option-on 2
+option-on 3
+return

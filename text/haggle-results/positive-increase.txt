@@ -1,0 +1,6 @@
+Mr. Falcon, I'll give you {0}.
+{0} should be enough.
+{0} it is.
+The fee is now {0}.
+Does {0} sound better then?
+I've raised the fee to {0}.

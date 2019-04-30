@@ -1,0 +1,52 @@
+//begin
+// [x] 1 - "Good luck."
+// [x] 2 - "Tractor beam ready."
+// [x] 3 - "In position."
+// [ ] 4 - "I'll drop you back at the bar in no time."
+// [ ] 5 - "Your hull is failing fast."
+//end
+
+@S 
+ego:Ready to assist.
+other:I don't have a good feeling about this.
+other:Hope you can save us.
+return
+
+@1 
+ego:Good luck.
+other:Thanks!
+other:...Helmets on guys.
+option-off 1
+option-off 2
+option-off 3
+option-on 4
+option-on 5
+return
+
+@2 
+ego:Tractor beam ready.
+other:Don't swing me around please.
+other:I just ate lunch.
+option-off 2
+return
+
+@3 
+ego:In position.
+stop
+
+@4
+ego:I'll drop you back at the bar in no time.
+option-off 4
+option-off 5
+option-on 2
+option-on 3
+return
+
+@5 
+ego:Your hull is failing fast.
+other:Yeah, It's breaking up.
+option-off 4
+option-off 5
+option-on 2
+option-on 3
+return

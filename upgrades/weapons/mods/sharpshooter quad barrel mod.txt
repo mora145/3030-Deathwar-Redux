@@ -1,0 +1,13 @@
+name=sharpshooter quad barrel mod
+cost=25000
+tech lvl=0.8
+avaiable=1
+desc=coverts front gun shots to a 4 shot cluster, at quarter the fire rate. doesn't work on flak or beam type weapons.
+once=1
+mass=0
+department=mods
+value#=0
+[incompat]
+mods
+[incompat]
+image=data/images/upgrades/gunTwinQuad.png

@@ -1,0 +1,13 @@
+name=nebula radar
+cost=1500
+tech lvl=0.13
+avaiable=1
+desc=Adds an additional overlay to help avoid nearby nebulas. Keyboard shortcut: Press C. On Controller: BACK / SELECT
+once=1
+mass=0
+department=nebula radar
+value#=1.0
+[incompat]
+nebula radar
+[incompat]
+image=data/images/upgrades/nebularadar.png

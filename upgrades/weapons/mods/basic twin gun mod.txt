@@ -1,0 +1,13 @@
+name=basic twin gun mod
+cost=10500
+tech lvl=0.8
+avaiable=1
+desc=coverts front gun into 2 alternating fire shots with width separation. doesn't work on flak or beam type weapons.
+once=1
+mass=0
+department=mods
+value#=0
+[incompat]
+mods
+[incompat]
+image=data/images/upgrades/gunTwinAlternating.png
