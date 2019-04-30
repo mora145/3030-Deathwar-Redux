@@ -533,7 +533,7 @@ end
 				if ((timesDocked()>=10) and ( storyOfFrank==0 )) then
 					setStoryVar(FrankStoryIndex,1)
 					storyOfFrank=1
-					info2("Transmission from Kent (carrier signal confirmed): Hey Chief, Remember Frank who sold us that stolen ship? He's on rub ba station 2 right now. Go find him quick in case he's still got our money!")
+					info2("Transmisión de Kent (señal portadora confirmada): Jefe, ¿recuerda a Frank, el que nos vendió la nave robada? Está en la estación Rub Ba ahora mismo. Ve a buscarlo rápido en caso de que todavía tenga nuestro dinero!")
 					removeContact("frank zoed")
 					addContact("Frank zoed","rub ba station 2, andinti")
 				end
@@ -620,7 +620,7 @@ end
 						addContact("Kent: Meet me at","rub ba station 3, andinti")
 						info2("Transmisión de Kent (señal portadora confirmada): Tengo grandes noticias. Encuéntrame en la estación Rub Ba 3. Te he enviado mi contacto. (Abre la pantalla personal y selecciona Contactos)")
 					else
-						info2("Transmisión de Vásquez (señal portadora confirmada): Escuché un rumor de que el Largo está dando vueltas alrededor de Andinti, y está llena de oro. ¿Quieres apostar quién lo encontrará primero?")
+						info2("Transmisión de Vásquez (señal portadora confirmada): Escuché un rumor de que el Largo está dando vueltas alrededor de Andinti, y está llena de oro. ¿Quieres apostar quién la encontrará primero?")
 						addContact("The Largo","????, andinti")
 					end
 				end
@@ -869,7 +869,7 @@ end
 	if (storyOfKent==1) then
 	    if (timerFinished("kent call [hidden]")==1) then
             destroyTimer("kent call [hidden]")
-			info2("Transmisión de Kent (señal portadora confirmada): Hey Jefe, me he metido en algunos problemas. Pasa por la estación HBE en el Sistema Ceayti cuando puedas.")
+			info2("Transmisión de Kent (señal portadora confirmada): Hey Jefe, me he metido en algunos problemas. Pasa por la estación HBE en el sistema Ceayti cuando puedas.")
 			addContact("Kent in trouble","HBE, Ceayti")
 			makeSystemVisible("Ceayti")
 			
@@ -951,7 +951,7 @@ end
 			addContact("Source of Drones","ulic station 2, ceenlia")
 			makeSystemVisible("ceenlia")
 			
-			info2("Transmisión del oficial Grah (señal portadora confirmada): Bien hecho. Rastreamos la fuente de los drones hasta la estación ulic 2 en el sistema Ceenlia. Dirígete al este a través del hueco en la nebulosa para llegar allí rápido. ¡Destruye la fuente!")
+			info2("Transmisión del oficial Grah (señal portadora confirmada): Bien hecho. Rastreamos la fuente de los drones hasta la estación Ulic 2 en el sistema Ceenlia. Dirígete al este a través del hueco en la nebulosa para llegar allí rápido. ¡Destruye la fuente!")
 			
 			makeNebulaVisible(6,11)
 			makeNebulaVisible(6,12)

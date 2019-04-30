@@ -12,12 +12,12 @@ return
 
 @1
 ego:Parece que alguien te está buscando.
-other:Oh si? ¿Quién?
+other:¿Oh si? ¿Quién?
 ego:No puedo decirlo. La confidencialidad y todo eso.
 other:Bueno, tal vez no quiero que me encuentren.
 ego:¿Que les diga qué?
 other:¿Cuánto te ofrece esta persona misteriosa?
-ego:No puedo decirlo.¿Por qué?
+ego:No puedo decirlo. ¿Por qué?
 other:No lo sé, sólo por curiosidad, supongo. ¿Y ahora qué?
 ego:Nada. Sólo regresaré y les diré que estás aquí.
 other:Huh. Bueno, espero que sea con alguien que quiera encontrarme.
@@ -27,6 +27,6 @@ stop
 
 @2
 ego:No, sólo que accidentalmente empecé a hablar contigo.
-other:Oh, ok. Nos vemos, amigo.
+other:Oh, ok. Nos vemos amigo.
 setMyselfFreeform
 stop
