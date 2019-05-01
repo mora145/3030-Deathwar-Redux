@@ -2,15 +2,15 @@
 // [ ] 1 - " q1 ?"
 // [ ] 2 - " q2 ?"
 // [ ] 3 - " q3 ?"
-// [x] 4 - "Bye."
+// [x] 4 - "Adiós."
 
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Hi again.
-ego:One more thing..
+other:Hola de nuevo.
+ego:Una cosa más...
 option-on 1
 option-on 2
 option-on 3
@@ -43,8 +43,8 @@ other:xxxx
 option-off 3
 return
 
-@4 // Bye
-ego:Bye.
-other:Bye.
+@4 // Adiós
+ego:Adiós.
+other:Adiós.
 Stop
 

@@ -1,41 +1,41 @@
 //begin
-// [ ] 1 - "I'm done here."
-// [ ] 2 - "None of your concern."
+// [ ] 1 - "He terminado aquí."
+// [ ] 2 - "Nada de tu incumbencia"
 //end
 
 // dialog script file
 @S // dialog startup entry point
-other:I saw your work on a monitor. 
-other:You are a straight shooter, Mr Falcon, like a squidman.
-other:Maybe we should team up!
-other:Are you all done here?
+other:Vi tu trabajo en un monitor. 
+other:Usted es un buen tirador, Sr. Falcon, como un calamar.
+other:¡Quizás deberíamos unirnos!
+other:¿Terminaste aquí?
 option-on 1
 option-on 2
 return
 
-@1 // I'm done here.
-ego:I'm done here.
-other:So I'm free to leave?
-other:This batch of nanobots can only be released by the boss.
-other:Your flesh won't be rotting today.
-ego:You're staying right here.
-ego:The authorities will collect you and destroy those weapons.
-ego:There is no escape. 
-other:It makes no difference to me.
-other:No prison can hold me.
-other:I'll break out, get a great new outfit...
-other:And I'll see you real soon.
+@1 // Ya terminé aquí.
+ego:Ya terminé aquí.
+other:¿Entonces soy libre de irme?
+other:Este lote de nanobots sólo puede ser liberado por el jefe.
+other:Tu carne no se pudrirá hoy.
+ego:Te quedas aquí mismo.
+ego:Las autoridades te recogerán y destruirán esas armas.
+ego:No hay escapatoria.
+other:No hay ninguna diferencia para mí.
+other:Ninguna prisión puede retenerme.
+other:Me escaparé, conseguiré un gran traje nuevo....
+other:Y te veré muy pronto.
 option-off 1
 option-off 2
 stop
 
 
-@2 // None of your concern.
-ego:None of your concern.
-ego:In a few minutes you'll be surrounded.
-ego:Attempt to take off and your ship will be destroyed.
-ego:If any sensors detect a release of nanobots...
-ego:You'll get vaporised from orbit.
+@2 // No es de tu incumbencia.
+ego:No es de tu incumbencia.
+ego:En unos minutos estarás rodeado.
+ego:Intenta despegar y tu nave será destruida.
+ego:Si algún sensor detecta una liberación de nanobots...
+ego:Serás vaporizado desde la órbita.
 option-off 1
 option-off 2
 stop

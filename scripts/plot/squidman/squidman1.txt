@@ -1,45 +1,45 @@
 //begin
-// [ ] 1 - "I'm here for your boss."
-// [ ] 2 - "You're under arrest."
-// [ ] 21 - "Drop the gun."
-// [ ] 22 - "Try it."
-// [ ] 28 - "Dead or Alive, you're coming with me."
-// [ ] 23 - "Don't try it."
-// [ ] 3 - "You know you'll have company soon?"
-// [ ] 31 - "Tell me the plan."
-// [ ] 32 - "With brains like yours, you must have a great plan B."
-// [ ] 33 - "How about a battle of wits?"
-// [ ] 4 - "Stay right there."
-// [ ] 41 - "I'll be back."
-// [ ] 42 - "Does that lift access the Top deck?"
-// [ ] 5 - "I promise I'll kill you last."
+// [ ] 1 - "Estoy aquí por tu jefe."
+// [ ] 2 - "Estás bajo arresto."
+// [ ] 21 - "Suelta el arma."
+// [ ] 22 - "Inténtalo."
+// [ ] 28 - "Vivo o muerto, te vienes conmigo."
+// [ ] 23 - "Ni lo intentes."
+// [ ] 3 - "¿Sabes que pronto tendrás compañía?"
+// [ ] 31 - "Cuéntame el plan."
+// [ ] 32 - "Con cerebros como los tuyos, debes tener un gran plan B."
+// [ ] 33 - "¿Qué tal una batalla de ingenio?"
+// [ ] 4 - "Quédate justo ahí."
+// [ ] 41 - "Volveré."
+// [ ] 42 - "¿Ese ascensor tiene acceso a la cubierta superior?"
+// [ ] 5 - "Prometo que te mataré al último."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hey there Squidman.
+ego:Hola Squidman.
 other:Arrrgh!
-other:Inconceivable!
-other:You.. you should be dead.
-ego:Yet here I am.
+other:¡Inconcebible!
+other:Tú... deberías estar muerto.
+ego:Sin embargo, aquí estoy.
 option-on 1
 option-on 2
 option-on 21
 option-on 3
 return
 
-@1 // I'm here for your boss.
-ego:I'm here for your boss.
-ego:Where are they?
-ego:I want compensation for my impounded ship!
+@1 // Estoy aquí por tu jefe.
+ego:Estoy aquí por tu jefe.
+ego:¿Dónde están?
+ego:¡Quiero una compensación por la nave que me decomisaron!
 other:Huh? 
-ego:Your boss caused me to end up with a stolen ship.
-other:I know nothing about that!
-other:and.. it's Hardly important compared to what's just happened!
-other:You'll find the boss up top.
-other:The lift might have a little trouble with your... weight.
-ego:Hey, I'm in good shape.
+ego:Tu jefe hizo que terminara con una nave robada.
+other:¡No sé nada de eso!
+other:y... es poco importante comparado con lo que acaba de pasar!
+other:Encontrarás al jefe arriba.
+other:l ascensor puede tener un pequeño problema con su... peso.
+ego:Oye, estoy en buena forma.
 option-off 1
 option-off 2
 option-off 21
@@ -49,15 +49,15 @@ option-on 31
 option-on 42
 return
 
-@2 // You're under arrest.
-ego:You're under arrest.
-other:Arrest? 
-ego:I want compensation for my impounded ship!
-other:Huh? 
-ego:Your boss caused me to end up with a stolen ship.
-other:I know nothing about that!
-other:and.. it's Hardly important compared to what's just happened!
-other:You'll find the boss on the Top deck.
+@2 // Estás bajo arresto.
+ego:Estás bajo arresto.
+other:¿Arresto? 
+ego:¡Quiero una compensación por la nave que me decomisaron!
+other:¿Eh?
+ego:Tu jefe hizo que terminara con una nave robada.
+other:¡No sé nada de eso!
+other:y... es poco importante comparado con lo que acaba de pasar!
+other:Encontrarás al jefe arriba.
 option-off 1
 option-off 2
 option-off 21
@@ -68,26 +68,26 @@ option-on 42
 option-off 3
 return
 
-@28 // Dead or Alive, you're coming with me.
-ego:Dead or Alive, you're coming with me.
-other:Ok. Alive for me please.
-other:I'll escape any prison devised!
-ego:Enjoy trying.
-other:I'm just here for my compensation.
+@28 // Vivo o muerto, vendrás conmigo.
+ego:Vivo o muerto, vendrás conmigo.
+other:Ok. Vivo, por favor.
+other:¡Escaparé de cualquier prisión que te inmagines!
+ego:Disfruta intentándolo.
+other:Sólo estoy aquí por mi salario.
 option-off 28
 return
 
-@21 // Drop the gun.
-ego:Drop the gun.
-other:What gun?
-other:My only weapon is my amazing brain!
-other:What do you want?
-ego:I want compensation for my impounded ship!
-other:Huh? 
-ego:Your boss caused me to end up with a stolen ship.
-other:I know nothing about that!
-other:and.. it's Hardly important compared to what's just happened!
-other:You'll find the boss in the upper level nano tech lab.
+@21 // Suelta el arma.
+ego:Suelta el arma.
+other:¿Qué arma?
+other:¡Mi única arma es mi asombroso cerebro!
+other:¿Qué es lo que quieres?
+ego:¡Quiero una compensación por la nave que me decomisaron!
+other:¿Eh?
+ego:Tu jefe hizo que terminara con una nave robada.
+other:¡No sé nada de eso!
+other:y... es poco importante comparado con lo que acaba de pasar!
+other:Encontrarás al jefe en el laboratorio de nanotecnología del nivel superior.
 option-off 1
 option-off 2
 option-off 21
@@ -97,144 +97,144 @@ option-on 31
 option-on 42
 return
 
-@22 // Try it
-ego:Try it.
-other:Try what?
-other:I'm the brains.
-other:I don't do combat.
+@22 // Inténtalo
+ego:Inténtalo
+other:¿Intentar qué?
+other:Yo soy el cerebro.
+other:No peleo.
 option-off 22
 option-off 23
 return
 
-@23 // Don't try it
-ego:Don't try it.
-other:Try what?
-other:I'm the brains.
-other:I don't do combat.
+@23 // No lo intentes
+ego:No lo intentes
+other:¿Intentar qué?
+other:Yo soy el cerebro.
+other:No peleo.
 option-off 22
 option-off 23
 return
 
-@3 // You know you'll have company soon?
-ego:You know you'll have company soon?
-ego:Others are coming here too.
-other:They won't get here fast enough.
-other:Soon the boss will initiate plan B.
+@3 // ¿Sabes que pronto tendrás compañía?
+ego:¿Sabes que pronto tendrás compañía?
+ego:Otros también vienen para acá.
+other:No llegarán lo suficientemente rápido.
+other:Pronto el jefe iniciará el plan B.
 option-off 3
 return
 
-@31 // Tell me the plan.
-ego:Tell me the plan.
-other:Straight to the point, like a squidman.
-other:You are bold, Mr Falcon.
-other:You've got soft genitals, for a human!
-ego:Is That a compliment about being bold?
-other:Yes, that's a squid phrase.
-other:It means you have a good sperm tentacle.
-other:If only you had a less rigid endoskeleton.
-other:You could be my cuttlefish.
-ego:Hey, I ain't no one's cuttlefish!
-ego:Let's get back to business shall we?
-other:Cool your jets.
-other:You'll find out about our plan B.
-other:I hope you get out of here before...
-other:It begins! 
+@31 // Cuéntame el plan.
+ego:Cuéntame el plan.
+other:Directo al grano, como un calamar.
+other:Usted es audaz, Sr. Falcon.
+other:¡Tienes genitales blandos, para ser humano!
+ego:¿Es eso un cumplido por ser atrevido?
+other:Sí, es una frase de calamar.
+other:Significa que tienes un buen tentáculo de esperma.
+other:Si tan solo tuvieras un endoesqueleto menos rígido.
+other:Podrías ser mi sepia.
+ego:Oye, no soy la sepia de nadie.
+ego:Volvamos a lo nuestro, ¿si?
+other:Enfria tus motores.
+other:Usted se enterará de nuestro plan B.
+other:Espero que salgas de aquí antes de que...
+other:¡Está comenzando! 
 option-off 31
 option-on 32
 option-off 222
 return
 
-@32 // With brains like yours, you must have a great plan B.
-ego:With brains like yours, you must have a great plan B.
-other:Nice try, Mr Falcon.
-other:You've got genitals, but no brains to match mine.
-other:Soon our plan B will be rotting your flesh.
-ego:It's nanobots again right?
+@32 // Con cerebros como los tuyos, debes tener un gran plan B.
+ego:WCon cerebros como los tuyos, debes tener un gran plan B.
+other:Buen intento, Sr. Falcon.
+other:Tienes genitales, pero no cerebro que encaje con el mío.
+other:Pronto nuestro plan B podrirá tu carne.
+ego:Son nanobots otra vez, ¿verdad?
 other:Hmmmm...
-other:Maybe.
-ego:This Deathwar plot was all about nanobots killing off life you don't like.
-ego:Same as the last time.
-ego:Predictable.
-other:Yes yes! We are Releasing destructive nanobots as revenge.
-other:It's predictable, but I helped configure the bots.
-other:So it amuses me.
-ego:I guess the boss is about to release them?
-other:You'll get no more out of me, Mr Falcon.
-other:My squid mouth will ejaculate no more!
-other:I assume you know ejaculate can refer to speech.
-other:Most Humans are so dumb.
+other:Talvez.
+ego:Este complot de Deathwar era todo sobre nanobots matando la vida que no te gusta.
+ego:Igual que la última vez.
+ego:Predecible.
+other:¡Sí, sí, sí! Estamos liberando nanobots destructivos como venganza.
+other:Es predecible, pero ayudé a configurar los robots.
+other:Así que me divierte.
+ego:Supongo que el jefe está a punto de liberarlos.
+other:No me sacará nada más, Sr. Falcon.
+other:¡Mi boca de calamar no eyaculará más!
+other:Asumo que usted sabe que la eyaculación puede referirse al habla.
+other:La mayoría de los humanos son tan tontos.
 option-off 32
 option-on 33
 option-on 4
 option-on 41
 return
 
-@33 // How about a battle of wits?
-ego:How about a battle of wits?
-other:Nice try again, Mr Falcon.
-other:You've got nipples, but no cortex to match mine.
-ego:Then you accept!
-other:Naturally!
-ego:I have an alternative.
-other:I know what your alternative will be, Mr Falcon.
-other:It is you, not I, who is predictable.
-other:I know You intend to utilize the only weapon you have.
-other:Your blaster!
-ego:Go on.
-other:I know you plan to propose a game of what humans used to call...
-other:Russian Roulette!
-ego:You're stalling, as expected.
-ego:Actually, I never plan ahead.
-other:Wu Wei! I know that philosophy too, Mr Falcon.
+@33 // ¿Qué tal una batalla de ingenio?
+ego:¿Qué tal una batalla de ingenio?
+other:Buen intento de nuevo, Sr. Falcon.
+other:Tienes tetillas pero no corteza que coincida con la mía.
+ego:¡Entonces aceptas!
+other:¡Naturalmente!
+ego:Tengo una alternativa.
+other:Sé cuál será su alternativa, Sr. Falcon.
+other:Eres tú, no yo, quien es predecible.
+other:Sé que pretendes utilizar la única arma que tienes.
+other:¡Tu blaster!
+ego:Continúa
+other:Sé que usted planea proponer un juego de lo que los seres humanos solían llamar...
+other:¡Ruleta Rusa!
+ego:Estás estancado, como era de esperar.
+ego:En realidad, nunca hago planes por adelantado.
+other:Wu Wei! Yo también conozco esa filosofía, Sr. Falcon.
 option-off 33
 return
 
-@4 // Stay right there.
-ego:Stay right there.
-ego:Don't leave town.
-other:Oh I suggest we do leave, Mr Falcon.
-other:Best not be on a planet or moon after Plan B.
-other:Nor any station neither.
+@4 // Quedate justo ahí.
+ego:Quedate justo ahí.
+ego:No te vayas de la ciudad.
+other:Oh, sugiero que nos vayamos, Sr. Falcon.
+other:Mejor es que no estés en un planeta o luna después del Plan B.
+other:Ni tampoco en ninguna estación.
 option-off 4
 option-on 5
 return
 
-@41 // I'll be back.
-ego:I'll be back.
-other:As you wish, but I have no more info for you.
-other:This plot bores me. 
-other:I am completing my tentacle string theory.
-other:Then I will generate far better plots than this!
-other:With much more of me in it.
-other:You wouldn't shoot a squidman.
+@41 // Volveré en seguida.
+ego:Volveré en seguida.
+other:Como desees, pero no tengo más información para ti.
+other:Esta trama me aburre.
+other:Estoy completando mi teoría de cuerdas de tentáculo.
+other:¡Entonces voy a generar diagramas mucho mejores que este!
+other:Con mucho más de mí en ellos.
+other:No le dispararías a un calamar.
 option-off 41
 option-on 5
 return
 
-@42 // Does that lift access the Top deck?
-ego:Does that lift access the Top deck?
-other:That's right.
-other:Look, this is between you an the boss.
-other:So no need for threats.
-ego:That was easy.
-other:Yeah. I am not that committed to this organisation.
-other:It should have been me in charge.
-other:Next time, I'll get the new deathwar started properly.
-other:And I'll look damn good too.
-other:With a great new outfit.
-other:You wouldn't shoot an un-armed squidman.
+@42 // ¿Esa plataforma tiene acceso a la cubierta superior?
+ego:¿Esa plataforma tiene acceso a la cubierta superior?
+other:Así es.
+other:Mira, esto queda entre tú y el jefe.
+other:Así que no hay necesidad de amenazas.
+ego:Eso fue fácil.
+other:Sí. No estoy tan comprometido con esta organización.
+other:Debería haber sido yo quien estuviera a cargo.
+other:La próxima vez, haré que la nueva Guerra de la muerte empiece correctamente.
+other:Y yo también me luciré muy bien.
+other:Con un gran traje nuevo.
+other:No le dispararías a un calamar desarmado.
 option-off 42
 return
 
-@5 // I promise I'll kill you last. 
-ego:I promise I'll kill you last.
-other:Hey now! We are the intellectuals in this story.
-other:We don't lower ourselves to hand-to-hand combat.
-other:We do our killing with technology. At a distance.
-other:Like a cuttlefish.
-other:right?
-other:right??
-other:right, Buddy?
-other:old chum.
-other:right?
+@5 // Prometo que te mataré de último.
+ego:Prometo que te mataré de último. 
+other:¡Eh, oye! Somos los intelectuales de esta historia.
+other:No nos rebajamos a un combate cuerpo a cuerpo.
+other:Matamos con tecnología. A distancia.
+other:Como una sepia.
+other:¿cierto?
+other:¿cierto?
+other:¿verdad, amigo?
+other:viejo amigo.
+other:¿cierto?
 Stop

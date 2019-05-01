@@ -1,17 +1,17 @@
 //begin
-// [x] 1 - "What's on your jumper?"
-// [x] 2 - "Surveys for cash?"
-// [x] 3 - "Are you really offering cash?"
-// [x] 31 - "Are you playing games on that?"
+// [x] 1 - "¿Qué hay en tu jersey"
+// [x] 2 - "¿Encuestas por dinero?"
+// [x] 3 - "¿Realmente estás ofreciendo dinero en efectivo?"
+// [x] 31 - ""¿Estás jugando con eso?"
 
-// [ ] 40 - "I'll do it for $100."
-// [ ] 41 - "I'll do it for $500."
-// [ ] 42 - "I'll do it for $1000."
+// [ ] 40 - "Lo haré por 100 dólares"
+// [ ] 41 - "Lo haré por 500 dólares"
+// [ ] 42 - "Lo haré por 1000 dólares"
 
-// [ ] 50 - "Yes, it's a blast."
-// [ ] 51 - "No, don't like it this series."
+// [ ] 50 - "Sí, es una verdadera explosión."
+// [ ] 51 - "No, no me gusta esa serie."
 
-// [x] 99 - "Actually, I gotta go."
+// [x] 99 - "En realidad, me tengo que ir"
 
 //end
 
@@ -20,24 +20,24 @@
 @S // dialog startup entry point
 return
 
-@1 // What's on your jumper?
-ego:What's on your jumper?
-other:Surveys... but with a Dollar sign for the 'S'.
-ego:What for?
-other:It's the uniform I have to wear.
-other:I work for a survey company.
-other:This is the Surveys4cash uniform.
+@1 // ¿Qué hay en tu jersey?
+ego:¿Qué hay en tu jersey?
+other:Encuestas... pero con un signo de Dólar en la 'S'.
+ego:¿Por qué?
+other:Es el uniforme que tengo que usar.
+other:Trabajo para una empresa de encuestas.
+other:Este es el uniforme de Surveys4cash.
 option-off 1
 return
 
-@2 // Surveys for cash?
-ego:Surveys for cash?
-other:Yeah, it's my job.
-other:I work for Surveys4cash.co.com
-other:Are you interested in some cash?
-other:Just for answering some questions.
-other:It only takes five minutes
-ego:How much cash?
+@2 // ¿Encuestas por dinero?
+ego:¿Encuestas por dinero?
+other:Sí, es mi trabajo.
+other:Trabajo para Surveys4cash.co.com
+other:¿Está interesado en algo de dinero?
+other:Sólo por responder a algunas preguntas.
+other:Sólo se tarda cinco minutos
+ego:¿Cuánto dinero?
 option-off 1
 option-off 2
 option-off 3
@@ -48,43 +48,43 @@ option-on 42
 option-on 99
 return
 
-@3 // Are you really offering cash?
-ego:Are you really offering cash?
-other:Yes Sir.
-other:Surveys for cash!
+@3 // ¿Realmente estás ofreciendo dinero en efectivo?
+ego:¿Realmente estás ofreciendo dinero en efectivo?
+other:Sí señor.
+other:Encuestas por dinero en efectivo!
 option-off 3
 return
 
-@31 // Are you playing games on that?
-ego:Are you playing games on that?
-other:I can, if I check for drones.
-other:Surveys4cash monitor their staff sometimes.
-other:...with cam-drones.
-other:I normally don't risk it.
+@31 // ¿Estás jugando con eso?
+ego:¿Estás jugando con eso?
+other:Puedo, si compruebo que no haya drones.
+other:Surveys4cash monitorea a su personal algunas veces.
+other:...con drones-camara.
+other:Normalmente no me arriesgo.
 option-off 31
 return
 
 
-@40 // I'll do it for $100.
-ego:I'll do it for $100.
-other:Well, you will be pleased then.
-other:We offer 500. Straight cash.
-other:But it does take a while.
+@40 // Lo haré por 100 dólares.
+ego:Lo haré por 100 dólares.
+other:Bueno, entonces estarás contento.
+other:Ofrecemos 500. Dinero en efectivo.
+other:Pero toma un tiempo.
 option-off 40
 return
 
-@41 // I'll do it for $500.
-ego:I'll do it for $500.
-other:Great... let's get started.
-other:First, I'll need your ID.
-ego:Sure.. the name's John Falcon.
-other:Ok... one second.
-other:Let me just run that through our database.
-other:You are not registered?
-ego:Registered where?
-other:Yes, I have it.
-other:Let's start the survey.
-other:Do you enjoy DeathBike?
+@41 // Lo haré por 500 dólares.
+ego:Lo haré por 500 dólares.
+other:Genial... comencemos.
+other: Primero, necesitaré su identificación.
+ego:Claro... mi nombre es John Falcon.
+other:Ok.... un segundo.
+other:Déjeme lanzar eso a nuestra base de datos.
+other:¿No estás registrado?
+ego:¿Registrado dónde?
+other:Sí, lo tengo.
+other:Comencemos la encuesta.
+other:¿Disfrutas del DeathBike?
 option-off 40
 option-off 41
 option-off 42
@@ -92,55 +92,55 @@ option-on 50
 option-on 51
 return
 
-@42 // I'll do it for $1000.
-ego:I'll do it for $1000.
-other:Haha.
-other:$1000! No way.
+@42 // Lo haré por 1000 dólares.
+ego:Lo haré por 1000 dólares.
+other:Jaja.
+other:¡$1000! De ninguna manera.
 option-off 42
 return
 
-@50 // Yes, it's a blast.
-ego:Yes, it's a blast.
-other:Ok Sir.
-other:And how much do you watch it?
-ego:These days? Never.
-other:Ok. Thanks.
-other:That's all then.
-other:The survey's all about the latest series...
-other:So that's it all done.
-ego:That it?
-other:Thanks for your time.
-other:Sir, here's your cash.
-ego:Where?
-other:It's on it's way.
-ego:It better be.
+@50 // Sí, es una verdadera explosión.
+ego:Sí, es una verdadera explosión.
+other:Ok señor.
+other:¿Y cuánto lo ves?
+ego:¿En estos días? Nunca.
+other:Ok. Gracias.
+other:Eso es todo entonces.
+other:La encuesta es todo sobre las últimas series....
+other:Así que eso es todo.
+ego:¿Eso es todo?
+other:Gracias por su tiempo.
+other:Señor, aquí está su dinero.
+ego:¿Dónde?
+other:Está en camino.
+ego:Más vale que así sea.
 givemoney,500,paymentFromSurveys4Cash
 option-off 50
 option-off 51
 stop
 
-@51 // No, don't like it this series.
-ego:No, don't like it this series.
-other:Ok, that's fine.
-other:And what don't you like about it?
-ego:Not enough ramps.
-other:Ok, more ramps. Thanks.
-other:A lot of people saying ramps today.
-other:That's it.
-ego:That's it?
-other:Yes Sir. Here's your cash.
-ego:Where?
-other:It's on it's way.
-ego:It better be.
+@51 // No, no me gusta esta serie.
+ego:No, no me gusta esta serie.
+other:Está bien, está bien.
+other:¿Y qué es lo que no te gusta de ella?
+ego:No hay suficientes rampas.
+other: Ok, más rampas. Gracias.
+other:Mucha gente que dice 'rampas' hoy.
+other:Eso es todo.
+ego:¿Eso es todo?
+other:Sí, señor. Aquí está su dinero.
+ego:¿Dónde?
+other:Está en camino.
+ego:Más vale que así sea.
 givemoney,500,paymentFromSurveys4Cash
 option-off 50
 option-off 51
 stop
 
-@99 // Actually, I gotta go.
-ego:Actually, I gotta go.
-other:Ok Sir.
-other:Come back if you have more time.
+@99 // En realidad, me tengo que ir.
+ego:En realidad, me tengo que ir.
+other:Ok señor.
+other:Vuelve si tienes tiempo.
 option-off 99
 stop
 
