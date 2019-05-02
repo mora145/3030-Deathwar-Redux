@@ -27,16 +27,16 @@ helper:Un Falcon (Halcón) es un pajaro, ¿verdad?
 bossOnbike:No veremos el final de esta profecia. 
 bossOnbike:Deben haber oido hablar de este tipo.
 helper:Porque un Falcon es un pajaro, ¿verdad?
-helper2:Los ancianos del consejo aun aman las leyendas.
+helper2:Los ancianos del Consejo aun aman las leyendas.
 bossOnbike:Si, lo hacen.
-helper2:Es la unica razon por la que no continuan con los planes de ataque de los limpiadores.
+helper2:Es la unica razon por la que no continuan con los planes de ataque de los Limpiadores.
 helper:Voy a asumir que un Falcon es un pajaro.
 bossOnbike:Entonces quizas esto nos ofrezca una oportunidad.
 helper2:¿Como es eso?
-bossOnbike:Si el consejo cree que este John Falcon es un legendario... 
+bossOnbike:Si el Consejo cree que este John Falcon es un legendario... 
 bossOnbike:...Entonces estaran encantados de saber de su muerte.
 helper:Como el pobre Jeff Eagle.
-bossOnbike:Si, funciono la ultima vez.
+bossOnbike:Si, funcionó la ultima vez.
 helper2:Pero es solo un humano, ¿por qué crees que es el que se cuenta en la leyenda?
 bossOnbike:Basta de preguntas incesantes y estupidas.
 bossOnbike:¡Siempre preguntas!

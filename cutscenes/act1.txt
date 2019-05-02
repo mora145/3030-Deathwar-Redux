@@ -22,7 +22,7 @@ out
 dialogue
 {
 bosschair:Hasta que encontremos el Largo....:data/voice/act1/act1-a.wav
-bosschair:...Avisa a todos los recuperadores.:data/voice/act1/act1-c.wav
+bosschair:...avisen a todos los recuperadores.:data/voice/act1/act1-c.wav
 bosschair:Mata a los que no entiendan el mensaje.
 helper:Si señor!:data/voice/act1/act1-d.wav
 goon:¡Bien, esa nave es nuestra!:data/voice/act1/act1-e.wav

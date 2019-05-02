@@ -18,10 +18,10 @@ out
 dialogue
 {
 Falconsmall:¿Que opinas, Kent?
-Kentsmall:¡Genial! Has bajado de categoria a un traje de neopreno.
+Kentsmall:¡Genial! Has bajado de categoria, a un traje de neopreno.
 Kentsmall:¿Vas a disparar a la basura? Buena decision.
 Kentsmall:Quiero ir a interrogar al oficial Grah sobre este asunto.
-Falconsmall:Ok seguro. Nos vemos Kent.
+Falconsmall:Ok, seguro. Nos vemos Kent.
 Kentsmall:Buena suerte jefe.
 }
 

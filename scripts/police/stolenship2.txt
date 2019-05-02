@@ -10,14 +10,14 @@
 @S // dialog startup entry point
 other:Hola Ciudadano.
 ego:Oficial Grah.
-other:¿Cuál es tu problema?
+other:¿Cuál es el problema?
 option-on 1
 option-on 2
 option-on 3
 return
 
-@1 // About my ship.
-ego:Acerca de mi nave..
+@1 // Acerca de mi nave.
+ego:Acerca de mi nave.
 other:Sí. Está registrada como robada a Zog Dongo.
 other:Hemos registrado que se la compraste a un mecánico llamado Frank Zoed.
 other:Pero aún así tendremos que confiscarla.
@@ -31,7 +31,7 @@ option-off 1
 option-on 99
 return
 
-@2 // About my Droid.
+@2 // Sobre mi droide.
 ego:Sobre mi droide.
 other:Sí, ¿qué pasa con eso? No estoy aquí para servirte.
 ego:Sí, lo estás. Para proteger y servir, ¿verdad?
@@ -42,23 +42,23 @@ option-off 2
 option-on 99
 return
 
-@3 // This is bullshit, Officer.
+@3 // Esto es una mierda, oficial.
 ego:Esto es una mierda, oficial.
-other:¡Señor! Entiendo tu frustración, así que voy a ignorar eso.
-other:Te otorgamos 1.500 dólares en créditos y te dimos un transbordador.
-other:Si yo fuera tú, me rebajaría a un traje de neopreno.
-other:Consigue un arma con el dinero, y ganarás dinero rápido disparando a la basura.
-ego:I'll go find Frank about this.
+other:¡Señor! Entiendo su frustración, así que voy a ignorar eso.
+other:Le otorgamos 1500 dólares en créditos y le dimos un transbordador.
+other:Si yo fuera usted, me rebajaría a un traje de neopreno.
+other:Consigue un arma con el dinero, y ganaría dinero rápido disparando a la basura.
+ego:Iré a buscar a Frank.
 ego:Venderme una nave robada es... es una mierda.
-other:Como desee, Ciudadano.
+other:Como desee, ciudadano.
 option-off 3
 option-on 99
 return
 
-@99 // Goodbye Officer.
+@99 // Adiós oficial.
 ego:Adiós oficial.
-other:Lamento todo esto, señor.
+other:Lamento todo esto señor.
 other:Si tiene más preguntas, tendrá que ir a la estación de HBE.
-other:Es el cuartel general de la policía en la vieja nave espacial.
+other:Es el cuartel general de la policía, en la vieja nave espacial.
 other:Sistema Ceayti. Dos sistemas al sur de aquí.
 stop

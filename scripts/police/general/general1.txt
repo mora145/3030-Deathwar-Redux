@@ -2,7 +2,7 @@
 // [x] 1 - "¿Cuándo va a terminar esta cuarentena?"
 // [x] 2 - "Dónde puedo conseguir algunas misiones con recompensa?"
 // [x] 3 - "No, gracias."
-// [ ] 4 - "Dónde está la computadora misional??"
+// [ ] 4 - "¿Dónde está la computadora de misiones?"
 // [ ] 5 - "Gracias por su ayuda, oficial..."
 //end
 
@@ -16,16 +16,16 @@ return
 @1 // when's this quarantine going to end?
 ego:¿Cuándo va a terminar esta cuarentena??
 other:Señor, me han puesto en cuarentena como a usted.. 
-other:El consejo no ha dado un tiempo definido sobre cuándo será levantada.
+other:El Consejo no ha dado un tiempo definido sobre cuándo será levantada.
 other:Hasta entonces tendremos que llevarnos bien. 
-other:Hay algo más que pueda hacer por ti?
+other:¿Hay algo más que pueda hacer por ti?
 option-off 1
 return
 
 @2 // Where can I get some bounty missions?
 ego:¿Dónde puedo conseguir algunas misiones con recompensa?
-other:Puedes conseguirlos del ordenador de misiónes.
-other:O salir a buscar piratas.
+other:Puedes conseguirlas en el ordenador de misiónes...
+other:...o salir a buscar piratas.
 other:Usa tu mapa, son los recuadros blancos con la línea roja.
 other:Normalmente tienen una recompensa por su cabeza.
 other:Pero es peligroso, así que te sugiero que te prepares.
@@ -41,13 +41,13 @@ ego:No, gracias.
 other:No hay problema. Disfrute de su estancia aquí.
 stop
 
-@4 // 
-ego:Dónde está la computadora de misión?
+@4 // ¿Dónde está la computadora de misiones?
+ego:¿Dónde está la computadora de misiones?
 other:Justo por allí. La segunda pantalla a la derecha.
 ego:Gracias.
 stop
 
 @5 // thanks for your help, officer.
-ego:Gracias por su ayuda, oficial..
+ego:Gracias por su ayuda, oficial.
 other:No hay problema. No te metas en problemas.
 stop

@@ -34,10 +34,10 @@ out
 
 dialogue
 {
-Falconsmall:Miralo. ¡Que pedazo de chatarra!
-Kentsmall:Esta bien... pero haré lo mio por un tiempo.
+Falconsmall:Mirala, ¡Que pedazo de chatarra!
+Kentsmall:Esta bien... haré lo mio por un tiempo.
 Kentsmall:Quiero ir a interrogar al oficial Grah sobre este asunto.
-Falconsmall:Ok seguro. Nos vemos Kent.
+Falconsmall:Ok, seguro. Nos vemos Kent.
 Kentsmall:Buena suerte jefe.
 }
 
