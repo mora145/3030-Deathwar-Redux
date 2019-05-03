@@ -8,7 +8,7 @@
 @S // dialog startup entry point
 other:Hola comerciante.
 ego:Hola.
-other:¿Por casualidad no conoces a alguien que comercie en Osat? 
+other:¿Por casualidad conoces a alguien que comercie en Osat? 
 ego:No, ¿por qué?
 other:Acabo de traer una carga para un cliente privado.
 other:Ahora ya no la necesita.
@@ -21,7 +21,7 @@ ego:¿Cuánto de eso tenías?
 other:Una buena cantidad.
 other:Creo que lo venderé y obtendré algunas mejoras para la nave.
 other:¿Tienen muchas aquí?
-ego:Actualizaciones? 
+ego:¿Actualizaciones? 
 ego:Un rango razonable la última vez que miré.
 other:Excelente.
 stop

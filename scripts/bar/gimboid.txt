@@ -7,22 +7,22 @@
 // dialog script file
 @S // dialog startup entry point
 ego:Hola.
-other:Whoa!
-ego:¿Qué hay de nuevo??
+other:¡Whoa!
+ego:¿Qué hay de nuevo?
 other:¿Qué llevas puesto?
 ego:Mis casuales.
 other:Pareces un tonto.
 ego:Cuidado, soy doblemente duro.
-ego:De todas formas me gusta mi ropa.
+ego:De todas formas, me gusta mi ropa.
 ego:Comodidad primero.
 other:Primero el estilo, amigo.
-ego:*Tu* hablandome a *mi* de estilo?
+ego:¿*Tu* hablandome a *mi* de estilo?
 ego:Tengo más estilo que tu traje espacial.
 other:Oye, acabo de comprar un traje nuevo. 
 ego:Sí, ¿dónde está?
 other:Lo tengo en mi nave.
 other:No quiero ensuciarlo.
-ego:¡Lo es, súper blanco!
+ego:¡Es... Súper blanco!
 other:Sí, sí lo es.
 ego:Deberías tener el antiestático repelente a la suciedad.
 other:¿Los hacen?
@@ -33,14 +33,14 @@ return
 @1 // ¿Has oído hablar de algún abandonado?
 ego:¿Has oído hablar de algún abandonado?
 other:No, no hago salvamento.
-ego:Vale, voy a comprobar las consolas.
+ego:Bien, voy a comprobar las consolas.
 stop
 
-@2 // ¿Hueles ese levanton?
-ego:¿Hueles ese levanton?
+@2 // ¿Hueles eso?
+ego:¿Hueles eso?
 other:Sí, mucho peor de lo normal.
 other:Creo que los gerentes de la estación están teniendo una competencia.
-ego:¿Para tener un levanton de mayor intensidad?
+ego:¿Para tener el olor más intenso?
 other:Uh huh.
 ego:Quién sabe, voy a revisar las consolas.
 stop

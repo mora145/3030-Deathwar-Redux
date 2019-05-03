@@ -1,5 +1,5 @@
 //begin
-// [x] 1 - "Te has quejado?"
+// [x] 1 - "¿Te has quejado?"
 // [x] 2 - "Odio cuando las puertas blindadas intentan aplastarte."
 //end
 
@@ -8,7 +8,7 @@
 @S // dialog startup entry point
 ego:Pareces nervioso.
 other:Yo lo haría.
-other:Atracas bien?
+other:¿Atracas bien?
 ego:Sí, ¿por qué?
 other:Estaba atracando y las puertas blindadas empezaron a cerrarse.
 ego:Una pesadilla.

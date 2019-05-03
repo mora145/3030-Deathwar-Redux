@@ -6,8 +6,8 @@
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hola!.
-other:Hola!
+ego:¡Hola!
+other:¡Hola!
 ego:¿Qué está mal?
 other:¿Mal? No pasa nada, me encanta tu sombrero.
 return
@@ -18,17 +18,17 @@ other:¡Me encanta tu sombrero!
 ego:Ehhh gracias, muchas gracias. Ya me tengo que ir.
 stop
 
-@2 // "No voy a ninguna parte sin él."
+@2 // No voy a ninguna parte sin él.
 ego:No voy a ninguna parte sin él.
-other:Puedo comprartelo?
+other:¿Puedo comprartelo?
 ego:Ehhh, no. Bueno. ¿Cuánto?
-other:20 creditos?
-ego:Estás loco?!
-other:25 creditos!
-ego:Estás loco!
+other:¿20 creditos?
+ego:¡¿Estás loco?!
+other:¡25 creditos!
+ego:¡Estás loco!
 other:Bien, 50 creditos.
-ego:Estás loco!
-other:100 creditos?
-ego:500 creditos?
+ego:¡Estás loco!
+other:¿100 creditos?
+ego:¿500 creditos?
 other:De ninguna manera. Adiós.
 stop

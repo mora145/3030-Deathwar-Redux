@@ -1,9 +1,9 @@
 //begin
-// [x] 1 - "en qué lugar?"
+// [x] 1 - "¿En qué lugar?"
 // [x] 2 - "Ya no me creo esas historias de bueyes."
 // [ ] 3 - "Has visto lo mejor en tu época?"
 // [ ] 4 - "¿Por qué no estás ahí fuera comerciando o algo así?"
-// [ ] 5 - "Por qué? ¿Qué ha pasado??"
+// [ ] 5 - "¿Por qué? ¿Qué ha pasado?"
 // [ ] 6 - "¿Nunca has tenido ninguno?"
 // [ ] 7 - "En realidad sí me importa. Dime."
 // [ ] 8 - "No importa, eh."
@@ -14,7 +14,7 @@
 // dialog script file
 @S // dialog startup entry point
 other:Hey, amigo.
-ego:bonito lugar.
+ego:Bonito lugar.
 other:En realidad no. Es una pocilga..
 other:sin embargo, la música es buena..
 other:...
@@ -26,7 +26,7 @@ return
 other:No sé, sólo escuché rumores.
 other:no aparecen en los escáneres.
 ego:¿Qué tienen de bueno esos abandonados?
-other:salvamento en realidad. A veces encuentras cosas en ellas.
+other:Salvamento en realidad. A veces encuentras cosas en ellas.
 option-off 1
 option-off 2
 option-on 3
@@ -48,18 +48,18 @@ return
 @3 // You seen the great in your time?
 ego:¿Has visto lo mejor en tu época?
 other:¿Yo? Sí, muchas veces. Desde la ventana de un carguero.
-other:todo el mundo sabe que no puedes hablar de ellos en una pelea.
+other:Todo el mundo sabe que no puedes hablar de ellos en una pelea.
 ego:Sí. ¿Alguna vez han dejado ir a alguien?
-other:después de contratarlos? Tío, tienes que estar bromeando.
-other:tu papá nunca te enseñó nada?
-other:esos locos no tienen sentimientos.
-other:hombre, por aquí los llamamos "gran mierda".
+other:Después de contratarlos? Tío, tienes que estar bromeando.
+other:Tu papá nunca te enseñó nada?
+other:Esos locos no tienen sentimientos.
+other:Hombre, por aquí los llamamos "gran mierda".
 ego:Nunca los he visto.
-other:y espero que nunca los veas.
-other:te matarían sin pestañear.
-other:si es que tienen párpados.
-other:malditos hijos de puta.
-other:cantinero, más whisky.
+other:Y espero que nunca los veas.
+other:Te matarían sin pestañear.
+other:Si es que tienen párpados.
+other:Malditos hijos de puta.
+other:Cantinero, más whisky.
 stop
 
 
@@ -68,11 +68,11 @@ stop
 ego:¿Por qué no estás ahí fuera comerciando o algo así?
 other:Hombre, el alcohol es todo lo que tengo.
 ego:¿No tienes nada más?
-other:nop.
+other:Nop.
 other:Un gran destruyó mi flota, hombre. Gracias a ellos, todo lo que tengo es la pensión del consejo.
-other:y eso no es mucho.
+other:Y eso no es mucho.
 ego:Supongo que apenas puedes alimentar a tus hijos.
-other:¿Niños? Ya no tengo hijos.
+other:¿Niños?, Ya no tengo hijos.
 option-off 4
 option-off 3
 option-on 5
@@ -93,23 +93,23 @@ ego:¿Nunca has tenido ninguno?
 other:Oh, tuve suficiente.
 ego:Entonces, ¿dónde están ahora?
 other:Si quieres saberlo, están todos muertos.
-ego:como?
-other:el dios malditamente grande, esas mierdas los mataron a todos, hombre.
-other:déjame en paz, carajo. Tengo que acabar con este pensamiento ahora mismo.
-other:cantinero, dame dos dedos del mejor whisky cegador que tengas.
+ego:¿Como?
+other:El dios malditamente grande, esas mierdas los mataron a todos, hombre.
+other:Déjame en paz, carajo. Tengo que acabar con este pensamiento ahora mismo.
+other:Cantinero, dame dos dedos del mejor whisky cegador que tengas.
 stop
 
 @7 // Actually I do mind. tell me.
 ego:En realidad sí me importa. Dime.
 other:Hombre, eres agresivo. Aléjate de mí.
 other:Cantinero. Dame mas alcohol.
-other:y no ceses hasta que yo lo haga.
+other:Y no ceses hasta que yo lo haga.
 stop
 
 @8 // never mind, eh.
 ego:No importa, eh.
 other:Sí, no tengo nada que hacer ahora.
-other:excepto beber hasta la muerte.
+other:Excepto beber hasta la muerte.
 ego:Bien. Muy bien.
 return
 

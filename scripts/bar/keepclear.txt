@@ -1,5 +1,5 @@
 //begin
-// [x] 1 - "Inténtalo."
+// [x] 1 - "Adivina."
 // [x] 2 - "Ok, aquí va.."
 //end
 
@@ -12,23 +12,23 @@ other:Oye, me preguntaba...
 other:¿Por qué tienes que mantenerte alejado de las puertas del ascensor?
 return
 
-@1 // Inténtalo.
-ego:Inténtalo.
+@1 // Adivina.
+ego:Adivina.
 other:Creo que lo haré.
-other:En realidad, puede que me corte la pierna con esa puerta
+other:En realidad, puede que me corte la pierna con esa puerta.
 ego:Ya lo tienes.
 ego:Han quitado los sensores de algunos...
 ego:...porque los droides de la limpieza se quedaban atascados ahí.
 other:Esos droides locos.
-other:Después.
+other:Hasta luego.
 ego:Buen vuelo.
 stop
 
 @2 // Ok, aquí va..
 ego:Ok, aquí va....
-ego:Uno; estás bloqueando una vía pública.
-ego:Dos; dejas que el aire caliente entre en el ascensor. 
-ego:Tres; la puerta de energía neumática industrial barata, literalmente te arrancará las extremidades.
+ego:Uno: Estás bloqueando una vía pública.
+ego:Dos: Dejas que el aire caliente entre en el ascensor. 
+ego:Tres: La puerta neumática industrial barata, literalmente te arrancará las extremidades.
 other:Oh si.
 other:Como lo que le pasó a ese droide.
 ego:Uh huh.

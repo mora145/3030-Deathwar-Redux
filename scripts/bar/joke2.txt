@@ -12,7 +12,7 @@ return
 
 @1 // Si, bien.
 ego:Ok, lanzamelo.
-other:¿Cuál es la diferencia entre un..
+other:¿Cuál es la diferencia entre un...
 other:...no, lo olvidé otra vez.
 ego:Oh bien.
 other:Perdon.

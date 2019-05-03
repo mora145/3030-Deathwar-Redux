@@ -6,19 +6,19 @@
 
 // dialog script file
 @S // dialog startup entry point
-ego:Ey!.
+ego:¡Ey!
 other:Hola.
-other:¿Quieres oír un nuevo chiste de comerciante?
+other:¿Quieres oír un nuevo chiste de comerciantes?
 return
 
 @1 // Yes ok.
-ego:De acuerdo, pégame..
+ego:De acuerdo, pégame.
 other:Ok.
-other:¿Cómo le llamas a un droide de bar que cobra de más?
+other:¿Cómo le llamas a un droide de bar que cobra demás?
 ego:No lo se.
-other:Señor!
+other:¡Señor!
 other:Todos ellos tienen pistolas bajo la barra, ya sabes.
-other:Ha!
+other:¡Ha!
 ego:Voy a revisar las consolas.
 other:Buen vuelo
 ego:Yeah.
@@ -38,9 +38,9 @@ other:Es nuevo.
 ego:Lo dudo mucho.
 other:Oh, ¿eres el maestro de las bromas?
 ego:No.
-other:No no, go on. Dame lo mejor de ti.
+other:No. Dame lo mejor de ti.
 ego:Oye, retrocede, amigo.
-other:No no, go on.
+other:No no, vamos.
 ego:Está bien entonces.
 other:Bien.
 ego:Había un comerciante en una estación. 

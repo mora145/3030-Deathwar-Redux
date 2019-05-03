@@ -25,7 +25,7 @@ option-on 5
 return
 
 @2 
-ego:Qué tal es este lugar?
+ego:¿Qué tal es este lugar?
 other:Está bien. He estado en mejores lugares.
 option-off 2
 return

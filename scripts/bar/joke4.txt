@@ -16,9 +16,9 @@ ego:Bien, ve por ello.
 other:Bien.
 other:¿Cómo le llamas a un droide que trata de tocarte?
 ego:No lo se.
-other:Señor!
+other:¡Señor!
 other:Todos tienen pistolas bajo la barra, ya sabes.
-other:Ha!
+other:¡Ha!
 ego:Voy a revisar las consolas.
 other:Buen vuelo
 ego:Yeah.

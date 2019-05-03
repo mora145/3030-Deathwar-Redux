@@ -1,6 +1,6 @@
 //begin
 // [x] 1 - "¿Has oído alguna noticia?"
-// [ ] 2 - "Realmente?"
+// [ ] 2 - "¿Realmente?"
 // [x] 3 - "Hasta luego"
 //end
 
@@ -15,18 +15,18 @@ return
 @1 // Heard any news?
 ego:¿Has oído alguna noticia??
 other:Nada nuevo, lo siento.
-ego:Ya veo....
+ego:Ya veo...
 option-off 1
 option-on 2
 return
 
-@2 // Realmente?
-ego:De veras?
-other:Bueno, escuché de un amigo piloto ayer que casi explota.
-other:al entrar en el espacio Jia Kun.
-ego:De veras?
+@2 // ¿De verdad?
+ego:¿De verdad?
+other:Bueno, escuché de un amigo piloto ayer, que casi explota...
+other:...Al entrar en el espacio Jia Kun.
+ego:¿De verdad?
 other:Dijo que la policía confundió su nave con un carguero pirata...
-other:...y empezó a disparar sin avisar.
+other:...y empezaron a disparar sin avisar.
 ego:¿Por qué se detuvieron?
 other:No estoy seguro, pero aparentemente está tomando un descanso en alguna estación de placer.
 ego:Interesante.

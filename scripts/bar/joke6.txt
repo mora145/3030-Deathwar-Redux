@@ -13,15 +13,15 @@ other:Oye, ¿quieres oír un nuevo chiste de comerciante?
 return
 
 @1 // Sí, pero dudo que sea nuevo.
-ego:Yeah, I doubt it's new though.
+ego:Yeah, pero dudo que sea nuevo.
 other:Ok.
-other:¿Cómo le llamas a un droide de bar que cobra de más?
+other:¿Cómo le llamas a un droide de bar que cobra demás?
 ego:Yo lo llamaría Sr. Smith.
-other:Huh?
+other:¿Huh?
 other:No, lo estás estropeando.
 ego:¿Cómo? Yo lo llamaría Sr. Smith.
 other:No, se supone que tienes que decir: "No lo sé" o algo así.
-ego:¿Lo estoy?
+ego:¿Lo digo?
 other:Sí. De todos modos, ¿por qué Sr. Smith?
 ego:Sólo estaba bromeando, escuché ese chiste antes.
 other:Oh, ja. Ya veo.

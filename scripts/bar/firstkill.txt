@@ -15,17 +15,17 @@ return
 @1 // Entonces, ¿qué pasó?
 ego:Entonces, ¿qué pasó?
 other:¡Acabo de cometer mi primer asesinato!
-ego:Oh si?
+ego:¿Oh si?
 other:Sí, ese pirata no paraba de dispararme...
-ego:¿Intentando que dejaras caer tu carga?
-other:Probablemente, pero yo estaba en plan, "de ninguna manera hombre".
+ego:¿Intentantaba que soltaras tu carga?
+other:Probablemente, pero yo estaba en plan: "De ninguna manera hombre".
 other:Y le hice las viejas maniobras evasivas.
 other:Izquierda, izquierda, izquierda fuerte, derecha fuerte.
-ego:Sí, vale, entiendo la idea.
+ego:Sí, bien, entiendo la idea.
 other:Derecha, derecha, derecha.
-other:Fuego!
+other:¡Fuego!
 ego:¿En qué nave estaba?
-other:Un Mac mk 1.
+other:Una Mac mk 1.
 ego:Es una nave bastante mala.
 other:¡Sí, bueno, entonces no debería haberme atacado con ella!
 ego:No, no con tus habilidades como la seda.
@@ -37,16 +37,16 @@ option-on 4
 return
 
 @2 // ¿Acabas de ganar la lotería?
-ego:Just won the lottery?
+ego:¿Acabas de ganar la lotería?
 other:Mejor que eso.
 other:Acabo de sobrevivir a mi primer combate.
-ego:Oh si?
+ego:¿Oh si?
 other:Sí, ese pirata no paraba de dispararme...
-ego:¿Intentando que dejaras caer tu carga?
-other:Probablemente, pero yo estaba en plan, "de ninguna manera hombre".
+ego:¿Intentantaba que soltaras tu carga?
+other:Probablemente, pero yo estaba en plan: "De ninguna manera hombre"..
 other:Y le hice las viejas maniobras evasivas.
 other:Incluso volé su nave.
-other:Conseguí una recompensa de 10.000.
+other:Conseguí una recompensa de 10.000$.
 option-off 1
 option-off 2
 option-on 3
@@ -56,16 +56,16 @@ return
 @3 // ¿Así que ahora te contagiaste de la caza de recompensas?
 ego:¿Así que ahora te contagiaste de la caza de recompensas?
 other:Nah. Fue emocionante.
-other:Es bueno sentirme de vuelta por una vez.
-ego:¿Tuviste problemas antes?
-other:Sí, en mis últimas compras tuve a alguien detrás de mí.
+other:Es bueno sentirme de vuelta, por una vez almenos.
+ego:¿Tuviste problemas?
+other:Sí, en mis última compra tuve a alguien detrás de mí.
 ego:Bueno, no te confíes demasiado.
-ego:La próxima vez puede que no sea un Bac mk 1 atacándote.
+ego:La próxima vez puede que no sea un Bac Mk 1 atacándote.
 other:¿Me estás *amenazando*?
 ego:Tranquilo tigre, sólo digo que hay tipos más duros ahí fuera.
 other:Oh, claro. Sí, eso es cierto.
 ego:Pero bien hecho de todos modos.
-other:Sí, gracias, tenía que decírselo a alguien.
+other:Sí, gracias; tenía que decírselo a alguien.
 ego:Me tengo que ir.
 other:Hasta luego.
 stop
@@ -86,7 +86,7 @@ other:¡Whooooo, retroceso!
 other:Espéralo........
 other:¡Lanzar misil!
 ego:Suena faaantastico.
-other:Oh, lo siento. Me fui de nuevo.
+other:Oh, lo siento. Divagué de nuevo.
 ego:Sólo un momento, voy a revisar las consolas.
 other:Esta bien...
 stop

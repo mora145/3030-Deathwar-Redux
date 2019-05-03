@@ -1,5 +1,5 @@
 //begin
-// [x] 1 - "Estás fuera de tus cabales, ¿verdad?."
+// [x] 1 - "Estás fuera de tus cabales, ¿verdad?"
 // [x] 2 - "¡Mira detrás de ti, un mono de tres cabezas!"
 //end
 
@@ -7,28 +7,28 @@
 // dialog script file
 @S // dialog startup entry point
 ego:Que tal.
-other:eh!
-other:¿Cómo te trata el espacio??
+other:¡eh!
+other:¿Cómo te trata el espacio?
 ego:Muy bien.
-other:Parece que necesitas un trago..
-ego:He estado trabajando como un perro.. 
+other:Parece que necesitas un trago.
+ego:He estado trabajando como un perro. 
 other:¿Eh? ¿Qué es un perro?
 ego:Es un cuadrúpedo orgánico del antiguo mundo humano.
-other:Huh? 
+other:¿Huh? 
 ego:Una bestia con la que los humanos crecieron.
-other:Huh? 
-ego:Una criatura leal domesticada.
-other:¿De qué estás hablando? (pueblerino) 
+other:¿Huh? 
+ego:Una criatura leal, domesticada.
+other:¿De qué estás hablando?
 ego:No importa.
-other:Oye. Una vez vi un perro.
+other:Oye, una vez vi un perro.
 ego:Pero tú..
-other:Qué?
+other:¿Qué?
 return
 
 @1 // Estás fuera de tus cabales, ¿verdad?
 ego:Estás fuera de tus cabales, ¿verdad?
-other:Probablemente, (molesto)
-other:He estado en un concurso de borracheras con un comerciante velludo.
+other:Probablemente (molesto)
+other:He estado en un concurso borracho con un comerciante velludo.
 ego:Genial, ¿ganaste?
 other:No estoy seguro.
 other:(molesto)
@@ -41,5 +41,5 @@ stop
 ego:¡Mira detrás de ti, un mono de tres cabezas!
 other:¿Eh?
 other:¿Un monzey, con tres cabezas?
-ego:Y yo me voy.
+ego:Y yo me voy...
 stop

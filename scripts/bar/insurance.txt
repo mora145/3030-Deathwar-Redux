@@ -9,9 +9,9 @@
 ego:¿Qué es lo que buscas?
 other:Disculpe, señor, ¿parece el tipo de hombre...?
 ego:Espere un segundo.
-ego:Esto es un discurso de venta, ¿verdad?
+ego:Esto es un discurso de ventas, ¿verdad?
 other:Oh no.
-ego:No?
+ego:¿No?
 other:No, esta es una oportunidad de inversión...
 ego:Ve al grano.
 other:¿Seguro de vida?
@@ -20,9 +20,9 @@ return
 @1 // De acuerdo, te seguiré el juego.
 ego:De acuerdo, te seguiré el juego.
 ego:En realidad, eso es algo que yo consideraría.
-other:REALMENTE?
+other:¿REALMENTE?
 ego:Si señor
-other:REALMENTE?
+other:¿DE VERDAD?
 ego:No.
 stop
 
@@ -33,7 +33,7 @@ other:Veo que tienes un trabajo que hacer, ¿pero no te interesa?
 ego:Inténtalo de nuevo.
 other:Por favor, ¿puedes dejar de hablarme?
 ego:Inténtalo de nuevo.
-other:¿Dejar de hablar o puedo atacarte físicamente?
+other:¿Dejar de hablarme o puedo atacarte físicamente?
 ego:Eso es...
 other:*suspiro*
 stop

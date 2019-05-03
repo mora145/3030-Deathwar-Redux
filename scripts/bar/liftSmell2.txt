@@ -13,7 +13,7 @@ ego:Sí, es difícil no hacerlo.
 other:Los droides de limpieza no deben entrar ahí.
 other:Me pone de nervios.
 other:¡Se me mete por la nariz! Ah...
-ego:Err, har har.
+ego:*Err, har har*.
 ego:Estoy seguro que lo harán.
 other:Sí, tal vez.
 return
@@ -29,8 +29,8 @@ stop
 
 @2 // ¿Intentaste preguntárselo a los droides?
 ego:¿Intentaste preguntárselo a los droides?
-ego:Puede que no les hayan dicho que apesta.
-other:No, los droides de la limpieza me odian.
+ego:Puede que no les hayan dicho que apestan.
+other:No, los droides de limpieza me odian.
 ego:Esos droides.
 ego:Nos vemos.
 stop

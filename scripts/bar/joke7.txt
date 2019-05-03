@@ -1,30 +1,30 @@
 //begin
-// [x] 1 - "Sí, tengo más de 18 años y me encantaría oír tu verde sucio."
+// [x] 1 - "Sí, tengo más de 18 años y me encantaría oír tu chiste pervertido."
 // [x] 2 - "Ahora no. Estoy ocupado."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-ego:Ey!.
+ego:¡Ey!.
 other:Hola, ¿acabas de atracar?
 ego:Yeah.
-other:Oye, ¿quieres oír un chiste sucio?
+other:Oye, ¿quieres oír un chiste pervertido?
 return
 
-@1 // Sí, tengo más de 18 años y me encantaría oír tu chiste sucio.
-ego:Sí, tengo más de 18 años y me encantaría oír tu chiste sucio.
+@1 // Sí, tengo más de 18 años y me encantaría oír tu chiste pervertido.
+ego:Sí, tengo más de 18 años y me encantaría oír tu chiste pervertido.
 other:Ok.
 other:Un droide de bar abofeteó su unidad genital.
 other:Todos los comerciantes estaban conmocionados, como tú lo estarías.
 ego:Como lo estarías tú.
 other:Sí. Lo estarías.
-other:Un comerciante en un traje espacial dijo:'¡¿Qué crees que *estás* haciendo?!'
+other:Un comerciante en un traje espacial dijo: "¡¿Qué crees que *estás* haciendo?!"
 other:El droide del bar se rió y dijo:
-other:Sólo estoy mostrando mi unidad genital, ¿está bien?
+other:"Sólo estoy mostrando mi unidad genital, ¿está bien?"
 other:El comerciante en traje espacial dijo: "¡Pero no queremos verla!
-other:'Hey', dijo el droide del bar,'¡Me importa una mierda!''.
-other:Ha!
+other:"Hey", dijo el droide del bar, "¡Me importa una mierda!".
+other:¡Ha!
 ego:....
 other:....
 ego:Ehhh...Bieeen... 

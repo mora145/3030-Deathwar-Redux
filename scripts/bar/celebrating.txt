@@ -1,5 +1,5 @@
 //begin
-// [x] 1 - "Por qué?"
+// [x] 1 - "¿Por qué?"
 // [x] 2 - "En ese caso..."
 //end
 
@@ -12,8 +12,8 @@ ego:¿Qué esta pasando contigo?
 other:Estoy celebrando.
 return
 
-@1 // What about?
-ego:Acerca de qué??
+@1 // ¿Acerca de qué?
+ego:¿Acerca de qué?
 other:Completé una épica carrera comercial.
 other:He estado en el espacio por años.
 ego:¿Qué es lo que comercias?

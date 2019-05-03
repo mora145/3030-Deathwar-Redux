@@ -27,13 +27,13 @@ other:Los comerciantes lo tienen difícil, ¿no?
 ego:A la mayoría de los comerciantes les gusta lo sucio.
 ego:Hace juego con nuestras sucias cabinas, así que nos sentimos como en casa.
 other:Ha.
-other:En las cubiertas de hábitat, lo tenemos fácil.
+other:En las cubiertas del hábitad, lo tenemos fácil.
 other:Pero el costo de vida es muy alto.
 ego:¿Todavía tienen peleas de droides?
 other:No, han sido prohibidas.
 ego:Oh.
 ego:¿Fútbol gravedad cero?
-other:Por supuesto!
+other:¡Por supuesto!
 ego:Genial.
 ego:Tengo que revisar las consolas.
 other:Bien.
@@ -43,14 +43,14 @@ stop
 
 @2 // Echo de menos las diversiones.
 ego: Echo de menos las diversiones.
-other:¿En las cubiertas de habitación?
-other:Aquí debe ser muy aburrido, en la tierra de los comerciantes.
+other:¿En las cubiertas de hábitad?
+other:Aquí debe ser muy aburrido, en la zona de los comerciantes.
 ego:Está bien en realidad.
 other:No para mí.
-ego:No? 
+ego:¿No? 
 other:No, me gustan las comodidades que aportan las criaturas.
-other:Como una variedad de opciones de comida!
-ego:Háblame de ello.
+other:¡Como una variedad de opciones de comida!
+ego:Háblame de eso...
 ego:Si no te gustan los cacahuetes, esto es todo un mundo de dolor.
 other:Ah.
 ego:Tengo que irme.

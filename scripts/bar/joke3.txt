@@ -8,7 +8,7 @@
 @S // dialog startup entry point
 ego:Ey!
 other:Hola a todos.
-other:¿Quieres oír un chiste de un comerciante?
+other:¿Quieres oír un chiste de comerciante?
 return
 
 @1 // Sí, está bien.
@@ -16,7 +16,7 @@ ego:Ok, lanzamelo.
 other:¿Cómo llamas a un capitán de un Bac Mk1 perseguido por dos piratas en arcabuces?
 ego:No lo se.
 other:¡Alguien que está a punto de activar su impulso diferencial!
-other:Ha!
+other:¡Ha!
 other:¿Cómo llamas a un capitán de un Bac Mk1 perseguido por dos piratas en arcabuces.
 other:¿Y su motor diferencial está dañado?
 ego:Alguien que repara rápidamente su motor diferencial.
@@ -35,4 +35,3 @@ ego:No.
 other:Que tengas buen vuelo.
 ego:Buena con cuidado.
 stop
-
