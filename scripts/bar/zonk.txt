@@ -8,7 +8,7 @@
 @S // dialog startup entry point
 other:Hola amigo.
 ego:Hola.
-other:La novedad es que hay un lote malo de Zonk cola por aquí.
+other:La novedad es que hay un lote malo de ZonkCola por aquí.
 ego:¿Hicieron una nueva versión?
 other:Sí, su nueva fórmula está enfermando a la gente.
 other:¿Comercian con alimentos?
@@ -16,7 +16,7 @@ return
 
 @1 // Sí, a veces.
 ego:Sí, a veces.
-other:Siii! 
+other:¡Siii! 
 ego:Pero no tengo ningún cargamento de Zonk.
 other:La mayor parte de las veces son los habitantes de la estación los que la beben.
 ego:Bien, gracias por el consejo.
@@ -26,7 +26,7 @@ stop
 ego:No, no me afectará a mí.
 other:Bien.
 other:Sólo pensé en decir...
-other:Un amigo mío estaba suministrando una carga a una estación de restaurante de la mancha solar.
+other:Un amigo mío estaba suministrando una carga a una estación restaurante de la mancha solar.
 other:Simplemente lo rechazaron.
 other:Dijo que le correspondía a él devolverlos al fabricante.
 ego:Bien, gracias por el consejo.

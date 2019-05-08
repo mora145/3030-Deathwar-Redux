@@ -6,7 +6,7 @@
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hola
+ego:Hola.
 other:Hola...
 ego:¿Qué hay de nuevo?
 other:Estoy tomando un descanso en la estación.
@@ -29,7 +29,7 @@ stop
 
 @2 // ¿Has oído algo sobre agujeros de gusano?
 ego:¿Has oído algo sobre agujeros de gusano?
-other:Sí, trozos y piezas. A la gente no le gusta hablar de ellos.
+other:Sí, trozos y partes. A la gente no le gusta hablar de ellos.
 ego:Me estás diciendo que...
 other:No me gusta el secretismo y tú pareces ser bueno.
 ego:Entonces, ¿me lo dirás?

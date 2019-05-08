@@ -6,7 +6,7 @@
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hola, hola.
+ego:Hola.
 other:Hola amigo.
 other:¿Has oído hablar de esos agujeros de gusano?
 ego:He oído algunas cosas.
@@ -16,7 +16,7 @@ return
 @1 // Continúa.
 ego:¿Qué fue?
 other:Dijo que vio una luz brillante.
-other:Incluso tuvo que quitarse el parasol.
+other:Incluso tuvo que ponerse el parasol.
 ego:Continua...
 other:Dice que se estrelló contra él y que lo escupió a años luz de distancia.
 ego:¿Dijo a dónde?

@@ -7,7 +7,7 @@
 
 // dialog script file
 @S // dialog startup entry point
-ego:Hola, hola.
+ego:Hola.
 other:¿Escuchaste sobre el rumor del agujero de gusano?
 ego:Probablemente, ¿cuál?
 other:El que acabo de oír.
