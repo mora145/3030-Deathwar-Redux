@@ -44,8 +44,8 @@ ego:¿Por qué debo pagar multas?
 other:Por qué?
 other:Por qué?
 other:...
-other:Porque el consejo te dice que lo hagas, amigo mío.
-other:Serás clasificado como pirata si al menos no crees en el consejo.
+other:Porque el Concejo te dice que lo hagas, amigo mío.
+other:Serás clasificado como pirata si al menos no crees en el Concejo.
 other:O peor aún, uno de esos piratas taoístas de pandillas.
 other:Odio a esos tipos.
 option-off 1
@@ -80,7 +80,7 @@ stop
 ego:Por qué??
 other:Bueno, ellos sólo me afilan los engranajes.
 ego:No he oído mucho sobre ellos.
-other:Están todos en la cúpula del consejo
+other:Están todos en la cúpula del Concejo
 other:diciéndoles que inventaran formas de enviar sondas y esas cosas
 other:Simplemente no me gustan.
 ego:Me parece justo. Gracias de todos modos.

@@ -45,7 +45,7 @@ return
 
 @11 // Haré lo que pueda. No hay costo.
 ego:Haré lo que pueda. No hay costo.
-ego:Las recompensas estándar del consejo son suficientes.
+ego:Las recompensas estándar del Concejo son suficientes.
 other:Wow, Gracias.
 other:Los llamaré.
 ego:¿Puedes llamarlos?
@@ -69,7 +69,7 @@ return
 
 @12 // Los mataré a todos, por un precio.
 ego:Los mataré a todos, por un precio.
-other:Puedo pagar 45 mil. Además, obtienes las recompensas normales que paga el consejo.
+other:Puedo pagar 45 mil. Además, obtienes las recompensas normales que paga el Concejo.
 other:Los llamaré si no hay problema.
 ego:¿Puedes llamarlos?
 other:Claro. Nos siguen llamando a todos.
