@@ -65,7 +65,7 @@ other:Es un agente de F'Zuh, el líder de los limpiadores como los conoces.
 other:Es el centro de un plan ruin para matarte.
 ego:¿A mi? ¿Por qué?
 other:Por supuesto que sí. Creemos que tiene algo que ver con una profecía de mierda.
-other:Muchos tipos de consejos aman una buena profecía.
+other:Muchos tipos del Concejo aman una profecía.
 ego:Por todos los cielos.
 option-off 5
 option-off 6
@@ -81,7 +81,7 @@ other:Es un agente de F'Zuh, el líder de los limpiadores como los conoces.
 other:Es el centro de un plan ruin para matarte.
 ego:¿A mi? ¿Por qué?
 other:Por supuesto que sí. Creemos que tiene algo que ver con una profecía de mierda.
-other:Muchos tipos de consejos aman una buena profecía.
+other:Muchos tipos del Concejo aman una buena profecía.
 ego:Por todos los cielos.
 option-off 5
 option-off 6
@@ -97,7 +97,7 @@ ego:Ahhhh, y por mi apellido crees que soy yo.
 other:Yo no, pero alguien sí, y debe haber retrasado a F'Zuh.
 other:F'Zuh debe pensar que matarte volvería a poner en acción el viejo plan.
 ego:¿Qué viejo plan?
-other:Hace 300 años nos separamos del consejo...
+other:Hace 300 años nos separamos del Concejo...
 other:...cuando nos dimos cuenta de que era incorrecto destruir la galaxia.
 ego:¿Te diste cuenta de eso hace 300 años?
 other:Hubieron circunstancias mitigativas en las que no voy a entrar ahora....
@@ -108,8 +108,8 @@ ego:Eso no tiene sentido, pero continúa.
 other:Así que, después de miles de años de destruir la vida....
 other:...nos separamos y formamos un grupo que ustedes conocen como los taoístas.
 ego:Sí, los conozco.
-other:La única razón por la que el consejo no continúa los ataques....
-other:...es porque los miembros del consejo creen firmemente en esta profecía. 
+other:La única razón por la que el Concejo no continúa los ataques....
+other:...es porque los miembros del Concejo creen firmemente en esta profecía. 
 other:Tanto que su posible desaparición....
 other:...es suficiente para que contemplen continuar su plan de control galáctico.
 ego:Así que estás diciendo que es importante para mí seguir vivo.
@@ -136,7 +136,7 @@ ego:Ahhhh, y por mi apellido crees que soy yo.
 other:Yo no, pero alguien sí, y debe haber retrasado a F'Zuh.
 other:F'Zuh debe pensar que matarte volvería a poner en acción el viejo plan.
 ego:¿Qué viejo plan?
-other:Hace 300 años nos separamos del consejo...
+other:Hace 300 años nos separamos del Concejo...
 other:...cuando nos dimos cuenta de que era incorrecto destruir la galaxia.
 ego:¿Te diste cuenta de eso hace 300 años?
 other:Hubieron circunstancias mitigativas en las que no voy a entrar ahora....
@@ -147,8 +147,8 @@ ego:Eso no tiene sentido, pero continúa.
 other:Así que, después de miles de años de destruir la vida....
 other:...nos separamos y formamos un grupo que ustedes conocen como los taoístas.
 ego:Sí, los conozco.
-other:La única razón por la que el consejo no continúa los ataques....
-other:...es porque los miembros del consejo creen firmemente en esta profecía. 
+other:La única razón por la que el Concejo no continúa los ataques....
+other:...es porque los miembros del Concejo creen firmemente en esta profecía. 
 other:Tanto que su posible desaparición....
 other:...es suficiente para que contemplen continuar su plan de control galáctico.
 ego:Así que estás diciendo que es importante para mí seguir vivo.

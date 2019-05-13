@@ -14,12 +14,12 @@ function prototype()
 		tractor[1]="¿Tienes sed de rescates?"
 		tractor[2]="¿Quieres explorar tu propio sistema?"
 		tractor[3]="¡El salvamento no se va a explorar solo!"
-		tractor[4]="Sal y aprovecha las desgracias de los demás!"
+		tractor[4]="¡Sal y aprovecha las desgracias de los demás!"
 		bigDesc=bigDesc.." "..tractor[math.random(table.getn(tractor))]
 	end
 		
 	local t3={}
-	t3[1]="Este es un recordatorio amistoso de que hay chatarra recuperable por ahí!"
+	t3[1]="¡Este es un recordatorio amistoso de que hay chatarra recuperable por ahí!"
 	t3[2]="Tómese el tiempo para buscar misiones de salvamento en cada sistema y obtener grandes recompensas."
 	t3[3]="La chatarra recuperable está ahí fuera!"
 	t3[4]="¿Quieres cosas gratis?"
@@ -27,7 +27,7 @@ function prototype()
 	smallDesc=t3[math.random(table.getn(t3))]
 		
 	local t4={}
-	t4[1]="Esto es sólo un recordatorio, revise el mapa de su sistema para ver si hay puntos grises. Son chatarra recuperable. Regresa a explorarla!"
+	t4[1]="¡Esto es sólo un recordatorio, revise el mapa de su sistema para ver si hay puntos grises. Son chatarra recuperable. Regresa a explorarla!"
 	bigDesc=bigDesc.." "..t4[1]
 		
 	local t5={}

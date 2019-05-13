@@ -27,7 +27,7 @@ ego:¿Quién la sabe?
 other:Bueno, había un tipo en Daphice que sabía, Waylen Dor.
 other:Pero ya sabes lo que pasó allí. Hay otro, pero no estoy seguro de su ubicación.
 other:Todo lo que sé es que el sistema en el que reside.
-other:Kp-FQ1. Es un sistema pirata con dos estaciones piratas y dos estaciones del consejo.
+other:Kp-FQ1. Es un sistema pirata con dos estaciones piratas y dos estaciones del Concejo.
 ego:¿Así que no sabes en qué estación está?
 other:No
 ego:¿Cuántas estaciones hay en kp-fq1?
@@ -42,14 +42,14 @@ other:Es un hombre muy extraño. Es uno de los ancianos.
 other:Creo que tener 10 muertes debería ser suficiente para que te tome en serio.
 ego:¿Cómo consigo 10 muertes?
 other:Si no las tienes ya, debes matar a 10 o más piratas.
-other:Según el sistema de mantenimiento de registros del consejo, un pirata cuenta como +1 muerte.
+other:Según el sistema de mantenimiento de registros del Concejo, un pirata cuenta como +1 muerte.
 other:Matar a un oficial de policía o a un buque de carga cuenta como -2 muertes.
 other:Puedes manejarlo.
 other:Cuando encuentre la base Walker, atraque y hable con el 433-2c.
 other:Un buen amigo mío. Él te pondrá al corriente.
 other:Ten cuidado y abastecete de combustible aquí.
 other:Mejor aún, compra un lote de combustible.
-other:No podrás atracar en las estaciones del Consejo en absoluto.
+other:No podrás atracar en las estaciones del Concejo en absoluto.
 ego:Sí, ya fue bastante difícil llegar aquí.
 other:Apuesto a que sí. Mantente a salvo.
 stop
@@ -74,14 +74,14 @@ other:Es un hombre muy extraño. Es uno de los ancianos.
 other:Creo que tener 10 muertes debería ser suficiente para que te tome en serio.
 ego:¿Cómo consigo 10 muertes?
 other:Si no las tienes ya, debes matar a 10 o más piratas.
-other:Según el sistema de mantenimiento de registros del consejo, un pirata cuenta como +1 muerte.
+other:Según el sistema de mantenimiento de registros del Concejo, un pirata cuenta como +1 muerte.
 other:Matar a un oficial de policía o a un buque de carga cuenta como -2 muertes.
 other:Puedes manejarlo.
 other:Cuando encuentre la base Walker, atraque y hable con el 433-2c.
 other:Un buen amigo mío. Él te pondrá al corriente.
 other:Ten cuidado y abastecete de combustible aquí.
 other:Mejor aún, compra un lote de combustible.
-other:No podrás atracar en las estaciones del Consejo en absoluto.
+other:No podrás atracar en las estaciones del Concejo en absoluto.
 ego:Sí, ya fue bastante difícil llegar aquí.
 other:Apuesto a que sí. Mantente a salvo.
 stop

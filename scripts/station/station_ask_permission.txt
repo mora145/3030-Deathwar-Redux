@@ -39,7 +39,7 @@ stop
 @4 // multas?
 ego:¡No disparen! Pagaré mis multas.
 other:Usted debe *crim_total* en total.
-other:¿quieres pagarlo o no?
+other:¿quiere pagarlo o no?
 option-on 6
 option-on 7
 option-off 1
@@ -57,7 +57,7 @@ stop
 @6
 ego:Pagaré.
 other:Bien... un segundo mientras transfiero el dinero.
-other:.. terminado.
+other:...terminado.
 other:Ahora, ¿hay algo más?
 option-off 1
 option-off 2
