@@ -259,9 +259,9 @@ end
 
 function finishFailure() -- clear up stuff here
 	if (youDockedAtAll()==0) then
-		completeMission(0, prize, advertPerson, smallDesc, bigDesc, getGenericDisappointmentQuote(prize).." The package will get picked up when you next dock.")
+		completeMission(0, prize, advertPerson, smallDesc, bigDesc, getGenericDisappointmentQuote(prize).." El paquete será recogido la próxima vez que atraque.")
 	else
-		completeMission(0, prize, advertPerson, smallDesc, bigDesc, getGenericDisappointmentQuote(prize).." I'll get someone to pickup the package from you.")
+		completeMission(0, prize, advertPerson, smallDesc, bigDesc, getGenericDisappointmentQuote(prize).." Haré que alguien lo recoja.")
 	end
 	
 	cleanUp()	
