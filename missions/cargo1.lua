@@ -108,9 +108,9 @@ function prototype()
 		tractor[1]="¿Tienes un rayo tractor?"
 		tractor[2]="Se requiere un rayo tractor."
 		tractor[3]="Necesitará un rayo tractor para transportar la carga."
-		tractor[4]="rayo tractor necesario."
-		tractor[5]="¿tienes un rayo tractor?"
-		tractor[6]="se requiere que tengas un rayo tractor."		
+		tractor[4]="Rayo tractor necesario."
+		tractor[5]="¿Tienes un rayo tractor?"
+		tractor[6]="Se requiere que tengas un rayo tractor."		
 		bigDesc=bigDesc.." "..tractor[math.random(table.getn(tractor))]
 	end
 		
@@ -145,8 +145,8 @@ function prototype()
 	bigDesc=bigDesc.." "..t4[math.random(table.getn(t4))]
 	
 	local t6={}
-	t6[1]="Tienes que recogerlo de la estacion "..pickupStation.. ", en el sistema "..pickupSystem.."."
-	t6[2]="El destino final del paquete está aquí, pero la recogida es en la estacion "..pickupStation.." del sistema "..pickupSystem.."."
+	t6[1]="Tienes que recogerlo en la estacion "..pickupStation.. ", en el sistema "..pickupSystem.."."
+	t6[2]="El destino final del paquete es aquí, pero la recogida es en la estacion "..pickupStation.." del sistema "..pickupSystem.."."
 	t6[3]="Consigue mi contenedor de carga flotante en la estacion "..pickupStation.." del sistema "..pickupSystem.."."
 	t6[4]="Necesitarás conseguirlo en la estacion"..pickupStation.." del sistema "..pickupSystem.."."
 	t6[5]="Tráelo desde la estacion "..pickupStation..", del sistema"..pickupSystem.."."
@@ -168,7 +168,7 @@ function prototype()
 	local connection=con[math.random(table.getn(con))]
 	
 	local t7={}
-	t7[1]="mi "..contactPerson.." estará esperándote allí."
+	t7[1]=contactPerson.." estará esperándote allí."
 	t7[2]="Le he dicho a mi "..connection..", "..contactPerson.." que lo espere."
 	t7[3]="He informado a mi "..connection..". Oh, su nombre es "..contactPerson.."."
 	t7[4]="Dile a mi "..connection.." que el artículo está fuera y él lo recogerá."
@@ -176,7 +176,7 @@ function prototype()
 	t7[6]="puedes ponerte en contacto con  "..contactPerson..". él es mi "..connection.."."
 	bigDesc=bigDesc.." "..t7[math.random(table.getn(t7))]
 	
-	bigDesc=bigDesc.." dejarlo fuera de la estación y encuentra a "..contactPerson.." adentro. Se las arreglará para recogerlo más tarde.."
+	bigDesc=bigDesc.." dejalo fuera de la estación y encuentra a "..contactPerson.." adentro. Se las arreglará para recogerlo más tarde."
 		
 	local more=math.random(1)
 	
@@ -184,7 +184,7 @@ function prototype()
 		local t5={}
 		t5[1]="¿Aceptarás?"
 		t5[2]="Entonces, ¿qué te parece?"
-		t5[3]="Te recomendaré, si puedes hacer esto."
+		t5[3]="Te recomendaré, si puedes hacerlo."
 		t5[4]="No debería ser tan difícil. ¿Hm?"	
 		bigDesc=bigDesc.." "..t5[math.random(table.getn(t5))]		
 	end
@@ -195,12 +195,12 @@ end
 
 function canTakeMission() -- check to see if you can take this mission
 	if (( getSplitSpeed() == 0 ) and ( getDistanceToStation(pickupStation) > 50000 )) then
-		return "No, gracias. Está bastante lejos y tu nave no tiene un motor divisor."
+		return "No, gracias. Está bastante lejos y tu nave no tiene un motor dividido."
 	end
 	
-	local hasTractor1 = hasUpgrade("m1 rayo tractor yacon mk 1")
-	local hasTractor2 = hasUpgrade("m2 rayo tractor winchester")
-	local hasTractor3 = hasUpgrade("m3 haz tractor de crucero yokohama")
+	local hasTractor1 = hasUpgrade("m1 yacon mk 1 tractor beam")
+	local hasTractor2 = hasUpgrade("m2 winchester tractor beam")
+	local hasTractor3 = hasUpgrade("m3 yokohama cruise tractor beam")
 	if (( hasTractor1 + hasTractor2 + hasTractor3 ) == 0 ) then
 		return "Necesitarás un rayo tractor. Vuelve cuando tengas uno."
 	end

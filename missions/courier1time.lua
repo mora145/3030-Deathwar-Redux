@@ -82,37 +82,37 @@ function prototype()
 
 	-- GET PACKAGE NAME/TYPE
 	local t={}
-	t[1]="small"
-	t[2]="tiny"
-	t[3]="well wrapped"
-	t[4]="coveted"	
-	t[5]="important"
-	t[6]="religious"
-	t[7]="single"
-	t[8]="encoded"
-	t[9]="encrypted"
-	t[10]="high security"
-	t[11]="low security"
-	t[12]="very important"
-	t[13]="low importance"
-	t[14]="urgent"
-	t[15]="secured"
+	t[1]="pequeño"
+	t[2]="minúsculo"
+	t[3]="bien embalado"
+	t[4]="codiciado"	
+	t[5]="importante"
+	t[6]="religioso"
+	t[7]="simple"
+	t[8]="codificado"
+	t[9]="encriptado"
+	t[10]="alta seguridad"
+	t[11]="baja seguridad"
+	t[12]="muy importante"
+	t[13]="baja importancia"
+	t[14]="urgente"
+	t[15]="asegurado"
 	packageName=t[math.random(table.getn(t))]	
 		
 	local t2={}
-	t2[1]="bundle"
-	t2[2]="present"
-	t2[3]="document"
+	t2[1]="paquete"
+	t2[2]="presente"
+	t2[3]="documento"
 	t2[4]="cryo-cred"	
 	t2[5]="holo-vid"
-	t2[6]="vid disk"
-	t2[7]="report"
-	t2[8]="holo-cube"
-	t2[9]="megadisq"
-	t2[10]="gift"
-	t2[11]="presentation"
-	t2[12]="conference recording"
-	t2[13]="sex-disq (tm)"
+	t2[6]="video disco"
+	t2[7]="informe"
+	t2[8]="holocubo"
+	t2[9]="megadiso"
+	t2[10]="regalo"
+	t2[11]="presentación"
+	t2[12]="grabación de conferencia"
+	t2[13]="disq sexo (tm)"
 	packageName=packageName.." "..t2[math.random(table.getn(t2))]
 	
 	local more2=math.random(14)
@@ -122,74 +122,74 @@ function prototype()
 	end
 
 	local t3={}
-	t3[1]="Transit of ".. packageName.." required."
-	t3[2]=packageName.." to be taken to " .. dropOffSystem.."."
-	t3[3]="Think you can take ".. packageName.." to ".. dropOffSystem.. " for me?"
-	t3[4]="I need this "..packageName.." taken to "..dropOffSystem.." for me."
-	t3[5]="I need my ".. packageName.." taken to the "..dropOffSystem.." system for me."
-	t3[6]="courier job: "..packageName.." to the "..dropOffSystem.." system."
+	t3[1]="Transporte de ".. packageName.." requerido."
+	t3[2]=packageName.." para recoger en el sistema"..pickupSystem.."."
+	t3[3]="¿Crees que puedes llevar ".. packageName.." por mi, al sistema ".. dropOffSystem.."?"
+	t3[4]="Necesito que este/a "..packageName.." sea llevado al sistema "..dropOffSystem.."."
+	t3[5]="Necesito que mi ".. packageName.." sea llevado al sistema "..dropOffSystem.."."
+	t3[6]="Trabajo de entrega: "..packageName.." al sistema "..dropOffSystem.."."
 	smallDesc=t3[math.random(table.getn(t3))]
 		
 	--bigDesc=smallDesc -- make the longer description
 		
 	local t4={}
-	t4[1]="I can give you $".. prize.. " for it."
-	t4[2]="$" .. prize.. " is all I can offer."
-	t4[3]="I can offer you a pricely sum of $".. prize.. ". That any good?"
-	t4[4]="I can pay $"..prize.."."		
-	t4[5]="Your remuneration will be $"..prize.."."
-	t4[6]="I can't offer any more than, maybe $"..prize.."."
-	t4[7]="Perhaps a measly $"..prize.." will suffice."
-	t4[8]="I don't have much money since my wife died. $"..prize.." is all I have."
-	t4[9]="Did I mention the payment? Oh. $"..prize.." is all I can pay."	
+	t4[1]="Puedo darte ".. prize.. "$ por eso."
+	t4[2]=prize.. "$ es todo lo que puedo ofrecer."
+	t4[3]="Puedo ofrecerte una preciosa suma de ".. prize.. "$. ¿Te parece bien?"
+	t4[4]="Puedo pagar "..prize.."$."		
+	t4[5]="Tu remuneración será de "..prize.."$."
+	t4[6]="No puedo ofrecer más que, tal vez "..prize.."$."
+	t4[7]="Tal vez unos miserables "..prize.."$ bastarán."
+	t4[8]="No tengo mucho dinero desde que murió mi esposa. "..prize.."$ es todo lo que tengo."
+	t4[9]="¿Mencioné el pago? Oh, "..prize.."$ es todo lo que puedo pagar."	
 	bigDesc=bigDesc.." "..t4[math.random(table.getn(t4))]
 	
 	local t6={}
-	t6[1]="It needs to get to ".. dropOffStation.. ", "..dropOffSystem.."."
-	t6[2]="The package's final destination is "..dropOffStation..", "..dropOffSystem.."."
-	t6[3]="So the destination again, in case you forgot, was "..dropOffStation.." in the "..dropOffSystem.." system."
-	t6[4]="You can drop it off at "..dropOffStation.." in "..dropOffSystem.."."
-	t6[5]="Take it to "..dropOffStation..", "..dropOffSystem.."."
-	t6[4]="Just take the damn thing to "..dropOffStation..", will you. That's in "..dropOffSystem.."."
+	t6[1]="Necesita llegar a ".. dropOffStation.. ", del sistema "..dropOffSystem.."."
+	t6[2]="El destino final del paquete es "..dropOffStation..", en el sistema"..dropOffSystem.."."
+	t6[3]="Así que el destino (otra vez, en caso de que lo olvidaras) era "..dropOffStation.." en el sistema "..dropOffSystem.."."
+	t6[4]="Puedes dejarlo en "..dropOffStation.." en el sistema "..dropOffSystem.."."
+	t6[5]="Llévelo a "..dropOffStation..", "..dropOffSystem.."."
+	t6[4]="Sólo lleva la maldita cosa a "..dropOffStation..", ¿quieres?. Eso está en "..dropOffSystem.."."
 	bigDesc=bigDesc.." "..t6[math.random(table.getn(t6))]	
 	
 	local con={}
-	con[1]="friend"
-	con[2]="brother"
-	con[3]="father"
-	con[4]="business partner"
-	con[5]="acquaintance"
-	con[6]="long time friend"
-	con[7]="buddy"
-	con[8]="contact"
-	con[9]="slave droid"
-	con[10]="droid"
+	con[1]="amigo"
+	con[2]="hermano"
+	con[3]="padre"
+	con[4]="socio de negocios"
+	con[5]="conocido"
+	con[6]="amigo de siempre"
+	con[7]="amigo"
+	con[8]="contacto"
+	con[9]="droide esclavo"
+	con[10]="droide"
 	local connection=con[math.random(table.getn(con))]
 	
 	local t7={}
-	t7[1]=contactPerson.." will be waiting there for you."
-	t7[2]="I've told my "..connection..", "..contactPerson.." to be waiting for it."
-	t7[3]="I've informed my "..connection..". Just give it to him when you get there. Oh, his name is "..contactPerson.."."
-	t7[4]="Just give the package to my "..connection..", "..contactPerson.."."
-	t7[5]="drop the package off with "..contactPerson.." who will be waiting for you."
-	t7[6]="you can get in contact with "..contactPerson.." when you get there. he's my "..connection.."."
-	t7[7]="get the package into the hands of "..contactPerson..". he'll be waiting for you there."
+	t7[1]=contactPerson.." estará esperándote allí."
+	t7[2]="Le he dicho a mi "..connection..", "..contactPerson.." que lo espere."
+	t7[3]="He informado a mi "..connection..". Oh, su nombre es "..contactPerson.."."
+	t7[4]="Sólo dele el paquete a mi "..connection..", "..contactPerson.."."
+	t7[5]="entregue el paquete a "..contactPerson.." que te estará esperando."
+	t7[6]="Puedes ponerte en contacto con "..contactPerson.." cuando llegues allí. Es mi "..connection.."."
+	t7[7]="Pon el paquete en manos de "..contactPerson..". Te estará esperando allí.."
 	bigDesc=bigDesc.." "..t7[math.random(table.getn(t7))]
 		
 	local more=math.random(1)
 	
 	if (more==0) then
 		local t5={}
-		t5[1]="Will you accept?"
-		t5[2]="So, what do you think?"
-		t5[3]="I'll recommend you if you can get this done."
-		t5[4]="It shouldn't be too hard. Hm?"	
+		t5[1]="¿Aceptarás?"
+		t5[2]="Entonces, ¿qué te parece?"
+		t5[3]="Te recomendaré, si puedes hacerlo."
+		t5[4]="No debería ser tan difícil. ¿Hm?"	
 		bigDesc=bigDesc.." "..t5[math.random(table.getn(t5))]		
 	end	
 
 	local f5={}
-	f5[1]="you have "..timeLimit.." in which to accomplish this run."
-	f5[2]="This is really urgent. You'll have "..timeLimit.." to get there."
+	f5[1]="tienes "..timeLimit.." para completar esta carrera."
+	f5[2]="Esto es realmente urgente. Tendrás "..timeLimit.." para llegar allí."
 
 	bigDesc=bigDesc.." "..f5[math.random(table.getn(f5))]
 
@@ -199,7 +199,7 @@ end
 
 function canTakeMission() -- check to see if you can take this mission
 	if (( getSplitSpeed() == 0 ) and ( getDistanceToStation(dropOffStation) > 50000 )) then
-		return "No thanks. It's pretty far and your ship doesn't have a split drive."
+		return "No, gracias. Está bastante lejos y tu nave no tiene un motor dividido."
 	end
 	return "" -- you can take a courier mission
 end
@@ -219,7 +219,7 @@ function takeMission() -- upon taking the mission set up things, like:
 		end
 	end
 
-	local desc = "get to "..dropOffStation
+	local desc = "llegar a "..dropOffStation
 	createTimer(timerName,desc,timeLimit)
 
 	addPersonToStation(contactPerson,dropOffStation,"random")
@@ -240,7 +240,7 @@ function update() -- update mission critical things here
 	if isInAConversation()==0 then
 		local fin=timerFinished(timerName)
 
-		local newDesc= "get to "..dropOffStation
+		local newDesc= "llegar a "..dropOffStation
 		updateTimerDescription(timerName,newDesc)
 
 		if (fin==1) then
@@ -318,7 +318,7 @@ function getDropOff()
 end
 
 function getDestination()
-	return dropOffStation.." in "..dropOffSystem.." system."
+	return dropOffStation.." en el sistema "..dropOffSystem.."."
 end
 
 function returnImageFile()

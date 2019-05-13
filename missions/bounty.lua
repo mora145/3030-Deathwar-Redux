@@ -142,12 +142,12 @@ function prototype()
 		t5[3]="¿Eres lo suficientemente hombre?"
 		t5[4]="No es muy difícil para ti, ¿verdad?"	
 		t5[5]="Si, no?"
-		t5[6]="Haz esto por mí."
+		t5[6]="Haz eso por mí."
 		t5[7]="¿Qué vas a decir?"
 		t5[8]="Tengo el dinero si tú tienes los medios."
 		t5[9]="Termina con esto y estaré encantado."
-		t5[10]="Si?"
-		t5[11]="¿Harás esto?"
+		t5[10]="¿Si?"
+		t5[11]="¿Lo harás?"
 		bigDesc=bigDesc.." "..t5[math.random(table.getn(t5))]		
 	end	
 	
@@ -227,7 +227,7 @@ end
 function finishSuccess() -- clear up stuff here
 	cleanUp()
 	local t6={}
-	t6[1]="Finalmente está muerto. Los operadores finalmente pueden descansar un poco más fácilmente. ¡Gracias!"
+	t6[1]="Finalmente está muerto. Los operadores finalmente pueden descansar un poco mejor. ¡Gracias!"
 	t6[2]="¡Por fin! ¡Gracias!"
 	t6[3]="Ese es el último de ustedes, "..pirate_name.."."
 	t6[4]="No más "..pirate_name..". Gracias."
