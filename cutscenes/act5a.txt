@@ -31,7 +31,7 @@ cjisri:Lo siento por eso... El lanzallamas no tenia control de potencia.
 ktafly:Hmmm.
 cjisri:De todos modos...
 cjisri:Si encuentra la base, entonces eso prueba que es un buen activo.
-cjisri:Un activo que llevará a la destruccion del Consejo.
+cjisri:Un activo que llevará a la destruccion del Concejo.
 ktafly:Tal vez si, tal vez no. 
 cjisri:Tal vez si, hombre volador.
 }

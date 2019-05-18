@@ -23,7 +23,7 @@ other:Decía '¡VE POR ELLA!'
 other:...pero sin una advertencia de que te pueden disparar.
 ego:¿Y ellos ganaron?
 other:No.
-other:No, fueron arrestados por malgastar el tiempo del Consejo.
+other:No, fueron arrestados por malgastar el tiempo del Concejo.
 other:Y le puso dos semanas de trabajo pintando a Resseth.
 ego:¡Dos semanas PD! Ha.
 stop

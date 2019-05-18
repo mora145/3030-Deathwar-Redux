@@ -12,7 +12,7 @@ helper,data/stations/special characters/plotmonk2_50x108_4.png,170,136,facing ri
 dialogue
 {
 persona:¿Estas leyendo sobre la supernova?
-persona:El Consejo esta buscando al ultimo en abandonar el sistema.
+persona:El Concejo esta buscando al ultimo en abandonar el sistema.
 helper:No, estoy tratando de encontrar la tabla de la liga de dardos de cero-gravedad.
 persona:¿No había sido prohibido?
 helper:¡Que! ¿Otra vez?

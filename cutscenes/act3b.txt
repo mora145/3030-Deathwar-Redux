@@ -19,9 +19,9 @@ dialogue
 {
 bosscape:Ya esta hecho.
 bosscape:Ni siquiera sabia que habia entregado la bomba.
-helper2:¡Excelente! Ahora podemos persuadir al consejo para que lo persiga.
+helper2:¡Excelente! Ahora podemos persuadir al Concejo para que lo persiga.
 bosscape:¡De acuerdo! Pronto tendran su foto en todos los noticieros de TV.
-helper2:Una vez que vean que la profecia es invalida, nuestra agenda se llevara a cabo.
+helper2:Una vez que vean que la profecia es falsa, nuestra agenda se llevara a cabo.
 helper:¿Por qué no lo volamos?
 helper:¡Me gustaba ese sistema!
 helper2:Era solo un sistema minero, asqueroso, con humanos.

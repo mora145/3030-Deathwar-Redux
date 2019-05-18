@@ -29,7 +29,7 @@ stop
 other:La tasa de atraque se ha fijado en 4 dólares en los últimos 120 años, señor.
 ego:¿Es probable que cambie alguna vez?
 other:Me arriesgaría y diría que no.
-ego:Suenas muy seguro. ¿Eres amigo de los líderes del Consejo?
+ego:Suenas muy seguro. ¿Eres amigo de los líderes del Concejo?
 other:No, señor. Estoy muy ocupado. 
 stop
 

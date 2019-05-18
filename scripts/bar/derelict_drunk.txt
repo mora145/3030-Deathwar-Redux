@@ -69,7 +69,7 @@ ego:¿Por qué no estás ahí fuera comerciando o algo así?
 other:Hombre, el alcohol es todo lo que tengo.
 ego:¿No tienes nada más?
 other:Nop.
-other:Un gran destruyó mi flota, hombre. Gracias a ellos, todo lo que tengo es la pensión del consejo.
+other:Un gran destruyó mi flota, hombre. Gracias a ellos, todo lo que tengo es la pensión del Concejo.
 other:Y eso no es mucho.
 ego:Supongo que apenas puedes alimentar a tus hijos.
 other:¿Niños?, Ya no tengo hijos.

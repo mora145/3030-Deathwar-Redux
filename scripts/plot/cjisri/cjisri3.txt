@@ -59,7 +59,7 @@ ego:Apuesto a que no lo sabes, ¿verdad?
 other:Bueno, había un tipo en Daphice que sabía, Waylen Dor.
 other:Pero ya sabes lo que pasó allí. Hay otro, pero no estoy seguro de su ubicación.
 other:Todo lo que sé es que el sistema en el que reside.
-other:Kp-FQ1. Es un sistema pirata con dos estaciones piratas y dos estaciones del Consejo.
+other:Kp-FQ1. Es un sistema pirata con dos estaciones piratas y dos estaciones del Concejo.
 ego:¿Así que no sabes en qué estación está?
 other:No
 ego:¿Cuántas estaciones hay en kp-fq1?

@@ -78,7 +78,7 @@ stop
 ego:Ahora mismo no puedo, quizá más tarde.
 other:Ya veo. No puedo decir que lo entiendo.
 other:La policía galáctica los busca en este momento.
-other:Y el Consejo por los crímenes que no cometiste.
+other:Y el Concejo por los crímenes que no cometiste.
 other:Usted tendrá dificultades para llevar una vida normal.
 other:Cuando hayas entrado en razón y cambiado de opinión...
 other:Vuelve y házmelo saber.

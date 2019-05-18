@@ -1,5 +1,5 @@
 Piezas de Nebulosa, el Misterio Resuelto
 
-Recientemente, los miembros del Consejo se han preocupado por las naves que quedan atrapadas en la nebulosa sin ninguna forma de protegerse de los piratas. Esto se resolvió recientemente con la adición del esquema de partes de nebulosas en el mapa. 
+Recientemente, los miembros del Concejo se han preocupado por las naves que quedan atrapadas en la nebulosa sin ninguna forma de protegerse de los piratas. Esto se resolvió recientemente con la adición del esquema de partes de nebulosas en el mapa. 
 
 El principio es simple: A medida que los equipos de exploración escanean la nebulosa actualizan una base de datos universal con posiciones de nebulosa ultra precisas. Esta información se introduce directamente en las bases de datos de todas las naves. La información se puede ver yendo a su base de datos de mapas y habilitando los datos de las nebulosas. Una lectura le dirá cuánto se ha actualizado a la computadora de su nave. Obviamente, el proceso está en marcha, pero creo que todos estamos de acuerdo en que esto ayudará a las naves atrapadas en las nebulosas y le ahorrará horas de tiempo de viaje.

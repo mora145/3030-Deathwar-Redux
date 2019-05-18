@@ -37,9 +37,9 @@ return
 ego:Un problema, ¿eh? ¿Habéis oído hablar de renunciar?
 other:Divertido. Pero incluso tú puedes entender la importancia de esto.
 other:Si no salvamos tu vida y destruimos sus naves, estamos todos condenados. 
-other:Incluso nosotros, que éramos parte del Consejo.
+other:Incluso nosotros, que éramos parte del Concejo.
 other:Tan pronto como estés muerto y la profecía se cumpla....
-other:...el Consejo comenzará los ataques de limpieza de nuevo.
+other:...el Concejo comenzará los ataques de limpieza de nuevo.
 other:Apenas queda gente. Qué, ¿unos buenos cinco mil tal vez.
 other:Necesitamos que todos ellos se repoblen, que nos devuelvan a donde estábamos hace mil años.
 ego:Está bien, está bien. Estaba bromeando.

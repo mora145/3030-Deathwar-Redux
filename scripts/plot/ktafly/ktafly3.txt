@@ -38,9 +38,9 @@ return
 @2 // ¿Qué ha empezado de nuevo?
 ego:¿Qué ha empezado de nuevo?
 other:Los ataques. 
-other:Han pasado 300 años, pero ahora el Consejo ha comenzado de nuevo.
-ego:¿El Consejo?
-other:Partes dentro del Consejo.
+other:Han pasado 300 años, pero ahora el Concejo ha comenzado de nuevo.
+ego:¿El Concejo?
+other:Partes dentro del Concejo.
 other:Quieren limpiar el lugar.
 other:Si usted sabe lo que quiero decir.
 option-off 2
@@ -60,7 +60,7 @@ ego:¿Estás asociado con los Limpiadores?
 ego:¿Cómo?
 other:Bueno, hay muchos antecedentes.
 other:Solíamos ser una gran organización.
-other:El anterior Consejo de Gobierno.
+other:El anterior Concejo de Gobierno.
 other:Nos separamos de ellos hace unos 300 años.
 ego:Hace 300 años fue cuando aparecieron los Limpiadores por última vez.
 other:Sí. Es muy extraño.

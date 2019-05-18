@@ -39,7 +39,7 @@ other:Siempre están desactivadas.
 other:Estas estaciones necesitan ser desguazadas.
 ego:Esto es lo que obtienes por ser un comerciante.
 other:Sí, tal vez. 
-other:He oído rumores de que el Consejo va a conseguirnos mejores instalaciones.
+other:He oído rumores de que el Concejo va a conseguirnos mejores instalaciones.
 ego:Si? ¿Como cuáles?
 other:Reacondicionando las pistas de baile, y consiguiendo mesas de billar.
 other:Algunos comerciantes se han negado a abastecer las peores estaciones.

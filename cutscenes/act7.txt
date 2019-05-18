@@ -19,20 +19,20 @@ helper:¿Te refieres a la falta de asientos en estas naves?
 bosscape:¡No! El humano y el resto de ellos.
 helper:Si, nunca debimos detener el exterminio de estas pateticas especies.
 bosscape:Absolutamente. Falcon es la clave. Debe ser borrado.
-bosscape:Los ancianos aun prefieren obligar a la policia del Consejo a hacer nuestro trabajo sucio.
+bosscape:Los ancianos aun prefieren obligar a la policia del Concejo a hacer nuestro trabajo sucio.
 helper:Con el respaldo de los rebeldes, la profecia se esta cumpliendo por si misma.
 badcop:¿Y si lo hacemos parecer un accidente?
 badcop:Con estas naves podriamos dividirnos contra él mientras estamos camuflados. ¡Boom!
 helper:Si. Haria que pareciera una desafortunada colision con un cometa. 
 bosscape:No debemos arriesgarnos a revelar la ubicacion de nuestra flota todavia.
 bosscape:Los llamados Taoistas estan planeando algo.
-bosscape:Arreglemos otra pequena explosion para Falcon.
+bosscape:Arreglemos otra pequeña explosión para Falcon.
 helper:Nuestras sondas lo estan buscando ahora mismo, no tardaran en encontrarlo.
 }
 
 text
 {
-Acto VII: ¿Quien soy yo?
+Acto VII: ¿Quien soy?
 }
 
 animation

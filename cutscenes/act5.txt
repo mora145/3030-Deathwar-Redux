@@ -12,7 +12,7 @@ helper,data/stations/standing_at_bar/squidman1_50x130_4.png,210,149,facing left,
 dialogue
 {
 helper:No hay informes de Falcon, señor.
-bosscape:Ah, estos policias del consejo no valen nada.
+bosscape:Ah, estos policias del Concejo no valen nada.
 helper:Nuestra red de sondas podria encontrarlo.
 bosscape:Cierto, intentare conseguir autorizacion para usarlas.
 bosscape:Debe haber desaparecido del mapa.

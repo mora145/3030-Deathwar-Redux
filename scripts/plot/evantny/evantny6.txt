@@ -14,7 +14,7 @@ return
 
 @1
 ego:Sí, bien, ¿qué tengo que hacer?
-other:Sospechamos que una persona llamada Jek Kek está trabajando para el Consejo.
+other:Sospechamos que una persona llamada Jek Kek está trabajando para el Concejo.
 other:... en el lado equivocado, si sabes a lo que me refiero.
 other:Necesitamos que lo fotografíes a bordo de Tia.
 other:Necesitamos saber con quién está para empezar a armar las piezas.

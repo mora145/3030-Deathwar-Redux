@@ -40,7 +40,7 @@ helper:Destruye la nave nodriza a toda costa.
 helper:Todas las ordenes vienen de esa nave.
 ktafly:Nuestro informante borracho tiene razon, Sr. Falcon.
 ktafly:Si destruimos la nave nodriza...
-ktafly:...No mas Consejo, no mas mundos destruyendose con nanotecnologia.
+ktafly:...No mas Concejo, no mas mundos destruyendose con nanotecnologia.
 falcon:¿Cuales son nuestras posibilidades entonces, Sr. Robot?
 boss:Calculo que tenemos un 70% de probabilidad... De fracaso.
 Kent:Error..

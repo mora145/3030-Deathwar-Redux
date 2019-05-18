@@ -16,7 +16,7 @@ return
 @1 // when's this quarantine going to end?
 ego:¿Cuándo va a terminar esta cuarentena??
 other:Señor, me han puesto en cuarentena como a usted.. 
-other:El Consejo no ha dado un tiempo definido sobre cuándo será levantada.
+other:El Concejo no ha dado un tiempo definido sobre cuándo será levantada.
 other:Hasta entonces tendremos que llevarnos bien. 
 other:¿Hay algo más que pueda hacer por ti?
 option-off 1

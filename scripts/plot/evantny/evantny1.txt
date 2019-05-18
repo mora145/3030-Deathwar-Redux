@@ -43,7 +43,7 @@ return
 ego:Deberías saberlo.
 other:Tienes razón, lo sé.
 other:Vayamos directo al grano, ¿de acuerdo?
-other:Sospechamos que un jefe de policía llamado Jek Kek está trabajando para el Consejo.
+other:Sospechamos que un jefe de policía llamado Jek Kek está trabajando para el Concejo.
 other:En el lado equivocado, si sabes a lo que me refiero.
 other:Necesitamos que los fotografíes a bordo de Tia. 
 other:Necesitamos saber con quién se está reuniendo para empezar a armar las piezas.

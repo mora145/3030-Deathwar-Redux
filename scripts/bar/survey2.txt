@@ -29,7 +29,7 @@ ego:Sí. Preferiría que pusieran los canales de música a veces.
 other:Ok. Canales de música.
 ego:¿Por qué no pueden mostrar otras cosas?
 other:Oh, la mayoría de los bares no pueden permitirse los derechos para mostrar otros canales.
-other:El Consejo está pensando en subvencionarlos.
+other:El Concejo está pensando en subvencionarlos.
 ego:De verdad?
 other:Sí, quieren que los comerciantes estén contentos.
 other:Usted proporciona un servicio inestimable que proporciona el transporte de mercancías que ellos dicen.

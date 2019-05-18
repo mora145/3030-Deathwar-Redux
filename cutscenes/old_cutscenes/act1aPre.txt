@@ -33,7 +33,7 @@ goon:Si, lo recuerdo. Puede volverse loco.
 helper:¿Seguro que reconoceras a este otro tipo?
 goon:Si. Es un humano con sombrero.
 goon:Escuche esta historia....
-goon:Miembros lideres del consejo involucrados en un circulo de pervertidos sexuales.
+goon:Miembros lideres del Concejo involucrados en un circulo de pervertidos sexuales.
 goon:Con niños.
 helper:Malditos bastardos enfermos.
 goon:Malditos bastardos enfermos.

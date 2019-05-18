@@ -43,7 +43,7 @@ ego:¡Estoy aquí por mi compensación!
 other:¿Qué? Jajaja.
 other:¿Por la nave robada que compraste?
 other:No obtendrás nada de la policía.
-other:...o el Consejo.
+other:...o el Concejo.
 ego:Bueno, de todos modos casi me la he ganado de nuevo.
 other:Sí, los freelancers consiguen mucho dinero.
 option-off 3

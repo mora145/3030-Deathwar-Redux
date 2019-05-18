@@ -30,11 +30,11 @@ ktafly:Estoy informado de que lo usaron como marioneta en todo esto.
 ktafly:No puede saberlo, lo devastaria.
 cjisri:Lo entiendo. ¿Pero que haremos ahora?
 cjisri:¿Deberiamos contactar con Falcon?
-ktafly:Todavia no. Hablare con algunas personas y vere que podemos hacer.
+ktafly:Todavia no. Hablaré con algunas personas y veré qué podemos hacer.
 ktafly:Ponte en contacto con él cuando te de la señal.
 ktafly:Por ahora espero que pueda sobrevivir por su cuenta.
-cjisri:Si, cuando este listo y tenga mas experiencia en combate...
-cjisri:...Podemos contactarlo de nuevo.
+cjisri:Si, cuando esté listo y tenga mas experiencia en combate...
+cjisri:...podemos contactarlo de nuevo.
 }
 
 sounds

@@ -121,7 +121,7 @@ other:Hoy en día estamos divididos en células.
 other:Así que no tengo más información sobre ellos.
 other:Lamento escuchar lo de Daphice, por cierto. Trágico.
 ego:Estoy buscando un poco de venganza por eso.
-other:Tristemente, no es nada comparado con lo que hizo el Consejo la última vez.
+other:Tristemente, no es nada comparado con lo que hizo el Concejo la última vez.
 other:En un mundo tras otro, ellos aniquilaron toda la vida.
 ego:Eso deduzco. Nanobots, ¿verdad?
 other:Correcto. Ellos liberaron Nanobots que se comieron toda la materia orgánica y plástica.
@@ -167,7 +167,7 @@ other:Hoy en día estamos divididos en células.
 other:Así que no tengo más información sobre ellos.
 other:Lamento escuchar lo de Daphice, por cierto. Trágico.
 ego:Estoy buscando un poco de venganza por eso.
-other:Tristemente, no es nada comparado con lo que hizo el Consejo la última vez.
+other:Tristemente, no es nada comparado con lo que hizo el Concejo la última vez.
 other:En un mundo tras otro, ellos aniquilaron toda la vida.
 ego:Eso deduzco. Nanobots, ¿verdad?
 other:Correcto. Ellos liberaron Nanobots que se comieron toda la materia orgánica y plástica.
@@ -188,7 +188,7 @@ return
 ego:¿Alguna noticia de Daphice?
 other:No. Lamento lo que pasó. Trágico.
 ego:Estoy buscando un poco de venganza por eso.
-other:Tristemente, no es nada comparado con lo que hizo el Consejo la última vez.
+other:Tristemente, no es nada comparado con lo que hizo el Concejo la última vez.
 other:En un mundo tras otro, ellos aniquilaron toda la vida.
 ego:Eso deduzco. Nanobots, ¿verdad?
 other:Correcto. Ellos liberaron Nanobots que se comieron toda la materia orgánica y plástica.

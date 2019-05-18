@@ -45,7 +45,7 @@ other:Ok. Déjame encriptar este canal.
 ego:Entonces, ¿cuál es la primicia?
 other:Dijo que vio informes secretos de que la amenaza de los nanobots en los planetas había desaparecido.
 ego:Interesante.
-other:El Consejo sigue impidiendo los desembarcos, pero en realidad no es necesario.
+other:El Concejo sigue impidiendo los desembarcos, pero en realidad no es necesario.
 ego:Supongo que así es la política.
 other:No, es más profunda. 
 other:Hay fuerzas que quieren empujar a algunas especies a la extinción.

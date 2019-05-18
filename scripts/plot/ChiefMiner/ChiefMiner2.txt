@@ -30,7 +30,7 @@ return
 @12 // ¿Necesitas ayuda?
 ego:¿Necesitas ayuda?
 other:Si.
-other:El Consejo está pagando a los Piratas para que nos den problemas.
+other:El Concejo está pagando a los Piratas para que nos den problemas.
 other:Si ves a cualquiera en este sistema.
 other:¡Boom! ¡Ya sabes qué hacer, viejo!
 option-off 12

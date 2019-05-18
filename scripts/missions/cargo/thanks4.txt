@@ -1,5 +1,5 @@
 //begin
-// [x] 1 - "¿Alguna noticia del Consejo?"
+// [x] 1 - "¿Alguna noticia del Concejo?"
 // [x] 2 - "¿Algún chiste nuevo de comerciantes?"
 // [x] 3 - "¿Qué está pasando aquí abajo?"
 //end
@@ -15,8 +15,8 @@ option-on 2
 option-on 3
 return
 
-@1 // ¿Alguna noticia del Consejo?
-ego:¿Alguna noticia del Consejo?
+@1 // ¿Alguna noticia del Concejo?
+ego:¿Alguna noticia del Concejo?
 other:Hubo una lluvia de micrometeoritos hace un rato.
 other:La estación estuvo cerrada.
 ego:Desafortunado.

@@ -17,20 +17,20 @@ guy3,data/stations/standing_at_bar/kryto_50x108_4.png,35,325,facing right,visibl
 
 dialogue
 {
-ktafly:Estamos tratando de eliminar el lado malo del Consejo.
+ktafly:Estamos tratando de eliminar el lado malo del Concejo.
 ktafly:La gente sigue pensando que los Taoistas son malas personas despues de toda la propaganda.
 ktafly:Probablemente nos disolveremos.
 ktafly:Por cierto, hemos borrado tus antecedentes penales.
 falcon:Suena bien.
-ktafly:Una vez que la nano-amenaza haya sido eliminada, el Consejo volverá a permitir el acceso a los planetas.
+ktafly:Una vez que la nano-amenaza haya sido eliminada, el Concejo volverá a permitir el acceso a los planetas.
 ktafly:Se haran habitables de nuevo. Podemos empezar de cero.
 boss:Le debemos mucha gratitud. 
 boss:Como pequena muestra hemos acreditado a su cuenta una cantidad sustancial de dinero.
 falcon:Visitar un planeta con vida es recompensa suficiente. Es asombroso.
 ktafly:Sin embargo, todavia hay una cosa que no se le puede decir a la gente.
 Falcon:Bien, puedo ver por que.
-ktafly:Deben poder comprender que el Consejo estaba siendo manipulado.
-ktafly:Si se desilusionan ahora, la estructura del Consejo galactico se rompera.
+ktafly:Deben poder comprender que el Concejo estaba siendo manipulado.
+ktafly:Si se desilusionan ahora, la estructura del Concejo galactico se rompera.
 ktafly:Entonces podria haber una gran guerra.
 boss:K'ta siempre esta buscando problemas.
 ktafly:Eres bienvenido a convertirte en uno de los primeros colonos si estas cansado de la vida espacial.

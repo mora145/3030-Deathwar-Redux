@@ -19,7 +19,7 @@ return
 
 @1 // what do you do when you find a pirate?
 ego:Qué haces cuando encuentras un pirata?
-other:Las normas del Consejo establecen que puedes destruir la nave de un pirata en cualquier momento. 
+other:Las normas del Concejo establecen que puedes destruir la nave de un pirata en cualquier momento. 
 other:Usa tu mapa y busca cuadros blancos con la línea roja.
 other:En los sistemas más seguros puede que no haya ninguno, o sólo uno.
 other:No ataques a los comerciantes normales o si no seremos duros contigo. 
