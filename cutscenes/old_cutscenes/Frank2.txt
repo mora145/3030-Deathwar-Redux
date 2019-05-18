@@ -23,7 +23,7 @@ frank:¡Hola chicos!
 LingLiu:Frank, estas metido en esto.
 LingLiu:Mi tripulacion insistio en que vinieran.
 LingLiu:Vendimos nuestra nave..
-LingLiu:...Ahora la que te compramos acaba de ser confiscada por la policia.
+LingLiu:...ahora la que te compramos acaba de ser confiscada por la policia.
 guy2:Si, hombre. Sera mejor que empieces a hablar.
 LingLiu:Ellos amaban esa nave.
 frank:Yo...
@@ -42,8 +42,8 @@ frank:Capitan Liu, no puedo disculparme lo suficiente por esta situacion.
 frank:Tuve una mala entrega de naves.
 guy2:No es nuestro problema.
 frank:Estoy tratando de ayudar a los compradores
-guy4: ... ...... ..
-guy4: ...... ...
+guy4:... ...... ..
+guy4:...... ...
 guy3:Larry se esta cabreando, Frank.
 frank:Creanme chicos, voy a resolver esto.
 LingLiu:¿Como Frank?

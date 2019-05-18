@@ -29,7 +29,7 @@ LingLiu:Pronto podremos comprar nuestra propia estacion.
 
 text
 {
-En un bar cercano a la estacion..
+En un bar cercano a la estacion...
 }
 
 music

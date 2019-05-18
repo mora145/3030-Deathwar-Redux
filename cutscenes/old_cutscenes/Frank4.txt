@@ -16,24 +16,24 @@ dialogue
 frank:Matti, te he estado buscando por todas partes.
 frank:Tengo serios problemas.
 matti:El negocio mecanico no te trata bien, ¿eh?
-frank:Me independice el año pasado...
-frank:...empece a vender naves.
+frank:Me independicé el año pasado...
+frank:...empecé a vender naves.
 matti:No recuerdo eso.
 matti:¿Estas seguro de eso?
-frank:No hay tiempo para eso..
+frank:No hay tiempo para eso...
 matti:¿Estas seguro?
 frank:Deja de fastidiar, tengo serios problemas.
 matti:Cielos, hablas en serio.
 bip:¿Puedo ofrecerle un trago, Sr. Zoed?
 frank:No, gracias.
 bip:No hay problema.
-matti:¿Que es esto?
-frank:Le compre unas diez naves a un tipo que..
+matti:¿Que es lo que pasa?
+frank:Le compre unas diez naves a un tipo que...
 matti:¿Resulto ser un criminal?
 frank:Sip.
 frank:Ahora tengo las pelotas hasta el fondo.
-frank:Vendi cinco antes de descubrirlo.
-frank:Use el dinero para pagar mis deudas.
+frank:Vendí cinco antes de descubrirlo.
+frank:Usé el dinero para pagar mis deudas.
 frank:Asi que no puedo reembolsarle a nadie.
 bip:Hehehehe.
 matti:¡Oh hombre!
@@ -51,9 +51,9 @@ matti:No estas en forma para eso.
 frank:Necesito uno de tus planes Matti, hermano.
 frank:Necesito el viejo ecualizador.
 matti:Me retire del negocio de la investigacion privada.
-frank:Como si me hubiera retirado de las peleas en jaulas, la mierda pasa, hermano.
+frank:Como si me hubiera retirado de las peleas en jaulas, la mierda pasa hermano.
 matti:Hmmm. 
-frank:Serios problemas, hermano.
+frank:Serios problemas hermano.
 matti:Tienes suerte de que ya este borracho hoy.
 matti:Comprame una cerveza y hablemos de ello.
 matti:Parece que tengo un nuevo caso.
@@ -62,7 +62,7 @@ matti:Parece que tengo un nuevo caso.
 
 text
 {
-En algun lugar, esto esta pasando
+En algun lugar, esta pasando
 }
 
 music

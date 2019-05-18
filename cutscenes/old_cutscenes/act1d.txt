@@ -19,22 +19,22 @@ dialogue
 boss:Ah...
 boss:...es tan bueno volver a mi nave.
 helper:Si, señor.
-boss:Quien es este?
+boss:¿Quien es este?
 helper:Un cazarrecompensas, señor. 
-helper:Necesitamos mas pilotos.
+helper:Necesitamos más pilotos.
 helper:Este John Falcon podria ser un blanco dificil.
 boss:Bien.
 boss:Nos encargaremos de este Falcon.
 boss:Pero concentrate en el Largo primero, que...
 goon:¡Eh, Sr. Jefe!
 helper:Err...
-boss:Ey?
-boss:Ey?
-goon:Ey!
-boss:Ey?????
+boss:¿Ey?
+boss:¿Ey?
+goon:¡Ey!
+boss:¿¿¿¿¿¿Ey?????
 boss:Yo te conozco.
 boss:Del bloque-D
-goon:Yo?
+goon:¿Yo?
 goon:Naaah.
 helper:Oh chico.
 boss:Sosten mi casco por un segundo.

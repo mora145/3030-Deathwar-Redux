@@ -15,8 +15,8 @@ dialogue
 
 pboss:Esto no va a terminar bien.:data/voice/act1PolBOSS/p1.wav
 pofficer:Deberiamos...:data/voice/act1PolBOSS/c1.wav
-pofficer:...que se preparen?:data/voice/act1PolBOSS/c2.wav
-pofficer:Llamar a un equipo SWAT de HBE?:data/voice/act1PolBOSS/c3.wav
+pofficer:¿...que se preparen?:data/voice/act1PolBOSS/c2.wav
+pofficer:¿Llamar a un equipo SWAT de HBE?:data/voice/act1PolBOSS/c3.wav
 pboss:Juguemos despacio por ahora.:data/voice/act1PolBOSS/p2.wav
 pofficer:Ya se correra la voz sobre el Largo...:data/voice/act1PolBOSS/c4.wav
 pofficer:...y todas esas naves robadas inundando Andinti...:data/voice/act1PolBOSS/c5.wav
