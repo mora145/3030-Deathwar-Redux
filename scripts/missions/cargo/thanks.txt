@@ -4,12 +4,12 @@
 
 @S 
 ego:Dejé su contenedor de carga afuera.
-other:Gracias, le diré a mi secretaria que lo recoja ahora.
+other:Gracias, le diré a mi secretaria que lo recoja en seguida.
 ego:Genial. ¿Me pagó?
-other:Totalmente. El dinero está en tu cuenta ahora.
+other:Totalmente. El dinero está en tu cuenta justo ahora.
 option-on 1
 return
 
 @1
-ego:Gracias!
+ego:¡Gracias!
 stop

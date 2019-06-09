@@ -1,29 +1,29 @@
 //begin
-// [x] 1 - "Gimme a drink."
-// [ ] 2 - "Gimme an e-cola."
-// [ ] 3 - "Hit me with a Macalacharraca."
-// [ ] 4 - "You got any coffee?"
-// [ ] 5 - "Tastes good."
-// [ ] 6 - "Hey! This tastes like gasoline, I want my money back."
-// [x] 7 - "See you later."
-// [x] 8 - "Heard any news?"
-// [x] 9 - "You got any jobs here?"
-// [ ] 10 - "Actually, I changed my mind."
+// [x] 1 - "Dame un trago."
+// [ ] 2 - "Dame una e-coca."
+// [ ] 3 - "Dame un Macalacharraca."
+// [ ] 4 - "¿Tienes algo de café?"
+// [ ] 5 - "Sabe bien."
+// [ ] 6 - "¡Hey! Esto sabe a gasolina, quiero mi dinero de vuelta."
+// [x] 7 - "Nos vemos luego."
+// [x] 8 - "¿Has oído alguna noticia?"
+// [x] 9 - "¿Tienes algún trabajo aquí?"
+// [ ] 10 - "En realidad, cambié de opinión."
 //end
 
 
 // dialog script file
 @S // dialog startup entry point
-other:Mmmmm good day to you, Sir.
-ego:Hi there.
-other:How may I be of service?
-ego:Let's see.....
+other:Mmmmmm buen día para usted, señor.
+ego:Hola, hola.
+other:¿En qué puedo servirle?
+ego:Veamos.......
 return
 
 
-@1 // Gimme a drink.
-ego:Gimme a drink.
-other:Yes Sir, here's the menu.
+@1 // Dame un trago.
+ego:Dame un trago.
+other:Sí, señor, aquí está el menú.
 option-on 2
 option-on 3
 option-on 4
@@ -33,13 +33,13 @@ option-off 8
 option-off 9
 return
 
-@2 // Gimme an e-cola
-ego:Gimme an e-cola.
-other:Coming right up Sir.
+@2 // Dame una e-cola
+ego:Dame una e-cola
+other:Enseguida, señor.
 ego:*Gulp Gulp*
-other:How is it?
+other:¿Cuanto es esto?
 ego:...
-takeMoney,50,DRINK AT THE BAR
+takeMoney,50,BEBIDA EN EL BAR
 option-off 2
 option-off 3
 option-off 4
@@ -48,16 +48,16 @@ option-on 5
 option-on 6
 return
 
-@3 // Hit me with a Macalacharraca
-ego:Hit me with a Macalacharraca.
-other:Yes Sir, one Macalacharraca coming up.
-ego:Can you say that three times as fast?
-other:No sir.
-other:Here is your Macalacharraca - enjoy!
-ego:Thank you.
+@3 // Dame un Macalacharraca
+ego:Dame un Macalacharraca
+other:Sí señor, un Macalacharraca en camino.
+ego:¿Puedes decir eso tres veces más rápido?
+other:No señor.
+other:¡Aquí está su Macalacharraca - disfrutela!
+ego:Gracias
 ego:*sip sip*
-other: How is it, sir?
-takeMoney,250,BOUGHT A MACALACHARRACA
+other: ¿Cómo está, señor?
+takeMoney,250,COMPRA DE UNA MACALACHARRACA
 offerDrinkAchievement
 option-off 2
 option-off 3
@@ -67,23 +67,23 @@ option-on 5
 option-on 6
 return
 
-@4 // You got any coffee?
-ego:You got any coffee?
-other:Sorry, we can't sell coffee anymore.
-ego:Why's that?
-other:The supplies are running very low, sir.
-other:It's too expensive nowadays.
-ego:I see. I miss that damn coffee.
-other:You want anything else, sir?
+@4 // ¿Tienes algo de café?
+ego:¿Tienes algo de café?
+other:Lo siento, no podemos vender más café.
+ego:¿Por qué es eso?
+other:Los suministros se están agotando, señor.
+other:Es demasiado caro hoy en día.
+ego:Ya veo. Extraño ese maldito café.
+other:¿Desea algo más, señor?
 option-off 4
 option-on 2
 option-on 3
 option-on 10
 return
 
-@5 // Tastes good.
-ego:Tastes good.
-other:Thank you for your custom.
+@5 // Sabe bien.
+ego:Sabe bien.
+other:Gracias por su complido, señor.
 option-on 8
 option-on 9
 option-on 7
@@ -92,10 +92,10 @@ option-off 6
 return
 
 
-@6 // Hey! this tastes like gasoline, I want my money back.
-ego:Hey! this tastes like gasoline. I want my money back.
-other:I'm sorry Sir, strictly no refunds.
-ego:Bah!
+@6 // ¡Oye! Esto sabe a gasolina, quiero mi dinero de vuelta.
+ego:¡Oye! Esto sabe a gasolina, quiero mi dinero de vuelta.
+other:Lo siento señor, no hay devoluciones.
+ego:¡Bah!
 option-on 8
 option-on 9
 option-on 7
@@ -103,31 +103,31 @@ option-off 5
 option-off 6
 return
 
-@7 // See you later
-ego:See you later. 
-other:Good day, Sir.
+@7 // Nos vemos luego
+ego:Nos vemos luego
+other:Que tenga un buen día, señor.
 stop
 
-@8 // Heard any news?
-ego:Heard any news? 
-other:Nothing interesting Sir. 
+@8 // ¿Has oído alguna noticia?
+ego:¿Has oído alguna noticia?
+other:No señor, nada interesante.
 option-off 8 
 return
 
 
-@9 // You got any jobs here?
-ego:You got any jobs here?
-other:Check the console Sir.
-other:We have many jobs for pilots like yourself.
+@9 // ¿Tienes algún trabajo aquí?
+ego:¿Tienes algún trabajo aquí?
+other:Compruebe la consola, señor.
+other:Tenemos muchos trabajos para pilotos como usted.
 ego:Hmmm.
 option-off 9
 option-on 7
 return
 
-@10 // Actually, I changed my mind.
-ego:Actually, I changed my mind.
-Other:Very well, Sir.
-Other:Good day.
+@10 // En realidad, cambié de opinión.
+ego:En realidad, cambié de opinión.
+other:Muy bien, señor.
+Other:Que tenga buen dia.
 option-off 10
 option-off 4
 option-off 3

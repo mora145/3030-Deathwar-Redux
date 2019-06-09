@@ -1,5 +1,5 @@
 //begin
-// [x] 1 - "Erm... ¿contraseña, MEGABOLA?"
+// [x] 1 - "Erm... ¿contraseña, MEGABALL?"
 //end
 
 
@@ -9,8 +9,8 @@ other:Buenos días, señor, ¿en qué puedo ayudarle?
 return
 
 
-@1 // Erm... ¿contraseña, MEGABOLA?
-ego:Erm... ¿contraseña, MEGABOLA?
+@1 // Erm... ¿contraseña, MEGABALL?
+ego:Erm... ¿contraseña, MEGABALL?
 other:Contraseña aceptada. Geri me dijo que la pista es Aolol.
 ego:Aolol. Lo tengo, genial.
 other:Espero que eso signifique algo para usted, señor.

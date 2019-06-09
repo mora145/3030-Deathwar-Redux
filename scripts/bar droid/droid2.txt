@@ -54,7 +54,7 @@ other:Aquí tiene - ¡disfrútelo!
 ego:Gracias.
 ego:*sip sip*
 other:¿Cómo está, señor?
-takeMoney,250,COMPRA UN MACALACHARRACA
+takeMoney,250,COMPRA DE UNA MACALACHARRACA
 offerDrinkAchievement
 option-off 2
 option-off 3
@@ -69,7 +69,7 @@ ego:¿Tienes algo de café?
 other:No, no, no hay café.
 ego:¿Por qué?
 other:Nunca he oído hablar de él.
-ego:Café?
+ego:¿Café?
 other:No, ¿quiere algo más, señor?
 option-off 4
 option-on 2
@@ -125,7 +125,7 @@ return
 @10 // En realidad, cambié de opinión.
 ego:En realidad, cambié de opinión.
 other:Muy bien, señor.
-other:¿Hay algo malo con el que tienes?
+other:¿Hay algo malo con su bebida?
 ego:No importa.
 option-off 10
 option-off 4
